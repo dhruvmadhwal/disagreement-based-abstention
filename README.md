@@ -11,46 +11,6 @@ Bamboogle, CRAG, FRAMES, HotpotQA, Mintaka, and MuSiQue.
 
 ---
 
-## Repository layout
-
-```
-.
-├── data/
-│   ├── raw/              Original downloads, per dataset.
-│   └── processed/        Filtered, DSL-annotated gold set (*_dsl.json).
-├── prompts/              Few-shots + judge prompts, per dataset.
-├── generate/             Answer-generation pipelines (4 regimes).
-│   ├── {bamboogle,crag,hotpotqa,mintaka}/   Per-dataset config + pipeline.
-│   ├── {open_ended,assistive,sequential,model_generated_plan}/  Interface shims.
-│   └── run_<dataset>_regimes.py             All 4 regimes in one call.
-├── evaluation/
-│   ├── correctness/      LLM-judged correctness (Gemini 2.5 Flash).
-│   └── consistency/      DBA-A: pairwise answer agreement across regimes.
-├── baselines/            AYS, IC-IDK, DBA-A, Self-Consistency abstention.
-├── decomposition_equivalence/   Model-produced DSL vs gold (appendix F).
-├── create_dsl/           Convert raw datasets to DSL decompositions.
-├── analyze/              Paper figure + table generators.
-│   ├── figures/          PNG outputs.
-│   └── derived/          TSVs/JSONs consumed by figure generators.
-├── scripts/
-│   ├── run.py            Single entry point for generate/evaluate/baseline.
-│   ├── compute_all_ensemble_metrics.py
-│   ├── generate_efficiency_{method_comparison,overhead}_table.py
-│   ├── generate_appendix_baseline_tables.py
-│   ├── self_consistency_semantic_sweep.py
-│   └── format_self_consistency_semantic_sweep_table.py
-├── tables/               LaTeX tables shipped with the paper.
-├── results/
-│   ├── generation/<dataset>/<model>/<regime>.json
-│   ├── correctness/<dataset>/<model>/<dataset>_<regime>_correctness.json
-│   ├── consistency/<dataset>/<model>/<dataset>_<regime>_vs_open_ended_consistency.json
-│   └── baselines/<dataset>/<model>/*.json
-├── utils/                Model clients (OpenAI, Vertex AI, vLLM) + DSL sanity.
-└── requirements.txt
-```
-
----
-
 ## Setup
 
 ```bash
