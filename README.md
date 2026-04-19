@@ -1,5 +1,4 @@
-# Decomposed Prompting Does Not Fix Knowledge Gaps, But Helps Models
-Say “I Don’t Know”
+# Decomposed Prompting Does Not Fix Knowledge Gaps, But Helps Models Say “I Don’t Know”
 
 Code and data for **"Decomposed Prompting Does Not Fix Knowledge Gaps,
 But Helps Models Say 'I Don't Know'"** [ACL 2026 Findings].
