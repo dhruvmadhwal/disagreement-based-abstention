@@ -1,0 +1,596 @@
+[
+  {
+    "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+    "question": "at what age did usher perform in the half time show of superbowl?",
+    "gold_dsl": "answer_1: str = qa_model(\"When did Usher perform at the Super Bowl halftime show?\")\nanswer_2: str = qa_model(\"When was Usher born?\")\nanswer_3: str = qa_model(\"How old was Usher on {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"In which year did Usher perform in the Super Bowl halftime show?\")\nanswer_2: str = qa_model(\"What was Usher's age in {answer_1}?\", answer_1=answer_1)",
+    "gold_hops": [
+      "When did Usher perform at the Super Bowl halftime show?",
+      "When was Usher born?",
+      "How old was Usher on {answer_1}?"
+    ],
+    "model_hops": [
+      "In which year did Usher perform in the Super Bowl halftime show?",
+      "What was Usher's age in {answer_1}?"
+    ],
+    "gold_hop_count": 3,
+    "model_hop_count": 2,
+    "hop_ratio": 0.6666666666666666,
+    "hop_diff": -1,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8,
+    "equivalent_final": 1
+  },
+  {
+    "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+    "question": "what was the profession of kim kardashian's second spouse?",
+    "gold_dsl": "answer_1: str = qa_model(\"Who was Kim Kardashian's second spouse?\")\nanswer_2: str = qa_model(\"What was the profession of {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"Who was Kim Kardashian's second spouse?\")\nanswer_2: str = qa_model(\"What was the profession of {answer_1}?\", answer_1=answer_1)",
+    "gold_hops": [
+      "Who was Kim Kardashian's second spouse?",
+      "What was the profession of {answer_1}?"
+    ],
+    "model_hops": [
+      "Who was Kim Kardashian's second spouse?",
+      "What was the profession of {answer_1}?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+    "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+    "gold_dsl": "answer_1: str = qa_model(\"What is the name of the character who is a lawyer with no law degree in the TV show 'Suits'?\")\nanswer_2: str = qa_model(\"Who played the role of {answer_1} in the TV show 'Suits'?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"Who played the role of a lawyer with no law degree in the TV show 'Suits'?\")",
+    "gold_hops": [
+      "What is the name of the character who is a lawyer with no law degree in the TV show 'Suits'?",
+      "Who played the role of {answer_1} in the TV show 'Suits'?"
+    ],
+    "model_hops": [
+      "Who played the role of a lawyer with no law degree in the TV show 'Suits'?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 1,
+    "hop_ratio": 0.5,
+    "hop_diff": -1,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 0\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 0
+    },
+    "matches": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "118896a1-8124-482a-9201-4aaf1903618d",
+    "question": "when was green day's third studio album released?",
+    "gold_dsl": "answer_1: str = qa_model(\"What is the third studio album by Green Day?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"What is Green Day's third studio album?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "gold_hops": [
+      "What is the third studio album by Green Day?",
+      "When was '{answer_1}' released?"
+    ],
+    "model_hops": [
+      "What is Green Day's third studio album?",
+      "When was '{answer_1}' released?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+    "question": "where did the lead designer of fortran get his m.s. from?",
+    "gold_dsl": "answer_1: str = qa_model(\"Who was the lead designer of Fortran?\")\nanswer_2: str = qa_model(\"Where did {answer_1} get his M.S. degree from?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"Who is the lead designer of Fortran?\")\nanswer_2: str = qa_model(\"Where did {answer_1} get his M.S. from?\", answer_1=answer_1)",
+    "gold_hops": [
+      "Who was the lead designer of Fortran?",
+      "Where did {answer_1} get his M.S. degree from?"
+    ],
+    "model_hops": [
+      "Who is the lead designer of Fortran?",
+      "Where did {answer_1} get his M.S. from?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+    "question": "how old was leonardo dicaprio when he won best actor award?",
+    "gold_dsl": "answer_1: str = qa_model(\"When did Leonardo DiCaprio win the Best Actor award?\")\nanswer_2: str = qa_model(\"How old was Leonardo DiCaprio on {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"When did Leonardo DiCaprio win his Best Actor Oscar?\")\nanswer_2: str = qa_model(\"What year was Leonardo DiCaprio born?\")\nanswer_3: str = qa_model(\"How old was Leonardo DiCaprio in {answer_1} if he was born in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "gold_hops": [
+      "When did Leonardo DiCaprio win the Best Actor award?",
+      "How old was Leonardo DiCaprio on {answer_1}?"
+    ],
+    "model_hops": [
+      "When did Leonardo DiCaprio win his Best Actor Oscar?",
+      "What year was Leonardo DiCaprio born?",
+      "How old was Leonardo DiCaprio in {answer_1} if he was born in {answer_2}?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 3,
+    "hop_ratio": 1.5,
+    "hop_diff": 1,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 0,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 0,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "equivalent_final": 0
+  },
+  {
+    "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+    "question": "what age did abraham lincoln begin his presidency?",
+    "gold_dsl": "answer_1: str = qa_model(\"When did Abraham Lincoln begin his presidency?\")\nanswer_2: str = qa_model(\"How old was Abraham Lincoln on {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"When did Abraham Lincoln become president?\")\nanswer_2: str = qa_model(\"What was Abraham Lincoln's age when he became president?\", answer_1=answer_1)",
+    "gold_hops": [
+      "When did Abraham Lincoln begin his presidency?",
+      "How old was Abraham Lincoln on {answer_1}?"
+    ],
+    "model_hops": [
+      "When did Abraham Lincoln become president?",
+      "What was Abraham Lincoln's age when he became president?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+    "question": "how long is the longest river in alabama?",
+    "gold_dsl": "answer_1: str = qa_model(\"What is the longest river in Alabama?\")\nanswer_2: str = qa_model(\"How long is {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"What is the name of the longest river in Alabama?\")\nanswer_2: str = qa_model(\"How long is the {answer_1} river?\", answer_1=answer_1)",
+    "gold_hops": [
+      "What is the longest river in Alabama?",
+      "How long is {answer_1}?"
+    ],
+    "model_hops": [
+      "What is the name of the longest river in Alabama?",
+      "How long is the {answer_1} river?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+    "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+    "gold_dsl": "answer_1: str = qa_model(\"Who is the main female character in the movie 'The Matrix'?\")\nanswer_2: str = qa_model(\"Who played {answer_1} in the movie 'The Matrix'?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"Who played the female lead\u89d2\u8272 in the movie 'The Matrix'?\") \n\nNote: The word \"\u89d2\u8272\" means \"role\" in Chinese. It seems there might be an encoding issue with your input. If you meant to ask about the English language version, it should read:\n```python\nanswer_1: str = qa_model(\"Who played the female lead role in the movie 'The Matrix'?\")\n```",
+    "gold_hops": [
+      "Who is the main female character in the movie 'The Matrix'?",
+      "Who played {answer_1} in the movie 'The Matrix'?"
+    ],
+    "model_hops": [
+      "Who played the female lead\u89d2\u8272 in the movie 'The Matrix'?",
+      "Who played the female lead role in the movie 'The Matrix'?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 1\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 1
+    },
+    "matches": 1,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "equivalent_final": 1
+  },
+  {
+    "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+    "question": "how many feet is the place with the lowest elevation in vermont?",
+    "gold_dsl": "answer_1: str = qa_model(\"What is the place with the lowest elevation in Vermont?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1} in feet?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"What is the name of the place with the lowest elevation in Vermont?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1} in feet?\", answer_1=answer_1)",
+    "gold_hops": [
+      "What is the place with the lowest elevation in Vermont?",
+      "What is the elevation of {answer_1} in feet?"
+    ],
+    "model_hops": [
+      "What is the name of the place with the lowest elevation in Vermont?",
+      "What is the elevation of {answer_1} in feet?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+    "question": "what is the driving side in mallorca?",
+    "gold_dsl": "answer_1: str = qa_model(\"In which country is Mallorca located?\")\nanswer_2: str = qa_model(\"What is the driving side in {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"What is the driving side in Mallorca?\")",
+    "gold_hops": [
+      "In which country is Mallorca located?",
+      "What is the driving side in {answer_1}?"
+    ],
+    "model_hops": [
+      "What is the driving side in Mallorca?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 1,
+    "hop_ratio": 0.5,
+    "hop_diff": -1,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 1\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 1
+    },
+    "matches": 1,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "equivalent_final": 1
+  },
+  {
+    "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+    "question": "what is the elevation of the capital of nebraska?",
+    "gold_dsl": "answer_1: str = qa_model(\"What is the capital of Nebraska?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"What is the capital of Nebraska?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "gold_hops": [
+      "What is the capital of Nebraska?",
+      "What is the elevation of {answer_1}?"
+    ],
+    "model_hops": [
+      "What is the capital of Nebraska?",
+      "What is the elevation of {answer_1}?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+    "question": "what was the 76ers' record the year allen iverson won mvp?",
+    "gold_dsl": "answer_1: str = qa_model(\"When did Allen Iverson win the NBA MVP award?\")\nanswer_2: str = qa_model(\"What was the Philadelphia 76ers' record in the {answer_1} NBA season?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"In which year did Allen Iverson win MVP?\")\nanswer_2: str = qa_model(\"What was the Philadelphia 76ers' record in the NBA season of {answer_1}?\", answer_1=answer_1)",
+    "gold_hops": [
+      "When did Allen Iverson win the NBA MVP award?",
+      "What was the Philadelphia 76ers' record in the {answer_1} NBA season?"
+    ],
+    "model_hops": [
+      "In which year did Allen Iverson win MVP?",
+      "What was the Philadelphia 76ers' record in the NBA season of {answer_1}?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+    "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+    "gold_dsl": "answer_1: str = qa_model(\"When was Henry Rollins born?\")\nanswer_2: str = qa_model(\"When was 'Henry Rollins: Henry Rollins Goes to London' released?\")\nanswer_3: str = qa_model(\"How old was Henry Rollins, born on {answer_1}, when 'Henry Rollins: Henry Rollins Goes to London' was released on {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model_dsl": "answer_1: str = qa_model(\"When was Henry Rollins born?\")\nanswer_2: str = qa_model(\"What year was the documentary 'Henry Rollins Goes to London' released?\")\nanswer_3: str = qa_model(\"What is the difference between {answer_2} and {answer_1}?\", answer_1=answer_1, answer_2=answer_2)",
+    "gold_hops": [
+      "When was Henry Rollins born?",
+      "When was 'Henry Rollins: Henry Rollins Goes to London' released?",
+      "How old was Henry Rollins, born on {answer_1}, when 'Henry Rollins: Henry Rollins Goes to London' was released on {answer_2}?"
+    ],
+    "model_hops": [
+      "When was Henry Rollins born?",
+      "What year was the documentary 'Henry Rollins Goes to London' released?",
+      "What is the difference between {answer_2} and {answer_1}?"
+    ],
+    "gold_hop_count": 3,
+    "model_hop_count": 3,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 0,\n  \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 0,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1": 0.6666666666666666,
+    "equivalent_final": 0
+  },
+  {
+    "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+    "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+    "gold_dsl": "answer_1: str = qa_model(\"When was Kobe Bryant's rookie year in the NBA?\")\nanswer_2: str = qa_model(\"Who was the head coach of the Los Angeles Lakers in {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"What year was Kobe Bryant's rookie season with the Lakers?\")\nanswer_2: str = qa_model(\"Who was the head coach of the Los Angeles Lakers in {answer_1}?\", answer_1=answer_1)",
+    "gold_hops": [
+      "When was Kobe Bryant's rookie year in the NBA?",
+      "Who was the head coach of the Los Angeles Lakers in {answer_1}?"
+    ],
+    "model_hops": [
+      "What year was Kobe Bryant's rookie season with the Lakers?",
+      "Who was the head coach of the Los Angeles Lakers in {answer_1}?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+    "question": "when did the lead actor of naked gun die?",
+    "gold_dsl": "answer_1: str = qa_model(\"Who was the lead actor in the film 'Naked Gun'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"Who was the lead actor in The Naked Gun?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "gold_hops": [
+      "Who was the lead actor in the film 'Naked Gun'?",
+      "When did {answer_1} die?"
+    ],
+    "model_hops": [
+      "Who was the lead actor in The Naked Gun?",
+      "When did {answer_1} die?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+    "question": "at what age was lorne michaels when he produced his first film?",
+    "gold_dsl": "answer_1: str = qa_model(\"What was the first film produced by Lorne Michaels?\")\nanswer_2: str = qa_model(\"How old was Lorne Michaels when '{answer_1}' was released?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"What was Lorne Michaels' first film as a producer?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} produced?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was Lorne Michaels born?\")\nanswer_4: str = qa_model(\"What is the difference between {answer_2} and {answer_3}?\", answer_2=answer_2, answer_3=answer_3)",
+    "gold_hops": [
+      "What was the first film produced by Lorne Michaels?",
+      "How old was Lorne Michaels when '{answer_1}' was released?"
+    ],
+    "model_hops": [
+      "What was Lorne Michaels' first film as a producer?",
+      "In what year was {answer_1} produced?",
+      "When was Lorne Michaels born?",
+      "What is the difference between {answer_2} and {answer_3}?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 4,
+    "hop_ratio": 2.0,
+    "hop_diff": 2,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "equivalent_final": 1
+  },
+  {
+    "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+    "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+    "gold_dsl": "answer_1: str = qa_model(\"Who is the lead designer of the Java programming language?\")\nanswer_2: str = qa_model(\"Where did {answer_1} receive his Ph.D.?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"Who is the lead designer of Java (programming language)?\")\nanswer_2: str = qa_model(\"Where did {answer_1} receive his Ph.D.?\", answer_1=answer_1)",
+    "gold_hops": [
+      "Who is the lead designer of the Java programming language?",
+      "Where did {answer_1} receive his Ph.D.?"
+    ],
+    "model_hops": [
+      "Who is the lead designer of Java (programming language)?",
+      "Where did {answer_1} receive his Ph.D.?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+    "question": "when did the lead actor of die hard get married?",
+    "gold_dsl": "answer_1: str = qa_model(\"Who is the lead actor in the movie 'Die Hard'?\")\nanswer_2: str = qa_model(\"When did {answer_1} get married?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"Who was the lead actor in the film 'Die Hard' (1988)?\")\nanswer_2: str = qa_model(\"When did {answer_1} get married?\", answer_1=answer_1)",
+    "gold_hops": [
+      "Who is the lead actor in the movie 'Die Hard'?",
+      "When did {answer_1} get married?"
+    ],
+    "model_hops": [
+      "Who was the lead actor in the film 'Die Hard' (1988)?",
+      "When did {answer_1} get married?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "e06676aa-efc3-4763-b196-e105596cc643",
+    "question": "can you tell me what other songs the same artist released in the same year as my time?",
+    "gold_dsl": "answer_1: str = qa_model(\"Who is the artist of the song 'my time'?\")\nanswer_2: str = qa_model(\"When was the song 'my time' released?\")\nanswer_3: str = qa_model(\"What other songs did {answer_1} release in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model_dsl": "answer_1: str = qa_model(\"Who sang the song 'My Time'?\")\nanswer_2: str = qa_model(\"In which year was the song 'My Time' released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What other songs did {answer_1} release in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "gold_hops": [
+      "Who is the artist of the song 'my time'?",
+      "When was the song 'my time' released?",
+      "What other songs did {answer_1} release in {answer_2}?"
+    ],
+    "model_hops": [
+      "Who sang the song 'My Time'?",
+      "In which year was the song 'My Time' released?",
+      "What other songs did {answer_1} release in {answer_2}?"
+    ],
+    "gold_hop_count": 3,
+    "model_hop_count": 3,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n  \"equivalent_final\": 1,\n  \"matches\": 3\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 3
+    },
+    "matches": 3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  },
+  {
+    "id": "e525e6b2-4865-4610-a73b-79438c724255",
+    "question": "what was the first studio album from the group that michael jackson was in?",
+    "gold_dsl": "answer_1: str = qa_model(\"What group was Michael Jackson a member of?\")\nanswer_2: str = qa_model(\"What was the first studio album released by {answer_1}?\", answer_1=answer_1)",
+    "model_dsl": "answer_1: str = qa_model(\"What group was Michael Jackson a part of early in his career?\")\nanswer_2: str = qa_model(\"What was the first studio album by {answer_1}?\", answer_1=answer_1)",
+    "gold_hops": [
+      "What group was Michael Jackson a member of?",
+      "What was the first studio album released by {answer_1}?"
+    ],
+    "model_hops": [
+      "What group was Michael Jackson a part of early in his career?",
+      "What was the first studio album by {answer_1}?"
+    ],
+    "gold_hop_count": 2,
+    "model_hop_count": 2,
+    "hop_ratio": 1.0,
+    "hop_diff": 0,
+    "judge_raw": "```json\n{\n \"equivalent_final\": 1,\n \"matches\": 2\n}\n```",
+    "judge_parsed": {
+      "equivalent_final": 1,
+      "matches": 2
+    },
+    "matches": 2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "equivalent_final": 1
+  }
+]

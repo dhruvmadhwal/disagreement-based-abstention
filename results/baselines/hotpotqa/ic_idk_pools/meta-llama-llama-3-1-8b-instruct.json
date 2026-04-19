@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "5a7134ef5542994082a3e668",
+      "question": "Which breed of dog is now extinct: Chinese Crested Dog or the Chien-gris?",
+      "gold": "Chien-gris",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chien-gris",
+      "raw_response": "Chien-gris \n(answer refers to an extinct breed)",
+      "judge_reasoning": "The prediction matches the gold answer exactly. The additional parenthetical phrase in the prediction is extra detail that is consistent with the question and does not contradict the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction matches the gold answer exactly. The additional parenthetical phrase in the prediction is extra detail that is consistent with the question and does not contradict the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a759ce25542996c70cfaf0e",
+      "question": "Anil V. Kumar,  is a television and film director and producer in India, his production house, Flying Turtle Films co-produced the movie \"Zanjeer\" starring Priyanka Chopra and which actor, and entrepreneur, who works in Telugu cinema?",
+      "gold": "Ram Charan",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Ram Charan",
+      "raw_response": "Ram Charan.",
+      "judge_reasoning": "The prediction 'Ram Charan.' is identical to the gold answer 'Ram Charan', ignoring punctuation.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Ram Charan.' is identical to the gold answer 'Ram Charan', ignoring punctuation.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adc432d55429944faac24a1",
+      "question": "The San Diego Gulls are a professional ice hockey team in the American Hockey League (AHL) which began playing in the 2015\u201316 season, the Gulls play their home games at which indoor arena located at Sports Arena Blvd in Point Loma, San Diego?",
+      "gold": "Valley View Casino Center",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Valley View Casino Center",
+      "raw_response": "Pechanga Arena \n\nNote: Pechanga Arena previously named Valley View Casino Center and also known as the San Diego Sports Arena.",
+      "judge_reasoning": "The prediction 'Pechanga Arena' is the current name for the arena that was previously known as 'Valley View Casino Center' (the gold answer). Since they refer to the same physical location, they are considered equivalent.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Pechanga Arena' is the current name for the arena that was previously known as 'Valley View Casino Center' (the gold answer). Since they refer to the same physical location, they are considered equivalent.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab285d0554299340b5254fa",
+      "question": "The Acolytes Protection Agency consisted of what wrestler born November 29, 1966",
+      "gold": "John Layfield",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Rikishi",
+      "judge_reasoning": "The prediction 'Rikishi' is a different wrestler than the gold answer 'John Layfield', leading to a contradiction regarding the identity of the wrestler.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Rikishi' is a different wrestler than the gold answer 'John Layfield', leading to a contradiction regarding the identity of the wrestler.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adcf98255429947343537e9",
+      "question": "Which show connects Arthur Darvill and Matt Smith?",
+      "gold": "Doctor Who",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doctor Who",
+      "raw_response": "Doctor Who",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8285be55429966c78a6a41",
+      "question": "Which event was a surprise military strike by the Imperial Japanese Navy Air Service while Magruder Hill Tuttle was a senior officer in the United States Navy?",
+      "gold": "attack on Pearl Harbor",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "attack on Pearl Harbor",
+      "raw_response": "attack on Pearl Harbor",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8fdc1e5542995b44242097",
+      "question": "The Chandrasekhar limit was named after an astrophysicist, what is the name of his uncle of which is also a novel laureate?",
+      "gold": "Sir C. V. Raman",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Sir C. V. Raman",
+      "raw_response": "Subrahmanyan Chandrasekhar's father-in-law is Sivasambhu Mudaliar but he had an uncle who won the Nobel Prize Subrahmanyan did have an uncle called Ramaswamy Chandrasekhara Sastry however I could find information on a more famous relative \nChandrashekar\u2019s brother-in-law is actually the person you might be looking for - Chidambara Mudaliar's son is none other than Ramanujan's friend and fellow mathematician Srinivasa Ramanujan's collaborator and friend Sivasankaranarayana Iyer's nephew is indeed the correct answer though it seems there may be some confusion here \n\nHowever based off my knowledge base I can tell you that the actual answer is likely related to someone else entirely \u2013 specifically the following individual \nThe correct answer is CV Raman",
+      "judge_reasoning": "The prediction, despite a verbose and confused preamble discussing various incorrect relatives, ultimately states 'The correct answer is CV Raman', which matches the gold answer 'Sir C. V. Raman' after normalizing for case and honorifics ('Sir'). The incorrect information preceding the final correct answer is treated as extra descriptive text that does not contradict the final stated fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction, despite a verbose and confused preamble discussing various incorrect relatives, ultimately states 'The correct answer is CV Raman', which matches the gold answer 'Sir C. V. Raman' after normalizing for case and honorifics ('Sir'). The incorrect information preceding the final correct answer is treated as extra descriptive text that does not contradict the final stated fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7b26d255429931da12ca00",
+      "question": "Which was available first the No Card or the Octopus card?",
+      "gold": "Octopus card",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Octopus card",
+      "raw_response": "Octopus card; \n1999",
+      "judge_reasoning": "The prediction correctly identifies 'Octopus card' as being available first, matching the gold answer. The additional year '1999' is extra detail and does not contradict the core fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction correctly identifies 'Octopus card' as being available first, matching the gold answer. The additional year '1999' is extra detail and does not contradict the core fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab3f9b95542992ade7c6f09",
+      "question": "It Takes a Family is a response to this 1996 book that was published by who",
+      "gold": "Hillary Rodham Clinton",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nDavid Blankenhorn",
+      "judge_reasoning": "The prediction 'David Blankenhorn' contradicts the gold answer 'Hillary Rodham Clinton'. These are two distinct individuals.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'David Blankenhorn' contradicts the gold answer 'Hillary Rodham Clinton'. These are two distinct individuals.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8113ca55429938b61422ab",
+      "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+      "gold": "Chlorophyll",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chlorophyll",
+      "raw_response": "Chlorophyll.",
+      "judge_reasoning": "The prediction 'Chlorophyll' is identical to the gold answer 'Chlorophyll'. Punctuation differences (the period in the prediction) are ignored by normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chlorophyll' is identical to the gold answer 'Chlorophyll'. Punctuation differences (the period in the prediction) are ignored by normalization rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a903a4855429933b8a204a9",
+      "question": "What era was the man associated with Fanny Talbot the leading art critic of?",
+      "gold": "Victorian era",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Victorian era",
+      "raw_response": "Victorian",
+      "judge_reasoning": "The prediction 'Victorian' is a common and acceptable shorthand for 'Victorian era' in this context, conveying the same essential fact. The word 'era' is extra descriptive text.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Victorian' is a common and acceptable shorthand for 'Victorian era' in this context, conveying the same essential fact. The word 'era' is extra descriptive text.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ade45ed554299728e26c699",
+      "question": "The 2016 Washington State Cougars were led by the coach who previously helmed which other team?",
+      "gold": "Texas Tech Red Raiders",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Mike Leach.",
+      "judge_reasoning": "The question asks for the 'team' the coach previously helmed, but the prediction provides the 'coach's name' (Mike Leach) instead of the team (Texas Tech Red Raiders). This is a different fact than what was requested.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The question asks for the 'team' the coach previously helmed, but the prediction provides the 'coach's name' (Mike Leach) instead of the team (Texas Tech Red Raiders). This is a different fact than what was requested.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a74dafe5542996c70cfae1a",
+      "question": "Which Byron Edmund Walker founded institution was originally controlled by the Church of England?",
+      "gold": "The University of Toronto",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The University of Toronto",
+      "raw_response": "University of Toronto.",
+      "judge_reasoning": "The prediction 'University of Toronto' is equivalent to the gold answer 'The University of Toronto' after ignoring the article 'The' and the trailing punctuation, as per normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'University of Toronto' is equivalent to the gold answer 'The University of Toronto' after ignoring the article 'The' and the trailing punctuation, as per normalization rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7317535542994cef4bc450",
+      "question": "Which K283BV artist is from Columbus, Ohio?",
+      "gold": "Twenty One Pilots",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nTroye Sivan",
+      "judge_reasoning": "The prediction 'Troye Sivan' is a different artist than the gold answer 'Twenty One Pilots', leading to a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Troye Sivan' is a different artist than the gold answer 'Twenty One Pilots', leading to a contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5abb1cc55542992ccd8e7f16",
+      "question": "Brian Keith \"Herbie\" Flowers, is an English musician specialising in electric bass, double bass and tuba, he has contributed to the recording Give My Regards to Broad Street is the fifth studio album by who, as well as the soundtrack album to his 1984 film of the same name?",
+      "gold": "Paul McCartney",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Paul McCartney",
+      "raw_response": "Paul McCartney",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "503bb259-cafb-4a36-972b-480cc4ed52cb",
+      "question": "who were the members of the band led zeppelin?",
+      "gold": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "raw_response": "Robert Plant; Jimmy Page; John Paul Jones; John Bonham",
+      "judge_reasoning": "The prediction lists the same members of Led Zeppelin as the gold answer. Case, punctuation, and descriptive text are ignored as per normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same members of Led Zeppelin as the gold answer. Case, punctuation, and descriptive text are ignored as per normalization rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "8a559ab2-014a-4246-a339-d50c6552a84f",
+      "question": "how many interstate highways run through new mexico?",
+      "gold": "three interstate highways run through new mexico: i10, i25 and i40.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "three interstate highways run through new mexico: i10, i25 and i40.",
+      "raw_response": "answer:\n3",
+      "judge_reasoning": "The gold answer states 'three interstate highways' and the prediction is '3'. This is a direct numerical match, and words vs. digits are considered equivalent (Rule 2).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer states 'three interstate highways' and the prediction is '3'. This is a direct numerical match, and words vs. digits are considered equivalent (Rule 2).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "ede7b552-c56b-4947-9269-1d67fa90fb18",
+      "question": "which movie won the oscar best animated feature film in 2015?",
+      "gold": "big hero 6",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "big hero 6",
+      "raw_response": "Big Hero 6",
+      "judge_reasoning": "The prediction 'Big Hero 6' is identical to the gold answer 'big hero 6', ignoring case.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Big Hero 6' is identical to the gold answer 'big hero 6', ignoring case.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4ebbb760-c5ae-4307-9764-567a357f4cc1",
+      "question": "who is the first actress to play the bond girl?",
+      "gold": "vesper lynd in 1953",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Ursula Andress",
+      "judge_reasoning": "The gold answer states \"vesper lynd in 1953\". Vesper Lynd is a character, not an actress, and 1953 refers to the publication year of the novel *Casino Royale*, not a film appearance by an actress. The prediction \"Ursula Andress\" correctly identifies the first actress to play a Bond girl in the film series (as Honey Ryder in *Dr. No*, 1962). Since the gold answer is factually incorrect and refers to a character/novel year, while the prediction refers to a correct actress, they do not communicate the same essential fact.\n\n```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer is factually incorrect for the question asked. Vesper Lynd is a character, not an actress, and 1953 is the novel's publication year. The prediction 'Ursula Andress' is factually correct as the first actress to play a Bond girl in the film series. Therefore, the prediction does not communicate the same (incorrect) fact as the gold.\"\n}\n```",
+      "judge_raw_response": "The gold answer states \"vesper lynd in 1953\". Vesper Lynd is a character, not an actress, and 1953 refers to the publication year of the novel *Casino Royale*, not a film appearance by an actress. The prediction \"Ursula Andress\" correctly identifies the first actress to play a Bond girl in the film series (as Honey Ryder in *Dr. No*, 1962). Since the gold answer is factually incorrect and refers to a character/novel year, while the prediction refers to a correct actress, they do not communicate the same essential fact.\n\n```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer is factually incorrect for the question asked. Vesper Lynd is a character, not an actress, and 1953 is the novel's publication year. The prediction 'Ursula Andress' is factually correct as the first actress to play a Bond girl in the film series. Therefore, the prediction does not communicate the same (incorrect) fact as the gold.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "aa0d473b-01fb-424a-97d5-d6b714c8b03d",
+      "question": "what song topped the billboard chart on 2004-02-04?",
+      "gold": "hey ya!",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "hey ya!",
+      "raw_response": "answer:\nHey Ya!",
+      "judge_reasoning": "The prediction 'Hey Ya!' is equivalent to the gold answer 'hey ya!' after applying case and punctuation normalization (Rule 1).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Hey Ya!' is equivalent to the gold answer 'hey ya!' after applying case and punctuation normalization (Rule 1).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dafa6e14-f4b2-43a7-9b5d-467ea102d7ce",
+      "question": "what are the four great lakes in michigan?",
+      "gold": "superior, michigan, huron and erie.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "superior, michigan, huron and erie.",
+      "raw_response": "Lake Erie; Lake Huron; Lake Michigan; Lake Superior",
+      "judge_reasoning": "The prediction lists the same four Great Lakes as the gold answer. Case, order, and the addition of 'Lake' are ignored as per normalization rules for lists.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same four Great Lakes as the gold answer. Case, order, and the addition of 'Lake' are ignored as per normalization rules for lists.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4782dfd1-c169-477f-b688-f8103de15865",
+      "question": "who is the lead singer of the band coldplay?",
+      "gold": "chris martin",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "chris martin",
+      "raw_response": "Chris Martin",
+      "judge_reasoning": "The prediction 'Chris Martin' is identical to the gold answer 'chris martin', ignoring case as per normalization rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chris Martin' is identical to the gold answer 'chris martin', ignoring case as per normalization rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "431a0e8e-b9ac-4ebf-90ee-8a6cf98a7639",
+      "question": "what movie's visual effects were considered the most impressive by the academy in 1995, winning the coveted best visual effects award?",
+      "gold": "forrest gump",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "forrest gump",
+      "raw_response": "answer:\nForrest Gump",
+      "judge_reasoning": "The prediction 'Forrest Gump' is identical to the gold answer 'forrest gump', differing only in capitalization, which is ignored by normalization rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Forrest Gump' is identical to the gold answer 'forrest gump', differing only in capitalization, which is ignored by normalization rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "d73e9716-0b0d-4a5b-9bdd-98a6ca835640",
+      "question": "how many times has pete sampras won the french open singles title?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "0",
+      "judge_reasoning": "The gold answer \"invalid question\" implies that the premise of the question (that Pete Sampras won the French Open singles title) is false. Pete Sampras famously never won the French Open. Therefore, the number of times he won it is 0. The prediction \"0\" directly states this fact, making it consistent with the gold answer's implied meaning.\n\n```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer 'invalid question' implies that Pete Sampras did not win the French Open singles title. The prediction '0' accurately reflects this fact, as he won it zero times.\"\n}\n```",
+      "judge_raw_response": "The gold answer \"invalid question\" implies that the premise of the question (that Pete Sampras won the French Open singles title) is false. Pete Sampras famously never won the French Open. Therefore, the number of times he won it is 0. The prediction \"0\" directly states this fact, making it consistent with the gold answer's implied meaning.\n\n```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer 'invalid question' implies that Pete Sampras did not win the French Open singles title. The prediction '0' accurately reflects this fact, as he won it zero times.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "24df4242-214b-4257-bcca-f1d39ca66630",
+      "question": "can you tell me the movie that won the oscar for best documentary feature film in 2017",
+      "gold": "o.j.: made in america",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "o.j.: made in america",
+      "raw_response": "answer:\nO.J.: Made in America",
+      "judge_reasoning": "The prediction matches the gold answer exactly, differing only in capitalization, which is ignored by normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction matches the gold answer exactly, differing only in capitalization, which is ignored by normalization rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "3fcd37bc-2a2d-4766-aba8-cb9708349c48",
+      "question": "who hosted the grammy awards in 2019?",
+      "gold": "alicia keys",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "alicia keys",
+      "raw_response": "answer:\nAlicia Keys",
+      "judge_reasoning": "The prediction 'Alicia Keys' is the same as the gold answer 'alicia keys', differing only in capitalization, which is ignored by normalization rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Alicia Keys' is the same as the gold answer 'alicia keys', differing only in capitalization, which is ignored by normalization rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "0672b85d-ca23-4258-a5cd-3f0335f8f7e1",
+      "question": "when was \"soul\" released on hulu?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\n2020-12-25",
+      "judge_reasoning": "The gold answer states the question is 'invalid question', implying no valid answer can be given. The prediction provides a specific date, which contradicts the gold's assessment of the question's validity.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states the question is 'invalid question', implying no valid answer can be given. The prediction provides a specific date, which contradicts the gold's assessment of the question's validity.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "b587e2da-5fd4-43fa-a3c1-77fce0939969",
+      "question": "what is the capital of australia?",
+      "gold": "canberra",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "canberra",
+      "raw_response": "answer:\nCanberra",
+      "judge_reasoning": "The prediction 'Canberra' is identical to the gold answer 'canberra' after applying case normalization (Rule 1).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Canberra' is identical to the gold answer 'canberra' after applying case normalization (Rule 1).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "92795d27-1f14-4c36-8d3e-70009906e65f",
+      "question": "what was the total value of all initial public offerings in the americas for the technology sector in 2022?",
+      "gold": "the total value of all ipos in the americas for the technology sector was $1.6 billion in 2022.",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\n$13.0 billion",
+      "judge_reasoning": "The gold states the value as $1.6 billion, while the prediction states $13.0 billion. These numerical values are significantly different and fall outside the allowed tolerance for numerical expressions (|1.6 - 13.0| = 11.4, which is much greater than max(0.5, 1% of 1.6 = 0.016)).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold states the value as $1.6 billion, while the prediction states $13.0 billion. These numerical values are significantly different and fall outside the allowed tolerance for numerical expressions (|1.6 - 13.0| = 11.4, which is much greater than max(0.5, 1% of 1.6 = 0.016)).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "0872a91f-a4ed-4b5d-8120-426bc69546bb",
+      "question": "which city was hailey bieber born?",
+      "gold": "tucson, az",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "tucson, az",
+      "raw_response": "Tucson",
+      "judge_reasoning": "The prediction 'Tucson' provides the essential city name, which matches the city in the gold answer 'tucson, az'. The state abbreviation 'az' in the gold is extra detail not required by the question 'which city was hailey bieber born?' and its omission does not contradict the gold.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Tucson' provides the essential city name, which matches the city in the gold answer 'tucson, az'. The state abbreviation 'az' in the gold is extra detail not required by the question 'which city was hailey bieber born?' and its omission does not contradict the gold.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "5a7134ef5542994082a3e668",
+      "question": "Which breed of dog is now extinct: Chinese Crested Dog or the Chien-gris?",
+      "gold": "Chien-gris",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chien-gris",
+      "raw_response": "Chien-gris",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a790e91554299078472779e",
+      "question": "Which African-American composer co-wrote Air?",
+      "gold": "Scott Joplin",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Scott Joplin",
+      "raw_response": "Scott Joplin",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab3f9b95542992ade7c6f09",
+      "question": "It Takes a Family is a response to this 1996 book that was published by who",
+      "gold": "Hillary Rodham Clinton",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Hillary Rodham Clinton",
+      "raw_response": "It Takes a Family is a response to the 1996 book \"It Takes a Village,\" which was published by Hillary Clinton.",
+      "judge_reasoning": "The prediction correctly identifies 'Hillary Clinton' as the author, which is an acceptable alias/shorter form of 'Hillary Rodham Clinton'. The extra detail about the book title is allowed.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction correctly identifies 'Hillary Clinton' as the author, which is an acceptable alias/shorter form of 'Hillary Rodham Clinton'. The extra detail about the book title is allowed.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab285d0554299340b5254fa",
+      "question": "The Acolytes Protection Agency consisted of what wrestler born November 29, 1966",
+      "gold": "John Layfield",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Bill Goldberg",
+      "judge_reasoning": "The prediction 'Bill Goldberg' is a different wrestler than the gold answer 'John Layfield'. John Layfield (JBL/Bradshaw) was a member of the Acolytes Protection Agency (APA), while Bill Goldberg was not. Therefore, the prediction contradicts the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Bill Goldberg' is a different wrestler than the gold answer 'John Layfield'. John Layfield (JBL/Bradshaw) was a member of the Acolytes Protection Agency (APA), while Bill Goldberg was not. Therefore, the prediction contradicts the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adcf98255429947343537e9",
+      "question": "Which show connects Arthur Darvill and Matt Smith?",
+      "gold": "Doctor Who",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doctor Who",
+      "raw_response": "Doctor Who",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8fdc1e5542995b44242097",
+      "question": "The Chandrasekhar limit was named after an astrophysicist, what is the name of his uncle of which is also a novel laureate?",
+      "gold": "Sir C. V. Raman",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Sir C. V. Raman",
+      "raw_response": "C. V. Raman",
+      "judge_reasoning": "The prediction provides the essential name 'C. V. Raman', which matches the gold answer. The omission of the honorific 'Sir' is acceptable as it does not change the core fact, per normalization rules and allowance for extra descriptive text.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides the essential name 'C. V. Raman', which matches the gold answer. The omission of the honorific 'Sir' is acceptable as it does not change the core fact, per normalization rules and allowance for extra descriptive text.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a80df91554299260e20a198",
+      "question": "The First Silesian war was fought against the King of Prussia who died in what year?",
+      "gold": "1786",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "1786",
+      "raw_response": "1786",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a759ce25542996c70cfaf0e",
+      "question": "Anil V. Kumar,  is a television and film director and producer in India, his production house, Flying Turtle Films co-produced the movie \"Zanjeer\" starring Priyanka Chopra and which actor, and entrepreneur, who works in Telugu cinema?",
+      "gold": "Ram Charan",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Ram Charan",
+      "raw_response": "Ram Charan Teja",
+      "judge_reasoning": "The prediction 'Ram Charan Teja' includes the gold answer 'Ram Charan' and adds a common part of the actor's full name. This is considered extra detail that does not contradict the gold fact, making it equivalent.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Ram Charan Teja' includes the gold answer 'Ram Charan' and adds a common part of the actor's full name. This is considered extra detail that does not contradict the gold fact, making it equivalent.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ade45ed554299728e26c699",
+      "question": "The 2016 Washington State Cougars were led by the coach who previously helmed which other team?",
+      "gold": "Texas Tech Red Raiders",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Washington State; Kansas State",
+      "judge_reasoning": "The gold answer specifies 'Texas Tech Red Raiders' as the previous team. The prediction lists 'Washington State; Kansas State', neither of which matches the gold answer. Additionally, 'Washington State' is the team in the question, not a *previous other* team.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer specifies 'Texas Tech Red Raiders' as the previous team. The prediction lists 'Washington State; Kansas State', neither of which matches the gold answer. Additionally, 'Washington State' is the team in the question, not a *previous other* team.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8113ca55429938b61422ab",
+      "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+      "gold": "Chlorophyll",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chlorophyll",
+      "raw_response": "Chlorophyll a",
+      "judge_reasoning": "The prediction 'Chlorophyll a' is a specific type of 'Chlorophyll'. Since chlorophyll a is indeed found in Prochlorococcus and is essential for photosynthesis, the prediction provides a more specific, but still correct, detail that does not contradict the broader gold answer. This falls under the 'Extra detail' rule (Rule 8).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chlorophyll a' is a specific type of 'Chlorophyll'. Since chlorophyll a is indeed found in Prochlorococcus and is essential for photosynthesis, the prediction provides a more specific, but still correct, detail that does not contradict the broader gold answer. This falls under the 'Extra detail' rule (Rule 8).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a903a4855429933b8a204a9",
+      "question": "What era was the man associated with Fanny Talbot the leading art critic of?",
+      "gold": "Victorian era",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Victorian era",
+      "raw_response": "Victorian Era",
+      "judge_reasoning": "The prediction 'Victorian Era' is identical to the gold answer 'Victorian era', ignoring case as per normalization rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Victorian Era' is identical to the gold answer 'Victorian era', ignoring case as per normalization rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adc432d55429944faac24a1",
+      "question": "The San Diego Gulls are a professional ice hockey team in the American Hockey League (AHL) which began playing in the 2015\u201316 season, the Gulls play their home games at which indoor arena located at Sports Arena Blvd in Point Loma, San Diego?",
+      "gold": "Valley View Casino Center",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Pechanga Arena San Diego",
+      "judge_reasoning": "The gold answer \"Valley View Casino Center\" and the prediction \"Pechanga Arena San Diego\" refer to the same physical arena. The venue was renamed Pechanga Arena San Diego in 2018, having previously been known as Valley View Casino Center. Since both names refer to the same location where the San Diego Gulls play, the prediction is considered a valid alternative name for the same entity.\n\n```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Pechanga Arena San Diego' is the current name of the arena, which was previously known as 'Valley View Casino Center' (the gold answer). Both refer to the same physical venue, making the prediction a valid alternative name for the same entity.\"\n}\n```",
+      "judge_raw_response": "The gold answer \"Valley View Casino Center\" and the prediction \"Pechanga Arena San Diego\" refer to the same physical arena. The venue was renamed Pechanga Arena San Diego in 2018, having previously been known as Valley View Casino Center. Since both names refer to the same location where the San Diego Gulls play, the prediction is considered a valid alternative name for the same entity.\n\n```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Pechanga Arena San Diego' is the current name of the arena, which was previously known as 'Valley View Casino Center' (the gold answer). Both refer to the same physical venue, making the prediction a valid alternative name for the same entity.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ae3e9995542995dadf24247",
+      "question": "On what date did a Canadian politician born January 2, 1979, succeed as leader of the New Democratic Party in Canada?",
+      "gold": "October 1st",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "October 1st",
+      "raw_response": "2017-10-01",
+      "judge_reasoning": "The prediction '2017-10-01' specifies the same date (October 1st) as the gold answer. The inclusion of the year '2017' is extra detail but does not contradict the gold fact, which only provides the month and day.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction '2017-10-01' specifies the same date (October 1st) as the gold answer. The inclusion of the year '2017' is extra detail but does not contradict the gold fact, which only provides the month and day.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7317535542994cef4bc450",
+      "question": "Which K283BV artist is from Columbus, Ohio?",
+      "gold": "Twenty One Pilots",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nLil Wayne",
+      "judge_reasoning": "The gold answer identifies 'Twenty One Pilots' as the artist from Columbus, Ohio, while the prediction states 'Lil Wayne'. These are two different artists, leading to a direct contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies 'Twenty One Pilots' as the artist from Columbus, Ohio, while the prediction states 'Lil Wayne'. These are two different artists, leading to a direct contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5abb1cc55542992ccd8e7f16",
+      "question": "Brian Keith \"Herbie\" Flowers, is an English musician specialising in electric bass, double bass and tuba, he has contributed to the recording Give My Regards to Broad Street is the fifth studio album by who, as well as the soundtrack album to his 1984 film of the same name?",
+      "gold": "Paul McCartney",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Paul McCartney",
+      "raw_response": "Paul McCartney",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

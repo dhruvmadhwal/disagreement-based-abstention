@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "5a81e73f554299676cceb14d",
+      "question": "Who produced the movie that \"Puss in Boots: The Three Diablos\" is the sequel of?",
+      "gold": "DreamWorks Animation",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "DreamWorks Animation",
+      "raw_response": "answer:\nDreamWorks Animation",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ae8256355429952e35eaa59",
+      "question": "Where is the record company based that was co founded by the frontman of Minor Threat and Fugazi?",
+      "gold": "Washington, D.C.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Washington, D.C.",
+      "raw_response": "answer:\nWashington, D.C.",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adcf98255429947343537e9",
+      "question": "Which show connects Arthur Darvill and Matt Smith?",
+      "gold": "Doctor Who",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doctor Who",
+      "raw_response": "answer:\nDoctor Who",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adc432d55429944faac24a1",
+      "question": "The San Diego Gulls are a professional ice hockey team in the American Hockey League (AHL) which began playing in the 2015\u201316 season, the Gulls play their home games at which indoor arena located at Sports Arena Blvd in Point Loma, San Diego?",
+      "gold": "Valley View Casino Center",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nPechanga Arena San Diego",
+      "judge_reasoning": "The gold answer specifies 'Valley View Casino Center' while the prediction states 'Pechanga Arena San Diego'. These are two different names for the arena, even if one is a former name and the other is the current name. Since the prediction does not match the gold answer, it is considered incorrect.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer specifies 'Valley View Casino Center' while the prediction states 'Pechanga Arena San Diego'. These are two different names for the arena, even if one is a former name and the other is the current name. Since the prediction does not match the gold answer, it is considered incorrect.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a903a4855429933b8a204a9",
+      "question": "What era was the man associated with Fanny Talbot the leading art critic of?",
+      "gold": "Victorian era",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Victorian era",
+      "raw_response": "answer:\nVictorian Era",
+      "judge_reasoning": "The prediction 'Victorian Era' is identical to the gold answer 'Victorian era', differing only in capitalization, which is ignored by normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Victorian Era' is identical to the gold answer 'Victorian era', differing only in capitalization, which is ignored by normalization rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8b21cb55429971feec4647",
+      "question": "The 2016 Liberty Bowl was sponsored by a company based in what city?",
+      "gold": "Memphis",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Memphis",
+      "raw_response": "answer:\nMemphis",
+      "judge_reasoning": "The prediction 'Memphis' is identical to the gold answer 'Memphis'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Memphis' is identical to the gold answer 'Memphis'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8647e35542991e771815f5",
+      "question": "The first female board member for the Liberal Party, she was born in which county in Norway?",
+      "gold": "Vestfold",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Vestfold",
+      "raw_response": "answer:\nVestfold County",
+      "judge_reasoning": "The prediction 'Vestfold County' is equivalent to 'Vestfold' as 'County' is extra descriptive text that does not change or contradict the gold fact. Vestfold is indeed a county.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Vestfold County' is equivalent to 'Vestfold' as 'County' is extra descriptive text that does not change or contradict the gold fact. Vestfold is indeed a county.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a827a9f55429940e5e1a8cf",
+      "question": "Kiawah Island, South Carolina was mentioned in \"Porgy and Bess,\" composed by the man best known for which other 1924 orchestral composition?",
+      "gold": "Rhapsody in Blue",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Rhapsody in Blue",
+      "raw_response": "answer:\nRhapsody in Blue",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab3f9b95542992ade7c6f09",
+      "question": "It Takes a Family is a response to this 1996 book that was published by who",
+      "gold": "Hillary Rodham Clinton",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nHarperCollins Publishers",
+      "judge_reasoning": "The gold answer identifies the author of the book (Hillary Rodham Clinton), while the prediction identifies a publisher (HarperCollins Publishers). These are different types of entities and facts, therefore the prediction does not communicate the same essential fact as the gold.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies the author of the book (Hillary Rodham Clinton), while the prediction identifies a publisher (HarperCollins Publishers). These are different types of entities and facts, therefore the prediction does not communicate the same essential fact as the gold.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7134ef5542994082a3e668",
+      "question": "Which breed of dog is now extinct: Chinese Crested Dog or the Chien-gris?",
+      "gold": "Chien-gris",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chien-gris",
+      "raw_response": "answer:\nChien-gris",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8113ca55429938b61422ab",
+      "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+      "gold": "Chlorophyll",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chlorophyll",
+      "raw_response": "answer:\nChlorophyll",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ade45ed554299728e26c699",
+      "question": "The 2016 Washington State Cougars were led by the coach who previously helmed which other team?",
+      "gold": "Texas Tech Red Raiders",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nOregon Ducks",
+      "judge_reasoning": "The prediction 'Oregon Ducks' contradicts the gold answer 'Texas Tech Red Raiders' regarding the previous team coached by the 2016 Washington State Cougars' coach.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Oregon Ducks' contradicts the gold answer 'Texas Tech Red Raiders' regarding the previous team coached by the 2016 Washington State Cougars' coach.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ae1fc135542997283cd2309",
+      "question": "Are Patrick White and Katherine Anne Porter both writers?",
+      "gold": "yes",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "yes",
+      "raw_response": "answer:\nYes",
+      "judge_reasoning": "The question is a yes/no question. Both the gold answer and the prediction provide an affirmative response, which are equivalent.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The question is a yes/no question. Both the gold answer and the prediction provide an affirmative response, which are equivalent.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab285d0554299340b5254fa",
+      "question": "The Acolytes Protection Agency consisted of what wrestler born November 29, 1966",
+      "gold": "John Layfield",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nRandy Orton",
+      "judge_reasoning": "The gold answer identifies 'John Layfield' as the wrestler, while the prediction states 'Randy Orton'. These are two different individuals, leading to a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies 'John Layfield' as the wrestler, while the prediction states 'Randy Orton'. These are two different individuals, leading to a contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a759ce25542996c70cfaf0e",
+      "question": "Anil V. Kumar,  is a television and film director and producer in India, his production house, Flying Turtle Films co-produced the movie \"Zanjeer\" starring Priyanka Chopra and which actor, and entrepreneur, who works in Telugu cinema?",
+      "gold": "Ram Charan",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Ram Charan",
+      "raw_response": "answer:\nRam Charan",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

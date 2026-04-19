@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "5ae1fc135542997283cd2309",
+      "question": "Are Patrick White and Katherine Anne Porter both writers?",
+      "gold": "yes",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "yes",
+      "raw_response": "answer: Yes",
+      "judge_reasoning": "The question is a yes/no question. Both the gold answer 'yes' and the prediction 'Yes' are affirmative and equivalent, following normalization rule 6.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The question is a yes/no question. Both the gold answer 'yes' and the prediction 'Yes' are affirmative and equivalent, following normalization rule 6.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ac0d9e55542992a796ded92",
+      "question": "Son of Paleface starred the comedian and vaudevilian of what nationality?",
+      "gold": "American",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "American",
+      "raw_response": "answer: American",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adcf98255429947343537e9",
+      "question": "Which show connects Arthur Darvill and Matt Smith?",
+      "gold": "Doctor Who",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doctor Who",
+      "raw_response": "Doctor Who",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adc432d55429944faac24a1",
+      "question": "The San Diego Gulls are a professional ice hockey team in the American Hockey League (AHL) which began playing in the 2015\u201316 season, the Gulls play their home games at which indoor arena located at Sports Arena Blvd in Point Loma, San Diego?",
+      "gold": "Valley View Casino Center",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Pechanga Arena",
+      "judge_reasoning": "The prediction 'Pechanga Arena' is a different name than the gold answer 'Valley View Casino Center', indicating a contradiction regarding the name of the arena.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Pechanga Arena' is a different name than the gold answer 'Valley View Casino Center', indicating a contradiction regarding the name of the arena.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a903a4855429933b8a204a9",
+      "question": "What era was the man associated with Fanny Talbot the leading art critic of?",
+      "gold": "Victorian era",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Victorian era",
+      "raw_response": "answer: Victorian Era",
+      "judge_reasoning": "The prediction 'Victorian Era' is identical to the gold answer 'Victorian era', with only a difference in capitalization, which is ignored by normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Victorian Era' is identical to the gold answer 'Victorian era', with only a difference in capitalization, which is ignored by normalization rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a81e73f554299676cceb14d",
+      "question": "Who produced the movie that \"Puss in Boots: The Three Diablos\" is the sequel of?",
+      "gold": "DreamWorks Animation",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "DreamWorks Animation",
+      "raw_response": "answer: DreamWorks Animation",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a764234554299109176e6e6",
+      "question": "The weapon BFG is found in which game developed by id Software ?",
+      "gold": "Doom",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doom",
+      "raw_response": "answer: Doom",
+      "judge_reasoning": "The prediction 'Doom' is identical to the gold answer 'Doom'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Doom' is identical to the gold answer 'Doom'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5abc2e3d554299114383a0f6",
+      "question": "Alan Furst and Lee Child are what?",
+      "gold": "is a British author",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "is a British author",
+      "raw_response": "Authors",
+      "judge_reasoning": "The prediction 'Authors' is a correct subset of the information provided in the gold answer 'is a British author'. The question asks 'what are they?', and 'Authors' is a valid and non-contradictory answer, falling under the subset allowance rule.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Authors' is a correct subset of the information provided in the gold answer 'is a British author'. The question asks 'what are they?', and 'Authors' is a valid and non-contradictory answer, falling under the subset allowance rule.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab3f9b95542992ade7c6f09",
+      "question": "It Takes a Family is a response to this 1996 book that was published by who",
+      "gold": "Hillary Rodham Clinton",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "David Brooks",
+      "judge_reasoning": "The gold answer identifies 'Hillary Rodham Clinton' as the author, while the prediction states 'David Brooks'. These are two different individuals, leading to a direct contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies 'Hillary Rodham Clinton' as the author, while the prediction states 'David Brooks'. These are two different individuals, leading to a direct contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8285be55429966c78a6a41",
+      "question": "Which event was a surprise military strike by the Imperial Japanese Navy Air Service while Magruder Hill Tuttle was a senior officer in the United States Navy?",
+      "gold": "attack on Pearl Harbor",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "attack on Pearl Harbor",
+      "raw_response": "answer: Pearl Harbor",
+      "judge_reasoning": "The prediction 'Pearl Harbor' is a common and widely understood shorthand for the 'attack on Pearl Harbor'. The essential event is the same, and the context of the question (a 'surprise military strike') implies the 'attack' aspect.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Pearl Harbor' is a common and widely understood shorthand for the 'attack on Pearl Harbor'. The essential event is the same, and the context of the question (a 'surprise military strike') implies the 'attack' aspect.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8113ca55429938b61422ab",
+      "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+      "gold": "Chlorophyll",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chlorophyll",
+      "raw_response": "Chlorophyll",
+      "judge_reasoning": "The prediction 'Chlorophyll' is identical to the gold answer 'Chlorophyll'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chlorophyll' is identical to the gold answer 'Chlorophyll'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ade45ed554299728e26c699",
+      "question": "The 2016 Washington State Cougars were led by the coach who previously helmed which other team?",
+      "gold": "Texas Tech Red Raiders",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer: Boise State Broncos",
+      "judge_reasoning": "The prediction 'Boise State Broncos' contradicts the gold answer 'Texas Tech Red Raiders' regarding the previous team coached by the 2016 Washington State Cougars' coach.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Boise State Broncos' contradicts the gold answer 'Texas Tech Red Raiders' regarding the previous team coached by the 2016 Washington State Cougars' coach.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7929cf554299029c4b5f12",
+      "question": "Tenth Avenue Freeze-Out  is the second song on which of Bruce Springsteen's breakthrough album, that is the third studio album by American singer-songwriter Bruce Springstee?",
+      "gold": "Born to Run",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Born to Run",
+      "raw_response": "answer: Born to Run",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab285d0554299340b5254fa",
+      "question": "The Acolytes Protection Agency consisted of what wrestler born November 29, 1966",
+      "gold": "John Layfield",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Brian Pillman",
+      "judge_reasoning": "The prediction 'Brian Pillman' contradicts the gold answer 'John Layfield'. These are two different individuals.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Brian Pillman' contradicts the gold answer 'John Layfield'. These are two different individuals.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7134ef5542994082a3e668",
+      "question": "Which breed of dog is now extinct: Chinese Crested Dog or the Chien-gris?",
+      "gold": "Chien-gris",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chien-gris",
+      "raw_response": "Chien-gris",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

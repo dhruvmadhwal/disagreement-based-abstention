@@ -1,0 +1,2386 @@
+[
+  {
+    "id": "bccd1dde",
+    "question": "When was the director of Slumdog Millionaire born?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film Slumdog Millionaire?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "85c0b1fb",
+    "question": "When was the director of Pulp Fiction born?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film Pulp Fiction?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a1bee914",
+    "question": "How many kids does the lead actress of Silence of the Lambs have?",
+    "dsl": "answer_1: str = qa_model(\"Who acted as Clarice Starling in The Silence of the Lambs?\")\nanswer_2: str = qa_model(\"How many children does {answer_1} have?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "e1d742c2",
+    "question": "How many kids does the lead actress of A Few Good Men have?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the female lead character in the movie 'A Few Good Men'?\")\nanswer_2: str = qa_model(\"Who portrayed the role of {answer_1} in the movie 'A Few Good Men'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How many children does {answer_2} have?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "48e38631",
+    "question": "How many actors played Sonny in Big Daddy?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 1999 Adam Sandler film about adoption?\")\nanswer_2: str = qa_model(\"Who plays the role of Sonny in '{answer_1}'\", answer_1=answer_1)\nanswer_3: str = qa_model(f\"How many people play the character {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6821b3e2",
+    "question": "Where did the actress who was the main star in Eat Pray Love go to college?",
+    "dsl": "answer_1: str = qa_model(\"Who was the main star in the movie Eat Pray Love?\")\nanswer_2: str = qa_model(\"Did {answer_1} attend university?\", answer_1=answer_1)\nif answer_2.lower() == \"yes\":\n    answer_3: str = qa_model(\"At what institution did {answer_1} attend university?\", answer_1=answer_1)\nelse:\n    answer_3: str = \"No\"",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "421971a8",
+    "question": "Where is that actor that plays Peter Parker in the MCU from?",
+    "dsl": "answer_1: str = qa_model(\"Who plays Peter Parker in the Marvel Cinematic Universe?\")\nanswer_2: str = qa_model(\"From what city is {answer_1} originally?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "4ad6bafd",
+    "question": "How many children did the actor who played Don Vito Corleone in Godfather have?",
+    "dsl": "answer_1: str = qa_model(\"Who played Don Vito Corleone in The Godfather?\")\nanswer_2: str = qa_model(\"What movies has {answer_1} acted in?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is there any information about his personal life in {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Does {answer_3} mention anything related to family size?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"{answer_4}\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "bd85813c",
+    "question": "How old is the director of Spider-Man Homecoming?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the movie Spider-Man Homecoming?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6edaabbb",
+    "question": "How many children does the director of Inception have?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the director of the film 'Inception'?\")\nanswer_2: str = qa_model(\"How many children does {answer_1} have?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "043b734e",
+    "question": "Where was the director of Avatar born?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film 'Avatar'?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "dfd012c8",
+    "question": "How many children does the lead actress in Clueless have?",
+    "dsl": "answer_1: str = qa_model(\"Who acted in the film 'Clueless'?\") \nanswer_2: str = qa_model(\"Is {answer_1} female?\", answer_1=answer_1) \nanswer_3: str = qa_model(\"{answer_2} and what profession do they hold?\", answer_2=answer_2) \nanswer_4: str = qa_model(\"Has any person with this profession appeared in the film 'Clueless'?\", answer_3=answer_3) \nanswer_5: str = qa_model(\"Did {answer_4} appear in more than one film?\", answer_4=answer_4) \nanswer_6: str = qa_model(\"If yes then how many movies has {answer_5} been in?\", answer_5=answer_5) \nanswer_7: str = qa_model(\"Does anyone know how many children {answer_6} has?\", answer_6=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "91f315a4",
+    "question": "How tall is the actor who played Deadpool?",
+    "dsl": "answer_1: str = \"Ryan Reynolds\"\nanswer_2: str = f\"How tall is {answer_1}?\" \nanswer_3: str = qa_model(answer_2, answer_1=\"Ryan Reynolds\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "28ae20ee",
+    "question": "How tall is the actor who played Frodo?",
+    "dsl": "answer_1: str = qa_model(\"Who played the role of Frodo Baggins in The Lord of the Rings movies?\")\nanswer_2: str = qa_model(\"How old is {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is there information about how tall {answer_1} is available online?\", answer_1=answer_1)\nanswer_4: str = \"If yes then what is his height?\" if answer_3 == \"yes\" else \"\" \nanswer_5: str = qa_model(answer_4, answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "802fbd23",
+    "question": "How old is the actor who played Luke Skywalker?",
+    "dsl": "answer_1: str = qa_model(\"Who played Luke Skywalker in the original Star Wars trilogy?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is {answer_2}\", answer_2=qa_model(\"{answer_2}\", answer_2=answer_2))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a516305f",
+    "question": "When was the actress who played Claire Dearing in Jurassic World born?",
+    "dsl": "answer_1: str = qa_model(\"Who plays Claire Dearing in the movie Jurassic World?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "dc1a55dc",
+    "question": "How tall is the actor who plays John Wick?",
+    "dsl": "answer_1: str = qa_model(\"Who plays the role of John Wick in the movies?\")\nanswer_2: str = qa_model(\"How old is {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is there an age limit to act in Hollywood?\", )\nanswer_4: str = qa_model(\"At what height do you need to be to play action hero roles in Hollywood?\", ) \nanswer_5: str = qa_model(\"Does Keanu Reeves meet this requirement?\", answer_4=answer_4)\nanswer_6: str = qa_model(\"Is Keanu Reeves the same person as {answer_1}?\", answer_1=answer_1)\nanswer_7: str = qa_model(\"If yes then how tall is he ?\", answer_6=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "cd085a8c",
+    "question": "How many children does the director of Gangs of New York have?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film 'Gangs of New York'?\")\nanswer_2: str = qa_model(\"How many children does {answer_1} have?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "07c04474",
+    "question": "In which year was the director of Taxi Driver born?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film 'Taxi Driver'?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "234caafb",
+    "question": "Where did the lead actor of John Wick grow up?",
+    "dsl": "answer_1: str = qa_model(\"Who plays the role of John Wick in the movies?\")\nanswer_2: str = qa_model(\"In what city did {answer_1} grow up?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7a5e5ab0",
+    "question": "How many kids does the lead actor of Troy have?",
+    "dsl": "answer_1: str = \"Who was the lead actor in the film 'Troy'?\"\nanswer_2: str = \"How many children does {answer_1} have?\"",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "852d9a1a",
+    "question": "How tall is the singer of \"Ridin Dirty\"?",
+    "dsl": "answer_1: str = qa_model(\"Who sang the song 'Ridin Dirty'?\") \nanswer_2: str = qa_model(\"Is {answer_1} male?\", answer_1=answer_1) \nanswer_3: str = qa_model(\"If yes, what sport do most men play at a professional level over 6 feet tall?\", answer_2=\"yes\" if True else answer_2) \nanswer_4: str = qa_model(\"Are people who participate in this sport typically taller than average?\", answer_3=answer_3) \nanswer_5: str = qa_model(\"If so, how much taller are they compared to an average person?\", answer_4=\"yes\" if True else answer_4) \nanswer_6: str = qa_model(\"On average, how tall is someone participating in this sport?\", answer_5=answer_5) \nanswer_7: str = qa_model(\"{answer_6} + {answer_5}\", answer_6=answer_6, answer_5=answer_5)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5c5e4201",
+    "question": "How tall is the singer of Big Girls Don't Cry?",
+    "dsl": "answer_1: str = qa_model(\"What song is titled 'Big Girls Don't Cry'?\")\nanswer_2: str = qa_model(\"By whom is the song '{answer_1}' performed?\")\nanswer_3: str = qa_model(\"How tall is {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9fb558f2",
+    "question": "In what country was the lead singer of Talking Heads born?",
+    "dsl": "answer_1: str = qa_model(\"Who was the lead singer of the band Talking Heads?\")\nanswer_2: str = qa_model(\"In what country was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "d6292119",
+    "question": "How tall was the lead singer of The Doors?",
+    "dsl": "answer_1: str = qa_model(\"Who was the lead singer of the rock band The Doors?\")\nanswer_2: str = qa_model(\"How tall was {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "49241ffe",
+    "question": "How old was the Led Zeppelin drummer when their debut album was released?",
+    "dsl": "answer_1: str = qa_model(\"Who is the drummer for the rock band Led Zeppelin?\")\nanswer_2: str = qa_model(\"On what date was the self-titled debut album by Led Zeppelin released?\")\nanswer_3: str = qa_model(\"The current year is ?\") # dummy variable to get today’s year \nanswer_4: int = eval(answer_3.replace('?', '\"'+str(datetime.date.today().year)+'\"'))\nanswer_5: str = qa_model(\"{answer_4}-year-old {answer_1}\", answer_1=answer_1, answer_4=str(answer_4))\nanswer_6: datetime.datetime = datetime.datetime.strptime(answer_2.split()[0], '%B %d')\nanswer_7: list[str] = [\"January\", \"March\", \"May\", \"July\", \"August\", \"October\", \"December\"]\nif answer_6.month in [i for i in range(1,13)]:\n    if answer_6.month == 1 or answer_6.month==3 or answer_6.month==5 or answer_6.month==7 or answer_6.month==8 or answer_6.month==10 or answer_6.month==12 :\n        month_str = str(answer_6.month)+ \"-month\"\n    else:\n        month_str = str(answer_6.month)+\"-months\"\nelse:\n    month_str = str(answer_6.month - 12 )+\"-months\"\n\nanswer_8: str = qa_model(f\"How long ago was January 12th, 1969?\")\n\nanswer_9: timedelta = datetime.timedelta(days=datetime.date.today().timetuple().tm_yday -datetime.date(1969, 1, 12).timetuple().tm_yday )\nanswer_10: str = f\"{int((answer_9.days)/365)} years \"\n\nfinal_answer: str = qa_model(f\"What age would you be now if you were {{answer_4}} years old at birth and had been alive since then? \", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "83052f3d",
+    "question": "How old was the lead guitarist of Van Halen when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who was the lead guitarist for the band Van Halen?\")\nanswer_2: str = qa_model(\"{answer_1} passed away at what age?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "2edc90bd",
+    "question": "The drummer for Nirvana was born in what city?",
+    "dsl": "answer_1: str = qa_model(\"Who was the drummer for the band Nirvana?\")\nanswer_2: str = qa_model(\"In what city was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "deb72c30",
+    "question": "In what country was the band who performed \"Need You Tonight\" from?",
+    "dsl": "answer_1: str = qa_model('Which song is titled \"Need You Tonight\"?')\nanswer_2: str = qa_model('{answer_1} is by which artist?', answer_1='answer_1')\nanswer_3: str = qa_model('From which country is {answer_2}?', answer_2='answer_2')",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "303fa922",
+    "question": "How rich is the singer of Cant Touch This?",
+    "dsl": "answer_1: str = qa_model(\"What song by MC Hammer contains the lyrics 'U can't touch this?'\")\nanswer_2: str = qa_model(\"{answer_1} artist\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Net worth of {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "dc01e4c5",
+    "question": "When was the artist who did the album The Last Set at Newport born?",
+    "dsl": "answer_1: str = qa_model(\"Who created the album 'The Last Set at Newport'?\") \nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a83f07fa",
+    "question": "How old is the singer of \"Poker face\"?",
+    "dsl": "answer_1: str = qa_model(\"Who sings the song 'Poker Face'?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a98f7740",
+    "question": "How tall is the singer of Love Story?",
+    "dsl": "answer_1: str = qa_model(\"Who sang the song 'Love Story'?\")\nanswer_2: str = qa_model(\"Is there an artist named after this song?\")\nanswer_3: str = qa_model(\"{answer_2}\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What genre of music do they sing?\")\nanswer_5: str = qa_model(\"Are pop singers typically known to share their height publicly?\")\nanswer_6: str = qa_model(\"Does Taylor Swift fit this description?\", answer_5(answer_5))\nanswer_7: str = qa_model(\"(answer_6)\", answer_6=answer_6)\nanswer_8: str = qa_model(\"If so what is her height\", answer_7(answer_7)) \nanswer_9: str = qa_model('what is taylor swifts height', answer_8(answer_8))\n\nanswer_10: str = \"qa_model('{answer_9}', answer_9={answer_9})\".format(answer_9=answer_9)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "28ce701d",
+    "question": "Which genre of music does the singer of \"Blank Space\" and \"Wildest Dreams\" sing?",
+    "dsl": "answer_1: str = qa_model('Who sings the songs \"Blank Space\" and \"Wildest Dreams\"?')\nanswer_2: str = qa_model('{answer_1} what type of music do you primarily sing?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a896bab1",
+    "question": "Who did the coach that won national titles at LSU and Alabama coach for in the NFL?",
+    "dsl": "answer_1: str = qa_model(\"Which coaches have won national titles at both Louisiana State University and the University of Alabama?\")\nanswer_2: str = qa_model(\"For how long did {answer_1} coach in the National Football League?\", answer_1=answer_1) \nanswer_3: str = qa_model(\"Who did {answer_2[0]} coach for in the NFL?\", answer_2=qa_model(answer_2)) #Note: This line will need to be adjusted if you're implementing this function yourself because it seems like your current implementation doesn't support nested calls.",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "19c7c396",
+    "question": "Who was MLB Commissioner during World Series of 1984?",
+    "dsl": "answer_1: str = qa_model(\"What year were the World Series held?\")\nanswer_2: str = qa_model(\"Who was the commissioner of Major League Baseball in {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "18dfddd1",
+    "question": "Who was the quarterback of the winning team in Super Bowl 53?",
+    "dsl": "answer_1: str = qa_model(\"What were the teams competing in Super Bowl 53?\")\nanswer_2: str = qa_model(\"{answer_1}, what was the final score of their match?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"The winner of Super Bowl 53 won by how much points over the other team.\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What is known about the winning team's performance during Super Bowl 53?\")\nanswer_5: str = qa_model(\"According to {answer_4}, who was the starting quarterback for the winning team?\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "71ebe655",
+    "question": "How old is the current president of basketball operations of the Philadelphia 76ers?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current president of basketball operations of the Philadelphia 76ers?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is someone born in {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0d56074a",
+    "question": "Who was the point guard of the team that won the NBA Finals in 2018?",
+    "dsl": "answer_1: str = qa_model(\"Which team won the NBA Finals in 2018?\")\nanswer_2: str = qa_model(\"Who were some key players for {answer_1} during their championship run?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Was there a specific player known to play point guard for {answer_2}?\", answer_2=answer_2) \nanswer_4: str = qa_model(\"{answer_3}. If so, what position(s) do they typically play?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "697ec789",
+    "question": "What team does the NFL's leading rusher from 2020 play on?",
+    "dsl": "answer_1: str = qa_model(\"Who was the NFL's leading rusher in 2020?\")\nanswer_2: str = qa_model(\"On what team does {answer_1} currently play?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "aec3cd45",
+    "question": "How old is the manager of the Pittburghs Pirates?",
+    "dsl": "answer_1: str = qa_model(\"Who manages the Pittsburgh Pirates?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "aad2514e",
+    "question": "How many children does the current manager of the Los Angeles Lakers have?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current head coach of the Los Angeles Lakers?\")\nanswer_2: str = qa_model(\"Is {answer_1} also the general manager of the team?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"{answer_2}. If true, how many children does {answer_1} have?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1e751cb7",
+    "question": "How old is the current manager for the Detroit Tigers?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current manager of the Detroit Tigers?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a0329b75",
+    "question": "Who was the quarterback of the team that won Super Bowl 42?",
+    "dsl": "answer_1: str = qa_model(\"Which team won Super Bowl 42?\")\nanswer_2: str = qa_model(\"Who was the starting quarterback for {answer_1} during their win at Super Bowl 42?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0d5042b0",
+    "question": "How old is the current manager of Juventus?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current manager of Juventus?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is someone born in {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0be6fbb1",
+    "question": "Who was the head coach of the team that won Super Bowl 7?",
+    "dsl": "answer_1: str = qa_model(\"What year was Super Bowl 7 held?\")\nanswer_2: str = qa_model(\"Who were the winners of Super Bowl {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who was the head coach of the {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ec3092ab",
+    "question": "How old is the quarterback of the Cleveland Browns?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current quarterback of the Cleveland Browns?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is someone born in {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "b41432fc",
+    "question": "When did the author who wrote the Chronicles of Narnia die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote The Chronicles of Narnia?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9d26507a",
+    "question": "When did the author who wrote Dubliners die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the book 'Dubliners'?\") \nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "735d9dd9",
+    "question": "How many children did the author of The Giving Tree have?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the book 'The Giving Tree'?\") \nanswer_2: str = qa_model(\"How many children does {answer_1} have?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "abca3e36",
+    "question": "What year did the author of Lonesome Dove win the Pulitzer Prize?",
+    "dsl": "answer_1: str = qa_model(\"Who authored the novel Lonesome Dove?\")\nanswer_2: str = qa_model(\"Did {answer_1} win the Pulitzer Prize?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"If {answer_2}, then what year did they win it?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9ff5ee42",
+    "question": "Who directed the movie that was based on the third book of Lord of the Rings?",
+    "dsl": "answer_1: str = qa_model(\"Which book is the third part of The Lord of the Rings trilogy by J.R.R. Tolkien?\")\nanswer_2: str = qa_model(\"What is the name of the film adaptation of '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed the film '{answer_2}'?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "07cc7c15",
+    "question": "Who starred in the movie based on Fear and Loathing in Las Vegas?",
+    "dsl": "answer_1: str = \"What is the film adaptation of the book 'Fear and Loathing in Las Vegas'?\"\nanswer_2: str = \"Who starred in '{answer_1}'?\"",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5e3bc3b9",
+    "question": "When did the author who wrote A Farewell to Arms die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'A Farewell to Arms'?\") \nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5990982f",
+    "question": "Where was the author who wrote The Great Gatsby born?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'The Great Gatsby'?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "b69991e0",
+    "question": "Who directed the movie that is based on the second book of The Lord of the Rings series?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the second book in The Lord of the Rings series?\")\nanswer_2: str = qa_model(\"What movie is an adaptation of '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed the movie '{answer_2}'?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9b4c3333",
+    "question": "When did the author of Pride and Prejudice die?",
+    "dsl": "answer_1: str = qa_model(\"Who authored the novel 'Pride and Prejudice'?\")\nanswer_2: str = qa_model(\"When did {answer_1} pass away?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "db319851",
+    "question": "Who directed the movie that's based on the first of the Lord of Rings book?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the first book in The Lord of the Rings series?\")\nanswer_2: str = qa_model(\"What movie is an adaptation of '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed the movie '{answer_2}'?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "28e22caf",
+    "question": "In what year did the author of Breakfast at Tiffany's die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'Breakfast at Tiffany\\'s?'\")\nanswer_2: str = qa_model(\"In what year did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "95dc97dc",
+    "question": "Who distributed the movie that's based on the Harry Potter book released in 2004?",
+    "dsl": "answer_1: str = \"Harry Potter and the Prisoner of Azkaban\"\nanswer_2: str = qa_model(f\"What is the title of the film based on '{answer_1}'?\")\nanswer_3: str = qa_model(f\"Who distributed the film '{answer_2}'\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3232deff",
+    "question": "Who directed the movie that's based on the third book in the original Twilight series?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the third book in the original Twilight series by Stephenie Meyer?\")\nanswer_2: str = qa_model(\"What movie is an adaption of '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed the movie '{answer_2}'?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "be4d4610",
+    "question": "In what year was the book series by Lemony Snicket made into a Nickelodeon movie?",
+    "dsl": "answer_1: str = qa_model(\"Who created the book series A Series of Unfortunate Events?\")\nanswer_2: str = qa_model(\"{answer_1} has how many notable works?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is one of {answer_2} adapted to movies?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"If yes, then when were these adaptations done?\", answer_3=\"yes\")\nanswer_5: str = qa_model(\"Were any of them produced by Nickelodeon?\", answer_4=\"2017-2018\") \nanswer_6: str = qa_model(\"If yes, then what is the name of this specific production?\", answer_5='yes')\nanswer_7: str = qa_model(\"In what year was {answer_6} released?\", answer_6=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "f1a4e462",
+    "question": "What year was the author who wrote Finnegans Wake born?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'Finnegans Wake'?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "bcb4c364",
+    "question": "When was the author of the Hunger Games born?",
+    "dsl": "answer_1: str = qa_model(\"Who authored The Hunger Games series?\")\nanswer_2: str = qa_model(\"On what date was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9e25a7d3",
+    "question": "In what year did the newest U.S. state join the Union?",
+    "dsl": "answer_1: str = qa_model('Which one is the most recent US state to become part of the United States?')\nanswer_2: str = qa_model('{answer_1} joined the union in what year?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "209cec8e",
+    "question": "How many square miles is the capital of Alaska?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital of Alaska?\")\nanswer_2: str = qa_model(\"What is the area of {answer_1} in square miles?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "e7db337c",
+    "question": "Which lake has the largest surface area in the capital city of North Carolina?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital city of North Carolina?\")\nanswer_2: str = qa_model(\"What is the largest lake by surface area within {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1b9040fa",
+    "question": "What is the estimated population of the smallest state (by land area) in the United States?",
+    "dsl": "answer_1: str = qa_model(\"What is the smallest U.S. state by land area?\")\nanswer_2: str = qa_model(\"What is the estimated population of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "853a4508",
+    "question": "What is the tallest point in the 3rd smallest country in Europe?",
+    "dsl": "answer_1: str = qa_model(\"What is the third-smallest European country by area?\")\nanswer_2: str = qa_model(\"What is the highest elevation in {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "851dc8e8",
+    "question": "What is the oldest house in the largest city in Illinois?",
+    "dsl": "answer_1: str = qa_model('What is the largest city in Illinois?')\nanswer_2: str = qa_model('What is the name of the oldest house in {answer_1}?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "bc5da5fd",
+    "question": "What is the capital city of the country where the Eiffel Tower is?",
+    "dsl": "answer_1: str = qa_model(\"In what country is the Eiffel Tower located?\")\nanswer_2: str = qa_model(\"What is the capital city of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1ee8e40c",
+    "question": "What is the highest mountain in the continent where the country Morocco is located?",
+    "dsl": "answer_1: str = qa_model(\"In what continent is Morocco located?\")\nanswer_2: str = qa_model(\"What is the highest mountain in {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "13cd720a",
+    "question": "What is the capital of the largest country in Europe?",
+    "dsl": "answer_1: str = qa_model(\"What is the largest European country by land area?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9200a0f9",
+    "question": "What is the population of the most populous country in South America?",
+    "dsl": "answer_1: str = qa_model(\"What continent is Brazil part of?\")\nanswer_2: str = qa_model(\"{answer_1} has several countries with large populations.\", answer_1=answer_1)\nanswer_3: str = qa_model(\"List the countries by area in {answer_2}.\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Among these countries, which one has the largest population?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"What is the estimated population of {answer_4}?\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ad0a46fd",
+    "question": "What is the tallest building in the capital city of Taiwan?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital city of Taiwan?\")\nanswer_2: str = qa_model(\"What is the name of the tallest building in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9790068a",
+    "question": "What is the population of the state where Mount St. Helens is located?",
+    "dsl": "answer_1: str = qa_model(\"In what U.S. state is Mount St. Helens located?\")\nanswer_2: str = qa_model(\"What is the population of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3a402e68",
+    "question": "What is the population of the state that features the city of Newport?",
+    "dsl": "answer_1: str = qa_model(\"What US state contains the city of Newport?\")\nanswer_2: str = qa_model(\"What is the population of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "bcc3b346",
+    "question": "What is the population of the country with the Great Pyramid of Giza?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the pyramid known as one of the Seven Wonders of the Ancient World located near modern-day Cairo?\")\nanswer_2: str = qa_model(\"In what country is {answer_1} located?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the population of {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ea0584f9",
+    "question": "What is the name of the country that boasts the world's most populated city?",
+    "dsl": "answer_1: str = qa_model('What is the world\\'s most populated city?')\nanswer_2: str = qa_model('In what country is {answer_1}?'.format(answer_1=answer_1))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "279de04d",
+    "question": "When was the fifth U.S. president born?",
+    "dsl": "answer_1: str = qa_model(\"Who was the fifth President of the United States?\")\nanswer_2: str = qa_model(\"On what date was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "94c7609e",
+    "question": "What party did the US president during the September 11, 2001 attacks belong to?",
+    "dsl": "answer_1: str = qa_model(\"On what date occurred the September 11, 2001 attacks?\")\nanswer_2: str = qa_model(\"{answer_1}, in what year did these occur?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"The President of the United States in the year {answer_2} belonged to which political party?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "72b9ea0d",
+    "question": "What party did the US president during the atomic bombing of Hiroshima and Nagasaki belong to?",
+    "dsl": "answer_1: str = qa_model(\"When were the cities Hiroshima and Nagasaki bombed with an atomic bomb?\")\nanswer_2: str = qa_model(\"Who was the President of the United States at the time of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"To what political party did {answer_2} belong?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "e1a2cf20",
+    "question": "Who is the son of the 41st US president that also ran for president in 2016?",
+    "dsl": "answer_1: str = qa_model('Who is the 41st President of the United States?')\nanswer_2: str = qa_model('{answer_1}s sons', answer_1=answer_1)\nanswer_3: str = qa_model('Which of {answer_2} ran for U.S. presidency in 2016?', answer_2=answer_2)\nanswer_4: str = qa_model('Did any other candidates run besides {answer_3}? If so what were their names.', answer_3=answer_3)\nanswer_5: str = qa_model('Is there another candidate named {answer_3}', answer_3=answer_3)\nanswer_6: str = qa_model('If yes then why they used same name', answer_5=answer_5)\nanswer_7: str = qa_model('The reason behind this could be because he has multiple siblings with different fathers', answer_6=answer_6)\nanswer_8: str = qa_model('So if we consider George H.W.Bushs sons then how many total number of half brothers/sisters Jeb Bush has', answer_7=answer_7)\nanswer_9: str = qa_model('Jeb bush had four half-siblings including his brother Neil Bush', answer_8=answer_8)\nanswer_10: str = qa_model('Neil Bush married Columba Garnica Gallo in 1981', answer_9=answer_9)\nanswer_11: str = qa_model('They have three daughters together Molly, Ashley and Lauren Bush', answer_10=answer_10)\nanswer_12: str = qa_model('Lauren Bush married David Lauren in 2011', answer_11=answer_11)\nanswer_13: str = qa_model('David Laurne father is Ralph Lauren an American fashion designer', answer_12=answer_12)\nanswer_14: str = qa_model('Ralph lauren founded Polo Fashions Inc in 1967', answer_13=answer_13)\nanswer_15: str = qa_model('Polo fashions inc later became known as ralph lauren corporation', answer_14=answer_14)\nanswer_16: str = qa_model('It is now part of the larger company Ralph Lauren Corporation', answer_15=answer_15)\nanswer_17: str = qa_model('This makes Lauren Bush related to famous designers like Tommy Hilfigher and Calvin Klein through her husband', answer_16=answer_16)\nanswer_18: str = qa_model('However she is more closely related to them than just being friends', answer_17=answer_17)\nanswer_19: str = qa_model('She shares common ancestry with these people due to marrying someone whose family owns large portion of global clothing market', answer_18=answer_18)\nanswer_20: str = qa_model('Her husbands great grandfather immigrated to America at age 21', answer_19=answer_19)\nanswer_21: str = qa_model('He started working odd jobs before eventually opening up own store selling neckties', answer_20=answer_20)\nanswer_22: str = qa_model('His business grew rapidly over time allowing him to expand operations beyond New York City limits', answer_21=answer_21)\nanswer_23: str = qa_model('Eventually he opened stores across entire eastern seaboard', answer_22=answer_22)\nanswer_24: str = qa_model('By mid-1950s he already controlled majority stake in polo fashions inc', answer_23=answer_23)\nanswer_25: str = qa_model('After taking control he renamed it ralph lauren corporation', answer_24=answer_24)\nanswer_26: str = qa_model('Under new leadership companys sales skyrocketed reaching millions annually within few years', answer_25=answer_25)\nanswer_27: str = qa_model('Company continued growing throughout rest of century becoming household name globally', answer_26=answer_26)\nanswer_28: str = qa_model('Nowadays its one of largest players in luxury goods industry worldwide', answer_27=answer_27)\nanswer_29: str = qa_model('Its products can be found everywhere from high-end department stores down low-cost retailers', answer_28=answer_28)\nanswer_30: str = qa_model('Despite having such massive reach brand still maintains strong reputation among consumers', answer_29=answer_29)\nanswer_31: str = qa_model('Their commitment quality materials combined innovative designs keeps customers coming back year after year', answer_30=answer_30)\nanswer_32: str = qa_model('As result company remains highly profitable even during economic downturns', answer_31=answer_31)\nanswer_33: str = qa_model('With annual revenues exceeding billions dollars each quarter', answer_32=answer_32)\nanswer_34: str = qa_model('Net worth of founder currently stands above tens billion USD making him richest person alive today', answer_33=answer_33)\nanswer_35: str = qa_model('Through sheer force willpower determination hard work he built empire from scratch', answer_34=answer_34)\nanswer_36: str = qa_model('Legacy continues inspiring generations entrepreneurs around globe striving achieve greatness themselves', answer_35=answer_35)\nanswer_37: str = qa_model('And thats story about how laurens husband came from nothing but worked tirelessly create something truly remarkable', answer_36=answer_36)\nanswer_38: str = qa_model('But lets get back topic originally asked - Which son of george h.w.bush ran for us presidential election in 2016', answer_37=answer_37)\nanswer_39: str = qa_model('Based previous answers clearly jeb buss older brother neil didnt participate however younger sibling george p did indeed enter race albeit briefly', answer_38=answer_38)\nanswer_40: str = qa_model('Although hes since dropped out campaign trail leaving field wide open others vying position', answer_39=answer_39)\nanswer_41: str = qa_model('Still considering all factors mentioned earlier especially those regarding nepotism connections between certain individuals families involved politics', answer_40=answer_40)\nanswer_42: str = qa_model('One might argue georges involvement somewhat tainted by familial ties rather pure political ambitions', answer_41=answer_41)\nanswer_43: str = qa_model('Nonetheless given circumstances surrounding event itself along broader context provided here', answer_42=answer_42)\nanswer_44: str = qa_model('We can confidently say george w.h.bushes youngest child indeed pursued presidential aspirations although ultimately unsuccessful', answer_43=answer_43)\nanswer_45: str = qa_model('Therefore final answer would be george p bush', answer_44=answer_44)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a2836aff",
+    "question": "Who is the first child of the 44th president of the United States?",
+    "dsl": "answer_1: str = qa_model(\"Who is the 44th President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1}. What is their marital status?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is {answer_2}? If yes then what is the name of his/her spouse.\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Does {answer_3} have any children?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"If yes, how many children does {answer_4} have?\", answer_4=answer_4)\nanswer_6: str = qa_model(\"Is {answer_5} equal to one? If yes then what is the name of the first child\", answer_5=answer_5) \nanswer_7: str = qa_model(\"who is the first child of {answer_6}\", answer_6=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9ed43646",
+    "question": "From which state was the last sitting US senator to have served during the presidencies of John F. Kennedy, Lyndon B. Johnson, and Richard Nixon?",
+    "dsl": "answer_1: str = qa_model(\"Who were the U.S. presidents whose terms included part of the year 1963?\")\nanswer_2: str = qa_model(\"{answer_1}. Which president came after them?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"From what states were these senators serving when they retired?: The most recent one.\")\nanswer_4: str = qa_model(\"Among those listed in {answer_3}, find the ones with careers spanning at least three presidential administrations.\", answer_3=answer_3)\nanswer_5: str = qa_model(\"Of those found in {answer_4}, identify the latest one still alive.\", answer_4=answer_4)\nanswer_6: str = qa_model(\"If there is more than one person like this, pick any one; if none, then just select anyone else among them.\")\nanswer_7: str = qa_model(\"What state did {answer_6} represent?\", answer_6=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "afc20de1",
+    "question": "How long did the longest serving senator in Massachusetts history serve in the Senate?",
+    "dsl": "answer_1: str = qa_model('Who is the longest-serving senator in Massachusetts history?')\nanswer_2: str = qa_model(f\"How long did {{answer_1}} serve in the U.S. Senate?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "83f517fe",
+    "question": "Who is the wife of the 23rd president?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 23rd President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1}'s spouse\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "72caf140",
+    "question": "In what year did the first American president to be assassinated die?",
+    "dsl": "answer_1: str = qa_model('Who was the first US President to be assassinated.')\nanswer_2: str = qa_model('{answer_1} died in what year?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6dc5d2d8",
+    "question": "Who was the wife of the 1st president of the United States?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 1st President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1}. spouse\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "44553d7e",
+    "question": "How old in years was the oldest American president when he first assumed office?",
+    "dsl": "answer_1: str = qa_model(\"Who has been the oldest President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1} was born in what year?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what year did {answer_1} assume office?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"How many years old was {answer_1} in {answer_3}?\", answer_1=answer_1, answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "4f67a88e",
+    "question": "The youngest governor is from which state?",
+    "dsl": "answer_1: str = qa_model(\"Who is the youngest current governor?\")\nanswer_2: str = qa_model(\"From what U.S. state is {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "165527c2",
+    "question": "Which Law School did the wife to Bill Clinton attend?",
+    "dsl": "answer_1: str = qa_model('Who is the spouse of Bill Clinton?')\nanswer_2: str = qa_model('{answer_1} attended what law school?', answer_1='Hillary Clinton')",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6613db77",
+    "question": "How many Supreme Court Justices were nominated by the president, the most in history?",
+    "dsl": "answer_1: str = qa_model('Who has made the most nominations to the US Supreme Court?')\nanswer_2: str = qa_model('{answer_1}, how many justices did they nominate?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "b1251903",
+    "question": "The first United States president to be born in the 20th century was a Lieutenant in which branch of the United States military?",
+    "dsl": "answer_1: str = qa_model('What year was the first US President born in the twentieth century?')\nanswer_2: int = qa_model(f\"What is {answer_1}?\") # This will return an integer so we need to change it back to string \nanswer_2: str = str(answer_2)\nyear_str = \"twentieth\"\nif(int(answer_2)<1900):\n    year_str=\"nineteenth\"\n\nanswer_3: str = qa_model(f\"In what branch of service was George W Bush before he became president when he was young ?\")\n\nanswer_4: str = qa_model(f\"Was {answer_3} true about John F Kennedy , Richard Nixon , Gerald Ford , Jimmy Carter , Ronald Reagan , George H.W.Bush , Bill Clinton ,George W.Bush or Donald Trump ?\")\n\n\nanswer_5: bool = qa_model(f\"'{answer_4}' is this statement true about whom ? \", answer_4=answer_4)\n\n\nassert answer_5 == True\n\n\nanswer_6:str=qa_model(f\"If {answer_5} then what branch of service was the first us president born in the {year_str} century ?\", answer_5=answer_5 )\n\nprint(answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6c31f76d",
+    "question": "Which party did the US president during Desert Storm belong to?",
+    "dsl": "answer_1: str = qa_model(\"During what conflict was George H.W. Bush serving as President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1} was served by which political party?\", answer_1=\"Desert Storm\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c0d02e79",
+    "question": "What organization was Gordon Freeman's primary antagonist in the second Half-Life game?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the protagonist in the video game series Half-Life?\")\nanswer_2: str = qa_model(\"{answer_1}'s primary antagonist in the second Half-Life game\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What organization is {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "8cd5f008",
+    "question": "When was the third game of the Legend of Zelda series released in North America?",
+    "dsl": "answer_1: str = qa_model('What is the name of the third game in The Legend of Zelda video game series?')\nanswer_2: str = qa_model('In what year was \"{answer_1}\" released?', answer_1=answer_1)\nanswer_3: str = qa_model('In which region was \"{answer_2}\" initially released?', answer_2=answer_2)\nanswer_4: str = qa_model('{answer_3}', answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "730ae437",
+    "question": "What game came with the original NES and uses a light gun?",
+    "dsl": "answer_1: str = qa_model('What console is known as the \"NES\"?')\nanswer_2: str = qa_model('{answer_1}\\'s release year', answer_1=answer_1)\nanswer_3: str = qa_model('What games were bundled with the \"{answer_2}\"?', answer_2=answer_2)\nanswer_4: str = qa_model('Is any game among {answer_3} a shooter?', answer_3=answer_3)\nanswer_5: str = qa_model('Does this shooter use a light gun?', answer_4=answer_4)\nanswer_6: str = qa_model('If yes, what is its name?', answer_5=answer_5)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "de227515",
+    "question": "What was the initial release date for the Halo game that grossed US $170 million on the first day of its release?",
+    "dsl": "answer_1: str = qa_model('Which Halo game made US$170 million on its first day of sales?')\nanswer_2: str = qa_model('On what date was \"{answer_1}\" initially released?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1dcacf3d",
+    "question": "Who is the main antagonist in the game featuring Donkey Kong that was released on November 21, 1994?",
+    "dsl": "answer_1: str = qa_model(\"On what date was the original Donkey Kong game released?\")\nanswer_2: str = qa_model(\"{answer_1}, what year was the game featuring Donkey Kong released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is there more than one version of the game featuring Donkey Kong?\")\nanswer_4: str = qa_model(\"If {answer_3} == True, list all versions; otherwise, return the name of the version released on November 21\", answer_3=answer_3)\nanswer_5: str = qa_model(\"Who is the main antagonist in the game '{answer_4}'?\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "4f324703",
+    "question": "Who is the main character in the first GTA?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the first Grand Theft Auto game?\")\nanswer_2: str = qa_model(\"Who is the main character in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "4f485cdf",
+    "question": "Who is the most popular in the last NBA 2k game?",
+    "dsl": "answer_1: str = qa_model('What is the latest release number of the NBA 2K series?')\nanswer_2: str = qa_model('What players were featured on the cover of the {answer_1}?', answer_1=answer_1)\nanswer_3: str = qa_model('Which player among {answer_2} has the highest overall rating?', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "fe87e76a",
+    "question": "When was the second game in the Dragon Age series released?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the sequel to the original Dragon Age video game?\")\nanswer_2: str = qa_model(\"On what date was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9a0f9046",
+    "question": "Who is the protagonist in the tenth Final Fantasy game?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the tenth Final Fantasy game?\")\nanswer_2: str = qa_model(\"Who is the main protagonist of '{answer_1}'\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "33a4d66e",
+    "question": "When was the final game in Kingdom Hearts' Xehanort Saga released?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the saga within the Kingdom Hearts series known to feature Xehanort?\")\nanswer_2: str = qa_model(\"How many games make up the '{answer_1}' saga?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is the last game in the list provided by {answer_2} part of the '{answer_1}' saga?\", answer_1=answer_1, answer_2=answer_2)\nanswer_4: str = qa_model(\"If yes, what is the release date of the last game mentioned in {answer_3}?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "fdf3f356",
+    "question": "Who is the hero of the princess that lives in Hyrule castle?",
+    "dsl": "answer_1: str = qa_model(\"In what location can you find Princess Peach's castle?\")\nanswer_2: str = qa_model(\"{answer_1} has a princess living in it.\", answer_1=answer_1)\nanswer_3: str = qa_model(\"The hero of '{answer_2}' is\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "03e27645",
+    "question": "When was the release date for the third game in the Legend of Zelda series?",
+    "dsl": "answer_1: str = qa_model('What is the name of the third game in The Legend of Zelda series?')\nanswer_2: str = qa_model('On what date was \"{answer_1}\" released?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c5d31018",
+    "question": "What is the name of the fourth zone in the third Sonic the Hedgehog game?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the third Sonic the Hedgehog game?\")\nanswer_2: str = qa_model(\"How many zones are there in '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the fourth zone in '{answer_2}'?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "fda4401b",
+    "question": "Who is the adoptive brother of the main character of Assassin's Creed Valhalla?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the main character in Assassin's Creed Valhalla?\")\nanswer_2: str = qa_model(\"Who is the adoptive brother of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9af562a1",
+    "question": "Who is the protagonist of the 13th Final Fantasy game?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the thirteenth Final Fantasy game?\")\nanswer_2: str = qa_model(\"Who is the main protagonist of '{answer_1}'\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5308a78a",
+    "question": "Who is the final boss in the original Castlevania game?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the original Castlevania video game?\")\nanswer_2: str = qa_model(\"Who is the final boss in '{answer_1}'\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "04906548",
+    "question": "How many times has Bill Clinton's wife given birth?",
+    "dsl": "answer_1: str = qa_model(\"Who is the spouse of former US President Bill Clinton?\")\nanswer_2: str = qa_model(\"How many children do {answer_1} have?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "636abb8c",
+    "question": "On what date did the president of the United States during the Civil War give his famous Gettysburg address?",
+    "dsl": "answer_1: str = qa_model(\"During which war was the president of the United States giving the Gettysburg Address?\")\nanswer_2: str = qa_model(\"Who was the president of the United States during {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On what date did {answer_2} deliver the Gettysburg Address?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "02edf56a",
+    "question": "What was the original published language of John Calvin's first theological treatise?",
+    "dsl": "answer_1: str = qa_model(\"Who is John Calvin?\")\nanswer_2: str = qa_model(\"What was his first major work related to theology?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what language was '{answer_2}' originally published?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "463cd9b2",
+    "question": "What type of eyewear was credited to have been invented by the first Postmaster General?",
+    "dsl": "answer_1: str = qa_model(\"Who was the first Postmaster General?\")\nanswer_2: str = qa_model(\"What invention is attributed to {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"{answer_2} what type of product?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3d242bf6",
+    "question": "Who was the second wife of the 40th US president?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 40th President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1}. Which one of his wives was his second spouse?\", answer_1=answer_1) \nanswer_3: str = qa_model(\"{answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "aa423d1a",
+    "question": "When was the oldest parliament in world history established?",
+    "dsl": "answer_1: str = qa_model('What is the name of the oldest continuously operating parliamentary system in the world?')\nanswer_2: str = qa_model('When was {answer_1} established?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "2b6743e5",
+    "question": "How many stars were on the original flag of the country that declared independence from Great Britain in 1776?",
+    "dsl": "answer_1: str = qa_model(\"In what year did the United States declare its independence from Great Britain?\")\nanswer_2: str = qa_model(\"{answer_1}\", answer_1=\"1776\") # Corrected line \nanswer_3: str = qa_model(\"From which country did the US declare its independence in {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What is the name of the country whose flag had an original design with multiple colors including red white blue and other colors?\")\nanswer_5: str = qa_model(\"Describe the color pattern of the flag of {answer_4}.\", answer_4=answer_4)\nanswer_6: str = qa_model(\"On the flag of {answer_4}, how many points do the star(s) have?\", answer_4=answer_4)\nanswer_7: str = qa_model(\"Are there any stars on the flag of {answer_4}? If yes then how many.\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0442038f",
+    "question": "How old was the French leader Napoleon when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who is the French leader known as Napoleon?\")\nanswer_2: str = qa_model(\"On what date did {answer_1} die?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what year was {answer_2}\", answer_2=answer_2)\nanswer_4: str = qa_model(\"How old was {answer_1} in {answer_3}?\", answer_1=answer_1, answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "2b2c4f25",
+    "question": "What was the year in which the lover of Marc Anthony and ruler of Egypt died?",
+    "dsl": "answer_1: str = qa_model(\"Who is the lover of Marc Anthony?\")\nanswer_2: str = qa_model(\"{answer_1}, what is your profession if you were an ancient Egyptian queen?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is it true that you ruled Egypt at some point?\")\nanswer_4: str = qa_model(\"If yes, when did you die?\", answer_3=\"yes\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "f6640eb4",
+    "question": "What was the final major European battle of the war that primarily featured the man called Adolf Hitler?",
+    "dsl": "answer_1: str = qa_model('Who is known by the nickname \"Adolf\"?')\nanswer_2: str = qa_model('{answer_1} led what conflict?', answer_1='Hitler')\nanswer_3: str = qa_model('Was \"{answer_2}\" fought mainly in Europe?', answer_2=answer_2)\nanswer_4: str = qa_model('If yes, then what was the last big fight between opposing forces during \"{answer_3}\"', answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9afa8edd",
+    "question": "Who was in charge of Great Britain during World War 2?",
+    "dsl": "answer_1: str = qa_model(\"During what war were there significant global conflicts involving most of the world's nations?\")\nanswer_2: str = qa_model(\"{answer_1} involved which countries?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Which countries made up the United Kingdom?\")\nanswer_4: str = qa_model(\"Of these countries, which one refers to England, Scotland, Wales, and Northern Ireland collectively?\")\nanswer_5: str = qa_model(\"Who led {answer_4} during {answer_2}?\", answer_2=answer_2, answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5db4dd1f",
+    "question": "How old was the emperor of the French, who ruled from 1804 to 1814, when he passed away?",
+    "dsl": "answer_1: str = qa_model(\"Who was the Emperor of France from 1804 to 1814?\")\nanswer_2: str = qa_model(\"From what year to what year did {answer_1} rule?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"{answer_1} died in what year?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"In what year was Napoleon Bonaparte born?\", )\nanswer_5: str = qa_model(\"How old was {answer_4} when they died?\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7e5e9c95",
+    "question": "At what age did the son of King Philip II become the king of Macedonia?",
+    "dsl": "answer_1: str = qa_model(\"Who is the father of Alexander III of Macedon?\")\nanswer_2: str = qa_model(\"{answer_1}, how old was his son when he became king of Macedonia?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "8a6a8515",
+    "question": "How old was the explorer who discovered North America when he landed there?",
+    "dsl": "answer_1: str = qa_model(\"Who is credited with discovering North America?\")\nanswer_2: str = qa_model(\"On what date did {answer_1} land in North America?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what year was {answer_2}\", answer_2=answer_2)\nanswer_4: str = qa_model(\"How old was {answer_1} in {answer_3}?\", answer_1=answer_1, answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9416adc9",
+    "question": "Who was the spouse of the eldest child of King Louis XVI?",
+    "dsl": "answer_1: str = qa_model(\"Who is King Louis XVI?\")\nanswer_2: str = qa_model(\"{answer_1}'s eldest child\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Spouse of {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c9ac50f7",
+    "question": "Who was the pilot of Lunar Module during the first Apollo Mission?",
+    "dsl": "answer_1: str = qa_model(\"What was the name of the first Apollo mission?\")\nanswer_2: str = qa_model(\"What type of module was used by {answer_1} to land on the moon?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who piloted the {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "990c63bd",
+    "question": "Who was the leader of the country that invaded Russia in 1812?",
+    "dsl": "answer_1: str = qa_model(\"Which country invaded Russia in 1812?\")\nanswer_2: str = qa_model(\"Who led {answer_1} during this invasion?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5d940b68",
+    "question": "Who is the leader of the country that the United States broke free of in 1776?",
+    "dsl": "answer_1: str = qa_model(\"In what year did the United States break free from another country?\")\nanswer_2: str = qa_model(\"{answer_1}\", answer_1=\"1776\") # This line should return \"1776\"\nanswer_3: str = qa_model(\"From whom did the US break free in {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who led this other country at some point before its independence from the US?\")\nanswer_5: str = qa_model(\"{answer_4}\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "447e31d9",
+    "question": "Who was the first wife of Queen Elizabeth II's eldest son?",
+    "dsl": "answer_1: str = \"Queen Elizabeth II\"\nanswer_2: str = qa_model(\"Who is the eldest son of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is there any information about marriage history of {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"If yes then what were names of wives of {answer_2} ordered by their order of marriage?\", answer_2=answer_2)\nanswer_5: str = qa_model(\"What is name of first wife of {answer_4}?\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ab9a9506",
+    "question": "Who was the assassin of the man who was president of the United States in 1963?",
+    "dsl": "answer_1: str = qa_model(\"Who was the President of the United States in 1963?\")\nanswer_2: str = qa_model(\"{answer_1}. In what year did they become assassinated?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"The assassination of {answer_2}. Who carried out this act?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1eda5d4d",
+    "question": "Who was president of the United States when Pearl Harbor was attacked?",
+    "dsl": "answer_1: str = qa_model(\"On what date was the attack on Pearl Harbor?\")\nanswer_2: str = qa_model(\"Who was the President of the United States at the time of '{answer_1}'?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "e79774c0",
+    "question": "When was the director of Child's Play born?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film 'Child\\'s Play'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "83e7d209",
+    "question": "When was the director of We're the Millers born?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the director of the film 'We\\'s the Millers'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5754de2d",
+    "question": "When was the director of Curse of Chucky born?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film 'Curse of Chucky'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1812ba81",
+    "question": "How old was the singer of Dio when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who was the lead vocalist of the heavy metal band Dio?\")\nanswer_2: str = qa_model(\"{answer_1} passed away at what age?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9d4dccb3",
+    "question": "Where did the rapper in the song \"I am different\" graduate college from?",
+    "dsl": "answer_1: str = qa_model('Who performed the song \"I Am Different\"?')\nanswer_2: str = qa_model('{answer_1}\\'s educational background', answer_1=answer_1)\nanswer_3: str = qa_model('From what institution did {answer_2} graduate?', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5cb83719",
+    "question": "How old was the artist who released the album \"Reasonable Doubt\" when it was released?",
+    "dsl": "answer_1: str = qa_model(\"Who released the album 'Reasonable Doubt'?\") \nanswer_2: str = qa_model(\"{answer_1} was born in what year?\", answer_1=qa_model(\"Who released the album 'Reasonable Doubt'?\")) \nanswer_3: str = qa_model(\"'Reasonable Doubt' was released in what year?\", ) \nanswer_4: str = qa_model(\"Subtract {answer_3} from {answer_2}\", answer_2=answer_2, answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3c369277",
+    "question": "How old was the deceased TLC member when they died?",
+    "dsl": "answer_1: str = qa_model(\"Which female R&B group consisted of Left Eye, T-Boz, and Chilli?\")\nanswer_2: str = qa_model(\"{answer_1}'s member Lisa Lopes passed away at what age?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "4b066327",
+    "question": "How old was John Lennon when The Beatles formed?",
+    "dsl": "answer_1: str = qa_model(\"When were The Beatles formed?\")\nanswer_2: str = qa_model(\"On what date was John Lennon born?\")\nanswer_3: str = qa_model(\"{answer_2}, how old was John Lennon when The Beatles formed at {answer_1}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0ae19309",
+    "question": "When did the singer of Alice In Chains die?",
+    "dsl": "answer_1: str = qa_model(\"Is the vocalist of the grunge band Alice In Chains male?\")\nanswer_2: str = qa_model(\"{answer_1}. If so, what is his name?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Was {answer_2} deceased by 2010?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"If yes, when did he pass away?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "b5d64c8f",
+    "question": "Who is the daughter of the singer of the song \"Roar\"?",
+    "dsl": "answer_1: str = qa_model('Who sings the song \"Roar\"')\nanswer_2: str = qa_model('{answer_1}s spouse', answer_1=answer_1)\nanswer_3: str = qa_model('Does {answer_2} have any daughters?', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0e274298",
+    "question": "How old is the quarterback of the Tampa Bay Buccaneers?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current quarterback of the Tampa Bay Buccaneers?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is someone born in {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7987cd85",
+    "question": "Where was the starting quarterback of the 2019 Seahawks born?",
+    "dsl": "answer_1: str = qa_model(\"Who was the starting quarterback for the Seattle Seahawks in 2019?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "304b59eb",
+    "question": "Who was the top scorer of the Copa America tournament this year?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the current year?\")\nanswer_2: str = qa_model(\"{answer_1} Copa America winner\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Top scorer of {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9d2a6039",
+    "question": "How old is the current manager of Real Madrid?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current manager of Real Madrid?\")\nanswer_2: str = qa_model(\"As of what date do we know about {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On what date were you last updated?\")\nanswer_4: str = qa_model(\"In what year was {answer_3}?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"{answer_1} birthdate\", answer_1=answer_1)\nanswer_6: str = qa_model(\"What is the age difference between {answer_4} and {answer_5}?\", answer_4=answer_4, answer_5=answer_5)\nanswer_7: str = qa_model(\"Is today after January 1st this year?\")\nanswer_8: str = qa_model(\"If yes then add {answer_6} to 1900 else return {answer_6}\", answer_6=answer_6)\nanswer_9: str = qa_model(\"Add 100 years to {answer_8}.\", answer_8=answer_8) \nanswer_10: str = qa_model(\"Subtract {answer_9} from the current year.\", answer_9=answer_9)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "88c5cc4f",
+    "question": "How old is the current manager of Barcelona FC?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current manager of Barcelona FC?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is someone born in {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "32b9d2f8",
+    "question": "How old is the winner of the 2020 Nobel Prize in Literature?",
+    "dsl": "answer_1: str = qa_model(\"Who won the 2020 Nobel Prize in Literature?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "48642564",
+    "question": "When did the author who wrote Martin's Mice die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the book 'Martin\\'s Mice'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "54ca06ca",
+    "question": "When did the author who wrote A Tale of Two Cities die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'A Tale of Two Cities'?\") \nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "16e3c6d4",
+    "question": "The person whose first book was A Time to Kill served in what legislative body?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of John Grisham's debut novel?\")\nanswer_2: str = qa_model(\"Did {answer_1} serve in Congress?\", answer_1=answer_1) \nanswer_3: str = qa_model(\"{answer_2}?\".format(answer_2=answer_2)) # This line will throw an error because it uses string formatting instead of f-string.\nanswer_4: str = qa_model(f\"{answer_3}\", answer_3=answer_3) # Using this method would also work but we can just use answer_3 directly since its already been formatted correctly by the previous line. So lets remove this line altogether.\nanswer_5: str = qa_model(\"If so, then what legislative body did he serve in?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7329c676",
+    "question": "After publishing A Time to Kill, which book did its author begin working on immediately?",
+    "dsl": "answer_1: str = qa_model('Who published \"A Time to Kill\"?')\nanswer_2: str = qa_model('{answer_1}, what other book did John Grisham publish after \"A Time to Kill\"?', answer_1='John Grisham')",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "cf1988b9",
+    "question": "Who is the director that made the movies based on the Hobbit book?",
+    "dsl": "answer_1: str = qa_model(\"What books were adapted to make The Hobbit trilogy?\")\nanswer_2: str = qa_model(\"What is the name of the trilogy based on '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed the movies in the '{answer_2}' series?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "795c7599",
+    "question": "Who wrote the books that the Game of Thrones HBO show was based on?",
+    "dsl": "answer_1: str = qa_model(\"What TV series is based on a set of fantasy novels by George R.R. Martin?\")\nanswer_2: str = qa_model(\"Who is the author of those fantasy novels?\")\nanswer_3: str = qa_model(\"{answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c999b363",
+    "question": "What is the capital of the country with the highest population in the world?",
+    "dsl": "answer_1: str = qa_model(\"What is the most populous country in the world?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3b26d221",
+    "question": "Who signed the world's smallest country into place?",
+    "dsl": "answer_1: str = qa_model('What is the name of the world\\'s smallest internationally recognized sovereign state?')\nanswer_2: str = qa_model('{answer_1} capital city', answer_1='Vatican City') \nanswer_3: str = qa_model('The head of government of {answer_2}', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "2cc1a1f6",
+    "question": "What is the largest city in the country where Mount Fuji is located?",
+    "dsl": "answer_1: str = qa_model(\"In what country is Mount Fuji located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is Tokyo larger than {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"{answer_3}. If yes, then what is the largest city in Japan?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "540c6b11",
+    "question": "What is the tallest building in the country whose capital city is Kuala Lumpur?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital city of Malaysia?\")\nanswer_2: str = qa_model(\"{answer_1} is the capital city of what country?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the tallest building in {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "8aea53b1",
+    "question": "In what year did the politician born on November 20, 1942 win the U.S. presidential election?",
+    "dsl": "answer_1: str = qa_model('Who was born on November 20, 1942?')\nanswer_2: str = qa_model('What political position has {answer_1} held?', answer_1=answer_1)\nanswer_3: str = qa_model('{answer_2}?'.format(answer_2=answer_2))\nanswer_4: str = qa_model('Has {answer_3} ever won a US Presidential Election?'.format(answer_3=answer_3))\nanswer_5: str = qa_model('If yes then when did they win it?.{answer_4}'.format(answer_4=answer_4))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "15e40e97",
+    "question": "What was the name of the intern the 35th president had an affair with?",
+    "dsl": "answer_1: str = qa_model('Who was the 35th President of the United States?')\nanswer_2: str = qa_model('{answer_1}\\'s mistress during his presidency', answer_1=answer_1) \nanswer_3: str = qa_model('The name of {answer_2}', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1ecc955a",
+    "question": "Who is the wife of the 44th president of the United States who was also the first Black American president?",
+    "dsl": "answer_1: str = \"Barack Obama\"\nanswer_2: str = f\"What is the name of the spouse of {answer_1}?\"\nanswer_3: str = qa_model(answer_2, answer_1=answer_1) \nanswer_4: str = f\"Is {answer_3} female?\" \nanswer_5: str = qa_model(answer_4, answer_3=answer_3)  \nif answer_5 == \"yes\":\n    answer_6: str = f\"{answer_3}\"\nelse:\n    answer_6: str = f\"No one\"\n\nprint(f\"The final answer is ${answer_6}.\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "06a8853f",
+    "question": "Who was the U.S. president when the an atomic bomb was detonated in Japan?",
+    "dsl": "answer_1: str = qa_model(\"On what date was an atomic bomb detonated in Japan?\")\nanswer_2: str = qa_model(\"Who was the President of the United States at time of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "121be4e6",
+    "question": "What political party did the 18th U.S. president belong to?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 18th President of the United States?\")\nanswer_2: str = qa_model(\"What political affiliation did {answer_1} hold?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "65d0920e",
+    "question": "How old was the 41st president of the United States when he passed away in 2018?",
+    "dsl": "answer_1: str = qa_model('Who was the 41st President of the United States?')\nanswer_2: str = qa_model('{answer_1} died in what year?', answer_1='George H.W. Bush') # George H W bush \nanswer_3: str = qa_model('Was it before or after his death in {year}? The year is 2018.', year=2018)\nanswer_4: str = qa_model('If it was after then how much older than him would you need to add to get to 2018', age_to_add=None)\nanswer_5: str = qa_model('How old was {name} in {year}?', name='George H.W.Bush', year=2018 - int(answer_4))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "70ab78eb",
+    "question": "How long was the oldest American president in office for?",
+    "dsl": "answer_1: str = qa_model(\"Who has been the longest serving President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1}. Was he an American by birth?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"If yes, how old was {answer_2} when they took office?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"How long was {answer_3} in office for?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "f750e2bc",
+    "question": "How tall is the actor who played Legolas?",
+    "dsl": "answer_1: str = qa_model(\"Who portrayed Legolas in the Lord of the Rings movies?\")\nanswer_2: str = qa_model(\"What is the height of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "46148e7d",
+    "question": "Who was the quarterback of the team that won Super Bowl 50?",
+    "dsl": "answer_1: str = qa_model(\"Which team won Super Bowl 50?\")\nanswer_2: str = qa_model(\"Who was the starting quarterback for {answer_1} during their win at Super Bowl 50?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "61eb1e66",
+    "question": "What is the tallest building in the capital city of the UK?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital city of the United Kingdom?\")\nanswer_2: str = qa_model(\"What is the tallest building in {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "678c0c86",
+    "question": "Who was the wife of the 23rd president?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 23rd President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1}'s spouse\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "8e04963e",
+    "question": "Which senator was the first person in space over the age of Neil Peart when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who was the drummer for Rush?\")\nanswer_2: int = qa_model(\"At what year did {answer_1} pass away?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Neil Peart passed away at {answer_2}.\", answer_2=str(answer_2))\nanswer_4: str = qa_model(\"{answer_3}, how old was Neil Peart when he died?\", answer_3=answer_3)\nanswer_5: float = qa_model(\"How old was {answer_1} when he died?\", answer_1=answer_1)\nanswer_6: str = qa_model(\"If Neil Peart was {answer_5} years old when he died, then any number greater than this would work.\", )\nanswer_7: str = qa_model(\"The first US Senator to go to space after {answer_5}\", answer_5=answer_5)\nanswer_8: str = qa_model(\"Is {answer_7} older than {answer_5}? \", answer_7=answer_7)\nanswer_9: bool = qa_model(\"Was {answer_7} sent to space before anyone else after {answer_5} if they were indeed older?\", answer_7=answer_7)\nanswer_10: str = qa_model(\"Did {answer_7} become an astronaut later in life compared to others?\", answer_7=answer_7)\nanswer_11: str = qa_model(\"Were there other astronauts younger than {answer_7} but still went to space after {answer_5}?\", answer_7=answer_7)\nanswer_12: str = qa_model(\"Then it can't be them because they weren't the oldest one going to space after {answer_5}.\", answer_5=answer_5)\nanswer_13: str = qa_model(\"So we need someone even OLDER than {answer_7} who also became an astronaut after {answer_5}.\", answer_7=answer_7)\nanswer_14: str = qa_model(\"This means our target has to be both older AND more recent than {answer_7}.\", answer_7=answer_7)\nanswer_15: str = qa_model(\"Therefore, the correct answer should be the most RECENT senator to reach orbit after being older than {answer_5}.\", answer_5=answer_5)\nanswer_16: str = qa_model(\"That leaves us with just ONE possible candidate - the most recently launched senator who fits all these conditions.\")\nanswer_17: str = qa_model(\"And that senator is...\") \nanswer_18: str = qa_model(\"I couldn't find information about senators reaching space.\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "750c7822",
+    "question": "What is the population of the largest city in the country south of Canada?",
+    "dsl": "answer_1: str = qa_model(\"What countries share borders with Canada to the south?\")\nanswer_2: str = qa_model(\"{answer_1}\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the largest city in {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What is the population of {answer_3}?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0aaf345f",
+    "question": "What is the tallest building in the capital city of Chile?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital city of Chile?\")\nanswer_2: str = qa_model(\"What is the name of the tallest building in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c75eff9f",
+    "question": "What is the tallest building in the capital of Rhode Island?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital of Rhode Island?\")\nanswer_2: str = qa_model(\"What is the name of the tallest building in {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "40354630",
+    "question": "What is the tallest mountain in the state that has a capital called Montgomery?",
+    "dsl": "answer_1: str = qa_model('What US state has its capital named Montgomery?')\nanswer_2: str = qa_model('What is the highest point in {answer_1}?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "05239cd8",
+    "question": "What is the population of the U.S. state that is an island?",
+    "dsl": "answer_1: str = qa_model(\"Is there any US state that is an island?\")\nanswer_2: str = qa_model(\"If {answer_1}, what is it?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the population of {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "45279ea1",
+    "question": "Who was the wife of the U.S. president during the attack on the Trade Center?",
+    "dsl": "answer_1: str = qa_model(\"During what event were both towers of the World Trade Center attacked?\")\nanswer_2: str = qa_model(\"Who was the President of the United States at the time of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Was {answer_2} married when he became President?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"{answer_3}. If yes, then who was his spouse?\", answer_3=answer_3) \nanswer_5: str = qa_model(\"Is there any information about this person being referred to with another name like nickname?\", answer_4=answer_4)\nanswer_6: str = qa_model('If yes, then what is her other known name?', answer_5=answer_5)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c22b6f2c",
+    "question": "What famous historical playwright wrote a play involving the person who crossed the Rubicon?",
+    "dsl": "answer_1: str = qa_model(\"Who famously crossed the river Rubicon?\")\nanswer_2: str = qa_model(\"Who wrote plays about Julius Caesar?\")\nanswer_3: str = qa_model(\"{answer_2} who also wrote about {answer_1}\", answer_2=answer_2, answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "817374ba",
+    "question": "Who was a relative of the second president who also became a president?",
+    "dsl": "answer_1: str = qa_model('Who was the second President of the United States?')\nanswer_2: str = qa_model('{answer_1}', answer_1=answer_1)\nanswer_3: str = qa_model('Were any relatives of {answer_2} become U.S Presidents?', answer_2=answer_2)\nanswer_4: str = qa_model('{answer_3}', answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "e6f29b34",
+    "question": "Where was the last queen of Egypt born?",
+    "dsl": "answer_1: str = qa_model(\"Who is the last queen of Egypt?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "b38b982c",
+    "question": "How old is the current coach of Los Angeles Lakers?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current head coach of the Los Angeles Lakers?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is {answer_2}\", answer_2=qa_model(\"{answer_2}.year - 1900\", answer_2=answer_2))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "8fd28dfe",
+    "question": "What country was the 2008 MLB National League MVP born in?",
+    "dsl": "answer_1: str = qa_model(\"Who won the 2008 Major League Baseball National League Most Valuable Player award?\")\nanswer_2: str = qa_model(\"In what country was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "f01745e8",
+    "question": "What state was the current head coach of the Pittsburgh Steelers born in?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current head coach of the Pittsburgh Steelers?\")\nanswer_2: str = qa_model(\"In what state was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "430bff30",
+    "question": "Who is the second child of the novelist who wrote the novel The Green Mile?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'The Green Mile'?\") \nanswer_2: str = qa_model(\"{answer_1}. How many children do they have?\", answer_1=answer_1) \nanswer_3: str = qa_model(\"List the children of {answer_2}\", answer_2=answer_2) \nanswer_4: str = qa_model(\"Is there an ordinal number associated with any one of {answer_3}?\", answer_3=answer_3) \nanswer_5: str = qa_model(\"Identify the item at position two in {answer_4}\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ced5adfa",
+    "question": "When was the second game of the God of War series released in North America?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the sequel to the original God of War video game?\")\nanswer_2: str = qa_model(\"On what date was '{answer_1}' released in North America?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "691eedf8",
+    "question": "When was the second Call of Duty game released?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the sequel to the original Call of Duty game?\")\nanswer_2: str = qa_model(\"On what date was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "27214402",
+    "question": "When was the fifth Mario Kart released?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the series featuring Mario characters racing?\")\nanswer_2: str = qa_model(\"{answer_1} has had how many games released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What year was the '{answer_2}'th game in the '{answer_1}' series released?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c395ab46",
+    "question": "The candidate who became the 44th U.S. president ran ads for his first presidential campaign in which Madden NFL game?",
+    "dsl": "answer_1: str = qa_model('Who became the 44th President of the United States?')\nanswer_2: str = qa_model('{answer_1}\\'s first presidential campaign occurred before what year?', answer_1='Barack Obama') # Assuming it to be Barack Obama \nanswer_3: str = qa_model('Before {answer_2}, which version of Madden NFL had been released?', answer_2='2008')",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a04200ad",
+    "question": "Who is the main protagonist of the second Metal Gear game?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the sequel to the original Metal Gear game?\")\nanswer_2: str = qa_model(\"Who is the main character in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1dd67401",
+    "question": "Who is the main captor of Mario's love interest?",
+    "dsl": "answer_1: str = qa_model(\"Who is Mario's love interest?\")\nanswer_2: str = qa_model(\"Who typically captures {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "802f3768",
+    "question": "How old was the founder of the Rolling Stones when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who founded the rock band The Rolling Stones?\")\nanswer_2: str = qa_model(\"{answer_1} died at what age?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "e5070390",
+    "question": "How old was the singer of Dreaming of You when she married Chris Perez?",
+    "dsl": "answer_1: str = qa_model(\"Who is the singer featured in the album 'Dreaming of You'?\")\nanswer_2: str = qa_model(\"{answer_1} married whom in 1990?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Was {answer_2} alive at the time of their marriage?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"If yes, how old was {answer_2} then?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1e81dfc8",
+    "question": "What year did the biggest hit of the band Kajagoogoo come out?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the most successful song by the British pop group Kajagoogoo?\")\nanswer_2: str = qa_model(\"In what year was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7d128d9d",
+    "question": "How tall is the singer of \"Dear Mama\"?",
+    "dsl": "answer_1: str = qa_model(\"Who sang the song 'Dear Mama'?\") \nanswer_2: str = qa_model(\"Is {answer_1} male?\", answer_1=answer_1) \nanswer_3: str = qa_model(\"If yes, what sport has {answer_2} participated in professionally?\", answer_2=answer_2) \nanswer_4: str = qa_model(\"Has {answer_3} ever been an NBA player?\", answer_3=answer_3) \nanswer_5: str = qa_model(\"{answer_4}? If so, how tall is he?\", answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7a88aae7",
+    "question": "When was the first Animal Crossing game released?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the first game in the Animal Crossing series?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "2652ec2b",
+    "question": "Which award did the first puzzle game by Fireproof Games win at the British Academy Video Games Awards?",
+    "dsl": "answer_1: str = qa_model(\"Is Fireproof Games known for developing puzzle games?\")\nanswer_2: str = qa_model(\"{answer_1}. If so, what is the name of their first such game?\", answer_1=\"Yes\" if answer_1 == \"Yes\" else answer_1)\nanswer_3: str = qa_model(\"At which awards ceremony has '{answer_2}' won an award?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What type of award did '{answer_3}' win at the British Academy Video Games Awards?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "447274f8",
+    "question": "Who was the starting first baseman for the 1927 World Series Champions?",
+    "dsl": "answer_1: str = qa_model(\"Who were the champions of the 1927 World Series?\")\nanswer_2: str = qa_model(\"What position did {answer_1} play?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"{answer_2} player\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ec34b32a",
+    "question": "How old was the singer of \"When Doves Cry\" when he died?",
+    "dsl": "answer_1: str = qa_model('Who sang the song \"When Doves Cry\"?')\nanswer_2: str = qa_model('{answer_1} died when?', answer_1='Prince')\nanswer_3: str = qa_model('What year was {answer_2}?'.format(answer_2=qa_model(\"{answer_1}\", answer_1=\"when Prince died\")))\nanswer_4: str = qa_model('How old was {answer_1} in {answer_3}?', answer_1='Prince', answer_3=qa_model(\"{answer_2}.year\", answer_2=qa_model(\"{answer_1}\", answer_1=\"when Prince died\")))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ebfa5a1a",
+    "question": "How tall is the actor who played Jerry Maguire in Jerry Maguire?",
+    "dsl": "answer_1: str = qa_model(\"Who played Jerry Maguire in the film 'Jerry Maguire'?\")\nanswer_2: str = qa_model(\"What is the name of the film starring {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who played the role of {answer_1}?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"What is the height of {answer_3}?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3ba52364",
+    "question": "Which brother of the 35th U.S. president was also assassinated?",
+    "dsl": "answer_1: str = qa_model('Who was the 35th President of the United States?')\nanswer_2: str = qa_model('{answer_1} had how many brothers?', answer_1=answer_1)\nanswer_3: str = qa_model('Were any of {answer_2} brothers assassinated?', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5668f4d1",
+    "question": "In what year did the author of Owl Moon win a Caldecott Award?",
+    "dsl": "answer_1: str = qa_model(\"Who is the author of the book 'Owl Moon'?\")\nanswer_2: str = qa_model(\"{answer_1}, when did they win a Caldecott Medal?\", answer_1=answer_1) \nanswer_3: str = qa_model(\"What year did {answer_2}\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "04543bc3",
+    "question": "What university did the creator of Winnie the Pooh attend?",
+    "dsl": "answer_1: str = qa_model(\"Who created Winnie the Pooh?\")\nanswer_2: str = qa_model(\"{answer_1}'s place of birth\", answer_1=answer_1)\nanswer_3: str = qa_model(\"At what school did {answer_2} receive their education?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "72dfb112",
+    "question": "When did the author who wrote The House of Mirth die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'The House of Mirth'?\") \nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "af8a1219",
+    "question": "How old is the lead singer of No Doubt?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the lead singer of the band No Doubt?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is {answer_2}\", answer_2=qa_model(\"{answer_2}.year - 1900\", answer_2=answer_2))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "cc58eabf",
+    "question": "Who was the wife of the first African American president?",
+    "dsl": "answer_1: str = \"Barack Obama\"\nanswer_2: str = f\"What is the name of the spouse of {answer_1}?\"\nanswer_3: str = f\"Who is {answer_2}?\"",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "e22a184f",
+    "question": "Where was the guitarist from R.E.M. born?",
+    "dsl": "answer_1: str = \"Who is the guitarist for the band R.E.M.?\"\nanswer_2: str = f\"Where was {{answer_1}} born?\"",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "863655c5",
+    "question": "What is the population of the country where the \"Spanish Steps\" are located?",
+    "dsl": "answer_1: str = qa_model(\"In which city are the Spanish Steps located?\")\nanswer_2: str = qa_model(\"In what country is {answer_1} located?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the population of {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "02074df8",
+    "question": "What is the fourth main dungeon in the first Zelda game for the N64?",
+    "dsl": "answer_1: str = \"What is the first Zelda game released for the Nintendo 64?\"\nanswer_2: str = \"What is the fourth main dungeon in '{}'\".format(answer_1) \nanswer_2: str = \"What is the fourth main dungeon in '{}'\" .format(answer_1) # alternative formatting",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0d0d5bac",
+    "question": "How tall is the singer of \"3\"?",
+    "dsl": "answer_1: str = qa_model(\"What song has the lyrics 'I'm gonna tell you something I think you ought to know about your mother and mine?'\")\nanswer_2: str = qa_model(\"{answer_1} by what artist?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is this correct? The artist also sang the album '3'.\", answer_2=answer_2)\nanswer_4: str = qa_model(\"The artist who sings the album '3', how tall is he?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "da635865",
+    "question": "How old was the lead singer of Guns N' Roses when their first album came out?",
+    "dsl": "answer_1: str = qa_model(\"Who is the lead singer of Guns N' Roses?\")\nanswer_2: str = qa_model(\"{answer_1}'s debut studio album\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On what date was {answer_2} released?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What year was {answer_3}\", answer_3=answer_3)\nanswer_5: str = qa_model(\"What is the birthdate of {answer_1}?\", answer_1=answer_1)\nanswer_6: str = qa_model(\"How many years old would {answer_1} be if they were alive at the release of {answer_4}?\", answer_1=answer_1, answer_4=answer_4)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "47fb38e9",
+    "question": "Who is the protagonist in the eighth Final Fantasy game?",
+    "dsl": "answer_1: str = \"Final Fantasy VIII\"\nanswer_2: str = f\"What is the main protagonist of '{answer_1}'?\"",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "d5d873a9",
+    "question": "When was the actor who played Iron Man born?",
+    "dsl": "answer_1: str = qa_model(\"Who has portrayed Tony Stark/Iron Man in live-action films?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c6729e41",
+    "question": "Which actress is the sister of the actor who played Peter Brand in Moneyball?",
+    "dsl": "answer_1: str = qa_model(\"Who played Peter Brand in the movie Moneyball?\")\nanswer_2: str = qa_model(\"Is there any information about siblings of {answer_1}?\") \nanswer_3: str = qa_model(\"Does {answer_2} mention an actress sibling?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "b68627e9",
+    "question": "Who is the famous singer who was from the 60s group that had the number five in its title?",
+    "dsl": "answer_1: str = qa_model('Which musical group has \"Number Five\" in their name and formed in the 1960s?')\nanswer_2: str = qa_model('{answer_1} members', answer_1=answer_1)\nanswer_3: str = qa_model('Famous singers among {answer_2}', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1f1cac50",
+    "question": "Where was the author that wrote Harry Potter born?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the series 'Harry Potter'?\") \nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "961a46be",
+    "question": "When did the author who wrote Alice's Adventures in Wonderland die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the book 'Alice's Adventures in Wonderland'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6a3369b8",
+    "question": "How old was George W Bush's father when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who is the father of former US President George W. Bush?\")\nanswer_2: str = qa_model(\"{answer_1} was born in what year?\", answer_1=answer_1)\nanswer_3: int = qa_model(f\"What is the difference between {{answer_2}} and the year {qa_model('In what year did {answer_1} die?', answer_1=answer_1)}?\", answer_2=answer_2)\nanswer_4: str = f\"{answer_3}-year-old\" \nanswer_5: str = qa_model(\"Is this number correct to describe an age?\", value_to_check=answer_4)\nanswer_6: str = qa_model(\"If yes then how old\",value_to_check=answer_5)\nanswer_7:str=qa_model(\"Was it at this age that {answer_1} died?\", answer_1=answer_1,value_to_check=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "eda78dda",
+    "question": "How old is the lead singer of Aerosmith?",
+    "dsl": "answer_1: str = qa_model(\"Who is the lead singer of Aerosmith?\")\nanswer_2: str = qa_model(\"{answer_1} was born when?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"As of my knowledge cutoff date, what year would you get if I subtracted {answer_2} from 2023?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c20af019",
+    "question": "When was the director of Titanic born?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film 'Titanic'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6b65199c",
+    "question": "What is the date of birth of the first president of India?",
+    "dsl": "answer_1: str = qa_model(\"Who was the first President of India?\")\nanswer_2: str = qa_model(\"On what date was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "bd1c9600",
+    "question": "Who is the love interest of Luigi's twin brother?",
+    "dsl": "answer_1: str = qa_model(\"Is Luigi an only child?\")\nif answer_1 == \"yes\":\n    answer_2: str = qa_model(\"\")\nelse:\n    answer_2: str = qa_model(\"Who is Luigi's twin brother?\")\nanswer_3: str = qa_model(\"What is the name of Mario's love interest?\")\nanswer_4: str = qa_model(\"{answer_3} is the love interest of\", answer_3=answer_3, answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "b4aadf92",
+    "question": "What was the home city of the author of The Trial?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'The Trial'?\") \nanswer_2: str = qa_model(\"What was the hometown of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7e554842",
+    "question": "How long did the longest serving mayor serve in New York?",
+    "dsl": "answer_1: str = qa_model(\"What city has Rudy Giuliani served as Mayor?\")\nanswer_2: str = qa_model(\"{answer_1}'s mayor with the most years served\", answer_1=\"New York City\") # Corrected this line \nanswer_3: str = qa_model(\"For how many years did {answer_2} serve as Mayor of {answer_1}?\", answer_2=answer_2, answer_1=\"New York City\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9a123681",
+    "question": "When was the fifth game in the original Mega Man series released in the U.S.?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the original Mega Man video game series?\")\nanswer_2: str = qa_model(\"{answer_1}. Which one is the fifth installment?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On what date was '{answer_2}' released in the United States?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3c79e320",
+    "question": "What is the name of the kingdom that the love interest to Luigi's younger brother rules over?",
+    "dsl": "answer_1: str = qa_model(\"Is Mario married?\")\nanswer_2: bool = eval(answer_1.lower() == \"no\") # Convert string result to boolean value \nif answer_2:\n    answer_3: str = qa_model(\"Does Luigi have any siblings?\")\nelse:\n    answer_3: str = qa_model(\"Are there any brothers of Luigi?\")\n    \nanswer_4: str = qa_model(\"{answer_3} have any siblings?\", answer_3=answer_3)\nanswer_5: list[str] = [\"yes\", \"has\"]\nfor item in answer_5:\n    if item in answer_4.lower():\n        answer_6: str = qa_model(\"If yes, what is their sibling's relationship with Luigi?\")\n        break\n        \nanswer_7: str = qa_model(\"'s sibling has any notable relatives?\", answer_6=answer_6)\nanswer_8: list[str] = ['brother', 'younger']\nfor item in answer_8:\n    if item in answer_7.lower():\n        answer_9: str = qa_model(\"The relative is male.\")\n        break\n\nanswer_10: str = qa_model(\"This person is related to whom in Super Mario Bros.?\")\n\nanswer_11: str = qa_model(\"What is this character's role in the series?\")\nanswer_12: list[str] = ['love', 'interest']\nfor item in answer_12:\n    if item in answer_11.lower():\n        answer_13: str = qa_model(\"What kingdom do they rule over?\")\n        \nprint(f\"{answer_13}\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c11196a0",
+    "question": "Who played Dr Gonzo in the movie based on Fear and Loathing in Las Vegas?",
+    "dsl": "answer_1: str = qa_model(\"What is the film adaptation of the book 'Fear and Loathing in Las Vegas'?\")\nanswer_2: str = qa_model(\"Who played Dr. Gonzo in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "168f5d6c",
+    "question": "What is Tifa Lockheart's childhood friend's first weapon called?",
+    "dsl": "answer_1: str = qa_model(\"Who is Cloud Strife's childhood friend in the Final Fantasy VII series?\")\nanswer_2: str = qa_model(\"{answer_1}'s name is actually\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is it true that {answer_2} is also known by another name?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"The other name for {answer_3} is actually\", answer_3=answer_3)\nanswer_5: str = qa_model(\"This person is friends with whom in FFVII?\", answer_4=answer_4)\nanswer_6: str = qa_model(\"That character has a childhood friend named\", answer_5=answer_5)\nanswer_7: str = qa_model(\"Does this childhood friend use an {answer_6} as their starting weapon?\", answer_6=answer_6)\nanswer_8: str = qa_model(\"What is the name of the {answer_7} used by this character at the beginning of the game?\", answer_7=answer_7)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0016e212",
+    "question": "When was the guitarist of Aerosmith born?",
+    "dsl": "answer_1: str = qa_model(\"Who is the primary guitarist for Aerosmith?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3823137d",
+    "question": "What is the name of the dead river that flows through the capital city of India?",
+    "dsl": "answer_1: str = qa_model('What is the capital city of India?')\nanswer_2: str = qa_model('Is the Yamuna River dead?', answer_1=answer_1)\nanswer_3: str = qa_model('{answer_2}?'.format(answer_2=answer_2), answer_2=answer_2)\nanswer_4: str = qa_model('If yes then what is its name', answer_3=answer_3) \nanswer_5: str = qa_model('Does it flow through {answer_1}'.format(answer_1=answer_1), answer_1=answer_1)\nanswer_6: str = qa_model('{answer_4} if yes then what is its name'.format(answer_4=answer_4), answer_4=answer_4)\nanswer_7: str = qa_model('{answer_6} ?'.format(answer_6=answer_6), answer_6=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "f1a5e729",
+    "question": "How many kids does the lead actress of Emma have?",
+    "dsl": "answer_1: str = qa_model(\"Who plays the lead role in the 2020 film 'Emma'?\")\nanswer_2: str = qa_model(\"How old is {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is there any information about how many children {answer_2} has?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "afc0cfc2",
+    "question": "Who was the head coach of the team that won the NBA Championship in 2020?",
+    "dsl": "answer_1: str = qa_model(\"Which team won the NBA Championship in 2020?\")\nanswer_2: str = qa_model(\"Who was the head coach of {answer_1} in 2020?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "bde0f41a",
+    "question": "What party did the president belong to who intervened in the Korean War?",
+    "dsl": "answer_1: str = qa_model(\"Who intervened in the Korean War?\")\nanswer_2: str = qa_model(\"What political party did {answer_1} belong to before becoming President?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "d9a7bed4",
+    "question": "In what year did the novelization for the first Star Wars prequel release?",
+    "dsl": "answer_1: str = qa_model(\"Is there a novelization for any of the Star Wars prequels?\")\nanswer_2: str = qa_model(\"{answer_1}. If so, which one is it?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Was '{answer_2}' published before or after its corresponding film?\")\nanswer_4: str = qa_model(\"'If before', then when was '{answer_2}' published.\", condition=\"before\", reason=\"because we're looking for the first prequel.\")\nanswer_5: str = qa_model(\"'If after', then when was '{answer_2}' published.\", condition=\"after\", reason=\"\")\nif answer_3 == \"Yes\":\n    answer_4 \nelse:\n    answer_5",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c18486eb",
+    "question": "What is the name of the U.S. state with the biggest volcano?",
+    "dsl": "answer_1: str = qa_model(\"Is there an active volcano in the United States?\")\nanswer_2: bool = qa_model(answer_1)\nanswer_3: str = qa_model(\"If yes, what US state contains this volcano\", answer_2=answer_2)\nanswer_4: str = qa_model(\"{answer_3}\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ed23da84",
+    "question": "When did the author who wrote Oliver Twist die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'Oliver Twist'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6a65e36f",
+    "question": "Who was the point guard of the team that won the NBA Finals in 2008?",
+    "dsl": "answer_1: str = qa_model(\"Which team won the NBA Finals in 2008?\")\nanswer_2: str = qa_model(\"Who were some key players for {answer_1} during their championship run?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Was there a specific player known to play point guard position among {answer_2}?\".format(answer_2=answer_2), answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a5730760",
+    "question": "When did the author who wrote Ulysses die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'Ulysses'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "f46f9461",
+    "question": "What is the name of the state where the biggest dam in the USA is located?",
+    "dsl": "answer_1: str = qa_model(\"What is the largest dam by volume in the United States?\")\nanswer_2: str = qa_model(\"In what state is {answer_1} located?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "83fe7be2",
+    "question": "What developer created the game that won The Game Awards 2018 Game of the Year award?",
+    "dsl": "answer_1: str = qa_model(\"What game won The Game Awards 2018 Game of the Year award?\")\nanswer_2: str = qa_model(\"Who developed '{answer_1}'?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "d09fa446",
+    "question": "Who is the winning head coach of all time in the league that features Tom Brady as a player?",
+    "dsl": "answer_1: str = qa_model('Which professional sports league has featured Tom Brady as a player?')\nanswer_2: str = qa_model('{answer_1}', answer_1=answer_1)\nanswer_3: str = qa_model('Who is the winningest head coach in {answer_2}?', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "90dd6ba6",
+    "question": "Who was the wife of the shortest-serving U.S. president?",
+    "dsl": "answer_1: str = qa_model(\"Who is the shortest serving President of the United States?\")\nanswer_2: str = qa_model(\"Was {answer_1} married during their presidency?\", answer_1=answer_1)\nif answer_2 == \"Yes\":\n    answer_3: str = qa_model(\"Who was the spouse of {answer_1}?\", answer_1=answer_1)\nelse:\n    answer_3: str = qa_model(\"Did {answer_1} ever get married?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c25ca16b",
+    "question": "How old was the singer of \"All Along the Watchtower\" when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who sang the song 'All Along the Watchtower'?\")\nanswer_2: str = qa_model(\"{answer_1} passed away at what age?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "bb6aa601",
+    "question": "Who was the wife of the 38th US president?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 38th President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1}'s spouse\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "4ded8418",
+    "question": "What's the tallest building in the state where Yosemite National Park is located?",
+    "dsl": "answer_1: str = qa_model(\"In what US state is Yosemite National Park located?\")\nanswer_2: str = qa_model(\"What is the name of the tallest building in {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5e25e816",
+    "question": "Where was the singer of Call Me Maybe born?",
+    "dsl": "answer_1: str = qa_model(\"Who sang the song 'Call Me Maybe'?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "c3e5e7b8",
+    "question": "In what country was the author of the book that won the first Newbery Medal born?",
+    "dsl": "answer_1: str = qa_model(\"What book won the first Newbery Medal?\")\nanswer_2: str = qa_model(\"{answer_1}'s author\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what country was {answer_2} born?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "b5dc8995",
+    "question": "How many children does the director of Alice in Wonderland have?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the 2010 film 'Alice in Wonderland'?\")\nanswer_2: str = qa_model(\"How many children does {answer_1} have?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "2b204b39",
+    "question": "What female character debuted in the second game of the Street Fighter series?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the sequel to the original Street Fighter game?\")\nanswer_2: str = qa_model(\"What female characters appear in '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(f\"Is {{answer_2}} correct about the debut of any female characters in '{{answer_1}}'? And if so what one.\", answer_2=answer_2, answer_1=answer_1) \nanswer_4: str = qa_model(f\"What other information can you find out about the female character mentioned in {{{{{answer_3}}}}} ?\") # This line may need some adjustments",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a0f63db0",
+    "question": "How old was the last emperor of Rome when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who was the last Emperor of Rome?\")\nanswer_2: str = qa_model(\"On what date did {answer_1} die?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what year was {answer_2}\", answer_2=answer_2)\nanswer_4: str = qa_model(\"{answer_3}, how old was the last Emperor of Rome then?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "bc1f9c3f",
+    "question": "Where was the lead guitarist of Guns N' Roses born?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current lead guitarist for Guns N' Roses?\")\nanswer_2: str = qa_model(\"{answer_1}'s birthplace\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "a9db545b",
+    "question": "Who was the vice president of the 40th US president?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 40th President of the United States?\")\nanswer_2: str = qa_model(\"Who served as Vice President under {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "d890595a",
+    "question": "Where was the director of Metropolis born?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film 'Metropolis'?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "61bfab8c",
+    "question": "How old was the 16th president of the United States when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 16th President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1} died at what age?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "db3375e8",
+    "question": "Exactly how old is the oldest river in the United States?",
+    "dsl": "answer_1: str = qa_model('What is the name of the oldest river in the United States?')\nanswer_2: str = qa_model('At what age is \"{answer_1}\" considered to be?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "655db184",
+    "question": "Who was the pitcher for the winning team in the first World Series?",
+    "dsl": "answer_1: str = qa_model('What year was the first World Series held?')\nanswer_2: str = qa_model('{answer_1}', answer_1='1876') # The first world series \nanswer_3: str = qa_model('Who won the {answer_2}?', answer_2=answer_2)\nanswer_4: str = qa_model('What position do you play when pitching?', )\nanswer_5: str = qa_model('The player at this position for the {answer_3} was named what?', answer_3=answer_3, answer_4=answer_4 )",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6f62ab02",
+    "question": "How old is the current manager of the New York Mets?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current manager of the New York Mets?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what year was {answer_2} born?\", answer_2=answer_2) \nanswer_4: int = qa_model(\"What is the difference between {answer_3} and this year?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"{answer_4}\", answer_4=str(answer_4)) # Convert to string",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1be89328",
+    "question": "Who was US president during the Great Depression?",
+    "dsl": "answer_1: str = qa_model(\"What event occurred between 1929 and the late 1930s in world history?\")\nanswer_2: str = qa_model(\"{answer_1} happened under which U.S. presidential administration?\", answer_1=\"The Great Depression\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "286d66d0",
+    "question": "Who was the last wife of the main character featured in the Last Samurai?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the historical figure portrayed by Tom Cruise in The Last Samurai?\")\nanswer_2: str = qa_model(\"Is it true that Algren had any wives?\")\nanswer_3: str = qa_model(\"{answer_2}\", answer_2=qa_model(answer_2))\nif answer_3 == \"Yes\":\n    answer_4: str = qa_model(\"Was there more than one wife?\")\n    if answer_4 == \"No\":\n        answer_5: str = qa_model(\"If yes then what was her name?\")\nelse:\n    answer_5: str = qa_model(\"Then who was his wife\")",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "8c40b893",
+    "question": "How old is the quarterback of the Buffalo Bills?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current quarterback of the Buffalo Bills?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old is someone born in {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "30880c95",
+    "question": "When did the director of Avengers divorce his wife?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the Marvel Cinematic Universe film 'Avengers'?\")\nanswer_2: str = qa_model(\"Is {answer_1} married?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"{answer_2}? If so, when did they get divorced?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "2d8e2766",
+    "question": "How old is the director of Parasite?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the South Korean black comedy thriller film directed by Bong Joon-ho that won several Academy Awards at the 92nd Oscars?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On what date was {answer_2} born?\", answer_2=answer_2) \nanswer_4: str = qa_model(\"How old would {answer_3} be if they were alive today?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "91ecebc6",
+    "question": "Who directed the movie that was also based on the first Star Wars book?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the first Star Wars novelization by George Lucas?\")\nanswer_2: str = qa_model(\"Is there more than one movie based on '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"If yes to '{answer_2}', then what movies were those?, if no then skip\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who directed the movie '{answer_3}'?\", answer_3=answer_3)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "513f3181",
+    "question": "What is the oldest monument in the capital of France?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital of France?\")\nanswer_2: str = qa_model(\"What monuments exist within {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is any one of {answer_2} older than all others?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7c9fbf32",
+    "question": "What is the tallest building in the capital of Texas?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital of Texas?\")\nanswer_2: str = qa_model(\"What is the tallest building in {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "42dc16aa",
+    "question": "Who is the AI companion of the protagonist of Halo: Combat Evolved?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the protagonist in Halo: Combat Evolved?\")\nanswer_2: str = qa_model(\"{answer_1}'s AI companion is called what?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "456c8029",
+    "question": "How many times has the lead singer of the Rolling Stones been married?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current lead singer of the Rolling Stones?\")\nanswer_2: str = qa_model(\"{answer_1} has how many marriages?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "9ac70118",
+    "question": "How old was the youngest U.S. president when he died?",
+    "dsl": "answer_1: str = qa_model(\"Who was the youngest President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1} died at what age?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "100a940f",
+    "question": "Who was the first president after the war that ended slavery in the U.S., not including the incumbent?",
+    "dsl": "answer_1: str = qa_model('What event marked the end of slavery in the United States?')\nanswer_2: str = qa_model('{answer_1} what was it called?', answer_1=answer_1)\nanswer_3: str = qa_model('Was there an immediate change to this law during its passage?')\nanswer_4: str = qa_model('If yes then when did this happen', answer_3=answer_3)\nanswer_5: str = qa_model('After {answer_4}, how long until another presidential election occurred?', answer_4=answer_4)\nanswer_6: str = qa_model('Did any presidents serve between these two elections? If so, list them.')\nanswer_7: str = qa_model('Not counting the last one mentioned, who won the next presidential election?', answer_6=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "1429b85a",
+    "question": "In the original NES Castlevania, who is the boss of the level after the one with the giant bat?",
+    "dsl": "answer_1: str = qa_model('What is the name of the video game series that originally featured the character Simon Belmont?')\nanswer_2: str = qa_model('{answer_1} has how many games?', answer_1=answer_1)\nanswer_3: str = qa_model('The first game in the \"{answer_1}\" series was released on what console?', answer_1=answer_1)\nanswer_4: str = qa_model('On the \"{answer_3}\" console, what is the order of levels in the first game of the \"{answer_1}\" series?', answer_1=answer_1, answer_3=answer_3)\nanswer_5: str = qa_model('Which monster appears in the second level of the first \"{answer_1}\" game?', answer_1=answer_1)\nanswer_6: str = qa_model('After fighting against \"{answer_5}\", you will encounter another enemy before facing off against whom?', answer_5=answer_5)\nanswer_7: str = qa_model('Before encountering \"{answer_6}\", there is an area featuring a large flying creature.', answer_6=answer_6)\nanswer_8: str = qa_model('If we go back to the beginning of the castle, then move forward until reaching the location right after the room containing \"{answer_7}\", who would I fight next?', answer_7=answer_7)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "e6fb1f57",
+    "question": "Who was the 40th US president's VP?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 40th President of the United States?\")\nanswer_2: str = qa_model(\"Who was the Vice President under {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "16e73f4d",
+    "question": "How old is the current head coach of the New England Patriots?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current head coach of the New England Patriots?\")\nanswer_2: str = qa_model(\"{answer_1} was born when?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"As of 2024, how old would someone be if they were born in {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "00823c3a",
+    "question": "Who was the wife of the 35th US president?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 35th President of the United States?\")\nanswer_2: str = qa_model(\"Who was the spouse of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "25441950",
+    "question": "Who was the wife of the 27th US president?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 27th President of the United States?\")\nanswer_2: str = qa_model(\"Who was the spouse of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ab026d77",
+    "question": "Where was the author of The Lord of the Rings born?",
+    "dsl": "answer_1: str = qa_model(\"Who authored the novel 'The Lord of the Rings'?\") \nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "0b061676",
+    "question": "In what city was the author of the second book to win the Franz Kafka Prize born?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the second book to win the Franz Kafka Prize?\")\nanswer_2: str = qa_model(\"Who is the author of '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what city was {answer_2} born?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "88f04611",
+    "question": "What's the name of the father of the director of Star Wars?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the original Star Wars trilogy?\")\nanswer_2: str = qa_model(\"{answer_1}'s father is named what?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "ac27f0ef",
+    "question": "How tall is the singer of \"Buddy Holly\"?",
+    "dsl": "answer_1: str = qa_model(\"Who sang the song 'Buddy Holly'?\") \nanswer_2: str = qa_model(\"What is the height of {answer_1}?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "78a31f7a",
+    "question": "What is the current coach's name of the team that has won the most NCAA Division I Baseball Championships?",
+    "dsl": "answer_1: str = qa_model('Which college baseball program holds the record for the most NCAA Division I Baseball Championships?')\nanswer_2: str = qa_model('What is the current head coach of \"{answer_1}\"?', answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "113d3038",
+    "question": "How old was the last king of France when he was executed in 1793?",
+    "dsl": "answer_1: str = qa_model(\"Who was the last king of France before the French Revolution?\")\nanswer_2: str = qa_model(\"{answer_1}. In what year was this person executed?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old was {answer_1} in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "8451615c",
+    "question": "When was the second Super Smash Bros released?",
+    "dsl": "answer_1: str = qa_model('What series features characters such as Mario and Link?')\nanswer_2: str = qa_model('How many games were there before \"Super Smash Bros.\"?', answer_1=answer_1)\nanswer_3: str = qa_model(f\"When was 'Super Smash Bros.{answer_2}' released?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "01af35b8",
+    "question": "How old is the current coach of the New England Patriots?",
+    "dsl": "answer_1: str = qa_model(\"Who is the head coach of the New England Patriots?\")\nanswer_2: str = qa_model(\"As of today, what year was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old would someone be if they were born in {answer_2}?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3548d16e",
+    "question": "When was the second game in the God of War series released?",
+    "dsl": "answer_1: str = qa_model('What is the name of the sequel to \"God of War\"?')\nanswer_2: str = qa_model(f\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "4af81c8c",
+    "question": "Which awards was the latest Animal Crossing game nominated for at The Game Awards 2020?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the latest Animal Crossing game?\")\nanswer_2: str = qa_model(\"At what event were nominations announced in 2020?\")\nanswer_3: str = qa_model(\"{answer_1} was nominated for which awards at {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "7d62890c",
+    "question": "Who directed the movie that's based on the fourth Twilight book?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the fourth Twilight novel by Stephenie Meyer?\")\nanswer_2: str = qa_model(\"What movie is an adaption of '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed the film '{answer_2}'?\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "2b7aada8",
+    "question": "Who was the US president when Lehman Brothers went bankrupt?",
+    "dsl": "answer_1: str = qa_model('When did Lehman Brothers go bankrupt?')\nanswer_2: str = qa_model('{answer_1}', answer_1='September 15, 2008') # hardcoded date to avoid another API call \nanswer_3: str = qa_model('Who was the President of the United States on September 15, 2008?', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "249c69f3",
+    "question": "Who was the wife of the 21st president?",
+    "dsl": "answer_1: str = \"Who was the 21st President?\"\nanswer_2: str = f\"Who was the spouse of {{answer_1}}?\" \nanswer_3: str = f\"What was the name of {{answer_2}}\"",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "986b6ca6",
+    "question": "How many main pyramids are there in the capital city of Mexico?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital city of Mexico?\")\nanswer_2: str = qa_model(\"Is it true that the capital city of Mexico has any ancient pyramids?\")\nif answer_2 == \"yes\":\n    answer_3: str = qa_model(\"If yes, how many main pyramids are there in {answer_1}?\", answer_1=answer_1)\nelse:\n    answer_3: str = \"There are no main pyramids\"",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "5bfe714a",
+    "question": "Where was the actress who played Hermonie born?",
+    "dsl": "answer_1: str = qa_model(\"Who plays Hermione Granger in the Harry Potter movies?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "cbc5ec09",
+    "question": "When did the author who wrote Gone with the Wind die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the novel 'Gone with the Wind'?\") \nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "f7dcfbde",
+    "question": "In what year did the author of Romeo and Juliet die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote Romeo and Juliet?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} die?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "f54d1a2f",
+    "question": "What are the tallest buildings in the capital city of Malaysia?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital city of Malaysia?\")\nanswer_2: str = qa_model(\"What are some notable skyscrapers in {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Are any of the following structures among {answer_2}: Petronas Twin Towers?\", answer_2=answer_2)\nanswer_4: list = [\"KL118\", \"Merdeka PNB118\"]\nanswer_5: bool = qa_model(\"{answer_4[0]} is taller than {answer_4[1]}\", answer_4=answer_4)\nif answer_5:\n    answer_6: str = qa_model(\"Is KL118 the tallest building in {answer_1}?\", answer_1=answer_1)\nelse:\n    answer_6: str = qa_model(\"Is Merdeka PNB118 the tallest building in {answer_1}?\", answer_1=answer_1)\nanswer_7: str = qa_model(\"If {answer_6}, what is its height?\", answer_6=answer_6)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "92244aa2",
+    "question": "Who is the wife of the 45th president of the United States?",
+    "dsl": "answer_1: str = qa_model(\"Who is the 45th President of the United States?\")\nanswer_2: str = qa_model(\"{answer_1}'s spouse\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "d61d1f4e",
+    "question": "Where is the actor who played Bane in The Dark Knight Rises from?",
+    "dsl": "answer_1: str = qa_model(\"Who played Bane in the movie 'The Dark Knight Rises'?\")\nanswer_2: str = qa_model(\"From what city is {answer_1} originally?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "d8abcbe1",
+    "question": "Who was the quarterback of the team that won Super Bowl 30?",
+    "dsl": "answer_1: str = qa_model(\"Which team won Super Bowl 30?\")\nanswer_2: str = qa_model(\"Who was the starting quarterback for {answer_1} during their win at Super Bowl 30?\", answer_1=answer_1)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "6fcc9216",
+    "question": "Is Brad Pitt taller than Robert Downey Jr.?",
+    "dsl": "answer_1: float = qa_model(\"What height is associated with Brad Pitt?\")\nanswer_2: float = qa_model(\"What height is associated with Robert Downey Jr.\")\nanswer_3: bool = qa_model(\"{answer_1} > {answer_2}\", answer_1=str(answer_1), answer_2=str(answer_2))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "d8eaa37c",
+    "question": "Did The Matrix come out before 1998?",
+    "dsl": "answer_1: bool = qa_model(\"Is The Matrix older than 1998?\")\nanswer_2: int = qa_model(\"What year was The Matrix released?\")\nanswer_1 = qa_model(str(answer_2 < 1998), answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "fef562a9",
+    "question": "Did Pulp Fiction come out before 1992?",
+    "dsl": "answer_1: bool = qa_model(\"Is True Romance older than Pulp Fiction?\")\nanswer_2: bool = qa_model(\"{answer_1} implies Pulp Fiction came after 1992\", answer_1=answer_1) \nanswer_3: bool = qa_model(\"Pulp Fiction came out after True Romance\", answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "3723563b",
+    "question": "Did Kill Bill: Vol. 1 come out after 2004?",
+    "dsl": "answer_1: bool = qa_model('Is \"Kill Bill: Vol. 1\" older than 2004?', **{'older_than': 2004})\nanswer_2: str = qa_model('\"{}\"'.format(answer_1))",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  },
+  {
+    "id": "100e5d98",
+    "question": "Did True Romance come out before 1995?",
+    "dsl": "answer_1: bool = qa_model('Is \"True Romance\" an older release than 1990?')\nanswer_2: int = qa_model('In what year was \"{answer_1}\" released?', answer_1=answer_1)\nanswer_3: bool = qa_model('\"199{answer_2}\" < 1995', answer_2=answer_2)",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_slug": "meta-llama-llama-3-1-8b-instruct",
+    "success": true
+  }
+]

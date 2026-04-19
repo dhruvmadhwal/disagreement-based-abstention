@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "57eda45b",
+      "question": "Which movie did Macauley Culkin decide not to reprise his role in?",
+      "gold": "Home Alone 3",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Home Alone 3",
+      "raw_response": "Home Alone 3",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "42061acb",
+      "question": "Which movies did Alfred Hitchcock get nominated for Best Director and didn't win?",
+      "gold": "Rebecca, Lifeboat, Spellbound, Rear Window, and Psycho",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Rebecca; Lifeboat; Spellbound; Rear Window; Psycho",
+      "raw_response": "Rebecca; Lifeboat; Spellbound; Rear Window; Psycho",
+      "judge_reasoning": "The prediction lists the exact same movies as the gold answer. The difference in separators (commas/and vs. semicolons) is a punctuation normalization and does not change the essential facts, as per Rule 1 and Rule 3.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the exact same movies as the gold answer. The difference in separators (commas/and vs. semicolons) is a punctuation normalization and does not change the essential facts, as per Rule 1 and Rule 3.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5b6f5a03",
+      "question": "Which Hobbit movie was Frodo Baggins not in?",
+      "gold": "The Hobbit: The Desolation of Smaug, and The Hobbit: The Battle of the Five Armies",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Hobbit: The Desolation of Smaug; The Hobbit: The Battle of the Five Armies",
+      "raw_response": "answer:\nThe Hobbit: The Desolation of Smaug; The Hobbit: The Battle of the Five Armies",
+      "judge_reasoning": "The prediction lists the same two movie titles as the gold answer. The use of a semicolon instead of 'and' is a formatting difference and does not change the essential facts, adhering to list/set equivalence.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same two movie titles as the gold answer. The use of a semicolon instead of 'and' is a formatting difference and does not change the essential facts, adhering to list/set equivalence.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "f4168bd3",
+      "question": "Which Star Wars movie did not win or got a nomination for a Best Visual Effects award?",
+      "gold": "Star Wars: Episode III \u2013 Revenge of the Sith",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "All live-action Star Wars films have either won or been nominated for a major Best Visual Effects award (e.g., Academy Award, BAFTA, Saturn Award).",
+      "raw_response": "All live-action Star Wars films have either won or been nominated for a major Best Visual Effects award (e.g., Academy Award, BAFTA, Saturn Award).",
+      "judge_reasoning": "The gold answer identifies a specific Star Wars movie that did not win or get a nomination for a Best Visual Effects award. The prediction directly contradicts this by stating that 'All live-action Star Wars films have either won or been nominated for a major Best Visual Effects award'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies a specific Star Wars movie that did not win or get a nomination for a Best Visual Effects award. The prediction directly contradicts this by stating that 'All live-action Star Wars films have either won or been nominated for a major Best Visual Effects award'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "f8b98e1c",
+      "question": "In which Tim Burton movie is the music not made by Danny Elfman?",
+      "gold": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Ed Wood",
+      "raw_response": "answer:\nEd Wood",
+      "judge_reasoning": "Both 'Sweeney Todd: The Demon Barber of Fleet Street' and 'Ed Wood' are Tim Burton movies whose music was not composed by Danny Elfman (Sweeney Todd by Stephen Sondheim, Ed Wood by Howard Shore). Since the question asks for 'In which Tim Burton movie...' and not 'all' or a specific one, the prediction provides an alternative correct answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"Both 'Sweeney Todd: The Demon Barber of Fleet Street' and 'Ed Wood' are Tim Burton movies whose music was not composed by Danny Elfman (Sweeney Todd by Stephen Sondheim, Ed Wood by Howard Shore). Since the question asks for 'In which Tim Burton movie...' and not 'all' or a specific one, the prediction provides an alternative correct answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5d65d703",
+      "question": "Which Pirates of the Caribbean movie did Keira Knightley not appear in?",
+      "gold": "Pirates of the Caribbean: On Stranger Tides",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Pirates of the Caribbean: On Stranger Tides",
+      "raw_response": "answer:\nPirates of the Caribbean: On Stranger Tides",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dfa95487",
+      "question": "Which Twilight Saga movie did Anna Kendrick not appear in?",
+      "gold": "The Twilight Saga: Breaking Dawn \u2013 Part 2",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Twilight Saga: Breaking Dawn \u2013 Part 2",
+      "raw_response": "The Twilight Saga: Breaking Dawn \u2013 Part 2",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "61e54a45",
+      "question": "Which Star Wars Original Trilogy movies were not directed by George Lucas?",
+      "gold": "The Empire Strikes Back, Return of the Jedi",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Empire Strikes Back; Return of the Jedi",
+      "raw_response": "The Empire Strikes Back; Return of the Jedi",
+      "judge_reasoning": "The prediction lists the same movies as the gold answer. The difference in punctuation (comma vs. semicolon) is a minor formatting variation and does not change the essential facts, falling under normalization rules for lists/sets and punctuation.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same movies as the gold answer. The difference in punctuation (comma vs. semicolon) is a minor formatting variation and does not change the essential facts, falling under normalization rules for lists/sets and punctuation.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4d6d7be0",
+      "question": "Which movie did Keanu Reeves not act in the sequel to?",
+      "gold": "Speed 2",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "Speed",
+      "raw_response": "Speed",
+      "judge_reasoning": "The question asks \"Which movie did Keanu Reeves not act in the sequel to?\".\nLet's analyze the gold and prediction based on this phrasing:\n\n1.  **Gold Answer: \"Speed 2\"**\n    If \"Speed 2\" is the answer to \"Which movie did Keanu Reeves not act in the sequel to?\", it would imply that Keanu Reeves did not act in the sequel to \"Speed 2\". This would be \"Speed 3\" (which doesn't exist, or he also didn't act in it). This interpretation doesn't align with the common understanding of the fact. Instead, the gold answer \"Speed 2\" seems to be answering a slightly different question, such as \"Which *sequel* did Keanu Reeves not act in?\". In this context, \"Speed 2\" is the movie Keanu Reeves did not act in.\n\n2.  **Prediction: \"Speed\"**\n    If \"Speed\" is the answer to \"Which movie did Keanu Reeves not act in the sequel to?\", it means Keanu Reeves did not act in the sequel to \"Speed\". The sequel to \"Speed\" is \"Speed 2\". This statement is factually correct (Keanu Reeves did not act in \"Speed 2\"). This prediction directly answers the question as phrased, identifying the *original movie* whose sequel he did not act in.\n\n**Comparison:**\nThe gold answer identifies \"Speed 2\" as \"the movie\".\nThe prediction identifies \"Speed\" as \"the movie\".\n\nThese are two different movies. While both answers relate to the same underlying fact (Keanu Reeves' absence from \"Speed 2\"), they identify different entities as the answer to \"Which movie...\". The gold identifies the *sequel itself*, while the prediction identifies the *original movie* that has the sequel. Since the question asks for \"Which movie\" and the gold and prediction name different movies, they are not conveying the same specific fact about *which movie* is being referred to, even if the broader context is similar.\n\nTherefore, the prediction does not communicate the same specific fact as the gold answer.\n\nThe final answer is `0`",
+      "judge_raw_response": "The question asks \"Which movie did Keanu Reeves not act in the sequel to?\".\nLet's analyze the gold and prediction based on this phrasing:\n\n1.  **Gold Answer: \"Speed 2\"**\n    If \"Speed 2\" is the answer to \"Which movie did Keanu Reeves not act in the sequel to?\", it would imply that Keanu Reeves did not act in the sequel to \"Speed 2\". This would be \"Speed 3\" (which doesn't exist, or he also didn't act in it). This interpretation doesn't align with the common understanding of the fact. Instead, the gold answer \"Speed 2\" seems to be answering a slightly different question, such as \"Which *sequel* did Keanu Reeves not act in?\". In this context, \"Speed 2\" is the movie Keanu Reeves did not act in.\n\n2.  **Prediction: \"Speed\"**\n    If \"Speed\" is the answer to \"Which movie did Keanu Reeves not act in the sequel to?\", it means Keanu Reeves did not act in the sequel to \"Speed\". The sequel to \"Speed\" is \"Speed 2\". This statement is factually correct (Keanu Reeves did not act in \"Speed 2\"). This prediction directly answers the question as phrased, identifying the *original movie* whose sequel he did not act in.\n\n**Comparison:**\nThe gold answer identifies \"Speed 2\" as \"the movie\".\nThe prediction identifies \"Speed\" as \"the movie\".\n\nThese are two different movies. While both answers relate to the same underlying fact (Keanu Reeves' absence from \"Speed 2\"), they identify different entities as the answer to \"Which movie...\". The gold identifies the *sequel itself*, while the prediction identifies the *original movie* that has the sequel. Since the question asks for \"Which movie\" and the gold and prediction name different movies, they are not conveying the same specific fact about *which movie* is being referred to, even if the broader context is similar.\n\nTherefore, the prediction does not communicate the same specific fact as the gold answer.\n\nThe final answer is `0`",
+      "correct": 0
+    },
+    {
+      "id": "4e054acb",
+      "question": "Which actor played Dumbledore in the first Harry Potter movie but not the third?",
+      "gold": "Richard Harris",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Richard Harris",
+      "raw_response": "answer:\nRichard Harris",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "d9f957a4",
+      "question": "Which director directed Harry Potter 1 and 2 but not Harry Potter 3?",
+      "gold": "Chris Columbus",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chris Columbus",
+      "raw_response": "Chris Columbus",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a127d08",
+      "question": "Which Halloween movie did Jamie Lee Curtis not appear in?",
+      "gold": "Halloween 4",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "Halloween III: Season of the Witch",
+      "raw_response": "Halloween III: Season of the Witch",
+      "judge_reasoning": "The gold answer specifies 'Halloween 4', while the prediction specifies 'Halloween III: Season of the Witch'. Although both are movies Jamie Lee Curtis did not appear in, they are distinct movies and therefore the prediction does not communicate the same specific fact as the gold.",
+      "judge_raw_response": "{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer specifies 'Halloween 4', while the prediction specifies 'Halloween III: Season of the Witch'. Although both are movies Jamie Lee Curtis did not appear in, they are distinct movies and therefore the prediction does not communicate the same specific fact as the gold.\"\n}",
+      "correct": 0
+    },
+    {
+      "id": "6b22aff8",
+      "question": "Which Lord of the Rings movie did not get nominated for the Best Director Oscar?",
+      "gold": "The Two Towers",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Two Towers",
+      "raw_response": "answer:\nThe Two Towers",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "c613b0b3",
+      "question": "Which was the first Pixar movie to not be released in the 2010's?",
+      "gold": "Onward",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "Toy Story",
+      "raw_response": "answer:\nToy Story",
+      "judge_reasoning": "The question asks for the \"first Pixar movie to not be released in the 2010's\".\nThe 2010s span from 2010 to 2019.\nThe gold answer is \"Onward\", which was released in 2020. This movie was indeed not released in the 2010s.\nThe prediction is \"Toy Story\", which was released in 1995. This movie was also not released in the 2010s.\n\nHowever, the question asks for the *first* such movie.\n- Pixar's first movie was \"Toy Story\" (1995). 1995 is not in the 2010s. Therefore, \"Toy Story\" is the first Pixar movie that was not released in the 2010s.\n- \"Onward\" (2020) is the first Pixar movie released *after* the 2010s.\n\nThe gold answer \"Onward\" implies an interpretation of the question as \"the first Pixar movie *after* the 2010s that was not released in the 2010s\".\nThe prediction \"Toy Story\" implies a literal interpretation of the question as \"the earliest Pixar movie overall that was not released in the 2010s\".\n\nSince the gold answer is provided as the ground truth, we must evaluate the prediction against it. The gold answer identifies \"Onward\" as the specific movie. The prediction identifies \"Toy Story\". These are two different movies, released in different years, and thus represent different facts. Therefore, the prediction contradicts the gold answer.\n\n```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'Onward' (released 2020) and the prediction 'Toy Story' (released 1995) are different movies. While both were not released in the 2010s, they represent different interpretations of 'first'. The gold implies the first movie *after* the 2010s, whereas the prediction implies the first movie *overall* that meets the criteria. Since the gold is the ground truth, the prediction contradicts it.\"\n}\n```",
+      "judge_raw_response": "The question asks for the \"first Pixar movie to not be released in the 2010's\".\nThe 2010s span from 2010 to 2019.\nThe gold answer is \"Onward\", which was released in 2020. This movie was indeed not released in the 2010s.\nThe prediction is \"Toy Story\", which was released in 1995. This movie was also not released in the 2010s.\n\nHowever, the question asks for the *first* such movie.\n- Pixar's first movie was \"Toy Story\" (1995). 1995 is not in the 2010s. Therefore, \"Toy Story\" is the first Pixar movie that was not released in the 2010s.\n- \"Onward\" (2020) is the first Pixar movie released *after* the 2010s.\n\nThe gold answer \"Onward\" implies an interpretation of the question as \"the first Pixar movie *after* the 2010s that was not released in the 2010s\".\nThe prediction \"Toy Story\" implies a literal interpretation of the question as \"the earliest Pixar movie overall that was not released in the 2010s\".\n\nSince the gold answer is provided as the ground truth, we must evaluate the prediction against it. The gold answer identifies \"Onward\" as the specific movie. The prediction identifies \"Toy Story\". These are two different movies, released in different years, and thus represent different facts. Therefore, the prediction contradicts the gold answer.\n\n```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'Onward' (released 2020) and the prediction 'Toy Story' (released 1995) are different movies. While both were not released in the 2010s, they represent different interpretations of 'first'. The gold implies the first movie *after* the 2010s, whereas the prediction implies the first movie *overall* that meets the criteria. Since the gold is the ground truth, the prediction contradicts it.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "fc05ee12",
+      "question": "Which Ang Lee movie was nominated for an Academy Award for Best Director but did not win?",
+      "gold": "Crouching Tiger, Hidden Dragon",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Crouching Tiger, Hidden Dragon",
+      "raw_response": "Crouching Tiger, Hidden Dragon",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

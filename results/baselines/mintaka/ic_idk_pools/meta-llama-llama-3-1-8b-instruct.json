@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "a9d5f5fb",
+      "question": "Which 2000 M. Night Shyamalan movie does not star Michael Jordan?",
+      "gold": "Unbreakable",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Unbreakable",
+      "raw_response": "Unbreakable.",
+      "judge_reasoning": "The prediction 'Unbreakable.' is identical to the gold answer 'Unbreakable' after ignoring punctuation.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Unbreakable.' is identical to the gold answer 'Unbreakable' after ignoring punctuation.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "3789a878",
+      "question": "Which 2003 movie directed by Catherine Hardwicke does not star Tom Selleck?",
+      "gold": "Thirteen",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Thirteen",
+      "raw_response": "Thirteen",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5b6f5a03",
+      "question": "Which Hobbit movie was Frodo Baggins not in?",
+      "gold": "The Hobbit: The Desolation of Smaug, and The Hobbit: The Battle of the Five Armies",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Hobbit: The Desolation of Smaug, and The Hobbit: The Battle of the Five Armies",
+      "raw_response": "The Battle of Five Armies",
+      "judge_reasoning": "The prediction provides a subset of the correct movies where Frodo Baggins was not present. According to Rule 9 (Subset allowance), this is acceptable as long as there is no contradiction, and the prediction does not contradict the gold answer. Normalization of titles (ignoring 'The Hobbit:' and articles) makes 'The Battle of Five Armies' equivalent to 'The Hobbit: The Battle of the Five Armies'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides a subset of the correct movies where Frodo Baggins was not present. According to Rule 9 (Subset allowance), this is acceptable as long as there is no contradiction, and the prediction does not contradict the gold answer. Normalization of titles (ignoring 'The Hobbit:' and articles) makes 'The Battle of Five Armies' equivalent to 'The Hobbit: The Battle of the Five Armies'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "57eda45b",
+      "question": "Which movie did Macauley Culkin decide not to reprise his role in?",
+      "gold": "Home Alone 3",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Home Alone 2: Lost in New York",
+      "judge_reasoning": "The prediction 'Home Alone 2: Lost in New York' is incorrect because Macaulay Culkin did reprise his role in that movie. The gold answer 'Home Alone 3' is correct as he did not appear in that film, making the prediction a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Home Alone 2: Lost in New York' is incorrect because Macaulay Culkin did reprise his role in that movie. The gold answer 'Home Alone 3' is correct as he did not appear in that film, making the prediction a contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "d9f957a4",
+      "question": "Which director directed Harry Potter 1 and 2 but not Harry Potter 3?",
+      "gold": "Chris Columbus",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chris Columbus",
+      "raw_response": "Chris Columbus",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "6e2cbdb3",
+      "question": "Which Captain America (MCU) movie does not star Scarlett Johansson?",
+      "gold": "The First Avenger",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The First Avenger",
+      "raw_response": "Captain America: First Avenger",
+      "judge_reasoning": "The prediction 'Captain America: First Avenger' refers to the same movie as the gold answer 'The First Avenger'. The addition of 'Captain America:' is extra detail but does not contradict or change the essential fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Captain America: First Avenger' refers to the same movie as the gold answer 'The First Avenger'. The addition of 'Captain America:' is extra detail but does not contradict or change the essential fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "6b22aff8",
+      "question": "Which Lord of the Rings movie did not get nominated for the Best Director Oscar?",
+      "gold": "The Two Towers",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Two Towers",
+      "raw_response": "The Two Towers",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "fa08c557",
+      "question": "Which The Godfather movie was not released in the 1970s?",
+      "gold": "The Godfather Part III",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Godfather Part III",
+      "raw_response": "The Godfather: Part III; it was released on 1990.",
+      "judge_reasoning": "The prediction identifies the same movie as the gold answer. The additional information about the release year (1990) is correct and supports the answer without contradicting the gold fact. Punctuation differences ('Part III' vs 'Part III') are ignored.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction identifies the same movie as the gold answer. The additional information about the release year (1990) is correct and supports the answer without contradicting the gold fact. Punctuation differences ('Part III' vs 'Part III') are ignored.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "f8b98e1c",
+      "question": "In which Tim Burton movie is the music not made by Danny Elfman?",
+      "gold": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Corpse Bride.",
+      "judge_reasoning": "The question asks for a Tim Burton movie where the music is *not* made by Danny Elfman. The prediction 'Corpse Bride' is incorrect because Danny Elfman composed the music for 'Corpse Bride', thus contradicting the condition specified in the question.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The question asks for a Tim Burton movie where the music is *not* made by Danny Elfman. The prediction 'Corpse Bride' is incorrect because Danny Elfman composed the music for 'Corpse Bride', thus contradicting the condition specified in the question.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dfa95487",
+      "question": "Which Twilight Saga movie did Anna Kendrick not appear in?",
+      "gold": "The Twilight Saga: Breaking Dawn \u2013 Part 2",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Twilight Saga: Breaking Dawn \u2013 Part 2",
+      "raw_response": "answer:\nThe Twilight Saga: Breaking Dawn \u2013 Part 2",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4e054acb",
+      "question": "Which actor played Dumbledore in the first Harry Potter movie but not the third?",
+      "gold": "Richard Harris",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Richard Harris",
+      "raw_response": "Richard Harris",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "fc05ee12",
+      "question": "Which Ang Lee movie was nominated for an Academy Award for Best Director but did not win?",
+      "gold": "Crouching Tiger, Hidden Dragon",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Brokeback Mountain",
+      "judge_reasoning": "The gold answer 'Crouching Tiger, Hidden Dragon' correctly identifies an Ang Lee movie for which he was nominated for Best Director but did not win. The prediction 'Brokeback Mountain' is incorrect because Ang Lee *won* the Academy Award for Best Director for that movie, which contradicts the 'did not win' condition in the question.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'Crouching Tiger, Hidden Dragon' correctly identifies an Ang Lee movie for which he was nominated for Best Director but did not win. The prediction 'Brokeback Mountain' is incorrect because Ang Lee *won* the Academy Award for Best Director for that movie, which contradicts the 'did not win' condition in the question.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "af632860",
+      "question": "Which 2012 Quentin Tarantino movie does not star Uma Thurman?",
+      "gold": "Django Unchained",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Django Unchained",
+      "raw_response": "Django Unchained",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4d6d7be0",
+      "question": "Which movie did Keanu Reeves not act in the sequel to?",
+      "gold": "Speed 2",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "The Matrix Reloaded.",
+      "judge_reasoning": "The gold answer 'Speed 2' is correct because Keanu Reeves did not act in the sequel to 'Speed'. The prediction 'The Matrix Reloaded' is incorrect because Keanu Reeves *did* act in 'The Matrix Reloaded', which is the sequel to 'The Matrix'. The prediction contradicts the essential fact requested by the question.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'Speed 2' is correct because Keanu Reeves did not act in the sequel to 'Speed'. The prediction 'The Matrix Reloaded' is incorrect because Keanu Reeves *did* act in 'The Matrix Reloaded', which is the sequel to 'The Matrix'. The prediction contradicts the essential fact requested by the question.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5d65d703",
+      "question": "Which Pirates of the Caribbean movie did Keira Knightley not appear in?",
+      "gold": "Pirates of the Caribbean: On Stranger Tides",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Pirates of the Caribbean: On Stranger Tides",
+      "raw_response": "On Stranger Tides.",
+      "judge_reasoning": "The prediction provides the essential part of the movie title, 'On Stranger Tides,' which is sufficient to identify the correct movie within the context of the 'Pirates of the Caribbean' franchise mentioned in the question. The omission of 'Pirates of the Caribbean:' is acceptable as it's implied by the question, and punctuation is ignored.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides the essential part of the movie title, 'On Stranger Tides,' which is sufficient to identify the correct movie within the context of the 'Pirates of the Caribbean' franchise mentioned in the question. The omission of 'Pirates of the Caribbean:' is acceptable as it's implied by the question, and punctuation is ignored.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

@@ -1,0 +1,1392 @@
+{
+  "summary": {
+    "total": 90,
+    "coverage": 0.84,
+    "overall_accuracy": 0.3633,
+    "accuracy_at_coverage": 0.4325,
+    "precision": 0.8333,
+    "recall": 0.2186,
+    "f1": 0.3463
+  },
+  "records": [
+    {
+      "accepted": true,
+      "prediction": "The longest river in Alabama is either the Alabama River or the Coosa River, both with lengths around 486 km and 444 km respectively. However, neither was identified as the Mobile River in any of the provided answers, so I cannot definitively say that the Mobile River is the longest based on this data.",
+      "raw_samples": [
+        {
+          "raw_response": "answer: Alabama River; length: 486 km",
+          "final_answer": "Alabama River; length: 486 km",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nTombigbee River; length: approximately 350 miles",
+          "final_answer": "Tombigbee River; length: approximately 350 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Coosa River; length: 444 km",
+          "final_answer": "Coosa River; length: 444 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "The longest river in Alabama is the Mobile River, which has a length of approximately 151 miles.",
+          "final_answer": "The longest river in Alabama is the Mobile River, which has a length of approximately 151 miles.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Alabama River",
+          "final_answer": "Alabama River",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "The longest river in Alabama is the Mobile River, which has a length of approximately 312 miles (502 kilometers).",
+          "final_answer": "The longest river in Alabama is the Mobile River, which has a length of approximately 312 miles (502 kilometers).",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: Alabama River; length: approximately 486 km",
+          "final_answer": "Alabama River; length: approximately 486 km",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Alabama River; length: 486 km": 1,
+        "Tombigbee River; length: approximately 350 miles": 1,
+        "Coosa River; length: 444 km": 1,
+        "The longest river in Alabama is the Mobile River, which has a length of approximately 151 miles": 1,
+        "Alabama River": 1,
+        "The longest river in Alabama is the Mobile River, which has a length of approximately 312 miles (502 kilometers)": 1,
+        "Alabama River; length: approximately 486 km": 1
+      },
+      "aggregator_raw_response": "The longest river in Alabama is either the Alabama River or the Coosa River, both with lengths around 486 km and 444 km respectively. However, neither was identified as the Mobile River in any of the provided answers, so I cannot definitively say that the Mobile River is the longest based on this data.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The prediction identifies the 'Alabama River' as the longest with a length of '335 miles', which contradicts the gold answer stating the 'Tennessee River' is the longest at '652 miles'.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:43:16",
+      "baseline": "self_consistency",
+      "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+      "question": "how long is the longest river in alabama?",
+      "gold_answer": "the longest river that flows through alabama, the tennessee river, is 652 miles long."
+    },
+    {
+      "accepted": true,
+      "prediction": "The 76ers' record in the year Allen Iverson won MVP was 52-30.",
+      "raw_samples": [
+        {
+          "raw_response": "answer: 2000-52-30",
+          "final_answer": "2000-52-30",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer: 2000-52-30",
+          "final_answer": "2000-52-30",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 49-33",
+          "final_answer": "49-33",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: 2000-50/32",
+          "final_answer": "2000-50/32",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 52-30",
+          "final_answer": "52-30",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2001; 56-26",
+          "final_answer": "2001; 56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: 2000-58-24",
+          "final_answer": "2000-58-24",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "2000-52-30": 2,
+        "49-33": 1,
+        "2000-50/32": 1,
+        "52-30": 1,
+        "2001; 56-26": 1,
+        "2000-58-24": 1
+      },
+      "aggregator_raw_response": "The 76ers' record in the year Allen Iverson won MVP was 52-30.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the record as 56-26, which is correct for the 76ers in the 2000-2001 season when Allen Iverson won MVP. The prediction states the record as 52-30, which is a different and incorrect record for that season.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:44:54",
+      "baseline": "self_consistency",
+      "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+      "question": "what was the 76ers' record the year allen iverson won mvp?",
+      "gold_answer": "56-26"
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know (There are no answers that appear more than three times in the provided list.)",
+      "raw_samples": [
+        {
+          "raw_response": "2016-06-11",
+          "final_answer": "2016-06-11",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "2010-04-04",
+          "final_answer": "2010-04-04",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "2016-03-18",
+          "final_answer": "2016-03-18",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "2010-08-15",
+          "final_answer": "2010-08-15",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "2016-03-11",
+          "final_answer": "2016-03-11",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "2016-06-12",
+          "final_answer": "2016-06-12",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 2016-05-17",
+          "final_answer": "2016-05-17",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "2016-06-11": 1,
+        "2010-04-04": 1,
+        "2016-03-18": 1,
+        "2010-08-15": 1,
+        "2016-03-11": 1,
+        "2016-06-12": 1,
+        "2016-05-17": 1
+      },
+      "aggregator_raw_response": "I don't know (There are no answers that appear more than three times in the provided list.)",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the death year as 2010, while the prediction states 2016. These years contradict each other.",
+      "timestamp": "2025-12-14 19:45:11",
+      "baseline": "self_consistency",
+      "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+      "question": "when did the lead actor of naked gun die?",
+      "gold_answer": "leslie nielsen, the lead actor of naked gun, died in 2010.",
+      "judge_raw_response": "open_ended_correctness_reused"
+    },
+    {
+      "accepted": true,
+      "prediction": "Kris Humphries, professional basketball player",
+      "raw_samples": [
+        {
+          "raw_response": "Kris Humphries, basketball player",
+          "final_answer": "Kris Humphries, basketball player",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Kris Humphries, basketball player",
+          "final_answer": "Kris Humphries, basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kris Humphries, businessman",
+          "final_answer": "Kris Humphries, businessman",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kanye West\n(profession: rapper, record producer, fashion designer)",
+          "final_answer": "Kanye West\n(profession: rapper, record producer, fashion designer)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kris Humphries, basketball player",
+          "final_answer": "Kris Humphries, basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kris Humphries (professionally, basketball player)",
+          "final_answer": "Kris Humphries (professionally, basketball player)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kris Humphries, Professional Basketball Player",
+          "final_answer": "Kris Humphries, Professional Basketball Player",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Kris Humphries, basketball player": 3,
+        "Kris Humphries, businessman": 1,
+        "Kanye West (profession: rapper, record producer, fashion designer)": 1,
+        "Kris Humphries (professionally, basketball player)": 1,
+        "Kris Humphries, Professional Basketball Player": 1
+      },
+      "aggregator_raw_response": "Kris Humphries, professional basketball player",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The gold states the spouse was an 'NBA player' and the prediction states 'basketball player'. An NBA player is a type of basketball player, so the prediction is accurate and not contradictory, providing the essential profession.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:45:56",
+      "baseline": "self_consistency",
+      "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+      "question": "what was the profession of kim kardashian's second spouse?",
+      "gold_answer": "kris humphries, kim kardashian's second spouse, was an nba player."
+    },
+    {
+      "accepted": true,
+      "prediction": "The lead designer of Fortran received his M.S. from the University of Wisconsin\u2013Madison.",
+      "raw_samples": [
+        {
+          "raw_response": "University of Wisconsin\u2013Madison",
+          "final_answer": "University of Wisconsin\u2013Madison",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "University of Illinois at Urbana-Champaign",
+          "final_answer": "University of Illinois at Urbana-Champaign",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: University of Wisconsin\u2013Madison",
+          "final_answer": "University of Wisconsin\u2013Madison",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "University of Wisconsin\u2013Madison",
+          "final_answer": "University of Wisconsin\u2013Madison",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "University of Wisconsin\u2013Madison",
+          "final_answer": "University of Wisconsin\u2013Madison",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Massachusetts Institute of Technology (MIT)",
+          "final_answer": "Massachusetts Institute of Technology (MIT)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "University of Wisconsin\u2013Madison",
+          "final_answer": "University of Wisconsin\u2013Madison",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "University of Wisconsin\u2013Madison": 5,
+        "University of Illinois at Urbana-Champaign": 1,
+        "Massachusetts Institute of Technology (MIT)": 1
+      },
+      "aggregator_raw_response": "The lead designer of Fortran received his M.S. from the University of Wisconsin\u2013Madison.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The prediction 'University of Wisconsin\u2013Madison' directly contradicts the gold answer 'columbia university'. These are two distinct universities.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:46:44",
+      "baseline": "self_consistency",
+      "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+      "question": "where did the lead designer of fortran get his m.s. from?",
+      "gold_answer": "columbia university"
+    },
+    {
+      "accepted": true,
+      "prediction": "The driving side in Mallorca is right-hand side.",
+      "raw_samples": [
+        {
+          "raw_response": "Right-hand side",
+          "final_answer": "Right-hand side",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Right-hand side",
+          "final_answer": "Right-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Right-hand side",
+          "final_answer": "Right-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Right-hand side",
+          "final_answer": "Right-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Right-hand side",
+          "final_answer": "Right-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Right-hand side",
+          "final_answer": "Right-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Right-hand side",
+          "final_answer": "Right-hand side",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Right-hand side": 7
+      },
+      "aggregator_raw_response": "The driving side in Mallorca is right-hand side.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Right-hand side' is equivalent to 'right' as the core fact is the same, with 'hand side' being extra descriptive text that does not change the meaning.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:51:34",
+      "baseline": "self_consistency",
+      "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+      "question": "what is the driving side in mallorca?",
+      "gold_answer": "right"
+    },
+    {
+      "accepted": true,
+      "prediction": "The majority answer is that the elevation of Lincoln, Nebraska is 1365 meters or 1365 meters (in various formats). However, it should be noted that this information may not be entirely accurate as the actual elevation of Lincoln, Nebraska is approximately 1189 feet or 362.4 meters according to NASA data.",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n1365 meters (Lincoln)",
+          "final_answer": "1365 meters (Lincoln)",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n1365 meters",
+          "final_answer": "1365 meters",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 1365 meters (Lincoln)",
+          "final_answer": "1365 meters (Lincoln)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 1404 meters",
+          "final_answer": "1404 meters",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1365m",
+          "final_answer": "1365m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 1346 meters (Lincoln)",
+          "final_answer": "1346 meters (Lincoln)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Lincoln; unknown",
+          "final_answer": "Lincoln; unknown",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1365 meters (Lincoln)": 2,
+        "1365 meters": 1,
+        "1404 meters": 1,
+        "1365m": 1,
+        "1346 meters (Lincoln)": 1,
+        "Lincoln; unknown": 1
+      },
+      "aggregator_raw_response": "The majority answer is that the elevation of Lincoln, Nebraska is 1365 meters or 1365 meters (in various formats). However, it should be noted that this information may not be entirely accurate as the actual elevation of Lincoln, Nebraska is approximately 1189 feet or 362.4 meters according to NASA data.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The predicted elevation (1365 meters) is numerically different from the gold elevation (366 meters) and falls outside the allowed numeric tolerance.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:52:19",
+      "baseline": "self_consistency",
+      "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+      "question": "what is the elevation of the capital of nebraska?",
+      "gold_answer": "366 m"
+    },
+    {
+      "accepted": true,
+      "prediction": "Abraham Lincoln began his presidency in 1861 at the age of 52.",
+      "raw_samples": [
+        {
+          "raw_response": "answer: 1861-03-04 (age = 52 years old on inauguration day)",
+          "final_answer": "1861-03-04 (age = 52 years old on inauguration day)",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "1861-03-04 (age: 52 years old on start date)",
+          "final_answer": "1861-03-04 (age: 52 years old on start date)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1861-03-04 (age: 52)",
+          "final_answer": "1861-03-04 (age: 52)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 1861-03-04 (age: 52)",
+          "final_answer": "1861-03-04 (age: 52)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 1861-03-04 (age: 52)",
+          "final_answer": "1861-03-04 (age: 52)",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1861-03-04 (age = 52 years old on inauguration day)": 1,
+        "1861-03-04 (age: 52 years old on start date)": 1,
+        "52": 2,
+        "1861-03-04 (age: 52)": 3
+      },
+      "aggregator_raw_response": "Abraham Lincoln began his presidency in 1861 at the age of 52.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction explicitly states 'age = 52 years old', which directly matches the gold answer. The additional information about the date and 'on inauguration day' is extra detail that does not contradict the core fact.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:52:29",
+      "baseline": "self_consistency",
+      "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+      "question": "what age did abraham lincoln begin his presidency?",
+      "gold_answer": "52 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "24 (on Feb 3, 2004)",
+      "raw_samples": [
+        {
+          "raw_response": "answer: Not provided (The question asks for Usher's age at a specific event, but it doesn't specify which Super Bowl performance.)",
+          "final_answer": "Not provided (The question asks for Usher's age at a specific event, but it doesn't specify which Super Bowl performance.)",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Answer: Not available. Usher has performed at multiple Super Bowls, but specific ages were not provided for these performances.",
+          "final_answer": "Not available. Usher has performed at multiple Super Bowls, but specific ages were not provided for these performances.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "There is insufficient information to determine Usher's age when he performed in the Super Bowl halftime show.",
+          "final_answer": "There is insufficient information to determine Usher's age when he performed in the Super Bowl halftime show.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Not available (Ushher's performance at the Super Bowl halftime show hasn't been identified.)",
+          "final_answer": "Not available (Ushher's performance at the Super Bowl halftime show hasn't been identified.)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "No exact information on Usher performing at a Super Bowl halftime show by my current data collection cutoff (which includes up until October 2022).",
+          "final_answer": "No exact information on Usher performing at a Super Bowl halftime show by my current data collection cutoff (which includes up until October 2022).",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "The question does not specify which Super Bowl performance by Usher you are asking about. However, according to available information, Usher performed at the halftime show for Super Bowl XXXV on February 3, 2004, when he was 24 years old (born October 14, 1978). If you need details about a different performance, please provide more context. Answer: 1978-10-14 (age 24 on 2004-02-03)",
+          "final_answer": "The question does not specify which Super Bowl performance by Usher you are asking about. However, according to available information, Usher performed at the halftime show for Super Bowl XXXV on February 3, 2004, when he was 24 years old (born October 14, 1978). If you need details about a different performance, please provide more context. Answer: 1978-10-14 (age 24 on 2004-02-03)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "There is no definitive information available about Usher performing at a Super Bowl halftime show at a specific age. However, his first performance was at the Super Bowl XXXV halftime show in 2002 when he was approximately 22 years old (born October 14, 1978).",
+          "final_answer": "There is no definitive information available about Usher performing at a Super Bowl halftime show at a specific age. However, his first performance was at the Super Bowl XXXV halftime show in 2002 when he was approximately 22 years old (born October 14, 1978).",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Not provided (The question asks for Usher's age at a specific event, but it doesn't specify which Super Bowl performance.)": 1,
+        "Not available. Usher has performed at multiple Super Bowls, but specific ages were not provided for these performances": 1,
+        "There is insufficient information to determine Usher's age when he performed in the Super Bowl halftime show": 1,
+        "Not available (Ushher's performance at the Super Bowl halftime show hasn't been identified.)": 1,
+        "No exact information on Usher performing at a Super Bowl halftime show by my current data collection cutoff (which includes up until October 2022)": 1,
+        "The question does not specify which Super Bowl performance by Usher you are asking about. However, according to available information, Usher performed at the halftime show for Super Bowl XXXV on February 3, 2004, when he was 24 years old (born October 14, 1978). If you need details about a different performance, please provide more context. Answer: 1978-10-14 (age 24 on 2004-02-03)": 1,
+        "There is no definitive information available about Usher performing at a Super Bowl halftime show at a specific age. However, his first performance was at the Super Bowl XXXV halftime show in 2002 when he was approximately 22 years old (born October 14, 1978)": 1
+      },
+      "aggregator_raw_response": "24 (on Feb 3, 2004)",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction is a refusal to answer the question, stating 'Not provided' and explaining why it cannot answer, which falls under the 'not meaningful' category.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:53:42",
+      "baseline": "self_consistency",
+      "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+      "question": "at what age did usher perform in the half time show of superbowl?",
+      "gold_answer": "45 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "The majority answers indicate that Bruce Willis, the lead actor of Die Hard, was married to Demi Moore on November 21, 1987.",
+      "raw_samples": [
+        {
+          "raw_response": "I do not have real-time data access, so I cannot determine specific dates for personal events without being provided the relevant information. However, Bruce Willis, who played the lead role in Die Hard, got married to Demi Moore on November 21, 1987.",
+          "final_answer": "I do not have real-time data access, so I cannot determine specific dates for personal events without being provided the relevant information. However, Bruce Willis, who played the lead role in Die Hard, got married to Demi Moore on November 21, 1987.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "To find out when Bruce Willis got married, we would need specific dates for each marriage since he has been married multiple times. However, I cannot provide these details without more information about his marriages.",
+          "final_answer": "To find out when Bruce Willis got married, we would need specific dates for each marriage since he has been married multiple times. However, I cannot provide these details without more information about his marriages.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I am unable to determine the specific date of marriage for Bruce Willis, the lead actor of Die Hard, as his personal life details beyond general knowledge are not readily available.",
+          "final_answer": "I am unable to determine the specific date of marriage for Bruce Willis, the lead actor of Die Hard, as his personal life details beyond general knowledge are not readily available.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I cannot determine the specific date of Bruce Willis' marriage without further information. However, his first marriage to Demi Moore took place on November 21, 1987. His second marriage to Emma Heming occurred on March 21, 2009.",
+          "final_answer": "I cannot determine the specific date of Bruce Willis' marriage without further information. However, his first marriage to Demi Moore took place on November 21, 1987. His second marriage to Emma Heming occurred on March 21, 2009.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I do not have real-time access to databases or information sources. To find the marriage date of Bruce Willis, who played John McClane in Die Hard, you would need to look up his biography on reliable online resources such as IMDb or Wikipedia. As of now, I can't provide an exact date for his marriage.",
+          "final_answer": "I do not have real-time access to databases or information sources. To find the marriage date of Bruce Willis, who played John McClane in Die Hard, you would need to look up his biography on reliable online resources such as IMDb or Wikipedia. As of now, I can't provide an exact date for his marriage.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: 1981-06-16",
+          "final_answer": "1981-06-16",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "It is not possible for me to determine the exact wedding date of Bruce Willis, the lead actor in Die Hard, without additional information about his marriage(s). I recommend conducting further research on Mr. Willis' personal life to find the specific dates of his marriages and corresponding wedding events.",
+          "final_answer": "It is not possible for me to determine the exact wedding date of Bruce Willis, the lead actor in Die Hard, without additional information about his marriage(s). I recommend conducting further research on Mr. Willis' personal life to find the specific dates of his marriages and corresponding wedding events.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "I do not have real-time data access, so I cannot determine specific dates for personal events without being provided the relevant information. However, Bruce Willis, who played the lead role in Die Hard, got married to Demi Moore on November 21, 1987": 1,
+        "To find out when Bruce Willis got married, we would need specific dates for each marriage since he has been married multiple times. However, I cannot provide these details without more information about his marriages": 1,
+        "I am unable to determine the specific date of marriage for Bruce Willis, the lead actor of Die Hard, as his personal life details beyond general knowledge are not readily available": 1,
+        "I cannot determine the specific date of Bruce Willis' marriage without further information. However, his first marriage to Demi Moore took place on November 21, 1987. His second marriage to Emma Heming occurred on March 21, 2009": 1,
+        "I do not have real-time access to databases or information sources. To find the marriage date of Bruce Willis, who played John McClane in Die Hard, you would need to look up his biography on reliable online resources such as IMDb or Wikipedia. As of now, I can't provide an exact date for his marriage": 1,
+        "1981-06-16": 1,
+        "It is not possible for me to determine the exact wedding date of Bruce Willis, the lead actor in Die Hard, without additional information about his marriage(s). I recommend conducting further research on Mr. Willis' personal life to find the specific dates of his marriages and corresponding wedding events": 1
+      },
+      "aggregator_raw_response": "The majority answers indicate that Bruce Willis, the lead actor of Die Hard, was married to Demi Moore on November 21, 1987.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states that Bruce Willis got married in 2009. The prediction states that he got married on March 21, 1987. These are two different dates for his marriages, making them contradictory as specific answers to the question 'when did he get married?'.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:55:37",
+      "baseline": "self_consistency",
+      "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+      "question": "when did the lead actor of die hard get married?",
+      "gold_answer": "the lead actor of die hard, bruce willis, got married in 2009."
+    },
+    {
+      "accepted": true,
+      "prediction": "The Green Day's third studio album was released on October 9th, 2000.",
+      "raw_samples": [
+        {
+          "raw_response": "answer: 2000-10-09",
+          "final_answer": "2000-10-09",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer: 2000-11-06",
+          "final_answer": "2000-11-06",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 2000-10-09",
+          "final_answer": "2000-10-09",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1995-11-13",
+          "final_answer": "1995-11-13",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 2000-10-09",
+          "final_answer": "2000-10-09",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 2000-06-26",
+          "final_answer": "2000-06-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 2000-10-09",
+          "final_answer": "2000-10-09",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "2000-10-09": 4,
+        "2000-11-06": 1,
+        "1995-11-13": 1,
+        "2000-06-26": 1
+      },
+      "aggregator_raw_response": "The Green Day's third studio album was released on October 9th, 2000.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The prediction provides a different release date (October 9, 2000) than the gold answer (February 1, 1994), which is a direct contradiction.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:56:12",
+      "baseline": "self_consistency",
+      "id": "118896a1-8124-482a-9201-4aaf1903618d",
+      "question": "when was green day's third studio album released?",
+      "gold_answer": "dookie, the third studio album by green day, was released on february 1st, 1994."
+    },
+    {
+      "accepted": true,
+      "prediction": "The correct answer is 1968-age (option 2), assuming we are referring to the American producer Lorne Michaels who was born in Canada on November 17, 1944. This would make him 24 years old in 1968 when he produced his first film.",
+      "raw_samples": [
+        {
+          "raw_response": "answer: 1968-age",
+          "final_answer": "1968-age",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer: 1968-age (assuming Lorne Michaels refers to the Canadian producer born on November 17, 1944)",
+          "final_answer": "1968-age (assuming Lorne Michaels refers to the Canadian producer born on November 17, 1944)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: 1968",
+          "final_answer": "1968",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 1968",
+          "final_answer": "1968",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1975-age: 31",
+          "final_answer": "1975-age: 31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 40",
+          "final_answer": "40",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nUnknown (No specific birthdate provided for Lorne Michaels before producing his first film.)",
+          "final_answer": "Unknown (No specific birthdate provided for Lorne Michaels before producing his first film.)",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1968-age": 1,
+        "1968-age (assuming Lorne Michaels refers to the Canadian producer born on November 17, 1944)": 1,
+        "1968": 2,
+        "1975-age: 31": 1,
+        "40": 1,
+        "Unknown (No specific birthdate provided for Lorne Michaels before producing his first film.)": 1
+      },
+      "aggregator_raw_response": "The correct answer is 1968-age (option 2), assuming we are referring to the American producer Lorne Michaels who was born in Canada on November 17, 1944. This would make him 24 years old in 1968 when he produced his first film.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The question asks for an age, and the gold answer provides an age (35). The prediction provides a year (1968), which is a different type of information and does not answer the question about age.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 19:58:26",
+      "baseline": "self_consistency",
+      "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+      "question": "at what age was lorne michaels when he produced his first film?",
+      "gold_answer": "he was 35"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carnegie Mellon University",
+      "raw_samples": [
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Carnegie Mellon University": 7
+      },
+      "aggregator_raw_response": "Carnegie Mellon University",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Carnegie Mellon University' is identical to the gold answer 'carnegie mellon university', ignoring case as per Rule 1.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 20:00:00",
+      "baseline": "self_consistency",
+      "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+      "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+      "gold_answer": "carnegie mellon university"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carrie-Anne Moss",
+      "raw_samples": [
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Carrie-Anne Moss": 7
+      },
+      "aggregator_raw_response": "Carrie-Anne Moss",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction provides the correct name of the actress, 'Carrie-Anne Moss', which is the essential fact requested by the question and present in the gold answer. The gold answer includes additional descriptive details about the character, but the core fact is matched without contradiction (Rule 8).",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 20:01:16",
+      "baseline": "self_consistency",
+      "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+      "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+      "gold_answer": "the actress who played the role of the girl character in the movie \"the matrix\" is carrie-anne moss. she portrayed the role of trinity, a skilled computer hacker and a member of the human resistance."
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know (since none of the answers mention a common artist that was repeated at least 4 times).",
+      "raw_samples": [
+        {
+          "raw_response": "To provide an accurate response, I would need to know the name of the specific artist you are interested in. Once provided, I will list any additional songs they released in the same year as the reference date (2022-10-04), following the normalization guidelines mentioned earlier.",
+          "final_answer": "To provide an accurate response, I would need to know the name of the specific artist you are interested in. Once provided, I will list any additional songs they released in the same year as the reference date (2022-10-04), following the normalization guidelines mentioned earlier.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "I cannot determine which specific artist you are referencing without additional context. To find out more about an artist's discography, consider searching for their name along with the year in question on reputable music platforms such as Spotify, Apple Music, or Last.fm.",
+          "final_answer": "I cannot determine which specific artist you are referencing without additional context. To find out more about an artist's discography, consider searching for their name along with the year in question on reputable music platforms such as Spotify, Apple Music, or Last.fm.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "To provide an accurate response, I would need to know the name of the specific artist you are interested in. However, assuming we are discussing the popular artist Adele, here are some of her singles from 2021 according to Billboard:\n\n1. \"Easy On Me\"\n2. \"Oh My God\"\n3. \"I Drink Wine\"",
+          "final_answer": "To provide an accurate response, I would need to know the name of the specific artist you are interested in. However, assuming we are discussing the popular artist Adele, here are some of her singles from 2021 according to Billboard:\n\n1. \"Easy On Me\"\n2. \"Oh My God\"\n3. \"I Drink Wine\"",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "To find out which songs were released by the same artist in the same year as the current year (2022), I would need to know the name of the artist first. For example:\n\nArtist: Taylor Swift\nYear: 2022\nSongs: Love Story; You Belong With Me; Paper Rings; Fearless; Fifteen; Hey Stephen; White Horse",
+          "final_answer": "To find out which songs were released by the same artist in the same year as the current year (2022), I would need to know the name of the artist first. For example:\n\nArtist: Taylor Swift\nYear: 2022\nSongs: Love Story; You Belong With Me; Paper Rings; Fearless; Fifteen; Hey Stephen; White Horse",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "To give an accurate response, I would need to know the name of the specific artist and the reference year (\"my time\"). Please provide those details for further assistance.",
+          "final_answer": "To give an accurate response, I would need to know the name of the specific artist and the reference year (\"my time\"). Please provide those details for further assistance.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I cannot determine which artist you are referring to without more context. Please specify the name of the artist for an accurate response.",
+          "final_answer": "I cannot determine which artist you are referring to without more context. Please specify the name of the artist for an accurate response.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I cannot determine which specific artist you are referring to without additional context. However, I can show an example of how I would format the response for a given artist from their discography on a certain reference date. For instance, assuming we are discussing Michael Jackson's releases in 2022, the response would look like this:\n\nanswer:\nBillie Jean; Don't Stop 'Til You Get Enough",
+          "final_answer": "Billie Jean; Don't Stop 'Til You Get Enough",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "To provide an accurate response, I would need to know the name of the specific artist you are interested in. Once provided, I will list any additional songs they released in the same year as the reference date (2022-10-04), following the normalization guidelines mentioned earlier": 1,
+        "I cannot determine which specific artist you are referencing without additional context. To find out more about an artist's discography, consider searching for their name along with the year in question on reputable music platforms such as Spotify, Apple Music, or Last.fm": 1,
+        "To provide an accurate response, I would need to know the name of the specific artist you are interested in. However, assuming we are discussing the popular artist Adele, here are some of her singles from 2021 according to Billboard: 1. \"Easy On Me\" 2. \"Oh My God\" 3. \"I Drink Wine\"": 1,
+        "To find out which songs were released by the same artist in the same year as the current year (2022), I would need to know the name of the artist first. For example: Artist: Taylor Swift Year: 2022 Songs: Love Story; You Belong With Me; Paper Rings; Fearless; Fifteen; Hey Stephen; White Horse": 1,
+        "To give an accurate response, I would need to know the name of the specific artist and the reference year (\"my time\"). Please provide those details for further assistance": 1,
+        "I cannot determine which artist you are referring to without more context. Please specify the name of the artist for an accurate response": 1,
+        "Billie Jean; Don't Stop 'Til You Get Enough": 1
+      },
+      "aggregator_raw_response": "I don't know (since none of the answers mention a common artist that was repeated at least 4 times).",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction refuses to answer the question, stating it needs more information (the artist's name) and does not provide any of the songs listed in the gold answer. It also introduces an irrelevant date (2022-10-04).",
+      "timestamp": "2025-12-14 20:01:19",
+      "baseline": "self_consistency",
+      "id": "e06676aa-efc3-4763-b196-e105596cc643",
+      "question": "can you tell me what other songs the same artist released in the same year as my time?",
+      "gold_answer": "throw it in the bag, \"everything, everyday, every where\"",
+      "judge_raw_response": "open_ended_correctness_reused"
+    },
+    {
+      "accepted": true,
+      "prediction": "Gabriel Macht",
+      "raw_samples": [
+        {
+          "raw_response": "Gabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Gabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Gabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Gabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Gabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Gabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Gabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Gabriel Macht": 7
+      },
+      "aggregator_raw_response": "Gabriel Macht",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer identifies Patrick J. Adams as the actor, while the prediction states Gabriel Macht. These are two different actors, leading to a contradiction.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 20:01:54",
+      "baseline": "self_consistency",
+      "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+      "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+      "gold_answer": "the actor who played the role of a lawyer in the tv show \"suits\" is patrick j. adams. he portrayed the role of mike ross, a college dropout who becomes a legal associate at a prestigious law firm, in the show, which aired from 2011 to 2019. adams's performance earned him a nomination for a screen actors guild award for outstanding performance by a male actor in a drama series."
+    },
+    {
+      "accepted": true,
+      "prediction": "Phil Jackson",
+      "raw_samples": [
+        {
+          "raw_response": "Phil Jackson",
+          "final_answer": "Phil Jackson",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer: Phil Jackson",
+          "final_answer": "Phil Jackson",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: Magic Johnson",
+          "final_answer": "Magic Johnson",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: Magic Johnson",
+          "final_answer": "Magic Johnson",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Magic Johnson",
+          "final_answer": "Magic Johnson",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Phil Jackson": 2,
+        "Del Harris": 2,
+        "Magic Johnson": 3
+      },
+      "aggregator_raw_response": "Phil Jackson",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states 'del harris' while the prediction states 'Phil Jackson'. These are two different individuals, leading to a contradiction.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 20:04:59",
+      "baseline": "self_consistency",
+      "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+      "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+      "gold_answer": "del harris"
+    },
+    {
+      "accepted": true,
+      "prediction": "-41.8 ft (Lake Champlain)",
+      "raw_samples": [
+        {
+          "raw_response": "answer: -41.8 ft (Lake Champlain)",
+          "final_answer": "-41.8 ft (Lake Champlain)",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer: 0 ft",
+          "final_answer": "0 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: -47 ft",
+          "final_answer": "-47 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: -41.0 ft (Lake Champlain)",
+          "final_answer": "-41.0 ft (Lake Champlain)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: -47 ft (Lake Champlain)",
+          "final_answer": "-47 ft (Lake Champlain)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: -41.8 ft",
+          "final_answer": "-41.8 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: -41.8 feet (Lake Champlain at Alburgh)",
+          "final_answer": "-41.8 feet (Lake Champlain at Alburgh)",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "-41.8 ft (Lake Champlain)": 1,
+        "0 ft": 1,
+        "-47 ft": 1,
+        "-41.0 ft (Lake Champlain)": 1,
+        "-47 ft (Lake Champlain)": 1,
+        "-41.8 ft": 1,
+        "-41.8 feet (Lake Champlain at Alburgh)": 1
+      },
+      "aggregator_raw_response": "-41.8 ft (Lake Champlain)",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The predicted elevation of -41.8 ft contradicts the gold elevation of 95 feet. The numerical values are significantly different and outside any acceptable tolerance.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 20:06:03",
+      "baseline": "self_consistency",
+      "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+      "question": "how many feet is the place with the lowest elevation in vermont?",
+      "gold_answer": "the place with the lowest elevation in vermont, lake champlain, is at 95 feet."
+    },
+    {
+      "accepted": true,
+      "prediction": "39",
+      "raw_samples": [
+        {
+          "raw_response": "answer: 39",
+          "final_answer": "39",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer: 39 (in reference to 2016 Oscars)",
+          "final_answer": "39 (in reference to 2016 Oscars)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 39",
+          "final_answer": "39",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1974-02-22 (Leonardo DiCaprio won the Best Actor Oscar for his role in The Revenant on February 28th, 2016. However, the reference date provided is October 4th, 2022.)",
+          "final_answer": "1974-02-22 (Leonardo DiCaprio won the Best Actor Oscar for his role in The Revenant on February 28th, 2016. However, the reference date provided is October 4th, 2022.)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 39",
+          "final_answer": "39",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1974-02-22",
+          "final_answer": "1974-02-22",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: 39",
+          "final_answer": "39",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "39": 4,
+        "39 (in reference to 2016 Oscars)": 1,
+        "1974-02-22 (Leonardo DiCaprio won the Best Actor Oscar for his role in The Revenant on February 28th, 2016. However, the reference date provided is October 4th, 2022.)": 1,
+        "1974-02-22": 1
+      },
+      "aggregator_raw_response": "39",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states Leonardo DiCaprio was 42 years old, while the prediction states 39. The difference (3) exceeds the allowed numerical tolerance of max(0.5, 1% of 42 = 0.42) = 0.5.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 20:06:09",
+      "baseline": "self_consistency",
+      "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+      "question": "how old was leonardo dicaprio when he won best actor award?",
+      "gold_answer": "leonardo was 42 years old in 2016 when he won best actor."
+    },
+    {
+      "accepted": true,
+      "prediction": "The first studio album by Michael Jackson and The Jackson 5 is \"Diana Ross Presents The Jackson 5\" (1969).",
+      "raw_samples": [
+        {
+          "raw_response": "Answer: The Jackson 5 - Diana Ross Presents The Jackson 5 (1969)",
+          "final_answer": "The Jackson 5 - Diana Ross Presents The Jackson 5 (1969)",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Answer: The Jackson 5 \u2013 Diana Ross Presents The Jackson 5 (1969)",
+          "final_answer": "The Jackson 5 \u2013 Diana Ross Presents The Jackson 5 (1969)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: The Jackson 5 \u2013 Diana Ross Presents The Jackson 5 (1969)",
+          "final_answer": "The Jackson 5 \u2013 Diana Ross Presents The Jackson 5 (1969)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: The Jackson 5 debuted their first studio album, \"Diana Ross Presents The Jackson 5,\" on 1969-05-24.",
+          "final_answer": "The Jackson 5 debuted their first studio album, \"Diana Ross Presents The Jackson 5,\" on 1969-05-24.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: The Jackson 5 debuted their first studio album, \"Diana Ross Presents The Jackson 5,\" in 1969.",
+          "final_answer": "The Jackson 5 debuted their first studio album, \"Diana Ross Presents The Jackson 5,\" in 1969.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: The Jackson 5 - Diana Ross Presents The Jackson 5 (1969)",
+          "final_answer": "The Jackson 5 - Diana Ross Presents The Jackson 5 (1969)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: The Jackson 5 debuted with their self-titled album, 'Diana Ross Presents The Jackson 5', on August 22, 1969.",
+          "final_answer": "The Jackson 5 debuted with their self-titled album, 'Diana Ross Presents The Jackson 5', on August 22, 1969.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "The Jackson 5 - Diana Ross Presents The Jackson 5 (1969)": 2,
+        "The Jackson 5 \u2013 Diana Ross Presents The Jackson 5 (1969)": 2,
+        "The Jackson 5 debuted their first studio album, \"Diana Ross Presents The Jackson 5,\" on 1969-05-24": 1,
+        "The Jackson 5 debuted their first studio album, \"Diana Ross Presents The Jackson 5,\" in 1969": 1,
+        "The Jackson 5 debuted with their self-titled album, 'Diana Ross Presents The Jackson 5', on August 22, 1969": 1
+      },
+      "aggregator_raw_response": "The first studio album by Michael Jackson and The Jackson 5 is \"Diana Ross Presents The Jackson 5\" (1969).",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The core album title 'Diana Ross Presents The Jackson 5' is present in both the gold and prediction. The prediction includes additional, non-contradictory information such as the artist ('The Jackson 5') and the release year ('1969'), which is acceptable as extra detail.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 20:07:53",
+      "baseline": "self_consistency",
+      "id": "e525e6b2-4865-4610-a73b-79438c724255",
+      "question": "what was the first studio album from the group that michael jackson was in?",
+      "gold_answer": "diana ross presents the jackson 5"
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know",
+      "raw_samples": [
+        {
+          "raw_response": "answer: Not provided (Henry Rollins's exact birthdate is unknown)",
+          "final_answer": "Not provided (Henry Rollins's exact birthdate is unknown)",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer: Not available (Henry Rollins' exact birthdate isn't specified for determining his age on a specific date.)",
+          "final_answer": "Not available (Henry Rollins' exact birthdate isn't specified for determining his age on a specific date.)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Not provided (Henry Rollins's birthdate and exact performance dates for Henry Rollins: Henry Rollins Goes to London are unknown.)",
+          "final_answer": "Not provided (Henry Rollins's birthdate and exact performance dates for Henry Rollins: Henry Rollins Goes to London are unknown.)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: No specific age provided for the event \"Henry Rollins: Henry Rollins Goes to London\".",
+          "final_answer": "No specific age provided for the event \"Henry Rollins: Henry Rollins Goes to London\".",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Not enough information provided to determine Henry Rollins's age at the time of his appearance in \"Henry Rollins: Henry Rollins Goes to London\".",
+          "final_answer": "Not enough information provided to determine Henry Rollins's age at the time of his appearance in \"Henry Rollins: Henry Rollins Goes to London\".",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Not enough information provided to determine Henry Rollins's age at the time of his appearance in \"Henry Rollins: Henry Rollins Goes to London\".",
+          "final_answer": "Not enough information provided to determine Henry Rollins's age at the time of his appearance in \"Henry Rollins: Henry Rollins Goes to London\".",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Answer: No specific birthdate for Henry Rollins's appearance in \"Henry Rollins: Henry Rollins Goes to London\" is provided. However, his birthday is on February 13, 1961.",
+          "final_answer": "No specific birthdate for Henry Rollins's appearance in \"Henry Rollins: Henry Rollins Goes to London\" is provided. However, his birthday is on February 13, 1961.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Not provided (Henry Rollins's exact birthdate is unknown)": 1,
+        "Not available (Henry Rollins' exact birthdate isn't specified for determining his age on a specific date.)": 1,
+        "Not provided (Henry Rollins's birthdate and exact performance dates for Henry Rollins: Henry Rollins Goes to London are unknown.)": 1,
+        "No specific age provided for the event \"Henry Rollins: Henry Rollins Goes to London\"": 1,
+        "Not enough information provided to determine Henry Rollins's age at the time of his appearance in \"Henry Rollins: Henry Rollins Goes to London\"": 2,
+        "No specific birthdate for Henry Rollins's appearance in \"Henry Rollins: Henry Rollins Goes to London\" is provided. However, his birthday is on February 13, 1961": 1
+      },
+      "aggregator_raw_response": "I don't know",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction explicitly states 'Not provided' and gives a reason, which constitutes a refusal to answer the question directly. According to rule 10, this is considered 'not meaningful'.",
+      "timestamp": "2025-12-14 20:08:51",
+      "baseline": "self_consistency",
+      "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+      "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+      "gold_answer": "33",
+      "judge_raw_response": "open_ended_correctness_reused"
+    }
+  ]
+}

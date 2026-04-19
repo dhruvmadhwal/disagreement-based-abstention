@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "8b510a2c-1aa9-4a42-8298-eabcad71e91b",
+      "question": "how many times has lionel messi won the fifa club world cup with psg?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "invalid question",
+      "raw_response": "answer: 0",
+      "judge_reasoning": "The gold answer 'invalid question' implies that Lionel Messi has not won the FIFA Club World Cup with PSG. The prediction '0' directly states this fact. Both convey the same essential information that the number of wins is zero.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer 'invalid question' implies that Lionel Messi has not won the FIFA Club World Cup with PSG. The prediction '0' directly states this fact. Both convey the same essential information that the number of wins is zero.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "25b44b0e-8736-4420-b24b-039b6530d833",
+      "question": "what is the local name for mount vesuvius in neapolitan?",
+      "gold": "vesuvio",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "vesuvio",
+      "raw_response": "Vesuvio answer: Vesuvio",
+      "judge_reasoning": "The prediction 'Vesuvio' matches the gold answer 'vesuvio' after ignoring case and extra descriptive text ('answer: '). No contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Vesuvio' matches the gold answer 'vesuvio' after ignoring case and extra descriptive text ('answer: '). No contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "3fcd37bc-2a2d-4766-aba8-cb9708349c48",
+      "question": "who hosted the grammy awards in 2019?",
+      "gold": "alicia keys",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "alicia keys",
+      "raw_response": "Alicia Keys answer: Alicia Keys",
+      "judge_reasoning": "The prediction 'Alicia Keys' matches the gold answer 'alicia keys' after case normalization. The extra text 'answer: Alicia Keys' does not contradict the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Alicia Keys' matches the gold answer 'alicia keys' after case normalization. The extra text 'answer: Alicia Keys' does not contradict the gold fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "aa0d473b-01fb-424a-97d5-d6b714c8b03d",
+      "question": "what song topped the billboard chart on 2004-02-04?",
+      "gold": "hey ya!",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\n\u201cSince You\u2019ve Been Gone\u201d",
+      "judge_reasoning": "The prediction provides a different song title ('Since You\u2019ve Been Gone') than the gold answer ('hey ya!'), which is a direct contradiction of the factual information requested.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction provides a different song title ('Since You\u2019ve Been Gone') than the gold answer ('hey ya!'), which is a direct contradiction of the factual information requested.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4782dfd1-c169-477f-b688-f8103de15865",
+      "question": "who is the lead singer of the band coldplay?",
+      "gold": "chris martin",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "chris martin",
+      "raw_response": "Chris Martin",
+      "judge_reasoning": "The prediction 'Chris Martin' is identical to the gold answer 'chris martin', differing only in capitalization, which is ignored by normalization rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chris Martin' is identical to the gold answer 'chris martin', differing only in capitalization, which is ignored by normalization rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4f917818-f833-47c4-ab0c-96edbb7e0668",
+      "question": "what is the original language of what we left behind: looking back at star trek: deep space nine?",
+      "gold": "en",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "en",
+      "raw_response": "English",
+      "judge_reasoning": "The prediction 'English' is an equivalent form of the gold answer 'en' (ISO 639-1 code for English), falling under alias/abbreviation normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'English' is an equivalent form of the gold answer 'en' (ISO 639-1 code for English), falling under alias/abbreviation normalization.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "b587e2da-5fd4-43fa-a3c1-77fce0939969",
+      "question": "what is the capital of australia?",
+      "gold": "canberra",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "canberra",
+      "raw_response": "Canberra",
+      "judge_reasoning": "The prediction 'Canberra' matches the gold answer 'canberra' after applying case normalization (Rule 1).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Canberra' matches the gold answer 'canberra' after applying case normalization (Rule 1).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "860f1d51-66b5-411a-93ec-370f361fe406",
+      "question": "how many times does apple report their earnings each year?",
+      "gold": "apple reports their earnings each quarter which means they report it 4 times each year",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "apple reports their earnings each quarter which means they report it 4 times each year",
+      "raw_response": "answer: Four",
+      "judge_reasoning": "The gold answer states '4 times each year', and the prediction 'Four' directly matches this numerical fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer states '4 times each year', and the prediction 'Four' directly matches this numerical fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "d73e9716-0b0d-4a5b-9bdd-98a6ca835640",
+      "question": "how many times has pete sampras won the french open singles title?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer: 6",
+      "judge_reasoning": "The gold answer 'invalid question' implies that Pete Sampras has not won the French Open singles title, or that the premise of the question is false. The prediction '6' directly contradicts this by stating a specific number of wins.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'invalid question' implies that Pete Sampras has not won the French Open singles title, or that the premise of the question is false. The prediction '6' directly contradicts this by stating a specific number of wins.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dc5f06b6-165b-4664-964a-82dd0a1c0784",
+      "question": "what movie won the most oscars, lincoln or the girl with the dragon tattoo?",
+      "gold": "lincoln",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "lincoln",
+      "raw_response": "answer: Lincoln",
+      "judge_reasoning": "The prediction 'Lincoln' matches the gold answer 'lincoln' after case normalization. Both identify the same movie as winning the most Oscars between the two options.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Lincoln' matches the gold answer 'lincoln' after case normalization. Both identify the same movie as winning the most Oscars between the two options.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dafa6e14-f4b2-43a7-9b5d-467ea102d7ce",
+      "question": "what are the four great lakes in michigan?",
+      "gold": "superior, michigan, huron and erie.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "superior, michigan, huron and erie.",
+      "raw_response": "Lake Superior; Lake Michigan; Lake Huron; Lake Erie",
+      "judge_reasoning": "The prediction lists the same four Great Lakes as the gold answer. The addition of 'Lake' before each name and the use of semicolons instead of commas are considered minor formatting differences and extra descriptive text that do not change the essential facts. Case is ignored.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same four Great Lakes as the gold answer. The addition of 'Lake' before each name and the use of semicolons instead of commas are considered minor formatting differences and extra descriptive text that do not change the essential facts. Case is ignored.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "ede7b552-c56b-4947-9269-1d67fa90fb18",
+      "question": "which movie won the oscar best animated feature film in 2015?",
+      "gold": "big hero 6",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nInside Out",
+      "judge_reasoning": "The prediction 'Inside Out' is a different movie title than the gold answer 'Big Hero 6', leading to a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Inside Out' is a different movie title than the gold answer 'Big Hero 6', leading to a contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "422bec4e-5b28-41cf-9cba-3d25020da61e",
+      "question": "which movie has a higher number of successful movie franchises, marvel cinematic universe or harry potter?",
+      "gold": "marvel cinematic universe has a higher number of successful movie franchises, with 33 movies grossing over $29 billion worldwide, while harry potter has 11 movies grossing over $9 billion worldwide.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "marvel cinematic universe has a higher number of successful movie franchises, with 33 movies grossing over $29 billion worldwide, while harry potter has 11 movies grossing over $9 billion worldwide.",
+      "raw_response": "Marvel Cinematic Universe",
+      "judge_reasoning": "The prediction directly answers the 'which' part of the question, which is the core fact requested. The gold answer confirms this by stating 'marvel cinematic universe has a higher number of successful movie franchises'. The additional details in the gold answer are extra information supporting the main point, but the prediction captures the essential fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction directly answers the 'which' part of the question, which is the core fact requested. The gold answer confirms this by stating 'marvel cinematic universe has a higher number of successful movie franchises'. The additional details in the gold answer are extra information supporting the main point, but the prediction captures the essential fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "0672b85d-ca23-4258-a5cd-3f0335f8f7e1",
+      "question": "when was \"soul\" released on hulu?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "2022-10-04",
+      "judge_reasoning": "The gold answer states the question is 'invalid question', implying no factual answer should be provided. The prediction provides a specific date, which contradicts the gold's assessment of the question's validity.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states the question is 'invalid question', implying no factual answer should be provided. The prediction provides a specific date, which contradicts the gold's assessment of the question's validity.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "503bb259-cafb-4a36-972b-480cc4ed52cb",
+      "question": "who were the members of the band led zeppelin?",
+      "gold": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "raw_response": "Robert Plant; Jimmy Page; John Paul Jones; John Bonham",
+      "judge_reasoning": "The prediction lists the same four members as the gold answer. Case and punctuation differences (commas vs. semicolons) are ignored by normalization rules for lists.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same four members as the gold answer. Case and punctuation differences (commas vs. semicolons) are ignored by normalization rules for lists.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

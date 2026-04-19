@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "dataset": "data/processed/hotpotqa/hotpot_icidk_raw_100.json",
+    "model_slug": "qwen-qwen3-32b",
+    "pool_start": 0,
+    "pool_size": 100,
+    "total_scored": 45,
+    "selected_correct": 11,
+    "selected_incorrect": 4,
+    "target_correct": 11,
+    "target_incorrect": 4,
+    "early_stop": true
+  },
+  "records": [
+    {
+      "id": "5a8ba093554299240d9c203f",
+      "question": "The Colts' first ever draft pick was a halfback who won the Heisman Trophy in what year?",
+      "gold": "1952",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "1952",
+      "raw_response": "answer:\n1952",
+      "judge_reasoning": "The prediction '1952' is identical to the gold answer '1952'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction '1952' is identical to the gold answer '1952'.\"\n}\n```"
+    },
+    {
+      "id": "5ac04545554299294b218f6a",
+      "question": "What 1998 film with Arthur Nascarella was directed by Tony Scott?",
+      "gold": "Enemy of the State",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Enemy of the State",
+      "raw_response": "answer:\nEnemy of the State",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```"
+    },
+    {
+      "id": "5adcf98255429947343537e9",
+      "question": "Which show connects Arthur Darvill and Matt Smith?",
+      "gold": "Doctor Who",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doctor Who",
+      "raw_response": "answer:  \nDoctor Who",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```"
+    },
+    {
+      "id": "5adc432d55429944faac24a1",
+      "question": "The San Diego Gulls are a professional ice hockey team in the American Hockey League (AHL) which began playing in the 2015\u201316 season, the Gulls play their home games at which indoor arena located at Sports Arena Blvd in Point Loma, San Diego?",
+      "gold": "Valley View Casino Center",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nPechanga Arena",
+      "judge_reasoning": "The prediction 'Pechanga Arena' is a different name than the gold answer 'Valley View Casino Center', indicating a contradiction regarding the name of the arena.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Pechanga Arena' is a different name than the gold answer 'Valley View Casino Center', indicating a contradiction regarding the name of the arena.\"\n}\n```"
+    },
+    {
+      "id": "5a903a4855429933b8a204a9",
+      "question": "What era was the man associated with Fanny Talbot the leading art critic of?",
+      "gold": "Victorian era",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Victorian era",
+      "raw_response": "answer:\nVictorian era",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```"
+    },
+    {
+      "id": "5a7134ef5542994082a3e668",
+      "question": "Which breed of dog is now extinct: Chinese Crested Dog or the Chien-gris?",
+      "gold": "Chien-gris",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chien-gris",
+      "raw_response": "answer:\nChien-gris",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```"
+    },
+    {
+      "id": "5a8285be55429966c78a6a41",
+      "question": "Which event was a surprise military strike by the Imperial Japanese Navy Air Service while Magruder Hill Tuttle was a senior officer in the United States Navy?",
+      "gold": "attack on Pearl Harbor",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "attack on Pearl Harbor",
+      "raw_response": "answer:\nPearl Harbor attack",
+      "judge_reasoning": "The prediction 'Pearl Harbor attack' refers to the same event as the gold answer 'attack on Pearl Harbor'. The phrasing is slightly different but the core fact is identical, which is acceptable under normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Pearl Harbor attack' refers to the same event as the gold answer 'attack on Pearl Harbor'. The phrasing is slightly different but the core fact is identical, which is acceptable under normalization rules.\"\n}\n```"
+    },
+    {
+      "id": "5a8b21cb55429971feec4647",
+      "question": "The 2016 Liberty Bowl was sponsored by a company based in what city?",
+      "gold": "Memphis",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Memphis",
+      "raw_response": "answer:\nMemphis",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```"
+    },
+    {
+      "id": "5ab3f9b95542992ade7c6f09",
+      "question": "It Takes a Family is a response to this 1996 book that was published by who",
+      "gold": "Hillary Rodham Clinton",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nDavid Gollaher",
+      "judge_reasoning": "The gold answer identifies the publisher as 'Hillary Rodham Clinton', while the prediction identifies the publisher as 'David Gollaher'. These are different individuals, leading to a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies the publisher as 'Hillary Rodham Clinton', while the prediction identifies the publisher as 'David Gollaher'. These are different individuals, leading to a contradiction.\"\n}\n```"
+    },
+    {
+      "id": "5abb1cc55542992ccd8e7f16",
+      "question": "Brian Keith \"Herbie\" Flowers, is an English musician specialising in electric bass, double bass and tuba, he has contributed to the recording Give My Regards to Broad Street is the fifth studio album by who, as well as the soundtrack album to his 1984 film of the same name?",
+      "gold": "Paul McCartney",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Paul McCartney",
+      "raw_response": "answer:\nPaul McCartney",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```"
+    },
+    {
+      "id": "5a8113ca55429938b61422ab",
+      "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+      "gold": "Chlorophyll",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chlorophyll",
+      "raw_response": "answer: Chlorophyll a and b; phycoerythrin",
+      "judge_reasoning": "The gold answer 'Chlorophyll' is a general term. The prediction 'Chlorophyll a and b' specifies types of chlorophyll, which is consistent with the gold. The addition of 'phycoerythrin' is extra, correct information that does not contradict the gold answer, as phycoerythrin is also found in Prochlorococcus and essential for photosynthesis. The prediction provides the essential fact from the gold and adds further accurate detail.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer 'Chlorophyll' is a general term. The prediction 'Chlorophyll a and b' specifies types of chlorophyll, which is consistent with the gold. The addition of 'phycoerythrin' is extra, correct information that does not contradict the gold answer, as phycoerythrin is also found in Prochlorococcus and essential for photosynthesis. The prediction provides the essential fact from the gold and adds further accurate detail.\"\n}\n```"
+    },
+    {
+      "id": "5ade45ed554299728e26c699",
+      "question": "The 2016 Washington State Cougars were led by the coach who previously helmed which other team?",
+      "gold": "Texas Tech Red Raiders",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nBoise State Broncos",
+      "judge_reasoning": "The prediction 'Boise State Broncos' contradicts the gold answer 'Texas Tech Red Raiders' regarding the previous team coached.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Boise State Broncos' contradicts the gold answer 'Texas Tech Red Raiders' regarding the previous team coached.\"\n}\n```"
+    },
+    {
+      "id": "5a81e73f554299676cceb14d",
+      "question": "Who produced the movie that \"Puss in Boots: The Three Diablos\" is the sequel of?",
+      "gold": "DreamWorks Animation",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "DreamWorks Animation",
+      "raw_response": "answer:\nDreamWorks Animation",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```"
+    },
+    {
+      "id": "5ab285d0554299340b5254fa",
+      "question": "The Acolytes Protection Agency consisted of what wrestler born November 29, 1966",
+      "gold": "John Layfield",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nBilly Gunn",
+      "judge_reasoning": "The gold answer identifies the wrestler as 'John Layfield', while the prediction identifies them as 'Billy Gunn'. These are two different individuals, leading to a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies the wrestler as 'John Layfield', while the prediction identifies them as 'Billy Gunn'. These are two different individuals, leading to a contradiction.\"\n}\n```"
+    },
+    {
+      "id": "5a80df91554299260e20a198",
+      "question": "The First Silesian war was fought against the King of Prussia who died in what year?",
+      "gold": "1786",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "1786",
+      "raw_response": "answer:\n1786",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```"
+    }
+  ]
+}

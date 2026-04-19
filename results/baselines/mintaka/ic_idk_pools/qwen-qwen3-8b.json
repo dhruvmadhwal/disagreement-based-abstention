@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "66e66d5d",
+      "question": "Who starred in \"Rebel Without a Cause\" but was not awarded an Academy Award for his/her acting?",
+      "gold": "James Dean",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "James Dean",
+      "raw_response": "answer:\nJames Dean",
+      "judge_reasoning": "The prediction 'James Dean' is an exact match to the gold answer 'James Dean'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'James Dean' is an exact match to the gold answer 'James Dean'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "015e0dd9",
+      "question": "Which Judy Garland movie was nominated for, but did not win, the Best Picture Oscar in 1939?",
+      "gold": "The Wizard of Oz",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Wizard of Oz",
+      "raw_response": "answer:\nThe Wizard of Oz",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5b6f5a03",
+      "question": "Which Hobbit movie was Frodo Baggins not in?",
+      "gold": "The Hobbit: The Desolation of Smaug, and The Hobbit: The Battle of the Five Armies",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Hobbit: The Desolation of Smaug, and The Hobbit: The Battle of the Five Armies",
+      "raw_response": "answer:\nThe Desolation of Smaug",
+      "judge_reasoning": "The prediction provides one of the two correct movies listed in the gold answer. Since the question does not ask for 'all' movies, providing a subset of valid answers is acceptable. 'The Desolation of Smaug' is a normalized form of 'The Hobbit: The Desolation of Smaug'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides one of the two correct movies listed in the gold answer. Since the question does not ask for 'all' movies, providing a subset of valid answers is acceptable. 'The Desolation of Smaug' is a normalized form of 'The Hobbit: The Desolation of Smaug'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dfa95487",
+      "question": "Which Twilight Saga movie did Anna Kendrick not appear in?",
+      "gold": "The Twilight Saga: Breaking Dawn \u2013 Part 2",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nBreaking Dawn - Part 1",
+      "judge_reasoning": "The prediction identifies 'Breaking Dawn - Part 1' as the movie Anna Kendrick did not appear in, which contradicts the gold answer 'The Twilight Saga: Breaking Dawn \u2013 Part 2'. These are two distinct movies.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction identifies 'Breaking Dawn - Part 1' as the movie Anna Kendrick did not appear in, which contradicts the gold answer 'The Twilight Saga: Breaking Dawn \u2013 Part 2'. These are two distinct movies.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "d9f957a4",
+      "question": "Which director directed Harry Potter 1 and 2 but not Harry Potter 3?",
+      "gold": "Chris Columbus",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chris Columbus",
+      "raw_response": "answer:\nChris Columbus",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "af632860",
+      "question": "Which 2012 Quentin Tarantino movie does not star Uma Thurman?",
+      "gold": "Django Unchained",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Django Unchained",
+      "raw_response": "answer:\nDjango Unchained",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "fa08c557",
+      "question": "Which The Godfather movie was not released in the 1970s?",
+      "gold": "The Godfather Part III",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Godfather Part III",
+      "raw_response": "answer:\nThe Godfather Part III",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "3bf84d0d",
+      "question": "Which movie was Chadwick Bosman nominated for but did not win?",
+      "gold": "Ma Rainey's Black Bottom",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Ma Rainey's Black Bottom",
+      "raw_response": "answer:\nMa Rainey's Black Bottom",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "f8b98e1c",
+      "question": "In which Tim Burton movie is the music not made by Danny Elfman?",
+      "gold": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nEdward Scissorhands",
+      "judge_reasoning": "The prediction 'Edward Scissorhands' is a different movie title than the gold answer 'Sweeney Todd: The Demon Barber of Fleet Street'. Furthermore, 'Edward Scissorhands' was scored by Danny Elfman, which contradicts the question's premise of finding a movie *not* scored by him.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Edward Scissorhands' is a different movie title than the gold answer 'Sweeney Todd: The Demon Barber of Fleet Street'. Furthermore, 'Edward Scissorhands' was scored by Danny Elfman, which contradicts the question's premise of finding a movie *not* scored by him.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5d65d703",
+      "question": "Which Pirates of the Caribbean movie did Keira Knightley not appear in?",
+      "gold": "Pirates of the Caribbean: On Stranger Tides",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Pirates of the Caribbean: On Stranger Tides",
+      "raw_response": "answer:\nPirates of the Caribbean: On Stranger Tides",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "fc05ee12",
+      "question": "Which Ang Lee movie was nominated for an Academy Award for Best Director but did not win?",
+      "gold": "Crouching Tiger, Hidden Dragon",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Crouching Tiger, Hidden Dragon",
+      "raw_response": "answer:\nCrouching Tiger, Hidden Dragon",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4e054acb",
+      "question": "Which actor played Dumbledore in the first Harry Potter movie but not the third?",
+      "gold": "Richard Harris",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nMichael Gambon",
+      "judge_reasoning": "The gold answer 'Richard Harris' correctly identifies the actor who played Dumbledore in the first Harry Potter movie but not the third. The prediction 'Michael Gambon' is incorrect because Michael Gambon took over the role from the third movie onwards and did not play Dumbledore in the first movie, thus contradicting the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'Richard Harris' correctly identifies the actor who played Dumbledore in the first Harry Potter movie but not the third. The prediction 'Michael Gambon' is incorrect because Michael Gambon took over the role from the third movie onwards and did not play Dumbledore in the first movie, thus contradicting the gold fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "ab3c0d55",
+      "question": "Which category was Sacha Baron Cohen nominated for but did not win?",
+      "gold": "Actor in a Supporting Role",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Actor in a Supporting Role",
+      "raw_response": "answer: Best Actor in a Supporting Role",
+      "judge_reasoning": "The prediction adds 'Best' to the category name, which is a common way to refer to the award for that category. It does not contradict the essential fact of the category itself ('Actor in a Supporting Role').",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction adds 'Best' to the category name, which is a common way to refer to the award for that category. It does not contradict the essential fact of the category itself ('Actor in a Supporting Role').\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "57eda45b",
+      "question": "Which movie did Macauley Culkin decide not to reprise his role in?",
+      "gold": "Home Alone 3",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nHome Alone 2: Lost in New York",
+      "judge_reasoning": "The prediction states 'Home Alone 2: Lost in New York', but Macauley Culkin did reprise his role in that movie. The gold answer 'Home Alone 3' is correct as he did not appear in that film, making the prediction a factual contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction states 'Home Alone 2: Lost in New York', but Macauley Culkin did reprise his role in that movie. The gold answer 'Home Alone 3' is correct as he did not appear in that film, making the prediction a factual contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4f70dd9f",
+      "question": "Which Thor movie from the original trilogy does not star Natalie Portman?",
+      "gold": "Thor: Ragnarok",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Thor: Ragnarok",
+      "raw_response": "answer:\nThor: Ragnarok",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

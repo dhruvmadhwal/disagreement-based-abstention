@@ -1,0 +1,654 @@
+{
+  "020f4f35-eb92-4e66-b3f4-71a85a3f37c4": {
+    "correct": 0,
+    "reasoning": "The gold answer states Usher was 45 years old, while the prediction states 29. These numerical values are significantly different and do not fall within the allowed tolerance for numeric expressions."
+  },
+  "03e3957a-3d2b-4386-a89f-1ad106512f3f": {
+    "correct": 0,
+    "reasoning": "The gold answer states the profession was 'NBA player', while the prediction states 'Rapper'. These are different professions, leading to a contradiction."
+  },
+  "04f641b1-86c8-4240-9b49-31d40456cd4f": {
+    "correct": 1,
+    "reasoning": "The prediction directly matches the name of the actor provided in the gold answer, which is the core fact requested by the question."
+  },
+  "118896a1-8124-482a-9201-4aaf1903618d": {
+    "correct": 0,
+    "reasoning": "The prediction's release date (October 7th, 2004) contradicts the gold answer's release date (February 1st, 1994). Calendar dates must match exactly."
+  },
+  "13ea1049-2593-4f93-a46e-89dc336f1e91": {
+    "correct": 0,
+    "reasoning": "The prediction 'Cornell University' contradicts the gold answer 'Columbia University'. These are two distinct universities."
+  },
+  "2a233422-8f6c-4f97-8509-ccc71afb3794": {
+    "correct": 0,
+    "reasoning": "The gold answer states Leonardo DiCaprio was 42 years old, while the prediction states 41. The difference of 1 is outside the allowed numeric tolerance of max(0.5, 1% of 42 = 0.42) = 0.5."
+  },
+  "4ae2cce0-de1c-49c4-b929-4952a02a260c": {
+    "correct": 1,
+    "reasoning": "The prediction '52' provides the same numerical age as the gold answer '52 years old'. The unit 'years old' is implied by the question and the numerical value, making it an acceptable omission."
+  },
+  "551d685a-1536-4c51-87f5-a73dc1f8b3c5": {
+    "correct": 0,
+    "reasoning": "The gold answer states the length is 652 miles, while the prediction states 584 miles. These numerical values are significantly different and fall outside the allowed tolerance (68 miles difference vs. 1% of 652 miles which is 6.52 miles)."
+  },
+  "56c7d756-2d72-48bd-9574-9dea576d78e1": {
+    "correct": 1,
+    "reasoning": "The prediction provides the correct name of the actress, 'Carrie-Anne Moss', which is the essential fact requested by the question and present in the gold answer. The gold answer includes additional descriptive details about the character, but the core fact matches, adhering to Rule 8 (Extra detail)."
+  },
+  "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5": {
+    "correct": 0,
+    "reasoning": "The gold answer states the elevation is 95 feet, while the prediction states 74 feet. The difference (21 feet) exceeds the allowed numeric tolerance of 1% of the reference value (0.95 feet)."
+  },
+  "61843ef2-b106-4a71-8dca-72c6b483733b": {
+    "correct": 1,
+    "reasoning": "The prediction 'Right' is equivalent to the gold answer 'right' after applying case normalization (Rule 1)."
+  },
+  "79c07a6f-77a4-4f41-ad34-90804e609c2d": {
+    "correct": 0,
+    "reasoning": "The gold answer is 366 meters, which converts to approximately 1200.79 feet. The prediction is 1116 feet. The difference (84.79 feet) is outside the 1% numerical tolerance of the gold value (12.01 feet)."
+  },
+  "81148a6f-de74-4624-a2b3-794e9ed5ab76": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "ad57a30d-0f77-41cf-ab69-350e7080a727": {
+    "correct": 1,
+    "reasoning": "Case normalization: 'Del Harris' is equivalent to 'del harris'."
+  },
+  "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e": {
+    "correct": 1,
+    "reasoning": "The gold answer specifies the year '2010'. The prediction provides a more specific date '2010-10-28', which includes the year '2010' and does not contradict the gold answer. This falls under the 'Extra detail' rule (Rule 8)."
+  },
+  "cdc413a0-1cb3-4100-b841-71ef9224808f": {
+    "correct": 0,
+    "reasoning": "The gold answer states the age was 35, while the prediction states 53. These numeric values are significantly different and fall outside the allowed tolerance for numeric expressions."
+  },
+  "d4360848-f6aa-4071-9264-6c60b934ce08": {
+    "correct": 1,
+    "reasoning": "The prediction 'Carnegie Mellon University' is identical to the gold answer 'carnegie mellon university' after ignoring case differences, which is allowed by normalization rules."
+  },
+  "d6ed2e39-aa0d-4d1b-a975-f400eb859e63": {
+    "correct": 0,
+    "reasoning": "The prediction states the marriage date as April 21, 1987, which contradicts the gold answer's date of 2009. Calendar dates must match exactly."
+  },
+  "e06676aa-efc3-4763-b196-e105596cc643": {
+    "correct": -1,
+    "reasoning": "Missing prediction text"
+  },
+  "e525e6b2-4865-4610-a73b-79438c724255": {
+    "correct": 0,
+    "reasoning": "The prediction 'Debut Album' is a generic description and does not provide the specific title of the album, which is 'Diana Ross Presents The Jackson 5' as stated in the gold answer. It fails to communicate the essential fact requested."
+  },
+  "8f44d279-42b0-490f-ab04-24dd1a7a47f5": {
+    "correct": 1,
+    "reasoning": "The question asks for an age, which is a naturally drifting value. According to Numeric expressions Rule 2, for naturally drifting values, predictions are equivalent if the relative error is within a 1-5.5 percentage-point window. The relative error is |33 - 32| / 33 = 1/33 \u2248 3.03%. Since 3.03% falls within the 1-5.5% window, the prediction is considered correct."
+  },
+  "1b4e6ba6-f847-432b-a109-83b191589bc4": {
+    "correct": 0,
+    "reasoning": "The prediction 'Tony Dungy' contradicts the gold answer 'jim e. mora'. These are two different individuals."
+  },
+  "207250e7-d0a6-4b17-9072-5496c7ff6380": {
+    "correct": 1,
+    "reasoning": "The prediction states the same age (16 years old) as the gold answer. The additional context in the prediction does not contradict the gold fact."
+  },
+  "21da19e6-56a8-439a-92ec-09d3af005ac6": {
+    "correct": 0,
+    "reasoning": "The gold answer states the album was released in 2010, while the prediction states 2001. Calendar dates and years must match exactly according to Rule 2, so this is a contradiction."
+  },
+  "41dea43b-d187-4844-b33a-a46e3879dd96": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies 4 locations, while the prediction states 'Over 10', which is a direct contradiction regarding the number of locations."
+  },
+  "470ed1c7-8a71-4c0c-9be8-bb1fe82ce59f": {
+    "correct": 0,
+    "reasoning": "The gold answer states the elevation is 238 m, while the prediction states 170 m. These values are numerically different and fall outside the allowed tolerance for exact numeric comparisons (|238 - 170| = 68, which is much greater than max(0.5, 1% of 238 = 2.38))."
+  },
+  "54f26611-03ad-4284-95dc-015c050946b8": {
+    "correct": 1,
+    "reasoning": "The prediction 'Sally Hawkins' is identical to the gold answer 'sally hawkins' after applying case normalization (Rule 1)."
+  },
+  "55ea20e8-c0da-48be-8e02-d4d6bec6c27d": {
+    "correct": 0,
+    "reasoning": "The prediction 'Crash' is a different movie title than the gold answer 'the departed'. They do not refer to the same fact."
+  },
+  "5db90d97-9b5a-422b-a46a-ca401cfd2074": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Vera Farmiga' was a leading lady in 'The Departed', which won Best Picture at the 2007 Oscars. The prediction 'Julie Christie' was nominated for Best Actress in a different film ('Away from Her') that did not win Best Picture, making the prediction incorrect."
+  },
+  "67a1ef25-0e22-4224-a90e-f9fc9374a479": {
+    "correct": 0,
+    "reasoning": "The gold answer correctly identifies 'The Shape of Water' as the Best Picture winner at the 90th Academy Awards, where Gary Oldman won Best Actor. The prediction 'Darkest Hour' is the movie for which Gary Oldman won Best Actor, not the Best Picture winner, making it a factual contradiction."
+  },
+  "6bafd51e-ba95-4f7f-b06f-4a1661f788a8": {
+    "correct": 0,
+    "reasoning": "The prediction 'Forrest Gump' is a different film than the gold answer 'Schindler's List', directly contradicting the correct fact."
+  },
+  "758a8ddc-41d5-4175-a41c-c31fb1e1fc97": {
+    "correct": 0,
+    "reasoning": "The prediction of -39% contradicts the gold answer of +43.64%. The signs are opposite, indicating a loss versus a gain, and the magnitudes are also significantly different, far outside any acceptable tolerance."
+  },
+  "75e54c83-f11b-413e-aebc-909bf3d436da": {
+    "correct": 1,
+    "reasoning": "The prediction directly provides the name of the writer, 'Ray Parker Jr.', which is the essential fact contained within the gold answer. The additional context in the gold answer is not required for a correct match."
+  },
+  "765b506f-a77a-406e-88ad-05a08b549b02": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies the symbol/name of the constellation (Aquila, meaning 'the eagle'). The prediction '\u03b2 Aquilae' refers to a specific star within that constellation, not the constellation's symbol itself. Therefore, it is a different fact."
+  },
+  "7d02db15-45be-4168-99da-a5e0a48fbd9e": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies 'Taylor Swift' as the top artist, while the prediction states 'Adele'. These are different artists, leading to a contradiction."
+  },
+  "8895f09f-1ccf-49fe-9ab0-dbeabc3a2d54": {
+    "correct": 1,
+    "reasoning": "The prediction directly states the country of origin, which is the core fact in the gold answer. Extra descriptive text in the gold is ignored."
+  },
+  "8b5b18ec-269d-4be9-8fcb-6eebacd3ddd2": {
+    "correct": 0,
+    "reasoning": "The gold answer states the school was 'Louisville', while the prediction states 'Alabama'. These are contradictory facts regarding the school."
+  },
+  "91f3cf34-49bf-4da4-97ce-a04f3fc57467": {
+    "correct": 0,
+    "reasoning": "The gold answer is 29 and the prediction is 25. The absolute difference is 4, which is greater than the allowed tolerance of max(0.5, 1% of 29) = 0.5. Therefore, the prediction is incorrect."
+  },
+  "92e81984-b349-493a-b735-6b6e90cccb75": {
+    "correct": 1,
+    "reasoning": "The prediction 'Japan' is identical to the gold answer 'japan' after ignoring case, as per Rule 1 (Normalization)."
+  },
+  "9db3fe70-c7e9-4f0d-bba7-647bb246df99": {
+    "correct": 0,
+    "reasoning": "The question asks for an age, and the gold answer provides '10 years old'. The prediction provides a date ('1996-06-28'), which is not an age and therefore does not answer the question."
+  },
+  "bc1da7f4-87e3-4f8d-9cf0-f48345f2aa8d": {
+    "correct": 0,
+    "reasoning": "The prediction 'Adele' contradicts the gold answer 'dixie chicks'. Adele did not win Song of the Year at the 49th Grammy Awards (2006)."
+  },
+  "bdaa3dcc-1673-4425-9f11-a2e81bcd3e37": {
+    "correct": 1,
+    "reasoning": "The prediction 'United States' is an alias/abbreviation for the gold answer 'us'. Rule 1 (Normalization) applies."
+  },
+  "cfc875b9-4cac-456b-a7a8-df23c9dab754": {
+    "correct": 0,
+    "reasoning": "The prediction '1992' is a year, but it does not match the correct year '1966' provided in the gold answer. Additionally, the prediction completely omits the name of the actress, which was also requested by the question."
+  },
+  "e042412e-c4f6-4a2e-b8c2-e550cbb3a144": {
+    "correct": 0,
+    "reasoning": "The prediction names 'Anne Parillaud' as the actress, which contradicts the gold answer's 'Meiko Kaji'. These are different individuals."
+  },
+  "e1685144-072d-498c-a0bf-d2ca9ad939fa": {
+    "correct": 1,
+    "reasoning": "The prediction provides the essential fact, 'Over My Dead Body', which matches the song title in the gold answer. Case is ignored, and extra descriptive text in the gold answer is not required in the prediction."
+  },
+  "e6fe70a3-61b9-4b6f-b953-9ec181806b7d": {
+    "correct": 0,
+    "reasoning": "The predicted actress name 'Helena Bonham Carter' is different from the gold actress name 'Anna Thomson'. This is a direct contradiction of the factual information requested."
+  },
+  "fd3e847c-5742-46fd-be45-3a07189f226a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Lewis Hamilton' is a case-insensitive match for the gold answer 'lewis hamilton'. Normalization rules allow for case differences."
+  },
+  "00283e38-b411-425f-ad12-b6de87e4dc45": {
+    "correct": 1,
+    "reasoning": "The gold answer states Arnold Schwarzenegger is 76 years old. The prediction is 74. For naturally drifting values like ages, a 1-5.5 percentage-point window is allowed. The difference between 76 and 74 is 2, which is (2/76)*100 = 2.63%, falling within the acceptable range."
+  },
+  "04ddbcdf-cf5e-4331-8084-04f03540e0a1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Eminem' directly answers the question and is a subset of the information provided in the gold answer, which states 'rihanna and eminem co-headlined the monster tour in 2014'. There is no contradiction."
+  },
+  "04fd2c98-6531-41a0-8f9f-4af6b7f012ef": {
+    "correct": 1,
+    "reasoning": "The prediction 'Corey Seager' correctly identifies the MVP. The gold answer contains a minor typo ('Saeger' instead of 'Seager'), but the name is clearly intended to be the same individual. The extra detail about the team in the gold answer is not required by the question and its absence in the prediction does not make the prediction incorrect."
+  },
+  "0512b2a6-b900-4454-8613-512e65b1913e": {
+    "correct": 0,
+    "reasoning": "The prediction 'Megan Rapinoe' is a different person than the gold answer 'miyazawa hinata', directly contradicting the factual information requested."
+  },
+  "0531f5e7-d6ac-4c45-be32-5e530f83835b": {
+    "correct": 0,
+    "reasoning": "The prediction incorrectly identifies the founder of YSL Records as 'William S. Yale' and states that no albums have been released by this individual, which directly contradicts the gold answer 'business is business' (an album by Young Thug, the actual founder)."
+  },
+  "06f24bd1-de46-4a8e-8ea1-0ba8705c232a": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Cathy Lee Crosby' was the first actress, while the prediction states 'Gal Gadot'. These are two different individuals, leading to a direct contradiction."
+  },
+  "0c373f48-2891-41c0-96f2-c91bf2757c89": {
+    "correct": 0,
+    "reasoning": "The gold answer states the album was released in 1997, while the prediction gives 1996. Calendar dates and years must match exactly according to Rule 2."
+  },
+  "12d2b048-e8de-470a-b4f2-81b0cf03ec5e": {
+    "correct": -1,
+    "reasoning": "Missing prediction text"
+  },
+  "135d26da-3a52-4207-ad86-8d270b510d5f": {
+    "correct": 0,
+    "reasoning": "The prediction 'Crossroads School' is a different school than the gold answer 'sierra canyon high school'. This is a direct contradiction of the factual information requested."
+  },
+  "144df9a3-9bf8-49b0-8de2-680ee8f8ffef": {
+    "correct": 0,
+    "reasoning": "The gold answer states the population is about 1,208 people, while the prediction states 58,000. These numbers are significantly different and fall outside the allowed numeric tolerance."
+  },
+  "158e20f9-c28b-4aa0-b2b3-c961607905c6": {
+    "correct": 0,
+    "reasoning": "The gold answer 'the greater dog' refers to Canis Major, the constellation containing Sirius. The prediction '\u264b' is the symbol for Cancer, which is a different constellation (the Crab). The prediction contradicts the gold fact."
+  },
+  "161a89f3-7a70-4e12-a1a2-7832e098b0a7": {
+    "correct": 1,
+    "reasoning": "The prediction 'Oracle Corporation' is an equivalent and more formal name for 'Oracle', which is the essential fact provided in the gold answer regarding the CEO's previous workplace. The prediction correctly identifies the company."
+  },
+  "1cba1106-7e25-4777-84eb-2a214493061b": {
+    "correct": 0,
+    "reasoning": "The gold answer is 7, and the prediction is 4. The difference (3) is outside the allowed numerical tolerance of max(0.5, 1% of 7 = 0.07), which is 0.5."
+  },
+  "1ce7a4c7-d538-45c6-bd06-261021515159": {
+    "correct": 1,
+    "reasoning": "The prediction provides the correct name of the actress, 'Elle Fanning', which is the essential fact requested by the question and present in the gold answer. The gold answer includes additional descriptive text about the role, but this does not contradict the prediction."
+  },
+  "1d055e31-4a1c-4a7d-9318-516b19259715": {
+    "correct": 1,
+    "reasoning": "The prediction identifies the correct company, 'Interpublic Group of Companies Inc.', which is equivalent to 'the interpublic group of companies' in the gold answer, ignoring case and common company suffixes. The gold answer's additional phrase 'has a separate chair/ceo' reiterates the condition from the question, which is implicitly confirmed by the prediction providing the company name as the answer."
+  },
+  "1ddf2c5d-74f3-408f-9f19-facd709a494c": {
+    "correct": 0,
+    "reasoning": "The gold answer states the company was added on 'May 6, 1932', while the prediction states '1896'. These dates are significantly different and contradict each other."
+  },
+  "1e5a1b84-cf20-4654-b12e-1a6806beb8d3": {
+    "correct": -1,
+    "reasoning": "The prediction 'Not available' is a refusal to answer the question, which falls under the 'not meaningful' category according to rule 10."
+  },
+  "237856fa-4701-4452-a124-bf86a52a1e1b": {
+    "correct": 1,
+    "reasoning": "Alias normalization: 'United States' is equivalent to 'us'."
+  },
+  "255b57ed-6a4e-4bab-9bb7-b3e785f4dee3": {
+    "correct": 1,
+    "reasoning": "The prediction 'Olivia Colman' directly matches the essential fact (the actress's name) in the gold answer. The additional information in the gold answer about awards is extra detail and does not contradict the core fact."
+  },
+  "27f2284d-0d87-46c6-a0a1-e46135a3fc67": {
+    "correct": 0,
+    "reasoning": "The gold answer states the movie came out in 2015, while the prediction states 2009. Calendar dates and years must match exactly, so this is a contradiction."
+  },
+  "280d60d1-f2be-4895-ae73-29461c8f1b35": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Jayson Tatum as the starting small forward, while the prediction states Khris Middleton. These are different players, making the prediction a contradiction."
+  },
+  "2b1f918b-4cf0-434a-97b7-85a520c98e08": {
+    "correct": 1,
+    "reasoning": "The prediction provides the correct numerical value and unit for the size of the biggest state. The underscore in the prediction is treated as a thousands separator, which is ignored per normalization rules. 'sq mi' is an equivalent abbreviation for 'square miles'. The gold's additional information about 'Alaska' and 'about' does not contradict the prediction, which directly answers the numerical aspect of the question."
+  },
+  "2d441210-7b4a-453c-a26d-b8d1625c5954": {
+    "correct": 0,
+    "reasoning": "The gold answer states the CEO of Anthropic previously worked at OpenAI, while the prediction states MIT Media Lab. These are different and contradictory facts."
+  },
+  "2faf3308-8d49-4cf8-b0c0-f5fdeac0f860": {
+    "correct": 0,
+    "reasoning": "The gold answer states the age is 45, while the prediction states 44. The difference (1) exceeds the allowed tolerance of max(0.5, 1% of 45 = 0.45) = 0.5 for numeric expressions."
+  },
+  "30a16b31-e7a8-4c9a-81ef-08133e9ea795": {
+    "correct": 1,
+    "reasoning": "The prediction 'Jim Rash' directly provides the name of the actor, which is the essential fact requested by the question and present in the gold answer. Case is ignored during normalization."
+  },
+  "30c8be43-be29-486a-b346-90b2ab6990d9": {
+    "correct": 1,
+    "reasoning": "The gold answer states there is a three-way tie for movies winning the most Academy Awards, and lists the directors for each: William Wyler, Peter Jackson, and James Cameron. The prediction 'James Cameron' is one of these correct directors. According to Rule 9 (Subset allowance), if the question doesn't ask for 'all' or an exact count, providing a subset of valid answers without contradiction is acceptable."
+  },
+  "311910a7-bdee-4e4c-ab0b-d6cb61abb29d": {
+    "correct": 1,
+    "reasoning": "Case normalization: 'NYT' is equivalent to 'nyt' as per Rule 1."
+  },
+  "318361f8-af94-4b0b-8017-c0f04ec1755c": {
+    "correct": 0,
+    "reasoning": "The prediction 'Apple Inc.' is a different company than the gold answer 'microsoft', directly contradicting the gold fact about which company has the largest market capitalization."
+  },
+  "365b3655-6fc5-4731-a422-afeb3d4b3750": {
+    "correct": 0,
+    "reasoning": "The prediction 'Alphabet Inc.' is a different company than the gold answer 'walmart', directly contradicting the gold fact about which company brings in the most revenue."
+  },
+  "3e6f239d-0354-4867-99ef-9542db6a83c8": {
+    "correct": 0,
+    "reasoning": "The gold answer states the team is 'Washington Commanders', while the prediction states 'New York Giants'. These are different teams, leading to a direct contradiction."
+  },
+  "4713fbb8-0591-47fc-baa6-23b3d2595a6d": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Iga Swiatek' won the most titles, while the prediction states 'Ashleigh Barty'. These are two different players, leading to a direct contradiction."
+  },
+  "47d14ce5-921b-47f3-bf8b-0c016c5c724b": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies that Andy has 'twelve' toys, while the prediction states 'Not specified', which is a direct contradiction of the gold fact."
+  },
+  "4835d4a2-4f31-423b-9f82-4c879c7798ed": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies 'Ederson' as the goalkeeper, while the prediction states 'Edouard Mendy'. These are two different individuals, making the prediction a contradiction of the gold fact."
+  },
+  "4b7edd12-ac60-43df-8e3d-6c8274854f9b": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the date as August 19, 2023, while the prediction gives a different date, June 6, 2020. These dates do not match."
+  },
+  "4bc62eb4-678b-48cc-8e7c-ce5a524f0279": {
+    "correct": -1,
+    "reasoning": "Missing prediction text"
+  },
+  "4ebbb760-c5ae-4307-9764-567a357f4cc1": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies a character ('Vesper Lynd') and a year ('1953', likely referring to the novel's publication), not an actress. The question asks for the 'first actress'. The prediction identifies an actress ('Ursula Andress'). Since the gold answer does not provide an actress, the prediction does not communicate the same essential fact as the gold."
+  },
+  "5110a6f8-ccbc-4814-9dde-c9aaf903a41f": {
+    "correct": 1,
+    "reasoning": "The prediction provides the exact numerical value (52.5 million viewers) which is the core fact from the gold answer. The gold answer includes additional descriptive text, but the essential fact is present and correct in the prediction."
+  },
+  "543d501a-7e5e-4a22-be60-243a3e2225b5": {
+    "correct": 0,
+    "reasoning": "The gold answer 'lee' and the prediction 'SWRV' are different ticker symbols. There is no equivalence between them."
+  },
+  "543f4168-8769-4b6d-a595-46cd925a89d2": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer, ignoring case as per Rule 1 (Normalization)."
+  },
+  "59029c73-beb6-4770-9814-355491d73320": {
+    "correct": 0,
+    "reasoning": "The prediction 'Tennis' directly contradicts the gold answer 'football'. They are different sports."
+  },
+  "5a55dd6b-371b-4daa-a2a2-7df503885d21": {
+    "correct": -1,
+    "reasoning": "Missing prediction text"
+  },
+  "5faeb754-5d14-4bbe-b19b-ea4dff7a923c": {
+    "correct": 0,
+    "reasoning": "The gold answer states the actress is 'Claire Foy', while the prediction states 'Elizabeth Ferguson'. These are different names, leading to a contradiction."
+  },
+  "60084fd7-1889-4194-aab9-38ad898dfcf3": {
+    "correct": -1,
+    "reasoning": "The prediction 'Not available' is a refusal to answer and does not provide the requested information, thus it is not meaningful."
+  },
+  "612d6a91-f8a0-4935-ad7c-b9b09e959fcc": {
+    "correct": 0,
+    "reasoning": "The gold answer states the rating is 99%, while the prediction gives 95%. The difference of 4 percentage points is outside the allowed numeric tolerance (max(0.5, 1% of 99) = 0.99). Additionally, the prediction states it's a 'Simulated value', which contradicts the factual nature of the rating provided in the gold answer."
+  },
+  "66337316-94d9-49c2-b09e-8ea5f29a9925": {
+    "correct": -1,
+    "reasoning": "The prediction 'Insufficient data' is a refusal to answer the question, making it not meaningful."
+  },
+  "6ca6fb54-7eea-4b6c-b63a-339bd8b4be4b": {
+    "correct": -1,
+    "reasoning": "The prediction 'Unknown' is a refusal to answer the question, which falls under the 'not meaningful' category according to rule 10."
+  },
+  "6e9cf041-a792-4f98-b3b8-dc5e18211d96": {
+    "correct": 1,
+    "reasoning": "The question asks for a yes/no answer. Both the gold answer and the prediction affirm 'yes'. The additional detail in the gold answer is extra information not contradicted by the prediction, making the core fact equivalent."
+  },
+  "6ed9dc10-0df5-4e16-b0df-e11967edb740": {
+    "correct": 1,
+    "reasoning": "The question asks for an age, which is a naturally drifting value. The gold answer is 57 and the prediction is 55. The percentage difference is (2 / 57) * 100% = 3.508%, which falls within the allowed 1-5.5 percentage-point window for naturally drifting values."
+  },
+  "7218f2f9-fc44-4ead-bf4d-00acc20aa5d6": {
+    "correct": -1,
+    "reasoning": "The prediction states that revenue data is not available, which is a refusal to answer the question directly. This falls under the 'not meaningful' category as per rule 10."
+  },
+  "73cfb301-e7ed-4746-a1a6-b0d74ecf0741": {
+    "correct": -1,
+    "reasoning": "The prediction 'Unknown' is a refusal to answer and does not provide the requested fact, thus it is not meaningful."
+  },
+  "74519fa3-a8d1-4602-86a0-30f98ebb1ed6": {
+    "correct": 1,
+    "reasoning": "The prediction provides a more specific date (2010-06-14) but includes the correct year (2010) from the gold answer. This is considered extra detail that does not contradict the gold fact, as per Rule 8."
+  },
+  "7533950c-b747-4a00-8ad5-e6482b0ea93f": {
+    "correct": 1,
+    "reasoning": "The prediction 'GCI' is the same as the gold answer 'gci', differing only in case, which is ignored by normalization rules."
+  },
+  "773c77c5-0739-48e7-a85b-48e8653060f4": {
+    "correct": 0,
+    "reasoning": "The gold answer states Steven Spielberg directed his first film at age 16, while the prediction states 22. These ages are different and contradict each other."
+  },
+  "781cbbb6-1050-46d6-8aae-7ded2c939ba6": {
+    "correct": 1,
+    "reasoning": "The question asks for the population of the biggest city in Russia. The gold answer provides 'about 13,010,112'. The prediction gives '12693700'. This is a naturally drifting value (population). The percentage difference is |13,010,112 - 12,693,700| / 13,010,112 = 316,412 / 13,010,112 \u2248 0.0243 or 2.43%. This falls within the allowed 1-5.5 percentage-point window for naturally drifting values."
+  },
+  "7c640e7c-508a-474c-9c07-b6e9b68aba26": {
+    "correct": 0,
+    "reasoning": "The gold answer states Joel Embiid won the most MVP awards last year, while the prediction states Nikola Jokic. These are contradictory facts regarding the same detail."
+  },
+  "7d6ebd01-2364-461c-8086-68c83ff90966": {
+    "correct": 0,
+    "reasoning": "The gold answer states the president has been in power since 2020 (implying inauguration in January 2021). As of 2024, this is approximately 3.5 years. The prediction of 'approximately 2 years' is numerically incorrect and falls outside the allowed tolerance for numeric expressions (1.5 years difference vs. max(0.5, 1% of 3.5) = 0.5 years)."
+  },
+  "7f73d8aa-585c-4484-900a-0fda6e52cf83": {
+    "correct": 0,
+    "reasoning": "The gold answer states the depth is 618 ft. Converting this to meters gives approximately 188.37 m. The prediction states 289 m, which is significantly different from 188.37 m and falls outside the allowed numeric tolerance."
+  },
+  "83cfd2c8-d469-409d-bd32-24696ca5e21a": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Nikola Jokic as the MVP, while the prediction identifies LeBron James. These are different individuals, leading to a contradiction."
+  },
+  "84320b26-e6da-489e-890f-20cc5f77978d": {
+    "correct": 1,
+    "reasoning": "The question asks for the city. The gold answer states the city is 'San Antonio', and the prediction also states 'San Antonio'. The prediction provides the core fact requested by the question, which is also present in the gold answer, without contradiction."
+  },
+  "88db4834-f50c-4484-9e24-737ffc49a4fd": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies 'Pam Grier' as the first actress, while the prediction states 'Linda Hamilton'. These are different individuals, leading to a contradiction."
+  },
+  "8c64872e-3f00-4ced-81be-4cbd7ffcf887": {
+    "correct": 1,
+    "reasoning": "Case normalization: 'Adele' and 'adele' are equivalent."
+  },
+  "8d3fa211-8f02-4cf9-a8cb-8560f966bbd2": {
+    "correct": 1,
+    "reasoning": "The question asks for the identity of an American singer-songwriter. The gold answer identifies 'Aretha Franklin' and provides additional descriptive details, including a correction to the number of Grammy awards mentioned in the question (18 in gold vs 21 in question). The prediction 'Aretha Franklin' correctly identifies the person. It is a subset of the information provided in the gold answer and does not contradict any facts, adhering to the subset allowance rule."
+  },
+  "8d8ad514-1d6f-486f-868c-24817537a92e": {
+    "correct": 1,
+    "reasoning": "The question asks for the year, which is '2006' in both the gold and the prediction. The prediction includes additional date information (month and day) but does not contradict the year, making it an acceptable extra detail."
+  },
+  "8d9fadb7-3466-403d-85a5-a191ec22f69a": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Robert Redford as the main actor for the movie with the most BAFTA awards ('Butch Cassidy and the Sundance Kid'). The prediction 'Elijah Wood' contradicts this fact."
+  },
+  "8dd9f5f9-3272-485f-b840-453b52996b64": {
+    "correct": 0,
+    "reasoning": "The gold answer states 48 months, while the prediction is 7 months. The numeric values are significantly different and outside the allowed tolerance (41 > 0.5)."
+  },
+  "909fb375-e924-4f8b-8c9d-b39d2402550b": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Un Verano Sin Ti' was released in 2022, which is the album immediately preceding 'Nadie Sabe Lo Que Va a Pasar Ma\u00f1ana' (2023). The prediction 'X100PRE' was released in 2018, which is an earlier album and not the one directly before the specified album."
+  },
+  "90d5a2d9-2973-4e6b-affe-76af6c7d943e": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Nadie Sabe Lo Que Va a Pasar Ma\u00f1ana' (released 2023) is the most recent album by Bad Bunny, who is the Puerto Rican artist that has been in WWE. The prediction 'El \u00daltimo Tour Del Mundo' (released 2020) is an older album, thus contradicting the 'most recent' aspect of the question."
+  },
+  "9268525a-80e3-4b64-8f9c-94711f7b7711": {
+    "correct": 1,
+    "reasoning": "The prediction's numerical value (1,095,672) is within the acceptable tolerance of the gold value (1,097,379). The absolute difference is 1,707, which is less than 1% of the gold value (10,973.79)."
+  },
+  "93f61f25-1bde-4e21-a826-47c9651847e4": {
+    "correct": 1,
+    "reasoning": "The prediction 'Novak Djokovic' directly answers the question and matches the essential fact in the gold answer. The additional information about the coach in the gold answer is extra detail not required by the question and does not contradict the prediction."
+  },
+  "950d7584-0b10-40d5-942a-1f23dc41e8b2": {
+    "correct": 1,
+    "reasoning": "The prediction 'Nicki Minaj' directly answers the question by providing the name of the female rapper, which is the core fact in the gold answer. The gold answer includes additional descriptive context (season 12) which is not essential for correctness based on the question asked."
+  },
+  "9a7a3f00-42e0-4bc8-a73c-5deaa559f132": {
+    "correct": 1,
+    "reasoning": "The prediction states the same age (16) as the gold answer. The additional context in the prediction does not contradict the gold fact."
+  },
+  "9a9bc150-cf7e-4786-ba58-65eb325780c3": {
+    "correct": 0,
+    "reasoning": "API error: Expecting value: line 1 column 1 (char 0)"
+  },
+  "9b02ae1d-e25a-49dc-9e6b-f21caf923e3a": {
+    "correct": 0,
+    "reasoning": "The gold answer states the filming took '5 months', while the prediction states '1 month'. These numerical values contradict each other and are outside the allowed tolerance."
+  },
+  "a019b11a-6b26-4f70-9d3f-20c46005bec6": {
+    "correct": -1,
+    "reasoning": "Missing prediction text"
+  },
+  "a56ec940-8c51-4a21-b1aa-adb8eaf6bb75": {
+    "correct": 1,
+    "reasoning": "The prediction provides the core fact requested by the question (the actress's name), which is also present in the gold answer. The gold answer contains additional descriptive text, but this does not contradict the prediction or the main fact."
+  },
+  "a8835443-a646-476e-8fd9-96fde9f58c10": {
+    "correct": 0,
+    "reasoning": "The gold answer states the actress is Claire Foy, while the prediction states Olivia Colman. These are two different actresses, leading to a direct contradiction of the core fact."
+  },
+  "adabdcb6-3d4d-4dac-93f7-d54bdb5dccf2": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Michael Malone as the coach, while the prediction states Mike Budenholzer. These are two different individuals, leading to a contradiction."
+  },
+  "ae615559-8a96-4b42-84ce-72f2669a1268": {
+    "correct": 1,
+    "reasoning": "The prediction '2' directly answers the numerical question and is equivalent to 'two' in the gold answer, following numeric expression normalization."
+  },
+  "af5e9fc5-7db0-495e-96eb-8795107cf84f": {
+    "correct": 0,
+    "reasoning": "The gold answer is 44 and the prediction is 41. The absolute difference is 3. The allowed tolerance is max(0.5, 1% of 44) = max(0.5, 0.44) = 0.5. Since 3 is greater than 0.5, the values are not considered equivalent."
+  },
+  "b1b7dbfa-0f96-4305-88b2-6fcbfdd2060e": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies 'Joni Mitchell' as the singer-songwriter, while the prediction identifies 'Alison Krauss'. These are two different individuals, leading to a direct contradiction."
+  },
+  "b2541d0d-d31c-4ecb-8b79-2c1acbc056ac": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Meta' (founded 2004) correctly identifies a company founded after 2000 that reached a $1 trillion market cap. The prediction lists 'Apple Inc.' (founded 1976), 'Saudi Aramco' (founded 1933), and 'Amazon.com Inc.' (founded 1994), none of which were founded after 2000. Therefore, the prediction contradicts the key constraint of the question."
+  },
+  "b331860d-d453-4dcc-9b00-9085621f9d25": {
+    "correct": 0,
+    "reasoning": "The gold answer states the marriage date as June 17, 1977, while the prediction states November 27, 1977. Calendar dates must match exactly according to rule 2, and the month and day differ."
+  },
+  "b835c182-65e9-4dc1-8b08-c40ce1c6ca4a": {
+    "correct": 1,
+    "reasoning": "The prediction provides the essential fact (the name of the quarterback) requested by the question, which matches the core information in the gold answer. Extra descriptive text in the gold is acceptable."
+  },
+  "b87aa578-d977-40f3-b96d-8ebba8aa3910": {
+    "correct": 0,
+    "reasoning": "The prediction 'Bruno Fernandes' contradicts the gold answer 'Erling Haaland' regarding the player of the year."
+  },
+  "ba415fc4-68d2-4054-8fb7-f08909706579": {
+    "correct": 0,
+    "reasoning": "The gold answer states Dua Lipa was 19, while the prediction states 18. This is a direct contradiction of the numeric fact and falls outside the allowed numeric tolerance (1 is greater than max(0.5, 1% of 19))."
+  },
+  "ba92e6b9-fcd3-4ff7-899a-fe59dbb2c8db": {
+    "correct": 0,
+    "reasoning": "The gold answer states the fighter is in 'lightweight' class, while the prediction states 'Featherweight'. These are different and contradictory facts."
+  },
+  "bb2c0885-6ef1-474c-8390-4234b5f77daa": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Erykah Badu, while the prediction identifies Beyonce. These are two different individuals, leading to a contradiction."
+  },
+  "bbf02810-d397-43c2-a183-35db46c034f8": {
+    "correct": 1,
+    "reasoning": "The prediction 'Britney Jean Spears' refers to the same person as 'Britney Spears' in the gold answer. The inclusion of the middle name is an acceptable extra detail and does not contradict the gold fact."
+  },
+  "bcc88678-d327-4792-b6f5-bb7efc33e2c6": {
+    "correct": 0,
+    "reasoning": "The gold answer is 5m and the prediction is 7m. The absolute difference is 2m. The allowed tolerance is max(0.5, 1% of 5) = 0.5m. Since 2m > 0.5m, the prediction is outside the acceptable numeric tolerance."
+  },
+  "bd5325a3-6ba0-4088-a1a2-4a80ce096335": {
+    "correct": 0,
+    "reasoning": "The gold answer correctly identifies Martinez (Emiliano Mart\u00ednez) as the goalkeeper for the winning team (Argentina) in the last FIFA World Cup (2022). The prediction names Hugo Lloris, who was the goalkeeper for the runner-up team (France), thus contradicting the gold fact."
+  },
+  "c2405ead-68ed-4e4e-8ae9-9f1875aa7be7": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies a count of '2', while the prediction lists three items ('Shape of You', 'Castle On The Hill', 'Perfect'). The predicted count of 3 is outside the allowed numerical tolerance for the gold count of 2 (|3 - 2| = 1, which is greater than max(0.5, 1% of 2) = 0.5)."
+  },
+  "c34046db-727d-4633-b2aa-85ad0b579c4b": {
+    "correct": -1,
+    "reasoning": "Missing prediction text"
+  },
+  "c47ece5d-49ba-4ee2-ba5e-cfee323dbec0": {
+    "correct": -1,
+    "reasoning": "Missing prediction text"
+  },
+  "c510db91-e1e8-4dac-a448-00bc12d60a33": {
+    "correct": 1,
+    "reasoning": "Case normalization: 'wahlburgers' and 'Wahlburgers' are equivalent."
+  },
+  "c56ad40f-e035-4fe5-b4f6-d231d693096b": {
+    "correct": -1,
+    "reasoning": "The prediction is '-1', which indicates a refusal or a not meaningful answer, as per Rule 10."
+  },
+  "c5f6d097-614c-4c10-ae8c-19cbfd82d6ec": {
+    "correct": 0,
+    "reasoning": "The gold answer states $3.9 trillion in assets, while the prediction states $3.3 trillion. The difference of $0.6 trillion is approximately 15.38% of the gold value, which falls outside the allowed 5.5% tolerance for naturally drifting values."
+  },
+  "cadf9a62-defd-46b2-9758-086bc16b864f": {
+    "correct": 0,
+    "reasoning": "The gold answer states the length as 3,365 miles. Converting the prediction of 3835 km to miles gives approximately 2383 miles. This value is significantly different from 3,365 miles and falls outside the allowed numeric tolerance."
+  },
+  "cde46ece-83a5-41d3-a3a9-df4bf5ef7f64": {
+    "correct": 0,
+    "reasoning": "The predicted record '65-17' is numerically different from the gold record '57-25'. These are exact figures, and the prediction contradicts the gold fact."
+  },
+  "d1cc84a1-4b8e-4f64-ab0e-c0aa0a93cae2": {
+    "correct": 1,
+    "reasoning": "The prediction 'Basketball' is equivalent to the gold answer 'basketball' after applying case normalization."
+  },
+  "d46aa330-1279-4dd8-959c-88f402757912": {
+    "correct": 0,
+    "reasoning": "The gold answer states the budget was $75 million, while the prediction states $10 million. This is a significant numerical difference outside the allowed tolerance for fixed values."
+  },
+  "d5124253-4271-40b5-986b-dd3021ab828e": {
+    "correct": 0,
+    "reasoning": "The gold answer states the winner was 'Marketa Vondrousova', while the prediction states 'Ashleigh Barty'. These are different individuals, leading to a contradiction."
+  },
+  "d52db8c5-663a-469c-a470-e6d524e2b3dd": {
+    "correct": 0,
+    "reasoning": "The prediction 'Jared Bednar' is a different coach than the gold answer 'Bruce Cassidy'. Bruce Cassidy coached the Vegas Golden Knights, who won the Stanley Cup last season (2023), while Jared Bednar coached the Colorado Avalanche, who won the season prior (2022)."
+  },
+  "d93b3615-3ef8-446f-a635-95b3b7ece245": {
+    "correct": 0,
+    "reasoning": "The gold answer states the coach was 'Dan Hurley', while the prediction states 'Scott Drew'. These are different names, leading to a contradiction."
+  },
+  "db078969-dcfd-4bd3-8d07-ee8ceceebafd": {
+    "correct": 0,
+    "reasoning": "The gold answer states the length is 3,696 feet, while the prediction gives 2,448,180. These numerical values are vastly different and contradict each other, exceeding any acceptable tolerance."
+  },
+  "dd3d3f80-7f74-4a99-a5d2-65208f2ab00b": {
+    "correct": -1,
+    "reasoning": "The gold answer provides a specific company that meets the criteria. The prediction states it cannot provide specific company names, which is a refusal to answer the core question of 'which company'."
+  },
+  "df4e57f0-519e-4ce2-81c2-144985cf1a7b": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the release date as October 10, 2023, while the prediction states 2020-10-13. Calendar dates must match exactly, and the years (2023 vs 2020) and days (10 vs 13) are different, leading to a contradiction."
+  },
+  "e554740c-201a-4280-a644-d43523a97103": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'detroit pistons' (a professional basketball team), while the prediction states 'University of Texas at Austin' (a university). These are two distinct and contradictory locations/teams for where Amen Thompson's brother plays."
+  },
+  "e7a2a848-15cd-44d2-aa1d-3bdb5e87a3aa": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies 'Mamma Mia!' (2008), while the prediction specifies 'Mamma Mia! Here We Go Again' (2018). These are two distinct films, and the prediction names a different film than the gold, making it a contradiction."
+  },
+  "e9751dcf-72ec-434f-9ca8-30a0a72da8fc": {
+    "correct": 1,
+    "reasoning": "The gold answer states the age is 81, and the prediction states 79. For naturally drifting values like age, a 1-5.5 percentage-point window is allowed. The difference is |81 - 79| = 2. The percentage difference is 2/81 \u2248 2.47%, which falls within the 1-5.5% tolerance window."
+  },
+  "eb6873e2-79cf-4177-b628-02025e2f6aee": {
+    "correct": 1,
+    "reasoning": "The prediction 'Right' is equivalent to the gold answer 'right' due to case insensitivity."
+  },
+  "ef2ddee1-2f4c-4ea3-8e5c-75f5fe53fcd4": {
+    "correct": 1,
+    "reasoning": "The question asks for the abbreviation of the least populated US state. The gold answer identifies 'Wyoming' and its abbreviation 'WY'. The prediction 'WY' directly provides the requested abbreviation, which is consistent with the gold answer. Extra descriptive text in the gold is allowed (Rule 8)."
+  },
+  "f05d362c-0073-4842-8efb-cd12ca229ab9": {
+    "correct": 0,
+    "reasoning": "The gold answer refers to the constellation Pegasus ('the winged horse'), which contains Iota Pegasi. The prediction '\u03b7 Equ' refers to the constellation Equuleus, which is a different constellation. Therefore, the prediction is incorrect."
+  },
+  "f47c840a-24db-4463-8746-92bfed093c57": {
+    "correct": 0,
+    "reasoning": "The prediction 'United States' directly contradicts the gold answer 'poland'. They are different countries."
+  },
+  "fb551cef-4ae6-47ba-89fd-6f5601f05de7": {
+    "correct": 1,
+    "reasoning": "The prediction provides the essential fact (the actress's name) which matches the gold answer. Extra descriptive text in the gold is ignored, and case is normalized."
+  },
+  "fbf01c05-4156-45e7-8144-51bc36a8cb92": {
+    "correct": 0,
+    "reasoning": "The prediction provides a completely different album title ('Hymns With The Devil In Confessional') than the gold answer ('feliz cumpleanos ferxxo te pirateamos el album'). There is no equivalence or partial match."
+  },
+  "fde0f884-56cb-47c6-a15a-056eb02cfa4b": {
+    "correct": 0,
+    "reasoning": "The gold answer states the album was released in 2011, while the prediction states 2016, which is a direct contradiction regarding the year of release."
+  }
+}

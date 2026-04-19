@@ -1,0 +1,1354 @@
+{
+  "summary": {
+    "total": 90,
+    "coverage": 0.94,
+    "overall_accuracy": 0.52,
+    "accuracy_at_coverage": 0.5532,
+    "precision": 0.8333,
+    "recall": 0.1064,
+    "f1": 0.1887
+  },
+  "records": [
+    {
+      "accepted": true,
+      "prediction": "745 km",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n745 km",
+          "final_answer": "745 km",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n745 km",
+          "final_answer": "745 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n994 km",
+          "final_answer": "994 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n724 km",
+          "final_answer": "724 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n745 km",
+          "final_answer": "745 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n745 km",
+          "final_answer": "745 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n745 km",
+          "final_answer": "745 km",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "745 km": 5,
+        "994 km": 1,
+        "724 km": 1
+      },
+      "aggregator_raw_response": "745 km",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the length is 652 miles. The prediction states 745 km. Converting 652 miles to kilometers gives approximately 1049.28 km. Converting 745 km to miles gives approximately 462.9 miles. The predicted value (462.9 miles) is significantly different from the gold value (652 miles), exceeding the allowed numerical tolerance.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:07:55",
+      "baseline": "self_consistency",
+      "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+      "question": "how long is the longest river in alabama?",
+      "gold_answer": "the longest river that flows through alabama, the tennessee river, is 652 miles long."
+    },
+    {
+      "accepted": true,
+      "prediction": "56-26",
+      "raw_samples": [
+        {
+          "raw_response": "56-26",
+          "final_answer": "56-26",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "56-26": 7
+      },
+      "aggregator_raw_response": "56-26",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:12:34",
+      "baseline": "self_consistency",
+      "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+      "question": "what was the 76ers' record the year allen iverson won mvp?",
+      "gold_answer": "56-26"
+    },
+    {
+      "accepted": true,
+      "prediction": "1994-12-10",
+      "raw_samples": [
+        {
+          "raw_response": "1994-12-10",
+          "final_answer": "1994-12-10",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n1994-12-16",
+          "final_answer": "1994-12-16",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-12-10",
+          "final_answer": "1994-12-10",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1994-12-10",
+          "final_answer": "1994-12-10",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-12-10",
+          "final_answer": "1994-12-10",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-12-10",
+          "final_answer": "1994-12-10",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1994-12-10",
+          "final_answer": "1994-12-10",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1994-12-10": 6,
+        "1994-12-16": 1
+      },
+      "aggregator_raw_response": "1994-12-10",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the lead actor died in 2010, while the prediction states 1994-12-10. The years contradict each other.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:13:10",
+      "baseline": "self_consistency",
+      "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+      "question": "when did the lead actor of naked gun die?",
+      "gold_answer": "leslie nielsen, the lead actor of naked gun, died in 2010."
+    },
+    {
+      "accepted": true,
+      "prediction": "Kris Humphries; basketball player",
+      "raw_samples": [
+        {
+          "raw_response": "Kanye West; rapper",
+          "final_answer": "Kanye West; rapper",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Kris Humphries; basketball player",
+          "final_answer": "Kris Humphries; basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kanye West; musician",
+          "final_answer": "Kanye West; musician",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kris Humphries; however since you requested Kim Kardashian's second spouse it would be \nanswer:\n Basketball player",
+          "final_answer": "Basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kris Humphries",
+          "final_answer": "Kris Humphries",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kris Humphries",
+          "final_answer": "Kris Humphries",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Kanye West; rapper",
+          "final_answer": "Kanye West; rapper",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Kanye West; rapper": 2,
+        "Kris Humphries; basketball player": 1,
+        "Kanye West; musician": 1,
+        "Basketball player": 1,
+        "Kris Humphries": 2
+      },
+      "aggregator_raw_response": "Kris Humphries; basketball player",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer identifies Kim Kardashian's second spouse as Kris Humphries, an NBA player. The prediction identifies Kanye West as the spouse and a rapper. Kanye West was Kim Kardashian's third spouse, not her second, thus contradicting the gold fact about the identity of the second spouse and their profession.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:14:50",
+      "baseline": "self_consistency",
+      "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+      "question": "what was the profession of kim kardashian's second spouse?",
+      "gold_answer": "kris humphries, kim kardashian's second spouse, was an nba player."
+    },
+    {
+      "accepted": true,
+      "prediction": "Columbia University",
+      "raw_samples": [
+        {
+          "raw_response": "Columbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Harvard University",
+          "final_answer": "Harvard University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Columbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Harvard University",
+          "final_answer": "Harvard University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Harvard University",
+          "final_answer": "Harvard University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Columbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Columbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Columbia University": 4,
+        "Harvard University": 3
+      },
+      "aggregator_raw_response": "Columbia University",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Columbia University' is identical to the gold answer 'columbia university' when ignoring case, as per normalization rule 1.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:16:16",
+      "baseline": "self_consistency",
+      "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+      "question": "where did the lead designer of fortran get his m.s. from?",
+      "gold_answer": "columbia university"
+    },
+    {
+      "accepted": true,
+      "prediction": "Right",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nright",
+          "final_answer": "right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nright",
+          "final_answer": "right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nright",
+          "final_answer": "right",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Right": 4,
+        "right": 3
+      },
+      "aggregator_raw_response": "Right",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Right' is equivalent to the gold answer 'right' after applying case normalization (Rule 1).",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:24:12",
+      "baseline": "self_consistency",
+      "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+      "question": "what is the driving side in mallorca?",
+      "gold_answer": "right"
+    },
+    {
+      "accepted": true,
+      "prediction": "868 m",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n868 m",
+          "final_answer": "868 m",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n868 m",
+          "final_answer": "868 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n902 m",
+          "final_answer": "902 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n868 m",
+          "final_answer": "868 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n868 m",
+          "final_answer": "868 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n868 m",
+          "final_answer": "868 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n868 m",
+          "final_answer": "868 m",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "868 m": 6,
+        "902 m": 1
+      },
+      "aggregator_raw_response": "868 m",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the elevation is 366 m, while the prediction states 868 m. These values are numerically very different and fall outside the allowed tolerance (1% of 366 is 3.66, and the difference is 502).",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:25:24",
+      "baseline": "self_consistency",
+      "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+      "question": "what is the elevation of the capital of nebraska?",
+      "gold_answer": "366 m"
+    },
+    {
+      "accepted": true,
+      "prediction": "55 years old",
+      "raw_samples": [
+        {
+          "raw_response": "55 years old",
+          "final_answer": "55 years old",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "55 years old",
+          "final_answer": "55 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "55 years old",
+          "final_answer": "55 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "55",
+          "final_answer": "55",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "55 years old",
+          "final_answer": "55 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "55 years old",
+          "final_answer": "55 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "55 years old",
+          "final_answer": "55 years old",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "55 years old": 6,
+        "55": 1
+      },
+      "aggregator_raw_response": "55 years old",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The gold answer is 52 and the prediction is 55. For naturally drifting values like ages, the numeric tolerance rule states that values within a 1\u20135.5 percentage-point window are equivalent. The percentage difference is |55 - 52| / max(52, 55) = 3 / 55 \u2248 0.0545, or 5.45%. Since 5.45% is within the 1-5.5% window, the prediction is considered correct.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:25:42",
+      "baseline": "self_consistency",
+      "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+      "question": "what age did abraham lincoln begin his presidency?",
+      "gold_answer": "52 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "21",
+      "raw_samples": [
+        {
+          "raw_response": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, however more famously he also appeared alongside other artists for Superbowl XLV's halftime show 'The Bridge To Super Bowl XLVI' pregame concert but didn't appear on main stage, then later alongside Shakira for Super bowl LIV's 2020 Pepsi Halftime Show at the age of 41.",
+          "final_answer": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, however more famously he also appeared alongside other artists for Superbowl XLV's halftime show 'The Bridge To Super Bowl XLVI' pregame concert but didn't appear on main stage, then later alongside Shakira for Super bowl LIV's 2020 Pepsi Halftime Show at the age of 41.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "There is no record of Usher performing in a Super Bowl halftime show as a solo headliner. However, he has performed at other high-profile events. \n\nIf considering his appearance alongside other artists, Usher joined Katy Perry for her performance at Super Bowl XLIX's halftime show in 2015, when he would have been around 36 years old.",
+          "final_answer": "There is no record of Usher performing in a Super Bowl halftime show as a solo headliner. However, he has performed at other high-profile events. \n\nIf considering his appearance alongside other artists, Usher joined Katy Perry for her performance at Super Bowl XLIX's halftime show in 2015, when he would have been around 36 years old.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nNo information available on Usher performing at a Super Bowl halftime show solo, but he has performed alongside other artists; however, Katy Perry's guest performers for Super Bowl XLIX included Missy Elliott and Lenny Kravitz, not Usher, though Usher and Missy Elliott both were part of a different event together before - the Michael Jackson tribute concert 'Michael Forever' - nonetheless, Shakira and Jennifer Lopez headlined the Super bowl LIV Halftime show which also featured guest performances by J Balvin and Bad Bunny; Meanwhile back on February 1, 2004, Janet Jackson performed along with Justin Timberlake at Superbowl XXXVIII, an incident occurred there involving wardrobe malfunction, although Usher wasn't involved there either - However we found out - it actually happened Usher Performed With Other Artist At A Different Event But If You Consider An Answer For This Question Based On Available Data We Found Out That It Was Actually 34 Years Old When He Was One Of Headliner Alongside Others Like  Black Eyed Peas And Also Slash And Many More At Super Bowl XLV. \nHowever Since There Are No Clear Records Or Information About Him Being Solo Performer So I Am Providing Age As per Record Available To Me For Any Performance Including",
+          "final_answer": "No information available on Usher performing at a Super Bowl halftime show solo, but he has performed alongside other artists; however, Katy Perry's guest performers for Super Bowl XLIX included Missy Elliott and Lenny Kravitz, not Usher, though Usher and Missy Elliott both were part of a different event together before - the Michael Jackson tribute concert 'Michael Forever' - nonetheless, Shakira and Jennifer Lopez headlined the Super bowl LIV Halftime show which also featured guest performances by J Balvin and Bad Bunny; Meanwhile back on February 1, 2004, Janet Jackson performed along with Justin Timberlake at Superbowl XXXVIII, an incident occurred there involving wardrobe malfunction, although Usher wasn't involved there either - However we found out - it actually happened Usher Performed With Other Artist At A Different Event But If You Consider An Answer For This Question Based On Available Data We Found Out That It Was Actually 34 Years Old When He Was One Of Headliner Alongside Others Like  Black Eyed Peas And Also Slash And Many More At Super Bowl XLV. However Since There Are No Clear Records Or Information About Him Being Solo Performer So I Am Providing Age As per Record Available To Me For Any Performance Including",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, but as part of an ensemble including other artists such as Phil Collins, Christina Aguilera, Enrique Iglesias, and Toni Braxton; however, he has never been the solo main performer for a Super Bowl halftime show.",
+          "final_answer": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, but as part of an ensemble including other artists such as Phil Collins, Christina Aguilera, Enrique Iglesias, and Toni Braxton; however, he has never been the solo main performer for a Super Bowl halftime show.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21; however, he wasn't the main performer, but rather part of an ensemble including other artists such as Britney Spears, 'N Sync, Aerosmith, Mary J. Blige, and Nelly. \nanswer:\n21",
+          "final_answer": "21",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, however more specifically the question likely refers to his performance alongside Shania Twain, No Doubt's Stefani, and others for Super bowl XXXVI's pregame but most notably along side other performers including Nelly, P.Diddy etc for a tribute to Uptown records' Andre Harrell in an NFL kickoff concert preceding the actual start to the season rather than 'the super bowl'. \nHowever considering he hasnt actually done a solo HalfTime set - \n\nThe closest would be Katy Perry featuring Missy Elliot & Lenny Kravitz  for XLIX , Coldplay being joined by Beyonce who brought Bruno Mars on stage for 50 ; Lady gaga having been accompanied briefly by Andrew Taggart from Chainsmokers (noting brief accompaniment)  \nWith specific regard to performing alone there isn\u2019t such data available because it hasn\u2019t happened so an accurate numerical figure cannot be given based solely upon those parameters provided within query itself\n\n\nConsidering just main acts though \nShakira was 43 \nJlo was 51 \nKaty perry was 30 \nBeyonc\u00e9 first appearance alongside Destiny\u2019s child she was 25 second when head",
+          "final_answer": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, however more specifically the question likely refers to his performance alongside Shania Twain, No Doubt's Stefani, and others for Super bowl XXXVI's pregame but most notably along side other performers including Nelly, P.Diddy etc for a tribute to Uptown records' Andre Harrell in an NFL kickoff concert preceding the actual start to the season rather than 'the super bowl'. \nHowever considering he hasnt actually done a solo HalfTime set - \n\nThe closest would be Katy Perry featuring Missy Elliot & Lenny Kravitz  for XLIX , Coldplay being joined by Beyonce who brought Bruno Mars on stage for 50 ; Lady gaga having been accompanied briefly by Andrew Taggart from Chainsmokers (noting brief accompaniment)  \nWith specific regard to performing alone there isn\u2019t such data available because it hasn\u2019t happened so an accurate numerical figure cannot be given based solely upon those parameters provided within query itself\n\n\nConsidering just main acts though \nShakira was 43 \nJlo was 51 \nKaty perry was 30 \nBeyonc\u00e9 first appearance alongside Destiny\u2019s child she was 25 second when head",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21 but as part of an ensemble including other artists such as Britney Spears, NSYNC, and others, however he wasn't the main performer for any super bowl halftime show solo, \nbut if considering his appearance on stage it would be 21.",
+          "final_answer": "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21 but as part of an ensemble including other artists such as Britney Spears, NSYNC, and others, however he wasn't the main performer for any super bowl halftime show solo, \nbut if considering his appearance on stage it would be 21.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, however more famously he also appeared alongside other artists for Superbowl XLV's halftime show 'The Bridge To Super Bowl XLVI' pregame concert but didn't appear on main stage, then later alongside Shakira for Super bowl LIV's 2020 Pepsi Halftime Show at the age of 41": 1,
+        "There is no record of Usher performing in a Super Bowl halftime show as a solo headliner. However, he has performed at other high-profile events. If considering his appearance alongside other artists, Usher joined Katy Perry for her performance at Super Bowl XLIX's halftime show in 2015, when he would have been around 36 years old": 1,
+        "No information available on Usher performing at a Super Bowl halftime show solo, but he has performed alongside other artists; however, Katy Perry's guest performers for Super Bowl XLIX included Missy Elliott and Lenny Kravitz, not Usher, though Usher and Missy Elliott both were part of a different event together before - the Michael Jackson tribute concert 'Michael Forever' - nonetheless, Shakira and Jennifer Lopez headlined the Super bowl LIV Halftime show which also featured guest performances by J Balvin and Bad Bunny; Meanwhile back on February 1, 2004, Janet Jackson performed along with Justin Timberlake at Superbowl XXXVIII, an incident occurred there involving wardrobe malfunction, although Usher wasn't involved there either - However we found out - it actually happened Usher Performed With Other Artist At A Different Event But If You Consider An Answer For This Question Based On Available Data We Found Out That It Was Actually 34 Years Old When He Was One Of Headliner Alongside Others Like Black Eyed Peas And Also Slash And Many More At Super Bowl XLV. However Since There Are No Clear Records Or Information About Him Being Solo Performer So I Am Providing Age As per Record Available To Me For Any Performance Including": 1,
+        "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, but as part of an ensemble including other artists such as Phil Collins, Christina Aguilera, Enrique Iglesias, and Toni Braxton; however, he has never been the solo main performer for a Super Bowl halftime show": 1,
+        "21": 1,
+        "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21, however more specifically the question likely refers to his performance alongside Shania Twain, No Doubt's Stefani, and others for Super bowl XXXVI's pregame but most notably along side other performers including Nelly, P.Diddy etc for a tribute to Uptown records' Andre Harrell in an NFL kickoff concert preceding the actual start to the season rather than 'the super bowl'. However considering he hasnt actually done a solo HalfTime set - The closest would be Katy Perry featuring Missy Elliot & Lenny Kravitz for XLIX , Coldplay being joined by Beyonce who brought Bruno Mars on stage for 50 ; Lady gaga having been accompanied briefly by Andrew Taggart from Chainsmokers (noting brief accompaniment) With specific regard to performing alone there isn\u2019t such data available because it hasn\u2019t happened so an accurate numerical figure cannot be given based solely upon those parameters provided within query itself Considering just main acts though Shakira was 43 Jlo was 51 Katy perry was 30 Beyonc\u00e9 first appearance alongside Destiny\u2019s child she was 25 second when head": 1,
+        "Usher performed at Super Bowl XXXIV's halftime show in 2000 at the age of 21 but as part of an ensemble including other artists such as Britney Spears, NSYNC, and others, however he wasn't the main performer for any super bowl halftime show solo, but if considering his appearance on stage it would be 21": 1
+      },
+      "aggregator_raw_response": "21",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states Usher was 45 years old, while the prediction provides 21 and 36, neither of which matches the gold fact. This is a direct contradiction on the numerical value.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:28:26",
+      "baseline": "self_consistency",
+      "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+      "question": "at what age did usher perform in the half time show of superbowl?",
+      "gold_answer": "45 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "1987-01-02",
+      "raw_samples": [
+        {
+          "raw_response": "1987-01-03; 2000-06-14",
+          "final_answer": "1987-01-03; 2000-06-14",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "1987-01-02; 2000-03-14; 2011-06-24; 2008-08-15",
+          "final_answer": "1987-01-02; 2000-03-14; 2011-06-24; 2008-08-15",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1987-01-02; 2000-03-14; 2022-08-05",
+          "final_answer": "1987-01-02; 2000-03-14; 2022-08-05",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1987-01-02; 2000-03-13; 2008-08-15",
+          "final_answer": "1987-01-02; 2000-03-13; 2008-08-15",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1987-01-03",
+          "final_answer": "1987-01-03",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1987-01-03; 2000-03-14; 2011-07-16",
+          "final_answer": "1987-01-03; 2000-03-14; 2011-07-16",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1987-01-02",
+          "final_answer": "1987-01-02",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1987-01-03; 2000-06-14": 1,
+        "1987-01-02; 2000-03-14; 2011-06-24; 2008-08-15": 1,
+        "1987-01-02; 2000-03-14; 2022-08-05": 1,
+        "1987-01-02; 2000-03-13; 2008-08-15": 1,
+        "1987-01-03": 1,
+        "1987-01-03; 2000-03-14; 2011-07-16": 1,
+        "1987-01-02": 1
+      },
+      "aggregator_raw_response": "1987-01-02",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the marriage occurred in 2009. The prediction provides two different dates, 1987-01-03 and 2000-06-14, neither of which matches the year 2009, thus contradicting the gold fact.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:32:22",
+      "baseline": "self_consistency",
+      "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+      "question": "when did the lead actor of die hard get married?",
+      "gold_answer": "the lead actor of die hard, bruce willis, got married in 2009."
+    },
+    {
+      "accepted": true,
+      "prediction": "1994-02-01",
+      "raw_samples": [
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1994-02-01": 7
+      },
+      "aggregator_raw_response": "1994-02-01",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction provides the exact release date (1994-02-01) which matches the date in the gold answer (February 1st, 1994). Date formats are normalized.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:34:01",
+      "baseline": "self_consistency",
+      "id": "118896a1-8124-482a-9201-4aaf1903618d",
+      "question": "when was green day's third studio album released?",
+      "gold_answer": "dookie, the third studio album by green day, was released on february 1st, 1994."
+    },
+    {
+      "accepted": true,
+      "prediction": "30",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n30",
+          "final_answer": "30",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n33",
+          "final_answer": "33",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n31",
+          "final_answer": "31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n30",
+          "final_answer": "30",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n29",
+          "final_answer": "29",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n30",
+          "final_answer": "30",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n32",
+          "final_answer": "32",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "30": 3,
+        "33": 1,
+        "31": 1,
+        "29": 1,
+        "32": 1
+      },
+      "aggregator_raw_response": "30",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states 35, while the prediction states 30. The difference of 5 is outside the acceptable numeric tolerance of max(0.5, 1% of 35) = 0.5.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:38:24",
+      "baseline": "self_consistency",
+      "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+      "question": "at what age was lorne michaels when he produced his first film?",
+      "gold_answer": "he was 35"
+    },
+    {
+      "accepted": true,
+      "prediction": "Stanford University",
+      "raw_samples": [
+        {
+          "raw_response": "Stanford University",
+          "final_answer": "Stanford University",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Stanford University",
+          "final_answer": "Stanford University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nVanderbilt University",
+          "final_answer": "Vanderbilt University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Stanford University",
+          "final_answer": "Stanford University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nVanderbilt University",
+          "final_answer": "Vanderbilt University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Stanford University",
+          "final_answer": "Stanford University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nVanderbilt University",
+          "final_answer": "Vanderbilt University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Stanford University": 4,
+        "Vanderbilt University": 3
+      },
+      "aggregator_raw_response": "Stanford University",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The prediction states 'Stanford University' which contradicts the gold answer 'Carnegie Mellon University'. These are distinct entities.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:41:40",
+      "baseline": "self_consistency",
+      "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+      "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+      "gold_answer": "carnegie mellon university"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carrie-Anne Moss",
+      "raw_samples": [
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Carrie-Anne Moss": 7
+      },
+      "aggregator_raw_response": "Carrie-Anne Moss",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction provides the correct name of the actress, 'Carrie-Anne Moss', which is the essential fact requested by the question and present in the gold answer. The gold answer includes additional descriptive details about the character, but these do not contradict the core fact provided by the prediction.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:43:53",
+      "baseline": "self_consistency",
+      "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+      "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+      "gold_answer": "the actress who played the role of the girl character in the movie \"the matrix\" is carrie-anne moss. she portrayed the role of trinity, a skilled computer hacker and a member of the human resistance."
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know",
+      "raw_samples": [
+        {
+          "raw_response": "I need more information about the song and artist you're referring to. Please provide the name of the song and artist, and I'll do my best to give you an accurate answer based on their discography for that specific year. \n\nHowever, since you mentioned 'my time', I will assume it refers to the reference date provided earlier which is 2022. Without knowing the exact song or artist you are asking about, I'm unable to provide a list of their releases from 2022. If you could specify the song title or the artist's name, I would be happy to try again.",
+          "final_answer": "I need more information about the song and artist you're referring to. Please provide the name of the song and artist, and I'll do my best to give you an accurate answer based on their discography for that specific year. \n\nHowever, since you mentioned 'my time', I will assume it refers to the reference date provided earlier which is 2022. Without knowing the exact song or artist you are asking about, I'm unable to provide a list of their releases from 2022. If you could specify the song title or the artist's name, I would be happy to try again.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "I'm happy to help but I need more information about the song and its release year to give an accurate response. Please provide the name of the song and the year it was released. \n\nHowever since you didn't specify any details, I will assume \"My Time\" by Fabolous which was released on 2009, some of his other releases from that year were: \nIt's My Time; Throw It in the Bag; Everything Everyday Everywhere.",
+          "final_answer": "I'm happy to help but I need more information about the song and its release year to give an accurate response. Please provide the name of the song and the year it was released. \n\nHowever since you didn't specify any details, I will assume \"My Time\" by Fabolous which was released on 2009, some of his other releases from that year were: \nIt's My Time; Throw It in the Bag; Everything Everyday Everywhere.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I'm happy to help but I need more information about the song and its release year to give an accurate answer. Can you please specify the name of the song and its release year so I can look up other releases by the same artist from the same year?",
+          "final_answer": "I'm happy to help but I need more information about the song and its release year to give an accurate answer. Can you please specify the name of the song and its release year so I can look up other releases by the same artist from the same year?",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I need more information about the song and its release year to help you. Can you please provide the name of the song and the artist, so I can give you an accurate list of their releases for that specific year?",
+          "final_answer": "I need more information about the song and its release year to help you. Can you please provide the name of the song and the artist, so I can give you an accurate list of their releases for that specific year?",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I'm happy to help, but I need more information about the song and the artist you're thinking of. Can you please provide the name of the song and the artist, so I can try to find other songs they released in the same year, which would be around 2022? \n\nHowever, based on general knowledge, without knowing the specific details of the song, some popular artists who had releases in 2022 include:\n\nTaylor Swift - Midnights; \nThe Weeknd - Dawn FM;\nHarry Styles - As It Was;\nLizzo - About Damn Time;\nBeyonc\u00e9 - Break My Soul;\n\nPlease let me know the exact details for an accurate response.\n\nFor now: \nanswer:\nMidnights; Dawn FM; As It Was; About Damn Time; Break My Soul",
+          "final_answer": "Midnights; Dawn FM; As It Was; About Damn Time; Break My Soul",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I need more information about the song and the artist you're referring to. Please provide the name of the song and the artist, and I'll try to find the other songs they released in the same year, which would be around 2022 based on our reference date. \n\nHowever, since I must follow the guidelines provided, I will give an example response for a hypothetical scenario:\n\nanswer:\nUmbrella; Don't Stop the Music; Hate That I Love You",
+          "final_answer": "Umbrella; Don't Stop the Music; Hate That I Love You",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I need more information about the song and the artist you're referring to. Please provide the name of the song and the artist, and I'll do my best to give you the list of their releases for that year.",
+          "final_answer": "I need more information about the song and the artist you're referring to. Please provide the name of the song and the artist, and I'll do my best to give you the list of their releases for that year.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "I need more information about the song and artist you're referring to. Please provide the name of the song and artist, and I'll do my best to give you an accurate answer based on their discography for that specific year. However, since you mentioned 'my time', I will assume it refers to the reference date provided earlier which is 2022. Without knowing the exact song or artist you are asking about, I'm unable to provide a list of their releases from 2022. If you could specify the song title or the artist's name, I would be happy to try again": 1,
+        "I'm happy to help but I need more information about the song and its release year to give an accurate response. Please provide the name of the song and the year it was released. However since you didn't specify any details, I will assume \"My Time\" by Fabolous which was released on 2009, some of his other releases from that year were: It's My Time; Throw It in the Bag; Everything Everyday Everywhere": 1,
+        "I'm happy to help but I need more information about the song and its release year to give an accurate answer. Can you please specify the name of the song and its release year so I can look up other releases by the same artist from the same year?": 1,
+        "I need more information about the song and its release year to help you. Can you please provide the name of the song and the artist, so I can give you an accurate list of their releases for that specific year?": 1,
+        "Midnights; Dawn FM; As It Was; About Damn Time; Break My Soul": 1,
+        "Umbrella; Don't Stop the Music; Hate That I Love You": 1,
+        "I need more information about the song and the artist you're referring to. Please provide the name of the song and the artist, and I'll do my best to give you the list of their releases for that year": 1
+      },
+      "aggregator_raw_response": "I don't know",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction 'Unknown' is a refusal to answer the question, making it not meaningful.",
+      "timestamp": "2025-12-14 21:44:01",
+      "baseline": "self_consistency",
+      "id": "e06676aa-efc3-4763-b196-e105596cc643",
+      "question": "can you tell me what other songs the same artist released in the same year as my time?",
+      "gold_answer": "throw it in the bag, \"everything, everyday, every where\"",
+      "judge_raw_response": "open_ended_correctness_reused"
+    },
+    {
+      "accepted": true,
+      "prediction": "Mike Ross",
+      "raw_samples": [
+        {
+          "raw_response": "Mike Ross",
+          "final_answer": "Mike Ross",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Mike Ross",
+          "final_answer": "Mike Ross",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Mike Ross",
+          "final_answer": "Mike Ross",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Mike Ross; Patrick J. Adams",
+          "final_answer": "Mike Ross; Patrick J. Adams",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Mike Ross",
+          "final_answer": "Mike Ross",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Mike Ross",
+          "final_answer": "Mike Ross",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Mike Ross; Patrick J. Adams",
+          "final_answer": "Mike Ross; Patrick J. Adams",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Mike Ross": 5,
+        "Mike Ross; Patrick J. Adams": 2
+      },
+      "aggregator_raw_response": "Mike Ross",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The question asks for the name of the actor, which the gold answer provides as 'Patrick J. Adams'. The prediction provides the name of the character, 'Mike Ross', which is not the actor's name, thus failing to answer the question correctly.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:45:11",
+      "baseline": "self_consistency",
+      "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+      "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+      "gold_answer": "the actor who played the role of a lawyer in the tv show \"suits\" is patrick j. adams. he portrayed the role of mike ross, a college dropout who becomes a legal associate at a prestigious law firm, in the show, which aired from 2011 to 2019. adams's performance earned him a nomination for a screen actors guild award for outstanding performance by a male actor in a drama series."
+    },
+    {
+      "accepted": true,
+      "prediction": "Del Harris",
+      "raw_samples": [
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Del Harris": 7
+      },
+      "aggregator_raw_response": "Del Harris",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "Case normalization: 'Del Harris' is equivalent to 'del harris'.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:51:57",
+      "baseline": "self_consistency",
+      "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+      "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+      "gold_answer": "del harris"
+    },
+    {
+      "accepted": true,
+      "prediction": "203 ft",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n203 ft",
+          "final_answer": "203 ft",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n200 ft",
+          "final_answer": "200 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n203 ft",
+          "final_answer": "203 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n203 ft",
+          "final_answer": "203 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n203 ft",
+          "final_answer": "203 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n203 ft",
+          "final_answer": "203 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n203 ft",
+          "final_answer": "203 ft",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "203 ft": 6,
+        "200 ft": 1
+      },
+      "aggregator_raw_response": "203 ft",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the elevation is 95 feet, while the prediction states 203 feet. These numerical values are significantly different and fall outside the allowed tolerance for numeric expressions.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:54:09",
+      "baseline": "self_consistency",
+      "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+      "question": "how many feet is the place with the lowest elevation in vermont?",
+      "gold_answer": "the place with the lowest elevation in vermont, lake champlain, is at 95 feet."
+    },
+    {
+      "accepted": true,
+      "prediction": "41 years old",
+      "raw_samples": [
+        {
+          "raw_response": "41 years old",
+          "final_answer": "41 years old",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "41 years old",
+          "final_answer": "41 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "41 years old",
+          "final_answer": "41 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "41 years old",
+          "final_answer": "41 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "41 years old",
+          "final_answer": "41 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "41 years old",
+          "final_answer": "41 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "41 years old",
+          "final_answer": "41 years old",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "41 years old": 7
+      },
+      "aggregator_raw_response": "41 years old",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold states Leonardo DiCaprio was 42 years old, while the prediction states 41 years old. The difference of 1 year is outside the allowed numeric tolerance of max(0.5, 1% of 42 = 0.42), which is 0.5.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:54:18",
+      "baseline": "self_consistency",
+      "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+      "question": "how old was leonardo dicaprio when he won best actor award?",
+      "gold_answer": "leonardo was 42 years old in 2016 when he won best actor."
+    },
+    {
+      "accepted": true,
+      "prediction": "Diana Ross Presents The Jackson 5",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Diana Ross Presents The Jackson 5": 7
+      },
+      "aggregator_raw_response": "Diana Ross Presents The Jackson 5",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction is identical to the gold answer, differing only in capitalization, which is ignored by normalization rules.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 21:58:20",
+      "baseline": "self_consistency",
+      "id": "e525e6b2-4865-4610-a73b-79438c724255",
+      "question": "what was the first studio album from the group that michael jackson was in?",
+      "gold_answer": "diana ross presents the jackson 5"
+    },
+    {
+      "accepted": true,
+      "prediction": "34",
+      "raw_samples": [
+        {
+          "raw_response": "Henry Rollins was born on February 13, 1961. Henry Rollins Goes to London was released in 1995, so his age would be around 34 years old. \n\nanswer:\n34",
+          "final_answer": "34",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Henry Rollins appeared in Henry Rollins: Up for It, but I believe you're asking about an event similar to that title - 'Henry Rollins: Spoken Word', which occurred multiple times throughout his career. However, considering a specific instance titled \"Henry Rollins Goes to London\" isn't directly identifiable without more information, we'll look at notable appearances by him around London.\n\nOne such notable performance could be related to his spoken word tour dates, but since there isn't enough detail provided on the exact show \"Henry Rollins: Henry Rollins Goes to London,\" let's consider an alternative approach based on available data:\n\nIf considering \"Henry Rollins: Up for It\" from 2001 (filmed live at the Queen Elizabeth Hall in London), then given Henry Rollins' birthdate is February 13, 1961, \n\nhis age would've been approximately 40 years old in 2001.",
+          "final_answer": "Henry Rollins appeared in Henry Rollins: Up for It, but I believe you're asking about an event similar to that title - 'Henry Rollins: Spoken Word', which occurred multiple times throughout his career. However, considering a specific instance titled \"Henry Rollins Goes to London\" isn't directly identifiable without more information, we'll look at notable appearances by him around London.\n\nOne such notable performance could be related to his spoken word tour dates, but since there isn't enough detail provided on the exact show \"Henry Rollins: Henry Rollins Goes to London,\" let's consider an alternative approach based on available data:\n\nIf considering \"Henry Rollins: Up for It\" from 2001 (filmed live at the Queen Elizabeth Hall in London), then given Henry Rollins' birthdate is February 13, 1961, \n\nhis age would've been approximately 40 years old in 2001.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Henry Rollins made an appearance in Henry Rollins: Up for It which is also referred to by some sources as Henry Rollins Goes to London but more likely refers to his show 'Up For It' at the Astoria in London, however there isn't enough information on it being specifically called that title. However since we can tell you about Henry Rollins appearing in his own titled shows such as 'Up For It', let us assume you mean 'Henry Rollins: Up for It'. \nThe video 'Up for It' came out in 1990 and assuming filming happened around then - given Henry Rollins birthdate is February 13, 1961 - Henry would be approximately 29 years old. \n\nanswer:\n29",
+          "final_answer": "29",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Henry Rollins was born on February 13, 1961. Henry Rollins Goes to London is from 1995, so his age would be around 34 years old at that time. \nanswer:\n34",
+          "final_answer": "34",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Henry Rollins made his appearance in Henry Rollins: Up for It - Live in London at the Soho Theatre in 2000, but more likely you're asking about the documentary film from 1992 called 'Henry Rollins: Henry Rollins Goes to London' I couldn\u2019t verify which film it actually refers too so using 1992 - Henry Rollins was born on February 13, 1961. \nanswer:\n31",
+          "final_answer": "31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Henry Rollins was born on February 13, 1961. Henry Rollins Goes to London was released in 1995. \nanswer:\n34",
+          "final_answer": "34",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Henry Rollins was born on February 13, 1961. Henry Rollins Goes to London was released in 1995, so his age would be around 34 years old. \n\nanswer:\n34",
+          "final_answer": "34",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "34": 4,
+        "Henry Rollins appeared in Henry Rollins: Up for It, but I believe you're asking about an event similar to that title - 'Henry Rollins: Spoken Word', which occurred multiple times throughout his career. However, considering a specific instance titled \"Henry Rollins Goes to London\" isn't directly identifiable without more information, we'll look at notable appearances by him around London. One such notable performance could be related to his spoken word tour dates, but since there isn't enough detail provided on the exact show \"Henry Rollins: Henry Rollins Goes to London,\" let's consider an alternative approach based on available data: If considering \"Henry Rollins: Up for It\" from 2001 (filmed live at the Queen Elizabeth Hall in London), then given Henry Rollins' birthdate is February 13, 1961, his age would've been approximately 40 years old in 2001": 1,
+        "29": 1,
+        "31": 1
+      },
+      "aggregator_raw_response": "34",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer is 33, and the prediction is 34. For ages, a difference of 1 year is considered a contradiction, as per the numeric expressions rule where calendar dates or years must match exactly, and a 1-year difference is outside the 0.5 tolerance for general numbers.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 22:00:29",
+      "baseline": "self_consistency",
+      "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+      "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+      "gold_answer": "33"
+    }
+  ]
+}

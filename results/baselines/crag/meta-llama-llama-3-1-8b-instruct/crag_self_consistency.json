@@ -1,0 +1,1405 @@
+{
+  "summary": {
+    "total": 90,
+    "coverage": 0.9367,
+    "overall_accuracy": 0.3933,
+    "accuracy_at_coverage": 0.4199,
+    "precision": 0.8947,
+    "recall": 0.0944,
+    "f1": 0.1709
+  },
+  "records": [
+    {
+      "accepted": true,
+      "prediction": "423 miles",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n(Alabama's) Tombigbee River has several sections but its main stem is approximately 413 miles long however it can be argued that the Alabama River which is longer at about 311 miles then joins the Coosa River for an additional 112 miles before emptying into Mobile Bay making the total length around 423 miles.",
+          "final_answer": "(Alabama's) Tombigbee River has several sections but its main stem is approximately 413 miles long however it can be argued that the Alabama River which is longer at about 311 miles then joins the Coosa River for an additional 112 miles before emptying into Mobile Bay making the total length around 423 miles.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "281 miles",
+          "final_answer": "281 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n( Tombigbee 406 miles; Mobile Bay Outlet via Alabama River 652 miles )",
+          "final_answer": "( Tombigbee 406 miles; Mobile Bay Outlet via Alabama River 652 miles )",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n463 miles",
+          "final_answer": "463 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "376 miles",
+          "final_answer": "376 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n( Tennessee River ) approximately 652 miles",
+          "final_answer": "( Tennessee River ) approximately 652 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n( Tombigbee River ) approximately 406 miles.",
+          "final_answer": "( Tombigbee River ) approximately 406 miles.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "(Alabama's) Tombigbee River has several sections but its main stem is approximately 413 miles long however it can be argued that the Alabama River which is longer at about 311 miles then joins the Coosa River for an additional 112 miles before emptying into Mobile Bay making the total length around 423 miles": 1,
+        "281 miles": 1,
+        "( Tombigbee 406 miles; Mobile Bay Outlet via Alabama River 652 miles )": 1,
+        "463 miles": 1,
+        "376 miles": 1,
+        "( Tennessee River ) approximately 652 miles": 1,
+        "( Tombigbee River ) approximately 406 miles": 1
+      },
+      "aggregator_raw_response": "423 miles",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer identifies the Tennessee River as the longest river in Alabama with a length of 652 miles. The prediction discusses the Tombigbee River (413 miles) and the Alabama/Coosa River system (423 miles), which contradicts the gold answer regarding both the identity of the longest river and its length.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 06:56:21",
+      "baseline": "self_consistency",
+      "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+      "question": "how long is the longest river in alabama?",
+      "gold_answer": "the longest river that flows through alabama, the tennessee river, is 652 miles long."
+    },
+    {
+      "accepted": true,
+      "prediction": "51-31",
+      "raw_samples": [
+        {
+          "raw_response": "51-31",
+          "final_answer": "51-31",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "51-31",
+          "final_answer": "51-31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "51-31.",
+          "final_answer": "51-31.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "48-34",
+          "final_answer": "48-34",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "51-31",
+          "final_answer": "51-31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "51-31",
+          "final_answer": "51-31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "57-25",
+          "final_answer": "57-25",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "51-31": 5,
+        "48-34": 1,
+        "57-25": 1
+      },
+      "aggregator_raw_response": "51-31",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The predicted record '51-31' contradicts the gold record '56-26'.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 06:57:33",
+      "baseline": "self_consistency",
+      "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+      "question": "what was the 76ers' record the year allen iverson won mvp?",
+      "gold_answer": "56-26"
+    },
+    {
+      "accepted": true,
+      "prediction": "2010-11-28",
+      "raw_samples": [
+        {
+          "raw_response": "Leslie Nielsen died on 28 November 2010.",
+          "final_answer": "Leslie Nielsen died on 28 November 2010.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Leslie Nielsen died on November 28, 2010. \n\nanswer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Leslie Nielsen passed away on November 28, 2010. \n\nanswer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Leslie Nielsen died on November 28, 2010. \n\nanswer: \n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Leslie Nielsen died on 1980-11-28 but also Leslie Nielsen died 2010-11-28",
+          "final_answer": "Leslie Nielsen died on 1980-11-28 but also Leslie Nielsen died 2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1980-01-03",
+          "final_answer": "1980-01-03",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1980-02-07",
+          "final_answer": "1980-02-07",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Leslie Nielsen died on 28 November 2010": 1,
+        "2010-11-28": 3,
+        "Leslie Nielsen died on 1980-11-28 but also Leslie Nielsen died 2010-11-28": 1,
+        "1980-01-03": 1,
+        "1980-02-07": 1
+      },
+      "aggregator_raw_response": "2010-11-28",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "Both the gold and prediction state that Leslie Nielsen died in 2010. The prediction provides a more specific date (28 November 2010), which is consistent with the gold answer and does not contradict it. This is acceptable extra detail.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 06:57:45",
+      "baseline": "self_consistency",
+      "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+      "question": "when did the lead actor of naked gun die?",
+      "gold_answer": "leslie nielsen, the lead actor of naked gun, died in 2010."
+    },
+    {
+      "accepted": true,
+      "prediction": "Basketball player",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nBasketball player",
+          "final_answer": "Basketball player",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Answer: Basketball player.",
+          "final_answer": "Basketball player.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Reality television personality and Olympic Games champion.",
+          "final_answer": "Reality television personality and Olympic Games champion.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "athlete",
+          "final_answer": "athlete",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Reality television personality and Olympic champion runner.",
+          "final_answer": "Reality television personality and Olympic champion runner.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Reality television personality and basketball player.",
+          "final_answer": "Reality television personality and basketball player.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nBasketball player",
+          "final_answer": "Basketball player",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Basketball player": 3,
+        "Reality television personality and Olympic Games champion": 1,
+        "athlete": 1,
+        "Reality television personality and Olympic champion runner": 1,
+        "Reality television personality and basketball player": 1
+      },
+      "aggregator_raw_response": "Basketball player",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The gold states the profession was an 'NBA player', and the prediction states 'Basketball player'. An NBA player is a type of basketball player, so the prediction is accurate and not contradictory, even if slightly less specific. The question asks for the profession, which is covered.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 06:58:40",
+      "baseline": "self_consistency",
+      "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+      "question": "what was the profession of kim kardashian's second spouse?",
+      "gold_answer": "kris humphries, kim kardashian's second spouse, was an nba player."
+    },
+    {
+      "accepted": true,
+      "prediction": "Columbia University",
+      "raw_samples": [
+        {
+          "raw_response": "University of Pennsylvania",
+          "final_answer": "University of Pennsylvania",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "John Backus \n(answered based on information about John Backus who led FORTRAN design):\nanswer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "University of Pennsylvania.",
+          "final_answer": "University of Pennsylvania.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "University of Wisconsin\u2013Madison \n\nnote : John Backus's PhD came before he led Fortran design but I found an MS at University of Wisconsin\u2013Madison",
+          "final_answer": "University of Wisconsin\u2013Madison \n\nnote : John Backus's PhD came before he led Fortran design but I found an MS at University of Wisconsin\u2013Madison",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "University of Pennsylvania",
+          "final_answer": "University of Pennsylvania",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "University of Wisconsin\u2013Madison",
+          "final_answer": "University of Wisconsin\u2013Madison",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "John Backus' thesis supervisor at Columbia University worked on IBM's Fortran compiler. \nBut I do know John Backus got an MS degree from Columbia university however there isn\u2019t any information regarding whether it\u2019s related to work which led him to design the first version of FORTRAN at IBM New York in the mid-1950s but here is my most accurate response:\n\nColumbia University",
+          "final_answer": "John Backus' thesis supervisor at Columbia University worked on IBM's Fortran compiler. \nBut I do know John Backus got an MS degree from Columbia university however there isn\u2019t any information regarding whether it\u2019s related to work which led him to design the first version of FORTRAN at IBM New York in the mid-1950s but here is my most accurate response:\n\nColumbia University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "University of Pennsylvania": 3,
+        "Columbia University": 1,
+        "University of Wisconsin\u2013Madison note : John Backus's PhD came before he led Fortran design but I found an MS at University of Wisconsin\u2013Madison": 1,
+        "University of Wisconsin\u2013Madison": 1,
+        "John Backus' thesis supervisor at Columbia University worked on IBM's Fortran compiler. But I do know John Backus got an MS degree from Columbia university however there isn\u2019t any information regarding whether it\u2019s related to work which led him to design the first version of FORTRAN at IBM New York in the mid-1950s but here is my most accurate response: Columbia University": 1
+      },
+      "aggregator_raw_response": "Columbia University",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The prediction 'University of Pennsylvania' contradicts the gold answer 'Columbia University' regarding the university where the lead designer of Fortran received his M.S.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 06:59:14",
+      "baseline": "self_consistency",
+      "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+      "question": "where did the lead designer of fortran get his m.s. from?",
+      "gold_answer": "columbia university"
+    },
+    {
+      "accepted": true,
+      "prediction": "right-hand traffic",
+      "raw_samples": [
+        {
+          "raw_response": "right-hand drive.",
+          "final_answer": "right-hand drive.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "right-hand traffic.",
+          "final_answer": "right-hand traffic.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "right-hand traffic.",
+          "final_answer": "right-hand traffic.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "right-hand drive.",
+          "final_answer": "right-hand drive.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "right-hand side.",
+          "final_answer": "right-hand side.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Right-hand traffic.",
+          "final_answer": "Right-hand traffic.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Left.",
+          "final_answer": "Left.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "right-hand drive": 2,
+        "right-hand traffic": 2,
+        "right-hand side": 1,
+        "Right-hand traffic": 1,
+        "Left": 1
+      },
+      "aggregator_raw_response": "right-hand traffic",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer 'right' refers to driving on the right side of the road. The prediction 'right-hand drive' refers to the vehicle's steering wheel position, which is typically found in countries that drive on the *left* side of the road. These are contradictory concepts regarding driving side.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:02:25",
+      "baseline": "self_consistency",
+      "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+      "question": "what is the driving side in mallorca?",
+      "gold_answer": "right"
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know",
+      "raw_samples": [
+        {
+          "raw_response": "900ft",
+          "final_answer": "900ft",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "1080ft",
+          "final_answer": "1080ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "840ft",
+          "final_answer": "840ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1020m",
+          "final_answer": "1020m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1030ft",
+          "final_answer": "1030ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1020m",
+          "final_answer": "1020m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n584ft",
+          "final_answer": "584ft",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "900ft": 1,
+        "1080ft": 1,
+        "840ft": 1,
+        "1020m": 2,
+        "1030ft": 1,
+        "584ft": 1
+      },
+      "aggregator_raw_response": "I don't know",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer is 366 m. The prediction is 900 ft. Converting 900 ft to meters: 900 * 0.3048 = 274.32 m. The absolute difference is |366 - 274.32| = 91.68 m. The allowed tolerance is max(0.5, 1% of 366) = max(0.5, 3.66) = 3.66 m. Since 91.68 m is not \u2264 3.66 m, the prediction is outside the numerical tolerance.",
+      "timestamp": "2025-12-14 07:02:58",
+      "baseline": "self_consistency",
+      "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+      "question": "what is the elevation of the capital of nebraska?",
+      "gold_answer": "366 m",
+      "judge_raw_response": "open_ended_correctness_reused"
+    },
+    {
+      "accepted": true,
+      "prediction": "52 years old",
+      "raw_samples": [
+        {
+          "raw_response": "52 years old",
+          "final_answer": "52 years old",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "52 years old",
+          "final_answer": "52 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "52 years old",
+          "final_answer": "52 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "52 years old.",
+          "final_answer": "52 years old.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "52 years old",
+          "final_answer": "52 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "52",
+          "final_answer": "52",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "52 years old": 5,
+        "52": 2
+      },
+      "aggregator_raw_response": "52 years old",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:03:04",
+      "baseline": "self_consistency",
+      "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+      "question": "what age did abraham lincoln begin his presidency?",
+      "gold_answer": "52 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "The final answer is 35.",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n37 \n\nNote: This refers to when Usher performed at the halftime show for Superbowl XLVII on February 3rd, 2013.",
+          "final_answer": "37 Note: This refers to when Usher performed at the halftime show for Superbowl XLVII on February 3rd, 2013.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "27 \n(As of October 4th 2022)",
+          "final_answer": "27 \n(As of October 4th 2022)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n35 \n\n(Usher performed in the halftime show on February 6, 2005)",
+          "final_answer": "35 (Usher performed in the halftime show on February 6, 2005)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "35 \n(Usher performed on March 28th, 2004)",
+          "final_answer": "35 \n(Usher performed on March 28th, 2004)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "35 \n(Usher performed in the halftime show for Superbowl XLVIII)",
+          "final_answer": "35 \n(Usher performed in the halftime show for Superbowl XLVIII)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "28 \n\n(he performed on February 6th, 2016)",
+          "final_answer": "28 \n\n(he performed on February 6th, 2016)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n37 \n\nExplanation: Usher performed in the halftime show on February 6, 2009, which corresponds to his birthdate being October 14, 1978 so when he turned 31 years old. However I answered using my default value for \u201cat\u201d meaning nearest whole number so that will be rounded up from 30 to 37 since it\u2019s less than 40.",
+          "final_answer": "37 Explanation: Usher performed in the halftime show on February 6, 2009, which corresponds to his birthdate being October 14, 1978 so when he turned 31 years old. However I answered using my default value for \u201cat\u201d meaning nearest whole number so that will be rounded up from 30 to 37 since it\u2019s less than 40.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "37 Note: This refers to when Usher performed at the halftime show for Superbowl XLVII on February 3rd, 2013": 1,
+        "27 (As of October 4th 2022)": 1,
+        "35 (Usher performed in the halftime show on February 6, 2005)": 1,
+        "35 (Usher performed on March 28th, 2004)": 1,
+        "35 (Usher performed in the halftime show for Superbowl XLVIII)": 1,
+        "28 (he performed on February 6th, 2016)": 1,
+        "37 Explanation: Usher performed in the halftime show on February 6, 2009, which corresponds to his birthdate being October 14, 1978 so when he turned 31 years old. However I answered using my default value for \u201cat\u201d meaning nearest whole number so that will be rounded up from 30 to 37 since it\u2019s less than 40": 1
+      },
+      "aggregator_raw_response": "The final answer is 35.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer refers to Usher's age (45) during his Super Bowl LVIII halftime show performance in February 2024. The prediction states his age as 37, explicitly clarifying that this refers to his performance at Super Bowl XLVII in February 2013. While Usher did perform at both events, the prediction provides information for a different event than the one implied by the gold answer, thus contradicting the specific fact the gold answer is providing.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:04:16",
+      "baseline": "self_consistency",
+      "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+      "question": "at what age did usher perform in the half time show of superbowl?",
+      "gold_answer": "45 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "1987",
+      "raw_samples": [
+        {
+          "raw_response": "Bruce Willis's first marriage occurred on April 24, 1987.",
+          "final_answer": "Bruce Willis's first marriage occurred on April 24, 1987.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "1980-02-18 \n(answer includes his second wedding)",
+          "final_answer": "1980-02-18 \n(answer includes his second wedding)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1990 \n\nnote: The information I found for Bruce Willis' marriage dates may vary slightly depending on sources but according to most common reference points he got married first in 1987 then again in 2009 and later divorced it in 2000 however there exists some record from online news articles regarding him getting hitched to Demi Moore circa February\u2013March 1987 although exact accurate records reveal they actually wed on October 21st of '87",
+          "final_answer": "1990 \n\nnote: The information I found for Bruce Willis' marriage dates may vary slightly depending on sources but according to most common reference points he got married first in 1987 then again in 2009 and later divorced it in 2000 however there exists some record from online news articles regarding him getting hitched to Demi Moore circa February\u2013March 1987 although exact accurate records reveal they actually wed on October 21st of '87",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Bruce Willis \nmarried: \n\n1957-07-18; Denise Richards divorced 2003-05; Patti Hansen since 1987",
+          "final_answer": "Bruce Willis \nmarried: \n\n1957-07-18; Denise Richards divorced 2003-05; Patti Hansen since 1987",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1980 \n\nHowever, since it's more accurate to respond about Bruce Willis specifically - \nIn response please see below:\n\nBruce Willis answered above got married first on March 28, 1987.",
+          "final_answer": "1980 \n\nHowever, since it's more accurate to respond about Bruce Willis specifically - \nIn response please see below:\n\nBruce Willis answered above got married first on March 28, 1987.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1989",
+          "final_answer": "1989",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Bruce Willis got married on April 24, 1987. \nHowever given the instruction I'll normalize it further - for simplicity let's assume we're talking about his first marriage \n\nanswer:\n1987-04-24",
+          "final_answer": "1987-04-24",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Bruce Willis's first marriage occurred on April 24, 1987": 1,
+        "1980-02-18 (answer includes his second wedding)": 1,
+        "1990 note: The information I found for Bruce Willis' marriage dates may vary slightly depending on sources but according to most common reference points he got married first in 1987 then again in 2009 and later divorced it in 2000 however there exists some record from online news articles regarding him getting hitched to Demi Moore circa February\u2013March 1987 although exact accurate records reveal they actually wed on October 21st of '87": 1,
+        "Bruce Willis married: 1957-07-18; Denise Richards divorced 2003-05; Patti Hansen since 1987": 1,
+        "1980 However, since it's more accurate to respond about Bruce Willis specifically - In response please see below: Bruce Willis answered above got married first on March 28, 1987": 1,
+        "1989": 1,
+        "1987-04-24": 1
+      },
+      "aggregator_raw_response": "1987 \n\nThis is because multiple candidates confirm that Bruce Willis was indeed married around this time period with a specific date being mentioned as either late Feb or early Mar 1987 though all agree he officially tied the knot on Oct 21st 1987",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states Bruce Willis got married in 2009, referring to his marriage to Emma Heming. The prediction states his first marriage occurred in 1987, referring to his marriage to Demi Moore. These are two different events and dates, making the prediction contradict the specific fact provided in the gold answer.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:05:36",
+      "baseline": "self_consistency",
+      "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+      "question": "when did the lead actor of die hard get married?",
+      "gold_answer": "the lead actor of die hard, bruce willis, got married in 2009."
+    },
+    {
+      "accepted": true,
+      "prediction": "1994-02-01",
+      "raw_samples": [
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994",
+          "final_answer": "1994",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994",
+          "final_answer": "1994",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1994",
+          "final_answer": "1994",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1994-02-01": 4,
+        "1994": 3
+      },
+      "aggregator_raw_response": "1994-02-01",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction provides the exact release date (1994-02-01) which matches the date given in the gold answer (February 1st, 1994). Date formats are normalized.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:06:13",
+      "baseline": "self_consistency",
+      "id": "118896a1-8124-482a-9201-4aaf1903618d",
+      "question": "when was green day's third studio album released?",
+      "gold_answer": "dookie, the third studio album by green day, was released on february 1st, 1994."
+    },
+    {
+      "accepted": true,
+      "prediction": "Based on the given candidates, only one option has more than three occurrences:",
+      "raw_samples": [
+        {
+          "raw_response": "25 \n\n(Lorne Michaels' birthdate is August 17, 1944)",
+          "final_answer": "25 \n\n(Lorne Michaels' birthdate is August 17, 1944)",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n22",
+          "final_answer": "22",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n37 \n\nExplanation: Lorne Michaels' birthdate isn\u2019t publicly available so I used the information about Saturday Night Live for which it started production on January 25th 1975 & its premiere occurred five nights later on NBC\u2019s prime-time schedule, however Lorne Michaels launched SNL in late February 1975 while working under agreement from ABC which allowed him a six-week window starting Feb.21st but then moved over to NBC before airing so this means that Lorne would be producing his first episode by approximately March \u201975 \nAssuming an average production timeline prior to that Michaels likely produced his last effort close to 36 years old, allowing us some room between those dates \u2013 hence our approximation being closer to 37 years",
+          "final_answer": "37 Explanation: Lorne Michaels' birthdate isn\u2019t publicly available so I used the information about Saturday Night Live for which it started production on January 25th 1975 & its premiere occurred five nights later on NBC\u2019s prime-time schedule, however Lorne Michaels launched SNL in late February 1975 while working under agreement from ABC which allowed him a six-week window starting Feb.21st but then moved over to NBC before airing so this means that Lorne would be producing his first episode by approximately March \u201975 Assuming an average production timeline prior to that Michaels likely produced his last effort close to 36 years old, allowing us some room between those dates \u2013 hence our approximation being closer to 37 years",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "27 \n\n( Lorne Michaels' production company released the Canadian horror comedy 'Death Weekend', which may be considered as his first feature-length release.)",
+          "final_answer": "27 \n\n( Lorne Michaels' production company released the Canadian horror comedy 'Death Weekend', which may be considered as his first feature-length release.)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "34 \n\n(Lorne Michaels' birthdate: November 17, 1944; First film production circa '78)",
+          "final_answer": "34 \n\n(Lorne Michaels' birthdate: November 17, 1944; First film production circa '78)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "41 \n\nExplanation: Lorne Michaels produced his first film 'The Lonely Guy' released on April 29,1971. He was born on November 17,1944.  From the birthdate, subtracting release year gives us an approximate production age and from there we can determine he was around 27 at the start which made him about forty-one years old by the end of its filming. This might be disputed but most sources agree his early work started before turning thirty-seven and then working till past 40 so for this response I chose forty-one.",
+          "final_answer": "41 \n\nExplanation: Lorne Michaels produced his first film 'The Lonely Guy' released on April 29,1971. He was born on November 17,1944.  From the birthdate, subtracting release year gives us an approximate production age and from there we can determine he was around 27 at the start which made him about forty-one years old by the end of its filming. This might be disputed but most sources agree his early work started before turning thirty-seven and then working till past 40 so for this response I chose forty-one.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "23 \n\n(Note: I assume you're asking about Lorne Michaels' producing career. However, without specifying which specific production it refers to, we can approximate by citing Saturday Night Live's premiere on October 1975.)",
+          "final_answer": "23 \n\n(Note: I assume you're asking about Lorne Michaels' producing career. However, without specifying which specific production it refers to, we can approximate by citing Saturday Night Live's premiere on October 1975.)",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "25 (Lorne Michaels' birthdate is August 17, 1944)": 1,
+        "22": 1,
+        "37 Explanation: Lorne Michaels' birthdate isn\u2019t publicly available so I used the information about Saturday Night Live for which it started production on January 25th 1975 & its premiere occurred five nights later on NBC\u2019s prime-time schedule, however Lorne Michaels launched SNL in late February 1975 while working under agreement from ABC which allowed him a six-week window starting Feb.21st but then moved over to NBC before airing so this means that Lorne would be producing his first episode by approximately March \u201975 Assuming an average production timeline prior to that Michaels likely produced his last effort close to 36 years old, allowing us some room between those dates \u2013 hence our approximation being closer to 37 years": 1,
+        "27 ( Lorne Michaels' production company released the Canadian horror comedy 'Death Weekend', which may be considered as his first feature-length release.)": 1,
+        "34 (Lorne Michaels' birthdate: November 17, 1944; First film production circa '78)": 1,
+        "41 Explanation: Lorne Michaels produced his first film 'The Lonely Guy' released on April 29,1971. He was born on November 17,1944. From the birthdate, subtracting release year gives us an approximate production age and from there we can determine he was around 27 at the start which made him about forty-one years old by the end of its filming. This might be disputed but most sources agree his early work started before turning thirty-seven and then working till past 40 so for this response I chose forty-one": 1,
+        "23 (Note: I assume you're asking about Lorne Michaels' producing career. However, without specifying which specific production it refers to, we can approximate by citing Saturday Night Live's premiere on October 1975.)": 1
+      },
+      "aggregator_raw_response": "Based on the given candidates, only one option has more than three occurrences:\n\n* 41 \n\nSo my final answer is: \n41",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the age was 35, while the prediction states 25. These values are numerically different and fall outside the allowed tolerance for numeric expressions (|35 - 25| = 10, which is not <= max(0.5, 1% of 35 = 0.35)).",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:08:06",
+      "baseline": "self_consistency",
+      "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+      "question": "at what age was lorne michaels when he produced his first film?",
+      "gold_answer": "he was 35"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carnegie Mellon University",
+      "raw_samples": [
+        {
+          "raw_response": "Sun Microsystems' campus in Palo Alto, California",
+          "final_answer": "Sun Microsystems' campus in Palo Alto, California",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Sun Microsystems' engineers led by James Gosling developed Java but it wasn\u2019t an individual's project. However, Sun employee Mark Reinhold received a Ph.D from University College London \n\nanswer:\nUniversity College London",
+          "final_answer": "University College London",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Sun Microsystems \nanswer: \n\nJames Gosling received his Ph.D from Carnegie Mellon University.",
+          "final_answer": "James Gosling received his Ph.D from Carnegie Mellon University.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Sun Microsystems; Stanford University",
+          "final_answer": "Sun Microsystems; Stanford University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Sun Microsystems' Chief Java Architect received his Ph.D.; however James Gosling's co-designer on Java received their PhD \nfrom University of Illinois at Urbana-Champaign although it seems more likely they refered to James Goslings PhD \nwhich he obtained from Carnegie Mellon University \n\nanswer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Sun Microsystems' engineer James Gosling's work on Java is often referred to but he wasn't the Lead Designer. \nThe actual Lead Designer of Java is considered by some sources to be James Gosling however other key designers were; Arthur van Hoff and  Guy Steele \n\nGuy Steele received his Ph.D from Harvard University",
+          "final_answer": "Sun Microsystems' engineer James Gosling's work on Java is often referred to but he wasn't the Lead Designer. \nThe actual Lead Designer of Java is considered by some sources to be James Gosling however other key designers were; Arthur van Hoff and  Guy Steele \n\nGuy Steele received his Ph.D from Harvard University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nStanford University",
+          "final_answer": "Stanford University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Sun Microsystems' campus in Palo Alto, California": 1,
+        "University College London": 1,
+        "James Gosling received his Ph.D from Carnegie Mellon University": 1,
+        "Sun Microsystems; Stanford University": 1,
+        "Carnegie Mellon University": 1,
+        "Sun Microsystems' engineer James Gosling's work on Java is often referred to but he wasn't the Lead Designer. The actual Lead Designer of Java is considered by some sources to be James Gosling however other key designers were; Arthur van Hoff and Guy Steele Guy Steele received his Ph.D from Harvard University": 1,
+        "Stanford University": 1
+      },
+      "aggregator_raw_response": "Carnegie Mellon University \n\nThis answer appears multiple times as a correct source for James Gosling receiving his PhD.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer specifies 'Carnegie Mellon University' as the location where the Ph.D. was received, while the prediction states 'Sun Microsystems' campus in Palo Alto, California'. These are two distinct and unrelated locations/institutions, leading to a contradiction.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:09:19",
+      "baseline": "self_consistency",
+      "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+      "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+      "gold_answer": "carnegie mellon university"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carrie-Anne Moss",
+      "raw_samples": [
+        {
+          "raw_response": "Zoe Saldana \n(However I believe you may be thinking of Carrie-Anne Moss) \n\nCarrie-Anne Moss",
+          "final_answer": "Zoe Saldana \n(However I believe you may be thinking of Carrie-Anne Moss) \n\nCarrie-Anne Moss",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Zoe Saldana;\nNot correct \u2013 Zoe Saldana didn\u2019t play a major Girl role \ncorrect answer : Carrie-Anne Moss",
+          "final_answer": "Zoe Saldana;\nNot correct \u2013 Zoe Saldana didn\u2019t play a major Girl role \ncorrect answer : Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Zoe Saldana",
+          "final_answer": "Zoe Saldana",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Zoe Saldana",
+          "final_answer": "Zoe Saldana",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Zoe Saldana",
+          "final_answer": "Zoe Saldana",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Zoe Saldana",
+          "final_answer": "Zoe Saldana",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Zoe Saldana \n(Answer will be corrected)\n\n Carrie-Anne Moss",
+          "final_answer": "Zoe Saldana \n(Answer will be corrected)\n\n Carrie-Anne Moss",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Zoe Saldana (However I believe you may be thinking of Carrie-Anne Moss) Carrie-Anne Moss": 1,
+        "Zoe Saldana; Not correct \u2013 Zoe Saldana didn\u2019t play a major Girl role correct answer : Carrie-Anne Moss": 1,
+        "Zoe Saldana": 4,
+        "Zoe Saldana (Answer will be corrected) Carrie-Anne Moss": 1
+      },
+      "aggregator_raw_response": "Carrie-Anne Moss",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction initially provides an incorrect name but then self-corrects and explicitly states 'Carrie-Anne Moss', which matches the gold answer. The final, definitive answer provided by the prediction is correct.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:10:16",
+      "baseline": "self_consistency",
+      "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+      "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+      "gold_answer": "the actress who played the role of the girl character in the movie \"the matrix\" is carrie-anne moss. she portrayed the role of trinity, a skilled computer hacker and a member of the human resistance."
+    },
+    {
+      "accepted": true,
+      "prediction": "To Give An Accurate Response I Need More Information About:",
+      "raw_samples": [
+        {
+          "raw_response": "To give an accurate response I need more information about:\n\n*   Your birth year \n*   Artist name \n*   Song title \n\nPlease let me know these details so I may assist further.",
+          "final_answer": "To give an accurate response I need more information about:\n\n*   Your birth year \n*   Artist name \n*   Song title \n\nPlease let me know these details so I may assist further.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "I'm happy to help! To give an accurate response I'll need more information from you such as \n    - which song do you want to know about,\n    - when would 'your time' be according to our guidelines (the reference date we're using) since October 4th, 2022 has been set for that. \n\nIf you supply those details I could proceed accordingly",
+          "final_answer": "I'm happy to help! To give an accurate response I'll need more information from you such as \n    - which song do you want to know about,\n    - when would 'your time' be according to our guidelines (the reference date we're using) since October 4th, 2022 has been set for that. \n\nIf you supply those details I could proceed accordingly",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I'd be happy to help. However, I need more information from you. Can you please specify which song by an artist you're interested in, and also mention the specific year relative to when you're asking the question (which should refer to October 4th, 2022)? \n\nPlease give both so we could get started on finding some additional releases for you!",
+          "final_answer": "I'd be happy to help. However, I need more information from you. Can you please specify which song by an artist you're interested in, and also mention the specific year relative to when you're asking the question (which should refer to October 4th, 2022)? \n\nPlease give both so we could get started on finding some additional releases for you!",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "To determine which song(s) by an artist were also released around your specified timeframe I would need additional information from you such as:\n\n* Artist name \n* Release Year \n\nPlease supply these details so i may attempt to assist further.",
+          "final_answer": "To determine which song(s) by an artist were also released around your specified timeframe I would need additional information from you such as:\n\n* Artist name \n* Release Year \n\nPlease supply these details so i may attempt to assist further.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I need more information about which song by an artist interests you from their release year corresponding to your birth-year. If you could give me those details I would be able to help better!",
+          "final_answer": "I need more information about which song by an artist interests you from their release year corresponding to your birth-year. If you could give me those details I would be able to help better!",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I need more information from you. Please specify:\n\n1. Artist name \n2. Song title\n3. Year relative to which I should determine similar releases (if not specified, default will be used) \n\nPlease fill out these fields for accurate assistance",
+          "final_answer": "I need more information from you. Please specify:\n\n1. Artist name \n2. Song title\n3. Year relative to which I should determine similar releases (if not specified, default will be used) \n\nPlease fill out these fields for accurate assistance",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "I need more information about you and the song/artist in question. \n\nTo proceed please give more details such as \n* Artist name \n* Song title \n* Year reference relative to the user's birthdate",
+          "final_answer": "I need more information about you and the song/artist in question. \n\nTo proceed please give more details such as \n* Artist name \n* Song title \n* Year reference relative to the user's birthdate",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "To give an accurate response I need more information about: * Your birth year * Artist name * Song title Please let me know these details so I may assist further": 1,
+        "I'm happy to help! To give an accurate response I'll need more information from you such as - which song do you want to know about, - when would 'your time' be according to our guidelines (the reference date we're using) since October 4th, 2022 has been set for that. If you supply those details I could proceed accordingly": 1,
+        "I'd be happy to help. However, I need more information from you. Can you please specify which song by an artist you're interested in, and also mention the specific year relative to when you're asking the question (which should refer to October 4th, 2022)? Please give both so we could get started on finding some additional releases for you!": 1,
+        "To determine which song(s) by an artist were also released around your specified timeframe I would need additional information from you such as: * Artist name * Release Year Please supply these details so i may attempt to assist further": 1,
+        "I need more information about which song by an artist interests you from their release year corresponding to your birth-year. If you could give me those details I would be able to help better!": 1,
+        "I need more information from you. Please specify: 1. Artist name 2. Song title 3. Year relative to which I should determine similar releases (if not specified, default will be used) Please fill out these fields for accurate assistance": 1,
+        "I need more information about you and the song/artist in question. To proceed please give more details such as * Artist name * Song title * Year reference relative to the user's birthdate": 1
+      },
+      "aggregator_raw_response": "To Give An Accurate Response I Need More Information About: \n\n*   Your Birth Year \n*   Artist Name \n*   Song Title \n\nPlease Let Me Know These Details So I May Assist Further",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction is a refusal to answer, stating it needs more information, and does not provide any of the requested song titles. This makes it not meaningful.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:10:20",
+      "baseline": "self_consistency",
+      "id": "e06676aa-efc3-4763-b196-e105596cc643",
+      "question": "can you tell me what other songs the same artist released in the same year as my time?",
+      "gold_answer": "throw it in the bag, \"everything, everyday, every where\""
+    },
+    {
+      "accepted": true,
+      "prediction": "Patrick J Adams",
+      "raw_samples": [
+        {
+          "raw_response": "Patrick J Adams",
+          "final_answer": "Patrick J Adams",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Patrick J. Adams.",
+          "final_answer": "Patrick J. Adams.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Patrick J Adams",
+          "final_answer": "Patrick J Adams",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Patrick J Adams",
+          "final_answer": "Patrick J Adams",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Patrick J Adams; Gabriel Macht; Rick Hoffman; Dul\u00e9 Hill; Sarah Rafferty; Meghan Markle; Gina Torres; Abigail Spencer; Eric Close \nbut most famously Patrick j adams played Mike Ross",
+          "final_answer": "Patrick J Adams; Gabriel Macht; Rick Hoffman; Dul\u00e9 Hill; Sarah Rafferty; Meghan Markle; Gina Torres; Abigail Spencer; Eric Close \nbut most famously Patrick j adams played Mike Ross",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Patrick J. Adams.",
+          "final_answer": "Patrick J. Adams.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Patrick J Adams",
+          "final_answer": "Patrick J Adams",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Patrick J Adams": 4,
+        "Patrick J. Adams": 2,
+        "Patrick J Adams; Gabriel Macht; Rick Hoffman; Dul\u00e9 Hill; Sarah Rafferty; Meghan Markle; Gina Torres; Abigail Spencer; Eric Close but most famously Patrick j adams played Mike Ross": 1
+      },
+      "aggregator_raw_response": "Patrick J Adams",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction provides the correct name of the actor, 'Patrick J Adams', which matches the essential fact in the gold answer. The gold answer includes additional descriptive information about the role and the actor's achievements, but this extra detail does not contradict the core fact provided by the prediction.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:10:47",
+      "baseline": "self_consistency",
+      "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+      "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+      "gold_answer": "the actor who played the role of a lawyer in the tv show \"suits\" is patrick j. adams. he portrayed the role of mike ross, a college dropout who becomes a legal associate at a prestigious law firm, in the show, which aired from 2011 to 2019. adams's performance earned him a nomination for a screen actors guild award for outstanding performance by a male actor in a drama series."
+    },
+    {
+      "accepted": true,
+      "prediction": "Del Harris",
+      "raw_samples": [
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nBill Bertka",
+          "final_answer": "Bill Bertka",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Del Harris": 6,
+        "Bill Bertka": 1
+      },
+      "aggregator_raw_response": "Del Harris",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "Case normalization: 'Del Harris' is equivalent to 'del harris'.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:13:29",
+      "baseline": "self_consistency",
+      "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+      "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+      "gold_answer": "del harris"
+    },
+    {
+      "accepted": true,
+      "prediction": "0 ft",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n170ft",
+          "final_answer": "170ft",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n0 ft",
+          "final_answer": "0 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n170 ft",
+          "final_answer": "170 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "2060ft",
+          "final_answer": "2060ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n70ft",
+          "final_answer": "70ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "0 ft",
+          "final_answer": "0 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n95ft",
+          "final_answer": "95ft",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "170ft": 1,
+        "0 ft": 2,
+        "170 ft": 1,
+        "2060ft": 1,
+        "70ft": 1,
+        "95ft": 1
+      },
+      "aggregator_raw_response": "The final answers are 0 ft and 0 ft and 0 ft so I'll go for that one.\n\n Final Answer : 0 ft",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the elevation is 95 feet, while the prediction states 1800 feet. These values are significantly different and fall outside the allowed numeric tolerance (1% of 95 is 0.95, so the prediction should be between 94.05 and 95.95).",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:14:17",
+      "baseline": "self_consistency",
+      "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+      "question": "how many feet is the place with the lowest elevation in vermont?",
+      "gold_answer": "the place with the lowest elevation in vermont, lake champlain, is at 95 feet."
+    },
+    {
+      "accepted": true,
+      "prediction": "46 years old",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n41 years old",
+          "final_answer": "41 years old",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "46 \n(Leonardo DiCaprio received his Best Actor Oscar at the ceremony for the year 2016 which took place on February 28th, 2016)",
+          "final_answer": "46 \n(Leonardo DiCaprio received his Best Actor Oscar at the ceremony for the year 2016 which took place on February 28th, 2016)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "46 \n\nNote: Leonardo DiCaprio won Best Actor at the Oscars for 'The Revenant' on February 27th, 2016 which would be roughly around his 41st birthday however since you didn\u2019t specify any particular Oscar Awards I assumed it\u2019s about the above-referenced instance",
+          "final_answer": "46 \n\nNote: Leonardo DiCaprio won Best Actor at the Oscars for 'The Revenant' on February 27th, 2016 which would be roughly around his 41st birthday however since you didn\u2019t specify any particular Oscar Awards I assumed it\u2019s about the above-referenced instance",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "88 \n\n(Note: This refers to his Oscar win for Best Actor for 'The Revenant' on February 27th, 2016.)",
+          "final_answer": "88 \n\n(Note: This refers to his Oscar win for Best Actor for 'The Revenant' on February 27th, 2016.)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n42 years old",
+          "final_answer": "42 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n46 years old",
+          "final_answer": "46 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "85 years \n(Leonardo Dicaprio received an Academy Award on February 27, 2016.)",
+          "final_answer": "85 years \n(Leonardo Dicaprio received an Academy Award on February 27, 2016.)",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "41 years old": 1,
+        "46 (Leonardo DiCaprio received his Best Actor Oscar at the ceremony for the year 2016 which took place on February 28th, 2016)": 1,
+        "46 Note: Leonardo DiCaprio won Best Actor at the Oscars for 'The Revenant' on February 27th, 2016 which would be roughly around his 41st birthday however since you didn\u2019t specify any particular Oscar Awards I assumed it\u2019s about the above-referenced instance": 1,
+        "88 (Note: This refers to his Oscar win for Best Actor for 'The Revenant' on February 27th, 2016.)": 1,
+        "42 years old": 1,
+        "46 years old": 1,
+        "85 years (Leonardo Dicaprio received an Academy Award on February 27, 2016.)": 1
+      },
+      "aggregator_raw_response": "46 years old",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold states Leonardo DiCaprio was 42 years old, while the prediction states 41 years old. The difference (1) exceeds the numeric tolerance of max(0.5, 1% of 42 = 0.42) = 0.5.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:14:20",
+      "baseline": "self_consistency",
+      "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+      "question": "how old was leonardo dicaprio when he won best actor award?",
+      "gold_answer": "leonardo was 42 years old in 2016 when he won best actor."
+    },
+    {
+      "accepted": true,
+      "prediction": "Since option 2 (\"The Jackson 5: Diana Ross Presents Motown Girl Groups\") has been mentioned multiple times as related information about the correct answer, while not directly stating its title; Option 3 mentions another early work titled 'Diana & Marlon/Jacksons 123' or alternatively known as 'The Jackson Brothers.'",
+      "raw_samples": [
+        {
+          "raw_response": "Diana Ross & the Supremes gave way to Diana Ross and other groups before Michael Jackson joined his brothers' band which became 'The Jackson 5'. \nTheir debut studio album was released on April 12, 1969. \n\nanswer:\nApril 12, 1969",
+          "final_answer": "April 12, 1969",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Diana Ross & The Supremes; however, Michael Jackson's contribution came later when he joined the Jackson 5 \nanswer:\nThe Jackson 5: Diana Ross Presents Motown Girl Groups",
+          "final_answer": "The Jackson 5: Diana Ross Presents Motown Girl Groups",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "The Jackson Brothers' debut album 'Jacksons 123'; however more famously it would be 'Diana & Marlon', also released under the name 'The Jackson Brothers'.",
+          "final_answer": "The Jackson Brothers' debut album 'Jacksons 123'; however more famously it would be 'Diana & Marlon', also released under the name 'The Jackson Brothers'.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Diana Ross & the Supremes gave way to Diana Ross and the Jackson 5 replaced her in late 1970 but their debut under 'The Jackson Five' name came out before Michael's first solo effort so \nanswer:\nThe Jackson 5 - Dancing Machine",
+          "final_answer": "The Jackson 5 - Dancing Machine",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Diana Ross & The Supremes gave way to The Jackson 5's predecessor: \nThe Butterflies however it was Diana Ross and the Supremes who had Michael join before he joined his family group but I can tell you for certain their first Studio Album under Motown  was by 'The Butterflies' though actually it preceded Diana Ross & the Supremes with him on board : \n\nHowever there's some confusion because when people say \"Michael Jackson was in Diana Ross and the supr\u00e8mes\"...   we mean pre-J5 which is more accurately described by a prior formation called 'the butterflies'.\nTherefore - Theirs Was First then later J5 was formed . However The first release that included four members of the future Jackson Five occurred earlier - That would be under an alias name 'Butterflys'.",
+          "final_answer": "Diana Ross & The Supremes gave way to The Jackson 5's predecessor: \nThe Butterflies however it was Diana Ross and the Supremes who had Michael join before he joined his family group but I can tell you for certain their first Studio Album under Motown  was by 'The Butterflies' though actually it preceded Diana Ross & the Supremes with him on board : \n\nHowever there's some confusion because when people say \"Michael Jackson was in Diana Ross and the supr\u00e8mes\"...   we mean pre-J5 which is more accurately described by a prior formation called 'the butterflies'.\nTherefore - Theirs Was First then later J5 was formed . However The first release that included four members of the future Jackson Five occurred earlier - That would be under an alias name 'Butterflys'.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Diana Ross & the Supremes gave way to \nThe Jackson 5's debut being Diana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross & the Supremes gave way to The Jackson 5's debut being Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Diana Ross & the Supremes Give Love Performance Key Album However I believe you're asking about Michael Jackson being part of The Jackson Five then their debut would be \nThe Jackson 5! Their self-titled 'debut' album was released on December 12th of 1969 so:\n\nanswer:\n1969-12-12",
+          "final_answer": "1969-12-12",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "April 12, 1969": 1,
+        "The Jackson 5: Diana Ross Presents Motown Girl Groups": 1,
+        "The Jackson Brothers' debut album 'Jacksons 123'; however more famously it would be 'Diana & Marlon', also released under the name 'The Jackson Brothers'": 1,
+        "The Jackson 5 - Dancing Machine": 1,
+        "Diana Ross & The Supremes gave way to The Jackson 5's predecessor: The Butterflies however it was Diana Ross and the Supremes who had Michael join before he joined his family group but I can tell you for certain their first Studio Album under Motown was by 'The Butterflies' though actually it preceded Diana Ross & the Supremes with him on board : However there's some confusion because when people say \"Michael Jackson was in Diana Ross and the supr\u00e8mes\"... we mean pre-J5 which is more accurately described by a prior formation called 'the butterflies'. Therefore - Theirs Was First then later J5 was formed . However The first release that included four members of the future Jackson Five occurred earlier - That would be under an alias name 'Butterflys'": 1,
+        "Diana Ross & the Supremes gave way to The Jackson 5's debut being Diana Ross Presents The Jackson 5": 1,
+        "1969-12-12": 1
+      },
+      "aggregator_raw_response": "Since option 2 (\"The Jackson 5: Diana Ross Presents Motown Girl Groups\") has been mentioned multiple times as related information about the correct answer, while not directly stating its title; Option 3 mentions another early work titled 'Diana & Marlon/Jacksons 123' or alternatively known as 'The Jackson Brothers.' \n\nHowever since neither options 2 nor 3 are direct answers to this question, they do provide context.\n\nOption 6 states \"Diana Ross presents the Jackson five\" which matches closely with one of the most well-known albums associated with the groups initial time together. This makes me lean towards choosing option 6 as my final choice given the other choices were either incorrect or too vague.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The question asks for the first studio album title, and the gold answer provides 'diana ross presents the jackson 5'. The prediction provides a date ('April 12, 1969'), which is not an album title and therefore does not answer the question correctly.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:16:01",
+      "baseline": "self_consistency",
+      "id": "e525e6b2-4865-4610-a73b-79438c724255",
+      "question": "what was the first studio album from the group that michael jackson was in?",
+      "gold_answer": "diana ross presents the jackson 5"
+    },
+    {
+      "accepted": true,
+      "prediction": "Based on the provided candidates, only two answers appear multiple times:",
+      "raw_samples": [
+        {
+          "raw_response": "1990 \n(answer assumes release date for film)",
+          "final_answer": "1990 \n(answer assumes release date for film)",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "1985-02-16 \nwas the release date for Henry Rollins: Live at the ICA, but there also exists 'Henry & June' however most likely you're asking about   'Henrietta Street',  which isn\u2019t correct so it would be more accurate to say that some information points towards  'London by Night'. \n\nHowever looking up alternative sources they reveal Henry Rollins Goes to London wasn't released until April 1992. \n\nAs per my knowledge base, Henry Rollins was born on February 13th, 1961.\n\nTherefore his age at the time of making an appearance in \u2018Henry Rollings Goes To London\u2019 should be calculated from the film\u2019s release date in April 1992.\nSo 31 years old (as of April 1992) and then subtracting birthdate to get exact date  - 30 years old",
+          "final_answer": "1985-02-16 \nwas the release date for Henry Rollins: Live at the ICA, but there also exists 'Henry & June' however most likely you're asking about   'Henrietta Street',  which isn\u2019t correct so it would be more accurate to say that some information points towards  'London by Night'. \n\nHowever looking up alternative sources they reveal Henry Rollins Goes to London wasn't released until April 1992. \n\nAs per my knowledge base, Henry Rollins was born on February 13th, 1961.\n\nTherefore his age at the time of making an appearance in \u2018Henry Rollings Goes To London\u2019 should be calculated from the film\u2019s release date in April 1992.\nSo 31 years old (as of April 1992) and then subtracting birthdate to get exact date  - 30 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1990-01-16 \n(answer refers to Henry Rollins film release date)\n\nHowever since you mentioned 'he' I assume it's about his first name. This would be different from having both names matched up for clarity \n\nIf we focus on Henry who also shares their first name then looking at this other notable individual\u2019s birthdate - Henry Winkler was indeed alive but had not yet appeared alongside real life equivalent character Henry Lee Lucas which led me onto more specific details surrounding this specific film so lets find out how old he was based off the given information related to our particular instance being described\n\nThe movie Henry Rollins: Henry Rolls Goes To London premiered on January 13th 1987 and according to wiki the biography states 31 years old",
+          "final_answer": "1990-01-16 \n(answer refers to Henry Rollins film release date)\n\nHowever since you mentioned 'he' I assume it's about his first name. This would be different from having both names matched up for clarity \n\nIf we focus on Henry who also shares their first name then looking at this other notable individual\u2019s birthdate - Henry Winkler was indeed alive but had not yet appeared alongside real life equivalent character Henry Lee Lucas which led me onto more specific details surrounding this specific film so lets find out how old he was based off the given information related to our particular instance being described\n\nThe movie Henry Rollins: Henry Rolls Goes To London premiered on January 13th 1987 and according to wiki the biography states 31 years old",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1990; \n\nHenry Rollins had just turned 31 years old at this point but I can give you his exact birthdate so we can calculate it precisely. Henry Rollins' birthday is January 13th 1961. If the film release occurred late 1989 then the calculation for him being 30 would be correct, else he'd have been turning 32. However since there isn't enough information about the movie's release date within the prompt itself, given that the film released in 1989 (though I could find nothing regarding any other), assuming the latest possible release before end of '89 gives us:\nanswer:\n30",
+          "final_answer": "30",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1970 \n\n(assuming it was released around 1990)",
+          "final_answer": "1970 \n\n(assuming it was released around 1990)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1990 \n(answer based on Henry Rollin's birthdate - February 13, 1961)",
+          "final_answer": "1990 \n(answer based on Henry Rollin's birthdate - February 13, 1961)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "1990\n(answer refers to film release year) \n\nHenry Rollins \nreleased his own spoken word performance video on VHS titled 'The Last Fix' before making this other 'video'. This particular 'Video' came out first in UK then USA.",
+          "final_answer": "1990\n(answer refers to film release year) \n\nHenry Rollins \nreleased his own spoken word performance video on VHS titled 'The Last Fix' before making this other 'video'. This particular 'Video' came out first in UK then USA.",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1990 (answer assumes release date for film)": 1,
+        "1985-02-16 was the release date for Henry Rollins: Live at the ICA, but there also exists 'Henry & June' however most likely you're asking about 'Henrietta Street', which isn\u2019t correct so it would be more accurate to say that some information points towards 'London by Night'. However looking up alternative sources they reveal Henry Rollins Goes to London wasn't released until April 1992. As per my knowledge base, Henry Rollins was born on February 13th, 1961. Therefore his age at the time of making an appearance in \u2018Henry Rollings Goes To London\u2019 should be calculated from the film\u2019s release date in April 1992. So 31 years old (as of April 1992) and then subtracting birthdate to get exact date - 30 years old": 1,
+        "1990-01-16 (answer refers to Henry Rollins film release date) However since you mentioned 'he' I assume it's about his first name. This would be different from having both names matched up for clarity If we focus on Henry who also shares their first name then looking at this other notable individual\u2019s birthdate - Henry Winkler was indeed alive but had not yet appeared alongside real life equivalent character Henry Lee Lucas which led me onto more specific details surrounding this specific film so lets find out how old he was based off the given information related to our particular instance being described The movie Henry Rollins: Henry Rolls Goes To London premiered on January 13th 1987 and according to wiki the biography states 31 years old": 1,
+        "30": 1,
+        "1970 (assuming it was released around 1990)": 1,
+        "1990 (answer based on Henry Rollin's birthdate - February 13, 1961)": 1,
+        "1990 (answer refers to film release year) Henry Rollins released his own spoken word performance video on VHS titled 'The Last Fix' before making this other 'video'. This particular 'Video' came out first in UK then USA": 1
+      },
+      "aggregator_raw_response": "Based on the provided candidates, only two answers appear multiple times:\n\n* 31 \n* 30 \n\nSince these are the same number with a slight variation in wording, I'll consider them as one option.\n\nHowever, another answer is repeated three times without any variations in its wording or numerical value:\n\n* 1990 \n\nBut none of those options match the question asked. Since no single answer meets your criteria of appearing at least four times, I must rely on the next best thing which has been stated twice along with similar statements elsewhere within the text. Thus,\n\nMy final answer is: 30",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The question asks for an age ('33'), but the prediction provides a year ('1990'). The prediction does not answer the question asked.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 07:17:01",
+      "baseline": "self_consistency",
+      "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+      "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+      "gold_answer": "33"
+    }
+  ]
+}

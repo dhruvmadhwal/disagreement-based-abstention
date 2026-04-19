@@ -1,0 +1,38 @@
+\begin{table*}[t]
+\centering
+\caption{Method-level token overhead in the Assistive setting. We report prompt (input) and completion (output) tokens separately. DBA-A includes Open+Assistive generation plus a consistency judge between the two outputs. The optional DBA-A+DSL row adds one DSL-generation call. Unless otherwise noted, tokens come from saved OpenAI usage. When usage metadata is unavailable (Gemini judge or DSL generation), we estimate tokens with a chars/4 heuristic. Multipliers are computed relative to Open on a shared per-dataset comparison set.}
+\label{tab:efficiency_method_comparison_assistive}
+\begin{tabular}{llrrrrrrr}
+\toprule
+\textbf{Dataset} & \textbf{Method} & \textbf{N} & \textbf{Calls/ex} & \textbf{Prompt} & \textbf{Compl.} & \textbf{Prompt$\times$} & \textbf{Compl.$\times$} & \textbf{Total$\times$} \\
+\midrule
+Bamboogle & Open & 121 & 1 & 641 & 141 & 1.00 & 1.00 & 1.00 \\
+Bamboogle & AYS (Open + verify) & 121 & 2 & 709 & 252 & 1.11 & 1.79 & 1.23 \\
+Bamboogle & DBA-A (Open+Assist+Judge) & 121 & 3 & 3,642 & 333 & 5.69 & 2.37 & 5.09 \\
+Bamboogle & DBA-A + DSL gen & 121 & 4 & 4,361 & 374 & 6.81 & 2.65 & 6.06 \\
+CRAG & Open & 162 & 1 & 643 & 201 & 1.00 & 1.00 & 1.00 \\
+CRAG & AYS (Open + verify) & 162 & 2 & 715 & 375 & 1.11 & 1.87 & 1.29 \\
+CRAG & IC-IDK & 162 & 1 & 720 & 165 & 1.12 & 0.82 & 1.05 \\
+CRAG & DBA-A (Open+Assist+Judge) & 162 & 3 & 3,652 & 498 & 5.68 & 2.48 & 4.91 \\
+CRAG & DBA-A + DSL gen & 162 & 4 & 4,373 & 542 & 6.80 & 2.70 & 5.82 \\
+HotpotQA & Open & 266 & 1 & 619 & 326 & 1.00 & 1.00 & 1.00 \\
+HotpotQA & AYS (Open + verify) & 266 & 2 & 695 & 525 & 1.12 & 1.61 & 1.29 \\
+HotpotQA & IC-IDK & 266 & 1 & 854 & 343 & 1.38 & 1.05 & 1.27 \\
+HotpotQA & DBA-A (Open+Assist+Judge) & 266 & 3 & 3,064 & 720 & 4.95 & 2.21 & 4.00 \\
+HotpotQA & DBA-A + DSL gen & 266 & 4 & 3,791 & 769 & 6.12 & 2.36 & 4.83 \\
+Mintaka & Open & 293 & 1 & 641 & 108 & 1.00 & 1.00 & 1.00 \\
+Mintaka & AYS (Open + verify) & 293 & 2 & 709 & 210 & 1.11 & 1.96 & 1.23 \\
+Mintaka & IC-IDK & 293 & 1 & 680 & 115 & 1.06 & 1.07 & 1.06 \\
+Mintaka & DBA-A (Open+Assist+Judge) & 293 & 3 & 3,682 & 258 & 5.74 & 2.40 & 5.26 \\
+Mintaka & DBA-A + DSL gen & 293 & 4 & 4,400 & 299 & 6.86 & 2.78 & 6.28 \\
+Mintaka & Self-Consistency (7+1) & 293 & 8 & 4,610 & 810 & 7.19 & 7.53 & 7.24 \\
+\midrule
+Overall & Open & 842 & 1 & 634 & 199 & 1.00 & 1.00 & 1.00 \\
+Overall & AYS (Open + verify) & 842 & 2 & 706 & 348 & 1.11 & 1.74 & 1.26 \\
+Overall & DBA-A (Open+Assist+Judge) & 842 & 3 & 3,475 & 461 & 5.48 & 2.31 & 4.72 \\
+Overall & DBA-A + DSL gen & 842 & 4 & 4,197 & 505 & 6.61 & 2.53 & 5.64 \\
+Overall & IC-IDK & 721 & 1 & 753 & 210 & 1.19 & 1.00 & 1.14 \\
+Overall & Self-Consistency (7+1) & 293 & 8 & 4,610 & 810 & 7.19 & 7.53 & 7.24 \\
+\bottomrule
+\end{tabular}
+\end{table*}

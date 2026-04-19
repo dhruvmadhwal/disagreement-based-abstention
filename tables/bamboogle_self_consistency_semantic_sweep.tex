@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength\tabcolsep{3pt}
+\caption{Semantic self-consistency threshold sweep on Bamboogle. $m$ is the size of the largest semantic cluster among 7 open-ended samples (IDK excluded), with clustering judged by Gemini 2.5 Flash. AUROC uses $7-m$ as the score (higher disagreement indicates higher error likelihood). $t^*$ is the threshold on $m$ that maximizes F1; @4 is the fixed 4/7 operating point.}
+\label{tab:bamboogle_self_consistency_semantic_sweep}
+\begin{tabular}{lccccccccccc}
+\toprule
+\textbf{Model} & \textbf{AUROC} & \textbf{$t^*$} & \textbf{P} & \textbf{R} & \textbf{F1} & \textbf{Cov} & \textbf{P@4} & \textbf{R@4} & \textbf{F1@4} & \textbf{Cov@4} \\
+\midrule
+Qwen3-8B & 0.707 & 7 & 0.956 & 0.602 & 0.739 & 0.447 & 0.967 & 0.269 & 0.420 & 0.756 \\
+Qwen3-32B & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+Llama 3.3 70B & 0.687 & 7 & 0.795 & 0.522 & 0.631 & 0.642 & 0.778 & 0.104 & 0.184 & 0.927 \\
+Gemini Pro & 0.809 & 6 & 0.579 & 0.611 & 0.595 & 0.846 & 0.667 & 0.111 & 0.190 & 0.976 \\
+\bottomrule
+\end{tabular}
+\end{table*}

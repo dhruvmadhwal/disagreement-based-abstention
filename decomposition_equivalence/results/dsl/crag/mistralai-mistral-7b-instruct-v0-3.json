@@ -1,0 +1,378 @@
+[
+  {
+    "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+    "question": "how long is the longest river in alabama?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the state Alabama?\")\nanswer_2: str = qa_model(\"What is the longest river in {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Approximately how many miles long is {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+    "question": "what was the 76ers' record the year allen iverson won mvp?",
+    "dsl": "answer_1: str = qa_model(\"When did Allen Iverson win MVP?\")\nanswer_2: str = qa_model(\"What team did Allen Iverson play for when he won MVP?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the abbreviation for Philadelphia 76ers?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What is the NBA season record of the '{answer_3}' the year {answer_1} won MVP?\", answer_1=answer_1, answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+    "question": "when did the lead actor of naked gun die?",
+    "dsl": "answer_1: str = qa_model(\"Who played the lead role in The Naked Gun series?\")\nanswer_2: str = qa_model(\"When did {answer_1} pass away?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+    "question": "what was the profession of kim kardashian's second spouse?",
+    "dsl": "answer_1: str = qa_model(\"Who is Kim Kardashian's second spouse?\")\nanswer_2: str = qa_model(\"What is the professional occupation of {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+    "question": "where did the lead designer of fortran get his m.s. from?",
+    "dsl": "answer_1: str = qa_model(\"Who designed Fortran?\")\nanswer_2: str = qa_model(\"From what university did {answer_1} receive their M.S. degree?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+    "question": "what is the driving side in mallorca?",
+    "dsl": "answer_1: str = qa_model(\"In which country is Mallorca located?\")\nanswer_2: str = qa_model(\"What is the road traffic system used in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+    "question": "what is the elevation of the capital of nebraska?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital of Nebraska?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+    "question": "what age did abraham lincoln begin his presidency?",
+    "dsl": "answer_1: str = qa_model(\"Who was the president during Abraham Lincoln's term?\")\nanswer_2: str = qa_model(\"When did Abraham Lincoln start serving as president?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+    "question": "at what age did usher perform in the half time show of superbowl?",
+    "dsl": "answer_1: str = qa_model(\"Who performed at the Super Bowl halftime show with Ushher?\")\nanswer_2: str = qa_model(\"At what age is {answer_1} currently?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Subtract {answer_2} years from the current year to find out when Ushher performed.\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+    "question": "when did the lead actor of die hard get married?",
+    "dsl": "answer_1: str = qa_model(\"Who played John McClane in Die Hard?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what year did {answer_1} get married?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "118896a1-8124-482a-9201-4aaf1903618d",
+    "question": "when was green day's third studio album released?",
+    "dsl": "answer_1: str = qa_model(\"What is Green Day's third studio album?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+    "question": "at what age was lorne michaels when he produced his first film?",
+    "dsl": "answer_1: str = qa_model(\"Who produced the first film by Lorne Michaels?\")\nanswer_2: str = qa_model(\"When was this film produced?\", ignore_year=True)\nanswer_3: str = qa_model(\"At what age would Lorne Michaels have been during the production of '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+    "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+    "dsl": "answer_1: str = qa_model(\"Who is the lead designer of Java programming language?\")\nanswer_2: str = qa_model(\"From what university did {answer_1} receive his Ph.D.?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+    "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the movie 'The Matrix'?\")\nanswer_2: str = qa_model(\"Who played the girl character in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "e06676aa-efc3-4763-b196-e105596cc643",
+    "question": "can you tell me what other songs the same artist released in the same year as my time?",
+    "dsl": "answer_1: str = qa_model(\"Who is the artist whose song I am asking about?\")\nanswer_2: str = qa_model(\"In what year was the given song by {answer_1} released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What other songs were released by {answer_1} in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+    "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+    "dsl": "answer_1: str = qa_model(\"What TV show is named 'Suits'?\")\nanswer_2: str = qa_model(\"Who plays the role of a lawyer without a law degree in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+    "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+    "dsl": "answer_1: str = qa_model(\"When was Kobe Bryant drafted by the Los Angeles Lakers?\")\nanswer_2: str = qa_model(\"What season corresponds to {answer_1}?\")\nanswer_3: str = qa_model(\"Who was the head coach of the LA Lakers during the '{answer_2}' season?\".format(answer_2))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+    "question": "how many feet is the place with the lowest elevation in vermont?",
+    "dsl": "answer_1: str = qa_model(\"What is the state with the lowest elevation in Vermont?\")\nanswer_2: str = qa_model(\"What is the name of the location with the lowest elevation in '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the elevation of {answer_2} in feet?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+    "question": "how old was leonardo dicaprio when he won best actor award?",
+    "dsl": "answer_1: str = qa_model(\"When did Leonardo DiCaprio win the Best Actor Award?\")\nanswer_2: str = qa_model(\"In what year was Leonardo DiCaprio born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old would someone be in {answer_2} if they were born at the beginning of the year?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "e525e6b2-4865-4610-a73b-79438c724255",
+    "question": "what was the first studio album from the group that michael jackson was in?",
+    "dsl": "answer_1: str = qa_model(\"Which group was Michael Jackson part of?\")\nanswer_2: str = qa_model(\"What is the first studio album by '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+    "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+    "dsl": "answer_1: str = qa_model(\"Who hosted the show 'Henry Rollins: Henry Rollins Goes to London'?\")\nanswer_2: str = qa_model(\"When was the show '{answer_1}: Henry Rollins Goes to London' produced?\")\nanswer_3: str = qa_model(\"At what age would {answer_1} typically appear in a TV show they host?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"Add the production year of the show to {answer_2} to get the birth year of {answer_1}\", answer_1=answer_1, answer_2=answer_2)\nanswer_5: str = qa_model(\"Calculate {answer_4} minus the current year to find out how old {answer_1} was during the show.\", answer_1=answer_1, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "91f3cf34-49bf-4da4-97ce-a04f3fc57467",
+    "question": "what was mike epps's age at the time of next friday's release?",
+    "dsl": "answer_1: str = qa_model(\"When was the movie 'Next Friday' released?\")\nanswer_2: str = qa_model(\"Who played the role of Day-Day Jones in 'Next Friday'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the current year minus the year of 'Next Friday's' release?\", answer_1=answer_1)\nanswer_4: int = int(qa_model(\"How old is Mike Epps currently?\", answer_3)) - int(qa_model(\"How old was Mike Epps when he started his career?\", answer_3))\nanswer_5: int = answer_4 + int(qa_model(\"How old was Mike Epps when 'Next Friday' was released?\", answer_3))\nanswer_6: str = qa_model(\"What is the age of Mike Epps at the time of 'Next Friday's' release?\", answer_5)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "75e54c83-f11b-413e-aebc-909bf3d436da",
+    "question": "who wrote the theme song for the movie ghostbusters (1984)?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the movie Ghostbusters released in 1984?\")\nanswer_2: str = qa_model(\"Who composed the theme song for '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "55ea20e8-c0da-48be-8e02-d4d6bec6c27d",
+    "question": "when forest whitaker won his/her first oscar best actor, which movie won the best picture?",
+    "dsl": "answer_1: str = qa_model(\"In what year did Forest Whitaker win his first Oscar Best Actor award?\")\nanswer_2: str = qa_model(\"What movie did Forest Whitaker win the Oscar Best Actor award for in {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What was the winner of the Best Picture category at the Oscars in the same year as {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "207250e7-d0a6-4b17-9072-5496c7ff6380",
+    "question": "what was taylor swifts age when she released her debut album?",
+    "dsl": "answer_1: str = qa_model(\"What is Taylor Swift's debut album?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"At what age would someone typically release their debut album?\", {}) # Assuming this can be answered without specific knowledge about Taylor Swift\nanswer_4: int = qa_model(\"How old is Taylor Swift minus {answer_3} years at the time of '{answer_2}' release?\", answer_2=answer_2, answer_3=answer_3)\nanswer_5: str = qa_model(\"What is Taylor Swift's current age minus {answer_4} years?\", answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5db90d97-9b5a-422b-a46a-ca401cfd2074",
+    "question": "can you tell me the name of the leading lady who starred in the film that won the best picture award at the 2007 oscars?",
+    "dsl": "answer_1: str = qa_model(\"What was the Best Picture winner at the 2007 Oscars?\")\nanswer_2: str = qa_model(\"Who was the leading lady in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "54f26611-03ad-4284-95dc-015c050946b8",
+    "question": "can you tell me the name of the actress who starred in the film that won the best picture oscar in 2018?",
+    "dsl": "answer_1: str = qa_model(\"What was the Best Picture Oscar winner in 2018?\")\nanswer_2: str = qa_model(\"Who starred in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "cfc875b9-4cac-456b-a7a8-df23c9dab754",
+    "question": "who was the first actress and what year to play the role of catwoman in a live-action movie?",
+    "dsl": "answer_1: str = qa_model(\"Who played Catwoman in the first live-action movie?\")\nanswer_2: str = qa_model(\"In which year did {answer_1} play Catwoman?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "92e81984-b349-493a-b735-6b6e90cccb75",
+    "question": "what country is the company that developed fuga: melodies of steel 2 based in?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the video game Fuga: Melodies of Steel 2?\")\nanswer_2: str = qa_model(\"Who developed '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In which country is the developer of '{answer_2}' based?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "e6fe70a3-61b9-4b6f-b953-9ec181806b7d",
+    "question": "can you tell me the name of the actress who starred in the film that won the best picture oscar in 1993?",
+    "dsl": "answer_1: str = qa_model(\"What is the film that won the Best Picture Oscar in 1993?\")\nanswer_2: str = qa_model(\"Who starred in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "6bafd51e-ba95-4f7f-b06f-4a1661f788a8",
+    "question": "when tom hanks won their first academy award for best actor, which film was recognized as the best picture?",
+    "dsl": "answer_1: str = qa_model(\"For what film did Tom Hanks win his first Academy Award for Best Actor?\")\nanswer_2: str = qa_model(\"In what year did Tom Hanks win his first Academy Award for Best Actor?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What was the Best Picture at the Academy Awards in {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "e042412e-c4f6-4a2e-b8c2-e550cbb3a144",
+    "question": "who was the first actress to play the role of a female assassin in a live-action movie?",
+    "dsl": "answer_1: str = qa_model(\"Name a famous female character known as an assassin.\")\nanswer_2: str = qa_model(\"Identify the first live-action movie featuring {answer_1}.\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who played the role of the female assassin in '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "fd3e847c-5742-46fd-be45-3a07189f226a",
+    "question": "who finished in second the year max verstappen won his first championship?",
+    "dsl": "answer_1: str = qa_model(\"Who won the Formula One World Championship in 2020?\")\nanswer_2: str = qa_model(\"Who came in second place in the same season ({answer_1})?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "758a8ddc-41d5-4175-a41c-c31fb1e1fc97",
+    "question": "how did the nasdaq composite index perform the year of the covid crash?",
+    "dsl": "answer_1: str = qa_model(\"In what year did the COVID-19 pandemic start?\")\nanswer_2: str = qa_model(\"What is the name of the stock market index representing NASDAQ's larger companies?\", )\nanswer_3: str = qa_model(\"How did the {answer_2} index perform in {answer_1}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "765b506f-a77a-406e-88ad-05a08b549b02",
+    "question": "what is the symbol of the constellation that includes altair?",
+    "dsl": "answer_1: str = qa_model(\"Name a constellation containing Altair.\")\nanswer_2: str = qa_model(\"What is the symbol for '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "bdaa3dcc-1673-4425-9f11-a2e81bcd3e37",
+    "question": "can you tell me which country the artist who won the best new artist in 54th grammy (2011) was born?",
+    "dsl": "answer_1: str = qa_model(\"Who won the Best New Artist award at the 54th Grammy Awards in 2011?\")\nanswer_2: str = qa_model(\"In which country was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "7d02db15-45be-4168-99da-a5e0a48fbd9e",
+    "question": "what is the top artist in the most popular music genre in 2015?",
+    "dsl": "answer_1: str = qa_model(\"What was the most popular music genre in 2015?\")\nanswer_2: str = qa_model(\"Who was the top artist in '{answer_1}' in 2015?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "67a1ef25-0e22-4224-a90e-f9fc9374a479",
+    "question": "at the time gary oldman won their first best actor oscar, which movie was honored with the best picture award?",
+    "dsl": "answer_1: str = qa_model(\"When did Gary Oldman win his first Best Actor Oscar?\")\nanswer_2: datetime = parse_datetime(qa_model(\"The format of the date in the response to {answer_1}\", answer_1=answer_1))\nanswer_3: str = qa_model(\"What year is {answer_2.year}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Which movie won the Best Picture Award in '{answer_3}'?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "470ed1c7-8a71-4c0c-9be8-bb1fe82ce59f",
+    "question": "what is the elevation of the capital of ohio?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital of Ohio?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "9db3fe70-c7e9-4f0d-bba7-647bb246df99",
+    "question": "at what age was michelle trachtenberg in her film debut?",
+    "dsl": "answer_1: str = qa_model(\"In which film did Michelle Trachtenberg make her acting debut?\")\nanswer_2: str = qa_model(\"At what age was Michelle Trachtenberg when she made her film debut in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "21da19e6-56a8-439a-92ec-09d3af005ac6",
+    "question": "when did drake release his first album?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of Drake's debut album?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "1b4e6ba6-f847-432b-a109-83b191589bc4",
+    "question": "who was head coach of the colts in peyton manning's rookie year?",
+    "dsl": "answer_1: str = qa_model(\"When was Peyton Manning drafted by the Colts?\")\nanswer_2: str = qa_model(\"What team was Peyton Manning drafted to in {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who was the head coach of the {answer_2} during Peyton Manning's rookie season?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "e1685144-072d-498c-a0bf-d2ca9ad939fa",
+    "question": "what is the first song on drake's second album?",
+    "dsl": "answer_1: str = qa_model(\"What is the second album by Drake?\")\nanswer_2: str = qa_model(\"What is the name of the first track on '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "8b5b18ec-269d-4be9-8fcb-6eebacd3ddd2",
+    "question": "what school did the 2016 heisman trophy winner play for?",
+    "dsl": "answer_1: str = qa_model(\"Who won the Heisman Trophy in 2016?\")\nanswer_2: str = qa_model(\"For which college team did {answer_1} play football?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "41dea43b-d187-4844-b33a-a46e3879dd96",
+    "question": "how many locations were filmed in the bourne movie released in 2004?",
+    "dsl": "answer_1: str = qa_model(\"What is the Bourne movie released in 2004 called?\")\nanswer_2: str = qa_model(\"Where was '{answer_1}' primarily filmed?\")\nanswer_3: list[str] = qa_model(\"List all additional locations where '{answer_1}' was also filmed.\", answer_1=answer_1)\nanswer_4: int = len(answer_3) + 1\nanswer_5: str = f\"How many locations were there in total for the filming of '{answer_1}', including primary location and {answer_4 - 1} more?\"\nreturn answer_5",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "8895f09f-1ccf-49fe-9ab0-dbeabc3a2d54",
+    "question": "what country is prince harry's wife from?",
+    "dsl": "answer_1: str = qa_model(\"Who is Prince Harry married to?\")\nanswer_2: str = qa_model(\"What nationality is {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "bc1da7f4-87e3-4f8d-9cf0-f48345f2aa8d",
+    "question": "can you tell me the name of the artist who won the award for song of the year in 49th grammy (2006)?",
+    "dsl": "answer_1: str = qa_model(\"In what year was the 49th Grammy Awards held?\")\nanswer_2: str = qa_model(\"What category is 'Song of the Year' in the Grammy Awards?\", category=\"category\")\nanswer_3: str = qa_model(\"Who won the '{answer_2}' at the '{answer_1}' Grammy Awards?', category=answer_2, year=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  }
+]

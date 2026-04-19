@@ -1,0 +1,1190 @@
+{
+  "0016e212": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies '10-Sep-50' while the prediction states '1950-01-08'. Although the year '1950' matches '50', the month ('Sep' vs 'Jan') and day ('10' vs '08') do not match. Calendar dates must match exactly."
+  },
+  "00823c3a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Jacqueline Kennedy Onassis' refers to the same person as 'Jacqueline Kennedy'. 'Onassis' was her married name after the death of the 35th US president, so it's an additional detail but does not contradict the gold answer regarding her identity as the president's wife."
+  },
+  "01af35b8": {
+    "correct": 0,
+    "reasoning": "The prediction '62' is an age, which is a naturally drifting value. The percentage difference between the gold '69' and the prediction '62' is |69 - 62| / max(69, 62) = 7 / 69 \u2248 10.14%. This falls outside the allowed 1-5.5 percentage-point window for equivalence."
+  },
+  "02074df8": {
+    "correct": 0,
+    "reasoning": "The prediction adds 'Goron' to the dungeon name, which is incorrect. The actual dungeon is simply called 'Forest Temple' in The Legend of Zelda: Ocarina of Time."
+  },
+  "02edf56a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Latin' is identical to the gold answer 'Latin'."
+  },
+  "03e27645": {
+    "correct": 0,
+    "reasoning": "The predicted release date (1986-08-22) is significantly different from the gold release date (21-Nov-91), indicating a contradiction."
+  },
+  "043b734e": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the town 'Kapuskasing' in Canada, which is the director's birthplace. The prediction provides 'Ontario Canada', which is the province and country, but not the specific town. While Ontario is correct as the province, it lacks the specificity of the gold answer regarding the exact birthplace."
+  },
+  "0442038f": {
+    "correct": 0,
+    "reasoning": "The gold answer is 51 and the prediction is 52. The difference is 1. The allowed tolerance is max(0.5, 1% of 51) = max(0.5, 0.51) = 0.51. Since 1 > 0.51, the prediction is outside the acceptable numeric tolerance."
+  },
+  "04543bc3": {
+    "correct": 1,
+    "reasoning": "Trinity College is a constituent college of Cambridge University. The prediction provides a more specific, but still correct, detail that is consistent with the gold answer, falling under the 'extra detail' and 'subset allowance' rules."
+  },
+  "04906548": {
+    "correct": 1,
+    "reasoning": "The prediction 'One' is numerically equivalent to the gold answer 'Once', both indicating a single instance. This falls under numeric expression normalization."
+  },
+  "05239cd8": {
+    "correct": 1,
+    "reasoning": "The gold value is 1.416 million and the prediction is 1.37 million. For naturally drifting values like population, a 1-5.5 percentage-point window is allowed. The absolute difference is 0.046 million. The percentage difference is (0.046 / 1.416) * 100% = 3.25%, which falls within the acceptable 1-5.5% window. The term 'approximately' in the prediction also supports this tolerance."
+  },
+  "06a8853f": {
+    "correct": 1,
+    "reasoning": "The prediction 'Harry S Truman' refers to the same person as the gold answer 'Harry Truman'. The inclusion of the middle initial 'S' is a common and acceptable variation of the name and does not contradict the gold fact."
+  },
+  "07c04474": {
+    "correct": 0,
+    "reasoning": "The gold answer is 1942, but the prediction is 1970. Calendar dates/years must match exactly, so this is a contradiction."
+  },
+  "07cc7c15": {
+    "correct": 1,
+    "reasoning": "The prediction includes the gold answer 'Johnny Depp' and adds another correct actor, 'Benicio del Toro'. Since the question asks 'Who starred' and doesn't specify 'only' or 'all', providing additional correct information is acceptable under the subset allowance rule (Rule 9) as long as it doesn't contradict the gold."
+  },
+  "0aaf345f": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "0ae19309": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the year as 2002 (02), while the prediction states 1994. Calendar dates and years must match exactly, as per Rule 2."
+  },
+  "0b061676": {
+    "correct": 0,
+    "reasoning": "The prediction 'Buenos Aires' directly contradicts the gold answer 'Prague'. These are distinct cities."
+  },
+  "0be6fbb1": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "0d0d5bac": {
+    "correct": 0,
+    "reasoning": "The gold answer '5'4\"' converts to approximately 162.56 cm. The prediction '175 cm' is significantly different from the gold answer (difference of 12.44 cm), exceeding the allowed 1% tolerance (1.6256 cm)."
+  },
+  "0d56074a": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Stephen Curry as the point guard, while the prediction names Klay Thompson. These are two different players, and Klay Thompson is primarily a shooting guard, not a point guard. This is a direct contradiction of the gold fact."
+  },
+  "0e274298": {
+    "correct": 1,
+    "reasoning": "The prediction '45' is within the allowed 1-5.5 percentage-point window for naturally drifting values like age, compared to the gold '44'. The difference is 1, and 1/45 is approximately 2.22%, which is within the tolerance."
+  },
+  "100a940f": {
+    "correct": 0,
+    "reasoning": "The question asks for the first president after the Civil War, excluding the incumbent (Abraham Lincoln). Andrew Johnson succeeded Lincoln immediately after the war's end in April 1865. Ulysses S. Grant became president after Andrew Johnson, making the prediction incorrect."
+  },
+  "113d3038": {
+    "correct": 0,
+    "reasoning": "The prediction '16' is numerically different from the gold answer '38'. The difference (22) is far outside the allowed numeric tolerance of max(0.5, 1% of 38) = 0.5."
+  },
+  "121be4e6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Republican Party' is equivalent to the gold answer 'Republican' as 'Party' is an extra descriptive word that does not change the essential fact. This falls under Rule 8 (Extra detail) and Rule 1 (Normalization)."
+  },
+  "13cd720a": {
+    "correct": 0,
+    "reasoning": "The gold answer states the capital is 'Paris', while the prediction states it is 'Moscow'. These are two different cities, leading to a direct contradiction."
+  },
+  "1429b85a": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer, ignoring the trailing punctuation as per normalization rules."
+  },
+  "15e40e97": {
+    "correct": 0,
+    "reasoning": "The prediction 'Marilyn Monroe' is a different person than the gold answer 'Marion Fay Alford'. Marilyn Monroe was not an intern, and while she was famously linked to the 35th president, the question specifically asks for the name of an intern."
+  },
+  "165527c2": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "168f5d6c": {
+    "correct": 0,
+    "reasoning": "The prediction 'Blade Buster' is a different name from the gold answer 'Buster Sword'. There is no normalization or tolerance rule that would make these two distinct names equivalent."
+  },
+  "16e3c6d4": {
+    "correct": 0,
+    "reasoning": "The prediction 'U.S. Senate' is a different legislative body than the gold answer 'Mississippi House of Representatives', constituting a direct contradiction."
+  },
+  "1812ba81": {
+    "correct": 1,
+    "reasoning": "The numeric value '67' matches exactly. The word 'years' is a unit and is acceptable as per Rule 5 (Units & formatting)."
+  },
+  "18dfddd1": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "19c7c396": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "1b9040fa": {
+    "correct": 0,
+    "reasoning": "The gold answer is 1.1 million (1,100,000) and the prediction is 96,041. The difference between these values (1,003,959) is far outside the allowed 1% tolerance (11,000) for numeric expressions, and also outside the 1-5.5 percentage-point window for naturally drifting values (the difference is over 91%). The prediction is numerically incorrect."
+  },
+  "1be89328": {
+    "correct": 1,
+    "reasoning": "The gold answer 'Herbert Hoover' is a correct president during the Great Depression. The prediction includes 'Herbert Hoover' and adds 'Franklin D. Roosevelt', who also served as president during the Great Depression. Since the question does not ask for an exhaustive list or a specific count, providing additional correct information that includes the gold fact is acceptable (Rule 9 - Subset allowance)."
+  },
+  "1dcacf3d": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "1dd67401": {
+    "correct": 1,
+    "reasoning": "The prediction 'Bowser' is identical to the gold answer 'Bowser'."
+  },
+  "1e751cb7": {
+    "correct": 0,
+    "reasoning": "The gold answer is 47 and the prediction is 53. The difference is 6 years. According to the numeric expressions rule for naturally drifting values (like ages), the percentage difference should be within a 1-5.5 percentage-point window. The percentage difference here is (6 / 53) * 100 = 11.32%, which is outside the allowed tolerance. Therefore, the prediction is incorrect."
+  },
+  "1e81dfc8": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "1ecc955a": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold answer."
+  },
+  "1eda5d4d": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "1ee8e40c": {
+    "correct": 0,
+    "reasoning": "The prediction names 'Mount Kilimanjaro', which is the correct mountain. However, it also states that it is 'Africa's second-highest peak', which is a factual contradiction as Kilimanjaro is the highest peak in Africa. Rule 7 applies: a contradiction on the same detail makes the prediction incorrect."
+  },
+  "1f1cac50": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies 'Yate, United Kingdom' as the birthplace, while the prediction states 'Wiltshire, England'. Yate is in South Gloucestershire, not Wiltshire, making the prediction factually incorrect regarding the specific birthplace."
+  },
+  "209cec8e": {
+    "correct": 0,
+    "reasoning": "The numeric value in the prediction (0.03) is significantly different from the gold answer (3,255). The absolute difference (3254.97) far exceeds the allowed tolerance of max(0.5, 1% of 3255 = 32.55)."
+  },
+  "234caafb": {
+    "correct": 0,
+    "reasoning": "The prediction lists 'Annapolis; Baltimore; Towson' as places where the actor grew up, which contradicts the gold answer 'Toronto'. The locations are entirely different."
+  },
+  "249c69f3": {
+    "correct": 0,
+    "reasoning": "The prediction 'Lucretia Garfield' is a different name from the gold answer 'Eliza Johnson', indicating a factual contradiction. Eliza Johnson was the wife of the 17th president, Andrew Johnson, while Lucretia Garfield was the wife of the 20th president, James A. Garfield. The wife of the 21st president, Chester A. Arthur, was Ellen Lewis Herndon Arthur."
+  },
+  "25441950": {
+    "correct": 1,
+    "reasoning": "The prediction provides the full name 'Helen Herron Taft', which includes the name 'Helen Taft' from the gold answer. This is considered extra detail that does not contradict the gold fact, making it equivalent."
+  },
+  "2652ec2b": {
+    "correct": 0,
+    "reasoning": "The prediction states 'The Game Award for Debut Game', which is a different award from the gold answer 'British Academy Games Award for Best Game'. This is a direct contradiction of the specific award name."
+  },
+  "27214402": {
+    "correct": 0,
+    "reasoning": "The predicted date (2001-05-21) does not match the gold date (14-Nov-05). The year, month, and day are all different."
+  },
+  "279de04d": {
+    "correct": 0,
+    "reasoning": "The prediction '1800' does not match the gold year '1758'. Calendar dates and years must match exactly."
+  },
+  "28ae20ee": {
+    "correct": 0,
+    "reasoning": "The gold answer is 5'6\" (66 inches) and the prediction is 5'7\" (67 inches). The difference is 1 inch. The allowed tolerance for numeric expressions is max(0.5, 1% of reference). 1% of 66 inches is 0.66 inches. Since 1 inch > 0.66 inches, the prediction falls outside the acceptable tolerance."
+  },
+  "28ce701d": {
+    "correct": 1,
+    "reasoning": "The prediction 'Pop' is a subset of the gold answer 'Pop and Country'. According to Rule 9 (Subset allowance), if the question doesn't ask for 'all' or an exact count, a subset of valid answers is acceptable as long as there is no contradiction. 'Pop' is a correct genre for the artist."
+  },
+  "28e22caf": {
+    "correct": 0,
+    "reasoning": "The gold answer states the year as 1984, while the prediction states 1963. Calendar dates/years must match exactly, and these values are different."
+  },
+  "2b204b39": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer after ignoring punctuation."
+  },
+  "2b2c4f25": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "2b6743e5": {
+    "correct": 1,
+    "reasoning": "Numeric expressions: 'Thirteen' (word) is equivalent to '13' (digit)."
+  },
+  "2b7aada8": {
+    "correct": 0,
+    "reasoning": "The prediction 'George W Bush' contradicts the gold answer 'Barack Obama' regarding the US president at the time Lehman Brothers went bankrupt. These are two distinct individuals."
+  },
+  "2cc1a1f6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Tokyo' is identical to the gold answer 'Tokyo'."
+  },
+  "2d8e2766": {
+    "correct": 0,
+    "reasoning": "The question asks for an age ('How old'), and the gold answer provides an age (52). The prediction provides a birth year (1970), which is a different type of information and not directly comparable to an age without additional context (e.g., the current year)."
+  },
+  "2edc90bd": {
+    "correct": 0,
+    "reasoning": "The prediction 'Seattle' contradicts the gold answer 'Warren, Ohio' regarding the birthplace of Nirvana's drummer."
+  },
+  "303fa922": {
+    "correct": 0,
+    "reasoning": "The prediction of '$200 million' is significantly different from the gold answer of '$2 million'. The difference is 198 million, which is far outside the allowed numeric tolerance for naturally drifting values (1-5.5% of the reference)."
+  },
+  "304b59eb": {
+    "correct": 0,
+    "reasoning": "The prediction 'Pedro Tibaudo' does not match any of the names in the gold answer ('Lionel Messi', 'Luis Diaz')."
+  },
+  "30880c95": {
+    "correct": 0,
+    "reasoning": "The gold answer is '2016' and the prediction is '1991'. According to Rule 2, calendar dates or years must match exactly. The values do not match."
+  },
+  "3232deff": {
+    "correct": 0,
+    "reasoning": "The predicted director 'Bill Condon' is different from the gold director 'David Slade', constituting a direct contradiction of the core fact."
+  },
+  "32b9d2f8": {
+    "correct": 0,
+    "reasoning": "The gold answer is 78 and the prediction is 72. For naturally drifting values like age, the difference must be within a 5.5 percentage-point window. The percentage difference is |78 - 72| / max(78, 72) = 6 / 78 \u2248 7.69%, which exceeds the 5.5% tolerance."
+  },
+  "33a4d66e": {
+    "correct": 0,
+    "reasoning": "The gold date (January 25, 2019) and the prediction date (March 13, 2020) do not match. Calendar dates must match exactly according to Rule 2."
+  },
+  "3548d16e": {
+    "correct": 0,
+    "reasoning": "The prediction's release date (2005-03-25) does not match the gold release date (13-Mar-07) exactly, specifically the year and day are different. Calendar dates and years must match exactly according to Rule 2."
+  },
+  "3823137d": {
+    "correct": 1,
+    "reasoning": "The prediction 'Yamuna River' is equivalent to the gold answer 'Yamuna' as 'River' is an extra descriptive term that does not change the core fact, falling under Rule 8 (Extra detail) and Rule 1 (Normalization for common aliases/descriptions)."
+  },
+  "3a402e68": {
+    "correct": 1,
+    "reasoning": "The gold and prediction provide population figures (1.059 million vs 1.097 million). For naturally drifting values like population, a 1-5.5 percentage-point window is allowed. The percentage difference is approximately 3.46%, which falls within this tolerance. The additional information about 'Rhode Island' is correct context for Newport and does not contradict the gold."
+  },
+  "3b26d221": {
+    "correct": 0,
+    "reasoning": "The prediction 'Christopher Columbus' is a different person than the gold answer 'Benito Mussolini', leading to a direct contradiction."
+  },
+  "3ba52364": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Robert F. Kennedy' is correct as he was the brother of JFK who was assassinated. The prediction 'Joe Kennedy' refers to Joseph P. Kennedy Jr., another brother of JFK, who died in combat during WWII, not by assassination. Therefore, the prediction is factually incorrect and contradicts the gold answer."
+  },
+  "3c369277": {
+    "correct": 0,
+    "reasoning": "The gold answer states the age as 30, while the prediction states 31. This difference (1 year) exceeds the allowed numerical tolerance of 0.5 for the given reference value (30)."
+  },
+  "3c79e320": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "3d242bf6": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "40354630": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "421971a8": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'England' as the origin, while the prediction states 'Kingdom of Fife, Scotland'. England and Scotland are distinct countries, thus the prediction contradicts the gold fact."
+  },
+  "42dc16aa": {
+    "correct": 1,
+    "reasoning": "The prediction 'Cortana' is identical to the gold answer 'Cortana'."
+  },
+  "430bff30": {
+    "correct": 0,
+    "reasoning": "The prediction 'Jean Grisham' is a different name from the gold answer 'Joe Hill', making it incorrect."
+  },
+  "44553d7e": {
+    "correct": 0,
+    "reasoning": "The gold answer is 78, and the prediction is 67. The difference is 11. Applying the numeric tolerance for naturally drifting values (ages), the percentage difference is |78 - 67| / max(78, 67) = 11 / 78 \u2248 14.1%. This is outside the allowed 1-5.5 percentage-point window for equivalence."
+  },
+  "447274f8": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "447e31d9": {
+    "correct": 1,
+    "reasoning": "The prediction includes a title ('Lady') which is an extra detail but does not contradict or change the essential fact of the person's name, 'Diana Spencer'. This falls under the 'Extra detail' rule (Rule 8)."
+  },
+  "45279ea1": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "456c8029": {
+    "correct": 0,
+    "reasoning": "The gold answer states 1 marriage, while the prediction states 6. These numerical values are significantly different and fall outside the allowed tolerance for numeric expressions (|1 - 6| = 5, which is greater than max(0.5, 1% of 1) = 0.5)."
+  },
+  "46148e7d": {
+    "correct": 0,
+    "reasoning": "The prediction 'Cam Newton' is incorrect as Peyton Manning was the quarterback of the team that won Super Bowl 50. Cam Newton was the quarterback for the opposing team that lost."
+  },
+  "463cd9b2": {
+    "correct": 1,
+    "reasoning": "The prediction 'Bifocal glasses' is equivalent to 'bifocals'. 'Glasses' is an additional descriptive word that does not change the core fact, and case is ignored."
+  },
+  "47fb38e9": {
+    "correct": 0,
+    "reasoning": "The prediction 'Zidane Tribal' is a different character than the gold answer 'Squall Leonhart'. Squall Leonhart is the protagonist of Final Fantasy VIII, while Zidane Tribal is the protagonist of Final Fantasy IX, thus the prediction is incorrect."
+  },
+  "48642564": {
+    "correct": 0,
+    "reasoning": "The prediction '1990' contradicts the gold answer '2011'. Calendar dates/years must match exactly according to Rule 2."
+  },
+  "49241ffe": {
+    "correct": 1,
+    "reasoning": "The numeric value '20' matches exactly. 'years old' is extra descriptive text that does not change or contradict the gold fact."
+  },
+  "4ad6bafd": {
+    "correct": 0,
+    "reasoning": "The gold answer is 11 and the prediction is 9. The absolute difference is 2. According to numeric expression rules, the difference should be less than or equal to max(0.5, 1% of 11), which is max(0.5, 0.11) = 0.5. Since 2 > 0.5, the prediction is not within the acceptable tolerance."
+  },
+  "4af81c8c": {
+    "correct": 0,
+    "reasoning": "The prediction includes an award ('Game Award for Best Community Support') that is not present in the gold answer, which constitutes a contradiction. It also misses two awards ('Best Multiplayer Game', 'Game of the Year') that are present in the gold."
+  },
+  "4b066327": {
+    "correct": 0,
+    "reasoning": "The gold answer is 16, and the prediction is 20. This is a numerical difference of 4 years, which falls outside the allowed tolerance for numerical expressions and naturally drifting values (ages). The difference is 25% relative to the gold value (4/16 = 0.25), which is much larger than the 1-5.5 percentage-point window."
+  },
+  "4ded8418": {
+    "correct": 0,
+    "reasoning": "The prediction identifies 'San Francisco Tower' as the tallest building, which contradicts the gold answer 'Wilshire Grand Center'. These are two different buildings."
+  },
+  "4f324703": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Tommy' as the main character, while the prediction states 'Claude'. These are two distinct names and characters, leading to a direct contradiction."
+  },
+  "4f485cdf": {
+    "correct": 0,
+    "reasoning": "The prediction 'LeBron James' directly contradicts the gold answer 'Kevin Durant' as they are different individuals. The question asks for a specific player, and the prediction provides a different one."
+  },
+  "4f67a88e": {
+    "correct": 0,
+    "reasoning": "The prediction 'Kentucky' directly contradicts the gold answer 'Florida' regarding the state of the youngest governor."
+  },
+  "513f3181": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Arenes de Lutece' (Ar\u00e8nes de Lut\u00e8ce, a Roman amphitheater from the 1st century AD) as the oldest monument. The prediction states 'Arc de Triomphe' (constructed 1806\u20131836), which is significantly newer and therefore contradicts the gold answer regarding the 'oldest' monument."
+  },
+  "5308a78a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Dracula.' is identical to the gold answer 'Dracula' after ignoring punctuation."
+  },
+  "540c6b11": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Petronas Tower' refers to a building in Malaysia (whose capital is Kuala Lumpur). The prediction 'Burj Khalifa' refers to a building in Dubai, UAE, which is a different country. Therefore, the prediction contradicts the gold fact."
+  },
+  "54ca06ca": {
+    "correct": 0,
+    "reasoning": "The gold answer is 1870, and the prediction is 1850. For calendar dates/years, exact matching is required, and these values do not match."
+  },
+  "5668f4d1": {
+    "correct": 1,
+    "reasoning": "The prediction '1988' is an exact match to the gold answer '1988'."
+  },
+  "5754de2d": {
+    "correct": 0,
+    "reasoning": "The gold answer is '25-Jan-63' and the prediction is '1990-01-17'. Calendar dates must match exactly, and the year (1963 vs 1990) and day (25 vs 17) are different."
+  },
+  "5990982f": {
+    "correct": 0,
+    "reasoning": "The prediction 'New York City' contradicts the gold answer 'Saint Paul, MN' regarding the birthplace of the author of The Great Gatsby."
+  },
+  "5bfe714a": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies 'Paris, France' as the birthplace, while the prediction states 'England'. These are distinct geographical locations, making the prediction incorrect."
+  },
+  "5c5e4201": {
+    "correct": 1,
+    "reasoning": "The prediction '5ft 4in' is equivalent to the gold '5'4\"' in terms of height measurement. The additional information 'Fergie' is correct and does not contradict the gold answer, falling under the 'Extra detail' rule."
+  },
+  "5cb83719": {
+    "correct": 0,
+    "reasoning": "The gold answer states the artist's age was 26. The prediction provides an age of 21. These numeric values are not within the allowed tolerance (|26 - 21| = 5, which is greater than max(0.5, 1% of 26)). The date provided in the prediction is not an age and is irrelevant to the gold answer."
+  },
+  "5d940b68": {
+    "correct": 0,
+    "reasoning": "The prediction 'King George III' is a different person from the gold answer 'Boris Johnson'. They do not communicate the same essential fact."
+  },
+  "5db4dd1f": {
+    "correct": 0,
+    "reasoning": "The gold answer is 51 and the prediction is 61. The absolute difference is 10. The allowed tolerance is max(0.5, 1% of 51) = max(0.5, 0.51) = 0.51. Since 10 > 0.51, the prediction is outside the acceptable numeric tolerance."
+  },
+  "5e25e816": {
+    "correct": 1,
+    "reasoning": "The gold answer is 'Canada'. The prediction includes 'Canada' along with the singer's name 'Carly Rae Jepsen'. The additional information about the singer's name is extra detail but does not contradict or change the core fact requested by the question (the birthplace). Rule 8 applies."
+  },
+  "5e3bc3b9": {
+    "correct": 0,
+    "reasoning": "The prediction '1929-01-22' is a different date from the gold answer 'July 2nd, 1961'. Calendar dates must match exactly."
+  },
+  "61bfab8c": {
+    "correct": 0,
+    "reasoning": "The gold answer is 56, and the prediction is 65. The difference (9) exceeds the allowed numerical tolerance (max(0.5, 1% of 56 = 0.56))."
+  },
+  "61eb1e66": {
+    "correct": 1,
+    "reasoning": "The prediction correctly identifies 'The Shard' as the tallest building, which is the core fact requested. The additional information about its height is extra detail but does not contradict or change the primary answer, making it acceptable under Rule 8."
+  },
+  "636abb8c": {
+    "correct": 1,
+    "reasoning": "The prediction '1863-11-19' is an equivalent date format to the gold answer 'November 19, 1863'. All components (year, month, day) match exactly."
+  },
+  "655db184": {
+    "correct": 0,
+    "reasoning": "The prediction 'Charles Radbourn' is a different person than 'Bill Dinneen and Cy Young', thus contradicting the gold answer regarding the pitcher(s) for the winning team."
+  },
+  "65d0920e": {
+    "correct": 1,
+    "reasoning": "The prediction '94 years old' contains the same numerical fact as the gold answer '94'. The additional descriptive text 'years old' clarifies the unit but does not change or contradict the essential fact, falling under acceptable extra detail."
+  },
+  "6613db77": {
+    "correct": 0,
+    "reasoning": "The gold answer is 14, and the prediction is 38. These numerical values are significantly different and do not fall within the allowed tolerance for numerical expressions."
+  },
+  "678c0c86": {
+    "correct": 0,
+    "reasoning": "The gold answer correctly identifies the wives of the 23rd president (Benjamin Harrison) as Mary Dimmick Harrison and Caroline Harrison. The prediction, 'Lucretia Garfield', is incorrect as Lucretia Garfield was the wife of the 20th president (James A. Garfield), not the 23rd. The prediction contradicts the gold fact."
+  },
+  "6821b3e2": {
+    "correct": 0,
+    "reasoning": "The prediction 'New York University' directly contradicts the gold answer 'Georgia State University'. These are two distinct institutions."
+  },
+  "691eedf8": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies '25-Oct-05' (October 25, 2005), while the prediction states '2003-10-27' (October 27, 2003). Both the year and the day are different, and calendar dates/years must match exactly according to rule 2."
+  },
+  "697ec789": {
+    "correct": 0,
+    "reasoning": "The prediction 'Philadelphia Eagles' directly contradicts the gold answer 'Tennessee Titans' regarding the team of the NFL's leading rusher from 2020."
+  },
+  "6a3369b8": {
+    "correct": 1,
+    "reasoning": "The prediction '94' is numerically identical to the gold '94 years old'. The phrase 'years old' is a unit/descriptive text that can be ignored according to Rule 5 (Units & formatting) and Rule 1 (Normalization) as it does not change or contradict the essential fact."
+  },
+  "6a65e36f": {
+    "correct": 0,
+    "reasoning": "The prediction 'Paul Pierce' contradicts the gold answer 'Rajon Rondo'. Paul Pierce was a small forward, not the point guard, for the 2008 Celtics. Rajon Rondo was the point guard."
+  },
+  "6b65199c": {
+    "correct": 0,
+    "reasoning": "The predicted date (January 15, 1940) is completely different from the gold date (December 3, 1884). Calendar dates must match exactly."
+  },
+  "6c31f76d": {
+    "correct": 1,
+    "reasoning": "The prediction 'Republican Party' is equivalent to the gold answer 'Republican' as 'Party' is extra descriptive text that does not change or contradict the essential fact (Rule 1, Rule 8)."
+  },
+  "6edaabbb": {
+    "correct": 1,
+    "reasoning": "The gold answer '4' matches 'four' in the prediction (numeric expression normalization). The additional context in the prediction ('Christopher Nolan has... children') is extra descriptive text that does not contradict the core fact."
+  },
+  "6f62ab02": {
+    "correct": 0,
+    "reasoning": "The gold answer is 40 and the prediction is 59. For naturally drifting values like ages, the difference is calculated as 1 - |a - b|/max(|a|, |b|). Here, 1 - |59 - 40|/max(40, 59) = 1 - 19/59 = 1 - 0.322 = 0.678. This represents a percentage difference of 32.2%, which is outside the allowed 1-5.5 percentage-point window for equivalence."
+  },
+  "70ab78eb": {
+    "correct": 0,
+    "reasoning": "The gold answer states the oldest American president is presently in office for a 4-year term. The prediction of '31 years and 320 days' contradicts this fact, as a presidential term is 4 years."
+  },
+  "71ebe655": {
+    "correct": 0,
+    "reasoning": "The gold answer is 49 and the prediction is 53. For naturally drifting values like age, the numeric tolerance rule states that values are equivalent if the percentage difference (calculated as 1 - |a - b|/max(|a|, |b|)) is within a 1-5.5 percentage-point window. The absolute difference is |49 - 53| = 4. The maximum of the two values is 53. The percentage difference is (4 / 53) * 100 = 7.55%. Since 7.55% is greater than the allowed 5.5% window, the prediction is not considered equivalent."
+  },
+  "72b9ea0d": {
+    "correct": 0,
+    "reasoning": "The prediction 'Republican Party' directly contradicts the gold answer 'Democratic Party'."
+  },
+  "72caf140": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "72dfb112": {
+    "correct": 0,
+    "reasoning": "The gold answer is 1937, and the prediction is 1906. Calendar dates/years must match exactly, and these values are different."
+  },
+  "730ae437": {
+    "correct": 0,
+    "reasoning": "The prediction 'Gyromite' is a different game than the gold answer 'Duck Hunt', directly contradicting the gold fact."
+  },
+  "7329c676": {
+    "correct": 0,
+    "reasoning": "The gold answer states the book was 'The Firm', while the prediction states 'A Time to Slay (working title), later changed to Ghosts of Mississippi'. These are different book titles, leading to a contradiction."
+  },
+  "735d9dd9": {
+    "correct": 0,
+    "reasoning": "The prediction '0' directly contradicts the gold answer '2'. The numeric values are not within the allowed tolerance."
+  },
+  "750c7822": {
+    "correct": 0,
+    "reasoning": "The gold states the population as 8.5 million (8,500,000), while the prediction states 44,811,000. These values are significantly different and do not fall within the allowed numeric tolerance (1% of the reference value)."
+  },
+  "78a31f7a": {
+    "correct": 0,
+    "reasoning": "The predicted coach's name 'Jay Johnson' is different from the gold coach's name 'Jason Gill', constituting a direct contradiction."
+  },
+  "795c7599": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "7987cd85": {
+    "correct": 0,
+    "reasoning": "The prediction 'Richmond, Virginia' contradicts the gold answer 'Cincinnati, OH' as they are different locations."
+  },
+  "7a5e5ab0": {
+    "correct": 0,
+    "reasoning": "The gold answer is 6 and the prediction is 4. The absolute difference is 2. According to the numeric tolerance rule, for naturally drifting values, the difference should be within a 1-5.5 percentage-point window. The percentage difference here is |6-4|/6 = 2/6 = 33.33%, which is outside the allowed window. Also, the general numeric rule states |a-b| <= max(0.5, 1% of reference). Here, |6-4| = 2, and max(0.5, 1% of 6) = max(0.5, 0.06) = 0.5. Since 2 is not <= 0.5, the values are not considered equivalent."
+  },
+  "7a88aae7": {
+    "correct": 1,
+    "reasoning": "The gold and prediction dates represent the same calendar date (April 14, 2001), just in different formats. This is a form of normalization."
+  },
+  "7c9fbf32": {
+    "correct": 0,
+    "reasoning": "The prediction names 'JPMorgan Chase Tower', which is located in Houston, not Austin (the capital of Texas). The gold answer 'The Independent' is the correct tallest building in Austin, making the prediction factually incorrect and a contradiction."
+  },
+  "7d128d9d": {
+    "correct": 0,
+    "reasoning": "The gold answer is 5'9\" (69 inches) and the prediction is 6'0\" (72 inches). The absolute difference is 3 inches. The allowed tolerance is max(0.5, 1% of 69) = max(0.5, 0.69) = 0.69 inches. Since 3 inches > 0.69 inches, the prediction is outside the acceptable numeric tolerance."
+  },
+  "7d62890c": {
+    "correct": 0,
+    "reasoning": "The prediction 'Bryce Dallas Howard' is a different person than the gold answer 'Bill Condon', thus it contradicts the gold fact."
+  },
+  "7e554842": {
+    "correct": 0,
+    "reasoning": "The gold answer states '11 years' while the prediction states '30 years'. These numerical values are significantly different and fall outside the allowed tolerance for numeric expressions, constituting a contradiction."
+  },
+  "7e5e9c95": {
+    "correct": 0,
+    "reasoning": "The gold answer is 20, and the prediction is 16. The difference (4) exceeds the allowed numerical tolerance of max(0.5, 1% of 20 = 0.2), which is 0.5."
+  },
+  "802f3768": {
+    "correct": 0,
+    "reasoning": "The predicted age (89) is numerically and factually different from the gold age (27). The difference (62) is far outside any acceptable numeric tolerance."
+  },
+  "802fbd23": {
+    "correct": 1,
+    "reasoning": "The prediction '71' is an age, which is a naturally drifting value. The difference between 70 and 71 is 1. The percentage difference is |70 - 71| / max(70, 71) = 1/71 \u2248 1.408%. This falls within the allowed 1-5.5 percentage-point window for naturally drifting values, making it equivalent."
+  },
+  "817374ba": {
+    "correct": 0,
+    "reasoning": "The gold answer, John Quincy Adams, was the son of the second president (John Adams) and also became president, fitting the question. The prediction, John Tyler, was a president but was not a relative of John Adams, making the prediction incorrect."
+  },
+  "83052f3d": {
+    "correct": 0,
+    "reasoning": "The gold answer is 65, and the prediction is 59. These numerical values differ significantly (65 vs 59) and fall outside the allowed numeric tolerance for exact ages."
+  },
+  "83e7d209": {
+    "correct": 0,
+    "reasoning": "The gold answer provides a specific birthdate (9-Feb-75), while the prediction explicitly states that the birthdate is 'unavailable'. This is a direct contradiction."
+  },
+  "83f517fe": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Caroline Harrison as the wife of the 23rd president (Benjamin Harrison). The prediction identifies Lucretia Garfield, who was the wife of the 20th president (James A. Garfield). The prediction is factually incorrect and contradicts the gold answer."
+  },
+  "83fe7be2": {
+    "correct": 0,
+    "reasoning": "The prediction 'CD Projekt Red' is a different developer than the gold answer 'Santa Monica Studio'. Santa Monica Studio developed 'God of War', which won Game of the Year in 2018. CD Projekt Red did not develop that game."
+  },
+  "8451615c": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the year as 2001, while the prediction states 1999. Calendar dates or years must match exactly, and these do not."
+  },
+  "851dc8e8": {
+    "correct": 0,
+    "reasoning": "The prediction names 'The Glessner House' and 'the Robert M. McCormick Mansion' as potential oldest houses, which contradicts the gold answer 'Clarke House Museum'."
+  },
+  "852d9a1a": {
+    "correct": 0,
+    "reasoning": "The gold answer is 5'10\" (70 inches) and the prediction is 6ft (72 inches). The absolute difference is 2 inches. The allowed tolerance is max(0.5, 1% of 70) = max(0.5, 0.7) = 0.7 inches. Since 2 inches is greater than 0.7 inches, the prediction is outside the numeric tolerance and contradicts the gold fact."
+  },
+  "853a4508": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "85c0b1fb": {
+    "correct": 0,
+    "reasoning": "The predicted birth date (1990-08-18) contradicts the gold birth date (27-Mar-63). The year, month, and day are all different."
+  },
+  "863655c5": {
+    "correct": 0,
+    "reasoning": "The gold answer states a population of '4.2 million', while the prediction states 'approximately 60 million'. These values are vastly different and fall outside the allowed numeric tolerance (1% of reference or 1-5.5 percentage-point window for naturally drifting values). The difference is 55.8 million, which is far greater than 1% of 4.2 million (0.042 million)."
+  },
+  "88c5cc4f": {
+    "correct": 0,
+    "reasoning": "The gold answer is 58 and the prediction is 42. The difference (16) is outside the allowed tolerance for numeric expressions and naturally drifting values (16/58 = 27.58%, which is much larger than the 5.5% window)."
+  },
+  "88f04611": {
+    "correct": 0,
+    "reasoning": "The prediction 'Cuthbert Ford' is a different name and directly contradicts the gold answer 'George Walton Lucas Sr.'."
+  },
+  "8a6a8515": {
+    "correct": 1,
+    "reasoning": "The gold answer is 41. The prediction states 'around 40 years old' and further clarifies 'likely around 41'. For naturally drifting values like ages, a difference of 1 year (41 vs 40) is within the acceptable 1-5.5 percentage-point window (1/41 \u2248 2.4%). The prediction also explicitly mentions 'likely around 41', which aligns with the gold."
+  },
+  "8aea53b1": {
+    "correct": 0,
+    "reasoning": "The gold answer is '2020' and the prediction is '1980'. Calendar years must match exactly, and these values are different, leading to a contradiction."
+  },
+  "8c40b893": {
+    "correct": 1,
+    "reasoning": "The numerical value '27' matches exactly. 'years old' is an acceptable unit/descriptor and does not change the essential fact."
+  },
+  "8cd5f008": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the year 1992. The prediction provides a date with the year 1990, which does not match the gold year. According to rule 2, calendar dates or years must match exactly."
+  },
+  "8e04963e": {
+    "correct": 1,
+    "reasoning": "The prediction 'John Glenn' is identical to the gold answer 'John Glenn'. The parenthetical note is extra information that does not contradict the core fact."
+  },
+  "8fd28dfe": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "90dd6ba6": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Anna Symmes as the wife of the shortest-serving U.S. president (William Henry Harrison). The prediction, Jane Pierce, is the wife of Franklin Pierce, a different president. The names are distinct and contradict the gold fact."
+  },
+  "91ecebc6": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'George Lucas' as the director, while the prediction states 'Gary Kurtz'. Gary Kurtz was a producer, not the director, of the first Star Wars movie. This is a factual contradiction."
+  },
+  "91f315a4": {
+    "correct": 1,
+    "reasoning": "The prediction correctly identifies the actor (Ryan Reynolds) and provides his height in centimeters (180 cm). The gold answer provides the height in feet and inches (6'2\"). Converting 6'2\" to centimeters gives approximately 187.96 cm. The difference between 180 cm and 187.96 cm is 7.96 cm, which is about 4.23% of 187.96 cm. This falls within the 5.5 percentage-point window for naturally drifting values, especially given the use of 'approximately' in the prediction. Unit normalization and numeric tolerance rules apply."
+  },
+  "9200a0f9": {
+    "correct": 0,
+    "reasoning": "The prediction's numerical value (244,562,811) is not within the allowed 5.5% tolerance window of the gold value (212,559,417). The percentage difference is approximately 13.09%."
+  },
+  "92244aa2": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "9416adc9": {
+    "correct": 0,
+    "reasoning": "The prediction completely misunderstands the question. The question asks for the spouse of King Louis XVI's eldest child, which the gold answer correctly identifies as Louis Antoine of France. The prediction instead provides a list of Marie Antoinette's siblings and their spouses, which is irrelevant to the question asked."
+  },
+  "94c7609e": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "95dc97dc": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "961a46be": {
+    "correct": 0,
+    "reasoning": "The gold answer is 1898, and the prediction is 1910. Calendar dates or years must match exactly according to Rule 2, and these do not match."
+  },
+  "9790068a": {
+    "correct": 1,
+    "reasoning": "The gold answer is 7,705,281. The prediction is 7.506 million (7,506,000). The absolute difference is 199,281. The percentage difference is |7,705,281 - 7,506,000| / max(7,705,281, 7,506,000) = 199,281 / 7,705,281 \u2248 2.59%. This falls within the 1-5.5 percentage-point window allowed for naturally drifting values like census counts. The mention of 'Washington' is extra but correct information and does not contradict the population figure."
+  },
+  "986b6ca6": {
+    "correct": 0,
+    "reasoning": "The gold answer states '2 main pyramids' while the prediction states '0'. These numerical values contradict each other and are outside the allowed tolerance for numeric expressions (|2 - 0| = 2, which is greater than max(0.5, 1% of 2 = 0.02) = 0.5)."
+  },
+  "990c63bd": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "9a0f9046": {
+    "correct": 0,
+    "reasoning": "The gold answer states the protagonist is 'Tidus' (Final Fantasy X), while the prediction states 'Zidane Tribal' (Final Fantasy IX). These are different characters from different games, making the prediction a contradiction."
+  },
+  "9a123681": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the year as 1992, while the prediction states 1990. Calendar dates and years must match exactly according to rule 2."
+  },
+  "9ac70118": {
+    "correct": 0,
+    "reasoning": "The predicted age '34' is numerically different from the gold age '46'. The absolute difference (12) and percentage difference (26%) are outside the allowed numeric tolerance."
+  },
+  "9af562a1": {
+    "correct": 0,
+    "reasoning": "The prediction 'Tidus' is a different character and the protagonist of a different Final Fantasy game (FFX) than the one specified in the gold answer 'Lightning' (FFXIII), leading to a contradiction."
+  },
+  "9afa8edd": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "9b4c3333": {
+    "correct": 0,
+    "reasoning": "The gold answer provides a full date (month, day, year), while the prediction only provides the year. Rule 2 states that calendar dates or years must match exactly. The prediction does not exactly match the gold date as it is missing the month and day."
+  },
+  "9d26507a": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the death date as January 13, 1941, while the prediction states January 6, 1922. These dates are significantly different in both year and day, violating the exact match requirement for calendar dates."
+  },
+  "9d2a6039": {
+    "correct": 0,
+    "reasoning": "The prediction '57' is an age, which is a naturally drifting value. The percentage difference between the gold '62' and the prediction '57' is approximately 8.06% (calculated as |62-57|/62 * 100). This falls outside the allowed 1-5.5 percentage-point window for equivalence for naturally drifting values."
+  },
+  "9d4dccb3": {
+    "correct": 0,
+    "reasoning": "The prediction 'University of Houston' directly contradicts the gold answer 'Virginia State University' by naming a different university."
+  },
+  "9e25a7d3": {
+    "correct": 0,
+    "reasoning": "The gold answer is '1959' and the prediction is '2020'. Calendar dates or years must match exactly according to Rule 2. The prediction contradicts the gold fact."
+  },
+  "9ed43646": {
+    "correct": 0,
+    "reasoning": "The prediction 'California' directly contradicts the gold answer 'Hawaii'. These are distinct states and not subject to any normalization or tolerance rules that would make them equivalent."
+  },
+  "9fb558f2": {
+    "correct": 0,
+    "reasoning": "The prediction 'Canada' directly contradicts the gold answer 'Scotland'. They are different countries."
+  },
+  "9ff5ee42": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "a0329b75": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "a04200ad": {
+    "correct": 0,
+    "reasoning": "The gold answer states the protagonist is 'Raiden', while the prediction states 'Solid Snake'. These are two different characters, leading to a direct contradiction."
+  },
+  "a0f63db0": {
+    "correct": 0,
+    "reasoning": "The gold answer is 46, and the prediction is 65. For calendar dates or years (ages in this context), the values must match exactly. 46 is not equal to 65."
+  },
+  "a1bee914": {
+    "correct": 0,
+    "reasoning": "The gold answer is '2' and the prediction is '0'. These are numerically different and fall outside the allowed tolerance for numeric expressions (|a - b| <= max(0.5, 1% of reference)). The prediction directly contradicts the gold fact."
+  },
+  "a2836aff": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "a516305f": {
+    "correct": 1,
+    "reasoning": "The gold and prediction both state the birth date as March 2, 1981. The formats are different but the date is identical. The extra information in the prediction (actress's name) does not contradict the gold."
+  },
+  "a5730760": {
+    "correct": 0,
+    "reasoning": "The prediction's year (1920) contradicts the gold's year (1941). Calendar dates must match exactly according to Rule 2."
+  },
+  "a83f07fa": {
+    "correct": 0,
+    "reasoning": "The prediction '31' is an age, which is a naturally drifting value. The percentage difference between the gold '35' and the prediction '31' is |35 - 31| / max(35, 31) = 4 / 35 \u2248 11.43%. This falls outside the allowed 1-5.5 percentage-point window for equivalence."
+  },
+  "a896bab1": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Miami Dolphins'. The prediction includes 'Miami Dolphins' but also incorrectly adds 'New England Patriots'. Nick Saban did not coach for the New England Patriots in the NFL. The inclusion of incorrect information makes the prediction incorrect."
+  },
+  "a98f7740": {
+    "correct": 0,
+    "reasoning": "The gold answer states the height as 5'11\" (71 inches), while the prediction states 5'10\" (70 inches). The difference of 1 inch exceeds the allowed tolerance of max(0.5, 1% of 71) = 0.71 inches for numeric expressions."
+  },
+  "a9db545b": {
+    "correct": 1,
+    "reasoning": "The prediction 'George H.W. Bush' is a minor formatting variation of the gold answer 'George H. W. Bush'. The presence or absence of a space between the initials 'H.' and 'W.' does not change the identity of the person, making them equivalent."
+  },
+  "aa423d1a": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies '930 BC' while the prediction states '1320'. These dates are vastly different and do not match, violating the exact match requirement for calendar dates/years."
+  },
+  "aad2514e": {
+    "correct": 0,
+    "reasoning": "The prediction states '0' children, which directly contradicts the gold answer of '2'. The numerical values are outside the allowed tolerance."
+  },
+  "ab026d77": {
+    "correct": 0,
+    "reasoning": "The predicted birthplace 'Blenheim, Oxfordshire' contradicts the gold birthplace 'Bloemfontein, Orange Free State'. These are distinct locations."
+  },
+  "ab9a9506": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "abca3e36": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "ac27f0ef": {
+    "correct": 0,
+    "reasoning": "The gold answer is 5'6\" (66 inches) and the prediction is 5'10\" (70 inches). The absolute difference is 4 inches. The allowed tolerance is max(0.5, 1% of 66) = max(0.5, 0.66) = 0.66 inches. Since 4 inches is greater than 0.66 inches, the prediction is outside the acceptable numeric tolerance."
+  },
+  "ad0a46fd": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer. Punctuation is ignored."
+  },
+  "aec3cd45": {
+    "correct": 1,
+    "reasoning": "The prediction '53' is an age, which is a naturally drifting value. The percentage difference between the gold '51' and the prediction '53' is |53 - 51| / max(53, 51) = 2 / 53 \u2248 3.77%. This falls within the allowed 1-5.5 percentage-point window for naturally drifting values, making them equivalent."
+  },
+  "afc0cfc2": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "afc20de1": {
+    "correct": 0,
+    "reasoning": "The gold answer is '46 years' and the prediction is '35 years'. The numeric values differ significantly (11 years difference), which is outside the allowed tolerance of max(0.5, 1% of 46) = 0.5 for durations."
+  },
+  "b1251903": {
+    "correct": 0,
+    "reasoning": "The prediction 'U.S. Army' directly contradicts the gold answer 'Navy' regarding the branch of the United States military."
+  },
+  "b38b982c": {
+    "correct": 0,
+    "reasoning": "The gold answer is 48 and the prediction is 59. For naturally drifting values like age, the difference is 11. The percentage difference is |48 - 59| / max(48, 59) = 11 / 59 \u2248 18.64%, which is outside the allowed 1-5.5 percentage-point window for equivalence."
+  },
+  "b41432fc": {
+    "correct": 0,
+    "reasoning": "The gold answer is '1963' and the prediction is '1950'. Calendar dates or years must match exactly, and these values do not match."
+  },
+  "b4aadf92": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "b5d64c8f": {
+    "correct": 0,
+    "reasoning": "The prediction 'Willow Sage Hart' is a different person than the gold answer 'Daisy Dove Bloom', thus contradicting the gold fact."
+  },
+  "b5dc8995": {
+    "correct": 0,
+    "reasoning": "The prediction '8' directly contradicts the gold answer '2'. The numeric difference (6) is far outside the allowed tolerance of max(0.5, 1% of 2)."
+  },
+  "b68627e9": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Michael Jackson' is correct as he was a famous singer from 'The Jackson 5', a 60s group with 'five' in its title. The prediction 'The Monkees' is a group, not a singer, and its name does not contain 'five'. Therefore, the prediction is incorrect."
+  },
+  "b69991e0": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bb6aa601": {
+    "correct": 0,
+    "reasoning": "The gold answer is 'Betty Ford'. The prediction eventually names 'Elizabeth Ann Bloomer', which is Betty Ford's maiden name. However, the prediction contains significant factual errors and contradictions: it states 'His first wife Elizabeth Anne Bloomer died before he took office' and then 'however his second wife was Elizabeth Ann Bloomer'. Betty Ford (Elizabeth Ann Bloomer Ford) was Gerald Ford's only wife and served as First Lady; she did not die before he took office, nor was she a 'second wife'. These contradictions about her status and relationship make the prediction incorrect despite mentioning her maiden name."
+  },
+  "bc1f9c3f": {
+    "correct": 0,
+    "reasoning": "The prediction 'Los Angeles' directly contradicts the gold answer 'Stoke-on-Trent, Staffordshire, England' regarding the birthplace of the lead guitarist."
+  },
+  "bc5da5fd": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bcb4c364": {
+    "correct": 0,
+    "reasoning": "The prediction's date (August 24, 2000) does not match the gold date (August 10, 1962). Calendar dates must match exactly."
+  },
+  "bcc3b346": {
+    "correct": 1,
+    "reasoning": "The question asks for a naturally drifting value (population). The gold is 102.3 million and the prediction is 103.383 million. The percentage difference is approximately 1.0475% (calculated as |102.3 - 103.383| / 103.383 * 100), which falls within the allowed 1-5.5 percentage-point window for naturally drifting values."
+  },
+  "bccd1dde": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the birth date as October 20, 1956, while the prediction states January 23, 2000. Calendar dates must match exactly, and these are significantly different."
+  },
+  "bd1c9600": {
+    "correct": 0,
+    "reasoning": "The prediction 'Marilyn Monroe' is a completely different person from the gold answer 'Princess Peach'. There is no equivalence or normalization possible between these two distinct entities."
+  },
+  "bd85813c": {
+    "correct": 0,
+    "reasoning": "The question asks for an age ('How old'), and the gold answer provides an age (40). The prediction provides a year (1981), which is not an age and therefore does not answer the question directly or equivalently."
+  },
+  "bde0f41a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Democratic Party' is an equivalent and more formal name for 'Democrat' in the context of political parties. This falls under normalization of common aliases."
+  },
+  "be4d4610": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "c0d02e79": {
+    "correct": 0,
+    "reasoning": "The prediction 'ADAMANT' is not equivalent to the gold answer 'the Combine'. They refer to different entities, making the prediction incorrect."
+  },
+  "c11196a0": {
+    "correct": 0,
+    "reasoning": "The prediction 'Johnny Depp' contradicts the gold answer 'Benecio Del Toro'. Johnny Depp played Raoul Duke, while Benicio Del Toro played Dr. Gonzo."
+  },
+  "c18486eb": {
+    "correct": 0,
+    "reasoning": "The prediction 'Hawaii' directly contradicts the gold answer 'Washington'. These are two different U.S. states."
+  },
+  "c20af019": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the birth date as August 16, 1954, while the prediction states May 23, 1990. These dates are significantly different and do not match, violating the exact match requirement for calendar dates."
+  },
+  "c22b6f2c": {
+    "correct": 1,
+    "reasoning": "The prediction 'William Shakespeare' is a common and easily recognizable spelling of the gold answer 'William Shakespear'. The minor spelling difference does not change the essential fact or identity of the playwright, making them equivalent."
+  },
+  "c25ca16b": {
+    "correct": 0,
+    "reasoning": "The gold answer is 27, and the prediction is 67. The numeric values are significantly different and fall outside the allowed tolerance for numeric expressions (|27 - 67| = 40, which is much greater than max(0.5, 1% of 27))."
+  },
+  "c395ab46": {
+    "correct": 0,
+    "reasoning": "The prediction 'Madden NFL 06' contradicts the gold answer 'Madden NFL 09'. The game titles are distinct and not equivalent."
+  },
+  "c3e5e7b8": {
+    "correct": 0,
+    "reasoning": "The prediction 'United States' directly contradicts the gold answer 'The Netherlands' regarding the country of birth."
+  },
+  "c5d31018": {
+    "correct": 0,
+    "reasoning": "The prediction 'Marble Garden Zone' is a different name from the gold answer 'Carnival Night Zone', indicating a factual contradiction."
+  },
+  "c6729e41": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Beanie Feldstein' as the sister of the actor who played Peter Brand (Jonah Hill). The prediction provides a very long, convoluted, and incorrect chain of connections involving multiple actors and directors (Christina Hendricks, Elisabeth Moss, Leslie Mann, Judd Apatow, Paul Rudd) but never identifies Beanie Feldstein or any other correct sister. It fails to answer the question correctly."
+  },
+  "c75eff9f": {
+    "correct": 0,
+    "reasoning": "The prediction 'One Financial Center' is a different building name than the gold answer 'Industrial National Bank Building'. They are not equivalent."
+  },
+  "c999b363": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Tokyo' while the prediction states 'Beijing'. These are different cities and therefore do not communicate the same essential fact."
+  },
+  "c9ac50f7": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Buzz Aldin' (likely a typo for Buzz Aldrin), who was the Lunar Module Pilot for Apollo 11. The prediction 'Neil Armstrong' was the Commander of Apollo 11, not the Lunar Module Pilot. These are different individuals and roles, leading to a contradiction."
+  },
+  "cbc5ec09": {
+    "correct": 0,
+    "reasoning": "The prediction's day of death (August 1st) contradicts the gold answer's day of death (August 16th). Calendar dates must match exactly."
+  },
+  "cc58eabf": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "cd085a8c": {
+    "correct": 1,
+    "reasoning": "The gold answer is '3' and the prediction states 'three children'. Numeric expressions (words vs digits) are equivalent per Rule 2. The additional information 'Martin Scorsese' is correct context and does not contradict the core fact."
+  },
+  "ced5adfa": {
+    "correct": 0,
+    "reasoning": "The prediction date (March 25, 2005) does not match the gold date (March 13, 2007). Both the day and the year are different."
+  },
+  "cf1988b9": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "d09fa446": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Don Shula' is the correct winningest head coach in NFL history (the league Tom Brady played in). The prediction 'Bill Belichick' is incorrect as Belichick has fewer wins than Shula."
+  },
+  "d5d873a9": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the birth date as April 4, 1965, while the prediction states May 13, 2003. These dates are entirely different and do not match, violating the exact match requirement for calendar dates."
+  },
+  "d61d1f4e": {
+    "correct": 1,
+    "reasoning": "The prediction 'England' is identical to the gold answer 'England'."
+  },
+  "d6292119": {
+    "correct": 0,
+    "reasoning": "The gold answer is 5'11\" (71 inches) and the prediction is 6'0\" (72 inches). The difference is 1 inch. According to numeric tolerance rule 2, the allowed difference is max(0.5, 1% of 71) = max(0.5, 0.71) = 0.71 inches. Since 1 inch is greater than 0.71 inches, the prediction is outside the acceptable tolerance."
+  },
+  "d890595a": {
+    "correct": 0,
+    "reasoning": "The gold answer states the director was born in 'Vienna, Austria', while the prediction states 'Breslau, German Empire (now Wroc\u0142aw, Poland)'. These are two distinct and contradictory locations for the birthplace."
+  },
+  "d8abcbe1": {
+    "correct": 0,
+    "reasoning": "The prediction 'Trent Dilfer' is a different person than the gold answer 'Troy Aikman'. Troy Aikman was the quarterback for the team that won Super Bowl 30, while Trent Dilfer was the quarterback for the team that won Super Bowl 35, making the prediction a factual contradiction."
+  },
+  "d9a7bed4": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "da635865": {
+    "correct": 0,
+    "reasoning": "The gold answer is 25, and the prediction is 22. For calendar dates or years (like age in years), the values must match exactly according to the numeric expressions rule. A difference of 3 years is not an exact match."
+  },
+  "db319851": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "db3375e8": {
+    "correct": 0,
+    "reasoning": "The predicted age of 'approximately 70 million years' is significantly different and outside the tolerance range of the gold answer '260 million to 325 million years ago'. The values contradict each other."
+  },
+  "dc01e4c5": {
+    "correct": 0,
+    "reasoning": "The gold answer states the birth year is 1920, while the prediction states 1950. These years are significantly different and fall outside the allowed numeric tolerance."
+  },
+  "dc1a55dc": {
+    "correct": 0,
+    "reasoning": "The gold answer states the height is 6'1\" (73 inches), while the prediction states 6'0\" (72 inches). The absolute difference is 1 inch. The allowed tolerance is max(0.5, 1% of 73) = 0.73 inches. Since 1 inch is greater than 0.73 inches, the values are outside the acceptable numeric tolerance."
+  },
+  "de227515": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies '25-Sep-07' while the prediction states '2007-11-15'. These dates are different, and calendar dates require an exact match."
+  },
+  "deb72c30": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "dfd012c8": {
+    "correct": 0,
+    "reasoning": "The gold answer states '1' child, while the prediction states '3' children. These values are numerically different and exceed the allowed tolerance for numeric expressions."
+  },
+  "e1a2cf20": {
+    "correct": 0,
+    "reasoning": "The prediction correctly identifies 'Jeb Bush' as a son of the 41st US president. However, it then adds 'but more likely George W Bush himself', which is incorrect as George W. Bush did not run for president in 2016. This constitutes a contradiction to the implied fact in the question and the gold answer."
+  },
+  "e1d742c2": {
+    "correct": 0,
+    "reasoning": "The gold answer is 3, and the prediction is 4. The absolute difference is 1, which is greater than the allowed numeric tolerance of max(0.5, 1% of 3) = 0.5. This is not a naturally drifting value, so the percentage-point window rule does not apply, but even if it did, 25% difference is outside the 5.5% window."
+  },
+  "e22a184f": {
+    "correct": 0,
+    "reasoning": "The gold answer states the birthplace as 'Berkeley, CA', while the prediction states 'Portland, Maine'. These are different locations, leading to a contradiction on the core fact."
+  },
+  "e5070390": {
+    "correct": 0,
+    "reasoning": "The gold answer is 20, and the prediction is 37. The absolute difference is 17, which is significantly outside the allowed numeric tolerance of max(0.5, 1% of 20 = 0.2) = 0.5. The values are not equivalent."
+  },
+  "e6f29b34": {
+    "correct": 0,
+    "reasoning": "The prediction 'Cairo' directly contradicts the gold answer 'Greece' regarding the birthplace of the last queen of Egypt."
+  },
+  "e6fb1f57": {
+    "correct": 0,
+    "reasoning": "The gold answer correctly identifies George H. W. Bush as the 40th US president's VP. The prediction 'Ronald Reagan' is incorrect as Ronald Reagan was the 40th US president himself, not his vice president."
+  },
+  "e79774c0": {
+    "correct": -1,
+    "reasoning": "The question asks for a birth date, and the gold answer provides a date. The prediction provides a name (Tommy Lee Wallace) and discusses who directed the movie, but does not provide a date of birth. Therefore, it does not answer the question asked."
+  },
+  "e7db337c": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "ea0584f9": {
+    "correct": 0,
+    "reasoning": "The prediction 'India' directly contradicts the gold answer 'Japan'. These are two different countries."
+  },
+  "ebfa5a1a": {
+    "correct": 1,
+    "reasoning": "The prediction includes the gold fact '5'7\"' exactly. The additional information 'Tom Cruise:' and the metric conversion '(170 cm)' are extra details but do not contradict the gold answer and the metric conversion is accurate for 5'7\"."
+  },
+  "ec3092ab": {
+    "correct": 0,
+    "reasoning": "The gold answer states the age is 33, while the prediction calculates the age as 28. These values are outside the allowed numeric tolerance (|33 - 28| = 5, which is greater than max(0.5, 1% of 33 = 0.33))."
+  },
+  "ec34b32a": {
+    "correct": 1,
+    "reasoning": "The numerical value '57' matches exactly. The additional phrase 'years old' in the prediction is extra descriptive text and does not contradict the gold answer, falling under Rule 8 (Extra detail) and Rule 5 (Units & formatting)."
+  },
+  "ed23da84": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the death year as 1870. The prediction gives a date with the year 1836, which is a direct contradiction to the gold year. Calendar dates and years must match exactly."
+  },
+  "eda78dda": {
+    "correct": 1,
+    "reasoning": "The gold value is 73 and the prediction is 72. For naturally drifting values like age, Rule 2 states to compute the percentage difference |a \u2212 b|/max(|a|, |b|) and treat values within a 1\u20135.5 percentage-point window as equivalent. The percentage difference is |73 - 72| / max(73, 72) = 1/73 \u2248 0.0137 or 1.37%. This falls within the 1\u20135.5 percentage-point window, so it is considered correct."
+  },
+  "f01745e8": {
+    "correct": 0,
+    "reasoning": "The prediction 'Pennsylvania' directly contradicts the gold answer 'Virginia' regarding the birth state of the head coach."
+  },
+  "f1a4e462": {
+    "correct": 0,
+    "reasoning": "The gold answer states the birth year is 1882, while the prediction states 1920. Calendar dates and years must match exactly, so the prediction is incorrect."
+  },
+  "f1a5e729": {
+    "correct": 0,
+    "reasoning": "The prediction '3' contradicts the gold answer '2'. The numeric difference (1) exceeds the allowed tolerance of 0.5 for exact values."
+  },
+  "f46f9461": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "f54d1a2f": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies 'Petronas Towers' as the tallest buildings, while the prediction identifies 'The Exchange TRX' and 'Merdeka PNB118'. These are different buildings, and thus the prediction does not communicate the same essential fact as the gold answer."
+  },
+  "f6640eb4": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Battle of the Bulge' as the final major European battle, while the prediction states 'Battle of Berlin'. These are two distinct battles, and the prediction contradicts the specific battle identified in the gold answer."
+  },
+  "f7dcfbde": {
+    "correct": 0,
+    "reasoning": "The prediction '1599' contradicts the gold answer '1616'. Calendar dates/years must match exactly according to Rule 2."
+  },
+  "fda4401b": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Sigurd Styrbjornsson as the adoptive brother. The prediction correctly identifies 'Sigurd' (a partial name for the same person), but also includes 'Randvi', who is not the adoptive brother of the main character. The inclusion of incorrect information makes the prediction incorrect."
+  },
+  "fdf3f356": {
+    "correct": 1,
+    "reasoning": "The prediction 'Link.' is equivalent to the gold answer 'Link' after ignoring punctuation as per Rule 1."
+  },
+  "fe87e76a": {
+    "correct": 0,
+    "reasoning": "The gold answer is '8-Mar-11' and the prediction is '2009-03-16'. The years (2011 vs 2009) and days (8 vs 16) do not match. Calendar dates must match exactly."
+  },
+  "0d5042b0": {
+    "correct": 0,
+    "reasoning": "The gold answer is 54 and the prediction is 61. For naturally drifting values like ages, the tolerance is calculated as 1 - |a - b|/max(|a|, |b|). Here, 1 - |54 - 61|/max(54, 61) = 1 - 7/61 = 1 - 0.11475 = 0.8852. This value is outside the acceptable 1-5.5 percentage-point window (which would require the value to be >= 0.945). Therefore, the values are not considered equivalent."
+  },
+  "100e5d98": {
+    "correct": 0,
+    "reasoning": "The prediction 'no' directly contradicts the gold answer 'Yes' regarding whether True Romance came out before 1995."
+  },
+  "16e73f4d": {
+    "correct": 0,
+    "reasoning": "The gold answer is 69 and the prediction is 62. For naturally drifting values like age, the difference is 7. The percentage difference is (7 / 69) * 100 = 10.14%, which falls outside the allowed 1-5.5 percentage-point window for equivalence."
+  },
+  "3723563b": {
+    "correct": 1,
+    "reasoning": "The prediction 'No' directly matches the gold answer 'No'."
+  },
+  "6dc5d2d8": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "6fcc9216": {
+    "correct": 0,
+    "reasoning": "The gold answer is 'Yes' and the prediction is 'No', which is a direct contradiction."
+  },
+  "af8a1219": {
+    "correct": 0,
+    "reasoning": "The gold answer provides an age (52). The prediction provides a birthdate (June 17, 1980). Calculating the age from the provided birthdate (as of late 2023/early 2024) would result in 43 or 44 years old, which significantly differs from the gold answer of 52 and falls outside the allowed numeric tolerance."
+  },
+  "d8eaa37c": {
+    "correct": 1,
+    "reasoning": "The prediction 'no' is identical to the gold answer 'No', ignoring case."
+  },
+  "fef562a9": {
+    "correct": 1,
+    "reasoning": "The prediction 'no' is identical to the gold answer 'No', ignoring case, which is allowed by Rule 1 (Normalization) and Rule 6 (Yes/No)."
+  },
+  "286d66d0": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Katie Holmes' as the last wife. The prediction does not mention Katie Holmes and instead states that Nathan Algren had an affair with Taka's widow, whose name was not mentioned in the movie. This directly contradicts the specific name provided in the gold answer."
+  },
+  "f750e2bc": {
+    "correct": 0,
+    "reasoning": "The gold answer states the height as 5'11\" (approximately 180.34 cm). The prediction states 183 cm, which is approximately 6'0\". This difference (2.66 cm or about 1 inch) exceeds the 1% numeric tolerance (1.80 cm) for exact numeric expressions. The prediction also includes the actor's name, which is extra information not requested by the question, but the primary issue is the incorrect height."
+  }
+}

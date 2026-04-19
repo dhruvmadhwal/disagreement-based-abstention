@@ -1,0 +1,1238 @@
+{
+  "summary": {
+    "total": 90,
+    "coverage": 0.9167,
+    "overall_accuracy": 0.35,
+    "accuracy_at_coverage": 0.3818,
+    "precision": 0.96,
+    "recall": 0.1237,
+    "f1": 0.2192
+  },
+  "records": [
+    {
+      "accepted": true,
+      "prediction": "The candidates for the length of the longest river in Alabama are:",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n334 miles",
+          "final_answer": "334 miles",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n318 miles",
+          "final_answer": "318 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n334 miles",
+          "final_answer": "334 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n374 miles",
+          "final_answer": "374 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n344 miles",
+          "final_answer": "344 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n344 miles",
+          "final_answer": "344 miles",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n334 miles",
+          "final_answer": "334 miles",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "334 miles": 3,
+        "318 miles": 1,
+        "374 miles": 1,
+        "344 miles": 2
+      },
+      "aggregator_raw_response": "The candidates for the length of the longest river in Alabama are:\n\n- 334 miles \u2192 Appears **3** times  \n- 318 miles \u2192 Appears **1** time  \n- 374 miles \u2192 Appears **1** time  \n- 344 miles \u2192 Appears **2** times  \n\nNone of these options appear **at least 4 times**, so according to your instructions...\n\n**Answer:** I don't know.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction is incomplete and does not provide any answer to the question, making it not meaningful.",
+      "judge_raw_response": "```json\n{\n  \"correct\": -1,\n  \"reasoning\": \"The prediction is incomplete and does not provide any answer to the question, making it not meaningful.\"\n}\n```",
+      "timestamp": "2025-12-28 06:15:20",
+      "baseline": "self_consistency",
+      "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+      "question": "how long is the longest river in alabama?",
+      "gold_answer": "the longest river that flows through alabama, the tennessee river, is 652 miles long."
+    },
+    {
+      "accepted": true,
+      "prediction": "The correct answer is **56-26**, as this option appears four or more times in the candidates.",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n37-45",
+          "final_answer": "37-45",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n43\u201339",
+          "final_answer": "43\u201339",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n37\u201345",
+          "final_answer": "37\u201345",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "56-26": 4,
+        "37-45": 1,
+        "43\u201339": 1,
+        "37\u201345": 1
+      },
+      "aggregator_raw_response": "The correct answer is **56-26**, as this option appears four or more times in the candidates.\n\n**Answer:**  \n56-26",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction '56-26' exactly matches the gold answer. The additional text in the prediction is extra detail that does not contradict the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction '56-26' exactly matches the gold answer. The additional text in the prediction is extra detail that does not contradict the gold fact.\"\n}\n```",
+      "timestamp": "2025-12-28 06:19:59",
+      "baseline": "self_consistency",
+      "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+      "question": "what was the 76ers' record the year allen iverson won mvp?",
+      "gold_answer": "56-26"
+    },
+    {
+      "accepted": false,
+      "prediction": "The candidates are: - 1982-07-20 - 1989-06-04 - 2022-06-16 - 2014-06-18 - **1982-07-20** *(repeated)* - 2019-06-03 - 1982-07-16 \"1982-07-20\" is listed twice. Since no date occurs four or more times in this list , I cannot determine a clear majority choice based on your criteria. Answer: **I don't know**.",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n1982-07-20",
+          "final_answer": "1982-07-20",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n1989-06-04",
+          "final_answer": "1989-06-04",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2022-06-16",
+          "final_answer": "2022-06-16",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2014-06-18",
+          "final_answer": "2014-06-18",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1982-07-20",
+          "final_answer": "1982-07-20",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2019-06-03",
+          "final_answer": "2019-06-03",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1982-07-16",
+          "final_answer": "1982-07-16",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1982-07-20": 2,
+        "1989-06-04": 1,
+        "2022-06-16": 1,
+        "2014-06-18": 1,
+        "2019-06-03": 1,
+        "1982-07-16": 1
+      },
+      "aggregator_raw_response": "The candidates are: - 1982-07-20 - 1989-06-04 - 2022-06-16 - 2014-06-18 - **1982-07-20** *(repeated)* - 2019-06-03 - 1982-07-16 \"1982-07-20\" is listed twice. Since no date occurs four or more times in this list , I cannot determine a clear majority choice based on your criteria. Answer: **I don't know**.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction explicitly states 'I don't know', which is a refusal to answer the question and thus considered not meaningful.",
+      "judge_raw_response": "```json\n{\n  \"correct\": -1,\n  \"reasoning\": \"The prediction explicitly states 'I don't know', which is a refusal to answer the question and thus considered not meaningful.\"\n}\n```",
+      "timestamp": "2025-12-28 06:20:37",
+      "baseline": "self_consistency",
+      "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+      "question": "when did the lead actor of naked gun die?",
+      "gold_answer": "leslie nielsen, the lead actor of naked gun, died in 2010."
+    },
+    {
+      "accepted": true,
+      "prediction": "Professional Basketball Player",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nProfessional Basketball Player",
+          "final_answer": "Professional Basketball Player",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nProfessional Bull Rider",
+          "final_answer": "Professional Bull Rider",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:  \nProfessional Basketball Player",
+          "final_answer": "Professional Basketball Player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nProfessional Basketball Player",
+          "final_answer": "Professional Basketball Player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nProfessional Football Player",
+          "final_answer": "Professional Football Player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nProfessional Bull Rider",
+          "final_answer": "Professional Bull Rider",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nProfessional Football Player",
+          "final_answer": "Professional Football Player",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Professional Basketball Player": 3,
+        "Professional Bull Rider": 2,
+        "Professional Football Player": 2
+      },
+      "aggregator_raw_response": "Professional Basketball Player",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Professional Basketball Player' is a broader but accurate description of the profession 'NBA player'. It communicates the same essential fact without contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Professional Basketball Player' is a broader but accurate description of the profession 'NBA player'. It communicates the same essential fact without contradiction.\"\n}\n```",
+      "timestamp": "2025-12-28 06:23:06",
+      "baseline": "self_consistency",
+      "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+      "question": "what was the profession of kim kardashian's second spouse?",
+      "gold_answer": "kris humphries, kim kardashian's second spouse, was an nba player."
+    },
+    {
+      "accepted": true,
+      "prediction": "Columbia University",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Columbia University": 7
+      },
+      "aggregator_raw_response": "Columbia University",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Columbia University' is identical to the gold answer 'columbia university' when ignoring case, which is allowed by normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Columbia University' is identical to the gold answer 'columbia university' when ignoring case, which is allowed by normalization rules.\"\n}\n```",
+      "timestamp": "2025-12-28 06:24:44",
+      "baseline": "self_consistency",
+      "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+      "question": "where did the lead designer of fortran get his m.s. from?",
+      "gold_answer": "columbia university"
+    },
+    {
+      "accepted": true,
+      "prediction": "right-hand side",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nleft",
+          "final_answer": "left",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nright-hand side",
+          "final_answer": "right-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nleft-hand side",
+          "final_answer": "left-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nright-hand side",
+          "final_answer": "right-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nleft-hand side",
+          "final_answer": "left-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nright-hand side",
+          "final_answer": "right-hand side",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nright-hand side",
+          "final_answer": "right-hand side",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "left": 1,
+        "right-hand side": 4,
+        "left-hand side": 2
+      },
+      "aggregator_raw_response": "right-hand side",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'right-hand side' is equivalent to 'right' in the context of driving side. 'Hand side' is extra descriptive text that does not change the essential fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'right-hand side' is equivalent to 'right' in the context of driving side. 'Hand side' is extra descriptive text that does not change the essential fact.\"\n}\n```",
+      "timestamp": "2025-12-28 06:34:10",
+      "baseline": "self_consistency",
+      "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+      "question": "what is the driving side in mallorca?",
+      "gold_answer": "right"
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n978 ft",
+          "final_answer": "978 ft",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n617 m",
+          "final_answer": "617 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n844 ft",
+          "final_answer": "844 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n477 m",
+          "final_answer": "477 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n544 m",
+          "final_answer": "544 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n984 ft",
+          "final_answer": "984 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n934 ft",
+          "final_answer": "934 ft",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "978 ft": 1,
+        "617 m": 1,
+        "844 ft": 1,
+        "477 m": 1,
+        "544 m": 1,
+        "984 ft": 1,
+        "934 ft": 1
+      },
+      "aggregator_raw_response": "I don't know",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction 'I don't know' is a refusal to answer the question, making it not meaningful according to rule 10.",
+      "judge_raw_response": "```json\n{\n  \"correct\": -1,\n  \"reasoning\": \"The prediction 'I don't know' is a refusal to answer the question, making it not meaningful according to rule 10.\"\n}\n```",
+      "timestamp": "2025-12-28 06:35:28",
+      "baseline": "self_consistency",
+      "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+      "question": "what is the elevation of the capital of nebraska?",
+      "gold_answer": "366 m"
+    },
+    {
+      "accepted": true,
+      "prediction": "Abraham Lincoln began his presidency at the age of 52.",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "52": 7
+      },
+      "aggregator_raw_response": "Abraham Lincoln began his presidency at the age of 52.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction states '52', which exactly matches the '52 years old' in the gold answer. The extra descriptive text does not contradict the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction states '52', which exactly matches the '52 years old' in the gold answer. The extra descriptive text does not contradict the gold fact.\"\n}\n```",
+      "timestamp": "2025-12-28 06:35:50",
+      "baseline": "self_consistency",
+      "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+      "question": "what age did abraham lincoln begin his presidency?",
+      "gold_answer": "52 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "**23**",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n24",
+          "final_answer": "24",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n23",
+          "final_answer": "23",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n25",
+          "final_answer": "25",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n23",
+          "final_answer": "23",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n23",
+          "final_answer": "23",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n23",
+          "final_answer": "23",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n25",
+          "final_answer": "25",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "24": 1,
+        "23": 4,
+        "25": 2
+      },
+      "aggregator_raw_response": "The correct answer is **23**, as it appears four times and meets the threshold for being chosen.\n\nShort final answer:  \n**23**",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states Usher was 45 years old, while the prediction states 23. These numerical values are significantly different and fall outside the allowed tolerance for numeric expressions.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states Usher was 45 years old, while the prediction states 23. These numerical values are significantly different and fall outside the allowed tolerance for numeric expressions.\"\n}\n```",
+      "timestamp": "2025-12-28 06:38:58",
+      "baseline": "self_consistency",
+      "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+      "question": "at what age did usher perform in the half time show of superbowl?",
+      "gold_answer": "45 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "**1988-06-18**",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n1988-06-18",
+          "final_answer": "1988-06-18",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n1988-06-11",
+          "final_answer": "1988-06-11",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1988-06-18",
+          "final_answer": "1988-06-18",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1988-06-18",
+          "final_answer": "1988-06-18",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1988-06-18",
+          "final_answer": "1988-06-18",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1978-06-17",
+          "final_answer": "1978-06-17",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1988-06-18",
+          "final_answer": "1988-06-18",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1988-06-18": 5,
+        "1988-06-11": 1,
+        "1978-06-17": 1
+      },
+      "aggregator_raw_response": "The date **1988-06-18** appears five times in the candidates and meets the threshold.\n\nShort final answer:  \n**1988-06-18**",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the marriage year as 2009, while the prediction states 1988. Calendar dates/years must match exactly, and these do not.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states the marriage year as 2009, while the prediction states 1988. Calendar dates/years must match exactly, and these do not.\"\n}\n```",
+      "timestamp": "2025-12-28 06:42:01",
+      "baseline": "self_consistency",
+      "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+      "question": "when did the lead actor of die hard get married?",
+      "gold_answer": "the lead actor of die hard, bruce willis, got married in 2009."
+    },
+    {
+      "accepted": true,
+      "prediction": "The final answer is **1995-10-31** as it appears more than four times in the candidates' list.",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n1995-10-31",
+          "final_answer": "1995-10-31",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n1995-10-31",
+          "final_answer": "1995-10-31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1995-10-31",
+          "final_answer": "1995-10-31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1995-11-14",
+          "final_answer": "1995-11-14",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1995-10-31",
+          "final_answer": "1995-10-31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1995-10-31",
+          "final_answer": "1995-10-31",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1995-10-31",
+          "final_answer": "1995-10-31",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1995-10-31": 6,
+        "1995-11-14": 1
+      },
+      "aggregator_raw_response": "The final answer is **1995-10-31** as it appears more than four times in the candidates' list.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the release date as February 1st, 1994, while the prediction states 1995-10-31. The year, month, and day all contradict the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states the release date as February 1st, 1994, while the prediction states 1995-10-31. The year, month, and day all contradict the gold fact.\"\n}\n```",
+      "timestamp": "2025-12-28 06:43:28",
+      "baseline": "self_consistency",
+      "id": "118896a1-8124-482a-9201-4aaf1903618d",
+      "question": "when was green day's third studio album released?",
+      "gold_answer": "dookie, the third studio album by green day, was released on february 1st, 1994."
+    },
+    {
+      "accepted": true,
+      "prediction": "Lorne Michaels was 24 years old when he produced his first film.",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nLorne Michaels was 24 years old when he produced his first film.",
+          "final_answer": "Lorne Michaels was 24 years old when he produced his first film.",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n26",
+          "final_answer": "26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nLorne Michaels was 25 years old when he produced his first film.",
+          "final_answer": "Lorne Michaels was 25 years old when he produced his first film.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nLorne Michaels was 29 years old when he produced his first film.",
+          "final_answer": "Lorne Michaels was 29 years old when he produced his first film.",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n24",
+          "final_answer": "24",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Lorne Michaels was 24 years old when he produced his first film, *National Lampoon's Animal House* (1978).  \n\nanswer:  \n24",
+          "final_answer": "24",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Lorne Michaels was 24 years old when he produced his first film, *Don Quijote*, which aired on CBC Television in Canada in 1970. \n\nanswer:  \n24",
+          "final_answer": "24",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Lorne Michaels was 24 years old when he produced his first film": 1,
+        "26": 1,
+        "Lorne Michaels was 25 years old when he produced his first film": 1,
+        "Lorne Michaels was 29 years old when he produced his first film": 1,
+        "24": 3
+      },
+      "aggregator_raw_response": "Lorne Michaels was 24 years old when he produced his first film.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states Lorne Michaels was 35, while the prediction states he was 24. These are different numerical facts and contradict each other, exceeding the allowed numeric tolerance.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states Lorne Michaels was 35, while the prediction states he was 24. These are different numerical facts and contradict each other, exceeding the allowed numeric tolerance.\"\n}\n```",
+      "timestamp": "2025-12-28 06:48:27",
+      "baseline": "self_consistency",
+      "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+      "question": "at what age was lorne michaels when he produced his first film?",
+      "gold_answer": "he was 35"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carnegie Mellon University",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nSun Microsystems Laboratories at the University of Illinois Urbana-Champaign",
+          "final_answer": "Sun Microsystems Laboratories at the University of Illinois Urbana-Champaign",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nStanford University",
+          "final_answer": "Stanford University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Carnegie Mellon University": 5,
+        "Sun Microsystems Laboratories at the University of Illinois Urbana-Champaign": 1,
+        "Stanford University": 1
+      },
+      "aggregator_raw_response": "Carnegie Mellon University",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction is identical to the gold answer, ignoring case.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer, ignoring case.\"\n}\n```",
+      "timestamp": "2025-12-28 06:52:42",
+      "baseline": "self_consistency",
+      "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+      "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+      "gold_answer": "carnegie mellon university"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carrie-Anne Moss",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nKaris Bruhner",
+          "final_answer": "Karis Bruhner",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nKaris Bradbury",
+          "final_answer": "Karis Bradbury",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nKara Louise Mugge",
+          "final_answer": "Kara Louise Mugge",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nKara Louise Hibbert",
+          "final_answer": "Kara Louise Hibbert",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Karis Bruhner": 1,
+        "Karis Bradbury": 1,
+        "Kara Louise Mugge": 1,
+        "Kara Louise Hibbert": 1,
+        "Carrie-Anne Moss": 3
+      },
+      "aggregator_raw_response": "Carrie-Anne Moss",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction provides the essential fact (the actress's name) which is identical to the core information in the gold answer. The gold answer includes extra descriptive text about the character, but this does not contradict or invalidate the prediction, falling under the 'Extra detail' rule.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides the essential fact (the actress's name) which is identical to the core information in the gold answer. The gold answer includes extra descriptive text about the character, but this does not contradict or invalidate the prediction, falling under the 'Extra detail' rule.\"\n}\n```",
+      "timestamp": "2025-12-28 06:55:15",
+      "baseline": "self_consistency",
+      "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+      "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+      "gold_answer": "the actress who played the role of the girl character in the movie \"the matrix\" is carrie-anne moss. she portrayed the role of trinity, a skilled computer hacker and a member of the human resistance."
+    },
+    {
+      "accepted": true,
+      "prediction": "Shallow; Perfect Drafts; Creature Comforts; I'm Tired (But I Want More)",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nShallow; Perfect Drafts; Just Like Fire",
+          "final_answer": "Shallow; Perfect Drafts; Just Like Fire",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nShallow; Perfect Drafts; Creature Comfort",
+          "final_answer": "Shallow; Perfect Drafts; Creature Comfort",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Shallow; Try; All I Want for Christmas Is You",
+          "final_answer": "Shallow; Try; All I Want for Christmas Is You",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Shallow; Perfect Drafts; Creature Comforts; I'm Tired (But I Want More)",
+          "final_answer": "Shallow; Perfect Drafts; Creature Comforts; I'm Tired (But I Want More)",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nShallow; Perfect Drafts; Something Just Like This; Someone Like You",
+          "final_answer": "Shallow; Perfect Drafts; Something Just Like This; Someone Like You",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer: Dancing Queen; Take a Chance on Me",
+          "final_answer": "Dancing Queen; Take a Chance on Me",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nTaylor Swift; Shake It Off; Blank Space; Bad Blood; Wildest Dreams",
+          "final_answer": "Taylor Swift; Shake It Off; Blank Space; Bad Blood; Wildest Dreams",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Shallow; Perfect Drafts; Just Like Fire": 1,
+        "Shallow; Perfect Drafts; Creature Comfort": 1,
+        "Shallow; Try; All I Want for Christmas Is You": 1,
+        "Shallow; Perfect Drafts; Creature Comforts; I'm Tired (But I Want More)": 1,
+        "Shallow; Perfect Drafts; Something Just Like This; Someone Like You": 1,
+        "Dancing Queen; Take a Chance on Me": 1,
+        "Taylor Swift; Shake It Off; Blank Space; Bad Blood; Wildest Dreams": 1
+      },
+      "aggregator_raw_response": "Shallow; Perfect Drafts; Creature Comforts; I'm Tired (But I Want More)",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The prediction lists different songs ('Shallow', 'Perfect Drafts', 'Creature Comforts', 'I'm Tired (But I Want More)') than the gold answer ('throw it in the bag', 'everything, everyday, every where'). The sets of songs are entirely different, indicating a factual contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction lists different songs ('Shallow', 'Perfect Drafts', 'Creature Comforts', 'I'm Tired (But I Want More)') than the gold answer ('throw it in the bag', 'everything, everyday, every where'). The sets of songs are entirely different, indicating a factual contradiction.\"\n}\n```",
+      "timestamp": "2025-12-28 06:55:25",
+      "baseline": "self_consistency",
+      "id": "e06676aa-efc3-4763-b196-e105596cc643",
+      "question": "can you tell me what other songs the same artist released in the same year as my time?",
+      "gold_answer": "throw it in the bag, \"everything, everyday, every where\""
+    },
+    {
+      "accepted": true,
+      "prediction": "Gabriel Macht",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nGabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nGabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nGabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nGabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nGabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nGabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nGabriel Macht",
+          "final_answer": "Gabriel Macht",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Gabriel Macht": 7
+      },
+      "aggregator_raw_response": "Gabriel Macht",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer identifies Patrick J. Adams as the actor who played the role of the lawyer with no law degree (Mike Ross) in 'Suits'. The prediction names Gabriel Macht, who played Harvey Specter, a different character in the show. This is a direct contradiction of the key fact requested.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies Patrick J. Adams as the actor who played the role of the lawyer with no law degree (Mike Ross) in 'Suits'. The prediction names Gabriel Macht, who played Harvey Specter, a different character in the show. This is a direct contradiction of the key fact requested.\"\n}\n```",
+      "timestamp": "2025-12-28 06:56:28",
+      "baseline": "self_consistency",
+      "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+      "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+      "gold_answer": "the actor who played the role of a lawyer in the tv show \"suits\" is patrick j. adams. he portrayed the role of mike ross, a college dropout who becomes a legal associate at a prestigious law firm, in the show, which aired from 2011 to 2019. adams's performance earned him a nomination for a screen actors guild award for outstanding performance by a male actor in a drama series."
+    },
+    {
+      "accepted": true,
+      "prediction": "Del Harris",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Del Harris": 7
+      },
+      "aggregator_raw_response": "Del Harris",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Del Harris' matches the gold answer 'del harris' after applying case normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Del Harris' matches the gold answer 'del harris' after applying case normalization.\"\n}\n```",
+      "timestamp": "2025-12-28 07:05:32",
+      "baseline": "self_consistency",
+      "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+      "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+      "gold_answer": "del harris"
+    },
+    {
+      "accepted": true,
+      "prediction": "The candidates are:",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n104 ft",
+          "final_answer": "104 ft",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n198 ft",
+          "final_answer": "198 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n104 ft",
+          "final_answer": "104 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n0 ft",
+          "final_answer": "0 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n89 ft",
+          "final_answer": "89 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n144 ft",
+          "final_answer": "144 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n174 ft",
+          "final_answer": "174 ft",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "104 ft": 2,
+        "198 ft": 1,
+        "0 ft": 1,
+        "89 ft": 1,
+        "144 ft": 1,
+        "174 ft": 1
+      },
+      "aggregator_raw_response": "The candidates are:\n\n- 104 ft  \n- 198 ft  \n- 104 ft  \n- 0 ft  \n- 89 ft  \n- 144 ft  \n- 174 ft  \n\nCounting each value:\n\n- **104 ft** \u2192 Appears **2 times**\n- Others appear only once.\n\nSince no option appears at least 4 times, the correct response is:\n\n**I don't know**.",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": -1,
+      "judge_reasoning": "The prediction is incomplete and does not provide an answer to the question, making it not meaningful.",
+      "judge_raw_response": "```json\n{\n  \"correct\": -1,\n  \"reasoning\": \"The prediction is incomplete and does not provide an answer to the question, making it not meaningful.\"\n}\n```",
+      "timestamp": "2025-12-28 07:07:53",
+      "baseline": "self_consistency",
+      "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+      "question": "how many feet is the place with the lowest elevation in vermont?",
+      "gold_answer": "the place with the lowest elevation in vermont, lake champlain, is at 95 feet."
+    },
+    {
+      "accepted": true,
+      "prediction": "Leonardo DiCaprio was 46 years old when he won the Best Actor Award for his role in *The Revenant* at the 88th Academy Awards in 2016.",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n46",
+          "final_answer": "46",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n46",
+          "final_answer": "46",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n46",
+          "final_answer": "46",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n46",
+          "final_answer": "46",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n46",
+          "final_answer": "46",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n46",
+          "final_answer": "46",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n46",
+          "final_answer": "46",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "46": 7
+      },
+      "aggregator_raw_response": "Leonardo DiCaprio was 46 years old when he won the Best Actor Award for his role in *The Revenant* at the 88th Academy Awards in 2016.\n\n**Answer:**  \n46",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold states Leonardo DiCaprio was 42 years old when he won the award, while the prediction states he was 46 years old. This is a direct contradiction on the key fact (age) and outside the numeric tolerance.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold states Leonardo DiCaprio was 42 years old when he won the award, while the prediction states he was 46 years old. This is a direct contradiction on the key fact (age) and outside the numeric tolerance.\"\n}\n```",
+      "timestamp": "2025-12-28 07:08:06",
+      "baseline": "self_consistency",
+      "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+      "question": "how old was leonardo dicaprio when he won best actor award?",
+      "gold_answer": "leonardo was 42 years old in 2016 when he won best actor."
+    }
+  ]
+}

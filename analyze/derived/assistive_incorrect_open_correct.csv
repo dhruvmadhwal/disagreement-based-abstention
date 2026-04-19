@@ -1,0 +1,449 @@
+model,dataset,id,question,gold_answer,open_answer,assistive_answer,open_correct,assistive_correct,assistive_intermediate_questions,assistive_intermediate_answers,assistive_dsl,assistive_raw_response,open_raw_response
+gpt-5-1,bamboogle,bamboogle_0028_ec928c44,What is the third letter of the top level domain of the military?,l,l,i,1,0,"[""What is the top level domain of the military?"", ""What is the third letter of '{answer_1}'?""]","{""answer_1"": "".mil"", ""answer_2"": ""i""}","answer_1: str = qa_model(""What is the top level domain of the military?"")
+answer_2: str = qa_model(""What is the third letter of '{answer_1}'?"", answer_1=answer_1)","{
+  ""answer_1"": "".mil"",
+  ""answer_2"": ""i""
+}","answer:
+l"
+gpt-5-1,bamboogle,bamboogle_0067_c104c160,The third largest river (by discharge) in the world is in what countries?,India and Bangladesh,India; Bangladesh,China; India; Bangladesh; Nepal; Bhutan,1,0,"[""What is the third largest river in the world by discharge?"", ""The {answer_1} is in what countries?""]","{""answer_1"": ""Ganges\u2013Brahmaputra\u2013Meghna river system"", ""answer_2"": ""China; India; Bangladesh; Nepal; Bhutan""}","answer_1: str = qa_model(""What is the third largest river in the world by discharge?"")
+answer_2: str = qa_model(""The {answer_1} is in what countries?"", answer_1=answer_1)","{
+  ""answer_1"": ""Ganges–Brahmaputra–Meghna river system"",
+  ""answer_2"": ""China; India; Bangladesh; Nepal; Bhutan""
+}","answer:
+India; Bangladesh"
+gpt-5-1,bamboogle,bamboogle_0116_082827a9,What is the nickname of the easternmost U.S. state?,Pine Tree State,The Pine Tree State,The Last Frontier,1,0,"[""What is the easternmost U.S. state?"", ""What is the nickname of {answer_1}?""]","{""answer_1"": ""Alaska"", ""answer_2"": ""The Last Frontier""}","answer_1: str = qa_model(""What is the easternmost U.S. state?"")
+answer_2: str = qa_model(""What is the nickname of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Alaska"",
+  ""answer_2"": ""The Last Frontier""
+}","answer:
+The Pine Tree State"
+gpt-5-1,bamboogle,bamboogle_0123_faadb1ea,Who was the mother of the emperor of Japan during World War I?,Yanagiwara Naruko,Yanagiwara Naruko,Yanagihara Naruko,1,0,"[""Who was the emperor of Japan during World War I?"", ""Who was the mother of {answer_1}?""]","{""answer_1"": ""Emperor Taish\u014d"", ""answer_2"": ""Yanagihara Naruko""}","answer_1: str = qa_model(""Who was the emperor of Japan during World War I?"")
+answer_2: str = qa_model(""Who was the mother of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Emperor Taishō"",
+  ""answer_2"": ""Yanagihara Naruko""
+}","answer:
+Yanagiwara Naruko"
+gpt-5-1,hotpotqa,5a76059155429976ec32bce6,"What shopping mall is the largest in south Texas, Malle del Norte or La Plaza Mall?",La Plaza Mall,La Plaza Mall,Mall del Norte,1,0,"[""What is the size of Mall del Norte?"", ""What is the size of La Plaza Mall?"", ""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?""]","{""answer_1"": ""1,236,000 ft\u00b2"", ""answer_2"": ""1,215,000 ft\u00b2"", ""answer_3"": ""Mall del Norte""}","answer_1: str = qa_model(""What is the size of Mall del Norte?"")
+answer_2: str = qa_model(""What is the size of La Plaza Mall?"")
+answer_3: str = qa_model(""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?"", answer_1=answer_1, answer_2=answer_2)","{
+  ""answer_1"": ""1,236,000 ft²"",
+  ""answer_2"": ""1,215,000 ft²"",
+  ""answer_3"": ""Mall del Norte""
+}",La Plaza Mall
+gpt-5-1,hotpotqa,5a760f6855429976ec32bcf9,What retailer is the second-largest in the United States and has a commercial featuring the American artist who was 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?,Target Corporation,Target,,1,-1,"[""Who was the 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?"", ""Which retailer, the second-largest in the United States, has a commercial featuring {answer_1}?""]","{""error"": ""malformed_json"", ""raw"": """", ""error_detail"": ""unable_to_parse""}","answer_1: str = qa_model(""Who was the 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?"")
+answer_2: str = qa_model(""Which retailer, the second-largest in the United States, has a commercial featuring {answer_1}?"", answer_1=answer_1)",,Target
+gpt-5-1,hotpotqa,5a7a8dab554299042af8f66a,"Huddersfield Giants R.L.F.C. are an English professional rugby league club from Huddersfield, West Yorkshire, the birthplace of rugby league, who play in the Super League competition, they play their home games at the Kirklees Stadium which is shared with Huddersfield Town F.C., is a multi-use sports stadium in Huddersfield in West Yorkshire, in which country?",England,England,United Kingdom,1,0,"[""Where is the Kirklees Stadium located?"", ""In which country is {answer_1}?""]","{""answer_1"": ""Huddersfield"", ""answer_2"": ""United Kingdom""}","answer_1: str = qa_model(""Where is the Kirklees Stadium located?"")
+answer_2: str = qa_model(""In which country is {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Huddersfield"",
+  ""answer_2"": ""United Kingdom""
+}","answer:
+England"
+gpt-5-1,hotpotqa,5a7d90195542991319bc93cf,The axial turbojet Pirna 014 was designed by engineers from this German aircraft and aircraft engine manufacturer based in which city?,Dessau,Dessau,Ludwigsfelde,1,0,"[""Which German aircraft and aircraft engine manufacturer designed the Pirna 014?"", ""In which city is {answer_1} based?""]","{""answer_1"": ""Industriewerke Ludwigsfelde"", ""answer_2"": ""Ludwigsfelde""}","answer_1: str = qa_model(""Which German aircraft and aircraft engine manufacturer designed the Pirna 014?"")
+answer_2: str = qa_model(""In which city is {answer_1} based?"", answer_1=answer_1)","{
+  ""answer_1"": ""Industriewerke Ludwigsfelde"",
+  ""answer_2"": ""Ludwigsfelde""
+}","answer:
+Dessau"
+gpt-5-1,hotpotqa,5a80b23a5542992bc0c4a7b2,Ted Sutton plays Sergeant Cunningham in a2002 film that stars Mel Gibson as what character?,Graham Hess,Graham Hess,Lieutenant Colonel Hal Moore,1,0,"[""In which 2002 film does Ted Sutton play Sergeant Cunningham?"", ""What character does Mel Gibson play in {answer_1}?""]","{""answer_1"": ""We Were Soldiers"", ""answer_2"": ""Lieutenant Colonel Hal Moore""}","answer_1: str = qa_model(""In which 2002 film does Ted Sutton play Sergeant Cunningham?"")
+answer_2: str = qa_model(""What character does Mel Gibson play in {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""We Were Soldiers"",
+  ""answer_2"": ""Lieutenant Colonel Hal Moore""
+}","answer:
+Graham Hess"
+gpt-5-1,hotpotqa,5a8766cb5542996e4f3087d6,What southern California based band covered Blue Öyster Cult's Godzilla?,Fu Manchu,Fu Manchu,Racer X; Fu Manchu,1,0,"[""Which bands have covered Blue \u00c3\u0096yster Cult's song 'Godzilla'?"", ""Which of these bands is based in Southern California: {answer_1}?""]","{""answer_1"": ""Racer X; Fu Manchu; moe."", ""answer_2"": ""Racer X; Fu Manchu""}","answer_1: str = qa_model(""Which bands have covered Blue Öyster Cult's song 'Godzilla'?"")
+answer_2: str = qa_model(""Which of these bands is based in Southern California: {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Racer X; Fu Manchu; moe."",
+  ""answer_2"": ""Racer X; Fu Manchu""
+}","answer:
+Fu Manchu"
+gpt-5-1,hotpotqa,5ab292e4554299545a2cf993,In what political party was the man who officially opened he Royal Spa Centre in 1972?,Conservative,Conservative Party,No political party,1,0,"[""Who officially opened the Royal Spa Centre in 1972?"", ""What was the political party of {answer_1}?""]","{""answer_1"": ""Katharine, Duchess of Kent"", ""answer_2"": ""No political party""}","answer_1: str = qa_model(""Who officially opened the Royal Spa Centre in 1972?"")
+answer_2: str = qa_model(""What was the political party of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Katharine, Duchess of Kent"",
+  ""answer_2"": ""No political party""
+}","answer:
+Conservative Party"
+gpt-5-1,hotpotqa,5ab8f5685542991b5579f096,What year was the thesis supervisor of Jocelyn Bell Burnell awarded the Eddington Medal?,1969,1969,1977,1,0,"[""Who was the thesis supervisor of Jocelyn Bell Burnell?"", ""In what year was {answer_1} awarded the Eddington Medal?""]","{""answer_1"": ""Antony Hewish"", ""answer_2"": ""1977""}","answer_1: str = qa_model(""Who was the thesis supervisor of Jocelyn Bell Burnell?"")
+answer_2: str = qa_model(""In what year was {answer_1} awarded the Eddington Medal?"", answer_1=answer_1)","{
+  ""answer_1"": ""Antony Hewish"",
+  ""answer_2"": ""1977""
+}",1969
+gpt-5-1,hotpotqa,5ab99943554299131ca42391,"The 1895/96 Football League season was the eighth in Football League history with Everton, their Goodison Park home, is a football stadium located in Walton, Liverpool, in which country?",England,England,United Kingdom,1,0,"[""In which city is Goodison Park located?"", ""In which country is {answer_1} located?""]","{""answer_1"": ""Liverpool"", ""answer_2"": ""United Kingdom""}","answer_1: str = qa_model(""In which city is Goodison Park located?"")
+answer_2: str = qa_model(""In which country is {answer_1} located?"", answer_1=answer_1)","{
+  ""answer_1"": ""Liverpool"",
+  ""answer_2"": ""United Kingdom""
+}",England
+gpt-5-1,hotpotqa,5abbbd0f55429931dba144d5,Maurice Hines and his brother were famous for what?,dancer Gregory Hines,tap dancing,Tap dancing,1,,"[""Who is Maurice Hines's brother?"", ""What were Maurice Hines and {answer_1} famous for?""]","{""answer_1"": ""Gregory Hines"", ""answer_2"": ""Tap dancing""}","answer_1: str = qa_model(""Who is Maurice Hines's brother?"")
+answer_2: str = qa_model(""What were Maurice Hines and {answer_1} famous for?"", answer_1=answer_1)","{
+  ""answer_1"": ""Gregory Hines"",
+  ""answer_2"": ""Tap dancing""
+}",tap dancing
+gpt-5-1,hotpotqa,5ac2a5d455429921a00ab01b,What are the names of the current members of  American heavy metal band who wrote the music for  Hurt Locker The Musical? ,"Hetfield and Ulrich, longtime lead guitarist Kirk Hammett, and bassist Robert Trujillo.",James Hetfield; Lars Ulrich; Kirk Hammett; Robert Trujillo,,1,-1,"[""Which American heavy metal band wrote the music for 'Hurt Locker The Musical'?"", ""Who are the current members of the band {answer_1}?""]","{""error"": ""malformed_json"", ""raw"": """", ""error_detail"": ""unable_to_parse""}","answer_1: str = qa_model(""Which American heavy metal band wrote the music for 'Hurt Locker The Musical'?"")
+answer_2: str = qa_model(""Who are the current members of the band {answer_1}?"", answer_1=answer_1)",,"answer:
+James Hetfield; Lars Ulrich; Kirk Hammett; Robert Trujillo"
+gpt-5-1,hotpotqa,5add3b665542997545bbbcd2,The Boren-McCurdy proposals were partially brought about by which Oklahoma politician in 1992?,David Lyle Boren,David Boren,David Boren; Dave McCurdy,1,0,"[""Who were the Boren-McCurdy proposals named after?"", ""Which of {answer_1} was an Oklahoma politician in 1992?""]","{""answer_1"": ""David Boren; Dave McCurdy"", ""answer_2"": ""David Boren; Dave McCurdy""}","answer_1: str = qa_model(""Who were the Boren-McCurdy proposals named after?"")
+answer_2: str = qa_model(""Which of {answer_1} was an Oklahoma politician in 1992?"", answer_1=answer_1)","{
+  ""answer_1"": ""David Boren; Dave McCurdy"",
+  ""answer_2"": ""David Boren; Dave McCurdy""
+}","answer:
+David Boren"
+gpt-5-1,hotpotqa,5a72d98f5542992359bc31ac,Torrens Bridge railway station was located east of a park named after who?,Sir John Langdon Bonython,John Langdon Bonython,Thomas Elder,1,0,"[""What is the name of the park located east of Torrens Bridge railway station?"", ""Who was {answer_1} named after?""]","{""answer_1"": ""Elder Park"", ""answer_2"": ""Thomas Elder""}","answer_1: str = qa_model(""What is the name of the park located east of Torrens Bridge railway station?"")
+answer_2: str = qa_model(""Who was {answer_1} named after?"", answer_1=answer_1)","{
+  ""answer_1"": ""Elder Park"",
+  ""answer_2"": ""Thomas Elder""
+}","answer:
+John Langdon Bonython"
+gpt-5-1,hotpotqa,5a7413315542993a88ae2efb,"What town does the Mount Agamenticus region covers has the summer resort's name means ""beautiful place by the sea""?",Ogunquit,Ogunquit,Wells,1,0,"[""What is the name of a summer resort whose name means 'beautiful place by the sea'?"", ""What town in the Mount Agamenticus region is home to {answer_1}?""]","{""answer_1"": ""Ogunquit"", ""answer_2"": ""Wells""}","answer_1: str = qa_model(""What is the name of a summer resort whose name means 'beautiful place by the sea'?"")
+answer_2: str = qa_model(""What town in the Mount Agamenticus region is home to {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Ogunquit"",
+  ""answer_2"": ""Wells""
+}","answer:
+Ogunquit"
+gpt-5-1,hotpotqa,5a7a61d355429941d65f25fd,Who directed the movie that Jack Covin played Dr. Ardmore in?,Tom Holland,Tom Holland,Brian De Palma,1,0,"[""What movie did Jack Covin play Dr. Ardmore in?"", ""Who directed '{answer_1}'?""]","{""answer_1"": ""Carrie"", ""answer_2"": ""Brian De Palma""}","answer_1: str = qa_model(""What movie did Jack Covin play Dr. Ardmore in?"")
+answer_2: str = qa_model(""Who directed '{answer_1}'?"", answer_1=answer_1)","{
+  ""answer_1"": ""Carrie"",
+  ""answer_2"": ""Brian De Palma""
+}","answer:
+Tom Holland"
+gpt-5-1,hotpotqa,5a80b418554299485f5986ce,"Georges Favre, the French composer, was a student of which composer of ""The Sorcerer's Apprentice""?",Paul Abraham Dukas,Paul Dukas,Vincent d'Indy; Paul Dukas,1,0,"[""Who composed 'The Sorcerer's Apprentice'?"", ""Who was Georges Favre a student of, among composers including {answer_1}?""]","{""answer_1"": ""Paul Dukas"", ""answer_2"": ""Vincent d'Indy; Paul Dukas""}","answer_1: str = qa_model(""Who composed 'The Sorcerer's Apprentice'?"")
+answer_2: str = qa_model(""Who was Georges Favre a student of, among composers including {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Paul Dukas"",
+  ""answer_2"": ""Vincent d'Indy; Paul Dukas""
+}","answer:
+Paul Dukas"
+gpt-5-1,hotpotqa,5a8bbc135542995e66a474ea,"""No Foe Shall Gather Our Harvest"" is a poem first published in a monthly women's magazine published by who?",Bauer Media Group,Bauer Media Group,Australian Consolidated Press,1,0,"[""What monthly women's magazine first published the poem 'No Foe Shall Gather Our Harvest'?"", ""Who published {answer_1}?""]","{""answer_1"": ""The Australian Women's Weekly"", ""answer_2"": ""Australian Consolidated Press""}","answer_1: str = qa_model(""What monthly women's magazine first published the poem 'No Foe Shall Gather Our Harvest'?"")
+answer_2: str = qa_model(""Who published {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""The Australian Women's Weekly"",
+  ""answer_2"": ""Australian Consolidated Press""
+}","answer:
+Bauer Media Group"
+gpt-5-1,hotpotqa,5abf1a6d5542990832d3a122,"What should you do to show respect when walking the trail Oahu trial that leads to a 150 foot waterfall, on the night of Kane, Ku, Lono, or Kanaloa at sunset and just before the sunrises?",lie face down,"Lie face down on the ground, remain still, and avoid eye contact with the procession","Refrain from going on the trail or to the falls at those times; stay out of the stream and forest, keep lights and noise off, and leave the area undisturbed so the akua have the place to themselves from sunset through just before sunrise on those kapu nights",1,0,"[""What is the name of the trail on Oahu that leads to a 150-foot waterfall?"", ""What are the respectful practices for {answer_1} during the nights of Kane, Ku, Lono, or Kanaloa, specifically at sunset and just before sunrise?""]","{""answer_1"": ""Manoa Falls Trail"", ""answer_2"": ""Refrain from going on the trail or to the falls at those times; stay out of the stream and forest, keep lights and noise off, and leave the area undisturbed so the akua have the place to themselves from sunset through just before sunrise on those kapu nights""}","answer_1: str = qa_model(""What is the name of the trail on Oahu that leads to a 150-foot waterfall?"")
+answer_2: str = qa_model(""What are the respectful practices for {answer_1} during the nights of Kane, Ku, Lono, or Kanaloa, specifically at sunset and just before sunrise?"", answer_1=answer_1)","{
+  ""answer_1"": ""Manoa Falls Trail"",
+  ""answer_2"": ""Refrain from going on the trail or to the falls at those times; stay out of the stream and forest, keep lights and noise off, and leave the area undisturbed so the akua have the place to themselves from sunset through just before sunrise on those kapu nights""
+}","answer:
+Lie face down on the ground, remain still, and avoid eye contact with the procession"
+gpt-5-1,hotpotqa,5ae5301f5542990ba0bbb1f4,"In what year was the fairy tale of which the plot of ""Tears Were Falling"" can be viewed as a modern interpretation first published?",1844,1844,1837,1,0,"[""What fairy tale is 'Tears Were Falling' a modern interpretation of?"", ""In what year was '{answer_1}' first published?""]","{""answer_1"": ""The Little Mermaid"", ""answer_2"": ""1837""}","answer_1: str = qa_model(""What fairy tale is 'Tears Were Falling' a modern interpretation of?"")
+answer_2: str = qa_model(""In what year was '{answer_1}' first published?"", answer_1=answer_1)","{
+  ""answer_1"": ""The Little Mermaid"",
+  ""answer_2"": ""1837""
+}","answer:
+1844"
+gpt-5-1,mintaka,3823137d,What is the name of the dead river that flows through the capital city of India?,Yamuna,Yamuna River,Sahibi River,1,0,"[""What is the capital city of India?"", ""What is the name of the dead river that flows through {answer_1}?""]","{""answer_1"": ""New Delhi"", ""answer_2"": ""Sahibi River""}","answer_1: str = qa_model(""What is the capital city of India?"")
+answer_2: str = qa_model(""What is the name of the dead river that flows through {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""New Delhi"",
+  ""answer_2"": ""Sahibi River""
+}","answer:
+Yamuna River"
+gpt-5-1,mintaka,851dc8e8,What is the oldest house in the largest city in Illinois?,Clarke House Museum,Henry B. Clarke House,Noble–Seymour–Crippen House,1,0,"[""What is the largest city in Illinois?"", ""What is the oldest house in {answer_1}?""]","{""answer_1"": ""Chicago"", ""answer_2"": ""Noble\u2013Seymour\u2013Crippen House""}","answer_1: str = qa_model(""What is the largest city in Illinois?"")
+answer_2: str = qa_model(""What is the oldest house in {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Chicago"",
+  ""answer_2"": ""Noble–Seymour–Crippen House""
+}","answer:
+Henry B. Clarke House"
+gpt-5-1,mintaka,8a6a8515,How old was the explorer who discovered North America when he landed there?,41,41,30,1,0,"[""Who is the explorer who discovered North America?"", ""When did {answer_1} land in North America?"", ""How old was {answer_1} in {answer_2}?""]","{""answer_1"": ""Leif Erikson"", ""answer_2"": ""1000"", ""answer_3"": ""30""}","answer_1: str = qa_model(""Who is the explorer who discovered North America?"")
+answer_2: str = qa_model(""When did {answer_1} land in North America?"", answer_1=answer_1)
+answer_3: str = qa_model(""How old was {answer_1} in {answer_2}?"", answer_1=answer_1, answer_2=answer_2)","{
+  ""answer_1"": ""Leif Erikson"",
+  ""answer_2"": ""1000"",
+  ""answer_3"": ""30""
+}","answer:
+41"
+gpt-5-1,mintaka,9ac70118,How old was the youngest U.S. president when he died?,46,46,60,1,0,"[""Who was the youngest U.S. president?"", ""How old was {answer_1} when he died?""]","{""answer_1"": ""Theodore Roosevelt"", ""answer_2"": ""60""}","answer_1: str = qa_model(""Who was the youngest U.S. president?"")
+answer_2: str = qa_model(""How old was {answer_1} when he died?"", answer_1=answer_1)","{
+  ""answer_1"": ""Theodore Roosevelt"",
+  ""answer_2"": ""60""
+}","answer:
+46"
+gpt-5-1,mintaka,bcc3b346,What is the population of the country with the Great Pyramid of Giza?,102.3 million,106000000,109000000,1,0,"[""In which country is the Great Pyramid of Giza located?"", ""What is the population of {answer_1}?""]","{""answer_1"": ""Egypt"", ""answer_2"": ""109000000""}","answer_1: str = qa_model(""In which country is the Great Pyramid of Giza located?"")
+answer_2: str = qa_model(""What is the population of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Egypt"",
+  ""answer_2"": ""109000000""
+}","answer:
+106000000"
+gpt-5-1,mintaka,f1a5e729,How many kids does the lead actress of Emma have?,2,2,0,1,0,"[""Who is the lead actress in the movie 'Emma'?"", ""How many children does {answer_1} have?""]","{""answer_1"": ""Anya Taylor-Joy"", ""answer_2"": ""0""}","answer_1: str = qa_model(""Who is the lead actress in the movie 'Emma'?"")
+answer_2: str = qa_model(""How many children does {answer_1} have?"", answer_1=answer_1)","{
+  ""answer_1"": ""Anya Taylor-Joy"",
+  ""answer_2"": ""0""
+}","answer:
+2"
+gpt-5-1,mintaka,5c5e4201,How tall is the singer of Big Girls Don't Cry?,"5'4""",1.60 m,160 cm,1,0,"[""Who sings the song 'Big Girls Don't Cry'?"", ""How tall is {answer_1}?""]","{""answer_1"": ""Fergie"", ""answer_2"": ""160 cm""}","answer_1: str = qa_model(""Who sings the song 'Big Girls Don't Cry'?"")
+answer_2: str = qa_model(""How tall is {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Fergie"",
+  ""answer_2"": ""160 cm""
+}","answer:
+1.60 m"
+google-gemini-2-5-pro,bamboogle,bamboogle_0010_1a9c312e,What was the final book written by the author of On the Origin of Species?,The Formation of Vegetable Mould Through the Action of Worms,"The Formation of Vegetable Mould, through the Action of Worms, with Observations on their Habits",,1,-1,"[""Who is the author of 'On the Origin of Species'?"", ""What was the final book written by {answer_1}?""]","{""error"": ""malformed_json"", ""raw"": ""```json\n{\n  \""answer_1\"": \""Charles Darwin\"",\n  \""answer_2\"": \""The Formation of Vegetable Mould through the Action of Worms, with Observations on their Habits\"""", ""error_detail"": ""unable_to_parse""}","answer_1: str = qa_model(""Who is the author of 'On the Origin of Species'?"")
+answer_2: str = qa_model(""What was the final book written by {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Charles Darwin"",
+  ""answer_2"": ""The Formation of Vegetable Mould through the Action of Worms, with Observations on their Habits""","answer:
+The Formation of Vegetable Mould, through the Action of Worms, with Observations on their Habits"
+google-gemini-2-5-pro,bamboogle,bamboogle_0049_fb51af7c,Who is the father of the father of Barack Obama?,Hussein Onyango Obama,Hussein Onyango Obama,"{'answer_1': 'Barack Obama Sr.', 'answer_2': 'Hussein Onyango Obama'}",1,0,"[""Who is the father of Barack Obama?"", ""Who is the father of {answer_1}?""]","{""intermediate_answers"": {""answer_1"": ""Barack Obama Sr."", ""answer_2"": ""Hussein Onyango Obama""}}","answer_1: str = qa_model(""Who is the father of Barack Obama?"")
+answer_2: str = qa_model(""Who is the father of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""intermediate_answers"": {
+    ""answer_1"": ""Barack Obama Sr."",
+    ""answer_2"": ""Hussein Onyango Obama""
+  }
+}
+```","answer:
+Hussein Onyango Obama"
+google-gemini-2-5-pro,bamboogle,bamboogle_0079_4a0fafaf,In what country was the only cruise line that flies the American flag incorporated in?,Bermuda,Bermuda,"{'answer_1': 'Norwegian Cruise Line America', 'answer_2': 'United States'}",1,0,"[""What is the only cruise line that flies the American flag?"", ""In what country was {answer_1} incorporated?""]","{""intermediate_answers"": {""answer_1"": ""Norwegian Cruise Line America"", ""answer_2"": ""United States""}}","answer_1: str = qa_model(""What is the only cruise line that flies the American flag?"")
+answer_2: str = qa_model(""In what country was {answer_1} incorporated?"", answer_1=answer_1)","```json
+{
+  ""intermediate_answers"": {
+    ""answer_1"": ""Norwegian Cruise Line America"",
+    ""answer_2"": ""United States""
+  }
+}
+```",Bermuda
+google-gemini-2-5-pro,bamboogle,bamboogle_0110_3800034a,What's the motto of the oldest California State university?,Powering Silicon Valley,Powering Silicon Valley,Power; Wisdom; Friendship,1,0,"[""What is the oldest California State university?"", ""What is the motto of {answer_1}?""]","{""answer_1"": ""San Jos\u00e9 State University"", ""answer_2"": ""Power; Wisdom; Friendship""}","answer_1: str = qa_model(""What is the oldest California State university?"")
+answer_2: str = qa_model(""What is the motto of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""San José State University"",
+  ""answer_2"": ""Power; Wisdom; Friendship""
+}
+```","answer:
+Powering Silicon Valley"
+google-gemini-2-5-pro,bamboogle,bamboogle_0113_1b2b3f5c,What's the capital of the state that Harvard University is in?,Boston,Boston,"{'answer_1': 'Massachusetts', 'answer_2': 'Boston'}",1,0,"[""In which state is Harvard University located?"", ""What is the capital of {answer_1}?""]","{""intermediate_answers"": {""answer_1"": ""Massachusetts"", ""answer_2"": ""Boston""}}","answer_1: str = qa_model(""In which state is Harvard University located?"")
+answer_2: str = qa_model(""What is the capital of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""intermediate_answers"": {
+    ""answer_1"": ""Massachusetts"",
+    ""answer_2"": ""Boston""
+  }
+}
+```","answer:
+Boston"
+google-gemini-2-5-pro,crag,7d02db15-45be-4168-99da-a5e0a48fbd9e,what is the top artist in the most popular music genre in 2015?,taylor swift was the top artist in pop in 2015.,Taylor Swift,Drake,1,0,"[""What was the most popular music genre in 2015?"", ""Who was the top artist in the {answer_1} genre in 2015?""]","{""answer_1"": ""Hip-Hop/R&B"", ""answer_2"": ""Drake""}","answer_1: str = qa_model(""What was the most popular music genre in 2015?"")
+answer_2: str = qa_model(""Who was the top artist in the {answer_1} genre in 2015?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Hip-Hop/R&B"",
+  ""answer_2"": ""Drake""
+}
+```",Taylor Swift
+google-gemini-2-5-pro,hotpotqa,5a8ba62d554299240d9c205c,Lendley C. Black is Chancellor of a university offering how many majors?,85,88,88,1,0,"[""Which university is Lendley C. Black the Chancellor of?"", ""How many majors does {answer_1} offer?""]","{""answer_1"": ""University of Minnesota Duluth"", ""answer_2"": ""88""}","answer_1: str = qa_model(""Which university is Lendley C. Black the Chancellor of?"")
+answer_2: str = qa_model(""How many majors does {answer_1} offer?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""University of Minnesota Duluth"",
+  ""answer_2"": ""88""
+}
+```",88
+google-gemini-2-5-pro,hotpotqa,5a8fae775542992414482b3b,What all female high school is located in a town in Sunyani West District  in the Brong-Ahafo Region of Ghana?,Notre Dame High School,Notre Dame Girls' Senior High School,Odumaseman Senior High School,1,0,"[""What is the capital of the Sunyani West District?"", ""What all female high school is located in {answer_1}?""]","{""answer_1"": ""Odumase"", ""answer_2"": ""Odumaseman Senior High School""}","answer_1: str = qa_model(""What is the capital of the Sunyani West District?"")
+answer_2: str = qa_model(""What all female high school is located in {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Odumase"",
+  ""answer_2"": ""Odumaseman Senior High School""
+}
+```",Notre Dame Girls' Senior High School
+google-gemini-2-5-pro,hotpotqa,5a76353d5542994ccc918715,When was the artist who did the cover art of The Savage Frontier born?,"August 5, 1948",1948-08-05,1958-10-22,1,0,"[""Who did the cover art for 'The Savage Frontier'?"", ""When was {answer_1} born?""]","{""answer_1"": ""Keith Parkinson"", ""answer_2"": ""1958-10-22""}","answer_1: str = qa_model(""Who did the cover art for 'The Savage Frontier'?"")
+answer_2: str = qa_model(""When was {answer_1} born?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Keith Parkinson"",
+  ""answer_2"": ""1958-10-22""
+}
+```",1948-08-05
+google-gemini-2-5-pro,hotpotqa,5a8baf235542996e8ac889c2,Jon Bokenkamp wrote the screen play for the film starring which two actors?,Angelina Jolie and Ethan Hawke,Angelina Jolie; Ethan Hawke,Halle Berry; Abigail Breslin,1,0,"[""Name a film for which Jon Bokenkamp wrote the screenplay."", ""Which two actors starred in '{answer_1}'?""]","{""answer_1"": ""The Call"", ""answer_2"": ""Halle Berry; Abigail Breslin""}","answer_1: str = qa_model(""Name a film for which Jon Bokenkamp wrote the screenplay."")
+answer_2: str = qa_model(""Which two actors starred in '{answer_1}'?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""The Call"",
+  ""answer_2"": ""Halle Berry; Abigail Breslin""
+}
+```",Angelina Jolie; Ethan Hawke
+google-gemini-2-5-pro,hotpotqa,5ab279c9554299340b5254d9,Paul A. Freund is known for his writings on what supreme law of the United States of America?,United States Constitution,United States Constitution,Constitutional law,1,0,"[""What is the supreme law of the United States of America?"", ""What specific aspect of {answer_1} is Paul A. Freund known for his writings on?""]","{""answer_1"": ""United States Constitution"", ""answer_2"": ""Constitutional law""}","answer_1: str = qa_model(""What is the supreme law of the United States of America?"")
+answer_2: str = qa_model(""What specific aspect of {answer_1} is Paul A. Freund known for his writings on?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""United States Constitution"",
+  ""answer_2"": ""Constitutional law""
+}
+```","answer:
+United States Constitution"
+google-gemini-2-5-pro,hotpotqa,5ab91bc0554299753720f6fc,"When did a paramilitary offshoot of the IRA start carrying ut bombings, after splitting from the Real IRA?",2009,2009-11-20,2010,1,0,"[""What paramilitary group split from the Real IRA?"", ""When did {answer_1} start carrying out bombings?""]","{""answer_1"": ""\u00d3glaigh na h\u00c9ireann"", ""answer_2"": ""2010""}","answer_1: str = qa_model(""What paramilitary group split from the Real IRA?"")
+answer_2: str = qa_model(""When did {answer_1} start carrying out bombings?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Óglaigh na hÉireann"",
+  ""answer_2"": ""2010""
+}
+```",2009-11-20
+google-gemini-2-5-pro,hotpotqa,5abe249155429976d4830a7e, Ida Roland was born in a municipality  that lies on the shores of which lake ?,Lake Geneva,Lake Geneva,Alte Donau,1,0,"[""Where was Ida Roland born?"", ""Which lake lies on the shores of {answer_1}?""]","{""answer_1"": ""Vienna"", ""answer_2"": ""Alte Donau""}","answer_1: str = qa_model(""Where was Ida Roland born?"")
+answer_2: str = qa_model(""Which lake lies on the shores of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Vienna"",
+  ""answer_2"": ""Alte Donau""
+}
+```",Lake Geneva
+google-gemini-2-5-pro,hotpotqa,5ac3711f5542995ef918c18e,Where did a French film director direct a 2005 British-French martial arts action thriller starring Jet Li?,Glasgow,Glasgow,United Kingdom; France,1,0,"[""What is the 2005 British-French martial arts action thriller film starring Jet Li?"", ""Who directed '{answer_1}'?"", ""Where did {answer_2} direct '{answer_1}'?""]","{""answer_1"": ""Unleashed"", ""answer_2"": ""Louis Leterrier"", ""answer_3"": ""United Kingdom; France""}","answer_1: str = qa_model(""What is the 2005 British-French martial arts action thriller film starring Jet Li?"")
+answer_2: str = qa_model(""Who directed '{answer_1}'?"", answer_1=answer_1)
+answer_3: str = qa_model(""Where did {answer_2} direct '{answer_1}'?"", answer_1=answer_1, answer_2=answer_2)","```json
+{
+  ""answer_1"": ""Unleashed"",
+  ""answer_2"": ""Louis Leterrier"",
+  ""answer_3"": ""United Kingdom; France""
+}
+```",Glasgow
+google-gemini-2-5-pro,hotpotqa,5a76059155429976ec32bce6,"What shopping mall is the largest in south Texas, Malle del Norte or La Plaza Mall?",La Plaza Mall,La Plaza Mall,Mall del Norte,1,0,"[""What is the size of Mall del Norte?"", ""What is the size of La Plaza Mall?"", ""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?""]","{""answer_1"": ""1,212,515 sq ft"", ""answer_2"": ""1,200,000 sq ft"", ""answer_3"": ""Mall del Norte""}","answer_1: str = qa_model(""What is the size of Mall del Norte?"")
+answer_2: str = qa_model(""What is the size of La Plaza Mall?"")
+answer_3: str = qa_model(""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?"", answer_1=answer_1, answer_2=answer_2)","```json
+{
+  ""answer_1"": ""1,212,515 sq ft"",
+  ""answer_2"": ""1,200,000 sq ft"",
+  ""answer_3"": ""Mall del Norte""
+}
+```","answer:
+La Plaza Mall"
+google-gemini-2-5-pro,hotpotqa,5ab2c2e6554299545a2cfa62,"Which star of ""Not Like Everyone Else"" was also in ""Drunk History""?",Alia Shawkat,Alia Shawkat,Alia Shawkat; Illeana Douglas,1,0,"[""Who are the stars of 'Not Like Everyone Else'?"", ""Which of the actors from {answer_1} was also in 'Drunk History'?""]","{""answer_1"": ""Alia Shawkat; Illeana Douglas"", ""answer_2"": ""Alia Shawkat; Illeana Douglas""}","answer_1: str = qa_model(""Who are the stars of 'Not Like Everyone Else'?"")
+answer_2: str = qa_model(""Which of the actors from {answer_1} was also in 'Drunk History'?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Alia Shawkat; Illeana Douglas"",
+  ""answer_2"": ""Alia Shawkat; Illeana Douglas""
+}
+```",Alia Shawkat
+google-gemini-2-5-pro,hotpotqa,5ab433675542991751b4d6e6,Where does Lance Stephenson of the Indiana Pacers basketball team play his home games?,Bankers Life Fieldhouse,Bankers Life Fieldhouse,Liaoning Gymnasium,1,0,"[""What basketball team does Lance Stephenson play for?"", ""Where does the {answer_1} play their home games?""]","{""answer_1"": ""Liaoning Flying Leopards"", ""answer_2"": ""Liaoning Gymnasium""}","answer_1: str = qa_model(""What basketball team does Lance Stephenson play for?"")
+answer_2: str = qa_model(""Where does the {answer_1} play their home games?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Liaoning Flying Leopards"",
+  ""answer_2"": ""Liaoning Gymnasium""
+}
+```","answer:
+Bankers Life Fieldhouse"
+google-gemini-2-5-pro,hotpotqa,5abd40585542993062266c3e,West Ridge and the ridge that has IndependenceAvenue/Liberation Avenue as its eastern boundary are separated by what road? ,Castle Road,Castle Road,Independence Avenue,1,0,"[""Which ridge has Independence Avenue/Liberation Avenue as its eastern boundary?"", ""What road separates West Ridge and {answer_1}?""]","{""answer_1"": ""West Ridge"", ""answer_2"": ""Independence Avenue""}","answer_1: str = qa_model(""Which ridge has Independence Avenue/Liberation Avenue as its eastern boundary?"")
+answer_2: str = qa_model(""What road separates West Ridge and {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""West Ridge"",
+  ""answer_2"": ""Independence Avenue""
+}
+```",Castle Road
+google-gemini-2-5-pro,hotpotqa,5abd90545542996e802b47d7,"Fast Cars, Danger, Fire and Knives includes guest appearances from which hip hop record executive?",Jaime Meline,El-P,Cage,1,0,"[""Who made guest appearances on the album 'Fast Cars, Danger, Fire and Knives'?"", ""Which of the following is a hip hop record executive: {answer_1}?""]","{""answer_1"": ""Camu Tao; Cage"", ""answer_2"": ""Cage""}","answer_1: str = qa_model(""Who made guest appearances on the album 'Fast Cars, Danger, Fire and Knives'?"")
+answer_2: str = qa_model(""Which of the following is a hip hop record executive: {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Camu Tao; Cage"",
+  ""answer_2"": ""Cage""
+}
+```",El-P
+google-gemini-2-5-pro,hotpotqa,5ac5247c55429924173fb602,"""Apocalypic"" is a song sung by Lizzy Hale from which group? ",Halestorm,Halestorm,Cigarettes After Sex,1,0,"[""Who sings the song 'Apocalypic'?"", ""What group is {answer_1} from?""]","{""answer_1"": ""Cigarettes After Sex"", ""answer_2"": ""Cigarettes After Sex""}","answer_1: str = qa_model(""Who sings the song 'Apocalypic'?"")
+answer_2: str = qa_model(""What group is {answer_1} from?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Cigarettes After Sex"",
+  ""answer_2"": ""Cigarettes After Sex""
+}
+```",Halestorm
+google-gemini-2-5-pro,hotpotqa,5ade8f5e55429975fa854f11,"What is the name of the movie in which Edwin Brown plays a man that executed at least 400 people, including William Joyce and John Amery?",10 Rillington Place,10 Rillington Place,Let Him Have It,1,0,"[""Who executed William Joyce and John Amery?"", ""In which movie did Edwin Brown play {answer_1}?""]","{""answer_1"": ""Albert Pierrepoint"", ""answer_2"": ""Let Him Have It""}","answer_1: str = qa_model(""Who executed William Joyce and John Amery?"")
+answer_2: str = qa_model(""In which movie did Edwin Brown play {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Albert Pierrepoint"",
+  ""answer_2"": ""Let Him Have It""
+}
+```","answer:
+10 Rillington Place"
+google-gemini-2-5-pro,hotpotqa,5ae2a123554299495565daed,What is the focus of the technique which developed on the technique named after Frederich Matthias Alexander,body mechanics in a state of motion,Use of the self,The evolutionary development of human movement,1,0,"[""What technique is named after Frederich Matthias Alexander?"", ""What technique developed on {answer_1}?"", ""What is the focus of {answer_2}?""]","{""answer_1"": ""Alexander Technique"", ""answer_2"": ""Dart Procedures"", ""answer_3"": ""The evolutionary development of human movement""}","answer_1: str = qa_model(""What technique is named after Frederich Matthias Alexander?"")
+answer_2: str = qa_model(""What technique developed on {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What is the focus of {answer_2}?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""Alexander Technique"",
+  ""answer_2"": ""Dart Procedures"",
+  ""answer_3"": ""The evolutionary development of human movement""
+}
+```",Use of the self
+google-gemini-2-5-pro,hotpotqa,5ae78ec5554299540e5a5605,Guitars for Wounded Warriors is an album that was recorded in the village in which New York county?,Ulster County,Ulster County,Rockland County,1,0,"[""In which village was the album 'Guitars for Wounded Warriors' recorded?"", ""In which New York county is {answer_1} located?""]","{""answer_1"": ""Piermont"", ""answer_2"": ""Rockland County""}","answer_1: str = qa_model(""In which village was the album 'Guitars for Wounded Warriors' recorded?"")
+answer_2: str = qa_model(""In which New York county is {answer_1} located?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Piermont"",
+  ""answer_2"": ""Rockland County""
+}
+```",Ulster County
+google-gemini-2-5-pro,hotpotqa,5abffc58554299012d1db552,Which American college that has sent students to Centre for Medieval and Renaissance Studies was founded in 1874?,St. Olaf College,St. Olaf College; Macalester College,St. Olaf College; Macalester College; Colorado College,1,,"[""Which American colleges have sent students to the Centre for Medieval and Renaissance Studies?"", ""Which of these colleges was founded in 1874: {answer_1}?""]","{""answer_1"": ""St. Olaf College; Carleton College; Macalester College; Colorado College"", ""answer_2"": ""St. Olaf College; Macalester College; Colorado College""}","answer_1: str = qa_model(""Which American colleges have sent students to the Centre for Medieval and Renaissance Studies?"")
+answer_2: str = qa_model(""Which of these colleges was founded in 1874: {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""St. Olaf College; Carleton College; Macalester College; Colorado College"",
+  ""answer_2"": ""St. Olaf College; Macalester College; Colorado College""
+}
+```",St. Olaf College; Macalester College
+google-gemini-2-5-pro,hotpotqa,5add3b665542997545bbbcd2,The Boren-McCurdy proposals were partially brought about by which Oklahoma politician in 1992?,David Lyle Boren,David Boren; Dave McCurdy,David Boren; Dave McCurdy,1,0,"[""Who were the Boren-McCurdy proposals named after?"", ""Which of {answer_1} was an Oklahoma politician in 1992?""]","{""answer_1"": ""David Boren; Dave McCurdy"", ""answer_2"": ""David Boren; Dave McCurdy""}","answer_1: str = qa_model(""Who were the Boren-McCurdy proposals named after?"")
+answer_2: str = qa_model(""Which of {answer_1} was an Oklahoma politician in 1992?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""David Boren; Dave McCurdy"",
+  ""answer_2"": ""David Boren; Dave McCurdy""
+}
+```","answer:
+David Boren; Dave McCurdy"
+google-gemini-2-5-pro,mintaka,4ded8418,What's the tallest building in the state where Yosemite National Park is located?,Wilshire Grand Center,Wilshire Grand Center,Salesforce Tower,1,0,[],"{""answer_1"": ""California"", ""answer_2"": ""Salesforce Tower""}","answer_1: str = qa_model(""In which state is Yosemite National Park located?"")
+answer_2: str = qa_model(""What is the tallest building in {answer_1}?"", answer_1=answer_1)","intermediate_answers:
+{
+  ""answer_1"": ""California"",
+  ""answer_2"": ""Salesforce Tower""
+}",Wilshire Grand Center
+google-gemini-2-5-pro,mintaka,e6fb1f57,Who was the 40th US president's VP?,George H. W. Bush,George H. W. Bush,George H. W. Bush,1,0,[],"{""answer_1"": ""Ronald Reagan"", ""answer_2"": ""George H. W. Bush""}","answer_1: str = qa_model(""Who was the 40th US president?"")
+answer_2: str = qa_model(""Who was the Vice President for {answer_1}?"", answer_1=answer_1)","intermediate_answers:
+{
+  ""answer_1"": ""Ronald Reagan"",
+  ""answer_2"": ""George H. W. Bush""
+}","answer:
+George H. W. Bush"
+google-gemini-2-5-pro,mintaka,15e40e97,What was the name of the intern the 35th president had an affair with?,Marion Fay Alford,Mimi Alford,Mimi Alford,1,0,[],"{""answer_1"": ""John F. Kennedy"", ""answer_2"": ""Mimi Alford""}","answer_1: str = qa_model(""Who was the 35th president of the United States?"")
+answer_2: str = qa_model(""What was the name of the intern that {answer_1} had an affair with?"", answer_1=answer_1)","intermediate_answers:
+{
+  ""answer_1"": ""John F. Kennedy"",
+  ""answer_2"": ""Mimi Alford""
+}",Mimi Alford
+google-gemini-2-5-pro,mintaka,1e751cb7,How old is the current manager for the Detroit Tigers?,47,48,,1,-1,[],{},"answer_1: str = qa_model(""Who is the current manager for the Detroit Tigers?"")
+answer_2: str = qa_model(""How old is {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""intermediate_answers"": {
+    ""answer_",48
+google-gemini-2-5-pro,mintaka,447e31d9,Who was the first wife of Queen Elizabeth II's eldest son?,Diana Spencer,"Diana, Princess of Wales","Diana, Princess of Wales",1,0,[],"{""answer_1"": ""Charles III"", ""answer_2"": ""Diana, Princess of Wales""}","answer_1: str = qa_model(""Who is the eldest son of Queen Elizabeth II?"")
+answer_2: str = qa_model(""Who was the first wife of {answer_1}?"", answer_1=answer_1)","intermediate_answers:
+{
+  ""answer_1"": ""Charles III"",
+  ""answer_2"": ""Diana, Princess of Wales""
+}","Diana, Princess of Wales"
+google-gemini-2-5-pro,mintaka,48e38631,How many actors played Sonny in Big Daddy?,2,2,,1,0,[],{},"answer_1: str = qa_model(""Who played the character Sonny in the movie Big Daddy?"")
+answer_2: str = qa_model(""How many actors are in the group '{answer_1}'?"", answer_1=answer_1)","```json
+""intermediate_answers"": {
+  ""answer_1"": ""Adam Sandler"",",2
+google-gemini-2-5-pro,mintaka,817374ba,Who was a relative of the second president who also became a president?,John Quincy Adams,John Quincy Adams,John Quincy Adams,1,0,[],"{""answer_1"": ""John Adams"", ""answer_2"": ""John Quincy Adams""}","answer_1: str = qa_model(""Who was the second president of the United States?"")
+answer_2: str = qa_model(""Which relative of {answer_1} also became a president?"", answer_1=answer_1)","intermediate_answers:
+{
+  ""answer_1"": ""John Adams"",
+  ""answer_2"": ""John Quincy Adams""
+}","answer:
+John Quincy Adams"
+google-gemini-2-5-pro,mintaka,19c7c396,Who was MLB Commissioner during World Series of 1984?,Peter Ueberroth,Peter Ueberroth,Bowie Kuhn,1,0,"[""What organization oversees the World Series?"", ""Who was the commissioner of {answer_1} in 1984?""]","{""answer_1"": ""Major League Baseball"", ""answer_2"": ""Bowie Kuhn""}","answer_1: str = qa_model(""What organization oversees the World Series?"")
+answer_2: str = qa_model(""Who was the commissioner of {answer_1} in 1984?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Major League Baseball"",
+  ""answer_2"": ""Bowie Kuhn""
+}
+```","answer:
+Peter Ueberroth"
+google-gemini-2-5-pro,mintaka,70ab78eb,How long was the oldest American president in office for?,he is presently in office for a 4 year term,4 years,"1 year, 257 days",1,0,"[""Who is the oldest American president?"", ""How long was {answer_1} in office?""]","{""answer_1"": ""Joe Biden"", ""answer_2"": ""1 year, 257 days""}","answer_1: str = qa_model(""Who is the oldest American president?"")
+answer_2: str = qa_model(""How long was {answer_1} in office?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Joe Biden"",
+  ""answer_2"": ""1 year, 257 days""
+}
+```",4 years
+google-gemini-2-5-pro,mintaka,95dc97dc,Who distributed the movie that's based on the Harry Potter book released in 2004?,Warner Bros. Pictures,Warner Bros. Pictures,None,1,-1,"[""Which Harry Potter book was released in 2004?"", ""What is the title of the film based on '{answer_1}'?"", ""Who distributed the film '{answer_2}'?""]","{""answer_1"": ""No Harry Potter book was released in 2004"", ""answer_2"": ""None"", ""answer_3"": ""None""}","answer_1: str = qa_model(""Which Harry Potter book was released in 2004?"")
+answer_2: str = qa_model(""What is the title of the film based on '{answer_1}'?"", answer_1=answer_1)
+answer_3: str = qa_model(""Who distributed the film '{answer_2}'?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""No Harry Potter book was released in 2004"",
+  ""answer_2"": ""None"",
+  ""answer_3"": ""None""
+}
+```",Warner Bros. Pictures
+google-gemini-2-5-pro,mintaka,9d2a6039,How old is the current manager of Real Madrid?,62,63,"{'answer_1': 'Carlo Ancelotti', 'answer_2': '63'}",1,0,"[""Who is the current manager of Real Madrid?"", ""How old is {answer_1}?""]","{""intermediate_answers"": {""answer_1"": ""Carlo Ancelotti"", ""answer_2"": ""63""}}","answer_1: str = qa_model(""Who is the current manager of Real Madrid?"")
+answer_2: str = qa_model(""How old is {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""intermediate_answers"": {
+    ""answer_1"": ""Carlo Ancelotti"",
+    ""answer_2"": ""63""
+  }
+}
+```",63
+google-gemini-2-5-pro,mintaka,afc20de1,How long did the longest serving senator in Massachusetts history serve in the Senate?,46 years,"46 years, 291 days",Nearly 47 years,1,0,"[""Who was the longest serving senator in Massachusetts history?"", ""How long did {answer_1} serve in the Senate?""]","{""answer_1"": ""Ted Kennedy"", ""answer_2"": ""Nearly 47 years""}","answer_1: str = qa_model(""Who was the longest serving senator in Massachusetts history?"")
+answer_2: str = qa_model(""How long did {answer_1} serve in the Senate?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Ted Kennedy"",
+  ""answer_2"": ""Nearly 47 years""
+}
+```","46 years, 291 days"

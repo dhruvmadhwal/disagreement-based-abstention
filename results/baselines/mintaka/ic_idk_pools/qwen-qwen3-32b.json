@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "dataset": "data/processed/mintaka/mintaka_icidk_raw_100.json",
+    "model_slug": "qwen-qwen3-32b",
+    "pool_start": 0,
+    "pool_size": 100,
+    "total_scored": 22,
+    "selected_correct": 11,
+    "selected_incorrect": 4,
+    "target_correct": 11,
+    "target_incorrect": 4,
+    "early_stop": true
+  },
+  "records": [
+    {
+      "id": "73d2a271",
+      "question": "How many teams has Matthew Stafford played for?",
+      "gold": "2",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "2",
+      "raw_response": "answer:\n2",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "4694fd01",
+      "question": "Which series is older, Metroid or Super Mario Bros?",
+      "gold": "Super Mario Bros",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Super Mario Bros",
+      "raw_response": "answer:\nSuper Mario Bros",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "2723bb1b",
+      "question": "Which actor was the star of Titanic and was born in Los Angeles, California?",
+      "gold": "Leonardo DiCaprio",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Leonardo DiCaprio",
+      "raw_response": "answer:\nLeonardo DiCaprio",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "fe541d01",
+      "question": "Which US president has had the most votes?",
+      "gold": "Joe Biden",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nFranklin D. Roosevelt",
+      "judge_reasoning": "```json\n{\n  \"correct\": 0\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0\n}\n```"
+    },
+    {
+      "id": "88349c89",
+      "question": "Which actor starred in Vanilla Sky and was married to Katie Holmes?",
+      "gold": "Tom Cruise",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Tom Cruise",
+      "raw_response": "answer:\nTom Cruise",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "650e81a3",
+      "question": "What is the longest lake in the world?",
+      "gold": "Lake Tanganyika",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Lake Tanganyika",
+      "raw_response": "answer:\nLake Tanganyika",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "faa4e84c",
+      "question": "What is the latest US state to be admitted to the union that is not Hawaii?",
+      "gold": "Alaska",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Alaska",
+      "raw_response": "answer:\nAlaska",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "a146c476",
+      "question": "Is Texas the largest state in US?",
+      "gold": "No",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "No",
+      "raw_response": "answer:\nNo",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "a9011ddf",
+      "question": "What is the seventh tallest mountain in North America?",
+      "gold": "Mount Lucania",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nMount Fairweather",
+      "judge_reasoning": "```json\n{\n  \"correct\": 0\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0\n}\n```"
+    },
+    {
+      "id": "b218d184",
+      "question": "Has Bernie Sanders ever been president of the United States?",
+      "gold": "No",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "No",
+      "raw_response": "answer:\nNo",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "bff78c91",
+      "question": "What year was the first book of the A Song of Ice and Fire series published?",
+      "gold": "1996",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "1996",
+      "raw_response": "answer:\n1996",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "982450cf",
+      "question": "Who is the youngest current US governor?",
+      "gold": "Ron DeSantis",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nGretchen Whitmer",
+      "judge_reasoning": "```json\n{\n  \"correct\": 0\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0\n}\n```"
+    },
+    {
+      "id": "cf871296",
+      "question": "Who was the president of Argentina from 1989 to 1999?",
+      "gold": "Carlos Menem",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Carlos Menem",
+      "raw_response": "answer:\nCarlos Menem",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "217a0a84",
+      "question": "How long did it take to build the Lincoln Memorial?",
+      "gold": "8 years",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nApproximately 4 years",
+      "judge_reasoning": "```json\n{\n  \"correct\": 0\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0\n}\n```"
+    },
+    {
+      "id": "9e087ee3",
+      "question": "How old was Taylor Swift when she won her first Grammy?",
+      "gold": "20",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "20",
+      "raw_response": "answer:\n20",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    }
+  ]
+}

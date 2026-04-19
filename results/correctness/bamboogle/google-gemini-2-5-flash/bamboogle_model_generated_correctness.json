@@ -1,0 +1,494 @@
+{
+  "bamboogle_0001_6e6f1060": {
+    "correct": 1,
+    "reasoning": "The prediction 'James Madison' matches the gold answer 'james madison' after applying case normalization."
+  },
+  "bamboogle_0002_175308b7": {
+    "correct": 1,
+    "reasoning": "The prediction 'Titan IIIE Centaur' is a more specific and complete name for the launch vehicle system used, as the Centaur was an upper stage integrated with the Titan IIIE for the Voyager missions. It does not contradict the gold answer 'Titan IIIE' but rather provides additional, accurate detail, making it equivalent under the 'extra detail' rule."
+  },
+  "bamboogle_0003_891e0e7b": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the year as 1999, while the prediction states 1990. Calendar dates and years must match exactly according to Rule 2, so the prediction is incorrect."
+  },
+  "bamboogle_0004_cf977e2d": {
+    "correct": 1,
+    "reasoning": "The prediction directly matches the gold answer."
+  },
+  "bamboogle_0005_8f814452": {
+    "correct": 1,
+    "reasoning": "The prediction '1837-06-20' represents the same exact date as the gold answer '20 June 1837', just in a different format. This falls under exact matching for calendar dates."
+  },
+  "bamboogle_0006_3b420e8a": {
+    "correct": 1,
+    "reasoning": "The prediction '1789-04-30' is a normalized date format equivalent to the gold answer 'April 30, 1789'. The year, month, and day all match."
+  },
+  "bamboogle_0007_6e7bd693": {
+    "correct": 1,
+    "reasoning": "The prediction '1797-03-04' is an exact match for the date 'March 4, 1797' in the gold answer, just in a different format. Calendar dates must match exactly, which they do here."
+  },
+  "bamboogle_0008_c3368d53": {
+    "correct": 0,
+    "reasoning": "The prediction '139' is not within the allowed numeric tolerance of the gold answer '131'. The absolute difference is 8, while the allowed tolerance (max(0.5, 1% of 131)) is 1.31."
+  },
+  "bamboogle_0010_1a9c312e": {
+    "correct": 1,
+    "reasoning": "The prediction provides the full title of the book, which includes the gold answer as a subset. The extra detail in the prediction ('with Observations on their Habits') is part of the complete title and does not contradict the gold fact, falling under the 'extra detail' rule."
+  },
+  "bamboogle_0011_0671c011": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0012_3aefbc54": {
+    "correct": 1,
+    "reasoning": "The gold answer 'Erika Cheung' is included in the prediction. The prediction also includes 'Adam Rosendorff', who is also a Theranos whistleblower not related to a senior American government official. Since the question does not ask for an exact count or 'all' whistleblowers, providing additional correct information that does not contradict the gold is acceptable."
+  },
+  "bamboogle_0013_bbc4d2bd": {
+    "correct": 1,
+    "reasoning": "The prediction 'Titanium alloy' is a more specific form of 'Titanium' and does not contradict the gold answer. Aircraft are typically made from alloys rather than pure metals, so 'Titanium alloy' provides additional, accurate detail without changing the core fact that titanium is the primary material."
+  },
+  "bamboogle_0014_af764bd2": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0015_ab770108": {
+    "correct": 1,
+    "reasoning": "The prediction '1932-05-29' is an exact match for the gold date 'May 29, 1932', just in a different format (YYYY-MM-DD vs Month DD, YYYY). Calendar dates must match exactly, which they do."
+  },
+  "bamboogle_0016_035dab06": {
+    "correct": 1,
+    "reasoning": "The prediction includes the gold year '1827' and adds more specific date information (month and day), which is considered extra detail and does not contradict the gold answer. Rule 8 applies."
+  },
+  "bamboogle_0017_ba5fef1d": {
+    "correct": 1,
+    "reasoning": "The gold answer 'Jewish' refers to the religion or a follower of Judaism. The prediction 'Judaism' is the name of the religion itself. Both convey the same essential fact about the religion."
+  },
+  "bamboogle_0018_6de30b3d": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0019_68cc9ada": {
+    "correct": 0,
+    "reasoning": "The prediction date (May 5, 1906) does not match the gold date (November 6, 1905). Calendar dates must match exactly."
+  },
+  "bamboogle_0020_24d97e82": {
+    "correct": 1,
+    "reasoning": "The prediction 'Cholesterol' is identical to the gold answer 'cholesterol' after applying case normalization (Rule 1)."
+  },
+  "bamboogle_0022_6cd1bf3c": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0023_f3912b79": {
+    "correct": 1,
+    "reasoning": "The prediction '1891-01-08' is an equivalent representation of the date 'January 8, 1891' provided in the gold answer. Both specify the same day, month, and year."
+  },
+  "bamboogle_0024_d326facb": {
+    "correct": 1,
+    "reasoning": "The prediction '1868-03-23' represents the same date as the gold 'March 23, 1868'. Date formats are normalized, and the exact date matches."
+  },
+  "bamboogle_0025_6534f07a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Calcite' matches the gold answer 'calcite' after applying case normalization (Rule 1)."
+  },
+  "bamboogle_0026_2aa186e5": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0027_b6ed7ee5": {
+    "correct": 1,
+    "reasoning": "The prediction 'Centrifugal force' is identical to the gold answer 'Centrifugal Force', differing only in capitalization, which is ignored by normalization rules."
+  },
+  "bamboogle_0028_ec928c44": {
+    "correct": 1,
+    "reasoning": "The prediction 'l' is identical to the gold answer 'l'."
+  },
+  "bamboogle_0029_45dd51fa": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0030_e46296ae": {
+    "correct": 1,
+    "reasoning": "The prediction 'Private Pilot Certificate' specifies the type of license, which implies being a 'pilot'. This is a more detailed but non-contradictory answer to the gold 'pilot', falling under the 'extra detail' rule."
+  },
+  "bamboogle_0031_09f34243": {
+    "correct": 1,
+    "reasoning": "The prediction '1889-11-20' represents the same exact date as the gold answer 'November 20, 1889'. Different date formats are considered equivalent if the underlying date (year, month, day) matches exactly."
+  },
+  "bamboogle_0032_11e51f29": {
+    "correct": 1,
+    "reasoning": "The prediction '1994-04-22' is a normalized date format equivalent to the gold answer 'April 22, 1994'. The year, month, and day all match."
+  },
+  "bamboogle_0033_3ac04942": {
+    "correct": 1,
+    "reasoning": "The prediction provides the exact same date as the gold answer, just in a different format (YYYY-MM-DD vs Month Day, Year). This is considered an exact match for calendar dates."
+  },
+  "bamboogle_0034_b73fc285": {
+    "correct": 1,
+    "reasoning": "The prediction 'Austin' is identical to the gold answer 'Austin'."
+  },
+  "bamboogle_0035_f61df3cd": {
+    "correct": 0,
+    "reasoning": "The predicted airspeed (112 km/h) is significantly different from the gold airspeed (320 km/h), exceeding the allowed numeric tolerance. This is a direct contradiction."
+  },
+  "bamboogle_0036_11031c0f": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold answer."
+  },
+  "bamboogle_0037_be0f74dc": {
+    "correct": 1,
+    "reasoning": "The prediction 'New Delhi' is an exact match to the gold answer 'New Delhi'."
+  },
+  "bamboogle_0038_b587d315": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold answer."
+  },
+  "bamboogle_0039_7e165501": {
+    "correct": -1,
+    "reasoning": "The prediction states 'The information is not provided,' which is a refusal to answer the question. According to rule 10, this is considered not meaningful."
+  },
+  "bamboogle_0040_55991d31": {
+    "correct": 1,
+    "reasoning": "The prediction 'Wool merchant' is identical to the gold answer 'wool merchant' after case normalization."
+  },
+  "bamboogle_0041_79c1014c": {
+    "correct": 1,
+    "reasoning": "The numerical value '10.8' matches exactly. Adding the unit 'grams' is an acceptable extra detail that clarifies the measurement without contradicting the gold answer, as per Rule 5 (units) and Rule 8 (extra detail)."
+  },
+  "bamboogle_0042_56fa9e0c": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0043_d65a05e7": {
+    "correct": 0,
+    "reasoning": "The numeric values '310' and '305' are not within the allowed tolerance. The absolute difference is 5, while 1% of the reference (310) is 3.1. Since 5 > 3.1, it's considered incorrect. Units 'square kilometers' and 'km\u00b2' are equivalent."
+  },
+  "bamboogle_0044_f8e3e961": {
+    "correct": 0,
+    "reasoning": "The predicted death toll (23,000) is significantly different from the gold death toll (847), exceeding the allowed numeric tolerance."
+  },
+  "bamboogle_0045_38628071": {
+    "correct": 0,
+    "reasoning": "The prediction '62' is not within the allowed numeric tolerance of the gold answer '52'. The absolute difference is 10, while the maximum allowed difference is max(0.5, 1% of 52) = max(0.5, 0.52) = 0.52."
+  },
+  "bamboogle_0046_0e09f340": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0047_2b5facaa": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0048_847035a6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Mildred Warner Washington' includes the maiden name 'Mildred Warner' from the gold answer and adds the married surname 'Washington'. This is an acceptable extra detail that does not contradict the core fact, as it refers to the same person."
+  },
+  "bamboogle_0049_fb51af7c": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0050_43f80844": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Habiba Akumu Nyanjango as the mother of Barack Obama's father, while the prediction identifies Sarah Onyango Obama. These are two distinct individuals, making the prediction a contradiction to the gold fact."
+  },
+  "bamboogle_0051_ff4cece0": {
+    "correct": 1,
+    "reasoning": "The prediction 'William R. Grace' is an acceptable abbreviation of the gold answer 'William Russell Grace'. 'R.' is a common abbreviation for 'Russell'."
+  },
+  "bamboogle_0052_19a8da47": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0053_440fdd60": {
+    "correct": 1,
+    "reasoning": "The prediction '1958-07-31' represents the exact same date as the gold answer 'July 31, 1958'. Different date formats are considered equivalent if the underlying date is the same."
+  },
+  "bamboogle_0054_3ecff82e": {
+    "correct": 1,
+    "reasoning": "The prediction '1971-03-30' represents the same exact calendar date as the gold answer 'March 30, 1971', just in a different format. Calendar dates must match exactly, which they do here."
+  },
+  "bamboogle_0055_a38b6895": {
+    "correct": 1,
+    "reasoning": "The gold answer 'James Cameroon' contains a common misspelling of the director's name. The prediction 'James Cameron' provides the correct spelling for the same individual. The essential fact (the identity of the director) is communicated correctly, with the prediction correcting a typo present in the gold."
+  },
+  "bamboogle_0056_fe704e02": {
+    "correct": 1,
+    "reasoning": "The prediction '2011-06-30' specifies the exact same date as the gold answer '30 June 2011', just in a different format. Calendar dates must match exactly, which they do here."
+  },
+  "bamboogle_0057_ce243def": {
+    "correct": 0,
+    "reasoning": "The prediction 'Pfizer' is a different company than the gold answer 'GlaxoSmithKline', directly contradicting the gold fact about which company was responsible for the largest pharmaceutical settlement."
+  },
+  "bamboogle_0058_57c459c2": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0059_abedd531": {
+    "correct": 0,
+    "reasoning": "The predicted year '2012' does not match the gold year '1988'. Calendar dates and years must match exactly according to rule 2."
+  },
+  "bamboogle_0060_6e765861": {
+    "correct": 1,
+    "reasoning": "The prediction '2012' is an exact match to the gold answer '2012'."
+  },
+  "bamboogle_0061_a3c7dda3": {
+    "correct": 0,
+    "reasoning": "The gold answer is '1935' and the prediction is '2021'. Calendar dates/years must match exactly, and these values are different."
+  },
+  "bamboogle_0062_c69178e2": {
+    "correct": 1,
+    "reasoning": "The prediction 'China' is identical to the gold answer 'China'."
+  },
+  "bamboogle_0063_3eb28528": {
+    "correct": 1,
+    "reasoning": "The prediction '2021-10-21' includes the year '2021', which exactly matches the gold answer. The additional detail of month and day does not contradict the gold and is considered acceptable extra detail (Rule 8)."
+  },
+  "bamboogle_0064_647f7ea9": {
+    "correct": 0,
+    "reasoning": "The gold answer is '1902' and the prediction is '1990'. According to rule 2, calendar dates or years must match exactly. The values do not match."
+  },
+  "bamboogle_0065_66ea9139": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0066_6b32e7f3": {
+    "correct": 0,
+    "reasoning": "The predicted year '736' does not match the gold year '1045 BC'. Calendar dates or years must match exactly according to Rule 2."
+  },
+  "bamboogle_0067_c104c160": {
+    "correct": 0,
+    "reasoning": "The prediction lists 'Colombia; Venezuela' as the countries, which is a direct contradiction to the gold answer 'India and Bangladesh'. These are different geographical locations and different rivers (Orinoco vs. Brahmaputra)."
+  },
+  "bamboogle_0068_895a496d": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0069_eab55f39": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0070_76e724e4": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0071_312902b3": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0072_70ea2630": {
+    "correct": -1,
+    "reasoning": "The prediction states 'Not available in the provided information,' which is a refusal to answer the question directly. According to rule 10, this is considered 'not meaningful'."
+  },
+  "bamboogle_0073_20cb1404": {
+    "correct": 0,
+    "reasoning": "The prediction '1819' does not match the gold answer '1810'. For calendar dates and years, the values must match exactly according to the numeric tolerance rule."
+  },
+  "bamboogle_0074_444fb63b": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0075_c547bf6d": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0076_f6a6ba5b": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0077_7cb17c41": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0078_90b26dca": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0079_4a0fafaf": {
+    "correct": 0,
+    "reasoning": "The prediction 'United States' directly contradicts the gold answer 'Bermuda' regarding the country of incorporation."
+  },
+  "bamboogle_0080_d07f4725": {
+    "correct": 0,
+    "reasoning": "The gold answer is 1992, and the prediction is 1995. For calendar dates or years, an exact match is required, so 1995 does not match 1992."
+  },
+  "bamboogle_0081_cfd7f8b7": {
+    "correct": 0,
+    "reasoning": "The prediction 'Red' directly contradicts the gold answer 'Cambridge Blue' regarding the official color."
+  },
+  "bamboogle_0082_d66846e5": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0083_5d2276a6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Tiberius' is an exact match to the gold answer 'Tiberius'."
+  },
+  "bamboogle_0084_6694d7d9": {
+    "correct": 0,
+    "reasoning": "The prediction 'Atari' contradicts the gold answer 'MECC' regarding the producer of the longest-running video game franchise."
+  },
+  "bamboogle_0085_4ff2b919": {
+    "correct": 1,
+    "reasoning": "The names 'Jakob' and 'Jacob' are common variations of the same name, making them equivalent under normalization rules."
+  },
+  "bamboogle_0086_998cb1bd": {
+    "correct": 1,
+    "reasoning": "The prediction 'Nicholas Bacon' is equivalent to the gold answer 'Sir Nicholas Bacon' as titles like 'Sir' are ignored during normalization (Rule 1)."
+  },
+  "bamboogle_0087_12cdd074": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold answer."
+  },
+  "bamboogle_0088_f7654873": {
+    "correct": 0,
+    "reasoning": "The gold answer correctly identifies the father as 'Yehuda Leib'. The prediction adds 'Ben-Yehuda' to the name, which is the surname adopted by his son, Eliezer Ben-Yehuda, not the father's surname. This makes the prediction factually incorrect."
+  },
+  "bamboogle_0089_d8b6f09c": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0090_ecb49f7e": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0091_3845ed5d": {
+    "correct": 1,
+    "reasoning": "The prediction 'Max Teller' is an exact match for the gold answer 'Max Teller'."
+  },
+  "bamboogle_0092_f3b51347": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold answer."
+  },
+  "bamboogle_0093_f8df7c48": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0094_f6def5e8": {
+    "correct": 0,
+    "reasoning": "The prediction 'Andries van Wesele' differs from the gold answer 'Anders van Wesel' in both the first name ('Andries' vs 'Anders') and a slight spelling variation in the last name ('Wesele' vs 'Wesel'). These are distinct names, not just minor normalizations or aliases."
+  },
+  "bamboogle_0095_fa23ed5f": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0096_df47c5e5": {
+    "correct": 1,
+    "reasoning": "The gold and prediction represent the exact same date, just in different formats. Date values must match exactly, which they do here."
+  },
+  "bamboogle_0097_eb1ca032": {
+    "correct": 1,
+    "reasoning": "The prediction 'Claude Elwood Shannon Sr.' provides a more complete name for the individual referred to as 'Claude Sr.' in the gold answer. The additional detail (Elwood Shannon) does not contradict the gold fact and is an acceptable expansion of the name, falling under the 'extra descriptive text' allowance."
+  },
+  "bamboogle_0098_0c225f4e": {
+    "correct": 1,
+    "reasoning": "The prediction '1869-10-02' is an exact match for the gold date 'October 2, 1869' in a different format (YYYY-MM-DD vs Month Day, Year). Dates must match exactly, and they do."
+  },
+  "bamboogle_0099_1b62d67b": {
+    "correct": 1,
+    "reasoning": "The gold and prediction provide the same exact date, just in different formats. Dates must match exactly, and they do."
+  },
+  "bamboogle_0100_0b9ce56c": {
+    "correct": 1,
+    "reasoning": "The prediction '2004-06-05' represents the same exact date as the gold answer 'June 5, 2004'. Date formats are normalized."
+  },
+  "bamboogle_0101_5fc6a795": {
+    "correct": 0,
+    "reasoning": "The gold answer is 312 m and the prediction is 550 m. The absolute difference is 238 m. The allowed tolerance is max(0.5, 1% of 312) = 3.12 m. Since 238 > 3.12, the prediction is outside the acceptable numeric tolerance."
+  },
+  "bamboogle_0102_b0751786": {
+    "correct": 1,
+    "reasoning": "The prediction '1650-02-11' is a normalized date format for 'February 11, 1650'. Both represent the exact same calendar date, satisfying the exact match requirement for dates."
+  },
+  "bamboogle_0103_912f993b": {
+    "correct": 1,
+    "reasoning": "The prediction '1865-04-15' provides the exact same date as the gold answer 'April 15, 1865', just in a different format. Calendar dates must match exactly, which they do here."
+  },
+  "bamboogle_0104_aef80091": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0105_f2071bcb": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0106_c5cfc537": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0107_4ca74523": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the founding year as 2005, while the prediction states 2006. Calendar dates must match exactly, and the years are different."
+  },
+  "bamboogle_0108_65486b64": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold answer."
+  },
+  "bamboogle_0109_92684d66": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold answer."
+  },
+  "bamboogle_0110_3800034a": {
+    "correct": 0,
+    "reasoning": "The prediction 'Vox Veritas Vita' is a different motto than the gold answer 'Powering Silicon Valley'. There is a direct contradiction."
+  },
+  "bamboogle_0111_3bd3261a": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0112_282427bc": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0113_1b2b3f5c": {
+    "correct": 1,
+    "reasoning": "The prediction 'Boston' is identical to the gold answer 'Boston'."
+  },
+  "bamboogle_0114_069ae026": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0115_b9849ebd": {
+    "correct": 1,
+    "reasoning": "The prediction 'Brazil' is identical to the gold answer 'Brazil'."
+  },
+  "bamboogle_0116_082827a9": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Pine Tree State' is equivalent to the gold answer 'Pine Tree State' after ignoring the English article 'The' as per normalization rule 1."
+  },
+  "bamboogle_0117_dfe819b3": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Golden State' is equivalent to the gold answer 'Golden State' after ignoring the English article 'The' as per normalization rule 1."
+  },
+  "bamboogle_0118_33946144": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0119_b01b3580": {
+    "correct": 1,
+    "reasoning": "The prediction '1953-07-27' is a different format for the same date 'July 27, 1953' as the gold answer. Date formats are normalized."
+  },
+  "bamboogle_0120_b1384212": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Evergreen State' is equivalent to the gold answer 'Evergreen State' after ignoring the English article 'The' as per normalization rule 1."
+  },
+  "bamboogle_0121_864a9200": {
+    "correct": 1,
+    "reasoning": "The prediction '1877-12-13' provides the same date as the gold answer 'December 13, 1877', just in a different format. The year, month, and day all match."
+  },
+  "bamboogle_0122_7a7aef7c": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0123_faadb1ea": {
+    "correct": 1,
+    "reasoning": "The prediction provides the same name 'Naruko Yanagiwara' as the gold 'Yanagiwara Naruko'. The addition of 'Lady' is an honorific and the reordering of given and family names is a common variation, neither of which contradicts the core fact."
+  },
+  "bamboogle_0124_383038d1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Helium' is identical to the gold answer 'Helium'."
+  },
+  "bamboogle_0125_0be878d1": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  }
+}

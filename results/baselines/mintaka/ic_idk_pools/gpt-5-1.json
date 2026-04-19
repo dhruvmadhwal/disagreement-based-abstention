@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "dataset": "data/raw/mintaka/mintaka_en_350.json",
+    "model_slug": "gpt-5-1",
+    "pool_start": 0,
+    "pool_size": 350,
+    "total_scored": 32,
+    "selected_correct": 11,
+    "selected_incorrect": 4,
+    "target_correct": 11,
+    "target_incorrect": 4,
+    "early_stop": true
+  },
+  "records": [
+    {
+      "id": "b218d184",
+      "question": "Has Bernie Sanders ever been president of the United States?",
+      "gold": "No",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "No",
+      "raw_response": "answer:\nNo",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "f477742c",
+      "question": "Which actor was Stephenie Meyer's first choice to play Edward Cullen in the movie Twilight?",
+      "gold": "Henry Cavill",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Henry Cavill",
+      "raw_response": "answer:\nHenry Cavill",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "a9011ddf",
+      "question": "What is the seventh tallest mountain in North America?",
+      "gold": "Mount Lucania",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Mount Lucania",
+      "raw_response": "answer:\nMount Lucania",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "47862d75",
+      "question": "How old is Aziz Ansari?",
+      "gold": "38",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "39",
+      "judge_reasoning": "The question asks for Aziz Ansari's age.\nGold: 38\nPrediction: 39\n\nThis is a \"naturally drifting value\" (age), so we apply the specific rule for such values:\n\"For naturally drifting values (ages, census counts, revenues, etc.), compute 1 \u2212 |a \u2212 b|/max(|a|, |b|) and treat values within a 1\u20135.5 percentage-point window as equivalent.\"\n\nLet's calculate the percentage difference:\nAbsolute difference = |38 - 39| = 1\nMaximum of the two values = max(38, 39) = 39\nPercentage difference = (Absolute difference / Maximum value) * 100\nPercentage difference = (1 / 39) * 100 \u2248 2.564%\n\nThe rule states that values are equivalent if their percentage difference falls within a 1\u20135.5 percentage-point window.\nSince 1% \u2264 2.564% \u2264 5.5%, the prediction falls within the acceptable window.\n\nTherefore, the prediction is considered correct according to the specified rule.\n\n```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "The question asks for Aziz Ansari's age.\nGold: 38\nPrediction: 39\n\nThis is a \"naturally drifting value\" (age), so we apply the specific rule for such values:\n\"For naturally drifting values (ages, census counts, revenues, etc.), compute 1 \u2212 |a \u2212 b|/max(|a|, |b|) and treat values within a 1\u20135.5 percentage-point window as equivalent.\"\n\nLet's calculate the percentage difference:\nAbsolute difference = |38 - 39| = 1\nMaximum of the two values = max(38, 39) = 39\nPercentage difference = (Absolute difference / Maximum value) * 100\nPercentage difference = (1 / 39) * 100 \u2248 2.564%\n\nThe rule states that values are equivalent if their percentage difference falls within a 1\u20135.5 percentage-point window.\nSince 1% \u2264 2.564% \u2264 5.5%, the prediction falls within the acceptable window.\n\nTherefore, the prediction is considered correct according to the specified rule.\n\n```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "2723bb1b",
+      "question": "Which actor was the star of Titanic and was born in Los Angeles, California?",
+      "gold": "Leonardo DiCaprio",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Leonardo DiCaprio",
+      "raw_response": "Leonardo DiCaprio",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "217a0a84",
+      "question": "How long did it take to build the Lincoln Memorial?",
+      "gold": "8 years",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "8 years",
+      "raw_response": "answer:\n8 years",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "fe541d01",
+      "question": "Which US president has had the most votes?",
+      "gold": "Joe Biden",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Joe Biden",
+      "raw_response": "answer:\nJoe Biden",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "9e087ee3",
+      "question": "How old was Taylor Swift when she won her first Grammy?",
+      "gold": "20",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "20",
+      "raw_response": "20",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "cb790bce",
+      "question": "Have the Los Angeles Rams won a Super Bowl ring since moving back to Los Angeles?",
+      "gold": "No",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nYes",
+      "judge_reasoning": "```json\n{\n  \"correct\": 0\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0\n}\n```"
+    },
+    {
+      "id": "bff78c91",
+      "question": "What year was the first book of the A Song of Ice and Fire series published?",
+      "gold": "1996",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "1996",
+      "raw_response": "1996",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "88349c89",
+      "question": "Which actor starred in Vanilla Sky and was married to Katie Holmes?",
+      "gold": "Tom Cruise",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Tom Cruise",
+      "raw_response": "Tom Cruise",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "40db23ca",
+      "question": "Did The Beatles release Rubber Soul before Revolver?",
+      "gold": "No",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nYes",
+      "judge_reasoning": "```json\n{\n  \"correct\": 0\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0\n}\n```"
+    },
+    {
+      "id": "2e3cf745",
+      "question": "Which river is longer than the Mississippi River?",
+      "gold": "The Nile",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "The Nile",
+      "raw_response": "Nile River",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    },
+    {
+      "id": "80137241",
+      "question": "Who has been in more movies, Kevin Hart or Dwayne Johnson?",
+      "gold": "Dwayne Johnson",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nKevin Hart",
+      "judge_reasoning": "```json\n{\n  \"correct\": 0\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0\n}\n```"
+    },
+    {
+      "id": "982450cf",
+      "question": "Who is the youngest current US governor?",
+      "gold": "Ron DeSantis",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Ron DeSantis",
+      "raw_response": "answer:\nRon DeSantis",
+      "judge_reasoning": "```json\n{\n  \"correct\": 1\n}\n```",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1\n}\n```"
+    }
+  ]
+}

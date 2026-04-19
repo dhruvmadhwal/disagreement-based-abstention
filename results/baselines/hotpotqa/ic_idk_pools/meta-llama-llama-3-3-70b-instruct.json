@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "5abb1cc55542992ccd8e7f16",
+      "question": "Brian Keith \"Herbie\" Flowers, is an English musician specialising in electric bass, double bass and tuba, he has contributed to the recording Give My Regards to Broad Street is the fifth studio album by who, as well as the soundtrack album to his 1984 film of the same name?",
+      "gold": "Paul McCartney",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Paul McCartney",
+      "raw_response": "Paul McCartney",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8fdc1e5542995b44242097",
+      "question": "The Chandrasekhar limit was named after an astrophysicist, what is the name of his uncle of which is also a novel laureate?",
+      "gold": "Sir C. V. Raman",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Sir C. V. Raman",
+      "raw_response": "answer:\nC.V. Raman",
+      "judge_reasoning": "The prediction provides the essential name 'C.V. Raman', which is equivalent to the gold answer 'Sir C. V. Raman'. The honorific 'Sir' is considered extra detail and does not change the core fact of the name.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides the essential name 'C.V. Raman', which is equivalent to the gold answer 'Sir C. V. Raman'. The honorific 'Sir' is considered extra detail and does not change the core fact of the name.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ade45ed554299728e26c699",
+      "question": "The 2016 Washington State Cougars were led by the coach who previously helmed which other team?",
+      "gold": "Texas Tech Red Raiders",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Texas Tech Red Raiders",
+      "raw_response": "Mike Leach; Texas Tech Red Raiders",
+      "judge_reasoning": "The prediction includes the correct team, 'Texas Tech Red Raiders', which is the essential fact requested by the question. The additional information 'Mike Leach' is extra detail but does not contradict the gold answer, making it acceptable under the 'Extra detail' rule.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction includes the correct team, 'Texas Tech Red Raiders', which is the essential fact requested by the question. The additional information 'Mike Leach' is extra detail but does not contradict the gold answer, making it acceptable under the 'Extra detail' rule.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab285d0554299340b5254fa",
+      "question": "The Acolytes Protection Agency consisted of what wrestler born November 29, 1966",
+      "gold": "John Layfield",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Faarooq; Bradshaw",
+      "judge_reasoning": "The question asks for the wrestler born on November 29, 1966. The gold answer, 'John Layfield', is correct as he was born on that date. The prediction includes 'Bradshaw', which is an alias for John Layfield, making that part correct. However, the prediction also includes 'Faarooq'. Faarooq (Ron Simmons) was born on May 15, 1958, not November 29, 1966. The inclusion of 'Faarooq' contradicts the specific birth date provided in the question, making the prediction incorrect due to contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The question asks for the wrestler born on November 29, 1966. The gold answer, 'John Layfield', is correct as he was born on that date. The prediction includes 'Bradshaw', which is an alias for John Layfield, making that part correct. However, the prediction also includes 'Faarooq'. Faarooq (Ron Simmons) was born on May 15, 1958, not November 29, 1966. The inclusion of 'Faarooq' contradicts the specific birth date provided in the question, making the prediction incorrect due to contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adcf98255429947343537e9",
+      "question": "Which show connects Arthur Darvill and Matt Smith?",
+      "gold": "Doctor Who",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doctor Who",
+      "raw_response": "Doctor Who",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adccffc5542994d58a2f6e0",
+      "question": "In which theatre in Los Angeles did the late-night talk show host of \"Chelsea Lately\" host the 2010 MTV Video Music Awards?",
+      "gold": "Nokia Theatre",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Nokia Theatre",
+      "raw_response": "answer:\nNokia Theatre",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8113ca55429938b61422ab",
+      "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+      "gold": "Chlorophyll",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chlorophyll",
+      "raw_response": "Chlorophyll a",
+      "judge_reasoning": "The prediction 'Chlorophyll a' is a specific type of 'Chlorophyll' and is indeed found in Prochlorococcus and essential for photosynthesis. It is a more specific, but still correct, answer that does not contradict the broader gold answer. This falls under the 'extra detail' or 'subset allowance' rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chlorophyll a' is a specific type of 'Chlorophyll' and is indeed found in Prochlorococcus and essential for photosynthesis. It is a more specific, but still correct, answer that does not contradict the broader gold answer. This falls under the 'extra detail' or 'subset allowance' rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ae68e9d55429908198fa60e",
+      "question": "Who acted in \"Shanghai Knights\" and voiced Lightning McQueen in the \"Cars\" franchise?",
+      "gold": "Owen Wilson",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Owen Wilson",
+      "raw_response": "answer:\nOwen Wilson",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab3f9b95542992ade7c6f09",
+      "question": "It Takes a Family is a response to this 1996 book that was published by who",
+      "gold": "Hillary Rodham Clinton",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nDick Morris",
+      "judge_reasoning": "The gold answer states 'Hillary Rodham Clinton' as the publisher, while the prediction states 'Dick Morris'. These are two different individuals, leading to a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states 'Hillary Rodham Clinton' as the publisher, while the prediction states 'Dick Morris'. These are two different individuals, leading to a contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a903a4855429933b8a204a9",
+      "question": "What era was the man associated with Fanny Talbot the leading art critic of?",
+      "gold": "Victorian era",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Victorian era",
+      "raw_response": "answer:\nVictorian",
+      "judge_reasoning": "The prediction 'Victorian' is a common and understood shorthand for 'Victorian era' when referring to historical periods, directly answering the 'What era' part of the question. It conveys the same essential fact without contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Victorian' is a common and understood shorthand for 'Victorian era' when referring to historical periods, directly answering the 'What era' part of the question. It conveys the same essential fact without contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7317535542994cef4bc450",
+      "question": "Which K283BV artist is from Columbus, Ohio?",
+      "gold": "Twenty One Pilots",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Twenty One Pilots",
+      "raw_response": "answer:\nTwenty One Pilots",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adc432d55429944faac24a1",
+      "question": "The San Diego Gulls are a professional ice hockey team in the American Hockey League (AHL) which began playing in the 2015\u201316 season, the Gulls play their home games at which indoor arena located at Sports Arena Blvd in Point Loma, San Diego?",
+      "gold": "Valley View Casino Center",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nPechanga Arena San Diego",
+      "judge_reasoning": "The gold answer 'Valley View Casino Center' and the prediction 'Pechanga Arena San Diego' refer to the same physical arena but by different names. 'Valley View Casino Center' was the name of the arena from 2010 to 2018, while 'Pechanga Arena San Diego' is its current name (since 2018). Since the question asks 'at which indoor arena' in the present tense, and the gold provides an older name while the prediction provides the current name, they are contradictory on the specific name of the arena, even if both refer to the same location. The prediction does not match the gold.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'Valley View Casino Center' and the prediction 'Pechanga Arena San Diego' refer to the same physical arena but by different names. 'Valley View Casino Center' was the name of the arena from 2010 to 2018, while 'Pechanga Arena San Diego' is its current name (since 2018). Since the question asks 'at which indoor arena' in the present tense, and the gold provides an older name while the prediction provides the current name, they are contradictory on the specific name of the arena, even if both refer to the same location. The prediction does not match the gold.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8285be55429966c78a6a41",
+      "question": "Which event was a surprise military strike by the Imperial Japanese Navy Air Service while Magruder Hill Tuttle was a senior officer in the United States Navy?",
+      "gold": "attack on Pearl Harbor",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "attack on Pearl Harbor",
+      "raw_response": "answer:\nThe attack on Pearl Harbor",
+      "judge_reasoning": "The prediction 'The attack on Pearl Harbor' is essentially the same as the gold answer 'attack on Pearl Harbor'. The article 'The' is ignored during normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'The attack on Pearl Harbor' is essentially the same as the gold answer 'attack on Pearl Harbor'. The article 'The' is ignored during normalization.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8d15b75542994ba4e3dbea",
+      "question": "What host of The Voice UK was in \"Doctor Who\"?",
+      "gold": "Reggie Yates",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "John Barrowman; John Bishop",
+      "judge_reasoning": "The prediction lists 'John Barrowman; John Bishop' which contradicts the gold answer 'Reggie Yates'. The names are entirely different.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction lists 'John Barrowman; John Bishop' which contradicts the gold answer 'Reggie Yates'. The names are entirely different.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5abae247554299660624165c",
+      "question": "Which guest who appeared in the album \"Animal Ambition\" was born with the name Albert Johnson?",
+      "gold": "Prodigy",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Prodigy",
+      "raw_response": "answer:\nProdigy",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

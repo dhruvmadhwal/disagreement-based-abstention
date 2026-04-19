@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "dc5f06b6-165b-4664-964a-82dd0a1c0784",
+      "question": "what movie won the most oscars, lincoln or the girl with the dragon tattoo?",
+      "gold": "lincoln",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "lincoln",
+      "raw_response": "Lincoln",
+      "judge_reasoning": "The prediction matches the gold answer exactly, ignoring case differences.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction matches the gold answer exactly, ignoring case differences.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "503bb259-cafb-4a36-972b-480cc4ed52cb",
+      "question": "who were the members of the band led zeppelin?",
+      "gold": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "raw_response": "Robert Plant; Jimmy Page; John Paul Jones; John Bonham",
+      "judge_reasoning": "The prediction lists the same members as the gold answer. The use of semicolons as separators is acceptable for a list of items.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same members as the gold answer. The use of semicolons as separators is acceptable for a list of items.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "d73e9716-0b0d-4a5b-9bdd-98a6ca835640",
+      "question": "how many times has pete sampras won the french open singles title?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "invalid question",
+      "raw_response": "0",
+      "judge_reasoning": "The gold answer 'invalid question' implies that Pete Sampras has not won the French Open singles title. The prediction '0' directly states the number of times he won, which is factually correct (he won it 0 times). Therefore, the prediction communicates the same essential fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer 'invalid question' implies that Pete Sampras has not won the French Open singles title. The prediction '0' directly states the number of times he won, which is factually correct (he won it 0 times). Therefore, the prediction communicates the same essential fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "0872a91f-a4ed-4b5d-8120-426bc69546bb",
+      "question": "which city was hailey bieber born?",
+      "gold": "tucson, az",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Winnipeg; Manitoba",
+      "judge_reasoning": "The prediction states 'Winnipeg; Manitoba' as the birthplace, which contradicts the gold answer 'Tucson, AZ'. The city and location are different.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction states 'Winnipeg; Manitoba' as the birthplace, which contradicts the gold answer 'Tucson, AZ'. The city and location are different.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "ede7b552-c56b-4947-9269-1d67fa90fb18",
+      "question": "which movie won the oscar best animated feature film in 2015?",
+      "gold": "big hero 6",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "big hero 6",
+      "raw_response": "Big Hero 6",
+      "judge_reasoning": "The prediction exactly matches the gold answer, ignoring case.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer, ignoring case.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dafa6e14-f4b2-43a7-9b5d-467ea102d7ce",
+      "question": "what are the four great lakes in michigan?",
+      "gold": "superior, michigan, huron and erie.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "superior, michigan, huron and erie.",
+      "raw_response": "Lake Superior; Lake Michigan; Lake Huron; Lake Erie",
+      "judge_reasoning": "The prediction lists the same four lakes as the gold answer. The addition of 'Lake' before each name is extra descriptive text but does not change or contradict the essential fact. Case and punctuation are ignored.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same four lakes as the gold answer. The addition of 'Lake' before each name is extra descriptive text but does not change or contradict the essential fact. Case and punctuation are ignored.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4782dfd1-c169-477f-b688-f8103de15865",
+      "question": "who is the lead singer of the band coldplay?",
+      "gold": "chris martin",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "chris martin",
+      "raw_response": "Chris Martin",
+      "judge_reasoning": "The prediction 'Chris Martin' is identical to the gold answer 'chris martin', differing only in capitalization, which is ignored by normalization rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chris Martin' is identical to the gold answer 'chris martin', differing only in capitalization, which is ignored by normalization rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "b587e2da-5fd4-43fa-a3c1-77fce0939969",
+      "question": "what is the capital of australia?",
+      "gold": "canberra",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "canberra",
+      "raw_response": "Canberra",
+      "judge_reasoning": "The prediction 'Canberra' matches the gold answer 'canberra' after applying case normalization (Rule 1).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Canberra' matches the gold answer 'canberra' after applying case normalization (Rule 1).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "0672b85d-ca23-4258-a5cd-3f0335f8f7e1",
+      "question": "when was \"soul\" released on hulu?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "2021-01-22",
+      "judge_reasoning": "The gold answer states 'invalid question', implying the premise of the question (release of 'Soul' on Hulu) is incorrect or unanswerable. The prediction provides a specific date, which contradicts the gold's assessment of the question's validity and is factually incorrect as 'Soul' was released on Disney+, not Hulu.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states 'invalid question', implying the premise of the question (release of 'Soul' on Hulu) is incorrect or unanswerable. The prediction provides a specific date, which contradicts the gold's assessment of the question's validity and is factually incorrect as 'Soul' was released on Disney+, not Hulu.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "3fcd37bc-2a2d-4766-aba8-cb9708349c48",
+      "question": "who hosted the grammy awards in 2019?",
+      "gold": "alicia keys",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "alicia keys",
+      "raw_response": "answer:\nAlicia Keys",
+      "judge_reasoning": "The prediction 'Alicia Keys' matches the gold answer 'alicia keys' after ignoring case.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Alicia Keys' matches the gold answer 'alicia keys' after ignoring case.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "aa0d473b-01fb-424a-97d5-d6b714c8b03d",
+      "question": "what song topped the billboard chart on 2004-02-04?",
+      "gold": "hey ya!",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "hey ya!",
+      "raw_response": "answer:\nHey Ya!",
+      "judge_reasoning": "The prediction 'Hey Ya!' is equivalent to the gold answer 'hey ya!' after applying case and punctuation normalization (Rule 1).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Hey Ya!' is equivalent to the gold answer 'hey ya!' after applying case and punctuation normalization (Rule 1).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4ebbb760-c5ae-4307-9764-567a357f4cc1",
+      "question": "who is the first actress to play the bond girl?",
+      "gold": "vesper lynd in 1953",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Ursula Andress",
+      "judge_reasoning": "The gold answer identifies 'Vesper Lynd' (a character) and a year (1953), while the prediction identifies 'Ursula Andress' (an actress). These are different entities and facts. The prediction does not communicate the same essential fact as the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies 'Vesper Lynd' (a character) and a year (1953), while the prediction identifies 'Ursula Andress' (an actress). These are different entities and facts. The prediction does not communicate the same essential fact as the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "c56e68a4-f656-4ce9-9e36-b8c826f3e269",
+      "question": "do you know how many people are in the weeknd?",
+      "gold": "0",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "0",
+      "raw_response": "1",
+      "judge_reasoning": "The question asks about the number of people in 'The Weeknd'. The gold answer '0' implies it's a solo artist (zero additional members beyond the main artist). The prediction '1' explicitly states it's one person. Both convey the same essential fact that The Weeknd is a single individual, not a group or band.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The question asks about the number of people in 'The Weeknd'. The gold answer '0' implies it's a solo artist (zero additional members beyond the main artist). The prediction '1' explicitly states it's one person. Both convey the same essential fact that The Weeknd is a single individual, not a group or band.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "92795d27-1f14-4c36-8d3e-70009906e65f",
+      "question": "what was the total value of all initial public offerings in the americas for the technology sector in 2022?",
+      "gold": "the total value of all ipos in the americas for the technology sector was $1.6 billion in 2022.",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\n$34.5B",
+      "judge_reasoning": "The predicted value ($34.5B) is significantly different from the gold value ($1.6 billion) and falls outside the allowed numeric tolerance (1% of the reference value).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The predicted value ($34.5B) is significantly different from the gold value ($1.6 billion) and falls outside the allowed numeric tolerance (1% of the reference value).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "24df4242-214b-4257-bcca-f1d39ca66630",
+      "question": "can you tell me the movie that won the oscar for best documentary feature film in 2017",
+      "gold": "o.j.: made in america",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "o.j.: made in america",
+      "raw_response": "answer:\nO.J.: Made in America",
+      "judge_reasoning": "The prediction matches the gold answer, with only differences in capitalization which are ignored by normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction matches the gold answer, with only differences in capitalization which are ignored by normalization rules.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

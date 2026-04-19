@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "5abae247554299660624165c",
+      "question": "Which guest who appeared in the album \"Animal Ambition\" was born with the name Albert Johnson?",
+      "gold": "Prodigy",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Prodigy",
+      "raw_response": "Prodigy",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8113ca55429938b61422ab",
+      "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+      "gold": "Chlorophyll",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chlorophyll",
+      "raw_response": "answer:\nChlorophyll",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab3f9b95542992ade7c6f09",
+      "question": "It Takes a Family is a response to this 1996 book that was published by who",
+      "gold": "Hillary Rodham Clinton",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Hillary Rodham Clinton",
+      "raw_response": "answer:\nHillary Clinton",
+      "judge_reasoning": "The prediction 'Hillary Clinton' is a common and widely accepted shortened form of 'Hillary Rodham Clinton'. This falls under the normalization rule for common aliases/abbreviations.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Hillary Clinton' is a common and widely accepted shortened form of 'Hillary Rodham Clinton'. This falls under the normalization rule for common aliases/abbreviations.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ac33d31554299741d48a239",
+      "question": "In what city was the rock band formed which was paid tribute by Listen Without Distraction?",
+      "gold": "Palm Desert, California",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Saint Paul",
+      "judge_reasoning": "The prediction 'Saint Paul' contradicts the gold answer 'Palm Desert, California' regarding the city where the band was formed.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Saint Paul' contradicts the gold answer 'Palm Desert, California' regarding the city where the band was formed.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ade45ed554299728e26c699",
+      "question": "The 2016 Washington State Cougars were led by the coach who previously helmed which other team?",
+      "gold": "Texas Tech Red Raiders",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Texas Tech Red Raiders",
+      "raw_response": "Texas Tech",
+      "judge_reasoning": "The prediction 'Texas Tech' is a common and acceptable abbreviation for 'Texas Tech Red Raiders'. This falls under normalization for common aliases/abbreviations.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Texas Tech' is a common and acceptable abbreviation for 'Texas Tech Red Raiders'. This falls under normalization for common aliases/abbreviations.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a903a4855429933b8a204a9",
+      "question": "What era was the man associated with Fanny Talbot the leading art critic of?",
+      "gold": "Victorian era",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Victorian era",
+      "raw_response": "Victorian era",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8d15b75542994ba4e3dbea",
+      "question": "What host of The Voice UK was in \"Doctor Who\"?",
+      "gold": "Reggie Yates",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Reggie Yates",
+      "raw_response": "Reggie Yates",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adccffc5542994d58a2f6e0",
+      "question": "In which theatre in Los Angeles did the late-night talk show host of \"Chelsea Lately\" host the 2010 MTV Video Music Awards?",
+      "gold": "Nokia Theatre",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Nokia Theatre",
+      "raw_response": "Nokia Theatre",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adc432d55429944faac24a1",
+      "question": "The San Diego Gulls are a professional ice hockey team in the American Hockey League (AHL) which began playing in the 2015\u201316 season, the Gulls play their home games at which indoor arena located at Sports Arena Blvd in Point Loma, San Diego?",
+      "gold": "Valley View Casino Center",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nPechanga Arena",
+      "judge_reasoning": "The prediction 'Pechanga Arena' is a different name than the gold answer 'Valley View Casino Center', indicating a contradiction regarding the name of the arena.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Pechanga Arena' is a different name than the gold answer 'Valley View Casino Center', indicating a contradiction regarding the name of the arena.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab285d0554299340b5254fa",
+      "question": "The Acolytes Protection Agency consisted of what wrestler born November 29, 1966",
+      "gold": "John Layfield",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "John Layfield",
+      "raw_response": "John Layfield",
+      "judge_reasoning": "The prediction 'John Layfield' is an exact match to the gold answer 'John Layfield'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'John Layfield' is an exact match to the gold answer 'John Layfield'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adcf98255429947343537e9",
+      "question": "Which show connects Arthur Darvill and Matt Smith?",
+      "gold": "Doctor Who",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doctor Who",
+      "raw_response": "Doctor Who",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a77365c55429972597f14a6",
+      "question": "Who wrote the song that caused the Columbia Kingsmen to change their name to Sha Na Na?",
+      "gold": "Richard Berry",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Richard Lewis; Earl Beal; Raymond Edwards; William Horton",
+      "judge_reasoning": "The gold answer identifies 'Richard Berry' as the songwriter, while the prediction lists different names ('Richard Lewis; Earl Beal; Raymond Edwards; William Horton'), which contradicts the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies 'Richard Berry' as the songwriter, while the prediction lists different names ('Richard Lewis; Earl Beal; Raymond Edwards; William Horton'), which contradicts the gold fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5abb1cc55542992ccd8e7f16",
+      "question": "Brian Keith \"Herbie\" Flowers, is an English musician specialising in electric bass, double bass and tuba, he has contributed to the recording Give My Regards to Broad Street is the fifth studio album by who, as well as the soundtrack album to his 1984 film of the same name?",
+      "gold": "Paul McCartney",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Paul McCartney",
+      "raw_response": "Paul McCartney",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7d549f5542991319bc93ad",
+      "question": "What is the meaning of Trevor Prangley's other division the fought in aside from Light Weight?",
+      "gold": "refers to different weight classes",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Middleweight",
+      "judge_reasoning": "The question asks for the 'meaning' of Trevor Prangley's other division, to which the gold answer correctly states it 'refers to different weight classes'. The prediction, 'Middleweight', provides a specific division name rather than its meaning, thus not answering the question asked.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The question asks for the 'meaning' of Trevor Prangley's other division, to which the gold answer correctly states it 'refers to different weight classes'. The prediction, 'Middleweight', provides a specific division name rather than its meaning, thus not answering the question asked.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7317535542994cef4bc450",
+      "question": "Which K283BV artist is from Columbus, Ohio?",
+      "gold": "Twenty One Pilots",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Twenty One Pilots",
+      "raw_response": "Twenty One Pilots",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

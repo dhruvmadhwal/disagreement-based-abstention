@@ -1,0 +1,1477 @@
+{
+  "summary": {
+    "total_comparisons": 152,
+    "equivalent_answers": 118,
+    "non_equivalent_answers": 34,
+    "equivalence_rate": 0.7763
+  },
+  "comparisons": [
+    {
+      "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+      "question": "what was the profession of kim kardashian's second spouse?",
+      "answer_a": "Professional basketball player",
+      "answer_b": "Professional basketball player",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+      "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+      "answer_a": "Patrick J. Adams",
+      "answer_b": "Patrick J. Adams",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "118896a1-8124-482a-9201-4aaf1903618d",
+      "question": "when was green day's third studio album released?",
+      "answer_a": "1994-02-01",
+      "answer_b": "1994-02-01",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+      "question": "where did the lead designer of fortran get his m.s. from?",
+      "answer_a": "Mathematics",
+      "answer_b": "Columbia University",
+      "equivalent": 0,
+      "reasoning": "Answer A states a subject (Mathematics), while Answer B states an institution (Columbia University). The question asks \"where\" the degree was obtained, which refers to an institution, not a field of study.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states a subject (Mathematics), while Answer B states an institution (Columbia University). The question asks \"where\" the degree was obtained, which refers to an institution, not a field of study."
+    },
+    {
+      "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+      "question": "how old was leonardo dicaprio when he won best actor award?",
+      "answer_a": "41",
+      "answer_b": "41",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same age.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same age."
+    },
+    {
+      "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+      "question": "what age did abraham lincoln begin his presidency?",
+      "answer_a": "0 months 20 days",
+      "answer_b": "52",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a duration (0 months 20 days) which is not an age, and is missing the years. Answer B provides the age in years (52). They do not convey the same essential fact.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a duration (0 months 20 days) which is not an age, and is missing the years. Answer B provides the age in years (52). They do not convey the same essential fact."
+    },
+    {
+      "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+      "question": "how long is the longest river in alabama?",
+      "answer_a": "1,049 km",
+      "answer_b": "652 mi",
+      "equivalent": 1,
+      "reasoning": "Unit conversion (km to miles) shows 1049 km is approximately 651.81 miles, which is equivalent to 652 miles within tolerance.",
+      "raw_response": "equivalent: 1\nreasoning: Unit conversion (km to miles) shows 1049 km is approximately 651.81 miles, which is equivalent to 652 miles within tolerance."
+    },
+    {
+      "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+      "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+      "answer_a": "Carrie-Anne Moss",
+      "answer_b": "Carrie-Anne Moss",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+      "question": "how many feet is the place with the lowest elevation in vermont?",
+      "answer_a": "95.14 ft",
+      "answer_b": "95 ft",
+      "equivalent": 1,
+      "reasoning": "Numeric values are equivalent within the allowed tolerance (|95.14 - 95| = 0.14, which is less than max(0.5, 1% of 95 = 0.95)).",
+      "raw_response": "equivalent: 1\nreasoning: Numeric values are equivalent within the allowed tolerance (|95.14 - 95| = 0.14, which is less than max(0.5, 1% of 95 = 0.95))."
+    },
+    {
+      "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+      "question": "what is the driving side in mallorca?",
+      "answer_a": "right",
+      "answer_b": "right",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical and state the same fact.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical and state the same fact."
+    },
+    {
+      "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+      "question": "what is the elevation of the capital of nebraska?",
+      "answer_a": "364 m",
+      "answer_b": "359 m",
+      "equivalent": 0,
+      "reasoning": "The numerical values 364 m and 359 m differ by 5 m, which is greater than 1% of either value (3.64 or 3.59), exceeding the allowed tolerance for numerical expressions.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values 364 m and 359 m differ by 5 m, which is greater than 1% of either value (3.64 or 3.59), exceeding the allowed tolerance for numerical expressions."
+    },
+    {
+      "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+      "question": "what was the 76ers' record the year allen iverson won mvp?",
+      "answer_a": "56\u201326",
+      "answer_b": "56\u201326",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+      "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+      "answer_a": "29 years old",
+      "answer_b": "29",
+      "equivalent": 1,
+      "reasoning": "Extra descriptive text \"years old\" in Answer A does not change the core numeric fact of 29.",
+      "raw_response": "equivalent: 1\nreasoning: Extra descriptive text \"years old\" in Answer A does not change the core numeric fact of 29."
+    },
+    {
+      "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+      "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+      "answer_a": "Del Harris",
+      "answer_b": "Del Harris",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+      "question": "when did the lead actor of naked gun die?",
+      "answer_a": "2010-11-28",
+      "answer_b": "2010-11-28",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+      "question": "at what age was lorne michaels when he produced his first film?",
+      "answer_a": "35",
+      "answer_b": "33",
+      "equivalent": 0,
+      "reasoning": "The numerical values 35 and 33 are distinct and do not fall within the allowed numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values 35 and 33 are distinct and do not fall within the allowed numeric tolerance."
+    },
+    {
+      "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+      "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+      "answer_a": "Pittsburgh; United States",
+      "answer_b": "Carnegie Mellon University",
+      "equivalent": 0,
+      "reasoning": "Answer A provides the city and country, while Answer B provides the specific university where the Ph.D. was received. These are different levels of specificity for the \"where\" of receiving a degree.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides the city and country, while Answer B provides the specific university where the Ph.D. was received. These are different levels of specificity for the \"where\" of receiving a degree."
+    },
+    {
+      "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+      "question": "when did the lead actor of die hard get married?",
+      "answer_a": "1987-11-21; 2009-03-21",
+      "answer_b": "1987-11-21",
+      "equivalent": 1,
+      "reasoning": "Answer B is a subset of Answer A, providing one correct marriage date while Answer A provides both. This is allowed by Rule 9 as the question does not ask for \"all\" marriage dates.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B is a subset of Answer A, providing one correct marriage date while Answer A provides both. This is allowed by Rule 9 as the question does not ask for \"all\" marriage dates."
+    },
+    {
+      "id": "e06676aa-efc3-4763-b196-e105596cc643",
+      "question": "can you tell me what other songs the same artist released in the same year as my time?",
+      "answer_a": "Only distinct original songs.",
+      "answer_b": "Black Swan; ON; Dynamite; Life Goes On",
+      "equivalent": -1,
+      "reasoning": "Answer A does not provide the requested information; it is a meta-comment about the type of songs, not a list of songs.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A does not provide the requested information; it is a meta-comment about the type of songs, not a list of songs."
+    },
+    {
+      "id": "e525e6b2-4865-4610-a73b-79438c724255",
+      "question": "what was the first studio album from the group that michael jackson was in?",
+      "answer_a": "Diana Ross Presents The Jackson 5",
+      "answer_b": "Diana Ross Presents The Jackson 5",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "1b4e6ba6-f847-432b-a109-83b191589bc4",
+      "question": "who was head coach of the colts in peyton manning's rookie year?",
+      "answer_a": "Jim Mora",
+      "answer_b": "Jim Mora",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "207250e7-d0a6-4b17-9072-5496c7ff6380",
+      "question": "what was taylor swifts age when she released her debut album?",
+      "answer_a": "16",
+      "answer_b": "16",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same age, 16.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same age, 16."
+    },
+    {
+      "id": "21da19e6-56a8-439a-92ec-09d3af005ac6",
+      "question": "when did drake release his first album?",
+      "answer_a": "2010-06-15",
+      "answer_b": "2010-06-15",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "41dea43b-d187-4844-b33a-a46e3879dd96",
+      "question": "how many locations were filmed in the bourne movie released in 2004?",
+      "answer_a": "8",
+      "answer_b": "7",
+      "equivalent": 0,
+      "reasoning": "The numerical values 8 and 7 are not equivalent based on the numeric expression tolerance rule (|8-7|=1, which is greater than max(0.5, 1% of reference)).",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values 8 and 7 are not equivalent based on the numeric expression tolerance rule (|8-7|=1, which is greater than max(0.5, 1% of reference))."
+    },
+    {
+      "id": "470ed1c7-8a71-4c0c-9be8-bb1fe82ce59f",
+      "question": "what is the elevation of the capital of ohio?",
+      "answer_a": "275 m",
+      "answer_b": "902 ft",
+      "equivalent": 1,
+      "reasoning": "Numeric expressions are equivalent; 275 meters is approximately 902.23 feet, which is within the allowed tolerance of 902 feet.",
+      "raw_response": "equivalent: 1\nreasoning: Numeric expressions are equivalent; 275 meters is approximately 902.23 feet, which is within the allowed tolerance of 902 feet."
+    },
+    {
+      "id": "54f26611-03ad-4284-95dc-015c050946b8",
+      "question": "can you tell me the name of the actress who starred in the film that won the best picture oscar in 2018?",
+      "answer_a": "Sally Hawkins",
+      "answer_b": "Sally Hawkins",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "55ea20e8-c0da-48be-8e02-d4d6bec6c27d",
+      "question": "when forest whitaker won his/her first oscar best actor, which movie won the best picture?",
+      "answer_a": "The Departed",
+      "answer_b": "The Departed",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "5db90d97-9b5a-422b-a46a-ca401cfd2074",
+      "question": "can you tell me the name of the leading lady who starred in the film that won the best picture award at the 2007 oscars?",
+      "answer_a": "Vera Farmiga",
+      "answer_b": "Vera Farmiga",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "67a1ef25-0e22-4224-a90e-f9fc9374a479",
+      "question": "at the time gary oldman won their first best actor oscar, which movie was honored with the best picture award?",
+      "answer_a": "The Shape of Water",
+      "answer_b": "The Shape of Water",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "6bafd51e-ba95-4f7f-b06f-4a1661f788a8",
+      "question": "when tom hanks won their first academy award for best actor, which film was recognized as the best picture?",
+      "answer_a": "Schindler\u2019s List",
+      "answer_b": "Schindler\u2019s List",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "758a8ddc-41d5-4175-a41c-c31fb1e1fc97",
+      "question": "how did the nasdaq composite index perform the year of the covid crash?",
+      "answer_a": "\u224830%",
+      "answer_b": "It gained about 43.6% in 2020",
+      "equivalent": 0,
+      "reasoning": "The numeric values (30% vs 43.6%) are significantly different and fall outside the allowed tolerance for numeric expressions.",
+      "raw_response": "equivalent: 0\nreasoning: The numeric values (30% vs 43.6%) are significantly different and fall outside the allowed tolerance for numeric expressions."
+    },
+    {
+      "id": "75e54c83-f11b-413e-aebc-909bf3d436da",
+      "question": "who wrote the theme song for the movie ghostbusters (1984)?",
+      "answer_a": "Ray Parker Jr.",
+      "answer_b": "Ray Parker Jr.",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "765b506f-a77a-406e-88ad-05a08b549b02",
+      "question": "what is the symbol of the constellation that includes altair?",
+      "answer_a": "An eagle",
+      "answer_b": "eagle",
+      "equivalent": 1,
+      "reasoning": "English article \"An\" ignored as per normalization rule.",
+      "raw_response": "equivalent: 1\nreasoning: English article \"An\" ignored as per normalization rule."
+    },
+    {
+      "id": "7d02db15-45be-4168-99da-a5e0a48fbd9e",
+      "question": "what is the top artist in the most popular music genre in 2015?",
+      "answer_a": "Adele",
+      "answer_b": "Adele",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "8895f09f-1ccf-49fe-9ab0-dbeabc3a2d54",
+      "question": "what country is prince harry's wife from?",
+      "answer_a": "United States of America",
+      "answer_b": "United States",
+      "equivalent": 1,
+      "reasoning": "\"United States of America\" is an alias/full name for \"United States\".",
+      "raw_response": "equivalent: 1\nreasoning: \"United States of America\" is an alias/full name for \"United States\"."
+    },
+    {
+      "id": "8b5b18ec-269d-4be9-8fcb-6eebacd3ddd2",
+      "question": "what school did the 2016 heisman trophy winner play for?",
+      "answer_a": "University of Louisville",
+      "answer_b": "University of Louisville",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "91f3cf34-49bf-4da4-97ce-a04f3fc57467",
+      "question": "what was mike epps's age at the time of next friday's release?",
+      "answer_a": "29",
+      "answer_b": "29",
+      "equivalent": 1,
+      "reasoning": "Both answers state the exact same numerical value.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the exact same numerical value."
+    },
+    {
+      "id": "92e81984-b349-493a-b735-6b6e90cccb75",
+      "question": "what country is the company that developed fuga: melodies of steel 2 based in?",
+      "answer_a": "Japan",
+      "answer_b": "Japan",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "9db3fe70-c7e9-4f0d-bba7-647bb246df99",
+      "question": "at what age was michelle trachtenberg in her film debut?",
+      "answer_a": "She was about 9\u201310 years old while filming and 10 years old when the film was released.",
+      "answer_b": "10",
+      "equivalent": 1,
+      "reasoning": "Answer B's specific age (10) is consistent with Answer A's statement that she was 10 years old when the film was released, and falls within the 9-10 year old range mentioned for filming.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B's specific age (10) is consistent with Answer A's statement that she was 10 years old when the film was released, and falls within the 9-10 year old range mentioned for filming."
+    },
+    {
+      "id": "bc1da7f4-87e3-4f8d-9cf0-f48345f2aa8d",
+      "question": "can you tell me the name of the artist who won the award for song of the year in 49th grammy (2006)?",
+      "answer_a": "Dixie Chicks",
+      "answer_b": "Dixie Chicks",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "bdaa3dcc-1673-4425-9f11-a2e81bcd3e37",
+      "question": "can you tell me which country the artist who won the best new artist in 54th grammy (2011) was born?",
+      "answer_a": "United States",
+      "answer_b": "United States",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "cfc875b9-4cac-456b-a7a8-df23c9dab754",
+      "question": "who was the first actress and what year to play the role of catwoman in a live-action movie?",
+      "answer_a": "1966",
+      "answer_b": "Lee Meriwether; 1966",
+      "equivalent": 1,
+      "reasoning": "[OVERRIDE: Both answers correct] Answer A is incomplete as it only provides the year, while the question asks for both the actress and the year. Answer B provides both.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A is incomplete as it only provides the year, while the question asks for both the actress and the year. Answer B provides both."
+    },
+    {
+      "id": "e042412e-c4f6-4a2e-b8c2-e550cbb3a144",
+      "question": "who was the first actress to play the role of a female assassin in a live-action movie?",
+      "answer_a": "Musidora",
+      "answer_b": "Unknown",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a specific name, while Answer B states the information is unknown, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a specific name, while Answer B states the information is unknown, which is a direct contradiction."
+    },
+    {
+      "id": "e1685144-072d-498c-a0bf-d2ca9ad939fa",
+      "question": "what is the first song on drake's second album?",
+      "answer_a": "Over My Dead Body",
+      "answer_b": "Over My Dead Body",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "e6fe70a3-61b9-4b6f-b953-9ec181806b7d",
+      "question": "can you tell me the name of the actress who starred in the film that won the best picture oscar in 1993?",
+      "answer_a": "Frances Fisher",
+      "answer_b": "Frances Fisher",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "fd3e847c-5742-46fd-be45-3a07189f226a",
+      "question": "who finished in second the year max verstappen won his first championship?",
+      "answer_a": "Lewis Hamilton",
+      "answer_b": "Lewis Hamilton",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "00283e38-b411-425f-ad12-b6de87e4dc45",
+      "question": "how old is the oldest currently working action movie actor?",
+      "answer_a": "",
+      "answer_b": "80",
+      "equivalent": -1,
+      "reasoning": "Answer A is empty, which is considered not meaningful.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A is empty, which is considered not meaningful."
+    },
+    {
+      "id": "04ddbcdf-cf5e-4331-8084-04f03540e0a1",
+      "question": "who did rihanna co-headline a tour with?",
+      "answer_a": "Eminem",
+      "answer_b": "Eminem",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "04fd2c98-6531-41a0-8f9f-4af6b7f012ef",
+      "question": "who was the mvp of the mlb world series last year?",
+      "answer_a": "Jorge Soler",
+      "answer_b": "Jorge Soler",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "0512b2a6-b900-4454-8613-512e65b1913e",
+      "question": "who was the top scorer in the women's world cup last year?",
+      "answer_a": "Megan Rapinoe",
+      "answer_b": "Megan Rapinoe",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "0531f5e7-d6ac-4c45-be32-5e530f83835b",
+      "question": "what's the most recent album from the founder of ysl records?",
+      "answer_a": "Punk; 2021-10-15",
+      "answer_b": "Punk",
+      "equivalent": 1,
+      "reasoning": "Answer A provides the album name and its release date, while Answer B only provides the album name. The extra detail in A does not contradict B and both identify the same album.",
+      "raw_response": "equivalent: 1\nreasoning: Answer A provides the album name and its release date, while Answer B only provides the album name. The extra detail in A does not contradict B and both identify the same album."
+    },
+    {
+      "id": "06f24bd1-de46-4a8e-8ea1-0ba8705c232a",
+      "question": "who was the first actress to play the role of wonder woman in a live-action movie?",
+      "answer_a": "Cathy Lee Crosby",
+      "answer_b": "Ellie Wood Walker",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different names for the actress, Cathy Lee Crosby and Ellie Wood Walker, which are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different names for the actress, Cathy Lee Crosby and Ellie Wood Walker, which are not equivalent."
+    },
+    {
+      "id": "0c373f48-2891-41c0-96f2-c91bf2757c89",
+      "question": "when did robert john \"mutt\" lange's third wife release her album come on over?",
+      "answer_a": "There is no such date; Marie-Anne Thi\u00e9baud never released an album titled \"Come On Over.\"",
+      "answer_b": "1997-11-04",
+      "equivalent": 0,
+      "reasoning": "Answer A states that the third wife never released such an album, which is correct. Answer B provides a date for an album released by his second wife, not his third, thus contradicting the premise of the question as it pertains to the third wife.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states that the third wife never released such an album, which is correct. Answer B provides a date for an album released by his second wife, not his third, thus contradicting the premise of the question as it pertains to the third wife."
+    },
+    {
+      "id": "12d2b048-e8de-470a-b4f2-81b0cf03ec5e",
+      "question": "what was the name of the movie that won the most golden globe awards in a single year, including best motion picture \u2013 drama, best director, and best actor \u2013 motion picture drama?",
+      "answer_a": "La La Land",
+      "answer_b": "One Flew Over the Cuckoo\u2019s Nest",
+      "equivalent": 0,
+      "reasoning": "The two answers refer to different movies. \"La La Land\" won the most Golden Globes (7) but not in the specific drama categories mentioned. \"One Flew Over the Cuckoo\u2019s Nest\" won the specific drama categories mentioned but not the most Golden Globes overall (6).",
+      "raw_response": "equivalent: 0\nreasoning: The two answers refer to different movies. \"La La Land\" won the most Golden Globes (7) but not in the specific drama categories mentioned. \"One Flew Over the Cuckoo\u2019s Nest\" won the specific drama categories mentioned but not the most Golden Globes overall (6)."
+    },
+    {
+      "id": "135d26da-3a52-4207-ad86-8d270b510d5f",
+      "question": "what school does lebron james's youngest son attend?",
+      "answer_a": "Chatsworth, California",
+      "answer_b": "Sierra Canyon School",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a location, while Answer B provides the name of the school, which is what the question asks for.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a location, while Answer B provides the name of the school, which is what the question asks for."
+    },
+    {
+      "id": "144df9a3-9bf8-49b0-8de2-680ee8f8ffef",
+      "question": "how many people live in the smallest city of finland?",
+      "answer_a": "1,229",
+      "answer_b": "1200",
+      "equivalent": 1,
+      "reasoning": "Numeric values are within the 1-5.5 percentage-point tolerance for values that naturally drift over time (population counts). The difference of 29 between 1229 and 1200 is approximately 2.36% of 1229, which falls within the allowed range.",
+      "raw_response": "equivalent: 1\nreasoning: Numeric values are within the 1-5.5 percentage-point tolerance for values that naturally drift over time (population counts). The difference of 29 between 1229 and 1200 is approximately 2.36% of 1229, which falls within the allowed range."
+    },
+    {
+      "id": "158e20f9-c28b-4aa0-b2b3-c961607905c6",
+      "question": "what is the symbol of the constellation that includes sirius?",
+      "answer_a": "CMa",
+      "answer_b": "CMa",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "161a89f3-7a70-4e12-a1a2-7832e098b0a7",
+      "question": "where did the ceo of salesforce previously work?",
+      "answer_a": "Redwood City; United States",
+      "answer_b": "Oracle Corporation",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a location (Redwood City, United States), while Answer B provides a company name (Oracle Corporation). These are different types of facts, even though the company Oracle is located in Redwood City. They do not convey the same essential fact.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a location (Redwood City, United States), while Answer B provides a company name (Oracle Corporation). These are different types of facts, even though the company Oracle is located in Redwood City. They do not convey the same essential fact."
+    },
+    {
+      "id": "1cba1106-7e25-4777-84eb-2a214493061b",
+      "question": "how many epl teams are based in london?",
+      "answer_a": "7",
+      "answer_b": "7",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the same numerical value.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the same numerical value."
+    },
+    {
+      "id": "1ce7a4c7-d538-45c6-bd06-261021515159",
+      "question": "what's the name of the actress who played the role of maleficent's daughter in the movie \"maleficent\"?",
+      "answer_a": "Elle Fanning",
+      "answer_b": "Vivienne Jolie-Pitt",
+      "equivalent": 0,
+      "reasoning": "The answers name two different actresses. Elle Fanning played the primary role of Aurora (Maleficent's daughter), while Vivienne Jolie-Pitt played a minor role as the 5-year-old Aurora. The question asks for \"the actress\" (singular), implying the main portrayal.",
+      "raw_response": "equivalent: 0\nreasoning: The answers name two different actresses. Elle Fanning played the primary role of Aurora (Maleficent's daughter), while Vivienne Jolie-Pitt played a minor role as the 5-year-old Aurora. The question asks for \"the actress\" (singular), implying the main portrayal."
+    },
+    {
+      "id": "1d055e31-4a1c-4a7d-9318-516b19259715",
+      "question": "which advertising company in the s&p 500 index has a separate chair/ceo?",
+      "answer_a": "Alphabet Inc. Class A; Alphabet Inc. Class C; Twitter Inc.; The Interpublic Group of Companies Inc.",
+      "answer_b": "The Interpublic Group of Companies, Inc.",
+      "equivalent": 1,
+      "reasoning": "Answer B is a subset of Answer A, and the question does not require an exhaustive list. Punctuation differences are ignored.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B is a subset of Answer A, and the question does not require an exhaustive list. Punctuation differences are ignored."
+    },
+    {
+      "id": "1ddf2c5d-74f3-408f-9f19-facd709a494c",
+      "question": "when was the oldest company in the dow jones added to the index?",
+      "answer_a": "1991-05-06",
+      "answer_b": "1991-05-06",
+      "equivalent": 1,
+      "reasoning": "Calendar dates match exactly.",
+      "raw_response": "equivalent: 1\nreasoning: Calendar dates match exactly."
+    },
+    {
+      "id": "1e5a1b84-cf20-4654-b12e-1a6806beb8d3",
+      "question": "how much total in sales did bob dylan's best selling album make?",
+      "answer_a": "80,000,000 USD",
+      "answer_b": "approximately 5,000,000 copies sold (United States)",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a monetary value for sales, while Answer B provides the number of copies sold, which are different types of information and not directly comparable for \"total in sales\".",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a monetary value for sales, while Answer B provides the number of copies sold, which are different types of information and not directly comparable for \"total in sales\"."
+    },
+    {
+      "id": "237856fa-4701-4452-a124-bf86a52a1e1b",
+      "question": "what is the country of the winner of the 48th grammy award (2005) for best new artist?",
+      "answer_a": "United States",
+      "answer_b": "United States",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "255b57ed-6a4e-4bab-9bb7-b3e785f4dee3",
+      "question": "what's the name of the actress who played the role of a queen in the third season of the tv show \"the crown\"?",
+      "answer_a": "Olivia Colman",
+      "answer_b": "Olivia Colman",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "27f2284d-0d87-46c6-a0a1-e46135a3fc67",
+      "question": "when did the most expensive action movie come out?",
+      "answer_a": "United States",
+      "answer_b": "2011-05-20",
+      "equivalent": -1,
+      "reasoning": "Answer A provides a location (\"United States\") which does not answer the question asking \"when\" (a time/date).",
+      "raw_response": "equivalent: -1\nreasoning: Answer A provides a location (\"United States\") which does not answer the question asking \"when\" (a time/date)."
+    },
+    {
+      "id": "280d60d1-f2be-4895-ae73-29461c8f1b35",
+      "question": "who is the starting small forward for the team that is currently number one in the nba's eastern conference?",
+      "answer_a": "Jimmy Butler",
+      "answer_b": "Jimmy Butler",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "2b1f918b-4cf0-434a-97b7-85a520c98e08",
+      "question": "how big is the biggest state in the us?",
+      "answer_a": "663,268 mi\u00b2",
+      "answer_b": "1717856 km\u00b2",
+      "equivalent": 1,
+      "reasoning": "Unit conversion (mi\u00b2 to km\u00b2) and numeric tolerance applied. 663,268 mi\u00b2 is approximately 1,717,900.8 km\u00b2, which is within 1% tolerance of 1,717,856 km\u00b2.",
+      "raw_response": "equivalent: 1\nreasoning: Unit conversion (mi\u00b2 to km\u00b2) and numeric tolerance applied. 663,268 mi\u00b2 is approximately 1,717,900.8 km\u00b2, which is within 1% tolerance of 1,717,856 km\u00b2."
+    },
+    {
+      "id": "2d441210-7b4a-453c-a26d-b8d1625c5954",
+      "question": "where did the ceo of anthropic previously work?",
+      "answer_a": "OpenAI",
+      "answer_b": "OpenAI",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "2faf3308-8d49-4cf8-b0c0-f5fdeac0f860",
+      "question": "how old is dave franco's oldest brother?",
+      "answer_a": "44",
+      "answer_b": "44",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "30a16b31-e7a8-4c9a-81ef-08133e9ea795",
+      "question": "what's the name of the actor who played the role of the dean in the tv show \"community\"?",
+      "answer_a": "Jim Rash",
+      "answer_b": "Jim Rash",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "30c8be43-be29-486a-b346-90b2ab6990d9",
+      "question": "who was the director of the movie that won the most academy awards in a single year?",
+      "answer_a": "William Wyler; James Cameron; Peter Jackson",
+      "answer_b": "William Wyler",
+      "equivalent": 1,
+      "reasoning": "Answer B is a correct subset of Answer A, and the question does not require a specific count or \"all\" directors.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B is a correct subset of Answer A, and the question does not require a specific count or \"all\" directors."
+    },
+    {
+      "id": "311910a7-bdee-4e4c-ab0b-d6cb61abb29d",
+      "question": "what is the abbreviation used to represent the company that owns the new york times in stock market listings?",
+      "answer_a": "NYT",
+      "answer_b": "NYT",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "318361f8-af94-4b0b-8017-c0f04ec1755c",
+      "question": "what company in the dow jones has the largest market capitalization?",
+      "answer_a": "Apple Inc.",
+      "answer_b": "Apple Inc.",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "365b3655-6fc5-4731-a422-afeb3d4b3750",
+      "question": "what company in the nasdaq brings in the most revenue?",
+      "answer_a": "Amazon.com, Inc. (ticker symbol: AMZN)",
+      "answer_b": "Amazon.com, Inc.",
+      "equivalent": 1,
+      "reasoning": "Answer A provides extra detail (ticker symbol) which does not contradict or change the core fact present in Answer B.",
+      "raw_response": "equivalent: 1\nreasoning: Answer A provides extra detail (ticker symbol) which does not contradict or change the core fact present in Answer B."
+    },
+    {
+      "id": "3e6f239d-0354-4867-99ef-9542db6a83c8",
+      "question": "what team does the player who threw the most interceptions last year play for?",
+      "answer_a": "Jacksonville Jaguars",
+      "answer_b": "Jacksonville Jaguars",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "4713fbb8-0591-47fc-baa6-23b3d2595a6d",
+      "question": "who was the player who won the most titles in the wta last year?",
+      "answer_a": "Ashleigh Barty",
+      "answer_b": "Ashleigh Barty",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "47d14ce5-921b-47f3-bf8b-0c016c5c724b",
+      "question": "how many toys does andy have in the third toy story movie?",
+      "answer_a": "13",
+      "answer_b": "8",
+      "equivalent": 0,
+      "reasoning": "The numerical values 13 and 8 are different and directly contradict each other.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values 13 and 8 are different and directly contradict each other."
+    },
+    {
+      "id": "4835d4a2-4f31-423b-9f82-4c879c7798ed",
+      "question": "who was the goalkeeper of the team that won the champions league final last year?",
+      "answer_a": "Edouard Mendy",
+      "answer_b": "\u00c9douard Mendy",
+      "equivalent": 1,
+      "reasoning": "Diacritics are ignored as per normalization rule.",
+      "raw_response": "equivalent: 1\nreasoning: Diacritics are ignored as per normalization rule."
+    },
+    {
+      "id": "4b7edd12-ac60-43df-8e3d-6c8274854f9b",
+      "question": "what was the date of the ufc event where sean o'malley beat aljamain sterling last year?",
+      "answer_a": "2023-08-19",
+      "answer_b": "2023-08-19",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "4bc62eb4-678b-48cc-8e7c-ce5a524f0279",
+      "question": "what's the average board retainer fee for compaines on the s&p 500 index in communication services?",
+      "answer_a": "USD 100,000 per year as of 2022-10-04",
+      "answer_b": "approximately $100,000 per year",
+      "equivalent": 1,
+      "reasoning": "Numeric values and units are equivalent; extra detail in A (date) does not contradict B.",
+      "raw_response": "equivalent: 1\nreasoning: Numeric values and units are equivalent; extra detail in A (date) does not contradict B."
+    },
+    {
+      "id": "4ebbb760-c5ae-4307-9764-567a357f4cc1",
+      "question": "who is the first actress to play the bond girl?",
+      "answer_a": "Linda Christian",
+      "answer_b": "Ursula Andress",
+      "equivalent": 0,
+      "reasoning": "The answers provide different names for the first actress to play a Bond girl. Linda Christian was in a TV adaptation, while Ursula Andress was in the first official film. These are distinct facts.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different names for the first actress to play a Bond girl. Linda Christian was in a TV adaptation, while Ursula Andress was in the first official film. These are distinct facts."
+    },
+    {
+      "id": "5110a6f8-ccbc-4814-9dde-c9aaf903a41f",
+      "question": "how many people watched the last episode of friends?",
+      "answer_a": "52.5 million viewers",
+      "answer_b": "52.5 million",
+      "equivalent": 1,
+      "reasoning": "Answer A includes extra descriptive text (\"viewers\") that is consistent with the numerical fact in Answer B and the question.",
+      "raw_response": "equivalent: 1\nreasoning: Answer A includes extra descriptive text (\"viewers\") that is consistent with the numerical fact in Answer B and the question."
+    },
+    {
+      "id": "543d501a-7e5e-4a22-be60-243a3e2225b5",
+      "question": "what is the ticker symbol of the company that owns the buffalo news?",
+      "answer_a": "LEE",
+      "answer_b": "LEE",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "543f4168-8769-4b6d-a595-46cd925a89d2",
+      "question": "what was the album released by the duo that skrillex formed with diplo?",
+      "answer_a": "Skrillex and Diplo Present Jack \u00dc",
+      "answer_b": "Skrillex and Diplo Present Jack \u00dc",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "59029c73-beb6-4770-9814-355491d73320",
+      "question": "what sport did the ufc heavyweight champion's brother play?",
+      "answer_a": "Football (soccer)",
+      "answer_b": "American football",
+      "equivalent": 1,
+      "reasoning": "[OVERRIDE: Both answers correct] \"Football (soccer)\" and \"American football\" are two distinct sports and are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: \"Football (soccer)\" and \"American football\" are two distinct sports and are not equivalent."
+    },
+    {
+      "id": "5a55dd6b-371b-4daa-a2a2-7df503885d21",
+      "question": "how far did last year's west coast conference champion go in the postseason?",
+      "answer_a": "Sweet Sixteen",
+      "answer_b": "Sweet Sixteen",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "5faeb754-5d14-4bbe-b19b-ea4dff7a923c",
+      "question": "what's the name of the actress who played the role of the queen in the first season of \"the crown\"?",
+      "answer_a": "Claire Foy",
+      "answer_b": "Claire Foy",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "60084fd7-1889-4194-aab9-38ad898dfcf3",
+      "question": "how much will the starting quarterback of the cowboys earn this year?",
+      "answer_a": "\\$20,000,000",
+      "answer_b": "$20,000,000",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "612d6a91-f8a0-4935-ad7c-b9b09e959fcc",
+      "question": "what rating did the most popular comedy show of 2023 have on tomatometer?",
+      "answer_a": "90%",
+      "answer_b": "100%",
+      "equivalent": 0,
+      "reasoning": "The numerical values 90% and 100% are not equivalent as their difference (10) exceeds the allowed tolerance of max(0.5, 1% of the reference value).",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values 90% and 100% are not equivalent as their difference (10) exceeds the allowed tolerance of max(0.5, 1% of the reference value)."
+    },
+    {
+      "id": "66337316-94d9-49c2-b09e-8ea5f29a9925",
+      "question": "what country does the company behind spider-man 2 (2023 video game) call home?",
+      "answer_a": "United States",
+      "answer_b": "United States",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "6ca6fb54-7eea-4b6c-b63a-339bd8b4be4b",
+      "question": "where did the lead designer of yorick (programming language) receive his ph.d.?",
+      "answer_a": "University of California, Berkeley",
+      "answer_b": "California Institute of Technology",
+      "equivalent": 0,
+      "reasoning": "The two answers refer to different universities: University of California, Berkeley and California Institute of Technology are distinct entities.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers refer to different universities: University of California, Berkeley and California Institute of Technology are distinct entities."
+    },
+    {
+      "id": "6e9cf041-a792-4f98-b3b8-dc5e18211d96",
+      "question": "has emma thomas worked on any of her husband's films?",
+      "answer_a": "Yes. Examples include: Following; Memento; Insomnia; Batman Begins; The Prestige; The Dark Knight; Inception; The Dark Knight Rises; Man of Steel; Interstellar; Dunkirk; Tenet",
+      "answer_b": "Yes",
+      "equivalent": 1,
+      "reasoning": "Answer A provides additional, consistent detail (examples of films) which does not contradict the core \"Yes\" answer.",
+      "raw_response": "equivalent: 1\nreasoning: Answer A provides additional, consistent detail (examples of films) which does not contradict the core \"Yes\" answer."
+    },
+    {
+      "id": "6ed9dc10-0df5-4e16-b0df-e11967edb740",
+      "question": "how old is the current ceo of microsoft?",
+      "answer_a": "55",
+      "answer_b": "55",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same numerical value.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same numerical value."
+    },
+    {
+      "id": "7218f2f9-fc44-4ead-bf4d-00acc20aa5d6",
+      "question": "what is the revenue of frito-lay's parent company?",
+      "answer_a": "Yes. It is reported in United States dollars (USD).",
+      "answer_b": "79.47 billion USD",
+      "equivalent": -1,
+      "reasoning": "Answer A does not provide the revenue, which is the key fact requested by the question, making it not meaningful.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A does not provide the revenue, which is the key fact requested by the question, making it not meaningful."
+    },
+    {
+      "id": "73cfb301-e7ed-4746-a1a6-b0d74ecf0741",
+      "question": "at what age did miley cyrus come out as gender fluid",
+      "answer_a": "22 years old",
+      "answer_b": "22",
+      "equivalent": 1,
+      "reasoning": "Extra descriptive text \"years old\" in A does not change the core fact of the age being 22.",
+      "raw_response": "equivalent: 1\nreasoning: Extra descriptive text \"years old\" in A does not change the core fact of the age being 22."
+    },
+    {
+      "id": "74519fa3-a8d1-4602-86a0-30f98ebb1ed6",
+      "question": "when did will smith's daughter first release music?",
+      "answer_a": "2010-10-26",
+      "answer_b": "2010-10-26",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "7533950c-b747-4a00-8ad5-e6482b0ea93f",
+      "question": "can you tell me the ticker symbol of the company that owns usa today?",
+      "answer_a": "New York Stock Exchange",
+      "answer_b": "GCI",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a stock exchange, not a ticker symbol, while Answer B provides a ticker symbol. They do not convey the same essential fact.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a stock exchange, not a ticker symbol, while Answer B provides a ticker symbol. They do not convey the same essential fact."
+    },
+    {
+      "id": "773c77c5-0739-48e7-a85b-48e8653060f4",
+      "question": "at what age did steven spielberg direct their first movie?",
+      "answer_a": "12",
+      "answer_b": "12",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same age.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same age."
+    },
+    {
+      "id": "781cbbb6-1050-46d6-8aae-7ded2c939ba6",
+      "question": "how many people live in the biggest city of russia?",
+      "answer_a": "2021",
+      "answer_b": "12600000",
+      "equivalent": -1,
+      "reasoning": "Answer A \"2021\" is a year, not a population count, and therefore does not directly answer the question.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A \"2021\" is a year, not a population count, and therefore does not directly answer the question."
+    },
+    {
+      "id": "7c640e7c-508a-474c-9c07-b6e9b68aba26",
+      "question": "who was the player who won the most mvp awards in professional basketball last year?",
+      "answer_a": "Unknown (not determinable from available information)",
+      "answer_b": "Kareem Abdul-Jabbar",
+      "equivalent": -1,
+      "reasoning": "Answer A does not directly provide the factual answer (a player's name) requested by the question, instead stating the information is unknown/not determinable, which falls under the \"not meaningful\" rule.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A does not directly provide the factual answer (a player's name) requested by the question, instead stating the information is unknown/not determinable, which falls under the \"not meaningful\" rule."
+    },
+    {
+      "id": "7d6ebd01-2364-461c-8086-68c83ff90966",
+      "question": "how long has the current president of the us been in power?",
+      "answer_a": "1 year 8 months",
+      "answer_b": "1 year 8 months 14 days",
+      "equivalent": 1,
+      "reasoning": "The duration in office is a value that naturally drifts over time. The difference of 14 days between \"1 year 8 months\" (approx. 608.75 days) and \"1 year 8 months 14 days\" (approx. 622.75 days) results in a percentage difference of approximately 2.25%, which falls within the allowed 1-5.5 percentage-point window for such values.",
+      "raw_response": "equivalent: 1\nreasoning: The duration in office is a value that naturally drifts over time. The difference of 14 days between \"1 year 8 months\" (approx. 608.75 days) and \"1 year 8 months 14 days\" (approx. 622.75 days) results in a percentage difference of approximately 2.25%, which falls within the allowed 1-5.5 percentage-point window for such values."
+    },
+    {
+      "id": "7f73d8aa-585c-4484-900a-0fda6e52cf83",
+      "question": "how deep is the deepest lake of new york?",
+      "answer_a": "244 m",
+      "answer_b": "188 m",
+      "equivalent": 0,
+      "reasoning": "The numerical values 244 m and 188 m are significantly different and do not fall within the allowed tolerance for numeric expressions.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values 244 m and 188 m are significantly different and do not fall within the allowed tolerance for numeric expressions."
+    },
+    {
+      "id": "83cfd2c8-d469-409d-bd32-24696ca5e21a",
+      "question": "who was the mvp of the nba finals last year?",
+      "answer_a": "Giannis Antetokounmpo",
+      "answer_b": "Giannis Antetokounmpo",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "84320b26-e6da-489e-890f-20cc5f77978d",
+      "question": "which city is the most popular tourist attraction of texas located?",
+      "answer_a": "San Antonio",
+      "answer_b": "San Antonio",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "88db4834-f50c-4484-9e24-737ffc49a4fd",
+      "question": "who was the first actress to play the role of a female action hero in a live-action movie?",
+      "answer_a": "Pearl White",
+      "answer_b": "Sigourney Weaver",
+      "equivalent": 0,
+      "reasoning": "The answers name two different actresses, Pearl White and Sigourney Weaver, for the role of the first female action hero. These are contradictory facts.",
+      "raw_response": "equivalent: 0\nreasoning: The answers name two different actresses, Pearl White and Sigourney Weaver, for the role of the first female action hero. These are contradictory facts."
+    },
+    {
+      "id": "8c64872e-3f00-4ced-81be-4cbd7ffcf887",
+      "question": "what was the singer of the song that won song of the year in the 59th grammy (2016)?",
+      "answer_a": "Adele",
+      "answer_b": "Adele",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "8d3fa211-8f02-4cf9-a8cb-8560f966bbd2",
+      "question": "who is the american singer-songwriter who has won 21 grammy awards and is known for her powerful voice and energetic live performances, including her hit songs \"respect\" and \"chain of fools\"?",
+      "answer_a": "Aretha Franklin",
+      "answer_b": "Aretha Franklin",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "8d8ad514-1d6f-486f-868c-24817537a92e",
+      "question": "which year did taylor swift release her first album?",
+      "answer_a": "2006",
+      "answer_b": "2006",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same year.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same year."
+    },
+    {
+      "id": "8d9fadb7-3466-403d-85a5-a191ec22f69a",
+      "question": "who is the main actor for the movie that has won the most bafta awards?",
+      "answer_a": "Paul Newman",
+      "answer_b": "Paul Newman",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "8dd9f5f9-3272-485f-b840-453b52996b64",
+      "question": "how many months did it take to release the first toy story movie?",
+      "answer_a": "34",
+      "answer_b": "48",
+      "equivalent": 0,
+      "reasoning": "The numeric values 34 and 48 are not equivalent as their difference (14) exceeds the allowed tolerance of max(0.5, 1% of the reference value).",
+      "raw_response": "equivalent: 0\nreasoning: The numeric values 34 and 48 are not equivalent as their difference (14) exceeds the allowed tolerance of max(0.5, 1% of the reference value)."
+    },
+    {
+      "id": "909fb375-e924-4f8b-8c9d-b39d2402550b",
+      "question": "what is the name of the bad bunny album released before nadie sabe lo que va a pasar ma\u00f1ana?",
+      "answer_a": "Un Verano Sin Ti",
+      "answer_b": "Un Verano Sin Ti",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "90d5a2d9-2973-4e6b-affe-76af6c7d943e",
+      "question": "what's the most recent album from the puerto rican artist that's been in wwe?",
+      "answer_a": "Un Verano Sin Ti \u2013 2022-05-06",
+      "answer_b": "Nadie Sabe Lo Que Va a Pasar Ma\u00f1ana",
+      "equivalent": 0,
+      "reasoning": "Answer A states \"Un Verano Sin Ti\" (released 2022), while Answer B states \"Nadie Sabe Lo Que Va a Pasar Ma\u00f1ana\" (released 2023). These are different albums, and Answer B is more recent, making them not equivalent for the question asking for the *most recent* album.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states \"Un Verano Sin Ti\" (released 2022), while Answer B states \"Nadie Sabe Lo Que Va a Pasar Ma\u00f1ana\" (released 2023). These are different albums, and Answer B is more recent, making them not equivalent for the question asking for the *most recent* album."
+    },
+    {
+      "id": "9268525a-80e3-4b64-8f9c-94711f7b7711",
+      "question": "how many people live in the smallest state in the us by area?",
+      "answer_a": "1,097,379",
+      "answer_b": "1,097,379",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical numeric values.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical numeric values."
+    },
+    {
+      "id": "93f61f25-1bde-4e21-a826-47c9651847e4",
+      "question": "who was the player who won the most matches in professional tennis last year?",
+      "answer_a": "Daniil Medvedev",
+      "answer_b": "Alexander Zverev",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different names for the player who won the most matches, making them contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different names for the player who won the most matches, making them contradictory."
+    },
+    {
+      "id": "950d7584-0b10-40d5-942a-1f23dc41e8b2",
+      "question": "what's the name of the female rapper who was a judge on the reality tv show \"american idol\" for one season?",
+      "answer_a": "Onika Tanya Maraj",
+      "answer_b": "Nicki Minaj",
+      "equivalent": 1,
+      "reasoning": "\"Onika Tanya Maraj\" is the birth name of \"Nicki Minaj\", making them equivalent aliases for the same person.",
+      "raw_response": "equivalent: 1\nreasoning: \"Onika Tanya Maraj\" is the birth name of \"Nicki Minaj\", making them equivalent aliases for the same person."
+    },
+    {
+      "id": "9a7a3f00-42e0-4bc8-a73c-5deaa559f132",
+      "question": "what age did taylor swift release her first album?",
+      "answer_a": "16",
+      "answer_b": "16",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same age.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same age."
+    },
+    {
+      "id": "9a9bc150-cf7e-4786-ba58-65eb325780c3",
+      "question": "how small is the smallest state in the us?",
+      "answer_a": "Yes",
+      "answer_b": "3,144 km\u00b2",
+      "equivalent": -1,
+      "reasoning": "Answer A (\"Yes\") does not directly answer the question about size.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A (\"Yes\") does not directly answer the question about size."
+    },
+    {
+      "id": "9b02ae1d-e25a-49dc-9e6b-f21caf923e3a",
+      "question": "how many months did it take to film the third spiderman movie with tom holland.",
+      "answer_a": "6 months",
+      "answer_b": "5",
+      "equivalent": 0,
+      "reasoning": "Numeric values 6 and 5 are not equivalent based on the numeric tolerance rule (|6-5|=1, which is greater than max(0.5, 1% of 6)=0.5).",
+      "raw_response": "equivalent: 0\nreasoning: Numeric values 6 and 5 are not equivalent based on the numeric tolerance rule (|6-5|=1, which is greater than max(0.5, 1% of 6)=0.5)."
+    },
+    {
+      "id": "a019b11a-6b26-4f70-9d3f-20c46005bec6",
+      "question": "what were the box office numbers for martin scorsese's most recent movie?",
+      "answer_a": "The figures are final totals; there is no specific cutoff date beyond the end of the film\u2019s theatrical run.",
+      "answer_b": "7969751",
+      "equivalent": -1,
+      "reasoning": "Answer A does not provide the requested box office numbers, making it not meaningful.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A does not provide the requested box office numbers, making it not meaningful."
+    },
+    {
+      "id": "a56ec940-8c51-4a21-b1aa-adb8eaf6bb75",
+      "question": "what's the name of the actress who played the lead female character in the tv show \"the big bang theory\"?",
+      "answer_a": "Kaley Cuoco",
+      "answer_b": "Kaley Cuoco",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "a8835443-a646-476e-8fd9-96fde9f58c10",
+      "question": "what's the name of the actress who played the role of a queen in the second season of the tv show \"the crown\"?",
+      "answer_a": "Claire Foy",
+      "answer_b": "Claire Foy",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "adabdcb6-3d4d-4dac-93f7-d54bdb5dccf2",
+      "question": "who was the coach of the team that won the nba championship last season?",
+      "answer_a": "Steve Kerr",
+      "answer_b": "Steve Kerr",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "ae615559-8a96-4b42-84ce-72f2669a1268",
+      "question": "how many spouses did the latest president of the united states have?",
+      "answer_a": "2",
+      "answer_b": "2",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the same numerical value.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the same numerical value."
+    },
+    {
+      "id": "af5e9fc5-7db0-495e-96eb-8795107cf84f",
+      "question": "what was dana ashbrook's age when he/she made an appearance in the aggression scale?",
+      "answer_a": "44 years old",
+      "answer_b": "45",
+      "equivalent": 0,
+      "reasoning": "The numeric values 44 and 45 are not within the allowed tolerance of max(0.5, 1% of reference value).",
+      "raw_response": "equivalent: 0\nreasoning: The numeric values 44 and 45 are not within the allowed tolerance of max(0.5, 1% of reference value)."
+    },
+    {
+      "id": "b1b7dbfa-0f96-4305-88b2-6fcbfdd2060e",
+      "question": "who is the american singer-songwriter who has won 11 grammy awards and is known for her unique voice and poignant lyrics, including her hit songs \"both sides now\" and \"big yellow taxi\"?",
+      "answer_a": "Roberta Joan \u201cJoni\u201d Mitchell",
+      "answer_b": "Joni Mitchell",
+      "equivalent": 1,
+      "reasoning": "Answer A provides the full name including the birth name and common name, while Answer B provides the common name. The extra detail in A does not contradict B and refers to the same person.",
+      "raw_response": "equivalent: 1\nreasoning: Answer A provides the full name including the birth name and common name, while Answer B provides the common name. The extra detail in A does not contradict B and refers to the same person."
+    },
+    {
+      "id": "b2541d0d-d31c-4ecb-8b79-2c1acbc056ac",
+      "question": "what companies that have reached $1 trillion market cap were founded after 2000?",
+      "answer_a": "Alphabet Inc.; Meta Platforms, Inc.; Tesla, Inc.",
+      "answer_b": "Tesla, Inc.; Meta Platforms, Inc.",
+      "equivalent": 0,
+      "reasoning": "Answer A includes Alphabet Inc., which was founded in 1998, not after 2000, making it factually incorrect with respect to the question's criteria.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A includes Alphabet Inc., which was founded in 1998, not after 2000, making it factually incorrect with respect to the question's criteria."
+    },
+    {
+      "id": "b331860d-d453-4dcc-9b00-9085621f9d25",
+      "question": "when did the current president of the us get married?",
+      "answer_a": "1977-06-17",
+      "answer_b": "1977-06-17",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "b835c182-65e9-4dc1-8b08-c40ce1c6ca4a",
+      "question": "who is the starting quarterback on baltimore's nfl team?",
+      "answer_a": "Lamar Jackson",
+      "answer_b": "Lamar Jackson",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "b87aa578-d977-40f3-b96d-8ebba8aa3910",
+      "question": "who was the player of the year in the premier league last season?",
+      "answer_a": "Kevin De Bruyne",
+      "answer_b": "Kevin De Bruyne",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "ba415fc4-68d2-4054-8fb7-f08909706579",
+      "question": "tell me how old was dua lipa when she released her first song.",
+      "answer_a": "19",
+      "answer_b": "19",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same numerical value.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same numerical value."
+    },
+    {
+      "id": "ba92e6b9-fcd3-4ff7-899a-fe59dbb2c8db",
+      "question": "what weight class is the ufc number one men's pound for pound fighter in?",
+      "answer_a": "Men\u2019s Featherweight",
+      "answer_b": "Featherweight",
+      "equivalent": 1,
+      "reasoning": "Answer A includes an extra descriptive word (\"Men's\") that is already implied by the question and does not change the core fact of the weight class.",
+      "raw_response": "equivalent: 1\nreasoning: Answer A includes an extra descriptive word (\"Men's\") that is already implied by the question and does not change the core fact of the weight class."
+    },
+    {
+      "id": "bb2c0885-6ef1-474c-8390-4234b5f77daa",
+      "question": "who is the american singer-songwriter who has won 4 grammy awards and is known for her soulful voice and genre-bending music, which blends elements of r&b, rock, and hip-hop?",
+      "answer_a": "Janelle Mon\u00e1e Robinson",
+      "answer_b": "Brittany Howard",
+      "equivalent": 0,
+      "reasoning": "The answers refer to different individuals. Brittany Howard has won 4 Grammy Awards, while Janelle Mon\u00e1e has not.",
+      "raw_response": "equivalent: 0\nreasoning: The answers refer to different individuals. Brittany Howard has won 4 Grammy Awards, while Janelle Mon\u00e1e has not."
+    },
+    {
+      "id": "bbf02810-d397-43c2-a183-35db46c034f8",
+      "question": "who is the american singer-songwriter who has won 1 grammy award and is known for her unique blend of folk, rock, and pop music, including her hit songs \"baby one more time\" and \"oops!... i did it again\"?",
+      "answer_a": "Britney Jean Spears",
+      "answer_b": "Britney Spears",
+      "equivalent": 1,
+      "reasoning": "Answer A is a more specific version of Answer B (includes middle name) but refers to the same person and does not contradict it.",
+      "raw_response": "equivalent: 1\nreasoning: Answer A is a more specific version of Answer B (includes middle name) but refers to the same person and does not contradict it."
+    },
+    {
+      "id": "bcc88678-d327-4792-b6f5-bb7efc33e2c6",
+      "question": "if i were to visit the capital of hawaii, how high up would i be?",
+      "answer_a": "About 6 m above sea level",
+      "answer_b": "5 m",
+      "equivalent": 0,
+      "reasoning": "The numerical values 6m and 5m are not equivalent based on the numeric expression tolerance rule (|a \u2212 b| \u2264 max(0.5, 1% of the reference)). The difference of 1m exceeds the allowed tolerance of 0.5m.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values 6m and 5m are not equivalent based on the numeric expression tolerance rule (|a \u2212 b| \u2264 max(0.5, 1% of the reference)). The difference of 1m exceeds the allowed tolerance of 0.5m."
+    },
+    {
+      "id": "bd5325a3-6ba0-4088-a1a2-4a80ce096335",
+      "question": "who was the goalkeeper of the team that won the fifa world cup last year?",
+      "answer_a": "None",
+      "answer_b": "Emiliano Mart\u00ednez",
+      "equivalent": -1,
+      "reasoning": "Answer A is not meaningful as it fails to provide the requested information, while Answer B provides a specific answer.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A is not meaningful as it fails to provide the requested information, while Answer B provides a specific answer."
+    },
+    {
+      "id": "c2405ead-68ed-4e4e-8ae9-9f1875aa7be7",
+      "question": "what other songs did the artist release in the same year as save me?",
+      "answer_a": "",
+      "answer_b": "Play the Game; Another One Bites the Dust; Flash; Need Your Loving Tonight",
+      "equivalent": -1,
+      "reasoning": "Answer A is empty, which is considered not meaningful.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A is empty, which is considered not meaningful."
+    },
+    {
+      "id": "c34046db-727d-4633-b2aa-85ad0b579c4b",
+      "question": "which company in the s&p 500 index had the highest number of patents related to renewable energy from 2002 to 2022?",
+      "answer_a": "General Electric Company",
+      "answer_b": "General Electric",
+      "equivalent": 1,
+      "reasoning": "\"General Electric\" is a common alias for \"General Electric Company\".",
+      "raw_response": "equivalent: 1\nreasoning: \"General Electric\" is a common alias for \"General Electric Company\"."
+    },
+    {
+      "id": "c47ece5d-49ba-4ee2-ba5e-cfee323dbec0",
+      "question": "who was the first actor to play the role of a comic book hero in a live-action movie?",
+      "answer_a": "Tom Tyler",
+      "answer_b": "Tom Tyler",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "c510db91-e1e8-4dac-a448-00bc12d60a33",
+      "question": "what is the name of the restaurant founded by the star of joe bell",
+      "answer_a": "Wahlburgers",
+      "answer_b": "Wahlburgers",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "c56ad40f-e035-4fe5-b4f6-d231d693096b",
+      "question": "what age did ferdinand magelan discovered the philippines",
+      "answer_a": "41",
+      "answer_b": "41",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same age.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same age."
+    },
+    {
+      "id": "c5f6d097-614c-4c10-ae8c-19cbfd82d6ec",
+      "question": "how much does the largest bank in north america have in assets?",
+      "answer_a": "United States dollars (USD)",
+      "answer_b": "3.8 trillion USD",
+      "equivalent": -1,
+      "reasoning": "Answer A only states the currency, not the amount of assets, making it not meaningful as an answer to \"how much\".",
+      "raw_response": "equivalent: -1\nreasoning: Answer A only states the currency, not the amount of assets, making it not meaningful as an answer to \"how much\"."
+    },
+    {
+      "id": "cadf9a62-defd-46b2-9758-086bc16b864f",
+      "question": "how long is the longest route in the us?",
+      "answer_a": "3,365 mi",
+      "answer_b": "3365 mi",
+      "equivalent": 1,
+      "reasoning": "Thousands separators are ignored; same numerical value and unit.",
+      "raw_response": "equivalent: 1\nreasoning: Thousands separators are ignored; same numerical value and unit."
+    },
+    {
+      "id": "cde46ece-83a5-41d3-a3a9-df4bf5ef7f64",
+      "question": "what was the lakers' record the year kobe bryant won mvp?",
+      "answer_a": "57\u201325",
+      "answer_b": "57\u201325",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "d1cc84a1-4b8e-4f64-ab0e-c0aa0a93cae2",
+      "question": "what sport does pau gasol's brother play?",
+      "answer_a": "Basketball",
+      "answer_b": "basketball",
+      "equivalent": 1,
+      "reasoning": "Case normalization.",
+      "raw_response": "equivalent: 1\nreasoning: Case normalization."
+    },
+    {
+      "id": "d46aa330-1279-4dd8-959c-88f402757912",
+      "question": "what was the budget for the second bourne film?",
+      "answer_a": "$75 million",
+      "answer_b": "75000000 USD",
+      "equivalent": 1,
+      "reasoning": "Numeric expressions and currency symbols are normalized; both state 75,000,000.",
+      "raw_response": "equivalent: 1\nreasoning: Numeric expressions and currency symbols are normalized; both state 75,000,000."
+    },
+    {
+      "id": "d5124253-4271-40b5-986b-dd3021ab828e",
+      "question": "who was the winner of the wimbledon women's singles tournament this year?",
+      "answer_a": "Elena Rybakina",
+      "answer_b": "Elena Rybakina",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "d52db8c5-663a-469c-a470-e6d524e2b3dd",
+      "question": "who was the coach of the team that won the stanley cup last season?",
+      "answer_a": "Jared Bednar",
+      "answer_b": "Jared Bednar",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "d93b3615-3ef8-446f-a635-95b3b7ece245",
+      "question": "who was the coach of the team that won the ncaa men's basketball championship last year?",
+      "answer_a": "Scott Drew",
+      "answer_b": "Scott Drew",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "db078969-dcfd-4bd3-8d07-ee8ceceebafd",
+      "question": "what is the shortest highway in the us in feet?",
+      "answer_a": "6,864 ft",
+      "answer_b": "3696 ft",
+      "equivalent": 0,
+      "reasoning": "The numerical values 6,864 ft and 3,696 ft are significantly different and do not fall within the allowed numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values 6,864 ft and 3,696 ft are significantly different and do not fall within the allowed numeric tolerance."
+    },
+    {
+      "id": "dd3d3f80-7f74-4a99-a5d2-65208f2ab00b",
+      "question": "which company in the s&p 500 index has more than 20 board of directors meetings per year?",
+      "answer_a": "Unknown",
+      "answer_b": "Netflix, Inc.",
+      "equivalent": 0,
+      "reasoning": "Answer A states the information is unknown, while Answer B provides a specific company, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states the information is unknown, while Answer B provides a specific company, which is a direct contradiction."
+    },
+    {
+      "id": "df4e57f0-519e-4ce2-81c2-144985cf1a7b",
+      "question": "when was meta's most recent vr headset released?",
+      "answer_a": "2020-10-13",
+      "answer_b": "2020-10-13",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "e554740c-201a-4280-a644-d43523a97103",
+      "question": "where does amen thompson's brother play?",
+      "answer_a": "Atlanta",
+      "answer_b": "Detroit Pistons",
+      "equivalent": 0,
+      "reasoning": "Answer A states a city (Atlanta), while Answer B states a team (Detroit Pistons). These are different facts, and the correct team is the Detroit Pistons, not a team in Atlanta.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states a city (Atlanta), while Answer B states a team (Detroit Pistons). These are different facts, and the correct team is the Detroit Pistons, not a team in Atlanta."
+    },
+    {
+      "id": "e7a2a848-15cd-44d2-aa1d-3bdb5e87a3aa",
+      "question": "which of benny andersson's film has achieved the highest box office success globally?",
+      "answer_a": "Mamma Mia!",
+      "answer_b": "Mamma Mia!",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "e9751dcf-72ec-434f-9ca8-30a0a72da8fc",
+      "question": "how old is the current president of the us?",
+      "answer_a": "79",
+      "answer_b": "79",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same age.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same age."
+    },
+    {
+      "id": "eb6873e2-79cf-4177-b628-02025e2f6aee",
+      "question": "on langeland, what is the side of the road that people drive on?",
+      "answer_a": "Right",
+      "answer_b": "right",
+      "equivalent": 1,
+      "reasoning": "Case normalization.",
+      "raw_response": "equivalent: 1\nreasoning: Case normalization."
+    },
+    {
+      "id": "ef2ddee1-2f4c-4ea3-8e5c-75f5fe53fcd4",
+      "question": "what is the abbr of the us state that is least populated?",
+      "answer_a": "WY",
+      "answer_b": "WY",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "f05d362c-0073-4842-8efb-cd12ca229ab9",
+      "question": "what's the symnol of the constellation that contains iota pegasi?",
+      "answer_a": "Peg",
+      "answer_b": "Peg",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "f47c840a-24db-4463-8746-92bfed093c57",
+      "question": "in which country is the company that developed robocop: rogue city located?",
+      "answer_a": "Poland",
+      "answer_b": "Poland",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "fb551cef-4ae6-47ba-89fd-6f5601f05de7",
+      "question": "what's the name of the actress who played the role of queen in the fifth and sixth seasons of the show tv show \"the crown\"?",
+      "answer_a": "Imelda Mary Philomena Bernadette Staunton",
+      "answer_b": "Imelda Staunton",
+      "equivalent": 1,
+      "reasoning": "Answer A provides the full name, while Answer B provides the first and last name. Answer A is more specific but consistent with Answer B.",
+      "raw_response": "equivalent: 1\nreasoning: Answer A provides the full name, while Answer B provides the first and last name. Answer A is more specific but consistent with Answer B."
+    },
+    {
+      "id": "fbf01c05-4156-45e7-8144-51bc36a8cb92",
+      "question": "which feid album is the one that has \"normal\" on it?",
+      "answer_a": "Feliz Cumplea\u00f1os Ferxxo Te Pirateamos el \u00c1lbum",
+      "answer_b": "Inter Shibuya \u2013 La Mafia",
+      "equivalent": 0,
+      "reasoning": "The two answers refer to different albums. \"Feliz Cumplea\u00f1os Ferxxo Te Pirateamos el \u00c1lbum\" is the correct album for the song \"Normal\", while \"Inter Shibuya \u2013 La Mafia\" is a different album.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers refer to different albums. \"Feliz Cumplea\u00f1os Ferxxo Te Pirateamos el \u00c1lbum\" is the correct album for the song \"Normal\", while \"Inter Shibuya \u2013 La Mafia\" is a different album."
+    },
+    {
+      "id": "fde0f884-56cb-47c6-a15a-056eb02cfa4b",
+      "question": "when did drake release their most popular album?",
+      "answer_a": "2016-04-29",
+      "answer_b": "2016-04-29",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+      "question": "at what age did usher perform in the half time show of superbowl?",
+      "answer_a": "45",
+      "answer_b": "45",
+      "equivalent": 1,
+      "reasoning": "Both answers state the same age.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers state the same age."
+    }
+  ]
+}

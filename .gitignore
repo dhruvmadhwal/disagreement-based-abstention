@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Logs and outputs
+*.log
+logs/
+outputs/
+results/token_usage_log.jsonl
+
+# One-shot result blobs at results/ top level (keep structured subdirs tracked)
+results/inconsistency_analysis*.json
+results/both_correct_consistent_updates.json
+
+# Local creds/configs
+.env
+.env.*
+*.env
+vertex-express.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Model checkpoints and cache
+*.pt
+*.pth
+*.ckpt
+.cache/
+checkpoints/
+
+# Local archive (preserved on disk, excluded from public release)
+archive/
+
+# Local agent scratchpad (out of paper scope)
+agent/

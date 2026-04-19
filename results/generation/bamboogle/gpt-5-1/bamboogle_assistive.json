@@ -1,0 +1,2468 @@
+[
+  {
+    "id": "bamboogle_0001_6e6f1060",
+    "model": "gpt-5.1",
+    "question": "Who was president of the United States in the year that Citibank was founded?",
+    "dsl_string": "answer_1: str = qa_model(\"In what year was Citibank founded?\")\nanswer_2: str = qa_model(\"Who was the president of the United States in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "James Madison",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1812",
+      "answer_2": "James Madison"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"1812\",\n  \"answer_2\": \"James Madison\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:05:40",
+    "intermediate_questions": [
+      "In what year was Citibank founded?",
+      "Who was the president of the United States in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0002_175308b7",
+    "model": "gpt-5.1",
+    "question": "What rocket was the first spacecraft that ever approached Uranus launched on?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the first spacecraft to approach Uranus?\")\nanswer_2: str = qa_model(\"What rocket was {answer_1} launched on?\", answer_1=answer_1)",
+    "final_answer": "Titan IIIE-Centaur",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Voyager 2",
+      "answer_2": "Titan IIIE-Centaur"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Voyager 2\",\n  \"answer_2\": \"Titan IIIE-Centaur\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:05:49",
+    "intermediate_questions": [
+      "What was the first spacecraft to approach Uranus?",
+      "What rocket was {answer_1} launched on?"
+    ]
+  },
+  {
+    "id": "bamboogle_0003_891e0e7b",
+    "model": "gpt-5.1",
+    "question": "In what year was the company that was founded as Sound of Music added to the S&P 500?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the current name of the company that was founded as Sound of Music?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} added to the S&P 500?\", answer_1=answer_1)",
+    "final_answer": "1999",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Best Buy Co., Inc.",
+      "answer_2": "1999"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Best Buy Co., Inc.\",\n  \"answer_2\": \"1999\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:06:02",
+    "intermediate_questions": [
+      "What is the current name of the company that was founded as Sound of Music?",
+      "In what year was {answer_1} added to the S&P 500?"
+    ]
+  },
+  {
+    "id": "bamboogle_0004_cf977e2d",
+    "model": "gpt-5.1",
+    "question": "Who was the first African American mayor of the most populous city in the United States?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most populous city in the United States?\")\nanswer_2: str = qa_model(\"Who was the first African American mayor of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "David Dinkins",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "New York City",
+      "answer_2": "David Dinkins"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"New York City\",\n  \"answer_2\": \"David Dinkins\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:06:10",
+    "intermediate_questions": [
+      "What is the most populous city in the United States?",
+      "Who was the first African American mayor of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0005_8f814452",
+    "model": "gpt-5.1",
+    "question": "When did the last king from Britain's House of Hanover die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the last king from Britain's House of Hanover?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1837-06-20",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "William IV",
+      "answer_2": "1837-06-20"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"William IV\",\n  \"answer_2\": \"1837-06-20\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:06:18",
+    "intermediate_questions": [
+      "Who was the last king from Britain's House of Hanover?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0006_3b420e8a",
+    "model": "gpt-5.1",
+    "question": "When did the president who set the precedent of a two term limit enter office?",
+    "dsl_string": "answer_1: str = qa_model(\"Which president set the precedent of a two term limit?\")\nanswer_2: str = qa_model(\"When did {answer_1} enter office?\", answer_1=answer_1)",
+    "final_answer": "1789-04-30",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "George Washington",
+      "answer_2": "1789-04-30"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"George Washington\",\n  \"answer_2\": \"1789-04-30\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:06:27",
+    "intermediate_questions": [
+      "Which president set the precedent of a two term limit?",
+      "When did {answer_1} enter office?"
+    ]
+  },
+  {
+    "id": "bamboogle_0007_6e7bd693",
+    "model": "gpt-5.1",
+    "question": "When did the president who set the precedent of a two term limit leave office?",
+    "dsl_string": "answer_1: str = qa_model(\"Which president set the precedent of a two-term limit?\")\nanswer_2: str = qa_model(\"When did {answer_1} leave office?\", answer_1=answer_1)",
+    "final_answer": "1797-03-04",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "George Washington",
+      "answer_2": "1797-03-04"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"George Washington\",\n  \"answer_2\": \"1797-03-04\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:06:35",
+    "intermediate_questions": [
+      "Which president set the precedent of a two-term limit?",
+      "When did {answer_1} leave office?"
+    ]
+  },
+  {
+    "id": "bamboogle_0008_c3368d53",
+    "model": "gpt-5.1",
+    "question": "How many people died in the second most powerful earthquake ever recorded?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the second most powerful earthquake ever recorded?\")\nanswer_2: str = qa_model(\"How many people died in the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "131",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1964 Great Alaska earthquake",
+      "answer_2": "131"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"1964 Great Alaska earthquake\",\n  \"answer_2\": \"131\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:06:44",
+    "intermediate_questions": [
+      "What was the second most powerful earthquake ever recorded?",
+      "How many people died in the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0010_1a9c312e",
+    "model": "gpt-5.1",
+    "question": "What was the final book written by the author of On the Origin of Species?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the author of 'On the Origin of Species'?\")\nanswer_2: str = qa_model(\"What was the final book written by {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The Formation of Vegetable Mould through the Action of Worms, with Observations on their Habits",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Charles Darwin",
+      "answer_2": "The Formation of Vegetable Mould through the Action of Worms, with Observations on their Habits"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Charles Darwin\",\n  \"answer_2\": \"The Formation of Vegetable Mould through the Action of Worms, with Observations on their Habits\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:07:08",
+    "intermediate_questions": [
+      "Who is the author of 'On the Origin of Species'?",
+      "What was the final book written by {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0011_0671c011",
+    "model": "gpt-5.1",
+    "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the first steam locomotive to carry passengers on a public rail line?\")\nanswer_2: str = qa_model(\"Which company built the {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was the company {answer_2} founded?\", answer_2=answer_2)",
+    "final_answer": "1823",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Locomotion No. 1",
+      "answer_2": "Robert Stephenson and Company",
+      "answer_3": "1823"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Locomotion No. 1\",\n  \"answer_2\": \"Robert Stephenson and Company\",\n  \"answer_3\": \"1823\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:07:46",
+    "intermediate_questions": [
+      "What was the first steam locomotive to carry passengers on a public rail line?",
+      "Which company built the {answer_1}?",
+      "When was the company {answer_2} founded?"
+    ]
+  },
+  {
+    "id": "bamboogle_0012_3aefbc54",
+    "model": "gpt-5.1",
+    "question": "Which Theranos whistleblower is not related to a senior American government official?",
+    "dsl_string": "answer_1: str = qa_model(\"Which Theranos whistleblower is related to a senior American government official?\")\nanswer_2: str = qa_model(\"Who was the other main whistleblower at Theranos besides {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Erika Cheung",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Tyler Shultz",
+      "answer_2": "Erika Cheung"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Tyler Shultz\",\n  \"answer_2\": \"Erika Cheung\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:08:00",
+    "intermediate_questions": [
+      "Which Theranos whistleblower is related to a senior American government official?",
+      "Who was the other main whistleblower at Theranos besides {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0013_bbc4d2bd",
+    "model": "gpt-5.1",
+    "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the fastest air-breathing manned aircraft?\")\nanswer_2: str = qa_model(\"What material is the {answer_1} mostly made out of?\", answer_1=answer_1)",
+    "final_answer": "titanium",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Lockheed SR-71 Blackbird",
+      "answer_2": "titanium"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Lockheed SR-71 Blackbird\",\n  \"answer_2\": \"titanium\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:08:14",
+    "intermediate_questions": [
+      "What is the fastest air-breathing manned aircraft?",
+      "What material is the {answer_1} mostly made out of?"
+    ]
+  },
+  {
+    "id": "bamboogle_0014_af764bd2",
+    "model": "gpt-5.1",
+    "question": "Who built the fastest air-breathing manned aircraft?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the fastest air-breathing manned aircraft?\")\nanswer_2: str = qa_model(\"Who built the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Lockheed Corporation",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Lockheed SR-71 Blackbird",
+      "answer_2": "Lockheed Corporation"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Lockheed SR-71 Blackbird\",\n  \"answer_2\": \"Lockheed Corporation\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:08:30",
+    "intermediate_questions": [
+      "What is the fastest air-breathing manned aircraft?",
+      "Who built the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0015_ab770108",
+    "model": "gpt-5.1",
+    "question": "When was the author of The Population Bomb born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the author of 'The Population Bomb'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1932-05-29",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Paul R. Ehrlich",
+      "answer_2": "1932-05-29"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Paul R. Ehrlich\",\n  \"answer_2\": \"1932-05-29\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:08:52",
+    "intermediate_questions": [
+      "Who is the author of 'The Population Bomb'?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0016_035dab06",
+    "model": "gpt-5.1",
+    "question": "When did the author of Annabel Lee enlist in the army?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the author of the poem 'Annabel Lee'?\")\nanswer_2: str = qa_model(\"When did {answer_1} enlist in the army?\", answer_1=answer_1)",
+    "final_answer": "1827-05-26",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Edgar Allan Poe",
+      "answer_2": "1827-05-26"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Edgar Allan Poe\",\n  \"answer_2\": \"1827-05-26\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:08:59",
+    "intermediate_questions": [
+      "Who is the author of the poem 'Annabel Lee'?",
+      "When did {answer_1} enlist in the army?"
+    ]
+  },
+  {
+    "id": "bamboogle_0017_ba5fef1d",
+    "model": "gpt-5.1",
+    "question": "What was the religion of the inventor of the Polio vaccine?",
+    "dsl_string": "answer_1: str = qa_model(\"Who invented the Polio vaccine?\")\nanswer_2: str = qa_model(\"What was the religion of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Judaism",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Jonas Salk",
+      "answer_2": "Judaism"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Jonas Salk\",\n  \"answer_2\": \"Judaism\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:09:09",
+    "intermediate_questions": [
+      "Who invented the Polio vaccine?",
+      "What was the religion of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0018_6de30b3d",
+    "model": "gpt-5.1",
+    "question": "Who was the second wife of the founder of CNN?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the founder of CNN?\")\nanswer_2: str = qa_model(\"Who was the second wife of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Jane Shirley Smith",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Ted Turner",
+      "answer_2": "Jane Shirley Smith"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Ted Turner\",\n  \"answer_2\": \"Jane Shirley Smith\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:09:17",
+    "intermediate_questions": [
+      "Who is the founder of CNN?",
+      "Who was the second wife of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0019_68cc9ada",
+    "model": "gpt-5.1",
+    "question": "When did the first prime minister of the Russian Empire come into office?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the first prime minister of the Russian Empire?\")\nanswer_2: str = qa_model(\"When did {answer_1} come into office?\", answer_1=answer_1)",
+    "final_answer": "1905-11-06",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Sergei Witte",
+      "answer_2": "1905-11-06"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Sergei Witte\",\n  \"answer_2\": \"1905-11-06\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:09:28",
+    "intermediate_questions": [
+      "Who was the first prime minister of the Russian Empire?",
+      "When did {answer_1} come into office?"
+    ]
+  },
+  {
+    "id": "bamboogle_0020_24d97e82",
+    "model": "gpt-5.1",
+    "question": "What is the primary male hormone derived from?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the primary male hormone?\")\nanswer_2: str = qa_model(\"What is {answer_1} derived from?\", answer_1=answer_1)",
+    "final_answer": "Cholesterol",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Testosterone",
+      "answer_2": "Cholesterol"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Testosterone\",\n  \"answer_2\": \"Cholesterol\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:09:43",
+    "intermediate_questions": [
+      "What is the primary male hormone?",
+      "What is {answer_1} derived from?"
+    ]
+  },
+  {
+    "id": "bamboogle_0022_6cd1bf3c",
+    "model": "gpt-5.1",
+    "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who shared the Nobel Prize in Physics in 1954 with Max Born?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "Oranienburg",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Walther Bothe",
+      "answer_2": "Oranienburg"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Walther Bothe\",\n  \"answer_2\": \"Oranienburg\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:10:18",
+    "intermediate_questions": [
+      "Who shared the Nobel Prize in Physics in 1954 with Max Born?",
+      "Where was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0023_f3912b79",
+    "model": "gpt-5.1",
+    "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who shared the Nobel Prize in Physics in 1954 with Max Born?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1891-01-08",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Walther Bothe",
+      "answer_2": "1891-01-08"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Walther Bothe\",\n  \"answer_2\": \"1891-01-08\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:10:29",
+    "intermediate_questions": [
+      "Who shared the Nobel Prize in Physics in 1954 with Max Born?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0024_d326facb",
+    "model": "gpt-5.1",
+    "question": "What was the founding date of the university in which Plotonium was discovered?",
+    "dsl_string": "answer_1: str = qa_model(\"At which university was Plutonium discovered?\")\nanswer_2: str = qa_model(\"What is the founding date of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "1868-03-23",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "University of California, Berkeley",
+      "answer_2": "1868-03-23"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"University of California, Berkeley\",\n  \"answer_2\": \"1868-03-23\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:10:38",
+    "intermediate_questions": [
+      "At which university was Plutonium discovered?",
+      "What is the founding date of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0025_6534f07a",
+    "model": "gpt-5.1",
+    "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+    "dsl_string": "answer_1: str = qa_model(\"What material is the Great Sphinx of Giza made of?\")\nanswer_2: str = qa_model(\"What mineral is {answer_1} mainly composed of?\", answer_1=answer_1)",
+    "final_answer": "calcite",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "limestone",
+      "answer_2": "calcite"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"limestone\",\n  \"answer_2\": \"calcite\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:10:50",
+    "intermediate_questions": [
+      "What material is the Great Sphinx of Giza made of?",
+      "What mineral is {answer_1} mainly composed of?"
+    ]
+  },
+  {
+    "id": "bamboogle_0026_2aa186e5",
+    "model": "gpt-5.1",
+    "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the husband of Lady Godiva?\")\nanswer_2: str = qa_model(\"{answer_1} was the Earl of which Anglic kingdom?\", answer_1=answer_1)",
+    "final_answer": "Mercia",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Leofric",
+      "answer_2": "Mercia"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Leofric\",\n  \"answer_2\": \"Mercia\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:10:56",
+    "intermediate_questions": [
+      "Who was the husband of Lady Godiva?",
+      "{answer_1} was the Earl of which Anglic kingdom?"
+    ]
+  },
+  {
+    "id": "bamboogle_0027_b6ed7ee5",
+    "model": "gpt-5.1",
+    "question": "The machine used to extract honey from honeycombs uses which physical force?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the name of the machine used to extract honey from honeycombs?\")\nanswer_2: str = qa_model(\"What physical force does a {answer_1} use?\", answer_1=answer_1)",
+    "final_answer": "centrifugal force",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "honey extractor",
+      "answer_2": "centrifugal force"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"honey extractor\",\n  \"answer_2\": \"centrifugal force\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:11:04",
+    "intermediate_questions": [
+      "What is the name of the machine used to extract honey from honeycombs?",
+      "What physical force does a {answer_1} use?"
+    ]
+  },
+  {
+    "id": "bamboogle_0028_ec928c44",
+    "model": "gpt-5.1",
+    "question": "What is the third letter of the top level domain of the military?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the top level domain of the military?\")\nanswer_2: str = qa_model(\"What is the third letter of '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "i",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": ".mil",
+      "answer_2": "i"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \".mil\",\n  \"answer_2\": \"i\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:11:15",
+    "intermediate_questions": [
+      "What is the top level domain of the military?",
+      "What is the third letter of '{answer_1}'?"
+    ]
+  },
+  {
+    "id": "bamboogle_0029_45dd51fa",
+    "model": "gpt-5.1",
+    "question": "In what year was the government department where the internet originated at founded?",
+    "dsl_string": "answer_1: str = qa_model(\"What government department is credited with the origin of the internet?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} founded?\", answer_1=answer_1)",
+    "final_answer": "1947",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "United States Department of Defense",
+      "answer_2": "1947"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"United States Department of Defense\",\n  \"answer_2\": \"1947\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:11:25",
+    "intermediate_questions": [
+      "What government department is credited with the origin of the internet?",
+      "In what year was {answer_1} founded?"
+    ]
+  },
+  {
+    "id": "bamboogle_0030_e46296ae",
+    "model": "gpt-5.1",
+    "question": "The main actor of Indiana Jones is a licensed what?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the main actor in the Indiana Jones film series?\")\nanswer_2: str = qa_model(\"What is {answer_1} licensed as?\", answer_1=answer_1)",
+    "final_answer": "a licensed pilot",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Harrison Ford",
+      "answer_2": "a licensed pilot"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Harrison Ford\",\n  \"answer_2\": \"a licensed pilot\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:11:34",
+    "intermediate_questions": [
+      "Who is the main actor in the Indiana Jones film series?",
+      "What is {answer_1} licensed as?"
+    ]
+  },
+  {
+    "id": "bamboogle_0031_09f34243",
+    "model": "gpt-5.1",
+    "question": "When was the person after which the Hubble Space Telescope is named after born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the Hubble Space Telescope named after?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1889-11-20",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Edwin Hubble",
+      "answer_2": "1889-11-20"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Edwin Hubble\",\n  \"answer_2\": \"1889-11-20\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:11:47",
+    "intermediate_questions": [
+      "Who is the Hubble Space Telescope named after?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0032_11e51f29",
+    "model": "gpt-5.1",
+    "question": "When did the person who gave the Checkers speech die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who gave the Checkers speech?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1994-04-22",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Richard Nixon",
+      "answer_2": "1994-04-22"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Richard Nixon\",\n  \"answer_2\": \"1994-04-22\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:11:54",
+    "intermediate_questions": [
+      "Who gave the Checkers speech?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0033_3ac04942",
+    "model": "gpt-5.1",
+    "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+    "dsl_string": "answer_1: str = qa_model(\"Which philosopher formulated the hard problem of consciousness?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1966-04-20",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "David Chalmers",
+      "answer_2": "1966-04-20"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"David Chalmers\",\n  \"answer_2\": \"1966-04-20\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:12:00",
+    "intermediate_questions": [
+      "Which philosopher formulated the hard problem of consciousness?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0034_b73fc285",
+    "model": "gpt-5.1",
+    "question": "What is the capital of the second largest state in the US by area?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second largest state in the US by area?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Austin",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Texas",
+      "answer_2": "Austin"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Texas\",\n  \"answer_2\": \"Austin\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:12:08",
+    "intermediate_questions": [
+      "What is the second largest state in the US by area?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0035_f61df3cd",
+    "model": "gpt-5.1",
+    "question": "What is the maximum airspeed (in km/h) of the third fastest bird?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third fastest bird?\")\nanswer_2: str = qa_model(\"What is the maximum airspeed of a {answer_1} in km/h?\", answer_1=answer_1)",
+    "final_answer": "209 km/h",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "gyrfalcon",
+      "answer_2": "209 km/h"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"gyrfalcon\",\n  \"answer_2\": \"209 km/h\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:12:16",
+    "intermediate_questions": [
+      "What is the third fastest bird?",
+      "What is the maximum airspeed of a {answer_1} in km/h?"
+    ]
+  },
+  {
+    "id": "bamboogle_0036_11031c0f",
+    "model": "gpt-5.1",
+    "question": "Who founded the city where the founder of geometry lived?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the founder of geometry?\")\nanswer_2: str = qa_model(\"In which city did {answer_1} live?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who founded the city of {answer_2}?\", answer_2=answer_2)",
+    "final_answer": "Alexander the Great",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Euclid",
+      "answer_2": "Alexandria",
+      "answer_3": "Alexander the Great"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Euclid\",\n  \"answer_2\": \"Alexandria\",\n  \"answer_3\": \"Alexander the Great\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:12:57",
+    "intermediate_questions": [
+      "Who is the founder of geometry?",
+      "In which city did {answer_1} live?",
+      "Who founded the city of {answer_2}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0037_be0f74dc",
+    "model": "gpt-5.1",
+    "question": "What is the capital of the country where yoga originated?",
+    "dsl_string": "answer_1: str = qa_model(\"In which country did yoga originate?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "New Delhi",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "India",
+      "answer_2": "New Delhi"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"India\",\n  \"answer_2\": \"New Delhi\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:13:06",
+    "intermediate_questions": [
+      "In which country did yoga originate?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0038_b587d315",
+    "model": "gpt-5.1",
+    "question": "The fourth largest city in Germany was originally called what?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the fourth largest city in Germany?\")\nanswer_2: str = qa_model(\"What was the original name of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Colonia Claudia Ara Agrippinensium",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Cologne",
+      "answer_2": "Colonia Claudia Ara Agrippinensium"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Cologne\",\n  \"answer_2\": \"Colonia Claudia Ara Agrippinensium\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:13:12",
+    "intermediate_questions": [
+      "What is the fourth largest city in Germany?",
+      "What was the original name of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0039_7e165501",
+    "model": "gpt-5.1",
+    "question": "When did Nirvana's second most selling studio album come out?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second most selling studio album by Nirvana?\")\nanswer_2: str = qa_model(\"When did the album '{answer_1}' come out?\", answer_1=answer_1)",
+    "final_answer": "1993-09-21",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "In Utero",
+      "answer_2": "1993-09-21"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"In Utero\",\n  \"answer_2\": \"1993-09-21\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:13:21",
+    "intermediate_questions": [
+      "What is the second most selling studio album by Nirvana?",
+      "When did the album '{answer_1}' come out?"
+    ]
+  },
+  {
+    "id": "bamboogle_0040_55991d31",
+    "model": "gpt-5.1",
+    "question": "What was the job of the father of the founder of psychoanalysis?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the founder of psychoanalysis?\")\nanswer_2: str = qa_model(\"What was the job of the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Wool merchant",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Sigmund Freud",
+      "answer_2": "Wool merchant"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Sigmund Freud\",\n  \"answer_2\": \"Wool merchant\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:13:34",
+    "intermediate_questions": [
+      "Who is the founder of psychoanalysis?",
+      "What was the job of the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0041_79c1014c",
+    "model": "gpt-5.1",
+    "question": "How much protein in four boiled egg yolks?",
+    "dsl_string": "answer_1: str = qa_model(\"How much protein is in one boiled egg yolk?\")\nanswer_2: str = qa_model(\"What is four times {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "10.8 g",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2.7 g",
+      "answer_2": "10.8 g"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"2.7 g\",\n  \"answer_2\": \"10.8 g\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:13:44",
+    "intermediate_questions": [
+      "How much protein is in one boiled egg yolk?",
+      "What is four times {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0042_56fa9e0c",
+    "model": "gpt-5.1",
+    "question": "What is the political party of the American president who entered into the Paris agreement?",
+    "dsl_string": "answer_1: str = qa_model(\"Which American president entered into the Paris agreement?\")\nanswer_2: str = qa_model(\"What is the political party of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Democratic Party",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Barack Obama",
+      "answer_2": "Democratic Party"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Barack Obama\",\n  \"answer_2\": \"Democratic Party\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:13:56",
+    "intermediate_questions": [
+      "Which American president entered into the Paris agreement?",
+      "What is the political party of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0043_d65a05e7",
+    "model": "gpt-5.1",
+    "question": "The most populous city in Punjab is how large (area wise)?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most populous city in Punjab?\")\nanswer_2: str = qa_model(\"What is the area of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "1772 km²",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Lahore",
+      "answer_2": "1772 km²"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Lahore\",\n  \"answer_2\": \"1772 km²\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:14:06",
+    "intermediate_questions": [
+      "What is the most populous city in Punjab?",
+      "What is the area of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0044_f8e3e961",
+    "model": "gpt-5.1",
+    "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the second largest volcanic eruption in the 20th century?\")\nanswer_2: str = qa_model(\"What was the death toll of the {answer_1} eruption?\", answer_1=answer_1)",
+    "final_answer": "847",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1991 eruption of Mount Pinatubo",
+      "answer_2": "847"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"1991 eruption of Mount Pinatubo\",\n  \"answer_2\": \"847\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:14:27",
+    "intermediate_questions": [
+      "What was the second largest volcanic eruption in the 20th century?",
+      "What was the death toll of the {answer_1} eruption?"
+    ]
+  },
+  {
+    "id": "bamboogle_0045_38628071",
+    "model": "gpt-5.1",
+    "question": "What was the death toll of the most intense Atlantic hurricane?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most intense Atlantic hurricane on record?\")\nanswer_2: str = qa_model(\"What was the death toll of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "87",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Hurricane Wilma",
+      "answer_2": "87"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Hurricane Wilma\",\n  \"answer_2\": \"87\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:14:51",
+    "intermediate_questions": [
+      "What is the most intense Atlantic hurricane on record?",
+      "What was the death toll of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0046_0e09f340",
+    "model": "gpt-5.1",
+    "question": "Who was the head of NASA during Apollo 11?",
+    "dsl_string": "answer_1: str = qa_model(\"When did the Apollo 11 mission take place?\")\nanswer_2: str = qa_model(\"Who was the head of NASA in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Thomas O. Paine",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1969-07-16 to 1969-07-24",
+      "answer_2": "Thomas O. Paine"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"1969-07-16 to 1969-07-24\",\n  \"answer_2\": \"Thomas O. Paine\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:15:15",
+    "intermediate_questions": [
+      "When did the Apollo 11 mission take place?",
+      "Who was the head of NASA in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0047_2b5facaa",
+    "model": "gpt-5.1",
+    "question": "Who is the father of the father of George Washington?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the father of George Washington?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Lawrence Washington",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Augustine Washington",
+      "answer_2": "Lawrence Washington"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Augustine Washington\",\n  \"answer_2\": \"Lawrence Washington\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:15:25",
+    "intermediate_questions": [
+      "Who is the father of George Washington?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0048_847035a6",
+    "model": "gpt-5.1",
+    "question": "Who is the mother of the father of George Washington?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the father of George Washington?\")\nanswer_2: str = qa_model(\"Who was the mother of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Mildred Warner",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Augustine Washington",
+      "answer_2": "Mildred Warner"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Augustine Washington\",\n  \"answer_2\": \"Mildred Warner\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:15:35",
+    "intermediate_questions": [
+      "Who was the father of George Washington?",
+      "Who was the mother of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0049_fb51af7c",
+    "model": "gpt-5.1",
+    "question": "Who is the father of the father of Barack Obama?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the father of Barack Obama?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Hussein Onyango Obama",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Barack Obama Sr.",
+      "answer_2": "Hussein Onyango Obama"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Barack Obama Sr.\",\n  \"answer_2\": \"Hussein Onyango Obama\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:15:43",
+    "intermediate_questions": [
+      "Who is the father of Barack Obama?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0050_43f80844",
+    "model": "gpt-5.1",
+    "question": "Who is the mother of the father of Barack Obama?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the father of Barack Obama?\")\nanswer_2: str = qa_model(\"Who is the mother of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Habiba Akumu Nyanjoga",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Barack Obama Sr.",
+      "answer_2": "Habiba Akumu Nyanjoga"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Barack Obama Sr.\",\n  \"answer_2\": \"Habiba Akumu Nyanjoga\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:15:51",
+    "intermediate_questions": [
+      "Who is the father of Barack Obama?",
+      "Who is the mother of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0051_ff4cece0",
+    "model": "gpt-5.1",
+    "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+    "dsl_string": "answer_1: str = qa_model(\"In what year was Fiorello H. La Guardia born?\")\nanswer_2: str = qa_model(\"Who was the mayor of New York City in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "William R. Grace",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1882",
+      "answer_2": "William R. Grace"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"1882\",\n  \"answer_2\": \"William R. Grace\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:15:58",
+    "intermediate_questions": [
+      "In what year was Fiorello H. La Guardia born?",
+      "Who was the mayor of New York City in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0052_19a8da47",
+    "model": "gpt-5.1",
+    "question": "Who was president of the U.S. when superconductivity was discovered?",
+    "dsl_string": "answer_1: str = qa_model(\"When was superconductivity discovered?\")\nanswer_2: str = qa_model(\"Who was the president of the U.S. in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "William Howard Taft",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1911",
+      "answer_2": "William Howard Taft"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"1911\",\n  \"answer_2\": \"William Howard Taft\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:16:10",
+    "intermediate_questions": [
+      "When was superconductivity discovered?",
+      "Who was the president of the U.S. in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0053_440fdd60",
+    "model": "gpt-5.1",
+    "question": "When was the person Russ Hanneman is based on born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the character Russ Hanneman based on?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1958-07-31",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Mark Cuban",
+      "answer_2": "1958-07-31"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Mark Cuban\",\n  \"answer_2\": \"1958-07-31\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:16:22",
+    "intermediate_questions": [
+      "Who is the character Russ Hanneman based on?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0054_3ecff82e",
+    "model": "gpt-5.1",
+    "question": "When was the first location of the world's largest coffeehouse chain opened?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the world's largest coffeehouse chain?\")\nanswer_2: str = qa_model(\"When was the first location of {answer_1} opened?\", answer_1=answer_1)",
+    "final_answer": "1971-03-30",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Starbucks",
+      "answer_2": "1971-03-30"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Starbucks\",\n  \"answer_2\": \"1971-03-30\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:16:41",
+    "intermediate_questions": [
+      "What is the world's largest coffeehouse chain?",
+      "When was the first location of {answer_1} opened?"
+    ]
+  },
+  {
+    "id": "bamboogle_0055_a38b6895",
+    "model": "gpt-5.1",
+    "question": "Who directed the highest grossing film?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the highest grossing film of all time?\")\nanswer_2: str = qa_model(\"Who directed the film '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "James Cameron",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Avatar",
+      "answer_2": "James Cameron"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Avatar\",\n  \"answer_2\": \"James Cameron\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:16:56",
+    "intermediate_questions": [
+      "What is the highest grossing film of all time?",
+      "Who directed the film '{answer_1}'?"
+    ]
+  },
+  {
+    "id": "bamboogle_0056_fe704e02",
+    "model": "gpt-5.1",
+    "question": "When was the longest bridge in the world opened?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest bridge in the world?\")\nanswer_2: str = qa_model(\"When was {answer_1} opened?\", answer_1=answer_1)",
+    "final_answer": "2011-06-30",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Danyang–Kunshan Grand Bridge",
+      "answer_2": "2011-06-30"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Danyang–Kunshan Grand Bridge\",\n  \"answer_2\": \"2011-06-30\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:17:08",
+    "intermediate_questions": [
+      "What is the longest bridge in the world?",
+      "When was {answer_1} opened?"
+    ]
+  },
+  {
+    "id": "bamboogle_0057_ce243def",
+    "model": "gpt-5.1",
+    "question": "Which company was responsible for the largest pharmaceutical settlement?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the largest pharmaceutical settlement in history?\")\nanswer_2: str = qa_model(\"Which company was responsible for the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "GlaxoSmithKline",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2012 US$3 billion U.S. healthcare fraud settlement involving GlaxoSmithKline",
+      "answer_2": "GlaxoSmithKline"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"2012 US$3 billion U.S. healthcare fraud settlement involving GlaxoSmithKline\",\n  \"answer_2\": \"GlaxoSmithKline\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:17:17",
+    "intermediate_questions": [
+      "What is the largest pharmaceutical settlement in history?",
+      "Which company was responsible for the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0058_57c459c2",
+    "model": "gpt-5.1",
+    "question": "In what year was the tallest self-supporting tower completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest self-supporting tower in the world?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "2012",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Tokyo Skytree",
+      "answer_2": "2012"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Tokyo Skytree\",\n  \"answer_2\": \"2012\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:17:44",
+    "intermediate_questions": [
+      "What is the tallest self-supporting tower in the world?",
+      "In what year was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0059_abedd531",
+    "model": "gpt-5.1",
+    "question": "In what year was the tallest fixed steel structure completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest fixed steel structure?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "2012",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Tokyo Skytree",
+      "answer_2": "2012"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Tokyo Skytree\",\n  \"answer_2\": \"2012\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:17:52",
+    "intermediate_questions": [
+      "What is the tallest fixed steel structure?",
+      "In what year was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0060_6e765861",
+    "model": "gpt-5.1",
+    "question": "In what year was the tallest lattice tower completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest lattice tower?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "2012",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Tokyo Skytree",
+      "answer_2": "2012"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Tokyo Skytree\",\n  \"answer_2\": \"2012\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:18:15",
+    "intermediate_questions": [
+      "What is the tallest lattice tower?",
+      "In what year was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0061_a3c7dda3",
+    "model": "gpt-5.1",
+    "question": "In what year was the current tallest wooden lattice tower completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the current tallest wooden lattice tower?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "1935",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Gliwice Radio Tower",
+      "answer_2": "1935"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Gliwice Radio Tower\",\n  \"answer_2\": \"1935\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:18:44",
+    "intermediate_questions": [
+      "What is the current tallest wooden lattice tower?",
+      "In what year was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0062_c69178e2",
+    "model": "gpt-5.1",
+    "question": "In what country is the second tallest statue in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second tallest statue in the world?\")\nanswer_2: str = qa_model(\"In what country is the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "China",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Spring Temple Buddha",
+      "answer_2": "China"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Spring Temple Buddha\",\n  \"answer_2\": \"China\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:19:00",
+    "intermediate_questions": [
+      "What is the second tallest statue in the world?",
+      "In what country is the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0063_3eb28528",
+    "model": "gpt-5.1",
+    "question": "When was the tallest ferris wheel in the world completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest ferris wheel in the world?\")\nanswer_2: str = qa_model(\"When was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "2021-10-21",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Ain Dubai",
+      "answer_2": "2021-10-21"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Ain Dubai\",\n  \"answer_2\": \"2021-10-21\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:19:09",
+    "intermediate_questions": [
+      "What is the tallest ferris wheel in the world?",
+      "When was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0064_647f7ea9",
+    "model": "gpt-5.1",
+    "question": "In what year was the tallest lighthouse completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest lighthouse in the world?\")\nanswer_2: str = qa_model(\"In what year was the {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "1990",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Jeddah Light",
+      "answer_2": "1990"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Jeddah Light\",\n  \"answer_2\": \"1990\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:19:28",
+    "intermediate_questions": [
+      "What is the tallest lighthouse in the world?",
+      "In what year was the {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0065_66ea9139",
+    "model": "gpt-5.1",
+    "question": "In what country is the world largest desalination plant?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the world's largest desalination plant?\")\nanswer_2: str = qa_model(\"In what country is {answer_1} located?\", answer_1=answer_1)",
+    "final_answer": "Saudi Arabia",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Ras Al Khair Desalination Plant",
+      "answer_2": "Saudi Arabia"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Ras Al Khair Desalination Plant\",\n  \"answer_2\": \"Saudi Arabia\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:19:37",
+    "intermediate_questions": [
+      "What is the world's largest desalination plant?",
+      "In what country is {answer_1} located?"
+    ]
+  },
+  {
+    "id": "bamboogle_0066_6b32e7f3",
+    "model": "gpt-5.1",
+    "question": "The most populous national capital city was established in what year?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most populous national capital city?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} established?\", answer_1=answer_1)",
+    "final_answer": "1868",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Tokyo",
+      "answer_2": "1868"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Tokyo\",\n  \"answer_2\": \"1868\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:19:52",
+    "intermediate_questions": [
+      "What is the most populous national capital city?",
+      "In what year was {answer_1} established?"
+    ]
+  },
+  {
+    "id": "bamboogle_0067_c104c160",
+    "model": "gpt-5.1",
+    "question": "The third largest river (by discharge) in the world is in what countries?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third largest river in the world by discharge?\")\nanswer_2: str = qa_model(\"The {answer_1} is in what countries?\", answer_1=answer_1)",
+    "final_answer": "China; India; Bangladesh; Nepal; Bhutan",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Ganges–Brahmaputra–Meghna river system",
+      "answer_2": "China; India; Bangladesh; Nepal; Bhutan"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Ganges–Brahmaputra–Meghna river system\",\n  \"answer_2\": \"China; India; Bangladesh; Nepal; Bhutan\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:21:02",
+    "intermediate_questions": [
+      "What is the third largest river in the world by discharge?",
+      "The {answer_1} is in what countries?"
+    ]
+  },
+  {
+    "id": "bamboogle_0068_895a496d",
+    "model": "gpt-5.1",
+    "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second largest island in the world?\")\nanswer_2: str = qa_model(\"What is the highest elevation of {answer_1} in meters?\", answer_1=answer_1)",
+    "final_answer": "4884",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "New Guinea",
+      "answer_2": "4884"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"New Guinea\",\n  \"answer_2\": \"4884\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:21:15",
+    "intermediate_questions": [
+      "What is the second largest island in the world?",
+      "What is the highest elevation of {answer_1} in meters?"
+    ]
+  },
+  {
+    "id": "bamboogle_0069_eab55f39",
+    "model": "gpt-5.1",
+    "question": "What is the length of the second deepest river in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second deepest river in the world?\")\nanswer_2: str = qa_model(\"What is the length of the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "6300 km",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Yangtze River",
+      "answer_2": "6300 km"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Yangtze River\",\n  \"answer_2\": \"6300 km\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:21:27",
+    "intermediate_questions": [
+      "What is the second deepest river in the world?",
+      "What is the length of the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0070_76e724e4",
+    "model": "gpt-5.1",
+    "question": "In what country is the third largest stadium in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third largest stadium in the world?\")\nanswer_2: str = qa_model(\"In what country is {answer_1} located?\", answer_1=answer_1)",
+    "final_answer": "United States",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Michigan Stadium",
+      "answer_2": "United States"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Michigan Stadium\",\n  \"answer_2\": \"United States\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:21:43",
+    "intermediate_questions": [
+      "What is the third largest stadium in the world?",
+      "In what country is {answer_1} located?"
+    ]
+  },
+  {
+    "id": "bamboogle_0071_312902b3",
+    "model": "gpt-5.1",
+    "question": "Who is the largest aircraft carrier in the world is named after?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the largest aircraft carrier in the world?\")\nanswer_2: str = qa_model(\"Who is the {answer_1} named after?\", answer_1=answer_1)",
+    "final_answer": "Gerald R. Ford",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "USS Gerald R. Ford",
+      "answer_2": "Gerald R. Ford"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"USS Gerald R. Ford\",\n  \"answer_2\": \"Gerald R. Ford\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:22:20",
+    "intermediate_questions": [
+      "What is the largest aircraft carrier in the world?",
+      "Who is the {answer_1} named after?"
+    ]
+  },
+  {
+    "id": "bamboogle_0072_70ea2630",
+    "model": "gpt-5.1",
+    "question": "In what year did the oldest cat ever recorded with the Cat of the Year award?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the name of the oldest cat ever recorded?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} win the Cat of the Year award?\", answer_1=answer_1)",
+    "final_answer": "Creme Puff never won the Cat of the Year award",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Creme Puff",
+      "answer_2": "Creme Puff never won the Cat of the Year award"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Creme Puff\",\n  \"answer_2\": \"Creme Puff never won the Cat of the Year award\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:22:37",
+    "intermediate_questions": [
+      "What was the name of the oldest cat ever recorded?",
+      "In what year did {answer_1} win the Cat of the Year award?"
+    ]
+  },
+  {
+    "id": "bamboogle_0073_20cb1404",
+    "model": "gpt-5.1",
+    "question": "In what year was the country that is the third largest exporter of coffee founded?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third largest exporter of coffee?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} founded?\", answer_1=answer_1)",
+    "final_answer": "1810",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Colombia",
+      "answer_2": "1810"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Colombia\",\n  \"answer_2\": \"1810\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:23:04",
+    "intermediate_questions": [
+      "What is the third largest exporter of coffee?",
+      "In what year was {answer_1} founded?"
+    ]
+  },
+  {
+    "id": "bamboogle_0074_444fb63b",
+    "model": "gpt-5.1",
+    "question": "Who was the commander for the space mission that had the first spacewalk?",
+    "dsl_string": "answer_1: str = qa_model(\"Which space mission had the first spacewalk?\")\nanswer_2: str = qa_model(\"Who was the commander of the {answer_1} mission?\", answer_1=answer_1)",
+    "final_answer": "Pavel Belyayev",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Voskhod 2",
+      "answer_2": "Pavel Belyayev"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Voskhod 2\",\n  \"answer_2\": \"Pavel Belyayev\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:23:23",
+    "intermediate_questions": [
+      "Which space mission had the first spacewalk?",
+      "Who was the commander of the {answer_1} mission?"
+    ]
+  },
+  {
+    "id": "bamboogle_0075_c547bf6d",
+    "model": "gpt-5.1",
+    "question": "Who is the predecessor of the longest-reigning British monarch?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the longest-reigning British monarch?\")\nanswer_2: str = qa_model(\"Who was the predecessor of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "George VI",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Queen Elizabeth II",
+      "answer_2": "George VI"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Queen Elizabeth II\",\n  \"answer_2\": \"George VI\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:23:34",
+    "intermediate_questions": [
+      "Who is the longest-reigning British monarch?",
+      "Who was the predecessor of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0076_f6a6ba5b",
+    "model": "gpt-5.1",
+    "question": "In 2016, who was the host of the longest running talk show?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest running talk show?\")\nanswer_2: str = qa_model(\"Who was the host of '{answer_1}' in 2016?\", answer_1=answer_1)",
+    "final_answer": "Jimmy Fallon",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Tonight Show",
+      "answer_2": "Jimmy Fallon"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"The Tonight Show\",\n  \"answer_2\": \"Jimmy Fallon\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:23:43",
+    "intermediate_questions": [
+      "What is the longest running talk show?",
+      "Who was the host of '{answer_1}' in 2016?"
+    ]
+  },
+  {
+    "id": "bamboogle_0077_7cb17c41",
+    "model": "gpt-5.1",
+    "question": "In 2016, who was the host of the longest running American game show?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest running American game show?\")\nanswer_2: str = qa_model(\"Who was the host of '{answer_1}' in 2016?\", answer_1=answer_1)",
+    "final_answer": "Drew Carey",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Price Is Right",
+      "answer_2": "Drew Carey"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"The Price Is Right\",\n  \"answer_2\": \"Drew Carey\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:23:53",
+    "intermediate_questions": [
+      "What is the longest running American game show?",
+      "Who was the host of '{answer_1}' in 2016?"
+    ]
+  },
+  {
+    "id": "bamboogle_0078_90b26dca",
+    "model": "gpt-5.1",
+    "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest running show in Broadway history?\")\nanswer_2: str = qa_model(\"What novel is the show '{answer_1}' based on?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who wrote the novel '{answer_2}'?\", answer_2=answer_2)",
+    "final_answer": "Gaston Leroux",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Phantom of the Opera",
+      "answer_2": "The Phantom of the Opera",
+      "answer_3": "Gaston Leroux"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"The Phantom of the Opera\",\n  \"answer_2\": \"The Phantom of the Opera\",\n  \"answer_3\": \"Gaston Leroux\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:24:01",
+    "intermediate_questions": [
+      "What is the longest running show in Broadway history?",
+      "What novel is the show '{answer_1}' based on?",
+      "Who wrote the novel '{answer_2}'?"
+    ]
+  },
+  {
+    "id": "bamboogle_0079_4a0fafaf",
+    "model": "gpt-5.1",
+    "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the only cruise line that flies the American flag?\")\nanswer_2: str = qa_model(\"In what country was {answer_1} incorporated?\", answer_1=answer_1)",
+    "final_answer": "Panama",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Carnival Cruise Lines",
+      "answer_2": "Panama"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Carnival Cruise Lines\",\n  \"answer_2\": \"Panama\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:24:11",
+    "intermediate_questions": [
+      "What is the only cruise line that flies the American flag?",
+      "In what country was {answer_1} incorporated?"
+    ]
+  },
+  {
+    "id": "bamboogle_0080_d07f4725",
+    "model": "gpt-5.1",
+    "question": "In what year did work begin on the second longest road tunnel in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second longest road tunnel in the world?\")\nanswer_2: str = qa_model(\"In what year did work begin on the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "1992",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Yamate Tunnel",
+      "answer_2": "1992"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Yamate Tunnel\",\n  \"answer_2\": \"1992\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:24:27",
+    "intermediate_questions": [
+      "What is the second longest road tunnel in the world?",
+      "In what year did work begin on the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0081_cfd7f8b7",
+    "model": "gpt-5.1",
+    "question": "What is the official color of the third oldest surviving university?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third oldest surviving university in the world?\")\nanswer_2: str = qa_model(\"What is the official color of the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Cambridge Blue",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "University of Cambridge",
+      "answer_2": "Cambridge Blue"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"University of Cambridge\",\n  \"answer_2\": \"Cambridge Blue\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:24:47",
+    "intermediate_questions": [
+      "What is the third oldest surviving university in the world?",
+      "What is the official color of the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0082_d66846e5",
+    "model": "gpt-5.1",
+    "question": "Who succeeded the longest reigning Roman emperor?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the longest reigning Roman emperor?\")\nanswer_2: str = qa_model(\"Who succeeded {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Tiberius",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Augustus",
+      "answer_2": "Tiberius"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Augustus\",\n  \"answer_2\": \"Tiberius\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:25:11",
+    "intermediate_questions": [
+      "Who was the longest reigning Roman emperor?",
+      "Who succeeded {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0083_5d2276a6",
+    "model": "gpt-5.1",
+    "question": "Who preceded the Roman emperor that declared war on the sea?",
+    "dsl_string": "answer_1: str = qa_model(\"Which Roman emperor declared war on the sea?\")\nanswer_2: str = qa_model(\"Who preceded {answer_1} as Roman emperor?\", answer_1=answer_1)",
+    "final_answer": "Tiberius",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Caligula",
+      "answer_2": "Tiberius"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Caligula\",\n  \"answer_2\": \"Tiberius\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:25:29",
+    "intermediate_questions": [
+      "Which Roman emperor declared war on the sea?",
+      "Who preceded {answer_1} as Roman emperor?"
+    ]
+  },
+  {
+    "id": "bamboogle_0084_6694d7d9",
+    "model": "gpt-5.1",
+    "question": "Who produced the longest running video game franchise?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest running video game franchise?\")\nanswer_2: str = qa_model(\"Who produced the '{answer_1}' franchise?\", answer_1=answer_1)",
+    "final_answer": "Minnesota Educational Computing Consortium (MECC)",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Oregon Trail",
+      "answer_2": "Minnesota Educational Computing Consortium (MECC)"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"The Oregon Trail\",\n  \"answer_2\": \"Minnesota Educational Computing Consortium (MECC)\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:25:40",
+    "intermediate_questions": [
+      "What is the longest running video game franchise?",
+      "Who produced the '{answer_1}' franchise?"
+    ]
+  },
+  {
+    "id": "bamboogle_0085_4ff2b919",
+    "model": "gpt-5.1",
+    "question": "Who was the father of the father of psychoanalysis?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of psychoanalysis?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Jakob Freud",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Sigmund Freud",
+      "answer_2": "Jakob Freud"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Sigmund Freud\",\n  \"answer_2\": \"Jakob Freud\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:26:09",
+    "intermediate_questions": [
+      "Who is considered the father of psychoanalysis?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0086_998cb1bd",
+    "model": "gpt-5.1",
+    "question": "Who was the father of the father of empiricism?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of empiricism?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Nicholas Bacon",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Francis Bacon",
+      "answer_2": "Nicholas Bacon"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Francis Bacon\",\n  \"answer_2\": \"Nicholas Bacon\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:26:19",
+    "intermediate_questions": [
+      "Who is considered the father of empiricism?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0087_12cdd074",
+    "model": "gpt-5.1",
+    "question": "Who is the father of the father of observational astronomy?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of observational astronomy?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Vincenzo Galilei",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Galileo Galilei",
+      "answer_2": "Vincenzo Galilei"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Galileo Galilei\",\n  \"answer_2\": \"Vincenzo Galilei\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:26:28",
+    "intermediate_questions": [
+      "Who is considered the father of observational astronomy?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0088_f7654873",
+    "model": "gpt-5.1",
+    "question": "Who is the father of the father of modern Hebrew?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of modern Hebrew?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Yehuda Leib Perlman",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Eliezer Ben-Yehuda",
+      "answer_2": "Yehuda Leib Perlman"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Eliezer Ben-Yehuda\",\n  \"answer_2\": \"Yehuda Leib Perlman\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:26:41",
+    "intermediate_questions": [
+      "Who is considered the father of modern Hebrew?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0089_d8b6f09c",
+    "model": "gpt-5.1",
+    "question": "Who is the father of the father of modern experimental psychology?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of modern experimental psychology?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Maximilian Wundt",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Wilhelm Wundt",
+      "answer_2": "Maximilian Wundt"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Wilhelm Wundt\",\n  \"answer_2\": \"Maximilian Wundt\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:26:53",
+    "intermediate_questions": [
+      "Who is considered the father of modern experimental psychology?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0090_ecb49f7e",
+    "model": "gpt-5.1",
+    "question": "Who is the father of the originator of cybernetics?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the originator of cybernetics?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Leo Wiener",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Norbert Wiener",
+      "answer_2": "Leo Wiener"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Norbert Wiener\",\n  \"answer_2\": \"Leo Wiener\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:27:04",
+    "intermediate_questions": [
+      "Who is the originator of cybernetics?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0091_3845ed5d",
+    "model": "gpt-5.1",
+    "question": "Who is the father of the father of the hydrogen bomb?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of the hydrogen bomb?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Max Teller",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Edward Teller",
+      "answer_2": "Max Teller"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Edward Teller\",\n  \"answer_2\": \"Max Teller\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:27:13",
+    "intermediate_questions": [
+      "Who is considered the father of the hydrogen bomb?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0092_f3b51347",
+    "model": "gpt-5.1",
+    "question": "Who was the father of the father of computer science?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of computer science?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Julius Mathison Turing",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Alan Turing",
+      "answer_2": "Julius Mathison Turing"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Alan Turing\",\n  \"answer_2\": \"Julius Mathison Turing\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:27:28",
+    "intermediate_questions": [
+      "Who is considered the father of computer science?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0093_f8df7c48",
+    "model": "gpt-5.1",
+    "question": "Who was the father of the father of behaviorism?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of behaviorism?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Pickens Butler Watson",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "John B. Watson",
+      "answer_2": "Pickens Butler Watson"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"John B. Watson\",\n  \"answer_2\": \"Pickens Butler Watson\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:27:37",
+    "intermediate_questions": [
+      "Who is considered the father of behaviorism?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0094_f6def5e8",
+    "model": "gpt-5.1",
+    "question": "Who was the father of the founder of modern human anatomy?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the founder of modern human anatomy?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Andries van Wesel",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Andreas Vesalius",
+      "answer_2": "Andries van Wesel"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Andreas Vesalius\",\n  \"answer_2\": \"Andries van Wesel\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:27:45",
+    "intermediate_questions": [
+      "Who is the founder of modern human anatomy?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0095_fa23ed5f",
+    "model": "gpt-5.1",
+    "question": "What was the father of the last surviving Canadian father of Confederation?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the last surviving Canadian father of Confederation?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Charles Tupper Sr.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Charles Tupper",
+      "answer_2": "Charles Tupper Sr."
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Charles Tupper\",\n  \"answer_2\": \"Charles Tupper Sr.\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:27:59",
+    "intermediate_questions": [
+      "Who was the last surviving Canadian father of Confederation?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0096_df47c5e5",
+    "model": "gpt-5.1",
+    "question": "When was the person who said “Now, I am become Death, the destroyer of worlds.” born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who said the quote “Now, I am become Death, the destroyer of worlds.”?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1904-04-22",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "J. Robert Oppenheimer",
+      "answer_2": "1904-04-22"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"J. Robert Oppenheimer\",\n  \"answer_2\": \"1904-04-22\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:29:32",
+    "intermediate_questions": [
+      "Who said the quote âNow, I am become Death, the destroyer of worlds.â?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0097_eb1ca032",
+    "model": "gpt-5.1",
+    "question": "Who was the father of the father of information theory?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of information theory?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Claude Elwood Shannon Sr.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Claude Elwood Shannon",
+      "answer_2": "Claude Elwood Shannon Sr."
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Claude Elwood Shannon\",\n  \"answer_2\": \"Claude Elwood Shannon Sr.\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:29:41",
+    "intermediate_questions": [
+      "Who is considered the father of information theory?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0098_0c225f4e",
+    "model": "gpt-5.1",
+    "question": "When was the person who delivered the \"Quit India\" speech born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who delivered the 'Quit India' speech?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1869-10-02",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Mahatma Gandhi",
+      "answer_2": "1869-10-02"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Mahatma Gandhi\",\n  \"answer_2\": \"1869-10-02\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:29:51",
+    "intermediate_questions": [
+      "Who delivered the 'Quit India' speech?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0099_1b62d67b",
+    "model": "gpt-5.1",
+    "question": "When did the president who warned about the military industrial complex die?",
+    "dsl_string": "answer_1: str = qa_model(\"Which president warned about the military industrial complex?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1969-03-28",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Dwight D. Eisenhower",
+      "answer_2": "1969-03-28"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Dwight D. Eisenhower\",\n  \"answer_2\": \"1969-03-28\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:30:00",
+    "intermediate_questions": [
+      "Which president warned about the military industrial complex?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0100_0b9ce56c",
+    "model": "gpt-5.1",
+    "question": "When did the president who said Tear Down This Wall die?",
+    "dsl_string": "answer_1: str = qa_model(\"Which president said 'Tear Down This Wall'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "2004-06-05",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Ronald Reagan",
+      "answer_2": "2004-06-05"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Ronald Reagan\",\n  \"answer_2\": \"2004-06-05\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:30:11",
+    "intermediate_questions": [
+      "Which president said 'Tear Down This Wall'?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0101_5fc6a795",
+    "model": "gpt-5.1",
+    "question": "What is the lowest elevation of the longest railway tunnel?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest railway tunnel?\")\nanswer_2: str = qa_model(\"What is the lowest elevation of the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "312 m above sea level",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Gotthard Base Tunnel",
+      "answer_2": "312 m above sea level"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Gotthard Base Tunnel\",\n  \"answer_2\": \"312 m above sea level\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:30:20",
+    "intermediate_questions": [
+      "What is the longest railway tunnel?",
+      "What is the lowest elevation of the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0102_b0751786",
+    "model": "gpt-5.1",
+    "question": "When did the person who said \"Cogito, ergo sum.\" die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who said 'Cogito, ergo sum.'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1650-02-11",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "René Descartes",
+      "answer_2": "1650-02-11"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"René Descartes\",\n  \"answer_2\": \"1650-02-11\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:30:43",
+    "intermediate_questions": [
+      "Who said 'Cogito, ergo sum.'?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0103_912f993b",
+    "model": "gpt-5.1",
+    "question": "When did the person who delivered the Gettysburg Address die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who delivered the Gettysburg Address?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1865-04-15",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Abraham Lincoln",
+      "answer_2": "1865-04-15"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Abraham Lincoln\",\n  \"answer_2\": \"1865-04-15\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:30:52",
+    "intermediate_questions": [
+      "Who delivered the Gettysburg Address?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0104_aef80091",
+    "model": "gpt-5.1",
+    "question": "Who was governor of Florida during Hurricane Irma?",
+    "dsl_string": "answer_1: str = qa_model(\"When did Hurricane Irma occur?\")\nanswer_2: str = qa_model(\"Who was the governor of Florida in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Rick Scott",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2017",
+      "answer_2": "Rick Scott"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"2017\",\n  \"answer_2\": \"Rick Scott\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:31:00",
+    "intermediate_questions": [
+      "When did Hurricane Irma occur?",
+      "Who was the governor of Florida in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0105_f2071bcb",
+    "model": "gpt-5.1",
+    "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+    "dsl_string": "answer_1: str = qa_model(\"Who won the 2007 Ballon d'Or?\")\nanswer_2: str = qa_model(\"Which club did {answer_1} play for in 2012?\", answer_1=answer_1)",
+    "final_answer": "Real Madrid",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Kaká",
+      "answer_2": "Real Madrid"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Kaká\",\n  \"answer_2\": \"Real Madrid\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:31:08",
+    "intermediate_questions": [
+      "Who won the 2007 Ballon d'Or?",
+      "Which club did {answer_1} play for in 2012?"
+    ]
+  },
+  {
+    "id": "bamboogle_0106_c5cfc537",
+    "model": "gpt-5.1",
+    "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+    "dsl_string": "answer_1: str = qa_model(\"Which country was the champion of the 2010 World Cup?\")\nanswer_2: str = qa_model(\"What's the capital city of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Madrid",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Spain",
+      "answer_2": "Madrid"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Spain\",\n  \"answer_2\": \"Madrid\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:31:22",
+    "intermediate_questions": [
+      "Which country was the champion of the 2010 World Cup?",
+      "What's the capital city of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0107_4ca74523",
+    "model": "gpt-5.1",
+    "question": "When was the anime studio that made Sword Art Online founded?",
+    "dsl_string": "answer_1: str = qa_model(\"Which anime studio made Sword Art Online?\")\nanswer_2: str = qa_model(\"When was {answer_1} founded?\", answer_1=answer_1)",
+    "final_answer": "2005-05-09",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "A-1 Pictures",
+      "answer_2": "2005-05-09"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"A-1 Pictures\",\n  \"answer_2\": \"2005-05-09\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:31:27",
+    "intermediate_questions": [
+      "Which anime studio made Sword Art Online?",
+      "When was {answer_1} founded?"
+    ]
+  },
+  {
+    "id": "bamboogle_0108_65486b64",
+    "model": "gpt-5.1",
+    "question": "Who was the first king of the longest Chinese dynasty?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the longest Chinese dynasty?\")\nanswer_2: str = qa_model(\"Who was the first king of the {answer_1} dynasty?\", answer_1=answer_1)",
+    "final_answer": "King Wu of Zhou",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Zhou dynasty",
+      "answer_2": "King Wu of Zhou"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Zhou dynasty\",\n  \"answer_2\": \"King Wu of Zhou\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:31:36",
+    "intermediate_questions": [
+      "What was the longest Chinese dynasty?",
+      "Who was the first king of the {answer_1} dynasty?"
+    ]
+  },
+  {
+    "id": "bamboogle_0109_92684d66",
+    "model": "gpt-5.1",
+    "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+    "dsl_string": "answer_1: str = qa_model(\"Which dynasty succeeded the Song dynasty?\")\nanswer_2: str = qa_model(\"Who was the last emperor of the {answer_1} dynasty?\", answer_1=answer_1)",
+    "final_answer": "Toghon Temür",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Yuan",
+      "answer_2": "Toghon Temür"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Yuan\",\n  \"answer_2\": \"Toghon Temür\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:32:11",
+    "intermediate_questions": [
+      "Which dynasty succeeded the Song dynasty?",
+      "Who was the last emperor of the {answer_1} dynasty?"
+    ]
+  },
+  {
+    "id": "bamboogle_0110_3800034a",
+    "model": "gpt-5.1",
+    "question": "What's the motto of the oldest California State university?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the oldest California State university?\")\nanswer_2: str = qa_model(\"What is the motto of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Powering Silicon Valley",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "San José State University",
+      "answer_2": "Powering Silicon Valley"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"San José State University\",\n  \"answer_2\": \"Powering Silicon Valley\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:32:19",
+    "intermediate_questions": [
+      "What is the oldest California State university?",
+      "What is the motto of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0111_3bd3261a",
+    "model": "gpt-5.1",
+    "question": "What's the capital of the state that the College of William & Mary is in?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is the College of William & Mary located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Richmond",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Virginia",
+      "answer_2": "Richmond"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Virginia\",\n  \"answer_2\": \"Richmond\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:32:36",
+    "intermediate_questions": [
+      "In which state is the College of William & Mary located?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0112_282427bc",
+    "model": "gpt-5.1",
+    "question": "What's the capital of the state that Washington University in St. Louis is in?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is Washington University in St. Louis located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Jefferson City",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Missouri",
+      "answer_2": "Jefferson City"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Missouri\",\n  \"answer_2\": \"Jefferson City\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:32:42",
+    "intermediate_questions": [
+      "In which state is Washington University in St. Louis located?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0113_1b2b3f5c",
+    "model": "gpt-5.1",
+    "question": "What's the capital of the state that Harvard University is in?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is Harvard University located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Boston",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Massachusetts",
+      "answer_2": "Boston"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Massachusetts\",\n  \"answer_2\": \"Boston\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:32:49",
+    "intermediate_questions": [
+      "In which state is Harvard University located?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0114_069ae026",
+    "model": "gpt-5.1",
+    "question": "What's the capital of the state that the Space Needle is at?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is the Space Needle located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Olympia",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Washington",
+      "answer_2": "Olympia"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Washington\",\n  \"answer_2\": \"Olympia\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:32:55",
+    "intermediate_questions": [
+      "In which state is the Space Needle located?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0115_b9849ebd",
+    "model": "gpt-5.1",
+    "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+    "dsl_string": "answer_1: str = qa_model(\"When was the most recent Summer Olympics held in London?\")\nanswer_2: str = qa_model(\"Which team won the women's volleyball tournament at the {answer_1} Summer Olympics?\", answer_1=answer_1)",
+    "final_answer": "Brazil women's national volleyball team",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2012",
+      "answer_2": "Brazil women's national volleyball team"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"2012\",\n  \"answer_2\": \"Brazil women's national volleyball team\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:33:05",
+    "intermediate_questions": [
+      "When was the most recent Summer Olympics held in London?",
+      "Which team won the women's volleyball tournament at the {answer_1} Summer Olympics?"
+    ]
+  },
+  {
+    "id": "bamboogle_0116_082827a9",
+    "model": "gpt-5.1",
+    "question": "What is the nickname of the easternmost U.S. state?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the easternmost U.S. state?\")\nanswer_2: str = qa_model(\"What is the nickname of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The Last Frontier",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Alaska",
+      "answer_2": "The Last Frontier"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Alaska\",\n  \"answer_2\": \"The Last Frontier\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:33:15",
+    "intermediate_questions": [
+      "What is the easternmost U.S. state?",
+      "What is the nickname of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0117_dfe819b3",
+    "model": "gpt-5.1",
+    "question": "What is the nickname for the state that is the home to the “Avocado Capital of the World\"?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is the 'Avocado Capital of the World' located?\")\nanswer_2: str = qa_model(\"What is the nickname of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The Golden State",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "California",
+      "answer_2": "The Golden State"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"California\",\n  \"answer_2\": \"The Golden State\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:33:24",
+    "intermediate_questions": [
+      "In which state is the 'Avocado Capital of the World' located?",
+      "What is the nickname of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0118_33946144",
+    "model": "gpt-5.1",
+    "question": "What rocket was used for the mission that landed the first humans on the moon?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the mission that landed the first humans on the moon?\")\nanswer_2: str = qa_model(\"What rocket was used for the {answer_1} mission?\", answer_1=answer_1)",
+    "final_answer": "Saturn V",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Apollo 11",
+      "answer_2": "Saturn V"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Apollo 11\",\n  \"answer_2\": \"Saturn V\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:33:35",
+    "intermediate_questions": [
+      "What was the mission that landed the first humans on the moon?",
+      "What rocket was used for the {answer_1} mission?"
+    ]
+  },
+  {
+    "id": "bamboogle_0119_b01b3580",
+    "model": "gpt-5.1",
+    "question": "When did the war that Neil Armstrong served in end?",
+    "dsl_string": "answer_1: str = qa_model(\"In which war did Neil Armstrong serve?\")\nanswer_2: str = qa_model(\"When did the {answer_1} end?\", answer_1=answer_1)",
+    "final_answer": "1953-07-27",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Korean War",
+      "answer_2": "1953-07-27"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Korean War\",\n  \"answer_2\": \"1953-07-27\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:33:41",
+    "intermediate_questions": [
+      "In which war did Neil Armstrong serve?",
+      "When did the {answer_1} end?"
+    ]
+  },
+  {
+    "id": "bamboogle_0120_b1384212",
+    "model": "gpt-5.1",
+    "question": "What is the nickname for the state that Mount Rainier is located in?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is Mount Rainier located?\")\nanswer_2: str = qa_model(\"What is the nickname for the state of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The Evergreen State",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Washington",
+      "answer_2": "The Evergreen State"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Washington\",\n  \"answer_2\": \"The Evergreen State\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:33:50",
+    "intermediate_questions": [
+      "In which state is Mount Rainier located?",
+      "What is the nickname for the state of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0121_864a9200",
+    "model": "gpt-5.1",
+    "question": "When was the composer of Carol of the Bells born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who composed 'Carol of the Bells'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1877-12-13",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Mykola Leontovych",
+      "answer_2": "1877-12-13"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Mykola Leontovych\",\n  \"answer_2\": \"1877-12-13\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:33:56",
+    "intermediate_questions": [
+      "Who composed 'Carol of the Bells'?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0122_7a7aef7c",
+    "model": "gpt-5.1",
+    "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+    "dsl_string": "answer_1: str = qa_model(\"Which scientist at MIT won the Queen Elizabeth Prize for Engineering in 2013?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Conway Berners-Lee",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Tim Berners-Lee",
+      "answer_2": "Conway Berners-Lee"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Tim Berners-Lee\",\n  \"answer_2\": \"Conway Berners-Lee\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:34:05",
+    "intermediate_questions": [
+      "Which scientist at MIT won the Queen Elizabeth Prize for Engineering in 2013?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0123_faadb1ea",
+    "model": "gpt-5.1",
+    "question": "Who was the mother of the emperor of Japan during World War I?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the emperor of Japan during World War I?\")\nanswer_2: str = qa_model(\"Who was the mother of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Yanagihara Naruko",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Emperor Taishō",
+      "answer_2": "Yanagihara Naruko"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"Emperor Taishō\",\n  \"answer_2\": \"Yanagihara Naruko\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:34:18",
+    "intermediate_questions": [
+      "Who was the emperor of Japan during World War I?",
+      "Who was the mother of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0124_383038d1",
+    "model": "gpt-5.1",
+    "question": "Which element has an atomic number that is double that of hydrogen?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the atomic number of hydrogen?\")\nanswer_2: str = qa_model(\"Which element has an atomic number that is double {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Helium",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1",
+      "answer_2": "Helium"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"1\",\n  \"answer_2\": \"Helium\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:34:38",
+    "intermediate_questions": [
+      "What is the atomic number of hydrogen?",
+      "Which element has an atomic number that is double {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0125_0be878d1",
+    "model": "gpt-5.1",
+    "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+    "dsl_string": "answer_1: str = qa_model(\"For which Olympic Games were the Fuwa the mascots?\")\nanswer_2: str = qa_model(\"What was the motto of the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "One World, One Dream",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2008 Summer Olympics in Beijing",
+      "answer_2": "One World, One Dream"
+    },
+    "gold_intermediate_answers": [],
+    "raw_response": "{\n  \"answer_1\": \"2008 Summer Olympics in Beijing\",\n  \"answer_2\": \"One World, One Dream\"\n}",
+    "success": true,
+    "timestamp": "2025-12-26 08:34:46",
+    "intermediate_questions": [
+      "For which Olympic Games were the Fuwa the mascots?",
+      "What was the motto of the {answer_1}?"
+    ]
+  }
+]

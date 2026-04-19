@@ -1,0 +1,1 @@
+"""HotpotQA consistency prompt package."""

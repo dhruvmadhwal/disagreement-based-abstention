@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "5a879ab05542996e4f30887e",
+    "question": "The Oberoi family is part of a hotel company that has a head office in what city?",
+    "dsl": "answer_1: str = qa_model(\"Which hotel chain is the Oberoi Group?\")\nanswer_2: str = qa_model(\"Where is the headquarters of {answer_1} located?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a82171f5542990a1d231f4a",
+    "question": " What nationality was James Henry Miller's wife?",
+    "dsl": "answer_1: str = qa_model(\"Who is James Henry Miller?\")\nanswer_2: str = qa_model(\"Who is the spouse of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the nationality of {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a84dd955542997b5ce3ff79",
+    "question": "Cadmium Chloride is slightly soluble in this chemical, it is also called what?",
+    "dsl": "answer_1: str = qa_model(\"What chemical is Cadmium Chloride slightly soluble in?\")\nanswer_2: str = qa_model(\"What is another name for that chemical?\", other_chemical=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7e36045542991319bc9440",
+    "question": "Which tennis player won more Grand Slam titles, Henri Leconte or Jonathan Stark?",
+    "dsl": "answer_1: str = qa_model(\"Who is Henri Leconte?\")\nanswer_2: str = qa_model(\"Who is Jonathan Stark?\")\nanswer_3: list = qa_model(\"List all Grand Slam titles won by {answer_1}\", answer_1=answer_1)\nanswer_4: list = qa_model(\"List all Grand Slam titles won by {answer_2}\", answer_2=answer_2)\nanswer_5: bool = qa_model(\"Are lengths of list {answer_3} greater than lengths of list {answer_4}?\", answer_3=len(answer_3), answer_4=len(answer_4))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adf44985542993a75d2646d",
+    "question": "Which genus of moth in the world's seventh-largest country contains only one species?",
+    "dsl": "answer_1: str = qa_model(\"What is the seventh largest country by area?\")\nanswer_2: str = qa_model(\"Which genus of moth is found exclusively within '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How many species does '{answer_2}' contain?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"If there is only one species in '{answer_2}', what is it called?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7d0db955429909bec76924",
+    "question": "The Dutch-Belgian television series that \"House of Anubis\" was based on first aired in what year?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the TV show 'House of Anubis' is based on?\")\nanswer_2: str = qa_model(\"In which country was the original TV show '{answer_1}' produced?\")\nanswer_3: str = qa_model(\"Is '{answer_2}' a Dutch-speaking country?\")\nif answer_3 == 'True':\n    answer_4: str = qa_model(\"In which year did the Dutch version of '{answer_1}' premiere?\")\nelse:\n    answer_4: str = qa_model(\"In which year did the Belgian version of '{answer_1}' premiere?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a89372855429951533612e6",
+    "question": "What is the length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged?",
+    "dsl": "answer_1: str = qa_model(\"When was the Liqui Moly Bathurst 12 Hour race held?\")\nanswer_2: str = qa_model(\"Where was the 2013 Liqui Moly Bathurst 12 Hour race held?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the length of the racetrack where '{answer_2}' was staged?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abd90545542996e802b47d7",
+    "question": "Fast Cars, Danger, Fire and Knives includes guest appearances from which hip hop record executive?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the song 'Fast Cars, Danger, Fire and Knives'?\")\nanswer_2: str = qa_model(\"Who produced the song '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is {answer_2} also known as a hip hop record executive?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"If yes, what is the name of this role held by {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7722d655429966f1a36c99",
+    "question": "Where did the form of music played by Die Rhöner Säuwäntzt originate?",
+    "dsl": "answer_1: str = qa_model(\"From what region do the musicians known as Die Rhöner Säuwäntzt come from?\")\nanswer_2: str = qa_model(\"What type of music does Die Rhöner Säuwäntzt play?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Where did this specific style of {answer_2} originated?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae0d91e55429924de1b7198",
+    "question": "The 1988 American comedy film, The Great Outdoors, starred a four-time Academy Award nominee, who received a star on the Hollywood Walk of Fame in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who starred in the 1988 American comedy film, The Great Outdoors?\")\nanswer_2: str = qa_model(\"When did {answer_1} receive a star on the Hollywood Walk of Fame?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac2a5d455429921a00ab01b",
+    "question": "What are the names of the current members of  American heavy metal band who wrote the music for  Hurt Locker The Musical? ",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the American heavy metal band known for writing the music for Hurt Locker The Musical?\")\nanswer_2: list[str] = qa_model(\"List all current members of {answer_1}\", answer_1=answer_1)\nfor member in answer_2:\n    answer_3: str = qa_model(\"What is the full name of {member}?\", member=member)\n    print(f\"{member}: {answer_3}\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adc1309554299438c868d3b",
+    "question": "Human Error\" is the season finale of the third season of a tv show that aired on what network?",
+    "dsl": "answer_1: str = qa_model(\"Name the TV show with 'Human Error' as its season finale of the third season.\")\nanswer_2: str = qa_model(\"On which network did '{answer_1}' air?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a83168855429966c78a6b2e",
+    "question": "Dua Lipa, an English singer, songwriter and model, the album spawned the number-one single \"New Rules\" is a song by English singer Dua Lipa from her eponymous debut studio album, released in what year?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of Dua Lipa's debut studio album?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab345db55429969a97a8122",
+    "question": "Which state does the drug stores, of which the CEO is Warren Bryant, are located?",
+    "dsl": "answer_1: str = qa_model(\"Who is the CEO of the drugstores?\")\nanswer_2: str = qa_model(\"In which state are the drugstores owned by {answer_1} located?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac2a912554299218029dae8",
+    "question": "Which band was founded first, Hole, the rock band that Courtney Love was a frontwoman of, or The Wolfhounds?",
+    "dsl": "answer_1: str = qa_model(\"Who was the frontwoman of the band Hole?\")\nanswer_2: str = qa_model(\"When was the band Hole formed?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When were The Wolfhounds formed?\", answer_1=\"The Wolfhounds\")\nanswer_4: str = qa_model(\"Which came first between {answer_2} and {answer_3}?\", answer_2=answer_2, answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7272eb5542997f827839d7",
+    "question": "How old is the female main protagonist of Catching Fire?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the female main protagonist in The Hunger Games: Catching Fire?\")\nanswer_2: str = qa_model(\"In what year was The Hunger Games: Catching Fire released?\",)\nanswer_3: str = qa_model(\"How old would {answer_1} be in the year {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac2c3545542990b17b1548b",
+    "question": "Chang Ucchin was born in korea during a time that ended with the conclusion of what? ",
+    "dsl": "answer_1: str = qa_model(\"When was Chang Ucchin born?\")\nanswer_2: str = qa_model(\"In which era was Chang Ucchin born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What period ends with the end of '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae3b4d05542992f92d82349",
+    "question": "Who is the director of the 2003 film which has scenes in it filmed at the Quality Cafe in Los Angeles?",
+    "dsl": "answer_1: str = qa_model(\"Name a film with scenes shot at the Quality Cafe in Los Angeles.\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed the film '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae3918b5542994393b9e709",
+    "question": "Were Pavel Urysohn and Leonid Levin known for the same type of work?",
+    "dsl": "answer_1: str = qa_model(\"Who were Pavel Urysohn and Leonid Levin?\")\nanswer_2: str = qa_model(\"What field of study were {answer_1} known for?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Were both {answer_2[0]} and {answer_2[1]} known for the same field of study?\", answer_2=(answer_2[0], answer_2[1]))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac15df95542994d76dccded",
+    "question": "Which actress played the part of fictitious character Kimberly Ann Hart, in the franchise built around a live action superhero television series taking much of its footage from the Japanese tokusatsu 'Super Sentai'?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the live action superhero television series inspired by 'Super Sentai'?\")\nanswer_2: str = qa_model(\"Who plays the character named Kimberly Ann Hart in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abd7ca05542993062266cab",
+    "question": "Where is the company that purchased Aixam based in?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the company that purchased Aixam?\")\nanswer_2: str = qa_model(\"Where is {answer_1} headquartered?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae732685542991e8301cbc3",
+    "question": "Zimbabwe's Guwe Secondary School has a sister school in what New York cunty?",
+    "dsl": "answer_1: str = qa_model(\"Where is Zimbabwe located?\")\nanswer_2: str = qa_model(\"What is the name of the county in the United States equivalent to 'New York State' in '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Does Guwe Secondary School have a sister school in '{answer_2}'?\", answer_2=answer_2)\nif answer_3 == \"True\":\n    answer_4: str = qa_model(\"What is the name of Guwe Secondary School's sister school in '{answer_2}'?\", answer_2=answer_2)\nelse:\n    answer_4: str = \"No information found.\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7d90195542991319bc93cf",
+    "question": "The axial turbojet Pirna 014 was designed by engineers from this German aircraft and aircraft engine manufacturer based in which city?",
+    "dsl": "answer_1: str = qa_model(\"Which German aircraft and aircraft engine manufacturer designed the axial turbojet Pirna 014?\")\nanswer_2: str = qa_model(\"Based in which city is {answer_1} headquartered?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abee5e25542994516f45473",
+    "question": "Pauline Henry was known as the vocalist of a very popular cover song. Which album was this song from?",
+    "dsl": "answer_1: str = qa_model(\"Who is Pauline Henry known as?\")\nanswer_2: str = qa_model(\"What is a famous cover song sung by {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On what album can the song '{answer_2}' be found?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae78ec5554299540e5a5605",
+    "question": "Guitars for Wounded Warriors is an album that was recorded in the village in which New York county?",
+    "dsl": "answer_1: str = qa_model(\"What album is titled 'Guitars for Wounded Warriors'?\")\nanswer_2: str = qa_model(\"In what year was '{answer_1}' recorded?\")\nanswer_3: str = qa_model(\"Who recorded the album '{answer_1}'?\")\nanswer_4: str = qa_model(\"In which village did {answer_3} record '{answer_1}'?\", answer_3=answer_3, answer_1=answer_1)\nanswer_5: str = qa_model(\"In which county is {answer_4} located?\", answer_4=answer_4)\nanswer_6: str = qa_model(\"What is the name of the county where '{answer_5}' is located?\", answer_5=answer_5)\nanswer_7: str = qa_model(\"What is the name of the county where the village '{answer_4}' is located?\", answer_4=answer_4)\n\nfinal_answer: str = qa_model(\"What is the name of the county in which the village where '{answer_7}' is located?\", answer_7=answer_7)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac1f7f355429964131be2ae",
+    "question": "What does the Hacker-Pschorr Brewery have to limit in order to comply with German regulations?",
+    "dsl": "answer_1: str = qa_model(\"Where is the Hacker-Pschorr Brewery located?\")\nanswer_2: str = qa_model(\"What country has regulations regarding breweries?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What type of regulation do German breweries need to follow?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a74248855429929fddd83e5",
+    "question": "Don Barry Mason was the founder of the Psychedelic Shamanistic Institute (PSI), which other member that's Welsh, that died on 10 April 2016?",
+    "dsl": "answer_1: str = qa_model(\"Who founded the Psychedelic Shamanistic Institute (PSI)?\")\nanswer_2: str = qa_model(\"Is there any Welsh member known in PSI?\", answer_1=answer_1)\nif answer_2 == \"Yes\":\n    answer_3: str = qa_model(\"Who among the Welsh members of PSI passed away on 10th April 2016?\")\nelse:\n    raise ValueError(\"No Welsh member found in PSI\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac3ad225542995ef918c1da",
+    "question": "Are Gin and tonic and Paloma both cocktails based on tequila?",
+    "dsl": "answer_1: str = qa_model(\"Is Gin and Tonic a cocktail?\")\nif answer_1 == \"Yes\":\n    answer_2: bool = False\nelse:\n    answer_2: bool = None\n\nanswer_3: str = qa_model(\"Is Paloma a cocktail?\")\nif answer_3 == \"Yes\":\n    answer_4: bool = True\nelse:\n    answer_4: bool = False\n\nanswer_5: str = qa_model(\"Are both Gin and Tonic and Paloma cocktails based on tequila if either one isn't a cocktail?\", answer_2=answer_2, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a736bfa5542991f29ee2e03",
+    "question": "Who is older Glenn Hughes or Ross Lynch?",
+    "dsl": "answer_1: str = qa_model(\"Who is Glenn Hughes and who is Ross Lynch?\")\nanswer_2: list = qa_model(\"Get ages for {}.\", answer_1)\nanswer_3: str = qa_model(\"Compare age of {0[0]} to age of {0[1]}, who is older?\", answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5addfe6c5542997dc790710e",
+    "question": "In what year was the creator of the current arrangement of the \"Simpson's Theme\" born?",
+    "dsl": "answer_1: str = qa_model(\"Who created the current arrangement of the Simpson's theme song?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a74bdbf5542996c70cfadc7",
+    "question": "Lee Jun-fan played what character in \"The Green Hornet\" television series?",
+    "dsl": "answer_1: str = qa_model(\"Who played the role of The Green Hornet in the TV series?\")\nanswer_2: str = qa_model(\"What was the name of the character portrayed by '{answer_1}' in the same TV series?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is it correct to say that Lee Jun-fan played '{answer_2}' in 'The Green Hornet' TV series?', answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab99943554299131ca42391",
+    "question": "The 1895/96 Football League season was the eighth in Football League history with Everton, their Goodison Park home, is a football stadium located in Walton, Liverpool, in which country?",
+    "dsl": "answer_1: str = qa_model(\"What year was the eighth Football League season held?\")\nanswer_2: str = qa_model(\"Which team won the eighth Football League season?\")\nanswer_3: str = qa_model(\"Where is the home ground of the team that won the eighth Football League season?\")\nanswer_4: str = qa_model(\"In which city is Goodison Park located?\")\nanswer_5: str = qa_model(\"In which country is Liverpool, {answer_4}, located?\".format(answer_4=answer_4))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8195f35542995ce29dcc0c",
+    "question": "A Head Full of Dreams Tour is the seventh tour by Coldplay, and which had it's first show at a stadium that is known as Estadio Unico and is owned by who?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the seventh tour by Coldplay?\")\nanswer_2: str = qa_model(\"In which city was the first show of '{answer_1}' held?\")\nanswer_3: str = qa_model(\"What is the name of the stadium in '{answer_2}' where the first show took place?\")\nanswer_4: str = qa_model(\"Who owns the '{answer_3}' stadium?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7daae35542990b8f503a1d",
+    "question": "Which band has more members, Saint Motel or Curve?",
+    "dsl": "answer_1: str = qa_model(\"List all current members of Saint Motel.\")\nanswers_sm: list[str] = eval(answer_1)\nanswer_2: str = qa_model(\"List all current members of Curve.\")\nanswers_curve: list[str] = eval(answer_2)\nanswer_3: int = len(answers_sm) - len(set(answers_sm) & set(answers_curve))\nif answer_3 > 0:\n    answer_4: str = \"Saint Motel\" if answer_3 > 0 else \"Curve\"\nelse:\n    answer_4: str = \"Both bands have the same number of members.\"\nqa_model(f\"Which band has more members, Saint Motel ({len(answers_sm)} members) or Curve ({len(answers_curve)} members)? The difference between their member counts is {abs(answer_3)}, so the answer is {answer_4}.\", answer_1=answer_1, answer_2=answer_2, answer_3=answer_3, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab292e4554299545a2cf993",
+    "question": "In what political party was the man who officially opened he Royal Spa Centre in 1972?",
+    "dsl": "answer_1: str = qa_model(\"Who officially opened The Royal Spa Centre in 1972?\")\nanswer_2: str = qa_model(\"What is the political party of {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8514545542992a431d1ad2",
+    "question": "Which Oscar-nominated film was written by the screenwriter who wrote a 1991 romantic drama based upon a screenplay by Sooni Taraporevala?",
+    "dsl": "answer_1: str = qa_model(\"Who is the screenwriter who wrote a 1991 romantic drama based upon a screenplay by Sooni Taraporevala?\")\nanswer_2: str = qa_model(\"Has this screenwriter been nominated for an Oscar?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the Oscar-nominated film written by {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac1b48f55429963665198f3",
+    "question": "The Golden Globe Award winner for best actor from \"Roseanne\" starred along what actress in Gigantic?",
+    "dsl": "answer_1: str = qa_model(\"Who won the Golden Globe Award for Best Actor in 'Roseanne'?\")\nanswer_2: str = qa_model(\"Along whom did {answer_1} star in 'Gigantic'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab9d58855429939ce03dc3a",
+    "question": "The expert mentor to the celebrities that perform on \"Splash!\" won the 2009 FINA World Championionship in the individual event at what age? ",
+    "dsl": "answer_1: str = qa_model(\"Which show features celebrities performing on water?\")\nanswer_2: str = qa_model(\"Who serves as an expert mentor on '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In which year did {answer_2} win the FINA World Championships in the individual event?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"At what age did {answer_2} win the FINA World Championships in the individual event in {}? Format the year correctly.\".format(answer_3), answer_2=answer_2, answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abcfc3b554299114383a1ad",
+    "question": "Who funds the bowling team that includes the school bus driver for Springfield Elementary School?",
+    "dsl": "answer_1: str = qa_model(\"Who is the school bus driver for Springfield Elementary School?\")\nanswer_2: str = qa_model(\"Is there a bowling team including {answer_1}?\")\nif answer_2 == \"True\":\n    answer_3: str = qa_model(\"Who funds the bowling team including {answer_1}?\")\nelse:\n    answer_3: str = \"\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a72a00d5542991f9a20c53c",
+    "question": "Who developed the prototype pacemaker used by the 34th President of the USA?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 34th President of the USA?\")\nanswer_2: str = qa_model(\"What type of medical device was the prototype pacemaker?\", answer_type=\"device\")\nanswer_3: str = qa_model(\"Who developed the prototype {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8fa73e5542992414482b22",
+    "question": "Which publishing company has published Bizarre and a sister publication devoted to the anomalous phenomena popularised by Charles Fort?",
+    "dsl": "answer_1: str = qa_model(\"Who is Charles Fort?\")\nanswer_2: str = qa_model(\"Which publications were inspired by Charles Fort's work?\")\nanswer_3: str = qa_model(\"Which publishing company publishes '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8dfbeb5542995085b3736e",
+    "question": "Who performed the lead single on the album Friends in Low Places, No Fences, that reached #1 on Billboard?",
+    "dsl": "answer_1: str = qa_model(\"On what album is 'Friends in Low Places' found?\")\nanswer_2: str = qa_model(\"What is the next album after '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the lead single on '{answer_2}'?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who performed the song '{answer_3}'?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab39701554299233954ff5e",
+    "question": "Hate to Feel is the tenth track on what Alice in Chains' album that peaked as number six on the Billboard 200?",
+    "dsl": "answer_1: str = qa_model(\"On which album is the song 'Hate to Feel' by Alice in Chains found?\")\nanswer_2: str = qa_model(\"What is the position of the album containing '{answer_1}' on the Billboard 200?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab6ad2855429953192ad35e",
+    "question": "The lead singer and guitarist in the Portland, Oregon rock band consisting of John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk, goes by what alias?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the Portland, Oregon rock band with members John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk?\")\nanswer_2: str = qa_model(\"What is the lead singer and guitarist's real name in this band?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What alias does {answer_2} go by?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adf8d5b5542995534e8c7e1",
+    "question": "What year was the winner of the 2016 Marrakesh ePrix born?",
+    "dsl": "answer_1: str = qa_model(\"Who won the 2016 Marrakesh ePrix?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac2423755429951e9e684ff",
+    "question": "According to the 2006 census what is the population of the city in which James Iroha Uchechukwu was born ?",
+    "dsl": "answer_1: str = qa_model(\"Who is James Iroha Uchechukwu?\")\nanswer_2: str = qa_model(\"In which city was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the year of the 2006 census?\", year=\"2006\")\nanswer_4: str = qa_model(\"What is the population of {answer_2} in {answer_3}?\", answer_2=answer_2, year=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a822d4655429926c1cdae45",
+    "question": "What actor in the film D.C. Cab also had a role in the TV series Barney Miller?",
+    "dsl": "answer_1: str = qa_model(\"Who stars in the film D.C. Cab?\")\nanswer_2: str = qa_model(\"Does {answer_1} appear in any episodes of Barney Miller?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abbbd0f55429931dba144d5",
+    "question": "Maurice Hines and his brother were famous for what?",
+    "dsl": "answer_1: str = qa_model(\"Who is Maurice Hines?\")\nanswer_2: str = qa_model(\"Who is Maurice Hines' brother?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What dance genre are Maurice Hines and his brother known for?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac3e8c65542997ea680c993",
+    "question": "Are the New Orleans Outfall Canals the same length as the Augusta Canal?",
+    "dsl": "answer_1: str = qa_model(\"What is the length of the New Orleans Outfall Canals?\")\nanswer_2: str = qa_model(\"What is the length of the Augusta Canal?\")\nanswer_3: bool = qa_model(\"Are {answer_1} and {answer_2} equal?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a87390555429960ec39b769",
+    "question": "In which stadium do the teams owned by Myra Kraft's husband play?",
+    "dsl": "answer_1: str = qa_model(\"Who is Myra Kraft?\")\nanswer_2: str = qa_model(\"Who was Myra Kraft married to?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Which sports teams were owned by {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"In which city are the {answer_3[1]} located?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"In which stadium do the {answer_3[0]} play in {answer_4}?\", answer_3=answer_3, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8766cb5542996e4f3087d6",
+    "question": "What southern California based band covered Blue Öyster Cult's Godzilla?",
+    "dsl": "answer_1: str = qa_model(\"Which band is based in Southern California?\")\nanswer_2: str = qa_model(\"Did they cover any songs by Blue Öyster Cult?\", answer_1=answer_1)\nif answer_2 == \"Yes\":\n    answer_3: str = qa_model(\"Which song by Blue Öyster Cult did they cover?\", answer_1=answer_1)\n    if answer_3 == \"Godzilla\":\n        answer_4: str = qa_model(\"Is their version of 'Godzilla' officially recognized?\", answer_1=answer_1)\n        if answer_4 == \"Yes\":\n            return f\"The band {answer_1} covered Blue Öyster Cult's 'Godzilla'\"\n        else:\n            return f\"{answer_1} has been unofficially credited with covering Blue Öyster Cult's 'Godzilla', but it is not an official cover.\"\nelse:\n    return f\"No information found about {answer_1} covering Blue Öyster Cult's 'Godzilla'.\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7ca54c55429935c91b527f",
+    "question": "The Swedish-British entertainment studio executive and film executive producer, who was the Executive producer for a 2016 American action thriller film directed by Babak Najafi, currently serve?",
+    "dsl": "answer_1: str = qa_model(\"Who is the Swedish-British entertainment studio executive and film executive producer?\")\nanswer_2: str = qa_model(\"For what 2016 American action thriller film did {answer_1} serve as an executive producer?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who is the director of the film '{answer_2}'?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"As of now, what position does {answer_1} hold?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a90c2b35542995651fb51df",
+    "question": "an Emmy Award winner and two-time Tony Award winner, was on the episode 15 of the third season of \"Chuck\". what is her name ?",
+    "dsl": "answer_1: str = qa_model(\"Who won an Emmy Award and two Tonys Awards?\")\nanswer_2: str = qa_model(\"On which TV show was {answer_1} featured in episode 15 of season 3?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the actress portraying this character on 'Chuck'?\", series='Chuck', season=3, episode=15, role=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae0fa8b5542997b2ef7d0c6",
+    "question": "What is the current name of the Atlanta Mansion built for the daughter of the 41st Mayor of Atlanta, Georgia?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 41st Mayor of Atlanta, Georgia?\")\nanswer_2: str = qa_model(\"For whom was the Atlanta Mansion built by this mayor?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the daughter of the person mentioned in {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What happened to the original name of the mansion belonging to {answer_3}?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"What is the current name of the mansion after its renaming?\", answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a74a3bd55429979e28829da",
+    "question": "Who invented the type of script used in autographs?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the script commonly used in autographs?\")\nanswer_2: str = qa_model(\"Who invented '{answer_1}'?', answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8f938a55429918e830d275",
+    "question": "Approximately what percentage of the global population is made up of the ethnic group Princess Fragrant was produced to improve relations with?",
+    "dsl": "answer_1: str = qa_model(\"Who is Princess Fragrant?\")\nanswer_2: str = qa_model(\"For which ethnic group was Princess Fragrant produced to improve relations?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Approximately what percentage of the global population is this ethnic group?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5add3b665542997545bbbcd2",
+    "question": "The Boren-McCurdy proposals were partially brought about by which Oklahoma politician in 1992?",
+    "dsl": "answer_1: str = qa_model(\"Who is an Oklahoma politician?\")\nanswer_2: str = qa_model(\"When was the activity related to the Boren-McCurdy proposals mostly active?\", year=\"1992\")\nanswer_3: str = qa_model(\"Was {answer_1} involved in the Boren-McCurdy proposals during {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab728e45542992aa3b8c7b4",
+    "question": "The Thoen Stone is on display at a museum in what county?",
+    "dsl": "answer_1: str = qa_model(\"Where is the Rosetta Stone displayed?\")\nanswer_2: str = qa_model(\"The Rosetta Stone is a copy of the Thoen Stone. What is the original name of the Thoen Stone?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What museum displays the original '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a74fbe55542996c70cfae63",
+    "question": "Is Children's National Medical Center or MedStar Washington Hospital Center the largest private hospital in Washington, D.C.?",
+    "dsl": "answer_1: str = qa_model(\"What are two large hospitals in Washington, D.C.?\")\nanswers_2_and_3: tuple[str] = qa_model(\"Split the list by comma for me: {answer_1}\", answer_1=answer_1).split(\", \")\nanswer_4: str = qa_model(\"Is one of them the largest private hospital in Washington, D.C.: '{answers_2[0]}'?\", answers_2=[answers_2_and_3[0]])\nif answer_4 == \"True\":\n    return \"The Children's National Medical Center is the largest private hospital in Washington, D.C.\"\nelse:\n    answer_5: str = qa_model(\"Is one of them the largest private hospital in Washington, D.C.: '{answers_2[1]}'?\", answers_2=[answers_2_and_3[1]])\n    if answer_5 == \"True\":\n        return \"MedStar Washington Hospital Center is the largest private hospital in Washington, D.C.\"\n    else:\n        return \"There seems to be an error with my information. Please check again.\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab30bbb55429976abd1bc39",
+    "question": "Prince William, Duke of Gloucester and Prince George of Denmark, were eventually monarchs of which Kingdom?",
+    "dsl": "answer_1: str = qa_model(\"Who are Prince William, Duke of Gloucester and Prince George of Denmark?\")\nanswer_2: str = qa_model(\"In what capacity were they monarchs?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Of which kingdom were they monarchs?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abdbeed5542993062266cdd",
+    "question": "The airline operating in Whitehorse, Yukon handled how many passengers in 2012?",
+    "dsl": "answer_1: str = qa_model(\"What city is located in Yukon, Canada with the airport code YXY?\")\nanswer_2: str = qa_model(\"What is the name of the airport serving {answer_1}?\")\nanswer_3: str = qa_model(\"Which airline operates at {answer_2}?\")\nanswer_4: str = qa_model(\"In what year occurred in 2012?\")\nanswer_5: str = qa_model(\"How many passengers were handled by {answer_3} at {answer_2} in {answer_4}?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab6e84a554299710c8d1fab",
+    "question": "What State has a Disney Resort & Spa that is a beachside hotel, resort and vacation destination offering complimentary children's activities and programs and that Djuan Rivers was a General Manager at?",
+    "dsl": "answer_1: str = qa_model(\"Which Disney Resort & Spa is a beachside hotel and vacation destination?\")\nanswer_2: str = qa_model(\"Where is the location of '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who was the General Manager of the Disney Resort & Spa in '{answer_2}'?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Is it known what state Djuan Rivers resides in?\", )\nif \"yes\" in answer_4:\n    answer_5: str = qa_model(\"What state does Djuan Rivers live in?\", )\nelse:\n    answer_5: str = \"\"\n\nfinal_answer: str = f\"The Disney Resort & Spa located in {answer_2 if answer_5 else '<unknown>'}, where Djuan Rivers was a General Manager.\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abeed7e5542993fe9a41da0",
+    "question": "What is the birth date of the coach of the 2014-15 Michigan Wolverines men's basketball team?",
+    "dsl": "answer_1: str = qa_model(\"Who coached the Michigan Wolverines men's basketball team during the 2014-15 season?\")\nanswer_2: str = qa_model(\"On what date was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab5141a5542991779162d70",
+    "question": "Which organization presents the award in which Chris Noonan was nominated for his work in \"Babe?\"",
+    "dsl": "answer_1: str = qa_model(\"For what film was Chris Noonan nominated for an award?\")\nanswer_2: str = qa_model(\"What award show nominates filmmakers like Chris Noonan?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Which organization hosts '{answer_2}' awards ceremony?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a760f6855429976ec32bcf9",
+    "question": "What retailer is the second-largest in the United States and has a commercial featuring the American artist who was 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?\")\nanswer_2: str = qa_model(\"What is the name of the American artist identified by {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Which retailer is the second-largest in the United States?\")\nanswer_4: str = qa_model(\"Does the identified retailer have any commercial featuring {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8a35625542992d82986efd",
+    "question": "Which English actor of stage, film and television from the 1978 BBC drama \"Pennies From Heaven\" appeared in the 2006 BBC Four television play \"Kenneth Williams: Fantabulosa!?\"",
+    "dsl": "answer_1: str = qa_model(\"Who acted in the 1978 BBC drama 'Pennies From Heaven'?\")\nanswer_2: str = qa_model(\"Is {answer_1} an English actor?\")\nif answer_2 == \"True\":\n    answer_3: str = qa_model(\"Did {answer_1} appear in the 2006 BBC Four television play 'Kenneth Williams: Fantabulosa'?\")\nelse:\n    answer_3: str = None",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7ccec9554299452d57ba72",
+    "question": "What video game published by Sierra Entertainment includes an antagonist figure who's mystery is the core of the series? ",
+    "dsl": "answer_1: str = qa_model(\"Which company published games under the name Sierra Entertainment?\")\nanswer_2: str = qa_model(\"Is there any video game developed by Sierra Entertainment with a central mystery around its antagonist?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a804fc45542992bc0c4a6f0",
+    "question": "Close to the Enemy starred the English actor known as Ash Morgan in what BBC series?",
+    "dsl": "answer_1: str = qa_model(\"Who is Ash Morgan?\")\nanswer_2: str = qa_model(\"In which BBC series did {answer_1} appear in the show 'Close to the Enemy'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5add85b65542997545bbbd61",
+    "question": "The Bass Rock Lighthouse was next to what Castle?",
+    "dsl": "answer_1: str = qa_model(\"Where is the Bass Rock Lighthouse located?\")\nanswer_2: str = qa_model(\"What castle is near '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ade8f5e55429975fa854f11",
+    "question": "What is the name of the movie in which Edwin Brown plays a man that executed at least 400 people, including William Joyce and John Amery?",
+    "dsl": "answer_1: str = qa_model(\"Who is Edwin Brown?\")\nanswer_2: str = qa_model(\"What role did {answer_1} play in a movie?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"The character {answer_2} executed how many people?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Name one person executed by {answer_2}\", answer_2=answer_2)\nanswer_5: str = qa_model(\"What is the title of the movie in which {answer_2} plays this character?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac1b7495542994ab5c67dd9",
+    "question": "What genre of music is the solo artist that contributed to Real Damage a variant of?",
+    "dsl": "answer_1: str = qa_model(\"Who is the solo artist contributing to Real Damage?\")\nanswer_2: str = qa_model(\"What type of music is primarily associated with {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae27edc5542992decbdcd2d",
+    "question": "Jake David Shapiro was best know for being the screenwriter of a film directed by who?",
+    "dsl": "answer_1: str = qa_model(\"Who is Jake David Shapiro known for being?\")\nanswer_2: str = qa_model(\"What is the film he is best known for writing?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a84918e5542990548d0b2cf",
+    "question": "What book contains a poem which, along with \"Beowulf\" and the \"Anglo-Saxon Chronicle\", preserves a legendary list of the kings of the Angles?",
+    "dsl": "answer_1: str = qa_model(\"What is a legendary list of the kings of the Angles preserved in?\")\nanswer_2: str = qa_model(\"Is there a specific book containing a poem related to this legend?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac2ee675542990b17b154be",
+    "question": "Norbert Holm was arrested and later demoted because of his Chief of Operations association with a military theorist popularly known as what?",
+    "dsl": "answer_1: str = qa_model(\"Who is the military theorist associated with Norbert Holm?\")\nanswer_2: str = qa_model(\"What is the nickname of {answer_1}?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae4b3da55429913cc2044d6",
+    "question": "What state does Sang-Wook Cheong work as a materials scientist?",
+    "dsl": "answer_1: str = qa_model(\"Who is Sang-Wook Cheong?\")\nanswer_2: str = qa_model(\"What field does {answer_1} specialize in?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"As a {answer_2}, what location does {answer_1} work at?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abae52a5542996cc5e49eea",
+    "question": "The 1976 German Grand Prix was won by a driver who retired in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who won the 1976 German Grand Prix?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} retire?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae7a9c8554299540e5a5631",
+    "question": "What event at the Asian Junior Athletics Championships has men and women competing at the same time?",
+    "dsl": "answer_1: str = qa_model(\"What athletic championship is referred to as the 'Asian Junior Athletics Championships'?\")\nanswer_2: str = qa_model(\"Is there an event at '{answer_1}', where both men and women compete simultaneously?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae0fcb855429945ae959492",
+    "question": "Which 1999 French Open - Women's Doubles runner-up was born in Russia on 7 June 1981?",
+    "dsl": "answer_1: str = qa_model(\"Who won the Women's Doubles at the French Open in 1999?\")\nanswer_2: str = qa_model(\"Who were the runners-up in the Women's Doubles at the French Open in 1999?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"From which team were they?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who is the Russian player from the team '{answer_3}'?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"On what date was {answer_4} born?\", answer_4=answer_4)\nanswer_6: str = qa_model(\"What month has the 7th day?\", answer_5=answer_5)\nanswer_7: str = qa_model(\"What year corresponds to the given month and day ({answer_6}, 7)?\", answer_6=answer_6)\nanswer_8: str = qa_model(\"Was {answer_4} born in {answer_7}?\", answer_4=answer_4, answer_7=answer_7)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae2e27155429928c423952a",
+    "question": "What is the length of the River which has Wild Horse Creek as a tributary ?",
+    "dsl": "answer_1: str = qa_model(\"Find the river with Wild Horse Creek as its tributary.\")\nanswer_2: str = qa_model(\"What is the length of {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7e567b55429949594199a0",
+    "question": "Who is the American internet entrepreneur who founded the company featured on 24 Hours on Craigslist?",
+    "dsl": "answer_1: str = qa_model(\"Who is the founder of Craigslist?\")\nanswer_2: str = qa_model(\"Is {answer_1} an American internet entrepreneur?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a77bd595542995d83181291",
+    "question": "Between two tennis players Kim Clijsters and Mary Pierce, who is older?",
+    "dsl": "answer_1: str = qa_model(\"Who is Kim Clijsters?\")\nanswer_2: str = qa_model(\"Who is Mary Pierce?\",)\nanswer_3: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)\nanswer_5: str = qa_model(\"Is the birth year of {answer_3} earlier than the birth year of {answer_4}?\", answer_3=answer_3, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abffc58554299012d1db552",
+    "question": "Which American college that has sent students to Centre for Medieval and Renaissance Studies was founded in 1874?",
+    "dsl": "answer_1: str = qa_model(\"Which institution sent students to Centre for Medieval and Renaissance Studies?\")\nanswer_2: str = qa_model(\"When was {answer_1} founded?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what year was an American college established ({answer_2})?\", answer_2=str(int(answer_2[5:]) - 1800))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab3dad4554299753aec59cb",
+    "question": "Hot Coffee, Mississippi sometimes shares a zipcode with a nearby city with what population at the 2010 census?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the nearby city sharing a zip code with Hot Coffee, Mississippi?\")\nanswer_2: str = qa_model(\"What was the population of {answer_1} at the 2010 census?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a731dee5542992359bc3238",
+    "question": "What man, also known as mi Sde-Or, created a military self-defense system developed for the Israel Defense Forces?",
+    "dsl": "answer_1: str = qa_model(\"Who is mi Sde-Or?\")\nanswer_2: str = qa_model(\"What military self-defense system was developed by {answer_1} for the Israel Defense Forces?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7906f55542990784727792",
+    "question": "When was Fannie Lee Chaney's son born?",
+    "dsl": "answer_1: str = qa_model(\"Who is Fannie Lee Chaney?\")\nanswer_2: str = qa_model(\"What is the name of Fannie Lee Chaney's son?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac4bfd05542997ea680caab",
+    "question": "WNP-3 and WNP-5 were constructed by the agency formed in which year?",
+    "dsl": "answer_1: str = qa_model(\"Name the agency responsible for constructing WNP-3 and WNP-5.\")\nanswer_2: str = qa_model(\"When was {answer_1} established?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abb06bc554299232ef4a3bb",
+    "question": "What city does Bundestag and Reichstag building have in common?",
+    "dsl": "answer_1: str = qa_model(\"In which city is the Bundestag building located?\")\nanswer_2: str = qa_model(\"In which city is the Reichstag building located?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Are {answer_1} and {answer_2} the same city?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adffc93554299025d62a39f",
+    "question": " Teri W. Odom is a member of a scientific journal first published in 2007 by who?",
+    "dsl": "answer_1: str = qa_model(\"Who is Teri W. Odom associated with professionally?\")\nanswer_2: str = qa_model(\"Is '{answer_1}' a member of any scientific journals?\")\nanswer_3: str = qa_model(\"When was the first publication date of the scientific journal '{answer_2}' mentions?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who publishes the scientific journal '{answer_3}'?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7315015542994cef4bc448",
+    "question": "What forensic psychiatrist consulted on numbers cases including one for a contract killer associated with the DeCavalcante crime family?",
+    "dsl": "answer_1: str = qa_model(\"Who is a famous forensic psychiatrist?\")\nanswer_2: str = qa_model(\"Which criminal case did {answer_1} consult on involving a contract killer?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Which organized crime family is the contract killer associated with in the case mentioned above?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab1ce395542997061209579",
+    "question": "The central character of \"The Adventures of Brer Rabbit\" was later adapted into which 1946 Walt Disney Company motion picture film?",
+    "dsl": "answer_1: str = qa_model(\"Who is the central character in 'The Adventures of Brer Rabbit'?\")\nanswer_2: str = qa_model(\"What is the 1946 Walt Disney Company motion picture film featuring '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae3dde35542992f92d823a4",
+    "question": " Benjamin Halfpenny was a footballer for a club that plays its home matches where?",
+    "dsl": "answer_1: str = qa_model(\"Who is Benjamin Halfpenny?\")\nanswer_2: str = qa_model(\"For which football club did {answer_1} play?\".format(answer_1=answer_1))\nanswer_3: str = qa_model(\"Where does {answer_2} play their home matches?\".format(answer_2=answer_2))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae65d055542996d980e7b14",
+    "question": "What was population of the city where the Dutch retired footballer Foeke Booy born?",
+    "dsl": "answer_1: str = qa_model(\"Who is Foeke Booy?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What type of location is {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What is the name of the city in {answer_3}?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"What is the population of {answer_4}?\", answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8a698255429930ff3c0dcf",
+    "question": "In what year was the company that co-developed and distributed the BlackBerry DTEK60 founded?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the company that co-developed and distributed the BlackBerry DTEK60?\")\nanswer_2: str = qa_model(\"When was {answer_1} founded?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adccafb5542992c1e3a2401",
+    "question": "Who chaired the ceremony in which the film written by Canet and Philippe Lefebvre won the award for Best Film?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the film written by Canet and Philippe Lefebvre?\")\nanswer_2: str = qa_model(\"In what year did this film win the award for Best Film?\")\nanswer_3: str = qa_model(\"What ceremony awarded the film '{answer_1}' with the Best Film award in {answer_2}?\")\nanswer_4: str = qa_model(\"Who chaired the '{answer_3}' ceremony?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a85d5ba5542997175ce205a",
+    "question": "Der Mond was composed by the man who was best known for what cantata?",
+    "dsl": "answer_1: str = qa_model(\"Who composed the piece 'Der Mond'?\")\nanswer_2: str = qa_model(\"Who is this composer best known for?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the famous cantata associated with '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8a1eb755429970aeb70261",
+    "question": "Mackenzie Davis appeared in the 2013 Canadian romantic comedy film directed by whom?",
+    "dsl": "answer_1: str = qa_model(\"What is the 2013 Canadian romantic comedy film featuring Mackenzie Davis?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac3bb805542993915413909",
+    "question": "The Developing Communities Project's first executive director was which former President?",
+    "dsl": "answer_1: str = qa_model(\"Who founded the Developing Communities Project?\")\nanswer_2: str = qa_model(\"What position did {answer_1} hold at the Developing Communities Project?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"At what point in time did {answer_2} serve as the executive director of the Developing Communities Project?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What office did {answer_3} previously hold before serving as the executive director of the Developing Communities Project?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"What political party does {answer_4} belong to?\", answer_4=answer_4)\nanswer_6: str = qa_model(\"What is the highest elected office held by someone belonging to the {answer_5} political party?\", answer_5=answer_5)\nanswer_7: str = qa_model(\"Who has served as the {answer_6} for the longest period of time?\", answer_6=answer_6)\nanswer_8: str = qa_model(\"Did {answer_7} ever step down from their role as {answer_6}?\", answer_7=answer_7)\nif answer_8 == \"True\":\n    answer_9: str = qa_model(\"When did {answer_7} leave their role as {answer_6}?\", answer_7=answer_7)\nelse:\n    answer_9: str = \"\"\nanswer_10: str = qa_model(\"Was {answer_7} the first president to serve under the Developing Communities Project?\", answer_7=answer_7)\nif answer_10 == \"False\":\n    answer_11: str = qa_model(\"Who was the first president to serve under the Developing Communities Project?\", answer_10=\"Not the first\")\nelse:\n    answer_11: str = \"\"\nanswer_12: str = qa_model(\"What was the term length of {answer_7}, if they were indeed the first president to serve under the Developing Communities Project?\", answer_7=answer_7)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8f7992554299458435d64c",
+    "question": "The largest ship in the \"Imperator\" class ocean liners had how many gross register tons?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the largest ship in the 'Imperator' class ocean liners?\")\nanswer_2: str = qa_model(\"How many gross register tons does '{answer_1}' have?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab28cfb554299340b525515",
+    "question": "Axle Whitehead was a part of an American comedy-drama television series that is a remake of the British series with the same name set in what city?",
+    "dsl": "answer_1: str = qa_model(\"What is the original British series that the TV show featuring Axle Whitehead is a remake of?\")\nanswer_2: str = qa_model(\"In which city is the original British series set?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab54b5c5542992aa134a298",
+    "question": "What was the event that Afghanistan competed in for the first time in 2017 officially known as?",
+    "dsl": "answer_1: str = qa_model(\"In what year did Afghanistan compete in an official event for the first time?\")\nanswer_2: str = qa_model(\"Find the name of the event that Afghanistan participated in for the first time in {answer_1}\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac23b6f55429951e9e684b4",
+    "question": "Who was the director of the 2001 American romantic comedy film written by Marc Klein in which Lucy Gordon had a small role?",
+    "dsl": "answer_1: str = qa_model(\"Can you name the 2001 American romantic comedy film with a small role for Lucy Gordon?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae4ba9255429913cc2044e6",
+    "question": "What hamlet and census designated place was the location of the only pay-per-view Bunkhouse Stampede?",
+    "dsl": "answer_1: str = qa_model(\"What event is known as the Bunkhouse Stampede?\")\nanswer_2: str = qa_model(\"Is the Bunkhouse Stampede a hamlet or a census-designated place?\", answer_1=answer_1)\nif answer_2 == \"hamlet\":\n    answer_3: str = qa_model(\"What is the name of the hamlet where the Bunkhouse Stampede took place?\")\nelif answer_2 == \"census-designated place\":\n    answer_3: str = qa_model(\"What is the name of the census-designated place where the Bunkhouse Stampede took place?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7d231555429909bec76986",
+    "question": "La Barredora was a gang that declared war on the leader of the cartel based where?",
+    "dsl": "answer_1: str = qa_model(\"Which cartel had its leader targeted by La Barredora?\")\nanswer_2: str = qa_model(\"Where is the headquarters of {answer_1} located?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a79cc3c5542994bb94570b6",
+    "question": "What year did the chairman of the Jenkins Commission die?",
+    "dsl": "answer_1: str = qa_model(\"Who chaired the Jenkins Commission?\")\nanswer_2: str = qa_model(\"When did {answer_1} pass away?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adc1b1a55429944faac2422",
+    "question": "Superheaven and Oceansize, are bands of which shared genre?",
+    "dsl": "answer_1: str = qa_model(\"Are Superheaven and Oceansize separate bands?\")\nif answer_1 == \"Yes\":\n    return \"\"\nelse:\n    answer_2: str = qa_model(\"What genre do both Superheaven and Oceansize belong to?\", answer_1=answer_1)\n    return answer_2",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5add67b05542995b365fab2a",
+    "question": "What nationality was a  historical drama film directed by?",
+    "dsl": "answer_1: str = qa_model(\"Name a historical drama film.\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What nationality is {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8ef28c5542995b44241f0f",
+    "question": "The American Aircraft Penetrator was modified from a helicopter produced by what nation's military?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the aircraft known as the American Aircraft Penetrator?\")\nanswer_2: str = qa_model(\"Is the American Aircraft Penetrator originally a helicopter?\")\nif answer_2 == \"True\":\n    answer_3: str = qa_model(\"From which nation's military was the original helicopter produced?\")\nelse:\n    # Handle cases when the given description doesn't match the actual type\n    answer_3: str = qa_model(\"The American Aircraft Penetrator has roots in a helicopter model developed by which nation's military?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adf1bf75542993344016bd9",
+    "question": "Canton Road Station was a planned railway station on the Kowloon Southern Link of West Rail Line, that was to run beneath a large shopping mall located where?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the shopping mall under which Canton Road Station was planned to be built?\")\nanswer_2: str = qa_model(\"Where is {answer_1} located?\".format(answer_1=answer_1), answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8235d25542995ce29dccda",
+    "question": "What South Korean sitcom starred a South Korean singer and actress who began her music career at the age of 15?",
+    "dsl": "answer_1: str = qa_model(\"Name a South Korean singer and actress who started her music career at the age of 15.\")\nanswer_2: str = qa_model(\"Is there any television show she starred in?\")\nanswer_3: str = qa_model(\"What type of TV show is it?\", additional_keywords={\"type\": \"sitcom\"})\nanswer_4: str = qa_model(\"In what country is this sitcom produced?\", additional_keywords={\"country\": \"South Korea\"})",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8edaa955429917b4a5bde3",
+    "question": "Ghostbusters is a song written and recorded by Ray Parker Jr. as the theme song for a movie starring a Canadian-American actor who was an original member of the Not Ready for Prime Time Players on what show?",
+    "dsl": "answer_1: str = qa_model(\"Who composed the theme song for Ghostbusters?\")\nanswer_2: str = qa_model(\"What is the name of the movie for which Ghostbusters is the theme song?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who starred in the movie '{answer_2}'?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"On what TV show were the actors from '{answer_3}' originally members?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8596c85542992a431d1b53",
+    "question": "In what country did the repression of citizens by a dictator during the period of 1973 to 1990 occur?",
+    "dsl": "answer_1: str = qa_model(\"Identify a dictator known for his rule between 1973 and 1990.\")\nanswer_2: str = qa_model(\"In which country did {answer_1} exercise power?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab90af655429916710eb0ec",
+    "question": "The mother of the vice chair of Hillary Clinton's 2016 campaign for President is the director of what institue?",
+    "dsl": "answer_1: str = qa_model(\"Who is the vice chair of Hillary Clinton's 2016 campaign for President?\")\nanswer_2: str = qa_model(\"Who is the mother of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the director's institute where {answer_2} works?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac5247c55429924173fb602",
+    "question": "\"Apocalypic\" is a song sung by Lizzy Hale from which group? ",
+    "dsl": "answer_1: str = qa_model(\"Who sings the song 'Apocalyptic'?\")\nanswer_2: str = qa_model(\"From which band is {answer_1}?\" , answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a80b23a5542992bc0c4a7b2",
+    "question": "Ted Sutton plays Sergeant Cunningham in a2002 film that stars Mel Gibson as what character?",
+    "dsl": "answer_1: str = qa_model(\"Who stars as Mel Gibson in the 2002 film?\")\nanswer_2: str = qa_model(\"What character does Ted Sutton play in this film?\", role=\"Sergeant Cunningham\")\nanswer_3: str = qa_model(\"What is the name of the character played by Mel Gibson in the given film?\", role=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adf698f5542993a75d264e2",
+    "question": "Who directed a film that included Sarah Manninen?",
+    "dsl": "answer_1: str = qa_model(\"Who is Sarah Manninen?\")\nanswer_2: str = qa_model(\"In what film did {answer_1} appear?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8e506d5542990e94052ac8",
+    "question": "The republic with the smallest population of all the members of the Council of Europe is one of few places in Europe where a species of beetle cannot be found, that wew originally described in 1809 by whom?",
+    "dsl": "answer_1: str = qa_model(\"Which European countries belong to the Council of Europe?\")\nanswer_2: str = qa_model(\"Find the member of the Council of Europe with the smallest population.\", filter=\"population\")\nanswer_3: str = qa_model(\"Is there any place in Europe where the Scarabaeus titanus beetle can't be found?\", answer_2)\nanswer_4: str = qa_model(\"The Scarabaeus titanus beetle was originally described by whom in 1809?\", answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac3983a554299657fa290f5",
+    "question": "At the 2011 census, what was he population of the city where Kerry Saxby-Junna was born?",
+    "dsl": "answer_1: str = qa_model(\"Who is Kerry Saxby-Junna?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"At the 2011 census, what was the population of {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac1bfd85542994ab5c67dfb",
+    "question": "How many German scientists, engineers, and technicians, were recruited in post-Nazi Germany as a result of the clandestine operation where Arthur Rudolph became one of the main developers of the U.S. ?space program",
+    "dsl": "answer_1: str = qa_model(\"Who was Arthur Rudolph and what field was he known for?\")\nanswer_2: str = qa_model(\"What operation was associated with the recruitment of German scientists, engineers, and technicians after World War II?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"To which program did these recruits contribute significantly in the United States?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What nationality were most of these recruited individuals?\")\nanswer_5: str = qa_model(\"How many such individuals were recruited specifically from post-Nazi Germany?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae753b75542997b22f6a6db",
+    "question": "Jayantabhai Ki Luv Story includes a lead role for the film actress and model who is a native of what city?",
+    "dsl": "answer_1: str = qa_model(\"Who plays the lead role in Jayantabhai Ki Luv Story?\")\nanswer_2: str = qa_model(\"What nationality is {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"From which city is {answer_2} originally from?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a77251055429966f1a36ca5",
+    "question": "Which is currently more valuable, Temagami-Lorrain Mine or Meadowbank Gold Mine?",
+    "dsl": "answer_1: str = qa_model(\"Identify one gold mine among Temagami-Lorrain Mine and Meadowbank Gold Mine.\")\nanswer_2: str = qa_model(\"Find the current value of {answer_1}.\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Compare the values of both mines to determine which one is currently more valuable.\", comparison=\"greater\")\nanswer_4: str = qa_model(\"What is the name of the more valuable mine compared to {answer_1}, according to the comparison performed in step {answer_3}?\", answer_3=str(answer_3), answer_1='Temagami-Lorrain Mine')",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac0551b5542997d64295a07",
+    "question": "St James Street appears as a segment of Whitecross Street on the 1610 map of the Monmouth by an English historian best known as a mapmaker of what perior?",
+    "dsl": "answer_1: str = qa_model(\"Who is the English historian best known as a mapmaker?\")\nanswer_2: str = qa_model(\"In which period did {answer_1} create his maps?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On which map does St James Street appear as a segment of Whitecross Street?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7f8a535542994857a76778",
+    "question": "The Pineground Bridge formerly carried Depot Road over the Suncook River into a town with a population of what?",
+    "dsl": "answer_1: str = qa_model(\"Where is the Pineground Bridge located?\")\nanswer_2: str = qa_model(\"What is the name of the town near the Pineground Bridge?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the population of {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac36a07554299218029dbd5",
+    "question": "Which city is the American rock band, that released their album on March 19, 2012, from?",
+    "dsl": "answer_1: str = qa_model(\"Name an American rock band with an album release date of March 19, 2012.\")\nanswer_2: str = qa_model(\"From which city is {answer_1} originated?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac3bf5e5542995ef918c20f",
+    "question": "The Rossendale Free Press serves the town how far north of Manchester?",
+    "dsl": "answer_1: str = qa_model(\"Where is the town served by the Rossendale Free Press located?\")\nanswer_2: str = qa_model(\"What direction is Manchester relative to {answer_1}?\", answer_1=answer_1)\nanswer_2 = \"north\" if answer_2.lower() == \"manchester\" else f\"{answer_2.capitalize()} of Manchester\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a81fab9554299676cceb1b1",
+    "question": "Which american president's father was a farmer and he was a former US representative from NY?",
+    "dsl": "answer_1: str = qa_model(\"Name an American President.\")\nif \"Gerald Ford\" not in answer_1:\n    while True:\n        answer_2: str = qa_model(\"Who succeeded this President?\", answer_1=answer_1)\n        if \"Jimmy Carter\" == answer_2:\n            break\n        answer_1: str = qa_model(\"Who preceded this President?\", answer_2=answer_2)\n\nanswer_2: str = qa_model(\"What state was this President from?\", answer_1=answer_1)\nif \"New York\" != answer_2:\n    while True:\n        answer_3: str = qa_model(\"What state was this President from before?\", answer_1=answer_1)\n        if \"New York\" == answer_3:\n            break\n        answer_1: str = qa_model(\"What state was this President from after?\", answer_3=answer_3)\n\nanswer_3: str = qa_model(\"What occupation was this President's father involved in?\", answer_1=answer_1)\nif \"farmer\" not in answer_3:\n    while True:\n        answer_4: str = qa_model(\"What occupation was this President's father involved in before?\", answer_1=answer_1)\n        if \"farmer\" in answer_4:\n            break\n        answer_3: str = qa_model(\"What occupation was this President's father involved in after?\", answer_4=answer_4)\n\nanswer_4: str = qa_model(\"Was this President a U.S. Representative from New York?\", answer_1=answer_1)\nif \"True\" != answer_4:\n    while True:\n        answer_5: str = qa_model(\"Was this President a U.S. Representative from another state?\", answer_1=answer_1)\n        if \"False\" == answer_5:\n            break\n        answer_1: str = qa_model(\"What state was this President a U.S. Representative from?\", answer_5=answer_5)\n\nanswer_5: str = qa_model(\"What was the name of this President's father?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae546be5542990ba0bbb251",
+    "question": "Which Lightweight division mixed martial artist founded the American Combat Association?",
+    "dsl": "answer_1: str = qa_model(\"Who is a Lightweight division MMA fighter?\")\nanswer_2: str = qa_model(\"Did {answer_1} found any organization?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"If yes, what is the name of the organization founded by {answer_1}?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"What type of association is the {answer_3}?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"Is the {answer_4} related to combat sports?\", answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adc89435542994d58a2f639",
+    "question": "Which video game producers worked with an English film director to produce a film about sports?",
+    "dsl": "answer_1: str = qa_model(\"Name a video game producer.\")\nanswers_2: list[str] = [qa_model(\"Another video game producer.\", answer_1=answer_1)] * 2\nanswer_3: str = qa_model(\"Who collaborated with an English film director to create a sports-themed film?\", answer_1=answer_1, answer_2=answers_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adf9e7e5542992d7e9f93be",
+    "question": "Were Eatza Pizza and Your Pie founded in the same state?",
+    "dsl": "answer_1: str = qa_model(\"Which states were Eatza Pizza and Your Pie founded in?\")\nanswer_2: list = qa_model(\"List the states where {answer_1[0]} was founded.\", answer_1=answer_1)\nanswer_3: list = qa_model(\"List the states where {answer_1[1]} was founded.\", answer_1=answer_1)\nanswer_4: bool = qa_model(\"Are {answer_2[0]} and {answer_3[0]} the same?\", answer_2=answer_2, answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7b970c554299294a54aa0b",
+    "question": "Who is younger Mary Ramsey or Lee Ranaldo ?",
+    "dsl": "answer_1: str = qa_model(\"Who is Mary Ramsey?\")\nanswer_2: str = qa_model(\"Who is Lee Ranaldo?\")\nanswer_3: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)\nanswer_5: str = qa_model(\"Is the birthday of {answer_3} earlier than {answer_4}?\", answer_3=answer_3, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab8f5685542991b5579f096",
+    "question": "What year was the thesis supervisor of Jocelyn Bell Burnell awarded the Eddington Medal?",
+    "dsl": "answer_1: str = qa_model(\"Who was the thesis supervisor of Jocelyn Bell Burnell?\")\nanswer_2: str = qa_model(\"When was {answer_1} awarded the Eddington Medal?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a83cf395542996488c2e4e0",
+    "question": "What musical genre was the song that, according to Annet Artani, inspired the Britney Spears song \"Everytime\"?",
+    "dsl": "answer_1: str = qa_model(\"Who is Annet Artani?\")\nanswer_2: str = qa_model(\"According to {answer_1}, what song inspired Britney Spears' 'Everytime'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the musical genre of '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a817221554299260e20a28d",
+    "question": "British band The Wanted's third album includes a song with a title about which Barbadian superstar?",
+    "dsl": "answer_1: str = qa_model(\"Which Barbadian superstar collaborated with British band The Wanted on their music?\")\nanswer_2: str = qa_model(\"What is the title of the song featuring this artist on The Wanted's third album?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On what album can you find the song '{answer_2}' by The Wanted?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab265de5542993be8fa9901",
+    "question": "Jonas Hummels is the younger brother of a German professional footballer who plays for the German national team, and who else?",
+    "dsl": "answer_1: str = qa_model(\"Who is the older brother of Jonas Hummels?\")\nanswer_2: str = qa_model(\"What is his profession?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"For what national team does he play?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abc0e30554299700f9d77c5",
+    "question": "How many test centuries did the grandfather of Fabian Cowdrey make for England ?",
+    "dsl": "answer_1: str = qa_model(\"Who is Fabian Cowdrey's grandfather?\")\nanswer_2: str = qa_model(\"What is the name of Fabian Cowdrey's grandfather in cricket?\")\nanswer_3: str = qa_model(\"For how many Test matches did {answer_2} play for England?\".format(answer_2=answer_2))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8d69d6554299441c6b9fd6",
+    "question": "Anti-Semetism in the 21st Century: The Resurgence was hosted by a journalist and writer who is an anchor of what show?",
+    "dsl": "answer_1: str = qa_model(\"Who is the author and journalist of the book 'Anti-Semitism in the 21st Century: The Resurgence'?\")\nanswer_2: str = qa_model(\"What TV show is {answer_1} an anchor of?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5addc8765542997dc7907022",
+    "question": "The plaintiff in the civil suit Paul v. Clinton was born in which year ?",
+    "dsl": "answer_1: str = qa_model(\"Who filed the civil suit Paul v. Clinton?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adcd95d5542990d50227d45",
+    "question": "How long was the rule of the dynasty that was active when the Rosetta Stone was inscribed?",
+    "dsl": "answer_1: str = qa_model(\"When was the Rosetta Stone inscribed?\")\nanswer_2: str = qa_model(\"Which dynasty was active at the time of the Rosetta Stone inscription?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How long did the {answer_2} dynasty rule?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae334345542991a06ce9951",
+    "question": "At which stadium does the team, for which Baltimore's Marching Ravens is the official marching band, play its home games?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the team for which Baltimore's Marching Ravens is the official marching band?\")\nanswer_2: str = qa_model(\"At which stadium do {answer_1} play their home games?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abeb68d5542994516f453f9",
+    "question": "The John Messer Barn is a historic structure within the Great Smoky Mountains National Park in Sevier County, Tennessee, this barn is a different Messer Barn in which valley, in the Great Smoky Mountains of North Carolina, located in the Southeastern United States?",
+    "dsl": "answer_1: str = qa_model(\"Where is the John Messer Barn located within the Great Smoky Mountains National Park?\")\nanswer_2: str = qa_model(\"In which state is Sevier County, Tennessee located?\", answer_1=answer_1[:-len('National Park')])\nanswer_3: str = qa_model(\"In which county is the John Messer Barn located in {answer_2}?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Which state is the Great Smoky Mountains range primarily located in?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"In which part of the Great Smoky Mountains range is there a valley named after the Messer family?\", answer_4=answer_4)\nanswer_6: str = qa_model(\"In which county is this other Messer Barn located in {answer_5}?\", answer_5=answer_5)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae1cab7554299492dc91b8a",
+    "question": "What nationality is the actress who played the role of Sam Sloan's wife Trudy in the sitcom The Single Guy ?",
+    "dsl": "answer_1: str = qa_model(\"Who played the role of Sam Sloan's wife Trudy in The Single Guy?\")\nanswer_2: str = qa_model(\"What is the nationality of {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a76059155429976ec32bce6",
+    "question": "What shopping mall is the largest in south Texas, Malle del Norte or La Plaza Mall?",
+    "dsl": "answer_1: str = qa_model(\"Where is Malle del Norte located geographically?\")\nanswer_2: str = qa_model(\"Where is La Plaza Mall located geographically?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is Malle del Norte in South Texas?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"Is La Plaza Mall in South Texas?\", answer_2=answer_2)\nanswer_5: str = qa_model(\"If yes, what is the name of the larger mall between Malle del Norte and La Plaza Mall in South Texas?\", answer_3=answer_3, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae6e5d65542992ae0d163a1",
+    "question": "Who is the mother of the prince that had allegations made against him related to the lawsuit \"Two Jane Does v US\"?",
+    "dsl": "answer_1: str = qa_model(\"Who is the prince involved in the lawsuit 'Two Jane Does v US'?\")\nanswer_2: str = qa_model(\"What is the name of the father of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who is the spouse of {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abaebab55429939ce03dd66",
+    "question": "In between Memphis International Airport and Southwest Georgia Regional Airport which one is in Tennessee?",
+    "dsl": "answer_1: str = qa_model(\"Where is Memphis International Airport located?\")\nanswer_2: str = qa_model(\"Where is Southwest Georgia Regional Airport located?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is {answer_2} in Tennessee if it isn't {answer_1}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8fae775542992414482b3b",
+    "question": "What all female high school is located in a town in Sunyani West District  in the Brong-Ahafo Region of Ghana?",
+    "dsl": "answer_1: str = qa_model(\"In which region of Ghana is Sunyani West District located?\")\nanswer_2: str = qa_model(\"What is the name of the district within the Brong-Ahafo Region that contains a town with a female high school?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Name the town in {answer_2} that has a female high school.\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What type of educational institution is it in {answer_3}?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7d9eb55542990b8f5039cd",
+    "question": "What are the plants in the same genus as the Dendranthema boreale sometimes called?",
+    "dsl": "answer_1: str = qa_model(\"What is the genus of Dendranthema boreale?\")\nanswer_2: str = qa_model(\"What are some common names for species within the '{answer_1}' genus?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae5e2285542996de7b71a5a",
+    "question": "Who is the composer Howard Ashman worked with on his musical released in 1982? ",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the musical composed by Howard Ashman that was released in 1982?\")\nanswer_2: str = qa_model(\"With whom did Howard Ashman collaborate on '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a846f395542990548d0b2b8",
+    "question": "What actor portrayed a character in a television series about a fictional race of superhumans appearing in American comic books published by Marvel Comics?",
+    "dsl": "answer_1: str = qa_model(\"Which television series is about a fictional race of superhumans appearing in American comic books published by Marvel Comics?\")\nanswer_2: str = qa_model(\"Who plays a character in '{answer_1}'?\" , answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac13d745542991316484a91",
+    "question": "What comic book published the female superhero created by J. H. Williams III?",
+    "dsl": "answer_1: str = qa_model(\"Who created the female superhero by the name of J. H. Williams III?\")\nanswer_2: str = qa_model(\"In what comic book series does {answer_1} appear?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac28a21554299677310256e",
+    "question": "The character portrayed in \"Giuliani Time\" is a real-life informal adviser to the White House in which area?",
+    "dsl": "answer_1: str = qa_model(\"Who is the subject of the show 'Giuliani Time'?\")\nanswer_2: str = qa_model(\"What is the role held by {answer_1} related to?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"To which part of the U.S. government does '{answer_2}' belong?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7fa11e5542995d8a8dded4",
+    "question": "Who founded the college attended by Thomas Balston, member of the Whatman paper-making family?",
+    "dsl": "answer_1: str = qa_model(\"Who is Thomas Balston?\")\nanswer_2: str = qa_model(\"Which family does Thomas Balston belong to?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Which college did members of the {answer_2} family attend?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who founded {answer_3}?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8a315355429930ff3c0cee",
+    "question": "Joh Bruce Yeh founded a chamber ensemble who won a Grammy in 1985 for their recording of this work based on what Rusian folk tale?",
+    "dsl": "answer_1: str = qa_model(\"Who founded the chamber ensemble that won a Grammy in 1985?\")\nanswer_2: str = qa_model(\"For which work did they win the Grammy in 1985?\", joh_bruce_yeh=answer_1)\nanswer_3: str = qa_model(\"Based on which Russian folk tale is the work '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a78d1bd55429974737f78bd",
+    "question": "Kerrygold Irish Cream Liqueur is owned by a company that mainly sells what type or product?",
+    "dsl": "answer_1: str = qa_model(\"What is Kerrygold Irish Cream Liqueur?\")\nanswer_2: str = qa_model(\"What type of company owns '{answer_1}' primarily?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7b73985542997c3ec9718b",
+    "question": "Which band has more members, Muse or The Raconteurs?",
+    "dsl": "answer_1: str = qa_model(\"List all current members of Muse\")\nanswer_2: list = eval(answer_1)\nanswer_3: str = qa_model(\"List all current members of The Raconteurs\")\nanswer_4: list = eval(answer_3)\nanswer_5: int = len(answer_2)\nanswer_6: int = len(answer_4)\nanswer_7: str = qa_model(\"Which group has more members between Muse and The Raconteurs?\", {\"more\": \"group with greater length\"}) if answer_5 > answer_6 else qa_model(\"Which group has fewer members between Muse and The Raconteurs?\", {\"fewer\": \"group with lesser length\"})\nanswer_8: str = qa_model(\"How many members does {answer_7} have?\", answer_7=answer_7)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abdb9125542993f32c2a018",
+    "question": "Titus is the soundtrack to the film that starred which actors?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the film with the soundtrack titled 'Titus'?\")\nanswer_2: str = qa_model(\"Who starred in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab7409f55429928e1fe3843",
+    "question": "The producer of The Wreckage of Stars also produced albums for Texas in July, Everclear, and what other American metalcore band from Lancaster, Pennsylvania?",
+    "dsl": "answer_1: str = qa_model(\"Which bands has the producer of The Wreckage of Stars worked with?\")\nanswer_2: list = eval(answer_1) # Assuming the function returns a comma-separated string of band names\nanswer_3: str = qa_model(\"Is one of the bands in {answer_2} an American metalcore band from Lancaster, Pennsylvania?\".format(answer_2=', '.join(answer_2)), answer_2=answer_2)\nif len(answer_2) > 1:\n    answer_4: str = qa_model(\"Which band among those in {answer_2}, excluding {answer_3}, is an American metalcore band from Lancaster, Pennsylvania?\".format(answer_2=', '.join([x for x in answer_2 if x != answer_3]), answer_3=answer_3), answer_2=[x for x in answer_2 if x != answer_3])\nelse:\n    answer_4: str = qa_model(\"Which other American metalcore band from Lancaster, Pennsylvania, besides {answer_3}, did the producer work with?\".format(answer_3=answer_3))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab7f030554299366779405a",
+    "question": "Atoms for Peace are an English-American experimental rock supergroup comprising Radiohead singer Thom Yorke, is an English musician and composer, best known as the singer and principal songwriter of which band?",
+    "dsl": "answer_1: str = qa_model(\"Who is part of the English-American experimental rock supergroup Atoms for Peace?\")\nanswer_2: str = qa_model(\"What is the name of the band that {answer_1} is best known for being the singer and principal songwriter of?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7a791f55429941d65f2669",
+    "question": "What was the year founded of the football team that Aaron Galindo is currently a part of?",
+    "dsl": "answer_1: str = qa_model(\"Who is Aaron Galindo?\")\nanswer_2: str = qa_model(\"What football team is {answer_1} currently a part of?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was {answer_2} founded?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a90bd6555429933b8a205cf",
+    "question": "What is the nationality of the singer-songwriter who wrote the poetry collection Early Work ?",
+    "dsl": "answer_1: str = qa_model(\"Who is the author of the poetry collection 'Early Work'?\")\nanswer_2: str = qa_model(\"What is the nationality of {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab433675542991751b4d6e6",
+    "question": "Where does Lance Stephenson of the Indiana Pacers basketball team play his home games?",
+    "dsl": "answer_1: str = qa_model(\"For what NBA team does Lance Stephenson play?\")\nanswer_2: str = qa_model(\"Where do the {answer_1} play their home games?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac47249554299194317399c",
+    "question": "Where did the father of Maria Brontë spend most of his adult life?",
+    "dsl": "answer_1: str = qa_model(\"Who is the father of Maria Brontë?\")\nanswer_2: str = qa_model(\"Where did {answer_1} spend most of his adult life?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5aba04fb55429939ce03dc54",
+    "question": "Toronto's Insight Sports is partially owned by what Canadian businessman?",
+    "dsl": "answer_1: str = qa_model(\"What company is Toronto's Insight Sports associated with?\")\nanswer_2: str = qa_model(\"Is Toronto's Insight Sports partly owned by an individual?\", flag=\"yesno\")\nif bool(eval(f\"{answer_2}\")):\n    answer_3: str = qa_model(\"Who is the individual owner of '{answer_1}'?\", answer_1=answer_1)\nelse:\n    print(\"No individual ownership found.\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae0925e55429945ae9593c9",
+    "question": "The 2005 documentary \"The Aristocrats\" was dedicated to a comedian that received how many Emmy Awards?",
+    "dsl": "answer_1: str = qa_model(\"Who is the comedian featured in the documentary 'The Aristocrats' (2005)?\",)\nanswer_2: str = qa_model(\"How many Emmy Awards has {answer_1} won?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8ba62d554299240d9c205c",
+    "question": "Lendley C. Black is Chancellor of a university offering how many majors?",
+    "dsl": "answer_1: str = qa_model(\"Who is the Chancellor of the university referred to?\")\nanswer_2: str = qa_model(\"What is the name of the university led by {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How many majors are offered at {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abd40585542993062266c3e",
+    "question": "West Ridge and the ridge that has IndependenceAvenue/Liberation Avenue as its eastern boundary are separated by what road? ",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the road separating West Ridge and the ridge with IndependenceAvenue/Liberation Avenue as its eastern boundary?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae6053c55429929b0807a60",
+    "question": "What is the historical name of the acid that dissolves phenazine?",
+    "dsl": "answer_1: str = qa_model(\"What compound dissolves phenazine?\")\nanswer_2: str = qa_model(\"What is another name for hydrochloric acid?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a80b84a5542992bc0c4a7dc",
+    "question": "Who completed more books in their lifetime, Anne Frank or John Kennedy Toole?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the book 'The Bell Jar'?\")\nif answer_1 == \"John Kennedy Toole\":\n    answer_2: int = qa_model(\"How many books did John Kennedy Toole complete during his lifetime?\", answer_1=answer_1)\nelse:\n    answer_2: int = qa_model(\"How many books did Anne Frank write during her lifetime?\", answer_1=answer_1)\n\nanswer_3: str = qa_model(\"Who wrote the book 'A Confederacy of Dunces'?\")\nif answer_3 == \"John Kennedy Toole\":\n    answer_4: int = qa_model(\"How many books did John Kennedy Toole complete during his lifetime with '{answer_2}' added?\", answer_2=str(int(answer_2)+1))\nelse:\n    answer_4: int = qa_model(\"How many books did Anne Frank write during her lifetime with '{answer_2}' added?\", answer_2=str(int(answer_2)+1))\n\nanswer_5: bool = qa_model(\"Did John Kennedy Toole complete more books than Anne Frank?\", answer_1=answer_4, answer_2=answer_2)\n\nif answer_5:\n    final_answer: str = \"John Kennedy Toole\"\nelse:\n    final_answer: str = \"Anne Frank\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae1aed65542997f29b3c0ff",
+    "question": "What side of town is the Chicago Mayer-endorsed, 38th Ward of the City of Chicago alderman serving?",
+    "dsl": "answer_1: str = qa_model(\"Who is the current alderman of the 38th Ward in the City of Chicago?\")\nanswer_2: str = qa_model(\"Was this alderman endorsed by Mayor Rahm Emanuel?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On which side of Chicago does the 38th Ward lie if it is served by an alderman endorsed by Mayor Rahm Emanuel ({answer_2})?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7c75a655429935c91b51c4",
+    "question": "Where is the company that built Woodvale Historic District located?",
+    "dsl": "answer_1: str = qa_model(\"Who built the Woodvale Historic District?\")\nanswer_2: str = qa_model(\"In what city is the headquarters of {answer_1} located?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a754aa455429916b01642e3",
+    "question": "Which mentor in the 3rd Sa Re Ga Ma Pa Challenge died in Kokilaben hospital?",
+    "dsl": "answer_1: str = qa_model(\"Which season of Sa Re Ga Ma Pa Challenge features the third mentor?\")\nanswer_2: str = qa_model(\"Who was the third mentor in '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When did {answer_2} pass away?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"In which hospital did {answer_2} pass away according to reports?\", answer_2=answer_2)\nif answer_4 == \"Kokilaben Hospital\":\n    return answer_2 + \" died in Kokilaben hospital.\"\nelse:\n    return \"No information found about the death location of {answer_2}.\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5aba6de555429955dce3ee1d",
+    "question": "What electronic band's  song \"Dangerous\" was certified gold by the RIAA in May 2015?",
+    "dsl": "answer_1: str = qa_model(\"Which electronic band has a song named 'Dangerous'?\")\nanswer_2: str = qa_model(\"When was the song 'Dangerous' by {answer_1} certified gold by the RIAA?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In what month was the certification of the song 'Dangerous' by {answer_1} announced?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8f20d655429924144829dc",
+    "question": "What year was the English actor and film producer born in who also starred in an adaptation with Renee Zellweger?",
+    "dsl": "answer_1: str = qa_model(\"Who is the English actor and film producer who starred in an adaptation with Renee Zellweger?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae70f035542991bbc9761b1",
+    "question": "Who's the Hungarian-born US film director renowned for adapting Stephen King novellas to the screen, including The Mist and The Green Mile?",
+    "dsl": "answer_1: str = qa_model(\"Who is a famous US film director?\")\nanswer_2: str = qa_model(\"Is {answer_1} originally from Hungary?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What type of works has {answer_1} adapted to the screen?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"Can you name some adaptations by {answer_1} from Stephen King's work?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae0af9a5542993d6555ec17",
+    "question": "Are Grasshopper and Sake bomb both types of drinks?",
+    "dsl": "answer_1: str = qa_model(\"Is Grasshopper a drink?\")\nif answer_1 == \"True\":\n    answer_2: str = qa_model(\"Is Sake Bomb also a drink?\", answer_1=\"Grasshopper\")\nelse:\n    answer_2: str = qa_model(\"Is Sake Bomb a drink?\", answer_1=\"Grasshopper\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a778e1b5542995d831811c5",
+    "question": "Who achieved fame starring alongside John Richard Schneider in a television series?",
+    "dsl": "answer_1: str = qa_model(\"Who acted with John Richard Schneider in a TV series?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7a0d665542990783324e14",
+    "question": "Who was born first, Joe Manganiello or Kirk Kerkorian?",
+    "dsl": "answer_1: str = qa_model(\"Who is Joe Manganiello?\")\nanswer_2: str = qa_model(\"Who is Kirk Kerkorian?\")\nanswer_3: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)\nanswer_5: str = qa_model(\"Compare {answer_3} with {answer_4}. Who was born earlier?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a82411055429940e5e1a815",
+    "question": "Lee Il-hyung's first feature film was released by which company ?",
+    "dsl": "answer_1: str = qa_model(\"Who is Lee Il-hyung?\")\nanswer_2: str = qa_model(\"What is the name of the first feature film directed by {answer_1}?\")\nanswer_3: str = qa_model(\"Which company released '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a73589d55429901807dafd1",
+    "question": "Where is the band that wrote \"The Drug in Me Is You\" based in?",
+    "dsl": "answer_1: str = qa_model(\"Which band wrote the song 'The Drug in Me Is You'?\")\nanswer_2: str = qa_model(\"Where is {answer_1} based?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5add624c5542992200553adf",
+    "question": "Who wrote and directed the film in which Adam Beach played Slipknot?",
+    "dsl": "answer_1: str = qa_model(\"Who played Slipknight in a film?\")\nanswer_2: str = qa_model(\"What is the name of the character played by {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Find the film in which {answer_2} appears.\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who is the director of '{answer_3}'?\", answer_3=answer_3)\nanswer_5: str = qa_model(\"Who is the writer of '{answer_3}'?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ade14735542990dbb2f7f49",
+    "question": "Alamgir joined Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as a judge on which popular show?",
+    "dsl": "answer_1: str = qa_model(\"Who are some judges on the popular Pakistani music reality show Coke Studio Pakistan?\")\nanswer_2: str = qa_model(\"Is Alamgir one of them?\", answer_1=answer_1)\nif answer_2 == \"True\":\n    answer_3: str = qa_model(\"What is the name of the show where Alamgir serves as a judge?\", answer_1=answer_1[-1])",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ade18635542997c77aded3e",
+    "question": "What network is the reality TV Show that features American former professional baseball left fielder who played 22 seasons in Major League Baseball (MLB) with the Pittsburgh Pirates and San Francisco Giants?",
+    "dsl": "answer_1: str = qa_model(\"Who is the American former professional baseball player known for playing 22 seasons in MLB with the Pittsburgh Pirates and San Francisco Giants?\")\nanswer_2: str = qa_model(\"What is the reality TV show featuring {answer_1}?\".format(answer_1=answer_1))\nanswer_3: str = qa_model(\"On what network is '{answer_2}' broadcasted?\".format(answer_2=answer_2))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a73931155429905862fe064",
+    "question": "What is the name of the Los Angeles resident who directed a 2016 American superhero film about a surgeon who learns the mystic arts after a career-ending car accident?",
+    "dsl": "answer_1: str = qa_model(\"Which American superhero film about a surgeon was released in 2016?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Where does {answer_2} reside?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adfedb755429942ec259b95",
+    "question": "Emprise Bank has branches in a city situated along what river?",
+    "dsl": "answer_1: str = qa_model(\"Where is Emprise Bank headquartered?\")\nanswer_2: str = qa_model(\"Find the city where Emprise Bank has its headquarters.\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Identify the river flowing through {answer_2}.\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab1c5cb554299722f9b4c61",
+    "question": "Who represents the district that Gawthorpe is in?",
+    "dsl": "answer_1: str = qa_model(\"Where is Gawthorpe located?\")\nanswer_2: str = qa_model(\"What is the name of the parliamentary constituency containing '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae73a195542991e8301cbfd",
+    "question": "George Palmer Putnam, was an American publisher, author and explorer, known for his marriage to who, which American aviation pioneer and author, and was the first female aviator to fly solo across the Atlantic Ocean?",
+    "dsl": "answer_1: str = qa_model(\"Who was George Palmer Putnam married to?\")\nanswer_2: str = qa_model(\"That person is an aviation pioneer and author.\", condition={\"answer_1\": [\"Amelia Earhart\"]})\nanswer_3: str = qa_model(\"What notable achievement did {answer_2} accomplish?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7a906555429941d65f26b0",
+    "question": "Emma Rose Kenney's roll in a Blue Sky Studios produced film earned how much money?",
+    "dsl": "answer_1: str = qa_model(\"Which studio produced the film featuring Emma Rose Kenney?\")\nanswer_2: str = qa_model(\"Find the film with Emma Rose Kenney's role in it.\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What was the box office gross of '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab55478554299488d4d993d",
+    "question": "The President of Egypt that changed the Hamayouni Decree was born in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who is the Egyptian president that abolished the Hamayouni Decree?\")\nanswer_2: str = qa_model(\"In which year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adff29555429942ec259ba7",
+    "question": "A 2001 Indian epic sports-drama film starred an actor who was also know for his role in what 1999 movie?",
+    "dsl": "answer_1: str = qa_model(\"Name the actor who starred in the 2001 Indian epic sports-drama film.\")\nanswer_2: str = qa_model(\"What 1999 movie is this actor known for?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7a8dab554299042af8f66a",
+    "question": "Huddersfield Giants R.L.F.C. are an English professional rugby league club from Huddersfield, West Yorkshire, the birthplace of rugby league, who play in the Super League competition, they play their home games at the Kirklees Stadium which is shared with Huddersfield Town F.C., is a multi-use sports stadium in Huddersfield in West Yorkshire, in which country?",
+    "dsl": "answer_1: str = qa_model(\"Where is Huddersfield located?\")\nanswer_2: str = qa_model(\"In which country is West Yorkshire, England?\" if answer_1 == \"England\" else \"In which country is {answer_1}?\".format(answer_1))",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab3020e55429976abd1bc1a",
+    "question": "Javier Mora, is a Mexican boxer in the Heavyweight division, he was defeated by Alexander Vladimirovich \"Sasha\" Povetkin, by a 5-round TKO, in which country?",
+    "dsl": "answer_1: str = qa_model(\"Who defeated Javier Mora by a 5-round TKO in boxing?\")\nanswer_2: str = qa_model(\"In which country did the fight between {answer_1} and Javier Mora take place?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abab7af554299232ef4a384",
+    "question": "Both Martha Stewart Living and Tall Timber Short Lines are considered what?",
+    "dsl": "answer_1: str = qa_model(\"What is Martha Stewart Living?\"))\nanswer_2: str = qa_model(\"What is Tall Timber Short Lines?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Are {answer_1} and {answer_2} considered what?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8474565542993344746136",
+    "question": "Which American singer plays in the rock band Queens of the Stone Age and Kyuss?",
+    "dsl": "answer_1: str = qa_model(\"Who is the vocalist for the rock band Queens of the Stone Age?\")\nanswer_2: str = qa_model(\"Does {answer_1} also play in another band called Kyuss?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a90aeda5542990a98493699",
+    "question": "The Riverport Railroad operates a former army depot track that was opened in what year?",
+    "dsl": "answer_1: str = qa_model(\"What city is home to the Riverport Railroad?\")\nanswer_2: str = qa_model(\"What type of facility does the Riverport Railroad operate within this city?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was the operation of the army depot track at this facility established?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a812fce55429926c1cdad02",
+    "question": "The first person to interpret Relational quantum mechanics has worked in what countries? ",
+    "dsl": "answer_1: str = qa_model(\"Who interpreted Relational Quantum Mechanics?\")\nanswer_2: list[str] = qa_model(\"In which countries has {answer_1} worked?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a874fd15542996432c57260",
+    "question": "What was the film debut of the actress who starred in Pandemonium?",
+    "dsl": "answer_1: str = qa_model(\"Who starred in the movie 'Pandemonium'?\")\nanswer_2: str = qa_model(\"What was the first movie of {answer_1}?\"\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7c2c7f5542996dd594b8ae",
+    "question": "Charles Allan Rich recorded what song written by his wife? ",
+    "dsl": "answer_1: str = qa_model(\"Who is Charles Allan Rich?\")\nanswer_2: str = qa_model(\"Who is the wife of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What song did they collaborate on writing?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8f408e5542992414482a10",
+    "question": "The U.S President that Gerald Ford succeeded was a Senator for which state prior to being elected president?",
+    "dsl": "answer_1: str = qa_model(\"Who succeeded Gerald Ford as U.S President?\")\nanswer_2: str = qa_model(\"In what capacity was {answer_1} before becoming U.S President?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"For which state did {answer_2} serve as a Senator?\", answer_2=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7ba3fb5542995eb53be973",
+    "question": "The actor who played Bob Muldoon in \"Ain't Them Bodies Saints\" was born in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who played Bob Muldoon in 'Ain't Them Bodies Saints'?\")\nanswer_2: str = qa_model(\"In which year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae331945542991a06ce994c",
+    "question": "Graham Hamilton portrayed Fagin in a musical based on a novel by which author ?",
+    "dsl": "answer_1: str = qa_model(\"In what novel is the character Fagin found?\")\nanswer_2: str = qa_model(\"Who portrayed Fagin in the musical based on '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What author wrote the novel '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac425215542997ea680ca11",
+    "question": "The football team based in Chester,Cheshire moved to what stadium in 1992?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the football team based in Chester, Cheshire?\")\nanswer_2: str = qa_model(\"In which year did this team move their home ground?\", year=\"1992\")\nanswer_3: str = qa_model(\"To which stadium did they move in {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8b634255429949d91db58b",
+    "question": "What symbol did a Ghanaian stateswoman, teacher and artist known for designing Ghana's flag in 1957 use in that flag?",
+    "dsl": "answer_1: str = qa_model(\"Who designed Ghana's national flag in 1957?\")\nanswer_2: str = qa_model(\"What is the name of the symbol used in Ghana's flag?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a771b985542993569682cc3",
+    "question": "What is the name of the dealer typically employed by casinos who might work the game Blackjack Switch patented in 2009?",
+    "dsl": "answer_1: str = qa_model(\"What casino game is named 'Blackjack Switch'?\")\nanswer_2: str = qa_model(\"Who usually works this game in a casino?\", game=answer_1)\nanswer_3: str = qa_model(\"What is the professional title of this person?\", role=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adcb30f5542994734353770",
+    "question": "When did the Soviet composer of French language title L'amour des trois oranges die?",
+    "dsl": "answer_1: str = qa_model(\"Who composed the French language title L'amour des trois oranges?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7e3e6f5542994959419940",
+    "question": "What county is the city that contains Florida State Road 736's easterb terminus the seat of?",
+    "dsl": "answer_1: str = qa_model(\"Where is the eastern terminus of Florida State Road 736 located?\")\nanswer_2: str = qa_model(\"What is the name of the city at this location?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What county has its seat in '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8b06a955429971feec461c",
+    "question": "What are the three language divisions of the group of tribes the Santee Dakota people belong to?",
+    "dsl": "answer_1: str = qa_model(\"What tribe do the Santee Dakota people belong to?\")\nanswer_2: str = qa_model(\"What are the major groups of Sioux tribes?\", answer_1=answer_1)\nanswer_3: list[str] = qa_model(\"List the three language divisions within '{answer_2}'\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ade4d655542997c77adede0",
+    "question": "Uroš Matić plays for Copenhagen which is a Danish football club founded in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who is Uroš Matić?\")\nanswer_2: str = qa_model(\"For which football club does {answer_1} play?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Is {answer_2} a Danish football club?\", answer_2=answer_2)\nif answer_3 == \"True\":\n    answer_4: str = qa_model(\"When was {answer_2} founded?\", answer_2=answer_2)\nelse:\n    answer_4: None",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab2c2e6554299545a2cfa62",
+    "question": "Which star of \"Not Like Everyone Else\" was also in \"Drunk History\"?",
+    "dsl": "answer_1: str = qa_model(\"Who stars in the show 'Not Like Everyone Else'?\")\nanswer_2: str = qa_model(\"Is {answer_1} also in 'Drunk History'?\", answer_1=answer_1)\nif answer_2 == \"True\":\n    answer_3: str = qa_model(\"Who plays the role of {answer_1} in 'Drunk History'?\", answer_1=answer_1)\nelse:\n    answer_3: NoneType = None",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7413315542993a88ae2efb",
+    "question": "What town does the Mount Agamenticus region covers has the summer resort's name means \"beautiful place by the sea\"?",
+    "dsl": "answer_1: str = qa_model(\"Where is the Mount Agamenticus region located?\")\nanswer_2: str = qa_model(\"What is the name of the summer resort near {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What does the name of {answer_2} mean?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae52e455542992663a4f13c",
+    "question": "What is the name of the stage show that was directed by a creator of a ensemble that Máiréad Carlin was a member of?",
+    "dsl": "answer_1: str = qa_model(\"Who created the ensemble that Máiréad Carlin was a member of?\")\nanswer_2: str = qa_model(\"What is the name of the stage show directed by {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac39e565542995ef918c1bc",
+    "question": "According to the 2010 census what was the population of the county in which Wool Market, Mississippi is an unincorporated community?",
+    "dsl": "answer_1: str = qa_model(\"In which county is Wool Market, Mississippi an unincorporated community?\")\nanswer_2: str = qa_model(\"What was the population of {answer_1} according to the 2010 census?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae195595542997b2ef7d206",
+    "question": "From which school of the Mount Vernon City School District was teacher fired, causing the school district to receive national attention?",
+    "dsl": "answer_1: str = qa_model(\"Which school district is Mount Vernon City School District?\")\nanswer_2: str = qa_model(\"From which school within '{answer_1}' was a teacher recently fired?\" , answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adc74cd5542994650320d0c",
+    "question": "The small town where part of  Ewe people came from is a capital of where ",
+    "dsl": "answer_1: str = qa_model(\"Which ethnic group is the Ewe people associated with?\")\nanswer_2: str = qa_model(\"From which country do the majority of Ewe people originate?\")\nanswer_3: str = qa_model(\"Is the origin city of the Ewe people a capital city? If yes, what is its name?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae2a123554299495565daed",
+    "question": "What is the focus of the technique which developed on the technique named after Frederich Matthias Alexander",
+    "dsl": "answer_1: str = qa_model(\"Who developed the technique called the Alexander Technique?\")\nanswer_2: str = qa_model(\"What is the technique focused on in the Alexander Technique?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8399055542992ef85e2324",
+    "question": "What do Karl Marx and Christopher Hitchens have in common?",
+    "dsl": "answer_1: str = qa_model(\"Who is Karl Marx?\")\nanswer_2: str = qa_model(\"Who is Christopher Hitchens?\")\nanswer_3: str = qa_model(\"What profession were both {answer_1} and {answer_2} known for?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab5faeb554299637185c657",
+    "question": "What month was the female cast member of the King of the mountain born?",
+    "dsl": "answer_1: str = qa_model(\"Who is the female cast member of the show 'King of the Hill'?\")\nanswer_2: str = qa_model(\"In what month was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae332725542990afbd1e0d7",
+    "question": "What character from the animated television series \"The Simpsons\" is voiced by an American actor born in October 29, 1957, and is the mayor of Springfield?",
+    "dsl": "answer_1: str = qa_model(\"Which actor voices a character in The Simpsons?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)\nif len(str(int(answer_2)).split('-')) == 3:\n    month, day = map(int, str(int(answer_2)).split('-')[1:])\n    if month == 10 and day == 29:\n        answer_3: str = qa_model(\"Which character in The Simpsons is the mayor of Springfield?\", answer_1=answer_1)\nelse:\n    raise ValueError(\"Invalid date format\")\nanswer_4: str = qa_model(\"Is {answer_3} an American?\", answer_3=answer_3)\nif answer_4 == 'True':\n    answer_5: str = qa_model(\"What is the job position of {answer_3} in The Simpsons?\", answer_3=answer_3)\n    if answer_5 == 'mayor':\n        pass\n    else:\n        raise ValueError(\"Character is not the mayor of Springfield.\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae05775554299603e4183fe",
+    "question": "What word used is used to classify a group or family of related living organisms; two examples being Clytostoma from tropical America and Syneilesis from East Asia?",
+    "dsl": "answer_1: str = qa_model(\"Can you provide an example of a taxonomic group or family of living organisms?\")\nanswer_2: str = qa_model(\"What is the name of this specific example given?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Are there any other examples provided? If so, what is their name?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abbb9ae55429931dba144c1",
+    "question": "65 injured passengers between hilo and honolulu were aboard what flight?",
+    "dsl": "answer_1: str = qa_model(\"On which route did the incident occur (Hilo to Honolulu)?\")\nanswer_2: str = qa_model(\"List all flights operating on the '{answer_1}' route.\", answer_1=answer_1)\nanswer_3: str = qa_model(\"From the list returned by the previous query, find the one with 65 injured passengers.\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What is the name of the flight identified in the previous step?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adeb01355429939a52fe958",
+    "question": "Elisabeth of Bavaria's husband was born on what date?",
+    "dsl": "answer_1: str = qa_model(\"Who is Elisabeth of Bavaria's husband?\")\nanswer_2: str = qa_model(\"On what date was {answer_1} born?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab91bc0554299753720f6fc",
+    "question": "When did a paramilitary offshoot of the IRA start carrying ut bombings, after splitting from the Real IRA?",
+    "dsl": "answer_1: str = qa_model(\"What is a paramilitary offshoot of the IRA known as?\")\nanswer_2: str = qa_model(\"After splitting from the Real IRA, when did {answer_1} begin carrying out bombings with explosives?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae60fea5542992663a4f24f",
+    "question": "When did the male lead of the film \"Flexing with Monty\" die?",
+    "dsl": "answer_1: str = qa_model(\"Who is the male lead in the film 'Flexing with Monty'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac1673555429964131be1cc",
+    "question": "Who was the founder of the company at which Gemma Quinnell started her career as a Bluecoat?",
+    "dsl": "answer_1: str = qa_model(\"What company did Gemma Quinnell start her career with as a Bluecoat?\")\nanswer_2: str = qa_model(\"Who founded {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae1415b554299422ee99645",
+    "question": "Tom Gallop played the role of Tom Cronin in a film series based on a character created by what author?",
+    "dsl": "answer_1: str = qa_model(\"Who is the character Tom Gallop portrayed as in a film series?\")\nanswer_2: str = qa_model(\"Who created the character '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8ba2d9554299240d9c204a",
+    "question": "Kevin Brooks was born in a state bordered by what ocean?",
+    "dsl": "answer_1: str = qa_model(\"Who is Kevin Brooks?\")\nanswer_2: str = qa_model(\"In which state was {answer_1} born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What ocean borders {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a78b1ca554299148911f93a",
+    "question": "Who was born later, Jamill Kelly or Daniel Cormier?",
+    "dsl": "answer_1: str = qa_model(\"Who is Jamill Kelly?\")\nanswer_2: str = qa_model(\"Who is Daniel Cormier?\")\nanswer_3: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)\nanswer_5: str = qa_model(\"Was {answer_3} born before {answer_4}?\", answer_3=answer_3, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abbe28755429931dba145c8",
+    "question": "What unit number in the Cleveland Court Apartments belonged to the woman who was referred to as \"the first lady of civil rights?\"",
+    "dsl": "answer_1: str = qa_model(\"Who was known as 'the first lady of civil rights'?\")\nanswer_2: str = qa_model(\"In what apartment complex did {answer_1} live?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the apartment complex {answer_2} lived in?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What is the unit number of {answer_1} at the {answer_3} apartments?\", answer_1=answer_1, answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abe249155429976d4830a7e",
+    "question": " Ida Roland was born in a municipality  that lies on the shores of which lake ?",
+    "dsl": "answer_1: str = qa_model(\"Who is Ida Roland?\")\nanswer_2: str = qa_model(\"In which city was Ida Roland born?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Which lake is near {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae52e6a5542990ba0bbb1ec",
+    "question": "Since when Romeo and Juliet was the first production of the play for  a live theater to digital platforms company, founded in 2013 by Stewart F. Lane and Bonnie Comley?",
+    "dsl": "answer_1: str = qa_model(\"When was the company founded by Stewart F. Lane and Bonnie Comley?\")\nanswer_2: str = qa_model(\"What is the name of the play whose first production for a live theater to digital platform was by the company mentioned in {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Since when has the production of '{answer_2}' been available on digital platforms through the company mentioned in {answer_1}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7a9bff55429927d897bee5",
+    "question": "Which of the two people who wrote the screenplay for \"Dead & Buried\" a 1981 science fiction horror film, also worked as a director, visual effects supervisor, and occasional actor?",
+    "dsl": "answer_1: str = qa_model(\"Who co-wrote the screenplay for the 1981 science fiction horror film 'Dead & Buried'?\")\nanswer_2: str = qa_model(\"Did {answer_1} work as a director for any projects?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Did {answer_1} work as a visual effects supervisor for any projects?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"Has {answer_1} ever acted in any project?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abf27285542997719eab678",
+    "question": "When was the maternal uncle of Popiel I died who was the notable author of Latin prose?",
+    "dsl": "answer_1: str = qa_model(\"Who was the maternal uncle of Popiel I?\")\nanswer_2: str = qa_model(\"Who is the notable author of Latin prose associated with this person?\", uncle=answer_1)\nanswer_3: str = qa_model(\"When did {uncle} die?\", uncle=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abc153f5542993a06baf84e",
+    "question": "What year did General Mills buy out the company in which Charles Pillsbury's grandfather founded?",
+    "dsl": "answer_1: str = qa_model(\"Who founded the company that became part of General Mills?\")\nanswer_2: str = qa_model(\"In what year did General Mills acquire the company '{answer_1}'?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a877cdd5542993e715abf72",
+    "question": "Which Rihanna album is the song that inspired \"I Was a Fool\" on?",
+    "dsl": "answer_1: str = qa_model(\"Which song by Rihanna has the lyrics 'I Was a Fool'?\")\nanswer_2: str = qa_model(\"On which album is '{answer_1}' found?', answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae22afe554299234fd0440d",
+    "question": "how is Pura Vida Coffee and Fair trade coffee connected?",
+    "dsl": "answer_1: str = qa_model(\"What is Pura Vida Coffee?\")\nanswer_2: str = qa_model(\"Is Pura Vida Coffee associated with fair trade coffee?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a85f8a85542997b5ce4003d",
+    "question": "What Canadian film producer co-founded CrowdRise?",
+    "dsl": "answer_1: str = qa_model(\"Who is the founder of CrowdRise?\")\nanswer_2: str = qa_model(\"Is {answer_1} Canadian?\", answer_1=answer_1)\nif answer_2 == \"True\":\n    return \"\"\nelse:\n    answer_3: str = qa_model(\"Who is a Canadian film producer that could potentially co-found CrowdRise?\")\n    return f\"answer_{len(globals())}: str = qa_model('Is {answer_3} one of the founders of CrowdRise?', answer_3={answer_3})\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a870f695542991e771816ae",
+    "question": "Who managed the Giants and won his first and only World Series to tile during his career?",
+    "dsl": "answer_1: str = qa_model(\"Who managed the Giants baseball team?\")\nanswer_2: str = qa_model(\"Did {answer_1} win any World Series titles with the Giants?\", answer_1=answer_1)\nif answer_2 == \"Yes\":\n    answer_3: int = qa_model(\"How many World Series titles has {answer_1} won with the Giants?\", answer_1=answer_1)\n    if answer_3 == 1:\n        answer_4: bool = qa_model(\"Is this the only World Series title {answer_1} has won in their career?\", answer_1=answer_1)\n        if answer_4 == True:\n            return f\"{answer_1} won his first and only World Series title while managing the Giants.\"\nelse:\n    return \"The person you asked about never managed the Giants or won a World Series title with them.\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8c89f55542996e8ac88ad8",
+    "question": "What is the name of the seventh studio album that was made by the creator of \"Amazing\" and \"Only You\"?",
+    "dsl": "answer_1: str = qa_model(\"Who created the songs 'Amazing' and 'Only You'?\")\nanswer_2: str = qa_model(\"What is the seventh studio album made by {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abaa5b355429901930fa875",
+    "question": "What record company first realeased the video by Rihanna on which Adam Ross is featured?",
+    "dsl": "answer_1: str = qa_model(\"Who is the artist featuring with Rihanna in the mentioned video?\")\nanswer_2: str = qa_model(\"On what record label was the debut studio album of {answer_1} released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the video by Rihanna featuring {answer_1}?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"On which record label was the music video '{answer_3}' initially released?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8a17e55542992d82986eab",
+    "question": "Who was the director of the film at who end a versions of the son \"Please, Please, Please, Let Me Get What I Want\" could be heard?",
+    "dsl": "answer_1: str = qa_model(\"Which song is 'Please, Please, Please, Let Me Get What I Want'?\")\nanswer_2: str = qa_model(\"In what movies can the song '{answer_1}' be heard?\")\nanswer_3: list = qa_model(\"Director of '{item}'\".format(item=movie) for movie in answer_2 if isinstance(movie, str))\nanswer_4: str = next((movie for movie in answer_3), None) # Assuming there will always be one result\nif answer_4:\n    answer_5: str = qa_model(\"Who directed '{answer_4}'?\", answer_4=answer_4)\nelse:\n    answer_5: str = \"No matching results found.\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a84dc9e5542997b5ce3ff78",
+    "question": "Leon Thau was an actor, TV producer and director, he had a part in a comedy which was the sixteenth in a series, they were both what?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the comedy series in which Leon Thau appeared?\")\nanswer_2: str = qa_model(\"What is the episode number of the comedy in which Leon Thau appeared within his series?\", answer_1=answer_1)\nanswer_3: str = \"Leon Thau's role and the specific comedy episode\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a77c4a25542997042120b2a",
+    "question": "Are Jars of Clay and Black Grape both American bands?",
+    "dsl": "answer_1: str = qa_model(\"Are Jars of Clay a band?\")\nif answer_1 == \"True\":\n    answer_2: str = qa_model(\"What country is Jars of Clay from?\", answer_1=answer_1)\nelse:\n    answer_2: str = \"\"\n\nanswer_3: str = qa_model(\"Are Black Grape a band?\")\nif answer_3 == \"True\":\n    answer_4: str = qa_model(\"What country is Black Grape from?\", answer_3=answer_3)\nelse:\n    answer_4: str = \"\"\n\nanswer_5: str = qa_model(\"Is {answer_2} the same country as {answer_4}?\", answer_2=answer_2, answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5adf4b435542993a75d264a6",
+    "question": "Who directed the film in which the soundtrack was the first solo album by a member of the Beatles?",
+    "dsl": "answer_1: str = qa_model(\"Which Beatle released his first solo album as a soundtrack to a film?\")\nanswer_2: str = qa_model(\"What is the name of the film whose soundtrack is '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae76c385542997ec272763d",
+    "question": "The Almost Human game Legend of Grimrock is based on a 1987 video game developed by which company?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the video game that 'Legend of Grimrock' is based on?\")\nanswer_2: str = qa_model(\"Who developed the original version of '{answer_1}' in 1987?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7e1cd05542995ed0d1669a",
+    "question": "who produced the animated film that John Kassir acted in?",
+    "dsl": "answer_1: str = qa_model(\"Who is John Kassir?\")\nanswer_2: str = qa_model(\"What animated film did {answer_1} act in?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who produced '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ade266d5542997c77aded73",
+    "question": "Who starred in the 2006 film about the life struggles of Chris Gardner?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the film about the life struggles of Chris Gardner?\")\nanswer_2: str = qa_model(\"Who starred in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8bbc135542995e66a474ea",
+    "question": "\"No Foe Shall Gather Our Harvest\" is a poem first published in a monthly women's magazine published by who?",
+    "dsl": "answer_1: str = qa_model(\"What is the title of the poem 'No Foe Shall Gather Our Harvest'?\")\nanswer_2: str = qa_model(\"In what month was the poem '{answer_1}' first published?\")\nanswer_3: str = qa_model(\"What is the name of the monthly women's magazine that published the poem in '{answer_2}'?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7d48a05542991319bc9385",
+    "question": "Who founded the fast food chain whom Joshua Goez appeared in the \"Ranch Tooth\" commercials for?",
+    "dsl": "answer_1: str = qa_model(\"Who is Joshua Goez?\")\nanswer_2: str = qa_model(\"In what fast food chain did Joshua Goez appear in the 'Ranch Tooth' commercials?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who founded '{answer_2}'?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8cac72554299240d9c21d0",
+    "question": "The news program \"International Desk\" is broadcast from a building adjacent to what park?",
+    "dsl": "answer_1: str = qa_model(\"On which TV channel is the news program 'International Desk' broadcast?\")\nanswer_2: str = qa_model(\"What city is the headquarters of the channel '{answer_1}' located in?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the central park in '{answer_2}'?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"In which park is the building adjacent to the one where 'International Desk' is broadcast?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a72d98f5542992359bc31ac",
+    "question": "Torrens Bridge railway station was located east of a park named after who?",
+    "dsl": "answer_1: str = qa_model(\"Where was Torrens Bridge railway station located?\")\nanswer_2: str = qa_model(\"To the west of which park was Torrens Bridge railway station?\", direction='west', answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the park mentioned in {answer_2}?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab7ecea55429928e1fe3938",
+    "question": "This American actress, singer, and songwriters film roles include a road-comedy-adventure film released by who?",
+    "dsl": "answer_1: str = qa_model(\"Name an American actress, singer, and songwriter.\")\nanswer_2: str = qa_model(\"List some film roles of {answer_1}.\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Find the road-comedy-adventure film among {answer_2}\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who produced the film '{answer_3}'?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae770d75542997b22f6a766",
+    "question": "Which animator from Canada served as an assistant director on an American animated television series that ran on The WB from September 24, 1999, to July 16, 2000, and on Adult Swim from July 14 to August 11, 2002?",
+    "dsl": "answer_1: str = qa_model(\"Which Canadian animator worked on an American animated TV show\")\nanswer_2: str = qa_model(\"On what date did this animated TV show start airing on The WB?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"And when did it end its run on The WB?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"Later, on which network did the show continue airing?\", answer_1=answer_1)\nanswer_5: str = qa_model(\"For how long did the show air on Adult Swim after leaving The WB?\", answer_1=answer_1)\nanswer_6: str = qa_model(\"Given all these details about the show, can you identify the assistant director who is also from Canada?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abc6fde55429959677d6ab7",
+    "question": "Jake Roberts is an English film editor best known for his works on a British drama film based on what 2010 play?",
+    "dsl": "answer_1: str = qa_model(\"Who is Jake Roberts?\")\nanswer_2: str = qa_model(\"What type of professional is Jake Roberts?\")\nanswer_3: str = qa_model(\"For which genre of films is Jake Roberts known specifically?\", filter=\"British drama\")\nanswer_4: str = qa_model(\"What year was the play adapted into a film by Jake Roberts?\")\nanswer_5: str = qa_model(\"Name the play that was adapted into a film by Jake Roberts in {answer_4}\", answer_4=answer_4)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac3b6d85542995ef918c201",
+    "question": "Are Afrikan tähti and Cluedo both boardgames?",
+    "dsl": "answer_1: str = qa_model(\"Is Afrikan tähti a boardgame?\")\nif answer_1 == \"True\":\n    pass\nelse:\n    answer_2: str = qa_model(\"Is Cluedo a boardgame?\")\nif answer_2 == \"True\":\n    pass\nelse:\n    answer_3: str = qa_model(\"Are Afrikan tähti and Cluedo both boardgames?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab279c9554299340b5254d9",
+    "question": "Paul A. Freund is known for his writings on what supreme law of the United States of America?",
+    "dsl": "answer_1: str = qa_model(\"Who is Paul A. Freund?\")\nanswer_2: str = qa_model(\"For which subject is Paul A. Freund recognized for his writings?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a76353d5542994ccc918715",
+    "question": "When was the artist who did the cover art of The Savage Frontier born?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the album The Savage Frontier?\")\nanswer_2: str = qa_model(\"Who created the cover art for '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab4f58b55429942dd415fb2",
+    "question": "What was the father of Ruth Bryan Owen often called?",
+    "dsl": "answer_1: str = qa_model(\"Who is Ruth Bryan Owen's father?\")\nanswer_2: str = qa_model(\"What was {answer_1} commonly known as?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8baf235542996e8ac889c2",
+    "question": "Jon Bokenkamp wrote the screen play for the film starring which two actors?",
+    "dsl": "answer_1: str = qa_model(\"Which film did Jon Bokenkamp write the screenplay for?\")\nanswer_2: str = qa_model(\"Who were the two actors in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7f445c5542992e7d278cd6",
+    "question": "What highway is the closest town to Montague Island located on?",
+    "dsl": "answer_1: str = qa_model(\"Where is Montague Island located?\")\nanswer_2: str = qa_model(\"Find the nearest town to {answer_1}\", answer_1=answer_1)\nanswer_3: str = qa_model(\"On what highway is {answer_2} situated?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abe75d255429976d4830b1e",
+    "question": "The heir to the Du Pont family fortune sponsored what wrestling team?",
+    "dsl": "answer_1: str = qa_model(\"Who is the heir to the Du Pont family fortune?\")\nanswer_2: str = qa_model(\"What professional wrestling team was sponsored by {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a81a4fd5542990a1d231e3d",
+    "question": "John M. Dwyer was nominated for an Academy Award after directing a film that told the story of which country music singers life?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film that won John M. Dwyer an Academy Award?\")\nanswer_2: str = qa_model(\"Which country music singer's life story was portrayed in the film directed by {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abf1a6d5542990832d3a122",
+    "question": "What should you do to show respect when walking the trail Oahu trial that leads to a 150 foot waterfall, on the night of Kane, Ku, Lono, or Kanaloa at sunset and just before the sunrises?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the trail leading to a 150 foot waterfall on Oahu?\")\nanswer_2: str = qa_model(\"On what nights can one walk this trail according to Hawaiian deities?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"At what specific times during these nights should one start their hike?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What actions demonstrate respect while traversing the trail during these times?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae784735542994a481bbd36",
+    "question": "What year was the formation of the Finnish metal band that wrote the song \"I'm Not Jesus\"",
+    "dsl": "answer_1: str = qa_model(\"Which Finnish metal band wrote the song 'I\\'m Not Jesus'?\")\nanswer_2: str = qa_model(\"When was {answer_1} formed?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac1c79f5542994ab5c67e15",
+    "question": "Are Thunbergia and Melicytus in the same family?",
+    "dsl": "answer_1: str = qa_model(\"What is the botanical name of Thunbergia?\")\nanswer_2: str = qa_model(\"What is the botanical name of Melicytus?\")\nanswer_3: str = qa_model(\"To which plant family do both {answer_1} and {answer_2} belong?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8c7137554299240d9c2166",
+    "question": "What is the name of the founder of the famous chain of survey triangulations stretching from Hammerfest to the Black Sea?",
+    "dsl": "answer_1: str = qa_model(\"Who founded the chain of survey triangulations known as the Meridian Arc?\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abfd0505542993fe9a41e81",
+    "question": "What company is associated with the UK but also was founded in the US?",
+    "dsl": "answer_1: str = qa_model(\"Which country is associated with the UK?\")\nanswer_2: str = qa_model(\"From which country was the company {answer_1} founded?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae8067d5542994a481bbe8d",
+    "question": "What actress was featured in Dreamer, and was nominated for a Screen Actors Guild Award at age eight?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the movie 'Dreamer'?\")\nanswer_2: str = qa_model(\"Who was featured in '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"At what age was {answer_2} nominated for a Screen Actors Guild Award?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac3711f5542995ef918c18e",
+    "question": "Where did a French film director direct a 2005 British-French martial arts action thriller starring Jet Li?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the 2005 British-French martial arts action thriller?\")\nanswer_2: str = qa_model(\"From which nationality is {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In which year was the film directed by {answer_1} released?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"Who stars in the film directed by {answer_1} in the year {answer_3}?\", answer_1=answer_1, answer_3=answer_3)\nanswer_5: str = qa_model(\"Which nationality is {answer_4}?\", answer_4=answer_4)\nanswer_6: str = qa_model(\"Is the film directed by {answer_1}, released in {answer_3}, and starring {answer_4} a British production?\", answer_1=answer_1, answer_3=answer_3, answer_4=answer_4)\nif answer_6 == \"True\":\n    answer_7: str = \"The film was produced in Britain.\"\nelse:\n    answer_7: str = \"The film was not produced in Britain.\"",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8f182255429924144829ae",
+    "question": "What year did the author of Eiger Dreams attempt to climb Mount Everest?",
+    "dsl": "answer_1: str = qa_model(\"Who is the author of 'Eiger Dreams'?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} attempt to climb Mount Everest?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae7e7115542994a481bbdf8",
+    "question": "Burn the Witch was a song from the Radiohead album that was released on which date?",
+    "dsl": "answer_1: str = qa_model(\"On what album is the song 'Burn the Witch' by Radiohead found?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab466f95542996a3a969f7d",
+    "question": "A studio album by I Killed the Prom Queen reached the top 30 in ARIA Albums Chart, on what date was that album released?",
+    "dsl": "answer_1: str = qa_model(\"Which studio album by I Killed the Prom Queen charted within the top 30 positions of the ARIA Albums Chart?\")\nanswer_2: str = qa_model(\"On what date was '{answer_1}' released?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae3756e5542994393b9e6ce",
+    "question": "In which state is the Seattle Redhawks women's basketball team found?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the women's basketball team associated with Seattle Redhawks?\")\nanswer_2: str = qa_model(\"In which city is the '{answer_1}' team located?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a89e1585542992e4fca842e",
+    "question": "Pakistan Idol included a singer and philanthropist who has performed at what British landmark?",
+    "dsl": "answer_1: str = qa_model(\"Who is the host of Pakistan Idol?\")\nanswer_2: str = qa_model(\"Has {answer_1} ever performed at any famous British landmarks?\", answer_1=answer_1)\nif answer_2 == \"Yes\":\n    answer_3: str = qa_model(\"At which specific British landmark did {answer_1} perform?\", answer_1=answer_1)\nelse:\n    answer_3: str = None",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ab5afd8554299637185c5db",
+    "question": "In 2006 \"Strictly Dance Fever\" promoted a modern afro-Cuban partner dance derived from the works of which composer?",
+    "dsl": "answer_1: str = qa_model(\"What dance style is 'Strictly Dance Fever' promoting?\")\nanswer_2: str = qa_model(\"Is it a modern afro-Cuban partner dance?\", answer_1=answer_1)\nif answer_2 == \"True\":\n    answer_3: str = qa_model(\"From what works were these dance styles derived?\")\nelse:\n    return \"\" # The given question doesn't match any known dance style\nanswer_4: str = qa_model(\"Who composed the works '{answer_3}'?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a80b418554299485f5986ce",
+    "question": "Georges Favre, the French composer, was a student of which composer of \"The Sorcerer's Apprentice\"?",
+    "dsl": "answer_1: str = qa_model(\"Who composed 'The Sorcerer's Apprentice'?\")\nanswer_2: str = qa_model(\"Who was a student of {answer_1}?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a7a61d355429941d65f25fd",
+    "question": "Who directed the movie that Jack Covin played Dr. Ardmore in?",
+    "dsl": "answer_1: str = qa_model(\"Who played Dr. Ardmore in a movie?\")\nanswer_2: str = qa_model(\"What character did {answer_1} portray?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Find the movie where {answer_2} appeared.\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who directed '{answer_3}'?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae5301f5542990ba0bbb1f4",
+    "question": "In what year was the fairy tale of which the plot of \"Tears Were Falling\" can be viewed as a modern interpretation first published?",
+    "dsl": "answer_1: str = qa_model(\"What is the fairy tale whose plot can be seen as a modern interpretation in 'Tears Were Falling'?\")\nanswer_2: str = qa_model(\"In which year was '{answer_1}' originally published?', answer_1=answer_1\")",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae7d707554299540e5a5660",
+    "question": "In what year did the writer of the music for \"Love Life\" die?",
+    "dsl": "answer_1: str = qa_model(\"Who composed the music for 'Love Life'?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} die?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8b62cd55429949d91db588",
+    "question": "What is the platform-adventure video game created by independent developer D-Pad Studio, and included in 2016 new intellectual properties releases notable for?",
+    "dsl": "answer_1: str = qa_model(\"Who developed the platform-adventure video game released in 2016 notable for its inclusion among new intellectual properties?\")\nanswer_2: str = qa_model(\"What is the name of the game developed by '{answer_1}'?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ae5002d55429913cc204567",
+    "question": "Ragnall ua Ímair was the grandson of a Viking leader that died in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who was the grandson of the Viking leader Ragnall ua Ímair?\")\nanswer_2: str = qa_model(\"What was the name of the Viking leader who was the grandfather of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When did {answer_2} die?\", answer_2=answer_2)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5ac3a74e554299391541388b",
+    "question": "Who helped develop nuclear power, and also worked with Ernest Walton?",
+    "dsl": "answer_1: str = qa_model(\"Who developed nuclear power?\")\nanswer_2: str = qa_model(\"Who collaborated with Ernest Walton?\", answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5a8c4ca95542996e8ac88a56",
+    "question": "What was the first album released by the same boy band that released Ex'Act?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the boy band that released the album 'Ex'Act'?\")\nanswer_2: str = qa_model(\"What is the first album released by '{answer_1}'?', answer_1=answer_1)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  },
+  {
+    "id": "5abcd21c5542993a06baf973",
+    "question": "The most famous guest at the Hotel Lester-Lester Cafe won four Olympic golds at what Games?",
+    "dsl": "answer_1: str = qa_model(\"Can you name the hotel mentioned in the question?\")\nanswer_2: str = qa_model(\"Who is the most famous guest at '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"In which sport did {answer_2} excel to win four Olympic gold medals?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"At which Olympics did {answer_3} compete and win these medals?\", answer_3=answer_3)",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "model_slug": "mistralai-mistral-7b-instruct-v0-3",
+    "success": true
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "5a8e58cb5542990e94052ae0",
+      "question": "Simone Kirby is an Irish actress, her credits include as Tracey Moynihan in which Irish dramatic television series broadcast, on RT\u00c9 Television, the show aired between 2010 and 2014?",
+      "gold": "Love/Hate",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Love/Hate",
+      "raw_response": "Love/Hate",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adc0856554299438c868d0d",
+      "question": "Device \u2013 Voice \u2013 Drum is the fourth live album by a band that produced how many gold albums?",
+      "gold": "eight",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "eight",
+      "raw_response": "The band you refer to is Led Zeppelin. As of my last update, they have received eight Gold Albums according to the RIAA (Recording Industry Association of America).",
+      "judge_reasoning": "The gold answer states 'eight' and the prediction also states 'eight Gold Albums'. The additional information in the prediction (identifying the band, RIAA, etc.) is extra descriptive text and does not contradict the core fact, which is allowed by Rule 8.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer states 'eight' and the prediction also states 'eight Gold Albums'. The additional information in the prediction (identifying the band, RIAA, etc.) is extra descriptive text and does not contradict the core fact, which is allowed by Rule 8.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ade45ed554299728e26c699",
+      "question": "The 2016 Washington State Cougars were led by the coach who previously helmed which other team?",
+      "gold": "Texas Tech Red Raiders",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Texas Tech Red Raiders",
+      "raw_response": "Mike Leach previously coached the Texas Tech Red Raiders.",
+      "judge_reasoning": "The gold answer specifies 'Texas Tech Red Raiders' as the team. The prediction also identifies 'Texas Tech Red Raiders' as the team, with additional, non-contradictory information about the coach's name. This extra detail is acceptable.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer specifies 'Texas Tech Red Raiders' as the team. The prediction also identifies 'Texas Tech Red Raiders' as the team, with additional, non-contradictory information about the coach's name. This extra detail is acceptable.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab285d0554299340b5254fa",
+      "question": "The Acolytes Protection Agency consisted of what wrestler born November 29, 1966",
+      "gold": "John Layfield",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Triple H",
+      "judge_reasoning": "The prediction 'Triple H' is a different wrestler than the gold answer 'John Layfield'. They are not aliases, and therefore the prediction contradicts the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Triple H' is a different wrestler than the gold answer 'John Layfield'. They are not aliases, and therefore the prediction contradicts the gold fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adcf98255429947343537e9",
+      "question": "Which show connects Arthur Darvill and Matt Smith?",
+      "gold": "Doctor Who",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Doctor Who",
+      "raw_response": "DoctorWho",
+      "judge_reasoning": "The prediction 'DoctorWho' is equivalent to the gold 'Doctor Who' as the absence of a space is a minor formatting difference that does not change the essential fact. This falls under normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'DoctorWho' is equivalent to the gold 'Doctor Who' as the absence of a space is a minor formatting difference that does not change the essential fact. This falls under normalization.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8285be55429966c78a6a41",
+      "question": "Which event was a surprise military strike by the Imperial Japanese Navy Air Service while Magruder Hill Tuttle was a senior officer in the United States Navy?",
+      "gold": "attack on Pearl Harbor",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "attack on Pearl Harbor",
+      "raw_response": "Pearl Harbor Attack\nYear: 1941-12-07",
+      "judge_reasoning": "The prediction 'Pearl Harbor Attack' is equivalent to the gold 'attack on Pearl Harbor' due to normalization of phrasing. The additional detail 'Year: 1941-12-07' is extra information but does not contradict the core fact, making the prediction acceptable per rule 8.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Pearl Harbor Attack' is equivalent to the gold 'attack on Pearl Harbor' due to normalization of phrasing. The additional detail 'Year: 1941-12-07' is extra information but does not contradict the core fact, making the prediction acceptable per rule 8.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5abb1cc55542992ccd8e7f16",
+      "question": "Brian Keith \"Herbie\" Flowers, is an English musician specialising in electric bass, double bass and tuba, he has contributed to the recording Give My Regards to Broad Street is the fifth studio album by who, as well as the soundtrack album to his 1984 film of the same name?",
+      "gold": "Paul McCartney",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Paul McCartney",
+      "raw_response": "Paul McCartney",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7fb04d55429969796c1b24",
+      "question": "The band that released the album \"Let's Cheers to This\" is from what Florida city?",
+      "gold": "Orlando",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Orlando",
+      "raw_response": "Orlando",
+      "judge_reasoning": "The prediction 'Orlando' is an exact match to the gold answer 'Orlando'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Orlando' is an exact match to the gold answer 'Orlando'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5ab3f9b95542992ade7c6f09",
+      "question": "It Takes a Family is a response to this 1996 book that was published by who",
+      "gold": "Hillary Rodham Clinton",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Bill Cosby",
+      "judge_reasoning": "The gold answer identifies 'Hillary Rodham Clinton' as the publisher, while the prediction states 'Bill Cosby'. These are two different individuals, leading to a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies 'Hillary Rodham Clinton' as the publisher, while the prediction states 'Bill Cosby'. These are two different individuals, leading to a contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8113ca55429938b61422ab",
+      "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+      "gold": "Chlorophyll",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Chlorophyll",
+      "raw_response": "Chlorophyll",
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction is identical to the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5abae247554299660624165c",
+      "question": "Which guest who appeared in the album \"Animal Ambition\" was born with the name Albert Johnson?",
+      "gold": "Prodigy",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Prodigy",
+      "raw_response": "Prodigy",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adc432d55429944faac24a1",
+      "question": "The San Diego Gulls are a professional ice hockey team in the American Hockey League (AHL) which began playing in the 2015\u201316 season, the Gulls play their home games at which indoor arena located at Sports Arena Blvd in Point Loma, San Diego?",
+      "gold": "Valley View Casino Center",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Pe\u00f1asco Dome Ice Arena",
+      "judge_reasoning": "The prediction 'Pe\u00f1asco Dome Ice Arena' contradicts the gold answer 'Valley View Casino Center' regarding the name of the indoor arena.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Pe\u00f1asco Dome Ice Arena' contradicts the gold answer 'Valley View Casino Center' regarding the name of the indoor arena.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a8647e35542991e771815f5",
+      "question": "The first female board member for the Liberal Party, she was born in which county in Norway?",
+      "gold": "Vestfold",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Vestfold",
+      "raw_response": "Vestfold",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5a7317535542994cef4bc450",
+      "question": "Which K283BV artist is from Columbus, Ohio?",
+      "gold": "Twenty One Pilots",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Answer: Kayzo",
+      "judge_reasoning": "The gold answer identifies 'Twenty One Pilots' as the artist, while the prediction identifies 'Kayzo'. These are two different artists, leading to a contradiction.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer identifies 'Twenty One Pilots' as the artist, while the prediction identifies 'Kayzo'. These are two different artists, leading to a contradiction.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "5adccffc5542994d58a2f6e0",
+      "question": "In which theatre in Los Angeles did the late-night talk show host of \"Chelsea Lately\" host the 2010 MTV Video Music Awards?",
+      "gold": "Nokia Theatre",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Nokia Theatre",
+      "raw_response": "Nokia Theatre LA Live",
+      "judge_reasoning": "The prediction 'Nokia Theatre LA Live' is an expanded or more specific name for the 'Nokia Theatre'. The core fact is preserved, and the extra detail does not contradict the gold answer. This falls under the rule that extra descriptive text is acceptable if it does not change or contradict the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Nokia Theatre LA Live' is an expanded or more specific name for the 'Nokia Theatre'. The core fact is preserved, and the extra detail does not contradict the gold answer. This falls under the rule that extra descriptive text is acceptable if it does not change or contradict the gold fact.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

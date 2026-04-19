@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "cf871296",
+      "question": "Who was the president of Argentina from 1989 to 1999?",
+      "gold": "Carlos Menem",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Carlos Menem",
+      "raw_response": "Carlos Menem answer: Carlos Menem",
+      "judge_reasoning": "The prediction contains the exact gold answer 'Carlos Menem'. The additional text 'answer: Carlos Menem' is redundant but does not contradict the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction contains the exact gold answer 'Carlos Menem'. The additional text 'answer: Carlos Menem' is redundant but does not contradict the gold fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "33ed28dd",
+      "question": "Who was a member of the 2004 U.S. Olympic men's swim team and born in Baltimore, Maryland?",
+      "gold": "Michael Phelps",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Michael Phelps",
+      "raw_response": "Michael Phelps",
+      "judge_reasoning": "The prediction 'Michael Phelps' is an exact match to the gold answer 'Michael Phelps'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Michael Phelps' is an exact match to the gold answer 'Michael Phelps'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "2723bb1b",
+      "question": "Which actor was the star of Titanic and was born in Los Angeles, California?",
+      "gold": "Leonardo DiCaprio",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Leonardo DiCaprio",
+      "raw_response": "Leonardo DiCaprio",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "217a0a84",
+      "question": "How long did it take to build the Lincoln Memorial?",
+      "gold": "8 years",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "1903-1909",
+      "judge_reasoning": "The gold answer states 8 years. The prediction '1903-1909' implies a duration of 6 years (1909 - 1903 = 6), which contradicts the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states 8 years. The prediction '1903-1909' implies a duration of 6 years (1909 - 1903 = 6), which contradicts the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "88349c89",
+      "question": "Which actor starred in Vanilla Sky and was married to Katie Holmes?",
+      "gold": "Tom Cruise",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Tom Cruise",
+      "raw_response": "Tom Cruise",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4694fd01",
+      "question": "Which series is older, Metroid or Super Mario Bros?",
+      "gold": "Super Mario Bros",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Super Mario Bros",
+      "raw_response": "Super Mario Bros.",
+      "judge_reasoning": "The prediction 'Super Mario Bros.' is equivalent to the gold 'Super Mario Bros' after ignoring punctuation as per Rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Super Mario Bros.' is equivalent to the gold 'Super Mario Bros' after ignoring punctuation as per Rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "0aeebf1e",
+      "question": "When did Metallica put out their fourth album?",
+      "gold": "1988",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "1988",
+      "raw_response": "answer: 1988-03-25",
+      "judge_reasoning": "The prediction provides the exact date, which includes the correct year '1988' from the gold answer. This is considered extra, non-contradictory detail, making the prediction correct according to Rule 8.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides the exact date, which includes the correct year '1988' from the gold answer. This is considered extra, non-contradictory detail, making the prediction correct according to Rule 8.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "a848c7c6",
+      "question": "Has there ever been a Christian U.S. senator?",
+      "gold": "Yes",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Yes",
+      "raw_response": "answer: Yes",
+      "judge_reasoning": "Both gold and prediction are 'Yes', which is a direct match.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"Both gold and prediction are 'Yes', which is a direct match.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "a9011ddf",
+      "question": "What is the seventh tallest mountain in North America?",
+      "gold": "Mount Lucania",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Denali",
+      "judge_reasoning": "The gold answer specifies 'Mount Lucania' as the seventh tallest mountain. The prediction 'Denali' is the tallest mountain in North America, not the seventh, which is a direct factual contradiction regarding the requested rank.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer specifies 'Mount Lucania' as the seventh tallest mountain. The prediction 'Denali' is the tallest mountain in North America, not the seventh, which is a direct factual contradiction regarding the requested rank.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "982450cf",
+      "question": "Who is the youngest current US governor?",
+      "gold": "Ron DeSantis",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Ron DeSantis",
+      "raw_response": "Ron DeSantis",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "bff78c91",
+      "question": "What year was the first book of the A Song of Ice and Fire series published?",
+      "gold": "1996",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "1996",
+      "raw_response": "answer:\n1996-08-17",
+      "judge_reasoning": "The prediction includes the correct year '1996' as requested by the question. The additional month and day information ('08-17') is extra detail that does not contradict the gold answer, adhering to Rule 8 (Extra detail).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction includes the correct year '1996' as requested by the question. The additional month and day information ('08-17') is extra detail that does not contradict the gold answer, adhering to Rule 8 (Extra detail).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "fe541d01",
+      "question": "Which US president has had the most votes?",
+      "gold": "Joe Biden",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer: Barack Obama",
+      "judge_reasoning": "The prediction 'Barack Obama' directly contradicts the gold answer 'Joe Biden' regarding the US president with the most votes.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Barack Obama' directly contradicts the gold answer 'Joe Biden' regarding the US president with the most votes.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "1e975ded",
+      "question": "Is Venus Williams older than Serena Williams?",
+      "gold": "Yes",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "Yes",
+      "raw_response": "Yes",
+      "judge_reasoning": "The prediction 'Yes' exactly matches the gold answer 'Yes'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Yes' exactly matches the gold answer 'Yes'.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "f477742c",
+      "question": "Which actor was Stephenie Meyer's first choice to play Edward Cullen in the movie Twilight?",
+      "gold": "Henry Cavill",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Peter Facinelli",
+      "judge_reasoning": "The prediction 'Peter Facinelli' contradicts the gold answer 'Henry Cavill'. These are two different actors.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Peter Facinelli' contradicts the gold answer 'Henry Cavill'. These are two different actors.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "b218d184",
+      "question": "Has Bernie Sanders ever been president of the United States?",
+      "gold": "No",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "No",
+      "raw_response": "answer: No",
+      "judge_reasoning": "The prediction directly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction directly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

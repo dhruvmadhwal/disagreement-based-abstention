@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "b587e2da-5fd4-43fa-a3c1-77fce0939969",
+      "question": "what is the capital of australia?",
+      "gold": "canberra",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "canberra",
+      "raw_response": "Canberra",
+      "judge_reasoning": "The prediction 'Canberra' matches the gold answer 'canberra' after applying case normalization (Rule 1).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Canberra' matches the gold answer 'canberra' after applying case normalization (Rule 1).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "91345076-e63c-4aa9-88fe-cef2aec66f2d",
+      "question": "was there an original language pizza my heart came in?",
+      "gold": "en",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "en",
+      "raw_response": "English",
+      "judge_reasoning": "The prediction 'English' is an equivalent form of the gold answer 'en' (abbreviation for English), adhering to normalization rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'English' is an equivalent form of the gold answer 'en' (abbreviation for English), adhering to normalization rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "ede7b552-c56b-4947-9269-1d67fa90fb18",
+      "question": "which movie won the oscar best animated feature film in 2015?",
+      "gold": "big hero 6",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "big hero 6",
+      "raw_response": "Big Hero 6.",
+      "judge_reasoning": "The prediction 'Big Hero 6' matches the gold answer 'big hero 6' after applying case normalization and ignoring punctuation.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Big Hero 6' matches the gold answer 'big hero 6' after applying case normalization and ignoring punctuation.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "0672b85d-ca23-4258-a5cd-3f0335f8f7e1",
+      "question": "when was \"soul\" released on hulu?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\n2020-08-21",
+      "judge_reasoning": "The gold answer states 'invalid question', implying no factual answer exists or can be provided. The prediction provides a specific date, which contradicts the gold's assessment that the question is invalid.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states 'invalid question', implying no factual answer exists or can be provided. The prediction provides a specific date, which contradicts the gold's assessment that the question is invalid.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "3fcd37bc-2a2d-4766-aba8-cb9708349c48",
+      "question": "who hosted the grammy awards in 2019?",
+      "gold": "alicia keys",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "alicia keys",
+      "raw_response": "answer:\nAlicia Keys",
+      "judge_reasoning": "The prediction 'Alicia Keys' matches the gold answer 'alicia keys' after ignoring case, which is allowed by normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Alicia Keys' matches the gold answer 'alicia keys' after ignoring case, which is allowed by normalization rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "431a0e8e-b9ac-4ebf-90ee-8a6cf98a7639",
+      "question": "what movie's visual effects were considered the most impressive by the academy in 1995, winning the coveted best visual effects award?",
+      "gold": "forrest gump",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "forrest gump",
+      "raw_response": "Forrest Gump.",
+      "judge_reasoning": "The prediction 'Forrest Gump.' matches the gold answer 'forrest gump' after applying normalization for case and punctuation.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Forrest Gump.' matches the gold answer 'forrest gump' after applying normalization for case and punctuation.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "503bb259-cafb-4a36-972b-480cc4ed52cb",
+      "question": "who were the members of the band led zeppelin?",
+      "gold": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "raw_response": "Robert Plant; Jimmy Page; John Paul Jones; John Bonham",
+      "judge_reasoning": "The prediction lists the same four members as the gold answer. Case and punctuation differences are ignored per normalization rules for lists.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same four members as the gold answer. Case and punctuation differences are ignored per normalization rules for lists.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4f917818-f833-47c4-ab0c-96edbb7e0668",
+      "question": "what is the original language of what we left behind: looking back at star trek: deep space nine?",
+      "gold": "en",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "en",
+      "raw_response": "English",
+      "judge_reasoning": "The prediction 'English' is an equivalent form of the gold answer 'en' (ISO 639-1 code for English) due to alias/abbreviation normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'English' is an equivalent form of the gold answer 'en' (ISO 639-1 code for English) due to alias/abbreviation normalization.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "d73e9716-0b0d-4a5b-9bdd-98a6ca835640",
+      "question": "how many times has pete sampras won the french open singles title?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "0",
+      "judge_reasoning": "The gold answer states that the question is 'invalid question', which is a meta-statement about the question's validity. The prediction provides a numerical answer '0' to the question. While '0' is the factually correct answer to the question (Pete Sampras never won the French Open), it does not communicate the same essential fact as the gold answer, which is a judgment on the question itself rather than a direct factual answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states that the question is 'invalid question', which is a meta-statement about the question's validity. The prediction provides a numerical answer '0' to the question. While '0' is the factually correct answer to the question (Pete Sampras never won the French Open), it does not communicate the same essential fact as the gold answer, which is a judgment on the question itself rather than a direct factual answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4782dfd1-c169-477f-b688-f8103de15865",
+      "question": "who is the lead singer of the band coldplay?",
+      "gold": "chris martin",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "chris martin",
+      "raw_response": "Chris Martin",
+      "judge_reasoning": "The prediction 'Chris Martin' is identical to the gold answer 'chris martin' after case normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chris Martin' is identical to the gold answer 'chris martin' after case normalization.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4ebbb760-c5ae-4307-9764-567a357f4cc1",
+      "question": "who is the first actress to play the bond girl?",
+      "gold": "vesper lynd in 1953",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "vesper lynd in 1953",
+      "raw_response": "Eunice Gayson",
+      "judge_reasoning": "The gold answer is factually incorrect for the question asked. 'Vesper Lynd' is a character, not an actress, and no actress played her in 1953. The question asks for the 'first actress to play the Bond girl'. The prediction, 'Eunice Gayson', is factually correct as she played Sylvia Trench, widely considered the first Bond girl in the film series (Dr. No, 1962). The prediction correctly answers the question, despite the gold being flawed.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer is factually incorrect for the question asked. 'Vesper Lynd' is a character, not an actress, and no actress played her in 1953. The question asks for the 'first actress to play the Bond girl'. The prediction, 'Eunice Gayson', is factually correct as she played Sylvia Trench, widely considered the first Bond girl in the film series (Dr. No, 1962). The prediction correctly answers the question, despite the gold being flawed.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "aa0d473b-01fb-424a-97d5-d6b714c8b03d",
+      "question": "what song topped the billboard chart on 2004-02-04?",
+      "gold": "hey ya!",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nBurn by Usher",
+      "judge_reasoning": "The prediction 'Burn by Usher' is a different song than the gold answer 'hey ya!'. This is a direct contradiction of the core fact requested.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Burn by Usher' is a different song than the gold answer 'hey ya!'. This is a direct contradiction of the core fact requested.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "6d16596e-67ee-41e6-9d90-06981a755881",
+      "question": "where was buttermilk koldsk\u00e5l first developed?",
+      "gold": "denmark",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "denmark",
+      "raw_response": "Denmark",
+      "judge_reasoning": "The prediction 'Denmark' matches the gold answer 'denmark' after case normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Denmark' matches the gold answer 'denmark' after case normalization.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "24df4242-214b-4257-bcca-f1d39ca66630",
+      "question": "can you tell me the movie that won the oscar for best documentary feature film in 2017",
+      "gold": "o.j.: made in america",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "I Am Not Your Negro.",
+      "judge_reasoning": "The prediction 'I Am Not Your Negro' is incorrect; the gold answer 'O.J.: Made in America' is the actual winner of the Oscar for Best Documentary Feature Film in 2017. The prediction contradicts the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'I Am Not Your Negro' is incorrect; the gold answer 'O.J.: Made in America' is the actual winner of the Oscar for Best Documentary Feature Film in 2017. The prediction contradicts the gold fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dafa6e14-f4b2-43a7-9b5d-467ea102d7ce",
+      "question": "what are the four great lakes in michigan?",
+      "gold": "superior, michigan, huron and erie.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "superior, michigan, huron and erie.",
+      "raw_response": "answer:\nLake Superior; Lake Michigan; Lake Huron; Lake Erie",
+      "judge_reasoning": "The prediction lists the same four lakes as the gold answer. The addition of 'Lake' before each name and the use of semicolons instead of commas are acceptable normalizations and do not change the essential facts.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same four lakes as the gold answer. The addition of 'Lake' before each name and the use of semicolons instead of commas are acceptable normalizations and do not change the essential facts.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

@@ -1,0 +1,4478 @@
+[
+  {
+    "id": "bamboogle_0001_6e6f1060",
+    "question": "Who was president of the United States in the year that Citibank was founded?",
+    "dsl_string": "answer_1: str = qa_model(\"In what year was Citibank founded?\")\nanswer_2: str = qa_model(\"Who was the president of the United States in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Theodore Roosevelt explanation: The founding year of Citibank (1902) corresponds to the presidency of Theodore Roosevelt.",
+    "intermediate_answers": {
+      "answer_1": "1902",
+      "answer_2": "Theodore Roosevelt"
+    },
+    "raw_response": "answer: Theodore Roosevelt\n\nexplanation: The founding year of Citibank (1902) corresponds to the presidency of Theodore Roosevelt.",
+    "qa_chain": [
+      {
+        "question": "In what year was Citibank founded?",
+        "answer": "1902",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the president of the United States in 1902?",
+        "answer": "Theodore Roosevelt",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:03:35",
+    "intermediate_questions": [
+      "In what year was Citibank founded?",
+      "Who was the president of the United States in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0002_175308b7",
+    "question": "What rocket was the first spacecraft that ever approached Uranus launched on?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the first spacecraft to approach Uranus?\")\nanswer_2: str = qa_model(\"What rocket was {answer_1} launched on?\", answer_1=answer_1)",
+    "final_answer": "Atlas-Centaur\n\nExplanation: The first spacecraft to approach Uranus was Voyager 2, which was launched on an Atlas-Centaur rocket.",
+    "intermediate_answers": {
+      "answer_1": "Voyager 2, 1986-01-24",
+      "answer_2": "Atlas-Centaur"
+    },
+    "raw_response": "Atlas-Centaur\n\nExplanation: The first spacecraft to approach Uranus was Voyager 2, which was launched on an Atlas-Centaur rocket.",
+    "qa_chain": [
+      {
+        "question": "What was the first spacecraft to approach Uranus?",
+        "answer": "Voyager 2, 1986-01-24",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What rocket was Voyager 2, 1986-01-24 launched on?",
+        "answer": "Atlas-Centaur",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:03:39",
+    "intermediate_questions": [
+      "What was the first spacecraft to approach Uranus?",
+      "What rocket was {answer_1} launched on?"
+    ]
+  },
+  {
+    "id": "bamboogle_0003_891e0e7b",
+    "question": "In what year was the company that was founded as Sound of Music added to the S&P 500?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the current name of the company that was founded as Sound of Music?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} added to the S&P 500?\", answer_1=answer_1)",
+    "final_answer": "2020",
+    "intermediate_answers": {
+      "answer_1": "BMG Rights Management",
+      "answer_2": "2020"
+    },
+    "raw_response": "2020",
+    "qa_chain": [
+      {
+        "question": "What is the current name of the company that was founded as Sound of Music?",
+        "answer": "BMG Rights Management",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was BMG Rights Management added to the S&P 500?",
+        "answer": "2020",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:03:42",
+    "intermediate_questions": [
+      "What is the current name of the company that was founded as Sound of Music?",
+      "In what year was {answer_1} added to the S&P 500?"
+    ]
+  },
+  {
+    "id": "bamboogle_0004_cf977e2d",
+    "question": "Who was the first African American mayor of the most populous city in the United States?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most populous city in the United States?\")\nanswer_2: str = qa_model(\"Who was the first African American mayor of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "David Dinkins",
+    "intermediate_answers": {
+      "answer_1": "New York City",
+      "answer_2": "David Dinkins"
+    },
+    "raw_response": "David Dinkins",
+    "qa_chain": [
+      {
+        "question": "What is the most populous city in the United States?",
+        "answer": "New York City",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the first African American mayor of New York City?",
+        "answer": "David Dinkins",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:03:45",
+    "intermediate_questions": [
+      "What is the most populous city in the United States?",
+      "Who was the first African American mayor of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0005_8f814452",
+    "question": "When did the last king from Britain's House of Hanover die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the last king from Britain's House of Hanover?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1952-02-06 explanation: The last king from Britain's House of Hanover died on February 6, 1952, which is when George VI passed away.",
+    "intermediate_answers": {
+      "answer_1": "George VI",
+      "answer_2": "1952-02-06"
+    },
+    "raw_response": "answer: 1952-02-06\n\nexplanation: The last king from Britain's House of Hanover died on February 6, 1952, which is when George VI passed away.",
+    "qa_chain": [
+      {
+        "question": "Who was the last king from Britain's House of Hanover?",
+        "answer": "George VI",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did George VI die?",
+        "answer": "1952-02-06",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:03:47",
+    "intermediate_questions": [
+      "Who was the last king from Britain's House of Hanover?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0006_3b420e8a",
+    "question": "When did the president who set the precedent of a two term limit enter office?",
+    "dsl_string": "answer_1: str = qa_model(\"Which president set the precedent of a two term limit?\")\nanswer_2: str = qa_model(\"When did {answer_1} enter office?\", answer_1=answer_1)",
+    "final_answer": "1933-03-04",
+    "intermediate_answers": {
+      "answer_1": "Franklin Delano Roosevelt",
+      "answer_2": "1933-03-04"
+    },
+    "raw_response": "1933-03-04",
+    "qa_chain": [
+      {
+        "question": "Which president set the precedent of a two term limit?",
+        "answer": "Franklin Delano Roosevelt",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did Franklin Delano Roosevelt enter office?",
+        "answer": "1933-03-04",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:03:53",
+    "intermediate_questions": [
+      "Which president set the precedent of a two term limit?",
+      "When did {answer_1} enter office?"
+    ]
+  },
+  {
+    "id": "bamboogle_0007_6e7bd693",
+    "question": "When did the president who set the precedent of a two term limit leave office?",
+    "dsl_string": "answer_1: str = qa_model(\"Which president set the precedent of a two-term limit?\")\nanswer_2: str = qa_model(\"When did {answer_1} leave office?\", answer_1=answer_1)",
+    "final_answer": "1945-04-12\n\nExplanation: The president who set the precedent of a two-term limit was Franklin Delano Roosevelt, and he left office on April 12th, 1945.",
+    "intermediate_answers": {
+      "answer_1": "Franklin Delano Roosevelt",
+      "answer_2": "1945-04-12"
+    },
+    "raw_response": "1945-04-12\n\nExplanation: The president who set the precedent of a two-term limit was Franklin Delano Roosevelt, and he left office on April 12th, 1945.",
+    "qa_chain": [
+      {
+        "question": "Which president set the precedent of a two-term limit?",
+        "answer": "Franklin Delano Roosevelt",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did Franklin Delano Roosevelt leave office?",
+        "answer": "1945-04-12",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:03:55",
+    "intermediate_questions": [
+      "Which president set the precedent of a two-term limit?",
+      "When did {answer_1} leave office?"
+    ]
+  },
+  {
+    "id": "bamboogle_0008_c3368d53",
+    "question": "How many people died in the second most powerful earthquake ever recorded?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the second most powerful earthquake ever recorded?\")\nanswer_2: str = qa_model(\"How many people died in the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Approximately 2,000",
+    "intermediate_answers": {
+      "answer_1": "1960 Valdivia Earthquake (Mw 9.5)",
+      "answer_2": "Approximately 2,000"
+    },
+    "raw_response": "Approximately 2,000",
+    "qa_chain": [
+      {
+        "question": "What was the second most powerful earthquake ever recorded?",
+        "answer": "1960 Valdivia Earthquake (Mw 9.5)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "How many people died in the 1960 Valdivia Earthquake (Mw 9.5)?",
+        "answer": "Approximately 2,000",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:03",
+    "intermediate_questions": [
+      "What was the second most powerful earthquake ever recorded?",
+      "How many people died in the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0010_1a9c312e",
+    "question": "What was the final book written by the author of On the Origin of Species?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the author of 'On the Origin of Species'?\")\nanswer_2: str = qa_model(\"What was the final book written by {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The Origin of Species explanation: From the provided reasoning chain, we know that Charles Darwin wrote 'On the Origin of Species'. Since it was his last work, it must have been his final book.",
+    "intermediate_answers": {
+      "answer_1": "Charles Darwin",
+      "answer_2": "The Origin of Species"
+    },
+    "raw_response": "answer: The Origin of Species\n\nexplanation: From the provided reasoning chain, we know that Charles Darwin wrote 'On the Origin of Species'. Since it was his last work, it must have been his final book.",
+    "qa_chain": [
+      {
+        "question": "Who is the author of 'On the Origin of Species'?",
+        "answer": "Charles Darwin",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What was the final book written by Charles Darwin?",
+        "answer": "The Origin of Species",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:14",
+    "intermediate_questions": [
+      "Who is the author of 'On the Origin of Species'?",
+      "What was the final book written by {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0011_0671c011",
+    "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the first steam locomotive to carry passengers on a public rail line?\")\nanswer_2: str = qa_model(\"Which company built the {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was the company {answer_2} founded?\", answer_2=answer_2)",
+    "final_answer": "1823-06-25",
+    "intermediate_answers": {
+      "answer_1": "Rocket Locomotive (Stockton & Darlington Railway, 1825)",
+      "answer_2": "George Stephenson",
+      "answer_3": "1823-06-25"
+    },
+    "raw_response": "1823-06-25",
+    "qa_chain": [
+      {
+        "question": "What was the first steam locomotive to carry passengers on a public rail line?",
+        "answer": "Rocket Locomotive (Stockton & Darlington Railway, 1825)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Which company built the Rocket Locomotive (Stockton & Darlington Railway, 1825)?",
+        "answer": "George Stephenson",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was the company George Stephenson founded?",
+        "answer": "1823-06-25",
+        "variable": "answer_3",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:19",
+    "intermediate_questions": [
+      "What was the first steam locomotive to carry passengers on a public rail line?",
+      "Which company built the {answer_1}?",
+      "When was the company {answer_2} founded?"
+    ]
+  },
+  {
+    "id": "bamboogle_0012_3aefbc54",
+    "question": "Which Theranos whistleblower is not related to a senior American government official?",
+    "dsl_string": "answer_1: str = qa_model(\"Which Theranos whistleblower is related to a senior American government official?\")\nanswer_2: str = qa_model(\"Who was the other main whistleblower at Theranos besides {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Elizabeth Holmes",
+    "intermediate_answers": {
+      "answer_1": "Tyler Shultz",
+      "answer_2": "Elizabeth Holmes"
+    },
+    "raw_response": "Elizabeth Holmes",
+    "qa_chain": [
+      {
+        "question": "Which Theranos whistleblower is related to a senior American government official?",
+        "answer": "Tyler Shultz",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the other main whistleblower at Theranos besides Tyler Shultz?",
+        "answer": "Elizabeth Holmes",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:23",
+    "intermediate_questions": [
+      "Which Theranos whistleblower is related to a senior American government official?",
+      "Who was the other main whistleblower at Theranos besides {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0013_bbc4d2bd",
+    "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the fastest air-breathing manned aircraft?\")\nanswer_2: str = qa_model(\"What material is the {answer_1} mostly made out of?\", answer_1=answer_1)",
+    "final_answer": "Titanium alloy",
+    "intermediate_answers": {
+      "answer_1": "SR-72 (approximately Mach 6)",
+      "answer_2": "Titanium alloy"
+    },
+    "raw_response": "Titanium alloy",
+    "qa_chain": [
+      {
+        "question": "What is the fastest air-breathing manned aircraft?",
+        "answer": "SR-72 (approximately Mach 6)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What material is the SR-72 (approximately Mach 6) mostly made out of?",
+        "answer": "Titanium alloy",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:25",
+    "intermediate_questions": [
+      "What is the fastest air-breathing manned aircraft?",
+      "What material is the {answer_1} mostly made out of?"
+    ]
+  },
+  {
+    "id": "bamboogle_0014_af764bd2",
+    "question": "Who built the fastest air-breathing manned aircraft?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the fastest air-breathing manned aircraft?\")\nanswer_2: str = qa_model(\"Who built the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Lockheed Martin Skunk Works",
+    "intermediate_answers": {
+      "answer_1": "SR-72 (approximately Mach 6)",
+      "answer_2": "Lockheed Martin Skunk Works"
+    },
+    "raw_response": "Lockheed Martin Skunk Works",
+    "qa_chain": [
+      {
+        "question": "What is the fastest air-breathing manned aircraft?",
+        "answer": "SR-72 (approximately Mach 6)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who built the SR-72 (approximately Mach 6)?",
+        "answer": "Lockheed Martin Skunk Works",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:27",
+    "intermediate_questions": [
+      "What is the fastest air-breathing manned aircraft?",
+      "Who built the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0015_ab770108",
+    "question": "When was the author of The Population Bomb born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the author of 'The Population Bomb'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1854-03-14",
+    "intermediate_answers": {
+      "answer_1": "Paul Ehrlich",
+      "answer_2": "1854-03-14"
+    },
+    "raw_response": "1854-03-14",
+    "qa_chain": [
+      {
+        "question": "Who is the author of 'The Population Bomb'?",
+        "answer": "Paul Ehrlich",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was Paul Ehrlich born?",
+        "answer": "1854-03-14",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:34",
+    "intermediate_questions": [
+      "Who is the author of 'The Population Bomb'?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0016_035dab06",
+    "question": "When did the author of Annabel Lee enlist in the army?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the author of the poem 'Annabel Lee'?\")\nanswer_2: str = qa_model(\"When did {answer_1} enlist in the army?\", answer_1=answer_1)",
+    "final_answer": "1827-05-27\n\nExplanation: The author of 'Annabel Lee', Edgar Allan Poe, enlisted in the army on May 27th, 1827.",
+    "intermediate_answers": {
+      "answer_1": "Edgar Allan Poe",
+      "answer_2": "1827-05-27"
+    },
+    "raw_response": "1827-05-27\n\nExplanation: The author of 'Annabel Lee', Edgar Allan Poe, enlisted in the army on May 27th, 1827.",
+    "qa_chain": [
+      {
+        "question": "Who is the author of the poem 'Annabel Lee'?",
+        "answer": "Edgar Allan Poe",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did Edgar Allan Poe enlist in the army?",
+        "answer": "1827-05-27",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:36",
+    "intermediate_questions": [
+      "Who is the author of the poem 'Annabel Lee'?",
+      "When did {answer_1} enlist in the army?"
+    ]
+  },
+  {
+    "id": "bamboogle_0017_ba5fef1d",
+    "question": "What was the religion of the inventor of the Polio vaccine?",
+    "dsl_string": "answer_1: str = qa_model(\"Who invented the Polio vaccine?\")\nanswer_2: str = qa_model(\"What was the religion of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Religion: Roman Catholic",
+    "intermediate_answers": {
+      "answer_1": "Albert Sabin",
+      "answer_2": "Roman Catholic"
+    },
+    "raw_response": "Religion: Roman Catholic",
+    "qa_chain": [
+      {
+        "question": "Who invented the Polio vaccine?",
+        "answer": "Albert Sabin",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What was the religion of Albert Sabin?",
+        "answer": "Roman Catholic",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:42",
+    "intermediate_questions": [
+      "Who invented the Polio vaccine?",
+      "What was the religion of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0018_6de30b3d",
+    "question": "Who was the second wife of the founder of CNN?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the founder of CNN?\")\nanswer_2: str = qa_model(\"Who was the second wife of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Jane Fonda explanation: The second wife of the founder of CNN is Jane Fonda because she was married to Ted Turner, who founded CNN.",
+    "intermediate_answers": {
+      "answer_1": "Ted Turner",
+      "answer_2": "Jane Fonda"
+    },
+    "raw_response": "answer: Jane Fonda\n\nexplanation: The second wife of the founder of CNN is Jane Fonda because she was married to Ted Turner, who founded CNN.",
+    "qa_chain": [
+      {
+        "question": "Who is the founder of CNN?",
+        "answer": "Ted Turner",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the second wife of Ted Turner?",
+        "answer": "Jane Fonda",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:44",
+    "intermediate_questions": [
+      "Who is the founder of CNN?",
+      "Who was the second wife of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0019_68cc9ada",
+    "question": "When did the first prime minister of the Russian Empire come into office?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the first prime minister of the Russian Empire?\")\nanswer_2: str = qa_model(\"When did {answer_1} come into office?\", answer_1=answer_1)",
+    "final_answer": "1985-07-16",
+    "intermediate_answers": {
+      "answer_1": "Konstantin Nikolayevich Rozenberg",
+      "answer_2": "1985-07-16"
+    },
+    "raw_response": "1985-07-16",
+    "qa_chain": [
+      {
+        "question": "Who was the first prime minister of the Russian Empire?",
+        "answer": "Konstantin Nikolayevich Rozenberg",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did Konstantin Nikolayevich Rozenberg come into office?",
+        "answer": "1985-07-16",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:50",
+    "intermediate_questions": [
+      "Who was the first prime minister of the Russian Empire?",
+      "When did {answer_1} come into office?"
+    ]
+  },
+  {
+    "id": "bamboogle_0020_24d97e82",
+    "question": "What is the primary male hormone derived from?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the primary male hormone?\")\nanswer_2: str = qa_model(\"What is {answer_1} derived from?\", answer_1=answer_1)",
+    "final_answer": "Cholesterol",
+    "intermediate_answers": {
+      "answer_1": "Testosterone",
+      "answer_2": "Cholesterol"
+    },
+    "raw_response": "Cholesterol",
+    "qa_chain": [
+      {
+        "question": "What is the primary male hormone?",
+        "answer": "Testosterone",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is Testosterone derived from?",
+        "answer": "Cholesterol",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:53",
+    "intermediate_questions": [
+      "What is the primary male hormone?",
+      "What is {answer_1} derived from?"
+    ]
+  },
+  {
+    "id": "bamboogle_0022_6cd1bf3c",
+    "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who shared the Nobel Prize in Physics in 1954 with Max Born?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "Switzerland",
+    "intermediate_answers": {
+      "answer_1": "Walter Heisenberg",
+      "answer_2": "Switzerland"
+    },
+    "raw_response": "Switzerland",
+    "qa_chain": [
+      {
+        "question": "Who shared the Nobel Prize in Physics in 1954 with Max Born?",
+        "answer": "Walter Heisenberg",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Where was Walter Heisenberg born?",
+        "answer": "Switzerland",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:04:59",
+    "intermediate_questions": [
+      "Who shared the Nobel Prize in Physics in 1954 with Max Born?",
+      "Where was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0023_f3912b79",
+    "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who shared the Nobel Prize in Physics in 1954 with Max Born?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1901-12-05\n\nExplanation: The person who shared the Nobel Prize in Physics in 1954 with Max Born is Walter Heisenberg, and he was born on December 5th, 1901.",
+    "intermediate_answers": {
+      "answer_1": "Walter Heisenberg",
+      "answer_2": "1901-12-05"
+    },
+    "raw_response": "1901-12-05\n\nExplanation: The person who shared the Nobel Prize in Physics in 1954 with Max Born is Walter Heisenberg, and he was born on December 5th, 1901.",
+    "qa_chain": [
+      {
+        "question": "Who shared the Nobel Prize in Physics in 1954 with Max Born?",
+        "answer": "Walter Heisenberg",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was Walter Heisenberg born?",
+        "answer": "1901-12-05",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:01",
+    "intermediate_questions": [
+      "Who shared the Nobel Prize in Physics in 1954 with Max Born?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0024_d326facb",
+    "question": "What was the founding date of the university in which Plotonium was discovered?",
+    "dsl_string": "answer_1: str = qa_model(\"At which university was Plutonium discovered?\")\nanswer_2: str = qa_model(\"What is the founding date of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "1890-07-01",
+    "intermediate_answers": {
+      "answer_1": "University of Chicago",
+      "answer_2": "1890-07-01"
+    },
+    "raw_response": "1890-07-01",
+    "qa_chain": [
+      {
+        "question": "At which university was Plutonium discovered?",
+        "answer": "University of Chicago",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the founding date of University of Chicago?",
+        "answer": "1890-07-01",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:04",
+    "intermediate_questions": [
+      "At which university was Plutonium discovered?",
+      "What is the founding date of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0025_6534f07a",
+    "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+    "dsl_string": "answer_1: str = qa_model(\"What material is the Great Sphinx of Giza made of?\")\nanswer_2: str = qa_model(\"What mineral is {answer_1} mainly composed of?\", answer_1=answer_1)",
+    "final_answer": "Calcium carbonate",
+    "intermediate_answers": {
+      "answer_1": "Limestone",
+      "answer_2": "Calcium carbonate"
+    },
+    "raw_response": "Calcium carbonate",
+    "qa_chain": [
+      {
+        "question": "What material is the Great Sphinx of Giza made of?",
+        "answer": "Limestone",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What mineral is Limestone mainly composed of?",
+        "answer": "Calcium carbonate",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:07",
+    "intermediate_questions": [
+      "What material is the Great Sphinx of Giza made of?",
+      "What mineral is {answer_1} mainly composed of?"
+    ]
+  },
+  {
+    "id": "bamboogle_0026_2aa186e5",
+    "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the husband of Lady Godiva?\")\nanswer_2: str = qa_model(\"{answer_1} was the Earl of which Anglic kingdom?\", answer_1=answer_1)",
+    "final_answer": "Mercia",
+    "intermediate_answers": {
+      "answer_1": "Leofric",
+      "answer_2": "Mercia"
+    },
+    "raw_response": "Mercia",
+    "qa_chain": [
+      {
+        "question": "Who was the husband of Lady Godiva?",
+        "answer": "Leofric",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Leofric was the Earl of which Anglic kingdom?",
+        "answer": "Mercia",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:11",
+    "intermediate_questions": [
+      "Who was the husband of Lady Godiva?",
+      "{answer_1} was the Earl of which Anglic kingdom?"
+    ]
+  },
+  {
+    "id": "bamboogle_0027_b6ed7ee5",
+    "question": "The machine used to extract honey from honeycombs uses which physical force?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the name of the machine used to extract honey from honeycombs?\")\nanswer_2: str = qa_model(\"What physical force does a {answer_1} use?\", answer_1=answer_1)",
+    "final_answer": "Gravitational Force",
+    "intermediate_answers": {
+      "answer_1": "Extractor",
+      "answer_2": "Gravitational Force"
+    },
+    "raw_response": "Gravitational Force",
+    "qa_chain": [
+      {
+        "question": "What is the name of the machine used to extract honey from honeycombs?",
+        "answer": "Extractor",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What physical force does a Extractor use?",
+        "answer": "Gravitational Force",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:13",
+    "intermediate_questions": [
+      "What is the name of the machine used to extract honey from honeycombs?",
+      "What physical force does a {answer_1} use?"
+    ]
+  },
+  {
+    "id": "bamboogle_0028_ec928c44",
+    "question": "What is the third letter of the top level domain of the military?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the top level domain of the military?\")\nanswer_2: str = qa_model(\"What is the third letter of '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "L explanation: The third letter of '.mil', which is the top level domain of the military, is 'L'.",
+    "intermediate_answers": {
+      "answer_1": ".mil",
+      "answer_2": "L"
+    },
+    "raw_response": "answer: L\n\nexplanation: The third letter of '.mil', which is the top level domain of the military, is 'L'.",
+    "qa_chain": [
+      {
+        "question": "What is the top level domain of the military?",
+        "answer": ".mil",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the third letter of '.mil'?",
+        "answer": "L",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:15",
+    "intermediate_questions": [
+      "What is the top level domain of the military?",
+      "What is the third letter of '{answer_1}'?"
+    ]
+  },
+  {
+    "id": "bamboogle_0029_45dd51fa",
+    "question": "In what year was the government department where the internet originated at founded?",
+    "dsl_string": "answer_1: str = qa_model(\"What government department is credited with the origin of the internet?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} founded?\", answer_1=answer_1)",
+    "final_answer": "1947",
+    "intermediate_answers": {
+      "answer_1": "Department of Defense (DoD), USA",
+      "answer_2": "1947"
+    },
+    "raw_response": "1947",
+    "qa_chain": [
+      {
+        "question": "What government department is credited with the origin of the internet?",
+        "answer": "Department of Defense (DoD), USA",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was Department of Defense (DoD), USA founded?",
+        "answer": "1947",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:20",
+    "intermediate_questions": [
+      "What government department is credited with the origin of the internet?",
+      "In what year was {answer_1} founded?"
+    ]
+  },
+  {
+    "id": "bamboogle_0030_e46296ae",
+    "question": "The main actor of Indiana Jones is a licensed what?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the main actor in the Indiana Jones film series?\")\nanswer_2: str = qa_model(\"What is {answer_1} licensed as?\", answer_1=answer_1)",
+    "final_answer": "pilot",
+    "intermediate_answers": {
+      "answer_1": "Harrison Ford",
+      "answer_2": "Pilot"
+    },
+    "raw_response": "pilot",
+    "qa_chain": [
+      {
+        "question": "Who is the main actor in the Indiana Jones film series?",
+        "answer": "Harrison Ford",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is Harrison Ford licensed as?",
+        "answer": "Pilot",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:24",
+    "intermediate_questions": [
+      "Who is the main actor in the Indiana Jones film series?",
+      "What is {answer_1} licensed as?"
+    ]
+  },
+  {
+    "id": "bamboogle_0031_09f34243",
+    "question": "When was the person after which the Hubble Space Telescope is named after born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the Hubble Space Telescope named after?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1889-10-20\n\nExplanation: The Hubble Space Telescope is named after Edward Hubble who was born on October 20th, 1889.",
+    "intermediate_answers": {
+      "answer_1": "Edward Hubble",
+      "answer_2": "1889-10-20"
+    },
+    "raw_response": "1889-10-20\n\nExplanation: The Hubble Space Telescope is named after Edward Hubble who was born on October 20th, 1889.",
+    "qa_chain": [
+      {
+        "question": "Who is the Hubble Space Telescope named after?",
+        "answer": "Edward Hubble",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was Edward Hubble born?",
+        "answer": "1889-10-20",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:26",
+    "intermediate_questions": [
+      "Who is the Hubble Space Telescope named after?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0032_11e51f29",
+    "question": "When did the person who gave the Checkers speech die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who gave the Checkers speech?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1994-04-22\n\nExplanation: The person who gave the Checkers speech was Richard Nixon, and he died on April 22nd, 1994.",
+    "intermediate_answers": {
+      "answer_1": "Richard Nixon",
+      "answer_2": "1994-04-22"
+    },
+    "raw_response": "1994-04-22\n\nExplanation: The person who gave the Checkers speech was Richard Nixon, and he died on April 22nd, 1994.",
+    "qa_chain": [
+      {
+        "question": "Who gave the Checkers speech?",
+        "answer": "Richard Nixon",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did Richard Nixon die?",
+        "answer": "1994-04-22",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:29",
+    "intermediate_questions": [
+      "Who gave the Checkers speech?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0033_3ac04942",
+    "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+    "dsl_string": "answer_1: str = qa_model(\"Which philosopher formulated the hard problem of consciousness?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1942-03-28\n\nExplanation: The philosopher who formulated the hard problem of consciousness, Daniel Dennett, was born on March 28th, 1942.",
+    "intermediate_answers": {
+      "answer_1": "Daniel Dennett",
+      "answer_2": "1942-03-28"
+    },
+    "raw_response": "1942-03-28\n\nExplanation: The philosopher who formulated the hard problem of consciousness, Daniel Dennett, was born on March 28th, 1942.",
+    "qa_chain": [
+      {
+        "question": "Which philosopher formulated the hard problem of consciousness?",
+        "answer": "Daniel Dennett",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was Daniel Dennett born?",
+        "answer": "1942-03-28",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:34",
+    "intermediate_questions": [
+      "Which philosopher formulated the hard problem of consciousness?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0034_b73fc285",
+    "question": "What is the capital of the second largest state in the US by area?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second largest state in the US by area?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Austin explanation: The second largest state by area is Texas, and its capital is Austin.",
+    "intermediate_answers": {
+      "answer_1": "Texas",
+      "answer_2": "Austin"
+    },
+    "raw_response": "answer: Austin\n\nexplanation: The second largest state by area is Texas, and its capital is Austin.",
+    "qa_chain": [
+      {
+        "question": "What is the second largest state in the US by area?",
+        "answer": "Texas",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the capital of Texas?",
+        "answer": "Austin",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:37",
+    "intermediate_questions": [
+      "What is the second largest state in the US by area?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0035_f61df3cd",
+    "question": "What is the maximum airspeed (in km/h) of the third fastest bird?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third fastest bird?\")\nanswer_2: str = qa_model(\"What is the maximum airspeed of a {answer_1} in km/h?\", answer_1=answer_1)",
+    "final_answer": "Approximately 167 explanation: The third fastest bird is the White-throated needletail, which has an approximate maximum airspeed of 167 km/h.",
+    "intermediate_answers": {
+      "answer_1": "White-throated needletail",
+      "answer_2": "Approximately 167"
+    },
+    "raw_response": "answer: Approximately 167\n\nexplanation: The third fastest bird is the White-throated needletail, which has an approximate maximum airspeed of 167 km/h.",
+    "qa_chain": [
+      {
+        "question": "What is the third fastest bird?",
+        "answer": "White-throated needletail",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the maximum airspeed of a White-throated needletail in km/h?",
+        "answer": "Approximately 167",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:38",
+    "intermediate_questions": [
+      "What is the third fastest bird?",
+      "What is the maximum airspeed of a {answer_1} in km/h?"
+    ]
+  },
+  {
+    "id": "bamboogle_0036_11031c0f",
+    "question": "Who founded the city where the founder of geometry lived?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the founder of geometry?\")\nanswer_2: str = qa_model(\"In which city did {answer_1} live?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who founded the city of {answer_2}?\", answer_2=answer_2)",
+    "final_answer": "Alexander the Great",
+    "intermediate_answers": {
+      "answer_1": "Euclid",
+      "answer_2": "Alexandria",
+      "answer_3": "Alexander the Great"
+    },
+    "raw_response": "Alexander the Great",
+    "qa_chain": [
+      {
+        "question": "Who is the founder of geometry?",
+        "answer": "Euclid",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In which city did Euclid live?",
+        "answer": "Alexandria",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who founded the city of Alexandria?",
+        "answer": "Alexander the Great",
+        "variable": "answer_3",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:45",
+    "intermediate_questions": [
+      "Who is the founder of geometry?",
+      "In which city did {answer_1} live?",
+      "Who founded the city of {answer_2}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0037_be0f74dc",
+    "question": "What is the capital of the country where yoga originated?",
+    "dsl_string": "answer_1: str = qa_model(\"In which country did yoga originate?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "New Delhi explanation: The capital of the country where yoga originated is determined by finding out the capital of India, since yoga originated in India.",
+    "intermediate_answers": {
+      "answer_1": "India",
+      "answer_2": "New Delhi"
+    },
+    "raw_response": "answer: New Delhi\n\nexplanation: The capital of the country where yoga originated is determined by finding out the capital of India, since yoga originated in India.",
+    "qa_chain": [
+      {
+        "question": "In which country did yoga originate?",
+        "answer": "India",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the capital of India?",
+        "answer": "New Delhi",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:47",
+    "intermediate_questions": [
+      "In which country did yoga originate?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0038_b587d315",
+    "question": "The fourth largest city in Germany was originally called what?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the fourth largest city in Germany?\")\nanswer_2: str = qa_model(\"What was the original name of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Essen (before 1901)",
+    "intermediate_answers": {
+      "answer_1": "Duisburg",
+      "answer_2": "Essen (before 1901)"
+    },
+    "raw_response": "Essen (before 1901)",
+    "qa_chain": [
+      {
+        "question": "What is the fourth largest city in Germany?",
+        "answer": "Duisburg",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What was the original name of Duisburg?",
+        "answer": "Essen (before 1901)",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:50",
+    "intermediate_questions": [
+      "What is the fourth largest city in Germany?",
+      "What was the original name of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0039_7e165501",
+    "question": "When did Nirvana's second most selling studio album come out?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second most selling studio album by Nirvana?\")\nanswer_2: str = qa_model(\"When did the album '{answer_1}' come out?\", answer_1=answer_1)",
+    "final_answer": "1991-09-24",
+    "intermediate_answers": {
+      "answer_1": "\"Nevermind\"",
+      "answer_2": "1991-09-24"
+    },
+    "raw_response": "1991-09-24",
+    "qa_chain": [
+      {
+        "question": "What is the second most selling studio album by Nirvana?",
+        "answer": "\"Nevermind\"",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did the album '\"Nevermind\"' come out?",
+        "answer": "1991-09-24",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:52",
+    "intermediate_questions": [
+      "What is the second most selling studio album by Nirvana?",
+      "When did the album '{answer_1}' come out?"
+    ]
+  },
+  {
+    "id": "bamboogle_0040_55991d31",
+    "question": "What was the job of the father of the founder of psychoanalysis?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the founder of psychoanalysis?\")\nanswer_2: str = qa_model(\"What was the job of the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Merchant\n\nExplanation: The father of Sigmund Freud, who founded psychoanalysis, was a merchant.",
+    "intermediate_answers": {
+      "answer_1": "Sigmund Freud",
+      "answer_2": "Amos Freud, the father of Sigmund Freud, was a merchant."
+    },
+    "raw_response": "Merchant\n\nExplanation: The father of Sigmund Freud, who founded psychoanalysis, was a merchant.",
+    "qa_chain": [
+      {
+        "question": "Who is the founder of psychoanalysis?",
+        "answer": "Sigmund Freud",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What was the job of the father of Sigmund Freud?",
+        "answer": "Amos Freud, the father of Sigmund Freud, was a merchant.",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:55",
+    "intermediate_questions": [
+      "Who is the founder of psychoanalysis?",
+      "What was the job of the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0041_79c1014c",
+    "question": "How much protein in four boiled egg yolks?",
+    "dsl_string": "answer_1: str = qa_model(\"How much protein is in one boiled egg yolk?\")\nanswer_2: str = qa_model(\"What is four times {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Approximately 22 grams explanation: Four times the protein content in one boiled egg yolk equals approximately 22 grams.",
+    "intermediate_answers": {
+      "answer_1": "Approximately 5.5 grams",
+      "answer_2": "Approximately 22 grams"
+    },
+    "raw_response": "answer: Approximately 22 grams\n\nexplanation: Four times the protein content in one boiled egg yolk equals approximately 22 grams.",
+    "qa_chain": [
+      {
+        "question": "How much protein is in one boiled egg yolk?",
+        "answer": "Approximately 5.5 grams",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is four times Approximately 5.5 grams?",
+        "answer": "Approximately 22 grams",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:05:58",
+    "intermediate_questions": [
+      "How much protein is in one boiled egg yolk?",
+      "What is four times {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0042_56fa9e0c",
+    "question": "What is the political party of the American president who entered into the Paris agreement?",
+    "dsl_string": "answer_1: str = qa_model(\"Which American president entered into the Paris agreement?\")\nanswer_2: str = qa_model(\"What is the political party of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Democratic Party",
+    "intermediate_answers": {
+      "answer_1": "Joseph Biden",
+      "answer_2": "Democratic Party"
+    },
+    "raw_response": "Democratic Party",
+    "qa_chain": [
+      {
+        "question": "Which American president entered into the Paris agreement?",
+        "answer": "Joseph Biden",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the political party of Joseph Biden?",
+        "answer": "Democratic Party",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:02",
+    "intermediate_questions": [
+      "Which American president entered into the Paris agreement?",
+      "What is the political party of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0043_d65a05e7",
+    "question": "The most populous city in Punjab is how large (area wise)?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most populous city in Punjab?\")\nanswer_2: str = qa_model(\"What is the area of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Approximately 975 square kilometers",
+    "intermediate_answers": {
+      "answer_1": "Lahore",
+      "answer_2": "The area of Lahore cannot be provided precisely due to its irregular shape, but it covers approximately 975 square kilometers."
+    },
+    "raw_response": "Approximately 975 square kilometers",
+    "qa_chain": [
+      {
+        "question": "What is the most populous city in Punjab?",
+        "answer": "Lahore",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the area of Lahore?",
+        "answer": "The area of Lahore cannot be provided precisely due to its irregular shape, but it covers approximately 975 square kilometers.",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:05",
+    "intermediate_questions": [
+      "What is the most populous city in Punjab?",
+      "What is the area of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0044_f8e3e961",
+    "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the second largest volcanic eruption in the 20th century?\")\nanswer_2: str = qa_model(\"What was the death toll of the {answer_1} eruption?\", answer_1=answer_1)",
+    "final_answer": "Death toll: 207\n\nExplanation: The second largest volcanic eruption in the 20th century was Nakamura-ake (Krakatau), 1963, which had a death toll of 207 people.",
+    "intermediate_answers": {
+      "answer_1": "Nakamura-ake (Krakatau), 1963",
+      "answer_2": "207"
+    },
+    "raw_response": "Death toll: 207\n\nExplanation: The second largest volcanic eruption in the 20th century was Nakamura-ake (Krakatau), 1963, which had a death toll of 207 people.",
+    "qa_chain": [
+      {
+        "question": "What was the second largest volcanic eruption in the 20th century?",
+        "answer": "Nakamura-ake (Krakatau), 1963",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What was the death toll of the Nakamura-ake (Krakatau), 1963 eruption?",
+        "answer": "207",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:09",
+    "intermediate_questions": [
+      "What was the second largest volcanic eruption in the 20th century?",
+      "What was the death toll of the {answer_1} eruption?"
+    ]
+  },
+  {
+    "id": "bamboogle_0045_38628071",
+    "question": "What was the death toll of the most intense Atlantic hurricane?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most intense Atlantic hurricane on record?\")\nanswer_2: str = qa_model(\"What was the death toll of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "978 deaths",
+    "intermediate_answers": {
+      "answer_1": "Hurricane Wilma (2005), Saffir-Simpson Category 5",
+      "answer_2": "978 deaths"
+    },
+    "raw_response": "978 deaths",
+    "qa_chain": [
+      {
+        "question": "What is the most intense Atlantic hurricane on record?",
+        "answer": "Hurricane Wilma (2005), Saffir-Simpson Category 5",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What was the death toll of Hurricane Wilma (2005), Saffir-Simpson Category 5?",
+        "answer": "978 deaths",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:12",
+    "intermediate_questions": [
+      "What is the most intense Atlantic hurricane on record?",
+      "What was the death toll of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0046_0e09f340",
+    "question": "Who was the head of NASA during Apollo 11?",
+    "dsl_string": "answer_1: str = qa_model(\"When did the Apollo 11 mission take place?\")\nanswer_2: str = qa_model(\"Who was the head of NASA in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Thomas O. Paine explanation: The head of NASA during Apollo 11 was determined by finding out when Apollo 11 took place and then identifying who held the position at that specific date.",
+    "intermediate_answers": {
+      "answer_1": "1969-07-20",
+      "answer_2": "Thomas O. Paine"
+    },
+    "raw_response": "answer: Thomas O. Paine\n\nexplanation: The head of NASA during Apollo 11 was determined by finding out when Apollo 11 took place and then identifying who held the position at that specific date.",
+    "qa_chain": [
+      {
+        "question": "When did the Apollo 11 mission take place?",
+        "answer": "1969-07-20",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the head of NASA in 1969-07-20?",
+        "answer": "Thomas O. Paine",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:19",
+    "intermediate_questions": [
+      "When did the Apollo 11 mission take place?",
+      "Who was the head of NASA in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0047_2b5facaa",
+    "question": "Who is the father of the father of George Washington?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the father of George Washington?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Lawrence Washington",
+    "intermediate_answers": {
+      "answer_1": "Augustine Washington",
+      "answer_2": "Lawrence Washington"
+    },
+    "raw_response": "Lawrence Washington",
+    "qa_chain": [
+      {
+        "question": "Who is the father of George Washington?",
+        "answer": "Augustine Washington",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who is the father of Augustine Washington?",
+        "answer": "Lawrence Washington",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:22",
+    "intermediate_questions": [
+      "Who is the father of George Washington?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0048_847035a6",
+    "question": "Who is the mother of the father of George Washington?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the father of George Washington?\")\nanswer_2: str = qa_model(\"Who was the mother of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Mother of George Washington's father is Mary Ball Washington.",
+    "intermediate_answers": {
+      "answer_1": "Augustine Washington",
+      "answer_2": "Mary Ball Washington"
+    },
+    "raw_response": "Mother of George Washington's father is Mary Ball Washington.",
+    "qa_chain": [
+      {
+        "question": "Who was the father of George Washington?",
+        "answer": "Augustine Washington",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the mother of Augustine Washington?",
+        "answer": "Mary Ball Washington",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:24",
+    "intermediate_questions": [
+      "Who was the father of George Washington?",
+      "Who was the mother of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0049_fb51af7c",
+    "question": "Who is the father of the father of Barack Obama?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the father of Barack Obama?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Barack Hussein Obama Sr.",
+    "intermediate_answers": {
+      "answer_1": "Barack Obama Sr.",
+      "answer_2": "Barack Hussein Obama Sr."
+    },
+    "raw_response": "Barack Hussein Obama Sr.",
+    "qa_chain": [
+      {
+        "question": "Who is the father of Barack Obama?",
+        "answer": "Barack Obama Sr.",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who is the father of Barack Obama Sr.?",
+        "answer": "Barack Hussein Obama Sr.",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:26",
+    "intermediate_questions": [
+      "Who is the father of Barack Obama?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0050_43f80844",
+    "question": "Who is the mother of the father of Barack Obama?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the father of Barack Obama?\")\nanswer_2: str = qa_model(\"Who is the mother of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Stanley Ann Dunham explanation: The father of Barack Obama is Barack Obama Sr., and his mother is Stanley Ann Dunham.",
+    "intermediate_answers": {
+      "answer_1": "Barack Obama Sr.",
+      "answer_2": "Stanley Ann Dunham"
+    },
+    "raw_response": "answer: Stanley Ann Dunham\n\nexplanation: The father of Barack Obama is Barack Obama Sr., and his mother is Stanley Ann Dunham.",
+    "qa_chain": [
+      {
+        "question": "Who is the father of Barack Obama?",
+        "answer": "Barack Obama Sr.",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who is the mother of Barack Obama Sr.?",
+        "answer": "Stanley Ann Dunham",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:28",
+    "intermediate_questions": [
+      "Who is the father of Barack Obama?",
+      "Who is the mother of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0051_ff4cece0",
+    "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+    "dsl_string": "answer_1: str = qa_model(\"In what year was Fiorello H. La Guardia born?\")\nanswer_2: str = qa_model(\"Who was the mayor of New York City in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "William M. Tweed",
+    "intermediate_answers": {
+      "answer_1": "1882",
+      "answer_2": "William M. Tweed"
+    },
+    "raw_response": "William M. Tweed",
+    "qa_chain": [
+      {
+        "question": "In what year was Fiorello H. La Guardia born?",
+        "answer": "1882",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the mayor of New York City in 1882?",
+        "answer": "William M. Tweed",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:30",
+    "intermediate_questions": [
+      "In what year was Fiorello H. La Guardia born?",
+      "Who was the mayor of New York City in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0052_19a8da47",
+    "question": "Who was president of the U.S. when superconductivity was discovered?",
+    "dsl_string": "answer_1: str = qa_model(\"When was superconductivity discovered?\")\nanswer_2: str = qa_model(\"Who was the president of the U.S. in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Grover Cleveland explanation: The discovery of superconductivity occurred in 1895-06-27, and at that time, Grover Cleveland was the President of the United States.",
+    "intermediate_answers": {
+      "answer_1": "1895-06-27",
+      "answer_2": "Grover Cleveland"
+    },
+    "raw_response": "answer: Grover Cleveland\n\nexplanation: The discovery of superconductivity occurred in 1895-06-27, and at that time, Grover Cleveland was the President of the United States.",
+    "qa_chain": [
+      {
+        "question": "When was superconductivity discovered?",
+        "answer": "1895-06-27",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the president of the U.S. in 1895-06-27?",
+        "answer": "Grover Cleveland",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:36",
+    "intermediate_questions": [
+      "When was superconductivity discovered?",
+      "Who was the president of the U.S. in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0053_440fdd60",
+    "question": "When was the person Russ Hanneman is based on born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the character Russ Hanneman based on?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1958-07-31",
+    "intermediate_answers": {
+      "answer_1": "Mark Cuban",
+      "answer_2": "1958-07-31"
+    },
+    "raw_response": "1958-07-31",
+    "qa_chain": [
+      {
+        "question": "Who is the character Russ Hanneman based on?",
+        "answer": "Mark Cuban",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was Mark Cuban born?",
+        "answer": "1958-07-31",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:38",
+    "intermediate_questions": [
+      "Who is the character Russ Hanneman based on?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0054_3ecff82e",
+    "question": "When was the first location of the world's largest coffeehouse chain opened?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the world's largest coffeehouse chain?\")\nanswer_2: str = qa_model(\"When was the first location of {answer_1} opened?\", answer_1=answer_1)",
+    "final_answer": "1971-10-03 (First Starbucks store at Pike Place Market, Seattle, Washington, USA, officially opened on October 3rd, 1971.)",
+    "intermediate_answers": {
+      "answer_1": "Starbucks Corporation",
+      "answer_2": "1971-Pike-Place-Market"
+    },
+    "raw_response": "1971-10-03 (First Starbucks store at Pike Place Market, Seattle, Washington, USA, officially opened on October 3rd, 1971.)",
+    "qa_chain": [
+      {
+        "question": "What is the world's largest coffeehouse chain?",
+        "answer": "Starbucks Corporation",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was the first location of Starbucks Corporation opened?",
+        "answer": "1971-Pike-Place-Market",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:41",
+    "intermediate_questions": [
+      "What is the world's largest coffeehouse chain?",
+      "When was the first location of {answer_1} opened?"
+    ]
+  },
+  {
+    "id": "bamboogle_0055_a38b6895",
+    "question": "Who directed the highest grossing film?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the highest grossing film of all time?\")\nanswer_2: str = qa_model(\"Who directed the film '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "James Cameron",
+    "intermediate_answers": {
+      "answer_1": "Avatar (2009); $2.78 billion",
+      "answer_2": "James Cameron; James Cameron"
+    },
+    "raw_response": "James Cameron",
+    "qa_chain": [
+      {
+        "question": "What is the highest grossing film of all time?",
+        "answer": "Avatar (2009); $2.78 billion",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who directed the film '{answer_1}'?",
+        "answer": "James Cameron; James Cameron",
+        "variable": "answer_2",
+        "multi_answer": true,
+        "resolved_questions": [
+          "Who directed the film 'Avatar (2009)'?",
+          "Who directed the film '$2.78 billion'?"
+        ],
+        "individual_answers": [
+          "James Cameron",
+          "James Cameron"
+        ]
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:45",
+    "intermediate_questions": [
+      "What is the highest grossing film of all time?",
+      "Who directed the film '{answer_1}'?"
+    ]
+  },
+  {
+    "id": "bamboogle_0056_fe704e02",
+    "question": "When was the longest bridge in the world opened?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest bridge in the world?\")\nanswer_2: str = qa_model(\"When was {answer_1} opened?\", answer_1=answer_1)",
+    "final_answer": "2011-10-01",
+    "intermediate_answers": {
+      "answer_1": "The longest bridge in the world is the Danyang-Kunshan Grand Bridge in China.",
+      "answer_2": "2011-10-01"
+    },
+    "raw_response": "2011-10-01",
+    "qa_chain": [
+      {
+        "question": "What is the longest bridge in the world?",
+        "answer": "The longest bridge in the world is the Danyang-Kunshan Grand Bridge in China.",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was The longest bridge in the world is the Danyang-Kunshan Grand Bridge in China. opened?",
+        "answer": "2011-10-01",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:54",
+    "intermediate_questions": [
+      "What is the longest bridge in the world?",
+      "When was {answer_1} opened?"
+    ]
+  },
+  {
+    "id": "bamboogle_0057_ce243def",
+    "question": "Which company was responsible for the largest pharmaceutical settlement?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the largest pharmaceutical settlement in history?\")\nanswer_2: str = qa_model(\"Which company was responsible for the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Johnson & Johnson",
+    "intermediate_answers": {
+      "answer_1": "Johnson & Johnson ($4.85 billion)",
+      "answer_2": "Johnson & Johnson"
+    },
+    "raw_response": "Johnson & Johnson",
+    "qa_chain": [
+      {
+        "question": "What is the largest pharmaceutical settlement in history?",
+        "answer": "Johnson & Johnson ($4.85 billion)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Which company was responsible for the Johnson & Johnson ($4.85 billion)?",
+        "answer": "Johnson & Johnson",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:06:59",
+    "intermediate_questions": [
+      "What is the largest pharmaceutical settlement in history?",
+      "Which company was responsible for the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0058_57c459c2",
+    "question": "In what year was the tallest self-supporting tower completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest self-supporting tower in the world?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "2019",
+    "intermediate_answers": {
+      "answer_1": "Burj Mubarak Al Kabir",
+      "answer_2": "2019"
+    },
+    "raw_response": "2019",
+    "qa_chain": [
+      {
+        "question": "What is the tallest self-supporting tower in the world?",
+        "answer": "Burj Mubarak Al Kabir",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was Burj Mubarak Al Kabir completed?",
+        "answer": "2019",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:02",
+    "intermediate_questions": [
+      "What is the tallest self-supporting tower in the world?",
+      "In what year was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0059_abedd531",
+    "question": "In what year was the tallest fixed steel structure completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest fixed steel structure?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "2010",
+    "intermediate_answers": {
+      "answer_1": "Burj Khalifa (828m)",
+      "answer_2": "2010"
+    },
+    "raw_response": "2010",
+    "qa_chain": [
+      {
+        "question": "What is the tallest fixed steel structure?",
+        "answer": "Burj Khalifa (828m)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was Burj Khalifa (828m) completed?",
+        "answer": "2010",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:06",
+    "intermediate_questions": [
+      "What is the tallest fixed steel structure?",
+      "In what year was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0060_6e765861",
+    "question": "In what year was the tallest lattice tower completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest lattice tower?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "2010",
+    "intermediate_answers": {
+      "answer_1": "Burj Khalifa (828m)",
+      "answer_2": "2010"
+    },
+    "raw_response": "2010",
+    "qa_chain": [
+      {
+        "question": "What is the tallest lattice tower?",
+        "answer": "Burj Khalifa (828m)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was Burj Khalifa (828m) completed?",
+        "answer": "2010",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:25",
+    "intermediate_questions": [
+      "What is the tallest lattice tower?",
+      "In what year was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0061_a3c7dda3",
+    "question": "In what year was the current tallest wooden lattice tower completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the current tallest wooden lattice tower?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "1775",
+    "intermediate_answers": {
+      "answer_1": "The Tallest Wooden Lattice Tower is the Brocken Monument (169.5m).",
+      "answer_2": "1775"
+    },
+    "raw_response": "1775",
+    "qa_chain": [
+      {
+        "question": "What is the current tallest wooden lattice tower?",
+        "answer": "The Tallest Wooden Lattice Tower is the Brocken Monument (169.5m).",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was The Tallest Wooden Lattice Tower is the Brocken Monument (169.5m). completed?",
+        "answer": "1775",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:28",
+    "intermediate_questions": [
+      "What is the current tallest wooden lattice tower?",
+      "In what year was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0062_c69178e2",
+    "question": "In what country is the second tallest statue in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second tallest statue in the world?\")\nanswer_2: str = qa_model(\"In what country is the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "India",
+    "intermediate_answers": {
+      "answer_1": "Statue of Unity (India); 182 meters",
+      "answer_2": "India; Switzerland"
+    },
+    "raw_response": "India",
+    "qa_chain": [
+      {
+        "question": "What is the second tallest statue in the world?",
+        "answer": "Statue of Unity (India); 182 meters",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what country is the {answer_1}?",
+        "answer": "India; Switzerland",
+        "variable": "answer_2",
+        "multi_answer": true,
+        "resolved_questions": [
+          "In what country is the Statue of Unity (India)?",
+          "In what country is the 182 meters?"
+        ],
+        "individual_answers": [
+          "India",
+          "Switzerland"
+        ]
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:32",
+    "intermediate_questions": [
+      "What is the second tallest statue in the world?",
+      "In what country is the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0063_3eb28528",
+    "question": "When was the tallest ferris wheel in the world completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest ferris wheel in the world?\")\nanswer_2: str = qa_model(\"When was {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "2021-10-21",
+    "intermediate_answers": {
+      "answer_1": "The Tallest Ferris Wheel is the Ain Dubai (Dubai Eye), measuring approximately 250 meters.",
+      "answer_2": "2021-10-21"
+    },
+    "raw_response": "2021-10-21",
+    "qa_chain": [
+      {
+        "question": "What is the tallest ferris wheel in the world?",
+        "answer": "The Tallest Ferris Wheel is the Ain Dubai (Dubai Eye), measuring approximately 250 meters.",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was The Tallest Ferris Wheel is the Ain Dubai (Dubai Eye), measuring approximately 250 meters. completed?",
+        "answer": "2021-10-21",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:36",
+    "intermediate_questions": [
+      "What is the tallest ferris wheel in the world?",
+      "When was {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0064_647f7ea9",
+    "question": "In what year was the tallest lighthouse completed?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the tallest lighthouse in the world?\")\nanswer_2: str = qa_model(\"In what year was the {answer_1} completed?\", answer_1=answer_1)",
+    "final_answer": "1759",
+    "intermediate_answers": {
+      "answer_1": "Eddystone Lighthouse (height: 49.9 meters)",
+      "answer_2": "1759"
+    },
+    "raw_response": "1759",
+    "qa_chain": [
+      {
+        "question": "What is the tallest lighthouse in the world?",
+        "answer": "Eddystone Lighthouse (height: 49.9 meters)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was the Eddystone Lighthouse (height: 49.9 meters) completed?",
+        "answer": "1759",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:39",
+    "intermediate_questions": [
+      "What is the tallest lighthouse in the world?",
+      "In what year was the {answer_1} completed?"
+    ]
+  },
+  {
+    "id": "bamboogle_0065_66ea9139",
+    "question": "In what country is the world largest desalination plant?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the world's largest desalination plant?\")\nanswer_2: str = qa_model(\"In what country is {answer_1} located?\", answer_1=answer_1)",
+    "final_answer": "Saudi Arabia",
+    "intermediate_answers": {
+      "answer_1": "Shuqaiq-3 (Saudi Arabia)",
+      "answer_2": "Saudi Arabia"
+    },
+    "raw_response": "Saudi Arabia",
+    "qa_chain": [
+      {
+        "question": "What is the world's largest desalination plant?",
+        "answer": "Shuqaiq-3 (Saudi Arabia)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what country is Shuqaiq-3 (Saudi Arabia) located?",
+        "answer": "Saudi Arabia",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:42",
+    "intermediate_questions": [
+      "What is the world's largest desalination plant?",
+      "In what country is {answer_1} located?"
+    ]
+  },
+  {
+    "id": "bamboogle_0066_6b32e7f3",
+    "question": "The most populous national capital city was established in what year?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most populous national capital city?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} established?\", answer_1=answer_1)",
+    "final_answer": "1869",
+    "intermediate_answers": {
+      "answer_1": "Tokyo (Japan)",
+      "answer_2": "1869"
+    },
+    "raw_response": "1869",
+    "qa_chain": [
+      {
+        "question": "What is the most populous national capital city?",
+        "answer": "Tokyo (Japan)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was Tokyo (Japan) established?",
+        "answer": "1869",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:45",
+    "intermediate_questions": [
+      "What is the most populous national capital city?",
+      "In what year was {answer_1} established?"
+    ]
+  },
+  {
+    "id": "bamboogle_0067_c104c160",
+    "question": "The third largest river (by discharge) in the world is in what countries?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third largest river in the world by discharge?\")\nanswer_2: str = qa_model(\"The {answer_1} is in what countries?\", answer_1=answer_1)",
+    "final_answer": "Brazil; Peru",
+    "intermediate_answers": {
+      "answer_1": "Amazon River",
+      "answer_2": "Brazil; Peru"
+    },
+    "raw_response": "Brazil; Peru",
+    "qa_chain": [
+      {
+        "question": "What is the third largest river in the world by discharge?",
+        "answer": "Amazon River",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "The Amazon River is in what countries?",
+        "answer": "Brazil; Peru",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:50",
+    "intermediate_questions": [
+      "What is the third largest river in the world by discharge?",
+      "The {answer_1} is in what countries?"
+    ]
+  },
+  {
+    "id": "bamboogle_0068_895a496d",
+    "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second largest island in the world?\")\nanswer_2: str = qa_model(\"What is the highest elevation of {answer_1} in meters?\", answer_1=answer_1)",
+    "final_answer": "3230 meters explanation: The second largest island in the world is Greenland, and its highest elevation is 3230 meters.",
+    "intermediate_answers": {
+      "answer_1": "Greenland",
+      "answer_2": "3230 meters"
+    },
+    "raw_response": "answer: 3230 meters\n\nexplanation: The second largest island in the world is Greenland, and its highest elevation is 3230 meters.",
+    "qa_chain": [
+      {
+        "question": "What is the second largest island in the world?",
+        "answer": "Greenland",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the highest elevation of Greenland in meters?",
+        "answer": "3230 meters",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:52",
+    "intermediate_questions": [
+      "What is the second largest island in the world?",
+      "What is the highest elevation of {answer_1} in meters?"
+    ]
+  },
+  {
+    "id": "bamboogle_0069_eab55f39",
+    "question": "What is the length of the second deepest river in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second deepest river in the world?\")\nanswer_2: str = qa_model(\"What is the length of the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The length of the second deepest river in the world is 6437 kilometers.\n\nExplanation: Since we know the river is the Amazon River and its length is 6437 kilometers, the length remains unchanged regardless of depth ranking.",
+    "intermediate_answers": {
+      "answer_1": "Amazon River",
+      "answer_2": "6437 kilometers"
+    },
+    "raw_response": "The length of the second deepest river in the world is 6437 kilometers.\n\nExplanation: Since we know the river is the Amazon River and its length is 6437 kilometers, the length remains unchanged regardless of depth ranking.",
+    "qa_chain": [
+      {
+        "question": "What is the second deepest river in the world?",
+        "answer": "Amazon River",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the length of the Amazon River?",
+        "answer": "6437 kilometers",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:07:57",
+    "intermediate_questions": [
+      "What is the second deepest river in the world?",
+      "What is the length of the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0070_76e724e4",
+    "question": "In what country is the third largest stadium in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third largest stadium in the world?\")\nanswer_2: str = qa_model(\"In what country is {answer_1} located?\", answer_1=answer_1)",
+    "final_answer": "North Korea",
+    "intermediate_answers": {
+      "answer_1": "Rungrado May Day Stadium",
+      "answer_2": "North Korea"
+    },
+    "raw_response": "North Korea",
+    "qa_chain": [
+      {
+        "question": "What is the third largest stadium in the world?",
+        "answer": "Rungrado May Day Stadium",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what country is Rungrado May Day Stadium located?",
+        "answer": "North Korea",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:06",
+    "intermediate_questions": [
+      "What is the third largest stadium in the world?",
+      "In what country is {answer_1} located?"
+    ]
+  },
+  {
+    "id": "bamboogle_0071_312902b3",
+    "question": "Who is the largest aircraft carrier in the world is named after?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the largest aircraft carrier in the world?\")\nanswer_2: str = qa_model(\"Who is the {answer_1} named after?\", answer_1=answer_1)",
+    "final_answer": "Gerald R. Ford",
+    "intermediate_answers": {
+      "answer_1": "USS Gerald R. Ford (CVN-78)",
+      "answer_2": "Gerald R. Ford"
+    },
+    "raw_response": "Gerald R. Ford",
+    "qa_chain": [
+      {
+        "question": "What is the largest aircraft carrier in the world?",
+        "answer": "USS Gerald R. Ford (CVN-78)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who is the USS Gerald R. Ford (CVN-78) named after?",
+        "answer": "Gerald R. Ford",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:10",
+    "intermediate_questions": [
+      "What is the largest aircraft carrier in the world?",
+      "Who is the {answer_1} named after?"
+    ]
+  },
+  {
+    "id": "bamboogle_0072_70ea2630",
+    "question": "In what year did the oldest cat ever recorded with the Cat of the Year award?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the name of the oldest cat ever recorded?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} win the Cat of the Year award?\", answer_1=answer_1)",
+    "final_answer": "1986",
+    "intermediate_answers": {
+      "answer_1": "\"Creme Puff\"",
+      "answer_2": "1986"
+    },
+    "raw_response": "1986",
+    "qa_chain": [
+      {
+        "question": "What was the name of the oldest cat ever recorded?",
+        "answer": "\"Creme Puff\"",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year did \"Creme Puff\" win the Cat of the Year award?",
+        "answer": "1986",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:13",
+    "intermediate_questions": [
+      "What was the name of the oldest cat ever recorded?",
+      "In what year did {answer_1} win the Cat of the Year award?"
+    ]
+  },
+  {
+    "id": "bamboogle_0073_20cb1404",
+    "question": "In what year was the country that is the third largest exporter of coffee founded?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third largest exporter of coffee?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} founded?\", answer_1=answer_1)",
+    "final_answer": "938 CE",
+    "intermediate_answers": {
+      "answer_1": "Vietnam",
+      "answer_2": "Vietnam was originally unified as a nation in 938 CE under the Dinh dynasty. However, modern Vietnam did not exist until the French colonization in the 19th century."
+    },
+    "raw_response": "938 CE",
+    "qa_chain": [
+      {
+        "question": "What is the third largest exporter of coffee?",
+        "answer": "Vietnam",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year was Vietnam founded?",
+        "answer": "Vietnam was originally unified as a nation in 938 CE under the Dinh dynasty. However, modern Vietnam did not exist until the French colonization in the 19th century.",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:17",
+    "intermediate_questions": [
+      "What is the third largest exporter of coffee?",
+      "In what year was {answer_1} founded?"
+    ]
+  },
+  {
+    "id": "bamboogle_0074_444fb63b",
+    "question": "Who was the commander for the space mission that had the first spacewalk?",
+    "dsl_string": "answer_1: str = qa_model(\"Which space mission had the first spacewalk?\")\nanswer_2: str = qa_model(\"Who was the commander of the {answer_1} mission?\", answer_1=answer_1)",
+    "final_answer": "Commander Alexei Leonov",
+    "intermediate_answers": {
+      "answer_1": "Voskhod 2, 1965-10-18",
+      "answer_2": "Alexei Leonov"
+    },
+    "raw_response": "Commander Alexei Leonov",
+    "qa_chain": [
+      {
+        "question": "Which space mission had the first spacewalk?",
+        "answer": "Voskhod 2, 1965-10-18",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the commander of the Voskhod 2, 1965-10-18 mission?",
+        "answer": "Alexei Leonov",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:19",
+    "intermediate_questions": [
+      "Which space mission had the first spacewalk?",
+      "Who was the commander of the {answer_1} mission?"
+    ]
+  },
+  {
+    "id": "bamboogle_0075_c547bf6d",
+    "question": "Who is the predecessor of the longest-reigning British monarch?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the longest-reigning British monarch?\")\nanswer_2: str = qa_model(\"Who was the predecessor of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "King George VI Explanation: The longest-reigning British monarch is Queen Elizabeth II, so her predecessor is King George VI.",
+    "intermediate_answers": {
+      "answer_1": "Queen Elizabeth II",
+      "answer_2": "King George VI"
+    },
+    "raw_response": "Answer: King George VI\n\nExplanation: The longest-reigning British monarch is Queen Elizabeth II, so her predecessor is King George VI.",
+    "qa_chain": [
+      {
+        "question": "Who is the longest-reigning British monarch?",
+        "answer": "Queen Elizabeth II",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the predecessor of Queen Elizabeth II?",
+        "answer": "King George VI",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:22",
+    "intermediate_questions": [
+      "Who is the longest-reigning British monarch?",
+      "Who was the predecessor of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0076_f6a6ba5b",
+    "question": "In 2016, who was the host of the longest running talk show?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest running talk show?\")\nanswer_2: str = qa_model(\"Who was the host of '{answer_1}' in 2016?\", answer_1=answer_1)",
+    "final_answer": "Stephen Colbert explanation: The Longest Running Talk Show in 2016 was The Late Show with Stephen Colbert, hosted by Stephen Colbert himself.",
+    "intermediate_answers": {
+      "answer_1": "The Late Show with Stephen Colbert (since 2015)",
+      "answer_2": "Stephen Colbert"
+    },
+    "raw_response": "answer: Stephen Colbert\n\nexplanation: The Longest Running Talk Show in 2016 was The Late Show with Stephen Colbert, hosted by Stephen Colbert himself.",
+    "qa_chain": [
+      {
+        "question": "What is the longest running talk show?",
+        "answer": "The Late Show with Stephen Colbert (since 2015)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the host of 'The Late Show with Stephen Colbert (since 2015)' in 2016?",
+        "answer": "Stephen Colbert",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:25",
+    "intermediate_questions": [
+      "What is the longest running talk show?",
+      "Who was the host of '{answer_1}' in 2016?"
+    ]
+  },
+  {
+    "id": "bamboogle_0077_7cb17c41",
+    "question": "In 2016, who was the host of the longest running American game show?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest running American game show?\")\nanswer_2: str = qa_model(\"Who was the host of '{answer_1}' in 2016?\", answer_1=answer_1)",
+    "final_answer": "Alex Trebek",
+    "intermediate_answers": {
+      "answer_1": "Jeopardy! (since 1964)",
+      "answer_2": "Alex Trebek"
+    },
+    "raw_response": "Alex Trebek",
+    "qa_chain": [
+      {
+        "question": "What is the longest running American game show?",
+        "answer": "Jeopardy! (since 1964)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the host of 'Jeopardy! (since 1964)' in 2016?",
+        "answer": "Alex Trebek",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:40",
+    "intermediate_questions": [
+      "What is the longest running American game show?",
+      "Who was the host of '{answer_1}' in 2016?"
+    ]
+  },
+  {
+    "id": "bamboogle_0078_90b26dca",
+    "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest running show in Broadway history?\")\nanswer_2: str = qa_model(\"What novel is the show '{answer_1}' based on?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who wrote the novel '{answer_2}'?\", answer_2=answer_2)",
+    "final_answer": "Gaston Leroux",
+    "intermediate_answers": {
+      "answer_1": "\"The Phantom of the Opera\"",
+      "answer_2": "The Phantom of the Opera (novel)",
+      "answer_3": "Gaston Leroux"
+    },
+    "raw_response": "Gaston Leroux",
+    "qa_chain": [
+      {
+        "question": "What is the longest running show in Broadway history?",
+        "answer": "\"The Phantom of the Opera\"",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What novel is the show '\"The Phantom of the Opera\"' based on?",
+        "answer": "The Phantom of the Opera (novel)",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who wrote the novel 'The Phantom of the Opera (novel)'?",
+        "answer": "Gaston Leroux",
+        "variable": "answer_3",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:46",
+    "intermediate_questions": [
+      "What is the longest running show in Broadway history?",
+      "What novel is the show '{answer_1}' based on?",
+      "Who wrote the novel '{answer_2}'?"
+    ]
+  },
+  {
+    "id": "bamboogle_0079_4a0fafaf",
+    "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the only cruise line that flies the American flag?\")\nanswer_2: str = qa_model(\"In what country was {answer_1} incorporated?\", answer_1=answer_1)",
+    "final_answer": "Panama",
+    "intermediate_answers": {
+      "answer_1": "Carnival Cruise Line",
+      "answer_2": "Panama"
+    },
+    "raw_response": "Panama",
+    "qa_chain": [
+      {
+        "question": "What is the only cruise line that flies the American flag?",
+        "answer": "Carnival Cruise Line",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what country was Carnival Cruise Line incorporated?",
+        "answer": "Panama",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:50",
+    "intermediate_questions": [
+      "What is the only cruise line that flies the American flag?",
+      "In what country was {answer_1} incorporated?"
+    ]
+  },
+  {
+    "id": "bamboogle_0080_d07f4725",
+    "question": "In what year did work begin on the second longest road tunnel in the world?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second longest road tunnel in the world?\")\nanswer_2: str = qa_model(\"In what year did work begin on the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "2001",
+    "intermediate_answers": {
+      "answer_1": "Gotthard Base Tunnel, Switzerland",
+      "answer_2": "2001"
+    },
+    "raw_response": "2001",
+    "qa_chain": [
+      {
+        "question": "What is the second longest road tunnel in the world?",
+        "answer": "Gotthard Base Tunnel, Switzerland",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "In what year did work begin on the Gotthard Base Tunnel, Switzerland?",
+        "answer": "2001",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:53",
+    "intermediate_questions": [
+      "What is the second longest road tunnel in the world?",
+      "In what year did work begin on the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0081_cfd7f8b7",
+    "question": "What is the official color of the third oldest surviving university?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third oldest surviving university in the world?\")\nanswer_2: str = qa_model(\"What is the official color of the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The official color of the third oldest surviving university is blue.\n\nExplanation: Using the provided reasoning chain, we find that the third oldest surviving university is the University of Padua (founded in 1222), and its official color is blue.",
+    "intermediate_answers": {
+      "answer_1": "University of Padua (Italy), founded in 1222",
+      "answer_2": "Blue"
+    },
+    "raw_response": "The official color of the third oldest surviving university is blue.\n\nExplanation: Using the provided reasoning chain, we find that the third oldest surviving university is the University of Padua (founded in 1222), and its official color is blue.",
+    "qa_chain": [
+      {
+        "question": "What is the third oldest surviving university in the world?",
+        "answer": "University of Padua (Italy), founded in 1222",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the official color of the University of Padua (Italy), founded in 1222?",
+        "answer": "Blue",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:08:57",
+    "intermediate_questions": [
+      "What is the third oldest surviving university in the world?",
+      "What is the official color of the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0082_d66846e5",
+    "question": "Who succeeded the longest reigning Roman emperor?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the longest reigning Roman emperor?\")\nanswer_2: str = qa_model(\"Who succeeded {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Maximian and Galerius",
+    "intermediate_answers": {
+      "answer_1": "Diocletian (284-305 AD)",
+      "answer_2": "Maximian (286-305 AD), Galerius (293-311 AD)"
+    },
+    "raw_response": "Maximian and Galerius",
+    "qa_chain": [
+      {
+        "question": "Who was the longest reigning Roman emperor?",
+        "answer": "Diocletian (284-305 AD)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who succeeded Diocletian (284-305 AD)?",
+        "answer": "Maximian (286-305 AD), Galerius (293-311 AD)",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:00",
+    "intermediate_questions": [
+      "Who was the longest reigning Roman emperor?",
+      "Who succeeded {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0083_5d2276a6",
+    "question": "Who preceded the Roman emperor that declared war on the sea?",
+    "dsl_string": "answer_1: str = qa_model(\"Which Roman emperor declared war on the sea?\")\nanswer_2: str = qa_model(\"Who preceded {answer_1} as Roman emperor?\", answer_1=answer_1)",
+    "final_answer": "Tiberius",
+    "intermediate_answers": {
+      "answer_1": "Caligula",
+      "answer_2": "Tiberius"
+    },
+    "raw_response": "Tiberius",
+    "qa_chain": [
+      {
+        "question": "Which Roman emperor declared war on the sea?",
+        "answer": "Caligula",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who preceded Caligula as Roman emperor?",
+        "answer": "Tiberius",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:04",
+    "intermediate_questions": [
+      "Which Roman emperor declared war on the sea?",
+      "Who preceded {answer_1} as Roman emperor?"
+    ]
+  },
+  {
+    "id": "bamboogle_0084_6694d7d9",
+    "question": "Who produced the longest running video game franchise?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest running video game franchise?\")\nanswer_2: str = qa_model(\"Who produced the '{answer_1}' franchise?\", answer_1=answer_1)",
+    "final_answer": "Alexey Pajitnov",
+    "intermediate_answers": {
+      "answer_1": "Tetris (since 1984)",
+      "answer_2": "Alexey Pajitnov"
+    },
+    "raw_response": "Alexey Pajitnov",
+    "qa_chain": [
+      {
+        "question": "What is the longest running video game franchise?",
+        "answer": "Tetris (since 1984)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who produced the 'Tetris (since 1984)' franchise?",
+        "answer": "Alexey Pajitnov",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:06",
+    "intermediate_questions": [
+      "What is the longest running video game franchise?",
+      "Who produced the '{answer_1}' franchise?"
+    ]
+  },
+  {
+    "id": "bamboogle_0085_4ff2b919",
+    "question": "Who was the father of the father of psychoanalysis?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of psychoanalysis?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Amos Freud",
+    "intermediate_answers": {
+      "answer_1": "Sigmund Freud",
+      "answer_2": "Amos Freud"
+    },
+    "raw_response": "Amos Freud",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of psychoanalysis?",
+        "answer": "Sigmund Freud",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of Sigmund Freud?",
+        "answer": "Amos Freud",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:16",
+    "intermediate_questions": [
+      "Who is considered the father of psychoanalysis?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0086_998cb1bd",
+    "question": "Who was the father of the father of empiricism?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of empiricism?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Nicholas Bacon",
+    "intermediate_answers": {
+      "answer_1": "Francis Bacon",
+      "answer_2": "Nicholas Bacon"
+    },
+    "raw_response": "Nicholas Bacon",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of empiricism?",
+        "answer": "Francis Bacon",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of Francis Bacon?",
+        "answer": "Nicholas Bacon",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:18",
+    "intermediate_questions": [
+      "Who is considered the father of empiricism?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0087_12cdd074",
+    "question": "Who is the father of the father of observational astronomy?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of observational astronomy?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Vincenzo Galilei",
+    "intermediate_answers": {
+      "answer_1": "Galileo Galilei",
+      "answer_2": "Vincenzo Galilei"
+    },
+    "raw_response": "Vincenzo Galilei",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of observational astronomy?",
+        "answer": "Galileo Galilei",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of Galileo Galilei?",
+        "answer": "Vincenzo Galilei",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:20",
+    "intermediate_questions": [
+      "Who is considered the father of observational astronomy?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0088_f7654873",
+    "question": "Who is the father of the father of modern Hebrew?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of modern Hebrew?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Moshe Ben-Yehuda",
+    "intermediate_answers": {
+      "answer_1": "Eliezer Ben-Yehuda",
+      "answer_2": "Moshe Ben-Yehuda"
+    },
+    "raw_response": "Moshe Ben-Yehuda",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of modern Hebrew?",
+        "answer": "Eliezer Ben-Yehuda",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of Eliezer Ben-Yehuda?",
+        "answer": "Moshe Ben-Yehuda",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:22",
+    "intermediate_questions": [
+      "Who is considered the father of modern Hebrew?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0089_d8b6f09c",
+    "question": "Who is the father of the father of modern experimental psychology?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of modern experimental psychology?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Christian Friedrich Wundt",
+    "intermediate_answers": {
+      "answer_1": "Wilhelm Wundt",
+      "answer_2": "Christian Friedrich Wundt"
+    },
+    "raw_response": "Christian Friedrich Wundt",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of modern experimental psychology?",
+        "answer": "Wilhelm Wundt",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who is the father of Wilhelm Wundt?",
+        "answer": "Christian Friedrich Wundt",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:25",
+    "intermediate_questions": [
+      "Who is considered the father of modern experimental psychology?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0090_ecb49f7e",
+    "question": "Who is the father of the originator of cybernetics?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the originator of cybernetics?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Hugo Wiener explanation: The father of Norbert Wiener, who is the originator of cybernetics, is Hugo Wiener.",
+    "intermediate_answers": {
+      "answer_1": "Norbert Wiener",
+      "answer_2": "Hugo Wiener"
+    },
+    "raw_response": "answer: Hugo Wiener\n\nexplanation: The father of Norbert Wiener, who is the originator of cybernetics, is Hugo Wiener.",
+    "qa_chain": [
+      {
+        "question": "Who is the originator of cybernetics?",
+        "answer": "Norbert Wiener",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who is the father of Norbert Wiener?",
+        "answer": "Hugo Wiener",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:27",
+    "intermediate_questions": [
+      "Who is the originator of cybernetics?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0091_3845ed5d",
+    "question": "Who is the father of the father of the hydrogen bomb?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of the hydrogen bomb?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "George Teller",
+    "intermediate_answers": {
+      "answer_1": "Edward Teller",
+      "answer_2": "George Teller"
+    },
+    "raw_response": "George Teller",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of the hydrogen bomb?",
+        "answer": "Edward Teller",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who is the father of Edward Teller?",
+        "answer": "George Teller",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:31",
+    "intermediate_questions": [
+      "Who is considered the father of the hydrogen bomb?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0092_f3b51347",
+    "question": "Who was the father of the father of computer science?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of computer science?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "John Turing",
+    "intermediate_answers": {
+      "answer_1": "Alan Turing",
+      "answer_2": "John Turing"
+    },
+    "raw_response": "John Turing",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of computer science?",
+        "answer": "Alan Turing",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of Alan Turing?",
+        "answer": "John Turing",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:32",
+    "intermediate_questions": [
+      "Who is considered the father of computer science?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0093_f8df7c48",
+    "question": "Who was the father of the father of behaviorism?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of behaviorism?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The father of the father of behaviorism is fictional.\n\nExplanation: Since John Watson, who is considered the father of behaviorism, has a fictional father named Sherlock Holmes, his grandfather would also be fictional.",
+    "intermediate_answers": {
+      "answer_1": "John Watson",
+      "answer_2": "Sherlock Holmes [fictional character]"
+    },
+    "raw_response": "The father of the father of behaviorism is fictional.\n\nExplanation: Since John Watson, who is considered the father of behaviorism, has a fictional father named Sherlock Holmes, his grandfather would also be fictional.",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of behaviorism?",
+        "answer": "John Watson",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of John Watson?",
+        "answer": "Sherlock Holmes [fictional character]",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:35",
+    "intermediate_questions": [
+      "Who is considered the father of behaviorism?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0094_f6def5e8",
+    "question": "Who was the father of the founder of modern human anatomy?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the founder of modern human anatomy?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Joannes van Wesel",
+    "intermediate_answers": {
+      "answer_1": "Andreas Vesalius",
+      "answer_2": "Joannes van Wesel (or Jan van Wesel)"
+    },
+    "raw_response": "Joannes van Wesel",
+    "qa_chain": [
+      {
+        "question": "Who is the founder of modern human anatomy?",
+        "answer": "Andreas Vesalius",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of Andreas Vesalius?",
+        "answer": "Joannes van Wesel (or Jan van Wesel)",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:38",
+    "intermediate_questions": [
+      "Who is the founder of modern human anatomy?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0095_fa23ed5f",
+    "question": "What was the father of the last surviving Canadian father of Confederation?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the last surviving Canadian father of Confederation?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Louis-Joseph Cartier",
+    "intermediate_answers": {
+      "answer_1": "George-Étienne Cartier",
+      "answer_2": "Louis-Joseph Cartier"
+    },
+    "raw_response": "Louis-Joseph Cartier",
+    "qa_chain": [
+      {
+        "question": "Who was the last surviving Canadian father of Confederation?",
+        "answer": "George-Étienne Cartier",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of George-Étienne Cartier?",
+        "answer": "Louis-Joseph Cartier",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:41",
+    "intermediate_questions": [
+      "Who was the last surviving Canadian father of Confederation?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0096_df47c5e5",
+    "question": "When was the person who said “Now, I am become Death, the destroyer of worlds.” born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who said the quote “Now, I am become Death, the destroyer of worlds.”?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1904-04-22\n\nExplanation: The person who said \"Now, I am become Death, the destroyer of worlds.\" is J. Robert Oppenheimer, and he was born on April 22, 1904.",
+    "intermediate_answers": {
+      "answer_1": "J. Robert Oppenheimer",
+      "answer_2": "1904-04-22"
+    },
+    "raw_response": "1904-04-22\n\nExplanation: The person who said \"Now, I am become Death, the destroyer of worlds.\" is J. Robert Oppenheimer, and he was born on April 22, 1904.",
+    "qa_chain": [
+      {
+        "question": "Who said the quote âNow, I am become Death, the destroyer of worlds.â?",
+        "answer": "J. Robert Oppenheimer",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was J. Robert Oppenheimer born?",
+        "answer": "1904-04-22",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:43",
+    "intermediate_questions": [
+      "Who said the quote âNow, I am become Death, the destroyer of worlds.â?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0097_eb1ca032",
+    "question": "Who was the father of the father of information theory?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the father of information theory?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Grace Godcharles Shannon",
+    "intermediate_answers": {
+      "answer_1": "Claude Shannon",
+      "answer_2": "Grace Godcharles Shannon"
+    },
+    "raw_response": "Grace Godcharles Shannon",
+    "qa_chain": [
+      {
+        "question": "Who is considered the father of information theory?",
+        "answer": "Claude Shannon",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the father of Claude Shannon?",
+        "answer": "Grace Godcharles Shannon",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:47",
+    "intermediate_questions": [
+      "Who is considered the father of information theory?",
+      "Who was the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0098_0c225f4e",
+    "question": "When was the person who delivered the \"Quit India\" speech born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who delivered the 'Quit India' speech?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1869-10-02",
+    "intermediate_answers": {
+      "answer_1": "Mohandas Gandhi",
+      "answer_2": "1869-10-02"
+    },
+    "raw_response": "1869-10-02",
+    "qa_chain": [
+      {
+        "question": "Who delivered the 'Quit India' speech?",
+        "answer": "Mohandas Gandhi",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was Mohandas Gandhi born?",
+        "answer": "1869-10-02",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:50",
+    "intermediate_questions": [
+      "Who delivered the 'Quit India' speech?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0099_1b62d67b",
+    "question": "When did the president who warned about the military industrial complex die?",
+    "dsl_string": "answer_1: str = qa_model(\"Which president warned about the military industrial complex?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1969-03-28\n\nExplanation: The president who warned about the military industrial complex was Eisenhower, and he died on March 28th, 1969.",
+    "intermediate_answers": {
+      "answer_1": "Eisenhower",
+      "answer_2": "1969-03-28"
+    },
+    "raw_response": "1969-03-28\n\nExplanation: The president who warned about the military industrial complex was Eisenhower, and he died on March 28th, 1969.",
+    "qa_chain": [
+      {
+        "question": "Which president warned about the military industrial complex?",
+        "answer": "Eisenhower",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did Eisenhower die?",
+        "answer": "1969-03-28",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:53",
+    "intermediate_questions": [
+      "Which president warned about the military industrial complex?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0100_0b9ce56c",
+    "question": "When did the president who said Tear Down This Wall die?",
+    "dsl_string": "answer_1: str = qa_model(\"Which president said 'Tear Down This Wall'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1985-06-05\n\nExplanation: The president who said 'Tear Down This Wall' was Ronald Reagan, and he died on June 5th, 1985.",
+    "intermediate_answers": {
+      "answer_1": "Ronald Reagan",
+      "answer_2": "1985-06-05"
+    },
+    "raw_response": "1985-06-05\n\nExplanation: The president who said 'Tear Down This Wall' was Ronald Reagan, and he died on June 5th, 1985.",
+    "qa_chain": [
+      {
+        "question": "Which president said 'Tear Down This Wall'?",
+        "answer": "Ronald Reagan",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did Ronald Reagan die?",
+        "answer": "1985-06-05",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:56",
+    "intermediate_questions": [
+      "Which president said 'Tear Down This Wall'?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0101_5fc6a795",
+    "question": "What is the lowest elevation of the longest railway tunnel?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest railway tunnel?\")\nanswer_2: str = qa_model(\"What is the lowest elevation of the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "No answer can be determined from the provided data since it doesn't specify a particular location within the Gotthard Base Tunnel.",
+    "intermediate_answers": {
+      "answer_1": "Gotthard Base Tunnel (CH); 57.1 km",
+      "answer_2": "570.9m (sea level); The question does not specify a location for the 57.1 km stretch, so I cannot determine its lowest elevation without additional information."
+    },
+    "raw_response": "No answer can be determined from the provided data since it doesn't specify a particular location within the Gotthard Base Tunnel.",
+    "qa_chain": [
+      {
+        "question": "What is the longest railway tunnel?",
+        "answer": "Gotthard Base Tunnel (CH); 57.1 km",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the lowest elevation of the {answer_1}?",
+        "answer": "570.9m (sea level); The question does not specify a location for the 57.1 km stretch, so I cannot determine its lowest elevation without additional information.",
+        "variable": "answer_2",
+        "multi_answer": true,
+        "resolved_questions": [
+          "What is the lowest elevation of the Gotthard Base Tunnel (CH)?",
+          "What is the lowest elevation of the 57.1 km?"
+        ],
+        "individual_answers": [
+          "570.9m (sea level)",
+          "The question does not specify a location for the 57.1 km stretch, so I cannot determine its lowest elevation without additional information."
+        ]
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:09:59",
+    "intermediate_questions": [
+      "What is the longest railway tunnel?",
+      "What is the lowest elevation of the {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0102_b0751786",
+    "question": "When did the person who said \"Cogito, ergo sum.\" die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who said 'Cogito, ergo sum.'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1650-12-11 explanation: The person who said \"Cogito, ergo sum.\" was René Descartes, and he died on December 11th, 1650.",
+    "intermediate_answers": {
+      "answer_1": "René Descartes",
+      "answer_2": "1650-12-11"
+    },
+    "raw_response": "answer: 1650-12-11\n\nexplanation: The person who said \"Cogito, ergo sum.\" was René Descartes, and he died on December 11th, 1650.",
+    "qa_chain": [
+      {
+        "question": "Who said 'Cogito, ergo sum.'?",
+        "answer": "René Descartes",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did René Descartes die?",
+        "answer": "1650-12-11",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:06",
+    "intermediate_questions": [
+      "Who said 'Cogito, ergo sum.'?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0103_912f993b",
+    "question": "When did the person who delivered the Gettysburg Address die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who delivered the Gettysburg Address?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "1865-04-15\n\nExplanation: The delivery of the Gettysburg Address was by Abraham Lincoln, and he died on April 15th, 1865.",
+    "intermediate_answers": {
+      "answer_1": "Abraham Lincoln",
+      "answer_2": "1865-04-15"
+    },
+    "raw_response": "1865-04-15\n\nExplanation: The delivery of the Gettysburg Address was by Abraham Lincoln, and he died on April 15th, 1865.",
+    "qa_chain": [
+      {
+        "question": "Who delivered the Gettysburg Address?",
+        "answer": "Abraham Lincoln",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did Abraham Lincoln die?",
+        "answer": "1865-04-15",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:10",
+    "intermediate_questions": [
+      "Who delivered the Gettysburg Address?",
+      "When did {answer_1} die?"
+    ]
+  },
+  {
+    "id": "bamboogle_0104_aef80091",
+    "question": "Who was governor of Florida during Hurricane Irma?",
+    "dsl_string": "answer_1: str = qa_model(\"When did Hurricane Irma occur?\")\nanswer_2: str = qa_model(\"Who was the governor of Florida in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Rick Scott explanation: The hurricane occurred on August 30, 2017, and at that time, Rick Scott was the governor of Florida.",
+    "intermediate_answers": {
+      "answer_1": "2017-08-30",
+      "answer_2": "Rick Scott"
+    },
+    "raw_response": "answer: Rick Scott\n\nexplanation: The hurricane occurred on August 30, 2017, and at that time, Rick Scott was the governor of Florida.",
+    "qa_chain": [
+      {
+        "question": "When did Hurricane Irma occur?",
+        "answer": "2017-08-30",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the governor of Florida in 2017-08-30?",
+        "answer": "Rick Scott",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:13",
+    "intermediate_questions": [
+      "When did Hurricane Irma occur?",
+      "Who was the governor of Florida in {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0105_f2071bcb",
+    "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+    "dsl_string": "answer_1: str = qa_model(\"Who won the 2007 Ballon d'Or?\")\nanswer_2: str = qa_model(\"Which club did {answer_1} play for in 2012?\", answer_1=answer_1)",
+    "final_answer": "AC Milan explanation: The 2007 Ballon d'Or was won by Kaká, who played for AC Milan in 2012.",
+    "intermediate_answers": {
+      "answer_1": "Kaká",
+      "answer_2": "AC Milan"
+    },
+    "raw_response": "answer: AC Milan\n\nexplanation: The 2007 Ballon d'Or was won by Kaká, who played for AC Milan in 2012.",
+    "qa_chain": [
+      {
+        "question": "Who won the 2007 Ballon d'Or?",
+        "answer": "Kaká",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Which club did Kaká play for in 2012?",
+        "answer": "AC Milan",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:16",
+    "intermediate_questions": [
+      "Who won the 2007 Ballon d'Or?",
+      "Which club did {answer_1} play for in 2012?"
+    ]
+  },
+  {
+    "id": "bamboogle_0106_c5cfc537",
+    "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+    "dsl_string": "answer_1: str = qa_model(\"Which country was the champion of the 2010 World Cup?\")\nanswer_2: str = qa_model(\"What's the capital city of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Madrid explanation: The capital city of the country that won the 2010 World Cup is Madrid because Spain was the champion of the 2010 World Cup, and its capital city is Madrid.",
+    "intermediate_answers": {
+      "answer_1": "Spain",
+      "answer_2": "Madrid"
+    },
+    "raw_response": "answer: Madrid\n\nexplanation: The capital city of the country that won the 2010 World Cup is Madrid because Spain was the champion of the 2010 World Cup, and its capital city is Madrid.",
+    "qa_chain": [
+      {
+        "question": "Which country was the champion of the 2010 World Cup?",
+        "answer": "Spain",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What's the capital city of Spain?",
+        "answer": "Madrid",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:19",
+    "intermediate_questions": [
+      "Which country was the champion of the 2010 World Cup?",
+      "What's the capital city of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0107_4ca74523",
+    "question": "When was the anime studio that made Sword Art Online founded?",
+    "dsl_string": "answer_1: str = qa_model(\"Which anime studio made Sword Art Online?\")\nanswer_2: str = qa_model(\"When was {answer_1} founded?\", answer_1=answer_1)",
+    "final_answer": "2012-07-01",
+    "intermediate_answers": {
+      "answer_1": "A-1 Pictures",
+      "answer_2": "2012-07-01"
+    },
+    "raw_response": "2012-07-01",
+    "qa_chain": [
+      {
+        "question": "Which anime studio made Sword Art Online?",
+        "answer": "A-1 Pictures",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was A-1 Pictures founded?",
+        "answer": "2012-07-01",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:25",
+    "intermediate_questions": [
+      "Which anime studio made Sword Art Online?",
+      "When was {answer_1} founded?"
+    ]
+  },
+  {
+    "id": "bamboogle_0108_65486b64",
+    "question": "Who was the first king of the longest Chinese dynasty?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the longest Chinese dynasty?\")\nanswer_2: str = qa_model(\"Who was the first king of the {answer_1} dynasty?\", answer_1=answer_1)",
+    "final_answer": "Shunzhi\n\nExplanation: The first king of the longest Chinese dynasty, which is the Qing dynasty, is Shunzhi.",
+    "intermediate_answers": {
+      "answer_1": "Qing (1644-1912)",
+      "answer_2": "Shunzhi"
+    },
+    "raw_response": "Shunzhi\n\nExplanation: The first king of the longest Chinese dynasty, which is the Qing dynasty, is Shunzhi.",
+    "qa_chain": [
+      {
+        "question": "What was the longest Chinese dynasty?",
+        "answer": "Qing (1644-1912)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the first king of the Qing (1644-1912) dynasty?",
+        "answer": "Shunzhi",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:27",
+    "intermediate_questions": [
+      "What was the longest Chinese dynasty?",
+      "Who was the first king of the {answer_1} dynasty?"
+    ]
+  },
+  {
+    "id": "bamboogle_0109_92684d66",
+    "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+    "dsl_string": "answer_1: str = qa_model(\"Which dynasty succeeded the Song dynasty?\")\nanswer_2: str = qa_model(\"Who was the last emperor of the {answer_1} dynasty?\", answer_1=answer_1)",
+    "final_answer": "Toghon Temur explanation: The Yuan dynasty succeeded the Song dynasty, and Toghon Temur was the last emperor of the Yuan dynasty.",
+    "intermediate_answers": {
+      "answer_1": "Yuan dynasty",
+      "answer_2": "Toghon Temur"
+    },
+    "raw_response": "answer: Toghon Temur\n\nexplanation: The Yuan dynasty succeeded the Song dynasty, and Toghon Temur was the last emperor of the Yuan dynasty.",
+    "qa_chain": [
+      {
+        "question": "Which dynasty succeeded the Song dynasty?",
+        "answer": "Yuan dynasty",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the last emperor of the Yuan dynasty dynasty?",
+        "answer": "Toghon Temur",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:34",
+    "intermediate_questions": [
+      "Which dynasty succeeded the Song dynasty?",
+      "Who was the last emperor of the {answer_1} dynasty?"
+    ]
+  },
+  {
+    "id": "bamboogle_0110_3800034a",
+    "question": "What's the motto of the oldest California State university?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the oldest California State university?\")\nanswer_2: str = qa_model(\"What is the motto of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Motto: Fiat Lux",
+    "intermediate_answers": {
+      "answer_1": "University of California, Berkeley (1868)",
+      "answer_2": "Fiat Lux"
+    },
+    "raw_response": "Motto: Fiat Lux",
+    "qa_chain": [
+      {
+        "question": "What is the oldest California State university?",
+        "answer": "University of California, Berkeley (1868)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the motto of University of California, Berkeley (1868)?",
+        "answer": "Fiat Lux",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:37",
+    "intermediate_questions": [
+      "What is the oldest California State university?",
+      "What is the motto of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0111_3bd3261a",
+    "question": "What's the capital of the state that the College of William & Mary is in?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is the College of William & Mary located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Richmond explanation: The College of William & Mary is located in Virginia, and the capital of Virginia is Richmond.",
+    "intermediate_answers": {
+      "answer_1": "Virginia",
+      "answer_2": "Richmond"
+    },
+    "raw_response": "answer: Richmond\n\nexplanation: The College of William & Mary is located in Virginia, and the capital of Virginia is Richmond.",
+    "qa_chain": [
+      {
+        "question": "In which state is the College of William & Mary located?",
+        "answer": "Virginia",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the capital of Virginia?",
+        "answer": "Richmond",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:41",
+    "intermediate_questions": [
+      "In which state is the College of William & Mary located?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0112_282427bc",
+    "question": "What's the capital of the state that Washington University in St. Louis is in?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is Washington University in St. Louis located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The capital of the state where Washington University in St. Louis is located is Jefferson City.\n\nExplanation: From the provided reasoning chain, we find out that Washington University in St. Louis is located in Missouri, and then determine its capital city.",
+    "intermediate_answers": {
+      "answer_1": "Missouri",
+      "answer_2": "Jefferson City"
+    },
+    "raw_response": "The capital of the state where Washington University in St. Louis is located is Jefferson City.\n\nExplanation: From the provided reasoning chain, we find out that Washington University in St. Louis is located in Missouri, and then determine its capital city.",
+    "qa_chain": [
+      {
+        "question": "In which state is Washington University in St. Louis located?",
+        "answer": "Missouri",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the capital of Missouri?",
+        "answer": "Jefferson City",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:44",
+    "intermediate_questions": [
+      "In which state is Washington University in St. Louis located?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0113_1b2b3f5c",
+    "question": "What's the capital of the state that Harvard University is in?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is Harvard University located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The capital of the state where Harvard University is located is Boston.\n\nExplanation: Using the provided reasoning chain, we find out that Harvard University is located in Massachusetts, then determine that the capital of Massachusetts is Boston.",
+    "intermediate_answers": {
+      "answer_1": "Massachusetts",
+      "answer_2": "Boston"
+    },
+    "raw_response": "The capital of the state where Harvard University is located is Boston.\n\nExplanation: Using the provided reasoning chain, we find out that Harvard University is located in Massachusetts, then determine that the capital of Massachusetts is Boston.",
+    "qa_chain": [
+      {
+        "question": "In which state is Harvard University located?",
+        "answer": "Massachusetts",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the capital of Massachusetts?",
+        "answer": "Boston",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:48",
+    "intermediate_questions": [
+      "In which state is Harvard University located?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0114_069ae026",
+    "question": "What's the capital of the state that the Space Needle is at?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is the Space Needle located?\")\nanswer_2: str = qa_model(\"What is the capital of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Olympia explanation: The Space Needle is located in Washington, and its capital is Olympia.",
+    "intermediate_answers": {
+      "answer_1": "Washington",
+      "answer_2": "Olympia"
+    },
+    "raw_response": "answer: Olympia\n\nexplanation: The Space Needle is located in Washington, and its capital is Olympia.",
+    "qa_chain": [
+      {
+        "question": "In which state is the Space Needle located?",
+        "answer": "Washington",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the capital of Washington?",
+        "answer": "Olympia",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:52",
+    "intermediate_questions": [
+      "In which state is the Space Needle located?",
+      "What is the capital of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0115_b9849ebd",
+    "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+    "dsl_string": "answer_1: str = qa_model(\"When was the most recent Summer Olympics held in London?\")\nanswer_2: str = qa_model(\"Which team won the women's volleyball tournament at the {answer_1} Summer Olympics?\", answer_1=answer_1)",
+    "final_answer": "Serbia explanation: The most recent Summer Olympics held in London occurred on 2012-07-27, and during that event, Serbia won the women's volleyball tournament.",
+    "intermediate_answers": {
+      "answer_1": "2012-07-27",
+      "answer_2": "Serbia"
+    },
+    "raw_response": "answer: Serbia\n\nexplanation: The most recent Summer Olympics held in London occurred on 2012-07-27, and during that event, Serbia won the women's volleyball tournament.",
+    "qa_chain": [
+      {
+        "question": "When was the most recent Summer Olympics held in London?",
+        "answer": "2012-07-27",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Which team won the women's volleyball tournament at the 2012-07-27 Summer Olympics?",
+        "answer": "Serbia",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:54",
+    "intermediate_questions": [
+      "When was the most recent Summer Olympics held in London?",
+      "Which team won the women's volleyball tournament at the {answer_1} Summer Olympics?"
+    ]
+  },
+  {
+    "id": "bamboogle_0116_082827a9",
+    "question": "What is the nickname of the easternmost U.S. state?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the easternmost U.S. state?\")\nanswer_2: str = qa_model(\"What is the nickname of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The nickname of the easternmost U.S. state is Sunshine State.\n\nExplanation: This answer follows from the sequence of questions and their respective answers by connecting the easternmost U.S. state (Florida) with its nickname (Sunshine State).",
+    "intermediate_answers": {
+      "answer_1": "Florida",
+      "answer_2": "Sunshine State"
+    },
+    "raw_response": "The nickname of the easternmost U.S. state is Sunshine State.\n\nExplanation: This answer follows from the sequence of questions and their respective answers by connecting the easternmost U.S. state (Florida) with its nickname (Sunshine State).",
+    "qa_chain": [
+      {
+        "question": "What is the easternmost U.S. state?",
+        "answer": "Florida",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the nickname of Florida?",
+        "answer": "Sunshine State",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:10:58",
+    "intermediate_questions": [
+      "What is the easternmost U.S. state?",
+      "What is the nickname of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0117_dfe819b3",
+    "question": "What is the nickname for the state that is the home to the “Avocado Capital of the World\"?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is the 'Avocado Capital of the World' located?\")\nanswer_2: str = qa_model(\"What is the nickname of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The nickname for the state that is the home to the “Avocado Capital of the World” is the Golden State.\n\nExplanation: From the reasoning chain, we find out that the Avocado Capital of the World is located in California, and its nickname is the Golden State.",
+    "intermediate_answers": {
+      "answer_1": "California",
+      "answer_2": "Golden State"
+    },
+    "raw_response": "The nickname for the state that is the home to the “Avocado Capital of the World” is the Golden State.\n\nExplanation: From the reasoning chain, we find out that the Avocado Capital of the World is located in California, and its nickname is the Golden State.",
+    "qa_chain": [
+      {
+        "question": "In which state is the 'Avocado Capital of the World' located?",
+        "answer": "California",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the nickname of California?",
+        "answer": "Golden State",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:00",
+    "intermediate_questions": [
+      "In which state is the 'Avocado Capital of the World' located?",
+      "What is the nickname of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0118_33946144",
+    "question": "What rocket was used for the mission that landed the first humans on the moon?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the mission that landed the first humans on the moon?\")\nanswer_2: str = qa_model(\"What rocket was used for the {answer_1} mission?\", answer_1=answer_1)",
+    "final_answer": "Saturn V explanation: The question asks about the rocket used for the mission that landed the first humans on the moon. This can be answered by knowing which mission did so (Apollo 11), then finding out what rocket was used for that specific mission (Saturn V).",
+    "intermediate_answers": {
+      "answer_1": "Apollo 11",
+      "answer_2": "Saturn V"
+    },
+    "raw_response": "answer: Saturn V\n\nexplanation: The question asks about the rocket used for the mission that landed the first humans on the moon. This can be answered by knowing which mission did so (Apollo 11), then finding out what rocket was used for that specific mission (Saturn V).",
+    "qa_chain": [
+      {
+        "question": "What was the mission that landed the first humans on the moon?",
+        "answer": "Apollo 11",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What rocket was used for the Apollo 11 mission?",
+        "answer": "Saturn V",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:05",
+    "intermediate_questions": [
+      "What was the mission that landed the first humans on the moon?",
+      "What rocket was used for the {answer_1} mission?"
+    ]
+  },
+  {
+    "id": "bamboogle_0119_b01b3580",
+    "question": "When did the war that Neil Armstrong served in end?",
+    "dsl_string": "answer_1: str = qa_model(\"In which war did Neil Armstrong serve?\")\nanswer_2: str = qa_model(\"When did the {answer_1} end?\", answer_1=answer_1)",
+    "final_answer": "1953-07-27",
+    "intermediate_answers": {
+      "answer_1": "Korean War (Armstrong was a U.S. Navy pilot but didn't see combat during this conflict.)",
+      "answer_2": "1953-07-27"
+    },
+    "raw_response": "1953-07-27",
+    "qa_chain": [
+      {
+        "question": "In which war did Neil Armstrong serve?",
+        "answer": "Korean War (Armstrong was a U.S. Navy pilot but didn't see combat during this conflict.)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When did the Korean War (Armstrong was a U.S. Navy pilot but didn't see combat during this conflict.) end?",
+        "answer": "1953-07-27",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:08",
+    "intermediate_questions": [
+      "In which war did Neil Armstrong serve?",
+      "When did the {answer_1} end?"
+    ]
+  },
+  {
+    "id": "bamboogle_0120_b1384212",
+    "question": "What is the nickname for the state that Mount Rainier is located in?",
+    "dsl_string": "answer_1: str = qa_model(\"In which state is Mount Rainier located?\")\nanswer_2: str = qa_model(\"What is the nickname for the state of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Evergreen State",
+    "intermediate_answers": {
+      "answer_1": "Washington",
+      "answer_2": "Evergreen State"
+    },
+    "raw_response": "Evergreen State",
+    "qa_chain": [
+      {
+        "question": "In which state is Mount Rainier located?",
+        "answer": "Washington",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What is the nickname for the state of Washington?",
+        "answer": "Evergreen State",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:12",
+    "intermediate_questions": [
+      "In which state is Mount Rainier located?",
+      "What is the nickname for the state of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0121_864a9200",
+    "question": "When was the composer of Carol of the Bells born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who composed 'Carol of the Bells'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "final_answer": "1877-10-19\n\nExplanation: The composer of 'Carol of the Bells', Mykola Leontovych, was born on October 19th, 1877.",
+    "intermediate_answers": {
+      "answer_1": "Mykola Leontovych",
+      "answer_2": "1877-10-19"
+    },
+    "raw_response": "1877-10-19\n\nExplanation: The composer of 'Carol of the Bells', Mykola Leontovych, was born on October 19th, 1877.",
+    "qa_chain": [
+      {
+        "question": "Who composed 'Carol of the Bells'?",
+        "answer": "Mykola Leontovych",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "When was Mykola Leontovych born?",
+        "answer": "1877-10-19",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:14",
+    "intermediate_questions": [
+      "Who composed 'Carol of the Bells'?",
+      "When was {answer_1} born?"
+    ]
+  },
+  {
+    "id": "bamboogle_0122_7a7aef7c",
+    "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+    "dsl_string": "answer_1: str = qa_model(\"Which scientist at MIT won the Queen Elizabeth Prize for Engineering in 2013?\")\nanswer_2: str = qa_model(\"Who is the father of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "No father-son relationship found.",
+    "intermediate_answers": {
+      "answer_1": "Barish (Rainer Weiss)",
+      "answer_2": "Rainer Weiss does not have a son named Barish."
+    },
+    "raw_response": "No father-son relationship found.",
+    "qa_chain": [
+      {
+        "question": "Which scientist at MIT won the Queen Elizabeth Prize for Engineering in 2013?",
+        "answer": "Barish (Rainer Weiss)",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who is the father of Barish (Rainer Weiss)?",
+        "answer": "Rainer Weiss does not have a son named Barish.",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:17",
+    "intermediate_questions": [
+      "Which scientist at MIT won the Queen Elizabeth Prize for Engineering in 2013?",
+      "Who is the father of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0123_faadb1ea",
+    "question": "Who was the mother of the emperor of Japan during World War I?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the emperor of Japan during World War I?\")\nanswer_2: str = qa_model(\"Who was the mother of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Empress Haruko (Empress Consort Higashikuni) explanation: The mother of Emperor Meiji, who ruled Japan during World War I, is Empress Haruko.",
+    "intermediate_answers": {
+      "answer_1": "Emperor Meiji",
+      "answer_2": "Empress Haruko (Empress Consort Higashikuni)"
+    },
+    "raw_response": "answer: Empress Haruko (Empress Consort Higashikuni)\n\nexplanation: The mother of Emperor Meiji, who ruled Japan during World War I, is Empress Haruko.",
+    "qa_chain": [
+      {
+        "question": "Who was the emperor of Japan during World War I?",
+        "answer": "Emperor Meiji",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Who was the mother of Emperor Meiji?",
+        "answer": "Empress Haruko (Empress Consort Higashikuni)",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:21",
+    "intermediate_questions": [
+      "Who was the emperor of Japan during World War I?",
+      "Who was the mother of {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0124_383038d1",
+    "question": "Which element has an atomic number that is double that of hydrogen?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the atomic number of hydrogen?\")\nanswer_2: str = qa_model(\"Which element has an atomic number that is double {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "The element is Helium.\n\nExplanation: In the reasoning chain, we found that Hydrogen has an atomic number of 1. Then, we looked for an element whose atomic number was double that of Hydrogen, which led us to Helium.",
+    "intermediate_answers": {
+      "answer_1": "1",
+      "answer_2": "Helium"
+    },
+    "raw_response": "The element is Helium.\n\nExplanation: In the reasoning chain, we found that Hydrogen has an atomic number of 1. Then, we looked for an element whose atomic number was double that of Hydrogen, which led us to Helium.",
+    "qa_chain": [
+      {
+        "question": "What is the atomic number of hydrogen?",
+        "answer": "1",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "Which element has an atomic number that is double 1?",
+        "answer": "Helium",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:26",
+    "intermediate_questions": [
+      "What is the atomic number of hydrogen?",
+      "Which element has an atomic number that is double {answer_1}?"
+    ]
+  },
+  {
+    "id": "bamboogle_0125_0be878d1",
+    "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+    "dsl_string": "answer_1: str = qa_model(\"For which Olympic Games were the Fuwa the mascots?\")\nanswer_2: str = qa_model(\"What was the motto of the {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Motto of the Olympics with Fuwa as mascots: \"One World One Dream\"",
+    "intermediate_answers": {
+      "answer_1": "Beijing 2008 Olympics",
+      "answer_2": "\"One World One Dream\""
+    },
+    "raw_response": "Motto of the Olympics with Fuwa as mascots: \"One World One Dream\"",
+    "qa_chain": [
+      {
+        "question": "For which Olympic Games were the Fuwa the mascots?",
+        "answer": "Beijing 2008 Olympics",
+        "variable": "answer_1",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      },
+      {
+        "question": "What was the motto of the Beijing 2008 Olympics?",
+        "answer": "\"One World One Dream\"",
+        "variable": "answer_2",
+        "multi_answer": false,
+        "resolved_questions": [],
+        "individual_answers": []
+      }
+    ],
+    "success": true,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "timestamp": "2025-11-19 20:11:28",
+    "intermediate_questions": [
+      "For which Olympic Games were the Fuwa the mascots?",
+      "What was the motto of the {answer_1}?"
+    ]
+  }
+]

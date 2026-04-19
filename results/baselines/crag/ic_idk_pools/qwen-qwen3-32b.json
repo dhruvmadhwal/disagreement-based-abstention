@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "dataset": "data/processed/crag/crag_icidk_raw_100.json",
+    "model_slug": "qwen-qwen3-32b",
+    "pool_start": 0,
+    "pool_size": 100,
+    "total_scored": 29,
+    "selected_correct": 11,
+    "selected_incorrect": 4,
+    "target_correct": 11,
+    "target_incorrect": 4,
+    "early_stop": true
+  },
+  "records": [
+    {
+      "id": "aa813da1-481f-4fb2-89ef-2bc8c2da4dba",
+      "question": "how much have digital album sales decreased in the us from 2013 to 2019?",
+      "gold": "78.7 million less or a -66.7% decrease",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "78.7 million less or a -66.7% decrease",
+      "raw_response": "answer:\nDigital album sales in the US declined by approximately 68% from 2013 to 2019.",
+      "judge_reasoning": "The gold answer provides a percentage decrease of -66.7% and an absolute decrease. The prediction provides a percentage decrease of 68%. The difference between 66.7% and 68% is 1.3 percentage points, which falls within the allowed 1-5.5 percentage-point window for naturally drifting values. The prediction providing only the percentage decrease is acceptable as per the subset allowance rule, as the question does not explicitly ask for all metrics.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer provides a percentage decrease of -66.7% and an absolute decrease. The prediction provides a percentage decrease of 68%. The difference between 66.7% and 68% is 1.3 percentage points, which falls within the allowed 1-5.5 percentage-point window for naturally drifting values. The prediction providing only the percentage decrease is acceptable as per the subset allowance rule, as the question does not explicitly ask for all metrics.\"\n}\n```"
+    },
+    {
+      "id": "f4f22219-7389-4940-8197-1f511acac053",
+      "question": "what are the 2 longest rivers in nevada?",
+      "gold": "the 2 longest rivers in nevada are the colorado river and the humboldt river.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "the 2 longest rivers in nevada are the colorado river and the humboldt river.",
+      "raw_response": "answer:\nColorado River; Humboldt River",
+      "judge_reasoning": "The prediction lists the same two rivers as the gold answer. Extra descriptive text in the gold is ignored, and the order of items in a list is not critical when not specified by the question.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same two rivers as the gold answer. Extra descriptive text in the gold is ignored, and the order of items in a list is not critical when not specified by the question.\"\n}\n```"
+    },
+    {
+      "id": "ede7b552-c56b-4947-9269-1d67fa90fb18",
+      "question": "which movie won the oscar best animated feature film in 2015?",
+      "gold": "big hero 6",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "big hero 6",
+      "raw_response": "answer:\nBig Hero 6",
+      "judge_reasoning": "The prediction 'Big Hero 6' is identical to the gold answer 'big hero 6', ignoring case.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Big Hero 6' is identical to the gold answer 'big hero 6', ignoring case.\"\n}\n```"
+    },
+    {
+      "id": "3fcd37bc-2a2d-4766-aba8-cb9708349c48",
+      "question": "who hosted the grammy awards in 2019?",
+      "gold": "alicia keys",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nNo host",
+      "judge_reasoning": "The prediction 'No host' directly contradicts the gold answer 'alicia keys', which states that Alicia Keys hosted the Grammy Awards in 2019.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'No host' directly contradicts the gold answer 'alicia keys', which states that Alicia Keys hosted the Grammy Awards in 2019.\"\n}\n```"
+    },
+    {
+      "id": "4782dfd1-c169-477f-b688-f8103de15865",
+      "question": "who is the lead singer of the band coldplay?",
+      "gold": "chris martin",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "chris martin",
+      "raw_response": "answer:\nChris Martin",
+      "judge_reasoning": "The prediction 'Chris Martin' matches the gold answer 'chris martin' after applying case normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chris Martin' matches the gold answer 'chris martin' after applying case normalization.\"\n}\n```"
+    },
+    {
+      "id": "b587e2da-5fd4-43fa-a3c1-77fce0939969",
+      "question": "what is the capital of australia?",
+      "gold": "canberra",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "canberra",
+      "raw_response": "answer:\nCanberra",
+      "judge_reasoning": "The prediction 'Canberra' is identical to the gold answer 'canberra' after applying case normalization (Rule 1).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Canberra' is identical to the gold answer 'canberra' after applying case normalization (Rule 1).\"\n}\n```"
+    },
+    {
+      "id": "503bb259-cafb-4a36-972b-480cc4ed52cb",
+      "question": "who were the members of the band led zeppelin?",
+      "gold": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "raw_response": "answer:\nRobert Plant; Jimmy Page; John Paul Jones; John Bonham",
+      "judge_reasoning": "The prediction lists the same members of Led Zeppelin as the gold answer. Case, punctuation, and extra descriptive text are ignored.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same members of Led Zeppelin as the gold answer. Case, punctuation, and extra descriptive text are ignored.\"\n}\n```"
+    },
+    {
+      "id": "9a294a8a-210a-4ed6-9c58-baa3e422a557",
+      "question": "what album did fergie release in 2006, which included the songs \"fergalicious\" and \"glamorous\"?",
+      "gold": "fergie released the album \"the dutchess\" in 2006, which included the songs \"fergalicious\" and \"glamorous\".",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "fergie released the album \"the dutchess\" in 2006, which included the songs \"fergalicious\" and \"glamorous\".",
+      "raw_response": "answer:\nThe Dutchess",
+      "judge_reasoning": "The prediction provides the correct album title, which is the core information requested by the question. The gold answer includes additional context that is not strictly necessary for the evaluation, and the prediction is a direct and accurate answer to the question. Case normalization applies to 'the dutchess' vs 'The Dutchess'.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides the correct album title, which is the core information requested by the question. The gold answer includes additional context that is not strictly necessary for the evaluation, and the prediction is a direct and accurate answer to the question. Case normalization applies to 'the dutchess' vs 'The Dutchess'.\"\n}\n```"
+    },
+    {
+      "id": "d73e9716-0b0d-4a5b-9bdd-98a6ca835640",
+      "question": "how many times has pete sampras won the french open singles title?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\n2",
+      "judge_reasoning": "The gold answer states \"invalid question,\" implying that the premise of the question is flawed or that it cannot be answered meaningfully with a number. The prediction provides a specific numerical answer (\"2\"). This directly contradicts the gold's assessment that the question is invalid. Furthermore, Pete Sampras never won the French Open, so the factual answer is 0, making the prediction of \"2\" incorrect on its own merits as well.\n\n```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'invalid question' indicates that the question's premise is flawed or unanswerable in a straightforward numerical way. The prediction '2' provides a specific numerical answer, which contradicts the gold's assessment of the question's validity. Additionally, Pete Sampras never won the French Open, so the prediction is factually incorrect.\"\n}\n```",
+      "judge_raw_response": "The gold answer states \"invalid question,\" implying that the premise of the question is flawed or that it cannot be answered meaningfully with a number. The prediction provides a specific numerical answer (\"2\"). This directly contradicts the gold's assessment that the question is invalid. Furthermore, Pete Sampras never won the French Open, so the factual answer is 0, making the prediction of \"2\" incorrect on its own merits as well.\n\n```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer 'invalid question' indicates that the question's premise is flawed or unanswerable in a straightforward numerical way. The prediction '2' provides a specific numerical answer, which contradicts the gold's assessment of the question's validity. Additionally, Pete Sampras never won the French Open, so the prediction is factually incorrect.\"\n}\n```"
+    },
+    {
+      "id": "1cc0706a-ac4d-46e2-b8b8-e386ec8f4de4",
+      "question": "on what date did mapsw begin distributing dividends to its investors?",
+      "gold": "none of the days",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "none of the days",
+      "raw_response": "answer:\nUnknown",
+      "judge_reasoning": "Both 'none of the days' and 'Unknown' convey that the information is not available or that the event did not occur, making them semantically equivalent in this context.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"Both 'none of the days' and 'Unknown' convey that the information is not available or that the event did not occur, making them semantically equivalent in this context.\"\n}\n```"
+    },
+    {
+      "id": "dafa6e14-f4b2-43a7-9b5d-467ea102d7ce",
+      "question": "what are the four great lakes in michigan?",
+      "gold": "superior, michigan, huron and erie.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "superior, michigan, huron and erie.",
+      "raw_response": "answer:\nLake Superior; Lake Michigan; Lake Huron; Lake Erie",
+      "judge_reasoning": "The prediction lists the same four lakes as the gold answer. The addition of 'Lake' before each name and the use of semicolons instead of commas are acceptable normalizations and do not change the essential facts.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same four lakes as the gold answer. The addition of 'Lake' before each name and the use of semicolons instead of commas are acceptable normalizations and do not change the essential facts.\"\n}\n```"
+    },
+    {
+      "id": "aa0d473b-01fb-424a-97d5-d6b714c8b03d",
+      "question": "what song topped the billboard chart on 2004-02-04?",
+      "gold": "hey ya!",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nHow Deep Is Your Love \u2014 *Bryan Adams*; *The Weeknd*",
+      "judge_reasoning": "The prediction 'How Deep Is Your Love' is a different song than the gold answer 'hey ya!', directly contradicting the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'How Deep Is Your Love' is a different song than the gold answer 'hey ya!', directly contradicting the gold fact.\"\n}\n```"
+    },
+    {
+      "id": "4f917818-f833-47c4-ab0c-96edbb7e0668",
+      "question": "what is the original language of what we left behind: looking back at star trek: deep space nine?",
+      "gold": "en",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "en",
+      "raw_response": "answer:\nEnglish",
+      "judge_reasoning": "The prediction 'English' is an equivalent form of the gold answer 'en' (ISO 639-1 code for English), falling under alias/abbreviation normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'English' is an equivalent form of the gold answer 'en' (ISO 639-1 code for English), falling under alias/abbreviation normalization.\"\n}\n```"
+    },
+    {
+      "id": "0672b85d-ca23-4258-a5cd-3f0335f8f7e1",
+      "question": "when was \"soul\" released on hulu?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\n2020-12-25",
+      "judge_reasoning": "The gold answer states the question is 'invalid question', implying no factual answer can be given. The prediction provides a specific date, which contradicts the gold's assessment of the question's validity.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The gold answer states the question is 'invalid question', implying no factual answer can be given. The prediction provides a specific date, which contradicts the gold's assessment of the question's validity.\"\n}\n```"
+    },
+    {
+      "id": "dc5f06b6-165b-4664-964a-82dd0a1c0784",
+      "question": "what movie won the most oscars, lincoln or the girl with the dragon tattoo?",
+      "gold": "lincoln",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "lincoln",
+      "raw_response": "answer:\nLincoln",
+      "judge_reasoning": "The prediction 'Lincoln' matches the gold answer 'lincoln' after case normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Lincoln' matches the gold answer 'lincoln' after case normalization.\"\n}\n```"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+    "question": "how long is the longest river in alabama?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the longest river in Alabama?\")\nanswer_2: str = qa_model(\"How long is the {answer_1} river?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+    "question": "what was the 76ers' record the year allen iverson won mvp?",
+    "dsl": "answer_1: str = qa_model(\"In which year did Allen Iverson win MVP?\")\nanswer_2: str = qa_model(\"What was the Philadelphia 76ers' record in the NBA season of {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+    "question": "when did the lead actor of naked gun die?",
+    "dsl": "answer_1: str = qa_model(\"Who was the lead actor in The Naked Gun?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+    "question": "what was the profession of kim kardashian's second spouse?",
+    "dsl": "answer_1: str = qa_model(\"Who was Kim Kardashian's second spouse?\")\nanswer_2: str = qa_model(\"What was the profession of {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+    "question": "where did the lead designer of fortran get his m.s. from?",
+    "dsl": "answer_1: str = qa_model(\"Who is the lead designer of Fortran?\")\nanswer_2: str = qa_model(\"Where did {answer_1} get his M.S. from?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+    "question": "what is the driving side in mallorca?",
+    "dsl": "answer_1: str = qa_model(\"What is the driving side in Mallorca?\")",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+    "question": "what is the elevation of the capital of nebraska?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital of Nebraska?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+    "question": "what age did abraham lincoln begin his presidency?",
+    "dsl": "answer_1: str = qa_model(\"When did Abraham Lincoln become president?\")\nanswer_2: str = qa_model(\"What was Abraham Lincoln's age when he became president?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+    "question": "at what age did usher perform in the half time show of superbowl?",
+    "dsl": "answer_1: str = qa_model(\"In which year did Usher perform in the Super Bowl halftime show?\")\nanswer_2: str = qa_model(\"What was Usher's age in {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+    "question": "when did the lead actor of die hard get married?",
+    "dsl": "answer_1: str = qa_model(\"Who was the lead actor in the film 'Die Hard' (1988)?\")\nanswer_2: str = qa_model(\"When did {answer_1} get married?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "118896a1-8124-482a-9201-4aaf1903618d",
+    "question": "when was green day's third studio album released?",
+    "dsl": "answer_1: str = qa_model(\"What is Green Day's third studio album?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+    "question": "at what age was lorne michaels when he produced his first film?",
+    "dsl": "answer_1: str = qa_model(\"What was Lorne Michaels' first film as a producer?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} produced?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was Lorne Michaels born?\")\nanswer_4: str = qa_model(\"What is the difference between {answer_2} and {answer_3}?\", answer_2=answer_2, answer_3=answer_3)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+    "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+    "dsl": "answer_1: str = qa_model(\"Who is the lead designer of Java (programming language)?\")\nanswer_2: str = qa_model(\"Where did {answer_1} receive his Ph.D.?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+    "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+    "dsl": "answer_1: str = qa_model(\"Who played the female lead\u89d2\u8272 in the movie 'The Matrix'?\") \n\nNote: The word \"\u89d2\u8272\" means \"role\" in Chinese. It seems there might be an encoding issue with your input. If you meant to ask about the English language version, it should read:\n```python\nanswer_1: str = qa_model(\"Who played the female lead role in the movie 'The Matrix'?\")\n```",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "e06676aa-efc3-4763-b196-e105596cc643",
+    "question": "can you tell me what other songs the same artist released in the same year as my time?",
+    "dsl": "answer_1: str = qa_model(\"Who sang the song 'My Time'?\")\nanswer_2: str = qa_model(\"In which year was the song 'My Time' released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What other songs did {answer_1} release in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+    "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+    "dsl": "answer_1: str = qa_model(\"Who played the role of a lawyer with no law degree in the TV show 'Suits'?\")",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+    "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+    "dsl": "answer_1: str = qa_model(\"What year was Kobe Bryant's rookie season with the Lakers?\")\nanswer_2: str = qa_model(\"Who was the head coach of the Los Angeles Lakers in {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+    "question": "how many feet is the place with the lowest elevation in vermont?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the place with the lowest elevation in Vermont?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1} in feet?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+    "question": "how old was leonardo dicaprio when he won best actor award?",
+    "dsl": "answer_1: str = qa_model(\"When did Leonardo DiCaprio win his Best Actor Oscar?\")\nanswer_2: str = qa_model(\"What year was Leonardo DiCaprio born?\")\nanswer_3: str = qa_model(\"How old was Leonardo DiCaprio in {answer_1} if he was born in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "e525e6b2-4865-4610-a73b-79438c724255",
+    "question": "what was the first studio album from the group that michael jackson was in?",
+    "dsl": "answer_1: str = qa_model(\"What group was Michael Jackson a part of early in his career?\")\nanswer_2: str = qa_model(\"What was the first studio album by {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+    "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+    "dsl": "answer_1: str = qa_model(\"When was Henry Rollins born?\")\nanswer_2: str = qa_model(\"What year was the documentary 'Henry Rollins Goes to London' released?\")\nanswer_3: str = qa_model(\"What is the difference between {answer_2} and {answer_1}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "91f3cf34-49bf-4da4-97ce-a04f3fc57467",
+    "question": "what was mike epps's age at the time of next friday's release?",
+    "dsl": "answer_1: str = qa_model(\"When was Mike Epps born?\")\nanswer_2: str = qa_model(\"What is the release date of the movie 'Next Friday'?\")\nanswer_3: str = qa_model(\"What is the difference between {answer_2} and {answer_1} in years?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "75e54c83-f11b-413e-aebc-909bf3d436da",
+    "question": "who wrote the theme song for the movie ghostbusters (1984)?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the theme song for the movie 'Ghostbusters' (1984)?\")\nanswer_2: str = qa_model(\"Who wrote the song '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "55ea20e8-c0da-48be-8e02-d4d6bec6c27d",
+    "question": "when forest whitaker won his/her first oscar best actor, which movie won the best picture?",
+    "dsl": "answer_1: str = qa_model(\"When did Forest Whitaker win his first Oscar for Best Actor?\")\nanswer_2: str = qa_model(\"What movie won the Academy Award for Best Picture in the year {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "207250e7-d0a6-4b17-9072-5496c7ff6380",
+    "question": "what was taylor swifts age when she released her debut album?",
+    "dsl": "answer_1: str = qa_model(\"When did Taylor Swift release her debut album?\")\nanswer_2: str = qa_model(\"What was Taylor Swift's age in {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "5db90d97-9b5a-422b-a46a-ca401cfd2074",
+    "question": "can you tell me the name of the leading lady who starred in the film that won the best picture award at the 2007 oscars?",
+    "dsl": "answer_1: str = qa_model(\"What film won the Best Picture award at the 2007 Oscars?\")\nanswer_2: str = qa_model(\"Who was the leading lady in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "54f26611-03ad-4284-95dc-015c050946b8",
+    "question": "can you tell me the name of the actress who starred in the film that won the best picture oscar in 2018?",
+    "dsl": "answer_1: str = qa_model(\"Which film won the Best Picture Oscar in 2018?\")\nanswer_2: str = qa_model(\"Who was the leading actress in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "cfc875b9-4cac-456b-a7a8-df23c9dab754",
+    "question": "who was the first actress and what year to play the role of catwoman in a live-action movie?",
+    "dsl": "answer_1: str = qa_model(\"Who was the first actress to play Catwoman in a live-action movie?\")\nanswer_2: str = qa_model(\"In which year did {answer_1} play Catwoman in a live-action movie?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "92e81984-b349-493a-b735-6b6e90cccb75",
+    "question": "what country is the company that developed fuga: melodies of steel 2 based in?",
+    "dsl": "answer_1: str = qa_model(\"Which company developed FUGA: Melodies of Steel 2?\")\nanswer_2: str = qa_model(\"What country is {answer_1} based in?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "e6fe70a3-61b9-4b6f-b953-9ec181806b7d",
+    "question": "can you tell me the name of the actress who starred in the film that won the best picture oscar in 1993?",
+    "dsl": "answer_1: str = qa_model(\"What film won the Best Picture Oscar in 1993?\")\nanswer_2: str = qa_model(\"Who was the leading actress in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "6bafd51e-ba95-4f7f-b06f-4a1661f788a8",
+    "question": "when tom hanks won their first academy award for best actor, which film was recognized as the best picture?",
+    "dsl": "answer_1: str = qa_model(\"When did Tom Hanks win his first Academy Award for Best Actor?\")\nanswer_2: str = qa_model(\"What film did Tom Hanks star in when he won his first Academy Award for Best Actor?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What film won the Academy Award for Best Picture in the year {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "e042412e-c4f6-4a2e-b8c2-e550cbb3a144",
+    "question": "who was the first actress to play the role of a female assassin in a live-action movie?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the first live-action movie featuring a female assassin?\")\nanswer_2: str = qa_model(\"Who played the role of the female assassin in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "fd3e847c-5742-46fd-be45-3a07189f226a",
+    "question": "who finished in second the year max verstappen won his first championship?",
+    "dsl": "answer_1: str = qa_model(\"In which year did Max Verstappen win his first Formula One World Championship?\")\nanswer_2: str = qa_model(\"Who finished in second place in the Formula One World Championship in {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "758a8ddc-41d5-4175-a41c-c31fb1e1fc97",
+    "question": "how did the nasdaq composite index perform the year of the covid crash?",
+    "dsl": "answer_1: str = qa_model(\"What year did the COVID-19 market crash occur?\")\nanswer_2: str = qa_model(\"How did the NASDAQ Composite Index perform in {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "765b506f-a77a-406e-88ad-05a08b549b02",
+    "question": "what is the symbol of the constellation that includes altair?",
+    "dsl": "answer_1: str = qa_model(\"To which constellation does Altair belong?\")\nanswer_2: str = qa_model(\"What is the symbol of the constellation {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "bdaa3dcc-1673-4425-9f11-a2e81bcd3e37",
+    "question": "can you tell me which country the artist who won the best new artist in 54th grammy (2011) was born?",
+    "dsl": "answer_1: str = qa_model(\"Who won Best New Artist at the 54th Grammy Awards in 2011?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "7d02db15-45be-4168-99da-a5e0a48fbd9e",
+    "question": "what is the top artist in the most popular music genre in 2015?",
+    "dsl": "answer_1: str = qa_model(\"What was the most popular music genre in 2015?\")\nanswer_2: str = qa_model(\"Who was the top artist in {answer_1} in 2015?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "67a1ef25-0e22-4224-a90e-f9fc9374a479",
+    "question": "at the time gary oldman won their first best actor oscar, which movie was honored with the best picture award?",
+    "dsl": "answer_1: str = qa_model(\"When did Gary Oldman win his first Best Actor Oscar?\")\nanswer_2: str = qa_model(\"What movie won the Best Picture Oscar in the same year Gary Oldman won his first Best Actor Oscar?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "470ed1c7-8a71-4c0c-9be8-bb1fe82ce59f",
+    "question": "what is the elevation of the capital of ohio?",
+    "dsl": "answer_1: str = qa_model(\"What is the capital of Ohio?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "9db3fe70-c7e9-4f0d-bba7-647bb246df99",
+    "question": "at what age was michelle trachtenberg in her film debut?",
+    "dsl": "answer_1: str = qa_model(\"What was Michelle Trachtenberg's film debut?\")\nanswer_2: str = qa_model(\"At what age did Michelle Trachtenberg appear in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "21da19e6-56a8-439a-92ec-09d3af005ac6",
+    "question": "when did drake release his first album?",
+    "dsl": "answer_1: str = qa_model(\"What is Drake's first studio album?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "1b4e6ba6-f847-432b-a109-83b191589bc4",
+    "question": "who was head coach of the colts in peyton manning's rookie year?",
+    "dsl": "answer_1: str = qa_model(\"What year was Peyton Manning's rookie season with the Indianapolis Colts?\")\nanswer_2: str = qa_model(\"Who was the head coach of the Indianapolis Colts in {answer_1}?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "e1685144-072d-498c-a0bf-d2ca9ad939fa",
+    "question": "what is the first song on drake's second album?",
+    "dsl": "answer_1: str = qa_model(\"What is Drake's second studio album?\")\nanswer_2: str = qa_model(\"What is the first track on the album '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "8b5b18ec-269d-4be9-8fcb-6eebacd3ddd2",
+    "question": "what school did the 2016 heisman trophy winner play for?",
+    "dsl": "answer_1: str = qa_model(\"Who won the Heisman Trophy in 2016?\")\nanswer_2: str = qa_model(\"What college did {answer_1} attend?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "41dea43b-d187-4844-b33a-a46e3879dd96",
+    "question": "how many locations were filmed in the bourne movie released in 2004?",
+    "dsl": "answer_1: str = qa_model(\"What is the Bourne movie released in 2004 called?\")\nanswer_2: str = qa_model(\"How many filming locations were used for the movie '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "8895f09f-1ccf-49fe-9ab0-dbeabc3a2d54",
+    "question": "what country is prince harry's wife from?",
+    "dsl": "answer_1: str = qa_model(\"Who is Prince Harry's wife?\")\nanswer_2: str = qa_model(\"What country is {answer_1} from?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  },
+  {
+    "id": "bc1da7f4-87e3-4f8d-9cf0-f48345f2aa8d",
+    "question": "can you tell me the name of the artist who won the award for song of the year in 49th grammy (2006)?",
+    "dsl": "answer_1: str = qa_model(\"What was the Song of the Year at the 49th Grammy Awards (2006)?\")\nanswer_2: str = qa_model(\"Who performed the song '{answer_1}'?\", answer_1=answer_1)",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "model_slug": "qwen-qwen2-5-72b-instruct",
+    "success": true
+  }
+]

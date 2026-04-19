@@ -1,0 +1,494 @@
+{
+  "bamboogle_0001_6e6f1060": {
+    "correct": 0,
+    "reasoning": "The gold answer 'James Madison' was president in 1812 when Citibank was founded. The prediction 'Lyndon B. Johnson' was president much later (1963-1969), which is a direct factual contradiction."
+  },
+  "bamboogle_0002_175308b7": {
+    "correct": 0,
+    "reasoning": "The prediction identifies 'Columbia-class Space Shuttle Columbia' as the rocket, which is incorrect. The gold answer 'Titan IIIE' is the correct rocket. The prediction contradicts the gold fact."
+  },
+  "bamboogle_0003_891e0e7b": {
+    "correct": 0,
+    "reasoning": "The gold answer states the year is 1999, while the prediction states 1980. These are distinct years and contradict each other."
+  },
+  "bamboogle_0004_cf977e2d": {
+    "correct": 1,
+    "reasoning": "The prediction adds a middle initial ('N.') to the gold answer's name ('David Dinkins'), which is considered extra detail and does not contradict or change the essential fact of who the person is. The first and last names match."
+  },
+  "bamboogle_0005_8f814452": {
+    "correct": 0,
+    "reasoning": "The prediction's date (1936-01-20) does not match the gold date (20 June 1837). Calendar dates must match exactly."
+  },
+  "bamboogle_0006_3b420e8a": {
+    "correct": 0,
+    "reasoning": "The gold answer provides the full date (April 30, 1789), while the prediction only provides the year (1789). Calendar dates must match exactly, and the prediction is missing the month and day."
+  },
+  "bamboogle_0007_6e7bd693": {
+    "correct": 1,
+    "reasoning": "The prediction provides the exact same date as the gold answer, just in a different format (YYYY-MM-DD vs Month Day, Year). This is a formatting normalization."
+  },
+  "bamboogle_0008_c3368d53": {
+    "correct": 0,
+    "reasoning": "The predicted number of deaths (1,655) is significantly different from the gold answer (131). The difference of 1524 is well outside the allowed numeric tolerance (max(0.5, 1% of 131) = 1.31), and the percentage difference (7.92%) is also outside the 1-5.5 percentage-point window for naturally drifting values."
+  },
+  "bamboogle_0010_1a9c312e": {
+    "correct": 0,
+    "reasoning": "The prediction provides a different book title ('The Expression of the Emotions in Man and Animals') than the gold answer ('The Formation of Vegetable Mould Through the Action of Worms'). These are distinct works by Charles Darwin, and the prediction is not his final book."
+  },
+  "bamboogle_0011_0671c011": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0012_3aefbc54": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies Erika Cheung as a Theranos whistleblower not related to a senior American government official. The prediction names Elizabeth Holmes and Sunny Balwani, neither of whom were whistleblowers; they were the founder/CEO and COO of Theranos, respectively, and were prosecuted for fraud. Therefore, the prediction contradicts the gold answer by identifying incorrect individuals and misrepresenting their roles."
+  },
+  "bamboogle_0013_bbc4d2bd": {
+    "correct": -1,
+    "reasoning": "The prediction 'No' is a refusal and does not answer the question about the material. This falls under the 'not meaningful' category."
+  },
+  "bamboogle_0014_af764bd2": {
+    "correct": -1,
+    "reasoning": "The question asks for a specific entity (who built the aircraft), not a yes/no answer. The prediction 'Yes' does not provide the requested information and is therefore not meaningful."
+  },
+  "bamboogle_0015_ab770108": {
+    "correct": 0,
+    "reasoning": "The gold answer states May 29, 1932, while the prediction states 1932-07-28. The month and day do not match, and calendar dates require an exact match."
+  },
+  "bamboogle_0016_035dab06": {
+    "correct": -1,
+    "reasoning": "The prediction is a refusal to answer the question, stating that it cannot be answered based on available information, which falls under the 'not meaningful' category."
+  },
+  "bamboogle_0017_ba5fef1d": {
+    "correct": 0,
+    "reasoning": "The gold answer states the religion was 'Jewish', while the prediction states the inventor was 'agnostic'. These are contradictory religious affiliations."
+  },
+  "bamboogle_0018_6de30b3d": {
+    "correct": 0,
+    "reasoning": "The prediction 'Robin Leach' is a different name than the gold answer 'Jane Shirley Smith', directly contradicting the gold fact."
+  },
+  "bamboogle_0019_68cc9ada": {
+    "correct": 0,
+    "reasoning": "The year (1905) and day (6) match, but the month (November vs March) does not. Calendar dates must match exactly."
+  },
+  "bamboogle_0020_24d97e82": {
+    "correct": 1,
+    "reasoning": "Case normalization: 'Cholesterol' and 'cholesterol' are equivalent."
+  },
+  "bamboogle_0022_6cd1bf3c": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies a birth location (Oranienburg, Germany), while the prediction lists two universities (Tsinghua University; National Central University). These are different types of entities and do not convey the same information."
+  },
+  "bamboogle_0023_f3912b79": {
+    "correct": 0,
+    "reasoning": "The question asks for the birth date of the person who shared the Nobel Prize in Physics in 1954 with Max Born. This person was Walther Bothe, whose birth date was January 8, 1891 (the gold answer). The prediction provides birth dates for Wolfgang Pauli and Werner Heisenberg, neither of whom shared the 1954 Nobel Prize with Max Born, thus contradicting the gold fact."
+  },
+  "bamboogle_0024_d326facb": {
+    "correct": 0,
+    "reasoning": "The prediction's month (September) contradicts the gold's month (March). Calendar dates must match exactly."
+  },
+  "bamboogle_0025_6534f07a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Calcite' is the same as the gold answer 'calcite' after applying case normalization."
+  },
+  "bamboogle_0026_2aa186e5": {
+    "correct": 0,
+    "reasoning": "Mercia was one of the Anglo-Saxon kingdoms, while England refers to the unified country that emerged later. The prediction 'England' is a broader and historically distinct entity from the specific kingdom of 'Mercia'."
+  },
+  "bamboogle_0027_b6ed7ee5": {
+    "correct": 1,
+    "reasoning": "Case normalization: 'Centrifugal Force' and 'Centrifugal force' are considered equivalent."
+  },
+  "bamboogle_0028_ec928c44": {
+    "correct": 1,
+    "reasoning": "The prediction 'l' is identical to the gold answer 'l'."
+  },
+  "bamboogle_0029_45dd51fa": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0030_e46296ae": {
+    "correct": 1,
+    "reasoning": "The prediction 'airline pilot' includes the essential fact 'pilot' from the gold answer. The additional information 'Harrison Ford is a licensed airline' is extra detail but does not contradict the gold fact, adhering to Rule 8 (Extra detail)."
+  },
+  "bamboogle_0031_09f34243": {
+    "correct": 0,
+    "reasoning": "The prediction's month (April) contradicts the gold's month (November), although the year and day match. Calendar dates must match exactly."
+  },
+  "bamboogle_0032_11e51f29": {
+    "correct": 0,
+    "reasoning": "The gold answer states April 22, 1994, while the prediction states 1994-04-27. Calendar dates must match exactly, and the day (22 vs 27) is different."
+  },
+  "bamboogle_0033_3ac04942": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies 'April 20, 1966' while the prediction states '1966-04-17'. Calendar dates must match exactly according to tolerance rule 2, and the day (20 vs 17) is different."
+  },
+  "bamboogle_0034_b73fc285": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0035_f61df3cd": {
+    "correct": 0,
+    "reasoning": "The predicted numerical value (78 km/h) is significantly different from the gold numerical value (320 km/h). The difference of 242 km/h is far outside the allowed numeric tolerance."
+  },
+  "bamboogle_0036_11031c0f": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Alexander the Great' founded the city (Alexandria, where Euclid lived), while the prediction states 'Ptolemy I Soter'. These are two different historical figures, and Alexander the Great is credited with founding Alexandria. Therefore, the prediction contradicts the gold fact."
+  },
+  "bamboogle_0037_be0f74dc": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0038_b587d315": {
+    "correct": 0,
+    "reasoning": "The prediction 'Dürener Straße' is a street name and does not match the gold answer 'Colonia Claudia Ara Agrippinensium', which was the original Roman name for Cologne (the fourth largest city in Germany)."
+  },
+  "bamboogle_0039_7e165501": {
+    "correct": 0,
+    "reasoning": "The prediction's day (21) does not match the gold's day (13). Calendar dates must match exactly according to Rule 2."
+  },
+  "bamboogle_0040_55991d31": {
+    "correct": 0,
+    "reasoning": "The prediction 'Physician' directly contradicts the gold answer 'wool merchant'. These are distinct professions."
+  },
+  "bamboogle_0041_79c1014c": {
+    "correct": 0,
+    "reasoning": "The gold answer is 10.8 and the prediction is 12. The absolute difference is 1.2. The allowed numerical tolerance is max(0.5, 1% of 10.8) = max(0.5, 0.108) = 0.5. Since 1.2 > 0.5, the prediction falls outside the acceptable tolerance range."
+  },
+  "bamboogle_0042_56fa9e0c": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0043_d65a05e7": {
+    "correct": 0,
+    "reasoning": "The gold answer states the area is 310 square kilometers, while the prediction states 1,867 km². These numerical values are significantly different and fall outside the allowed numeric tolerance (1% of the reference or 0.5)."
+  },
+  "bamboogle_0044_f8e3e961": {
+    "correct": 0,
+    "reasoning": "The gold answer is 847 and the prediction is ~60. The absolute difference is 787, which is far outside the allowed tolerance of max(0.5, 1% of 847) = 8.47. The prediction is significantly different from the gold answer."
+  },
+  "bamboogle_0045_38628071": {
+    "correct": 0,
+    "reasoning": "The prediction (175) is numerically significantly different from the gold answer (52). The difference (123) far exceeds the allowed tolerance of max(0.5, 1% of 52 = 0.52)."
+  },
+  "bamboogle_0046_0e09f340": {
+    "correct": 0,
+    "reasoning": "The prediction 'James E. Webb' is a different individual than the gold answer 'Thomas O. Paine', making it a direct contradiction."
+  },
+  "bamboogle_0047_2b5facaa": {
+    "correct": 0,
+    "reasoning": "The gold answer correctly identifies Lawrence Washington as George Washington's paternal grandfather. The prediction states Augustine Washington, who was George Washington's father, not his grandfather, thus contradicting the gold fact."
+  },
+  "bamboogle_0048_847035a6": {
+    "correct": 0,
+    "reasoning": "The gold answer, Mildred Warner, was the mother of Augustine Washington (George Washington's father), making her George Washington's paternal grandmother. The prediction, Mary Ball Washington, was George Washington's mother and Augustine Washington's second wife. The prediction is factually incorrect for the question asked."
+  },
+  "bamboogle_0049_fb51af7c": {
+    "correct": 0,
+    "reasoning": "The prediction provides a different name ('Barack Hussein Onley II') than the gold answer ('Hussein Onyango Obama') for the same individual, which is a direct contradiction."
+  },
+  "bamboogle_0050_43f80844": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Habiba Akumu Nyanjango' is Barack Obama's paternal grandmother (mother of Barack Obama Sr.). The prediction 'Ann Dunham' is Barack Obama's mother. These are different individuals, making the prediction incorrect."
+  },
+  "bamboogle_0051_ff4cece0": {
+    "correct": 0,
+    "reasoning": "The prediction names 'Fiorello H. La Guardia' as the mayor, which directly contradicts the gold answer 'William Russell Grace'. These are two different individuals."
+  },
+  "bamboogle_0052_19a8da47": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0053_440fdd60": {
+    "correct": 0,
+    "reasoning": "The prediction '1911-02-06' is a different date than the gold answer 'July 31, 1958'. Calendar dates must match exactly, and these do not."
+  },
+  "bamboogle_0054_3ecff82e": {
+    "correct": 0,
+    "reasoning": "Calendar dates must match exactly. The gold answer specifies 'March 30, 1971' while the prediction states '1971-11-27'. The month and day are different."
+  },
+  "bamboogle_0055_a38b6895": {
+    "correct": 1,
+    "reasoning": "The gold answer 'James Cameroon' contains a common misspelling of the director's last name. The prediction 'James Cameron' provides the correct spelling of the same individual, thus communicating the same essential fact despite the typo in the gold."
+  },
+  "bamboogle_0056_fe704e02": {
+    "correct": 1,
+    "reasoning": "The prediction '2011-06-30' represents the exact same calendar date as the gold answer '30 June 2011', just in a different format. Calendar dates must match exactly, and they do."
+  },
+  "bamboogle_0057_ce243def": {
+    "correct": 0,
+    "reasoning": "The prediction 'Johnson & Johnson' directly contradicts the gold answer 'GlaxoSmithKline' regarding the company responsible for the largest pharmaceutical settlement."
+  },
+  "bamboogle_0058_57c459c2": {
+    "correct": 0,
+    "reasoning": "The gold answer is '2012' and the prediction is '2010'. Calendar dates or years must match exactly, and these do not."
+  },
+  "bamboogle_0059_abedd531": {
+    "correct": 0,
+    "reasoning": "Calendar dates/years must match exactly. The gold answer is 1988, while the prediction is 2010, which is a different year."
+  },
+  "bamboogle_0060_6e765861": {
+    "correct": 0,
+    "reasoning": "The gold answer is '2012' and the prediction is '1889'. Calendar dates or years must match exactly, and these values are different."
+  },
+  "bamboogle_0061_a3c7dda3": {
+    "correct": 0,
+    "reasoning": "The gold answer is '1935' and the prediction is '2016'. For calendar dates or years, an exact match is required. The prediction contradicts the gold answer."
+  },
+  "bamboogle_0062_c69178e2": {
+    "correct": 0,
+    "reasoning": "The prediction 'Brazil' directly contradicts the gold answer 'China' regarding the country where the second tallest statue is located."
+  },
+  "bamboogle_0063_3eb28528": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the year '2021', while the prediction states '2008-03-31'. Calendar dates and years must match exactly, and 2008 is not 2021."
+  },
+  "bamboogle_0064_647f7ea9": {
+    "correct": 0,
+    "reasoning": "The prediction '1889' contradicts the gold answer '1902'. Calendar dates/years must match exactly according to the rules."
+  },
+  "bamboogle_0065_66ea9139": {
+    "correct": 0,
+    "reasoning": "The prediction 'Israel' contradicts the gold answer 'Saudi Arabia' regarding the location of the world's largest desalination plant."
+  },
+  "bamboogle_0066_6b32e7f3": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies '1045 BC' as the year, while the prediction states '1868'. These are distinct years and do not match, violating the exact match requirement for calendar dates/years."
+  },
+  "bamboogle_0067_c104c160": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies 'India and Bangladesh' as the countries, while the prediction lists 'Peru; Brazil; Colombia; Venezuela; Ecuador; Bolivia'. These are entirely different sets of countries, indicating a factual contradiction."
+  },
+  "bamboogle_0068_895a496d": {
+    "correct": 1,
+    "reasoning": "The numeric values are identical. Thousands separators and units (when implied by the question) are ignored per Rule 5."
+  },
+  "bamboogle_0069_eab55f39": {
+    "correct": 0,
+    "reasoning": "The numeric values '6,300' and '6,671' are not within the allowed tolerance for fixed measurements. The absolute difference (371) is greater than 1% of the gold value (63)."
+  },
+  "bamboogle_0070_76e724e4": {
+    "correct": 0,
+    "reasoning": "The prediction 'North Korea' directly contradicts the gold answer 'United States' regarding the country where the third largest stadium in the world is located."
+  },
+  "bamboogle_0071_312902b3": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0072_70ea2630": {
+    "correct": -1,
+    "reasoning": "The prediction 'No' does not answer the question, which asks for a specific year. It is a refusal or not meaningful answer."
+  },
+  "bamboogle_0073_20cb1404": {
+    "correct": 0,
+    "reasoning": "The gold answer states the founding year is 1810, while the prediction states 1819. Calendar dates/years must match exactly, and 1819 is not 1810."
+  },
+  "bamboogle_0074_444fb63b": {
+    "correct": 0,
+    "reasoning": "Pavel Belyayev was the commander of the Voskhod 2 mission, which featured the first spacewalk. Alexei Leonov was the cosmonaut who performed the spacewalk, but he was not the commander of the mission. The prediction names the spacewalker instead of the commander, thus contradicting the gold answer."
+  },
+  "bamboogle_0075_c547bf6d": {
+    "correct": 0,
+    "reasoning": "The gold answer 'George VI' is the correct predecessor of Queen Elizabeth II (the longest-reigning British monarch). The prediction 'King William IV' is incorrect and contradicts the gold fact."
+  },
+  "bamboogle_0076_f6a6ba5b": {
+    "correct": 0,
+    "reasoning": "The prediction 'Oprah Winfrey' is a different person than the gold answer 'Jimmy Fallon', directly contradicting the gold fact."
+  },
+  "bamboogle_0077_7cb17c41": {
+    "correct": 0,
+    "reasoning": "The prediction 'Alex Trebek' contradicts the gold answer 'Drew Carey'. These are two different individuals."
+  },
+  "bamboogle_0078_90b26dca": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0079_4a0fafaf": {
+    "correct": 0,
+    "reasoning": "The prediction 'Panama' directly contradicts the gold answer 'Bermuda'. They are different countries."
+  },
+  "bamboogle_0080_d07f4725": {
+    "correct": 0,
+    "reasoning": "The gold answer is 1992, but the prediction is 2000. Calendar dates or years must match exactly, and these values do not match."
+  },
+  "bamboogle_0081_cfd7f8b7": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies 'Cambridge Blue', which is a distinct shade. The prediction 'Dark Blue' is a generic description and not the specific official color named in the gold answer. While Cambridge Blue is a dark blue, 'Dark Blue' is not an equivalent specific name for the official color."
+  },
+  "bamboogle_0082_d66846e5": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0083_5d2276a6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Tiberius' is identical to the gold answer 'Tiberius'."
+  },
+  "bamboogle_0084_6694d7d9": {
+    "correct": 0,
+    "reasoning": "The gold answer 'MECC' and the prediction 'Nintendo' are different entities. The prediction contradicts the gold fact regarding who produced the longest-running video game franchise."
+  },
+  "bamboogle_0085_4ff2b919": {
+    "correct": 1,
+    "reasoning": "The prediction 'Jacob Freud' is an exact match to the gold answer 'Jacob Freud'."
+  },
+  "bamboogle_0086_998cb1bd": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0087_12cdd074": {
+    "correct": 0,
+    "reasoning": "The question asks for the father of the father of observational astronomy (Vincenzo Galilei). The prediction provides the full name of Galileo Galilei, who is the father of observational astronomy, not his father."
+  },
+  "bamboogle_0088_f7654873": {
+    "correct": 0,
+    "reasoning": "The prediction provides different names ('Levi Yitzhak ben Yerucham HaKohen; Miriam Wahrhaftig') than the gold answer ('Yehuda Leib'), which is a direct contradiction of the requested fact."
+  },
+  "bamboogle_0089_d8b6f09c": {
+    "correct": 0,
+    "reasoning": "The question asks for the 'father of the father of modern experimental psychology'. Wilhelm Wundt is considered the 'father of modern experimental psychology'. His father was Maximilian Wundt. The gold answer correctly identifies Maximilian Wundt. The prediction identifies Wilhelm Wundt, which is the 'father of modern experimental psychology' himself, not his father. Therefore, the prediction contradicts the gold answer."
+  },
+  "bamboogle_0090_ecb49f7e": {
+    "correct": 1,
+    "reasoning": "The prediction 'Leo J. Wiener' includes a middle initial which is extra detail but does not contradict or change the essential fact 'Leo Wiener'. This falls under the rule that extra descriptive text is acceptable if it does not change or contradict the gold fact."
+  },
+  "bamboogle_0091_3845ed5d": {
+    "correct": -1,
+    "reasoning": "The prediction 'None specified.' is a refusal to answer or indicates no information, which falls under the 'not meaningful' category as per Rule 10."
+  },
+  "bamboogle_0092_f3b51347": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0093_f8df7c48": {
+    "correct": 0,
+    "reasoning": "The predicted name 'Joseph Dickerson Watson' is different from the gold name 'Pickens Butler Watson'. The first and middle names do not match."
+  },
+  "bamboogle_0094_f6def5e8": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Anders van Wesel' and the prediction 'Jan van der Straet' are two distinct names, indicating a factual contradiction."
+  },
+  "bamboogle_0095_fa23ed5f": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies 'Charles Tupper Sr.' as the father of the last surviving Canadian Father of Confederation. The prediction lists 'George Brown', 'John A. Macdonald', and 'George Étienne Cartier', none of which match the gold answer, making it incorrect."
+  },
+  "bamboogle_0096_df47c5e5": {
+    "correct": 0,
+    "reasoning": "Calendar dates must match exactly. The prediction's month (November) differs from the gold's month (April), even though the year and day are the same."
+  },
+  "bamboogle_0097_eb1ca032": {
+    "correct": 0,
+    "reasoning": "The gold answer identifies the person as 'Claude Sr.', while the prediction states 'Allan W. Shannon'. These are two distinct names, indicating a factual contradiction."
+  },
+  "bamboogle_0098_0c225f4e": {
+    "correct": 1,
+    "reasoning": "The prediction '1869-10-02' is an exact match for the date 'October 2, 1869' in a different format (YYYY-MM-DD vs Month Day, Year). Dates must match exactly, and they do."
+  },
+  "bamboogle_0099_1b62d67b": {
+    "correct": 0,
+    "reasoning": "The prediction's year (1979) does not match the gold's year (1969). Calendar dates and years must match exactly."
+  },
+  "bamboogle_0100_0b9ce56c": {
+    "correct": 1,
+    "reasoning": "The gold and prediction dates are identical, just in different formats. Calendar dates must match exactly, which they do."
+  },
+  "bamboogle_0101_5fc6a795": {
+    "correct": 0,
+    "reasoning": "The gold answer states the lowest elevation is 312 m, while the prediction states it is approximately -678 m. These values are significantly different and contradictory, falling outside the allowed numeric tolerance."
+  },
+  "bamboogle_0102_b0751786": {
+    "correct": 0,
+    "reasoning": "The prediction states the death date as November 11, 1650, while the gold answer states February 11, 1650. The month differs, leading to a contradiction."
+  },
+  "bamboogle_0103_912f993b": {
+    "correct": 1,
+    "reasoning": "The prediction '1865-04-15' provides the exact same date as the gold answer 'April 15, 1865', just in a different format. Calendar dates must match exactly, and they do."
+  },
+  "bamboogle_0104_aef80091": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0105_f2071bcb": {
+    "correct": 0,
+    "reasoning": "The prediction 'AC Milan' directly contradicts the gold answer 'Real Madrid' regarding the club played for."
+  },
+  "bamboogle_0106_c5cfc537": {
+    "correct": 0,
+    "reasoning": "The prediction 'Cape Town' directly contradicts the gold answer 'Madrid'. They are different cities."
+  },
+  "bamboogle_0107_4ca74523": {
+    "correct": 0,
+    "reasoning": "The prediction states the founding year as 1998, while the gold states 2005. Calendar dates require an exact match, and these years are different, leading to a contradiction."
+  },
+  "bamboogle_0108_65486b64": {
+    "correct": 1,
+    "reasoning": "Wu Wang is an alternative name/title for King Wu of Zhou. 'Wang' means 'King' in Chinese, so 'Wu Wang' directly translates to 'King Wu'."
+  },
+  "bamboogle_0109_92684d66": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Toghon Temür' was the last emperor of the Yuan Dynasty (which succeeded the Song Dynasty). The prediction 'Kublai Khan' was the founder and first emperor of the Yuan Dynasty, not the last. This is a factual contradiction."
+  },
+  "bamboogle_0110_3800034a": {
+    "correct": 0,
+    "reasoning": "The prediction provides a completely different motto ('Pursue Truth; Promote Knowledge; Serve Humanity') than the gold answer ('Powering Silicon Valley'), leading to a contradiction."
+  },
+  "bamboogle_0111_3bd3261a": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0112_282427bc": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0113_1b2b3f5c": {
+    "correct": 1,
+    "reasoning": "The prediction 'Boston' is identical to the gold answer 'Boston'."
+  },
+  "bamboogle_0114_069ae026": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold answer."
+  },
+  "bamboogle_0115_b9849ebd": {
+    "correct": 1,
+    "reasoning": "The prediction 'Brazilian National Team' is a more specific but equivalent way to refer to 'Brazil' in the context of a sports team winning an event. There is no contradiction."
+  },
+  "bamboogle_0116_082827a9": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0117_dfe819b3": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Golden State' is equivalent to the gold answer 'Golden State' after applying normalization rule 1 to ignore the English article 'The'."
+  },
+  "bamboogle_0118_33946144": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  },
+  "bamboogle_0119_b01b3580": {
+    "correct": 1,
+    "reasoning": "The prediction provides the exact same date as the gold answer, just in a different format. Calendar dates must match exactly, and they do."
+  },
+  "bamboogle_0120_b1384212": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Evergreen State' is equivalent to the gold answer 'Evergreen State' because English articles ('The') are ignored according to Rule 1 (Normalization)."
+  },
+  "bamboogle_0121_864a9200": {
+    "correct": 0,
+    "reasoning": "The prediction provides a different birth date (June 29) than the gold answer (December 13), despite the year matching. This is a contradiction in the specific date requested."
+  },
+  "bamboogle_0122_7a7aef7c": {
+    "correct": 0,
+    "reasoning": "The prediction provides a different name ('Timothy John Berners-Lee') than the gold answer ('Conway Berners-Lee') for the father, which is a direct contradiction."
+  },
+  "bamboogle_0123_faadb1ea": {
+    "correct": 0,
+    "reasoning": "The prediction 'Empress Shōken' is a different person than the gold answer 'Yanagiwara Naruko', directly contradicting the gold fact about the identity of the emperor's mother during World War I."
+  },
+  "bamboogle_0124_383038d1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Helium' is an exact match for the gold answer 'Helium'."
+  },
+  "bamboogle_0125_0be878d1": {
+    "correct": 1,
+    "reasoning": "The prediction is identical to the gold answer."
+  }
+}

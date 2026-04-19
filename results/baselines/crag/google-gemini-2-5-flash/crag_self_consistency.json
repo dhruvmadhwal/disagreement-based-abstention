@@ -1,0 +1,1339 @@
+{
+  "summary": {
+    "total": 90,
+    "coverage": 0.75,
+    "overall_accuracy": 0.61,
+    "accuracy_at_coverage": 0.8133,
+    "precision": 0.7467,
+    "recall": 0.5714,
+    "f1": 0.6474
+  },
+  "records": [
+    {
+      "accepted": false,
+      "prediction": "I don't know",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n640 mi",
+          "final_answer": "640 mi",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n1,049 km",
+          "final_answer": "1,049 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n318 mi",
+          "final_answer": "318 mi",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1,049 km",
+          "final_answer": "1,049 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "512 km",
+          "final_answer": "512 km",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n318 mi",
+          "final_answer": "318 mi",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n318 mi",
+          "final_answer": "318 mi",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "640 mi": 1,
+        "1,049 km": 2,
+        "318 mi": 3,
+        "512 km": 1
+      },
+      "aggregator_raw_response": "I don't know",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction provides the exact length (652 miles) which is the core fact requested by the question and present in the gold answer. Extra descriptive text in the gold is not required for a match.",
+      "timestamp": "2025-12-14 09:19:08",
+      "baseline": "self_consistency",
+      "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+      "question": "how long is the longest river in alabama?",
+      "gold_answer": "the longest river that flows through alabama, the tennessee river, is 652 miles long.",
+      "judge_raw_response": "open_ended_correctness_reused"
+    },
+    {
+      "accepted": true,
+      "prediction": "56-26",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n56-26",
+          "final_answer": "56-26",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "56-26": 7
+      },
+      "aggregator_raw_response": "56-26",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction is identical to the gold answer.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:24:03",
+      "baseline": "self_consistency",
+      "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+      "question": "what was the 76ers' record the year allen iverson won mvp?",
+      "gold_answer": "56-26"
+    },
+    {
+      "accepted": true,
+      "prediction": "2010-11-28",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n2010-11-28",
+          "final_answer": "2010-11-28",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "2010-11-28": 7
+      },
+      "aggregator_raw_response": "2010-11-28",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The gold answer specifies the death year as 2010. The prediction provides the exact date '2010-11-28', which includes the correct year and adds extra detail without contradiction, adhering to rule 8.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:25:27",
+      "baseline": "self_consistency",
+      "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+      "question": "when did the lead actor of naked gun die?",
+      "gold_answer": "leslie nielsen, the lead actor of naked gun, died in 2010."
+    },
+    {
+      "accepted": true,
+      "prediction": "Professional basketball player",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nProfessional basketball player",
+          "final_answer": "Professional basketball player",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nBasketball player",
+          "final_answer": "Basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nBasketball player",
+          "final_answer": "Basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nProfessional basketball player",
+          "final_answer": "Professional basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nbasketball player",
+          "final_answer": "basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nProfessional basketball player",
+          "final_answer": "Professional basketball player",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nProfessional basketball player",
+          "final_answer": "Professional basketball player",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Professional basketball player": 4,
+        "Basketball player": 2,
+        "basketball player": 1
+      },
+      "aggregator_raw_response": "Professional basketball player",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The gold states the profession was 'an NBA player', and the prediction states 'Professional basketball player'. An NBA player is a type of professional basketball player, so the prediction accurately describes the profession without contradiction. The gold also includes the spouse's name, which is extra detail not requested by the question.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:28:17",
+      "baseline": "self_consistency",
+      "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+      "question": "what was the profession of kim kardashian's second spouse?",
+      "gold_answer": "kris humphries, kim kardashian's second spouse, was an nba player."
+    },
+    {
+      "accepted": true,
+      "prediction": "Columbia University",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Columbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nColumbia University",
+          "final_answer": "Columbia University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Columbia University": 7
+      },
+      "aggregator_raw_response": "Columbia University",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Columbia University' matches the gold answer 'columbia university' after ignoring case differences, as per normalization rule 1.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:31:07",
+      "baseline": "self_consistency",
+      "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+      "question": "where did the lead designer of fortran get his m.s. from?",
+      "gold_answer": "columbia university"
+    },
+    {
+      "accepted": true,
+      "prediction": "Right",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nRight",
+          "final_answer": "Right",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Right": 7
+      },
+      "aggregator_raw_response": "Right",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Right' is equivalent to the gold answer 'right' due to case-insensitivity normalization.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:45:01",
+      "baseline": "self_consistency",
+      "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+      "question": "what is the driving side in mallorca?",
+      "gold_answer": "right"
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n1,197 ft",
+          "final_answer": "1,197 ft",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n375 m",
+          "final_answer": "375 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n399 m",
+          "final_answer": "399 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1,200 ft",
+          "final_answer": "1,200 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1,200 ft",
+          "final_answer": "1,200 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n399 m",
+          "final_answer": "399 m",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1,178 ft",
+          "final_answer": "1,178 ft",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1,197 ft": 1,
+        "375 m": 1,
+        "399 m": 2,
+        "1,200 ft": 2,
+        "1,178 ft": 1
+      },
+      "aggregator_raw_response": "I don't know",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The gold answer is 366 m. Converting this to feet: 366 m * 3.28084 ft/m = 1199.148 ft. The prediction is 1,197 ft. The difference is |1199.148 - 1197| = 2.148 ft. The tolerance is max(0.5, 1% of 1199.148) = max(0.5, 11.99) = 11.99 ft. Since 2.148 ft is within 11.99 ft, the prediction is considered correct due to numeric expression tolerance and unit conversion.",
+      "timestamp": "2025-12-14 09:47:01",
+      "baseline": "self_consistency",
+      "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+      "question": "what is the elevation of the capital of nebraska?",
+      "gold_answer": "366 m",
+      "judge_raw_response": "open_ended_correctness_reused"
+    },
+    {
+      "accepted": true,
+      "prediction": "52",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n52",
+          "final_answer": "52",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "52": 7
+      },
+      "aggregator_raw_response": "52",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction '52' is numerically identical to the gold '52 years old'. The unit 'years old' is implied by the question and the context of age, making the prediction equivalent under unit normalization (Rule 5).",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:47:25",
+      "baseline": "self_consistency",
+      "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+      "question": "what age did abraham lincoln begin his presidency?",
+      "gold_answer": "52 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "45",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n45",
+          "final_answer": "45",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n45",
+          "final_answer": "45",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n45",
+          "final_answer": "45",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n45",
+          "final_answer": "45",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n45",
+          "final_answer": "45",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n45",
+          "final_answer": "45",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n45",
+          "final_answer": "45",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "45": 7
+      },
+      "aggregator_raw_response": "45",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction '45' matches the numerical value in the gold answer '45 years old'. The unit 'years old' is implied by the question 'at what age'.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:51:56",
+      "baseline": "self_consistency",
+      "id": "020f4f35-eb92-4e66-b3f4-71a85a3f37c4",
+      "question": "at what age did usher perform in the half time show of superbowl?",
+      "gold_answer": "45 years old"
+    },
+    {
+      "accepted": true,
+      "prediction": "1987-11-21",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n1987-11-21; 2009-03-21",
+          "final_answer": "1987-11-21; 2009-03-21",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n1987-11-21",
+          "final_answer": "1987-11-21",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1987-11-21",
+          "final_answer": "1987-11-21",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1987-11-21",
+          "final_answer": "1987-11-21",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1987; 2009",
+          "final_answer": "1987; 2009",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1987-11-21",
+          "final_answer": "1987-11-21",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1987-11-21; 2009-03-21",
+          "final_answer": "1987-11-21; 2009-03-21",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1987-11-21; 2009-03-21": 2,
+        "1987-11-21": 4,
+        "1987; 2009": 1
+      },
+      "aggregator_raw_response": "1987-11-21",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The gold answer states the marriage occurred in 2009. The prediction provides two dates, '1987-11-21' and '2009-03-21'. According to Rule 11, if the gold contains alternatives (implicitly, as it only gives the year), or if the prediction contains alternatives, we check if any alternative matches. The date '2009-03-21' matches the year '2009' from the gold answer. Providing a more specific date (month and day) when the gold only gives the year is acceptable and not a contradiction.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:57:25",
+      "baseline": "self_consistency",
+      "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+      "question": "when did the lead actor of die hard get married?",
+      "gold_answer": "the lead actor of die hard, bruce willis, got married in 2009."
+    },
+    {
+      "accepted": true,
+      "prediction": "1994-02-01",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n1994-02-01",
+          "final_answer": "1994-02-01",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "1994-02-01": 7
+      },
+      "aggregator_raw_response": "1994-02-01",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction '1994-02-01' accurately represents the release date 'February 1st, 1994' found in the gold answer. Date formatting differences are normalized.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 09:59:39",
+      "baseline": "self_consistency",
+      "id": "118896a1-8124-482a-9201-4aaf1903618d",
+      "question": "when was green day's third studio album released?",
+      "gold_answer": "dookie, the third studio album by green day, was released on february 1st, 1994."
+    },
+    {
+      "accepted": true,
+      "prediction": "35",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n35",
+          "final_answer": "35",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n35",
+          "final_answer": "35",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n35",
+          "final_answer": "35",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n35",
+          "final_answer": "35",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n35",
+          "final_answer": "35",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "35",
+          "final_answer": "35",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n35",
+          "final_answer": "35",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "35": 7
+      },
+      "aggregator_raw_response": "35",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states the age was 35, while the prediction states 32. The difference of 3 is outside the allowed numeric tolerance of max(0.5, 1% of 35) = 0.5.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 10:06:04",
+      "baseline": "self_consistency",
+      "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+      "question": "at what age was lorne michaels when he produced his first film?",
+      "gold_answer": "he was 35"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carnegie Mellon University",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Carnegie Mellon University",
+          "final_answer": "Carnegie Mellon University",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Carnegie Mellon University": 7
+      },
+      "aggregator_raw_response": "Carnegie Mellon University",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction exactly matches the gold answer, ignoring case differences.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 10:11:23",
+      "baseline": "self_consistency",
+      "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+      "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+      "gold_answer": "carnegie mellon university"
+    },
+    {
+      "accepted": true,
+      "prediction": "Carrie-Anne Moss",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nCarrie-Anne Moss",
+          "final_answer": "Carrie-Anne Moss",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Carrie-Anne Moss": 7
+      },
+      "aggregator_raw_response": "Carrie-Anne Moss",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction provides the essential fact (the actress's name) which matches the gold answer. The gold answer includes additional descriptive text about the character, but this does not contradict or invalidate the prediction's core answer.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 10:14:24",
+      "baseline": "self_consistency",
+      "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+      "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+      "gold_answer": "the actress who played the role of the girl character in the movie \"the matrix\" is carrie-anne moss. she portrayed the role of trinity, a skilled computer hacker and a member of the human resistance."
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know",
+      "raw_samples": [
+        {
+          "raw_response": "Content; Comedy; FaceTime with My Mom (Tonight); Look Who's Inside Again; Problematic; Turning 30; Sexting; All Eyes On Me; Goodbye; White Woman",
+          "final_answer": "Content; Comedy; FaceTime with My Mom (Tonight); Look Who's Inside Again; Problematic; Turning 30; Sexting; All Eyes On Me; Goodbye; White Woman",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "Black Swan;",
+          "final_answer": "Black Swan;",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Black Swan; ON; Filter; Louder Than Bombs; UGH!; 00:00 (Zero O'Clock); Friends; Inner Child; Moon; Respect; We Are Bulletproof: The Eternal; Outro: Ego; Interlude: Shadow; Dynamite; Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay",
+          "final_answer": "Black Swan; ON; Filter; Louder Than Bombs; UGH!; 00:00 (Zero O'Clock); Friends; Inner Child; Moon; Respect; We Are Bulletproof: The Eternal; Outro: Ego; Interlude: Shadow; Dynamite; Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Intro: Persona; Boy With Luv; Make It Right; Jamais Vu; Dionysus; Interlude: Shadow; Black Swan; Filter; ON; UGH!; 00:00 (Zero O'Clock); Inner Child; Friends; Moon; Respect; We Are Bulletproof: The Eternal; Outro: Ego; ON (feat. Sia); Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay; Dynamite",
+          "final_answer": "Intro: Persona; Boy With Luv; Make It Right; Jamais Vu; Dionysus; Interlude: Shadow; Black Swan; Filter; ON; UGH!; 00:00 (Zero O'Clock); Inner Child; Friends; Moon; Respect; We Are Bulletproof: The Eternal; Outro: Ego; ON (feat. Sia); Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay; Dynamite",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Intro: Persona; Boy With Luv (feat. Halsey); Make It Right; Jamais Vu; Dionysus; Interlude: Shadow; Black Swan; Filter; Louder than Bombs; UGH!; 00:00 (Zero O'Clock); Inner Child; Friends; Moon; Respect; We are Bulletproof: The Eternal; Outro: Ego; ON; ON (Feat. Sia); Dynamite; Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay",
+          "final_answer": "Intro: Persona; Boy With Luv (feat. Halsey); Make It Right; Jamais Vu; Dionysus; Interlude: Shadow; Black Swan; Filter; Louder than Bombs; UGH!; 00:00 (Zero O'Clock); Inner Child; Friends; Moon; Respect; We are Bulletproof: The Eternal; Outro: Ego; ON; ON (Feat. Sia); Dynamite; Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nPlease specify which artist released \"My Time.\"",
+          "final_answer": "Please specify which artist released \"My Time.\"",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Content; Comedy; Facetime with My Mom (Tonight); Problematic; White Woman's Instagram; That Funny Feeling; All Eyes on Me; Goodbye; How the World Works; Welcome to the Internet; 1985; Look Who's Inside Again; Wasting Time; Bezos I; Sexting; The Future; All Time Low; Pandora's Box; Bezos II; Don't Wanna Know; I Don't Wanna Know",
+          "final_answer": "Content; Comedy; Facetime with My Mom (Tonight); Problematic; White Woman's Instagram; That Funny Feeling; All Eyes on Me; Goodbye; How the World Works; Welcome to the Internet; 1985; Look Who's Inside Again; Wasting Time; Bezos I; Sexting; The Future; All Time Low; Pandora's Box; Bezos II; Don't Wanna Know; I Don't Wanna Know",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Content; Comedy; FaceTime with My Mom (Tonight); Look Who's Inside Again; Problematic; Turning 30; Sexting; All Eyes On Me; Goodbye; White Woman": 1,
+        "Black Swan": 1,
+        "Black Swan; ON; Filter; Louder Than Bombs; UGH!; 00:00 (Zero O'Clock); Friends; Inner Child; Moon; Respect; We Are Bulletproof: The Eternal; Outro: Ego; Interlude: Shadow; Dynamite; Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay": 1,
+        "Intro: Persona; Boy With Luv; Make It Right; Jamais Vu; Dionysus; Interlude: Shadow; Black Swan; Filter; ON; UGH!; 00:00 (Zero O'Clock); Inner Child; Friends; Moon; Respect; We Are Bulletproof: The Eternal; Outro: Ego; ON (feat. Sia); Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay; Dynamite": 1,
+        "Intro: Persona; Boy With Luv (feat. Halsey); Make It Right; Jamais Vu; Dionysus; Interlude: Shadow; Black Swan; Filter; Louder than Bombs; UGH!; 00:00 (Zero O'Clock); Inner Child; Friends; Moon; Respect; We are Bulletproof: The Eternal; Outro: Ego; ON; ON (Feat. Sia); Dynamite; Life Goes On; Fly To My Room; Blue & Grey; Skit; Telepathy; Dis-ease; Stay": 1,
+        "Please specify which artist released \"My Time.\"": 1,
+        "Content; Comedy; Facetime with My Mom (Tonight); Problematic; White Woman's Instagram; That Funny Feeling; All Eyes on Me; Goodbye; How the World Works; Welcome to the Internet; 1985; Look Who's Inside Again; Wasting Time; Bezos I; Sexting; The Future; All Time Low; Pandora's Box; Bezos II; Don't Wanna Know; I Don't Wanna Know": 1
+      },
+      "aggregator_raw_response": "I don't know",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The prediction lists a completely different set of songs ('Content', 'Comedy', etc.) compared to the gold answer ('throw it in the bag', 'everything, everyday, every where'). There is no overlap or equivalence between the two lists, indicating a contradiction in the provided facts.",
+      "timestamp": "2025-12-14 10:14:36",
+      "baseline": "self_consistency",
+      "id": "e06676aa-efc3-4763-b196-e105596cc643",
+      "question": "can you tell me what other songs the same artist released in the same year as my time?",
+      "gold_answer": "throw it in the bag, \"everything, everyday, every where\"",
+      "judge_raw_response": "open_ended_correctness_reused"
+    },
+    {
+      "accepted": true,
+      "prediction": "Patrick J. Adams",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nPatrick J. Adams",
+          "final_answer": "Patrick J. Adams",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nPatrick J. Adams",
+          "final_answer": "Patrick J. Adams",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nPatrick J. Adams",
+          "final_answer": "Patrick J. Adams",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nPatrick J. Adams",
+          "final_answer": "Patrick J. Adams",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nPatrick J. Adams",
+          "final_answer": "Patrick J. Adams",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nPatrick J. Adams",
+          "final_answer": "Patrick J. Adams",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nPatrick J. Adams",
+          "final_answer": "Patrick J. Adams",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Patrick J. Adams": 7
+      },
+      "aggregator_raw_response": "Patrick J. Adams",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction correctly identifies the actor's name, which is the core fact requested by the question and provided in the gold answer. Case normalization applies.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 10:16:46",
+      "baseline": "self_consistency",
+      "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+      "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+      "gold_answer": "the actor who played the role of a lawyer in the tv show \"suits\" is patrick j. adams. he portrayed the role of mike ross, a college dropout who becomes a legal associate at a prestigious law firm, in the show, which aired from 2011 to 2019. adams's performance earned him a nomination for a screen actors guild award for outstanding performance by a male actor in a drama series."
+    },
+    {
+      "accepted": true,
+      "prediction": "Del Harris",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "Del Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDel Harris",
+          "final_answer": "Del Harris",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Del Harris": 7
+      },
+      "aggregator_raw_response": "Del Harris",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction 'Del Harris' is equivalent to the gold answer 'del harris' after applying case normalization (Rule 1).",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 10:28:12",
+      "baseline": "self_consistency",
+      "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+      "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+      "gold_answer": "del harris"
+    },
+    {
+      "accepted": true,
+      "prediction": "95 ft",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n95 ft",
+          "final_answer": "95 ft",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n95 ft",
+          "final_answer": "95 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n95 ft",
+          "final_answer": "95 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n95 ft",
+          "final_answer": "95 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n95 ft",
+          "final_answer": "95 ft",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n95",
+          "final_answer": "95",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n95 ft",
+          "final_answer": "95 ft",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "95 ft": 6,
+        "95": 1
+      },
+      "aggregator_raw_response": "95 ft",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction '95 ft' provides the exact numerical answer and unit requested by the question, which matches the core fact '95 feet' in the gold answer. The additional descriptive text in the gold answer is not required by the question and does not contradict the prediction.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 10:31:46",
+      "baseline": "self_consistency",
+      "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+      "question": "how many feet is the place with the lowest elevation in vermont?",
+      "gold_answer": "the place with the lowest elevation in vermont, lake champlain, is at 95 feet."
+    },
+    {
+      "accepted": true,
+      "prediction": "41",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n41",
+          "final_answer": "41",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\n41",
+          "final_answer": "41",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n41",
+          "final_answer": "41",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n41",
+          "final_answer": "41",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n41",
+          "final_answer": "41",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n41",
+          "final_answer": "41",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n41",
+          "final_answer": "41",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "41": 7
+      },
+      "aggregator_raw_response": "41",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer states Leonardo DiCaprio was 42 years old, while the prediction states 41. The difference of 1 is outside the allowed numeric tolerance of max(0.5, 1% of 42) = 0.5.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 10:31:58",
+      "baseline": "self_consistency",
+      "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+      "question": "how old was leonardo dicaprio when he won best actor award?",
+      "gold_answer": "leonardo was 42 years old in 2016 when he won best actor."
+    },
+    {
+      "accepted": true,
+      "prediction": "Diana Ross Presents The Jackson 5",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\nDiana Ross Presents The Jackson 5",
+          "final_answer": "Diana Ross Presents The Jackson 5",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "Diana Ross Presents The Jackson 5": 7
+      },
+      "aggregator_raw_response": "Diana Ross Presents The Jackson 5",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 1,
+      "judge_reasoning": "The prediction is an exact match to the gold answer, ignoring case as per normalization rule 1.",
+      "judge_raw_response": "open_ended_correctness_reused",
+      "timestamp": "2025-12-14 10:38:34",
+      "baseline": "self_consistency",
+      "id": "e525e6b2-4865-4610-a73b-79438c724255",
+      "question": "what was the first studio album from the group that michael jackson was in?",
+      "gold_answer": "diana ross presents the jackson 5"
+    },
+    {
+      "accepted": false,
+      "prediction": "I don't know",
+      "raw_samples": [
+        {
+          "raw_response": "answer:\n45",
+          "final_answer": "45",
+          "temperature": 0.0
+        },
+        {
+          "raw_response": "32",
+          "final_answer": "32",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n34",
+          "final_answer": "34",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n43",
+          "final_answer": "43",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n44",
+          "final_answer": "44",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n33",
+          "final_answer": "33",
+          "temperature": 0.7
+        },
+        {
+          "raw_response": "answer:\n31",
+          "final_answer": "31",
+          "temperature": 0.7
+        }
+      ],
+      "vote_counts": {
+        "45": 1,
+        "32": 1,
+        "34": 1,
+        "43": 1,
+        "44": 1,
+        "33": 1,
+        "31": 1
+      },
+      "aggregator_raw_response": "I don't know",
+      "temperature_schedule": [
+        0.0,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "correct": 0,
+      "judge_reasoning": "The gold answer is 33 and the prediction is 45. The absolute difference is 12, which is greater than the allowed numerical tolerance of max(0.5, 1% of 33 = 0.33) = 0.5. Therefore, the prediction is incorrect.",
+      "timestamp": "2025-12-14 10:41:49",
+      "baseline": "self_consistency",
+      "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+      "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+      "gold_answer": "33",
+      "judge_raw_response": "open_ended_correctness_reused"
+    }
+  ]
+}

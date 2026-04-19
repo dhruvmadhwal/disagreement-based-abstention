@@ -1,0 +1,883 @@
+model,dataset,id,question,assistive_answer,open_answer,gold_answer,assistive_intermediate_questions,assistive_intermediate_answers,assistive_dsl,assistive_raw_response,open_raw_response,equivalence_reasoning,equivalence_raw_response
+gpt-5-1,hotpotqa,5a72a00d5542991f9a20c53c,Who developed the prototype pacemaker used by the 34th President of the USA?,Paul M. Zoll,Wilson Greatbatch,R Adams Cowley,"[""Who was the 34th President of the USA?"", ""Who developed the prototype pacemaker used by {answer_1}?""]","{""answer_1"": ""Dwight D. Eisenhower"", ""answer_2"": ""Paul M. Zoll""}","answer_1: str = qa_model(""Who was the 34th President of the USA?"")
+answer_2: str = qa_model(""Who developed the prototype pacemaker used by {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Dwight D. Eisenhower"",
+  ""answer_2"": ""Paul M. Zoll""
+}","answer:
+Wilson Greatbatch","The answers provide different names for the developer, indicating a contradiction. Paul M. Zoll and Wilson Greatbatch are distinct individuals.","equivalent: 0
+reasoning: The answers provide different names for the developer, indicating a contradiction. Paul M. Zoll and Wilson Greatbatch are distinct individuals."
+gpt-5-1,hotpotqa,5a74a3bd55429979e28829da,Who invented the type of script used in autographs?,It has no single inventor; it developed gradually from ancient Roman writing,Platt Rogers Spencer,the Sumerians,"[""What type of script is used in autographs?"", ""Who invented {answer_1}?""]","{""answer_1"": ""cursive script"", ""answer_2"": ""It has no single inventor; it developed gradually from ancient Roman writing""}","answer_1: str = qa_model(""What type of script is used in autographs?"")
+answer_2: str = qa_model(""Who invented {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""cursive script"",
+  ""answer_2"": ""It has no single inventor; it developed gradually from ancient Roman writing""
+}","answer:
+Platt Rogers Spencer","Answer A states there is no single inventor, while Answer B names a specific inventor, which is a direct contradiction.","equivalent: 0
+reasoning: Answer A states there is no single inventor, while Answer B names a specific inventor, which is a direct contradiction."
+gpt-5-1,hotpotqa,5a76059155429976ec32bce6,"What shopping mall is the largest in south Texas, Malle del Norte or La Plaza Mall?",Mall del Norte,La Plaza Mall,La Plaza Mall,"[""What is the size of Mall del Norte?"", ""What is the size of La Plaza Mall?"", ""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?""]","{""answer_1"": ""1,236,000 ft\u00b2"", ""answer_2"": ""1,215,000 ft\u00b2"", ""answer_3"": ""Mall del Norte""}","answer_1: str = qa_model(""What is the size of Mall del Norte?"")
+answer_2: str = qa_model(""What is the size of La Plaza Mall?"")
+answer_3: str = qa_model(""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?"", answer_1=answer_1, answer_2=answer_2)","{
+  ""answer_1"": ""1,236,000 ft²"",
+  ""answer_2"": ""1,215,000 ft²"",
+  ""answer_3"": ""Mall del Norte""
+}",La Plaza Mall,The answers contradict each other by identifying different malls as the largest.,"equivalent: 0
+reasoning: The answers contradict each other by identifying different malls as the largest."
+gpt-5-1,hotpotqa,5a7a791f55429941d65f2669,What was the year founded of the football team that Aaron Galindo is currently a part of?,1983,1917,1928,"[""What football team is Aaron Galindo currently a part of?"", ""What year was the football team {answer_1} founded?""]","{""answer_1"": ""Santos Laguna"", ""answer_2"": ""1983""}","answer_1: str = qa_model(""What football team is Aaron Galindo currently a part of?"")
+answer_2: str = qa_model(""What year was the football team {answer_1} founded?"", answer_1=answer_1)","{
+  ""answer_1"": ""Santos Laguna"",
+  ""answer_2"": ""1983""
+}","answer:
+1917","The years provided (1983 and 1917) are different, representing a direct contradiction regarding the founding year.","equivalent: 0
+reasoning: The years provided (1983 and 1917) are different, representing a direct contradiction regarding the founding year."
+gpt-5-1,hotpotqa,5a7ca54c55429935c91b527f,"The Swedish-British entertainment studio executive and film executive producer, who was the Executive producer for a 2016 American action thriller film directed by Babak Najafi, currently serve?",founder and CEO of Millennium Films,Chairman and chief executive officer of Millennium Media,CEO of Lionsgate UK & Europe,"[""What is the 2016 American action thriller film directed by Babak Najafi?"", ""Who was the executive producer for {answer_1}?"", ""What position does {answer_2} currently hold?""]","{""answer_1"": ""London Has Fallen"", ""answer_2"": ""Avi Lerner"", ""answer_3"": ""founder and CEO of Millennium Films""}","answer_1: str = qa_model(""What is the 2016 American action thriller film directed by Babak Najafi?"")
+answer_2: str = qa_model(""Who was the executive producer for {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What position does {answer_2} currently hold?"", answer_2=answer_2)","{
+  ""answer_1"": ""London Has Fallen"",
+  ""answer_2"": ""Avi Lerner"",
+  ""answer_3"": ""founder and CEO of Millennium Films""
+}","answer:
+Chairman and chief executive officer of Millennium Media","The answers refer to different roles (""founder"" vs ""Chairman"") and different, though related, entities (""Millennium Films"" vs ""Millennium Media""). While both statements might be true about the individual, they do not convey the same essential facts.","equivalent: 0
+reasoning: The answers refer to different roles (""founder"" vs ""Chairman"") and different, though related, entities (""Millennium Films"" vs ""Millennium Media""). While both statements might be true about the individual, they do not convey the same essential facts."
+gpt-5-1,hotpotqa,5a7d231555429909bec76986,La Barredora was a gang that declared war on the leader of the cartel based where?,"Sinaloa, Mexico",Acapulco,Sinaloa,"[""Which cartel leader did the gang La Barredora declare war on?"", ""Where was the cartel led by {answer_1} based?""]","{""answer_1"": ""H\u00e9ctor Beltr\u00e1n Leyva"", ""answer_2"": ""Sinaloa, Mexico""}","answer_1: str = qa_model(""Which cartel leader did the gang La Barredora declare war on?"")
+answer_2: str = qa_model(""Where was the cartel led by {answer_1} based?"", answer_1=answer_1)","{
+  ""answer_1"": ""Héctor Beltrán Leyva"",
+  ""answer_2"": ""Sinaloa, Mexico""
+}","answer:
+Acapulco","The answers provide different locations (Sinaloa vs. Acapulco), which is a direct contradiction.","equivalent: 0
+reasoning: The answers provide different locations (Sinaloa vs. Acapulco), which is a direct contradiction."
+gpt-5-1,hotpotqa,5a7d90195542991319bc93cf,The axial turbojet Pirna 014 was designed by engineers from this German aircraft and aircraft engine manufacturer based in which city?,Ludwigsfelde,Dessau,Dessau,"[""Which German aircraft and aircraft engine manufacturer designed the Pirna 014?"", ""In which city is {answer_1} based?""]","{""answer_1"": ""Industriewerke Ludwigsfelde"", ""answer_2"": ""Ludwigsfelde""}","answer_1: str = qa_model(""Which German aircraft and aircraft engine manufacturer designed the Pirna 014?"")
+answer_2: str = qa_model(""In which city is {answer_1} based?"", answer_1=answer_1)","{
+  ""answer_1"": ""Industriewerke Ludwigsfelde"",
+  ""answer_2"": ""Ludwigsfelde""
+}","answer:
+Dessau","The answers provide different cities for the manufacturer's base, which is a direct contradiction.","equivalent: 0
+reasoning: The answers provide different cities for the manufacturer's base, which is a direct contradiction."
+gpt-5-1,hotpotqa,5a80b23a5542992bc0c4a7b2,Ted Sutton plays Sergeant Cunningham in a2002 film that stars Mel Gibson as what character?,Lieutenant Colonel Hal Moore,Graham Hess,Graham Hess,"[""In which 2002 film does Ted Sutton play Sergeant Cunningham?"", ""What character does Mel Gibson play in {answer_1}?""]","{""answer_1"": ""We Were Soldiers"", ""answer_2"": ""Lieutenant Colonel Hal Moore""}","answer_1: str = qa_model(""In which 2002 film does Ted Sutton play Sergeant Cunningham?"")
+answer_2: str = qa_model(""What character does Mel Gibson play in {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""We Were Soldiers"",
+  ""answer_2"": ""Lieutenant Colonel Hal Moore""
+}","answer:
+Graham Hess","The answers contradict each other regarding the character Mel Gibson plays in the film where Ted Sutton plays Sergeant Cunningham. Mel Gibson plays Lieutenant Colonel Hal Moore in ""We Were Soldiers"" (2002), where Ted Sutton plays Sergeant Cunningham. Graham Hess is a character Mel Gibson plays in a different 2002 film (""Signs"").","equivalent: 0
+reasoning: The answers contradict each other regarding the character Mel Gibson plays in the film where Ted Sutton plays Sergeant Cunningham. Mel Gibson plays Lieutenant Colonel Hal Moore in ""We Were Soldiers"" (2002), where Ted Sutton plays Sergeant Cunningham. Graham Hess is a character Mel Gibson plays in a different 2002 film (""Signs"")."
+gpt-5-1,hotpotqa,5a83cf395542996488c2e4e0,"What musical genre was the song that, according to Annet Artani, inspired the Britney Spears song ""Everytime""?",R&B,Hymn,R&B,"[""According to Annet Artani, what song inspired the Britney Spears song 'Everytime'?"", ""What is the musical genre of the song {answer_1}?""]","{""answer_1"": ""Cry Me a River"", ""answer_2"": ""R&B""}","answer_1: str = qa_model(""According to Annet Artani, what song inspired the Britney Spears song 'Everytime'?"")
+answer_2: str = qa_model(""What is the musical genre of the song {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Cry Me a River"",
+  ""answer_2"": ""R&B""
+}","answer:
+Hymn","The answers provide different musical genres (R&B vs. Hymn), which are contradictory.","equivalent: 0
+reasoning: The answers provide different musical genres (R&B vs. Hymn), which are contradictory."
+gpt-5-1,hotpotqa,5a8ba62d554299240d9c205c,Lendley C. Black is Chancellor of a university offering how many majors?,93,75,85,"[""Which university is Lendley C. Black the Chancellor of?"", ""How many majors does {answer_1} offer?""]","{""answer_1"": ""University of Minnesota Duluth"", ""answer_2"": ""93""}","answer_1: str = qa_model(""Which university is Lendley C. Black the Chancellor of?"")
+answer_2: str = qa_model(""How many majors does {answer_1} offer?"", answer_1=answer_1)","{
+  ""answer_1"": ""University of Minnesota Duluth"",
+  ""answer_2"": ""93""
+}","answer:
+75",The numerical values 93 and 75 contradict each other and do not fall within the allowed tolerance for numeric expressions.,"equivalent: 0
+reasoning: The numerical values 93 and 75 contradict each other and do not fall within the allowed tolerance for numeric expressions."
+gpt-5-1,hotpotqa,5a8d69d6554299441c6b9fd6,Anti-Semetism in the 21st Century: The Resurgence was hosted by a journalist and writer who is an anchor of what show?,PBS NewsHour,Fareed Zakaria GPS,PBS NewsHour,"[""Who hosted 'Anti-Semetism in the 21st Century: The Resurgence'?"", ""What show is {answer_1} an anchor of?""]","{""answer_1"": ""Judy Woodruff"", ""answer_2"": ""PBS NewsHour""}","answer_1: str = qa_model(""Who hosted 'Anti-Semetism in the 21st Century: The Resurgence'?"")
+answer_2: str = qa_model(""What show is {answer_1} an anchor of?"", answer_1=answer_1)","{
+  ""answer_1"": ""Judy Woodruff"",
+  ""answer_2"": ""PBS NewsHour""
+}","answer:
+Fareed Zakaria GPS","The two answers refer to different television shows with different anchors. Judy Woodruff anchors PBS NewsHour, while Fareed Zakaria anchors Fareed Zakaria GPS.","equivalent: 0
+reasoning: The two answers refer to different television shows with different anchors. Judy Woodruff anchors PBS NewsHour, while Fareed Zakaria anchors Fareed Zakaria GPS."
+gpt-5-1,hotpotqa,5a8f938a55429918e830d275,Approximately what percentage of the global population is made up of the ethnic group Princess Fragrant was produced to improve relations with?,0.15,0.15%,17%,"[""Which ethnic group was the opera Princess Fragrant produced to improve relations with?"", ""What is the population of the {answer_1} ethnic group?"", ""What is the total global population?"", ""What is {answer_2} as a percentage of {answer_3}?""]","{""answer_1"": ""Uyghurs"", ""answer_2"": ""12000000"", ""answer_3"": ""7800000000"", ""answer_4"": ""0.15""}","answer_1: str = qa_model(""Which ethnic group was the opera Princess Fragrant produced to improve relations with?"")
+answer_2: str = qa_model(""What is the population of the {answer_1} ethnic group?"", answer_1=answer_1)
+answer_3: str = qa_model(""What is the total global population?"")
+answer_4: str = qa_model(""What is {answer_2} as a percentage of {answer_3}?"", answer_2=answer_2, answer_3=answer_3)","{
+  ""answer_1"": ""Uyghurs"",
+  ""answer_2"": ""12000000"",
+  ""answer_3"": ""7800000000"",
+  ""answer_4"": ""0.15""
+}","answer:
+0.15%","Answer A (0.15) represents 15%, while Answer B (0.15%) represents 0.15%. These are different numerical values.","equivalent: 0
+reasoning: Answer A (0.15) represents 15%, while Answer B (0.15%) represents 0.15%. These are different numerical values."
+gpt-5-1,hotpotqa,5ab292e4554299545a2cf993,In what political party was the man who officially opened he Royal Spa Centre in 1972?,No political party,Conservative Party,Conservative,"[""Who officially opened the Royal Spa Centre in 1972?"", ""What was the political party of {answer_1}?""]","{""answer_1"": ""Katharine, Duchess of Kent"", ""answer_2"": ""No political party""}","answer_1: str = qa_model(""Who officially opened the Royal Spa Centre in 1972?"")
+answer_2: str = qa_model(""What was the political party of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Katharine, Duchess of Kent"",
+  ""answer_2"": ""No political party""
+}","answer:
+Conservative Party","The answers directly contradict each other regarding the political party. Answer A states ""No political party"" while Answer B states ""Conservative Party"".","equivalent: 0
+reasoning: The answers directly contradict each other regarding the political party. Answer A states ""No political party"" while Answer B states ""Conservative Party""."
+gpt-5-1,hotpotqa,5ab30bbb55429976abd1bc39,"Prince William, Duke of Gloucester and Prince George of Denmark, were eventually monarchs of which Kingdom?",Kingdom of Great Britain,None; neither ever became monarch of any kingdom,Great Britain,"[""Who was the wife of Prince George of Denmark and mother of Prince William, Duke of Gloucester?"", ""Which kingdom was {answer_1} the monarch of?""]","{""answer_1"": ""Anne"", ""answer_2"": ""Kingdom of Great Britain""}","answer_1: str = qa_model(""Who was the wife of Prince George of Denmark and mother of Prince William, Duke of Gloucester?"")
+answer_2: str = qa_model(""Which kingdom was {answer_1} the monarch of?"", answer_1=answer_1)","{
+  ""answer_1"": ""Anne"",
+  ""answer_2"": ""Kingdom of Great Britain""
+}",None; neither ever became monarch of any kingdom,"Answer A incorrectly states they became monarchs of the Kingdom of Great Britain, while Answer B correctly states neither became a monarch, creating a direct contradiction.","equivalent: 0
+reasoning: Answer A incorrectly states they became monarchs of the Kingdom of Great Britain, while Answer B correctly states neither became a monarch, creating a direct contradiction."
+gpt-5-1,hotpotqa,5ab6ad2855429953192ad35e,"The lead singer and guitarist in the Portland, Oregon rock band consisting of John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk, goes by what alias?",The Fantastic The,Portugal. The Man,The Fantastic The,"[""What is the name of the rock band from Portland, Oregon with members John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk?"", ""Who is the lead singer and guitarist for {answer_1}?"", ""What alias does {answer_2} go by?""]","{""answer_1"": ""Portugal. The Man"", ""answer_2"": ""John Gourley"", ""answer_3"": ""The Fantastic The""}","answer_1: str = qa_model(""What is the name of the rock band from Portland, Oregon with members John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk?"")
+answer_2: str = qa_model(""Who is the lead singer and guitarist for {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What alias does {answer_2} go by?"", answer_2=answer_2)","{
+  ""answer_1"": ""Portugal. The Man"",
+  ""answer_2"": ""John Gourley"",
+  ""answer_3"": ""The Fantastic The""
+}","answer:
+Portugal. The Man","The answers provide different information. Neither answer correctly identifies an alias for the lead singer and guitarist, John Gourley. Answer B provides the band name, not an alias for the individual.","equivalent: 0
+reasoning: The answers provide different information. Neither answer correctly identifies an alias for the lead singer and guitarist, John Gourley. Answer B provides the band name, not an alias for the individual."
+gpt-5-1,hotpotqa,5ab8f5685542991b5579f096,What year was the thesis supervisor of Jocelyn Bell Burnell awarded the Eddington Medal?,1977,1969,1969,"[""Who was the thesis supervisor of Jocelyn Bell Burnell?"", ""In what year was {answer_1} awarded the Eddington Medal?""]","{""answer_1"": ""Antony Hewish"", ""answer_2"": ""1977""}","answer_1: str = qa_model(""Who was the thesis supervisor of Jocelyn Bell Burnell?"")
+answer_2: str = qa_model(""In what year was {answer_1} awarded the Eddington Medal?"", answer_1=answer_1)","{
+  ""answer_1"": ""Antony Hewish"",
+  ""answer_2"": ""1977""
+}",1969,"The years provided, 1977 and 1969, are different. Calendar dates and years must match exactly.","equivalent: 0
+reasoning: The years provided, 1977 and 1969, are different. Calendar dates and years must match exactly."
+gpt-5-1,hotpotqa,5abd40585542993062266c3e,West Ridge and the ridge that has IndependenceAvenue/Liberation Avenue as its eastern boundary are separated by what road? ,Castle Road,Gamel Abdul Nasser Avenue,Castle Road,"[""Which ridge has Independence Avenue/Liberation Avenue as its eastern boundary?"", ""What road separates West Ridge and {answer_1}?""]","{""answer_1"": ""North Ridge"", ""answer_2"": ""Castle Road""}","answer_1: str = qa_model(""Which ridge has Independence Avenue/Liberation Avenue as its eastern boundary?"")
+answer_2: str = qa_model(""What road separates West Ridge and {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""North Ridge"",
+  ""answer_2"": ""Castle Road""
+}","answer:
+Gamel Abdul Nasser Avenue","The two answers provide different road names, ""Castle Road"" and ""Gamel Abdul Nasser Avenue"", which are distinct and contradictory.","equivalent: 0
+reasoning: The two answers provide different road names, ""Castle Road"" and ""Gamel Abdul Nasser Avenue"", which are distinct and contradictory."
+gpt-5-1,hotpotqa,5abdbeed5542993062266cdd,"The airline operating in Whitehorse, Yukon handled how many passengers in 2012?",220000,105000,"294,000","[""What is the main airline operating in Whitehorse, Yukon?"", ""How many passengers did {answer_1} handle in 2012?""]","{""answer_1"": ""Air North"", ""answer_2"": ""220000""}","answer_1: str = qa_model(""What is the main airline operating in Whitehorse, Yukon?"")
+answer_2: str = qa_model(""How many passengers did {answer_1} handle in 2012?"", answer_1=answer_1)","{
+  ""answer_1"": ""Air North"",
+  ""answer_2"": ""220000""
+}","answer:
+105000",The numerical values 220000 and 105000 are significantly different and do not fall within the allowed tolerance for numerical expressions.,"equivalent: 0
+reasoning: The numerical values 220000 and 105000 are significantly different and do not fall within the allowed tolerance for numerical expressions."
+gpt-5-1,hotpotqa,5ac0551b5542997d64295a07,St James Street appears as a segment of Whitecross Street on the 1610 map of the Monmouth by an English historian best known as a mapmaker of what perior?,early 17th century,the Tudor period,Stuart period,"[""Who created the 1610 map of Monmouth?"", ""What period is the mapmaker {answer_1} best known for?""]","{""answer_1"": ""John Speed"", ""answer_2"": ""early 17th century""}","answer_1: str = qa_model(""Who created the 1610 map of Monmouth?"")
+answer_2: str = qa_model(""What period is the mapmaker {answer_1} best known for?"", answer_1=answer_1)","{
+  ""answer_1"": ""John Speed"",
+  ""answer_2"": ""early 17th century""
+}","answer:
+the Tudor period","The Tudor period ended in 1603, while the early 17th century refers to the period starting in 1600, and specifically includes 1610 mentioned in the question. These are distinct historical periods.","equivalent: 0
+reasoning: The Tudor period ended in 1603, while the early 17th century refers to the period starting in 1600, and specifically includes 1610 mentioned in the question. These are distinct historical periods."
+gpt-5-1,hotpotqa,5ac1b7495542994ab5c67dd9,What genre of music is the solo artist that contributed to Real Damage a variant of?,folk punk,punk rock,synth-pop,"[""Which solo artist contributed to the music group Real Damage?"", ""What is the music genre of {answer_1}?""]","{""answer_1"": ""Frank Turner"", ""answer_2"": ""folk punk""}","answer_1: str = qa_model(""Which solo artist contributed to the music group Real Damage?"")
+answer_2: str = qa_model(""What is the music genre of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Frank Turner"",
+  ""answer_2"": ""folk punk""
+}","answer:
+punk rock","""Folk punk"" is a specific subgenre, while ""punk rock"" is the broader genre from which ""folk punk"" is a variant. The question asks what genre the artist's music is a variant *of*, implying the broader category. Therefore, these are distinct answers.","equivalent: 0
+reasoning: ""Folk punk"" is a specific subgenre, while ""punk rock"" is the broader genre from which ""folk punk"" is a variant. The question asks what genre the artist's music is a variant *of*, implying the broader category. Therefore, these are distinct answers."
+gpt-5-1,hotpotqa,5ac1bfd85542994ab5c67dfb,"How many German scientists, engineers, and technicians, were recruited in post-Nazi Germany as a result of the clandestine operation where Arthur Rudolph became one of the main developers of the U.S. ?space program","more than 1,600",1600,"more than 1,600","[""What was the clandestine operation in which Arthur Rudolph was recruited to the U.S. space program?"", ""How many German scientists, engineers, and technicians were recruited as part of {answer_1}?""]","{""answer_1"": ""Operation Paperclip"", ""answer_2"": ""more than 1,600""}","answer_1: str = qa_model(""What was the clandestine operation in which Arthur Rudolph was recruited to the U.S. space program?"")
+answer_2: str = qa_model(""How many German scientists, engineers, and technicians were recruited as part of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Operation Paperclip"",
+  ""answer_2"": ""more than 1,600""
+}","answer:
+1600","Answer A states ""more than 1,600"" while Answer B states ""1600"", which are contradictory as ""more than 1,600"" excludes the value 1,600.","equivalent: 0
+reasoning: Answer A states ""more than 1,600"" while Answer B states ""1600"", which are contradictory as ""more than 1,600"" excludes the value 1,600."
+gpt-5-1,hotpotqa,5ac28a21554299677310256e,"The character portrayed in ""Giuliani Time"" is a real-life informal adviser to the White House in which area?",cybersecurity,homeland security,cybersecurity,"[""Who is the character portrayed in 'Giuliani Time'?"", ""In which area is {answer_1} an informal adviser to the White House?""]","{""answer_1"": ""Rudy Giuliani"", ""answer_2"": ""cybersecurity""}","answer_1: str = qa_model(""Who is the character portrayed in 'Giuliani Time'?"")
+answer_2: str = qa_model(""In which area is {answer_1} an informal adviser to the White House?"", answer_1=answer_1)","{
+  ""answer_1"": ""Rudy Giuliani"",
+  ""answer_2"": ""cybersecurity""
+}","answer:
+homeland security",The answers refer to two distinct areas of expertise: cybersecurity and homeland security. They are not equivalent.,"equivalent: 0
+reasoning: The answers refer to two distinct areas of expertise: cybersecurity and homeland security. They are not equivalent."
+gpt-5-1,hotpotqa,5ac3983a554299657fa290f5,"At the 2011 census, what was he population of the city where Kerry Saxby-Junna was born?","15,963",10037,"6,960","[""In which city was Kerry Saxby-Junna born?"", ""What was the population of {answer_1} at the 2011 census?""]","{""answer_1"": ""Ballina"", ""answer_2"": ""15,963""}","answer_1: str = qa_model(""In which city was Kerry Saxby-Junna born?"")
+answer_2: str = qa_model(""What was the population of {answer_1} at the 2011 census?"", answer_1=answer_1)","{
+  ""answer_1"": ""Ballina"",
+  ""answer_2"": ""15,963""
+}",10037,"The numerical values 15,963 and 10,037 are significantly different, exceeding the allowed tolerance for numerical equivalence (37.12% difference vs. 1-5.5% window).","equivalent: 0
+reasoning: The numerical values 15,963 and 10,037 are significantly different, exceeding the allowed tolerance for numerical equivalence (37.12% difference vs. 1-5.5% window)."
+gpt-5-1,hotpotqa,5ac3bf5e5542995ef918c20f,The Rossendale Free Press serves the town how far north of Manchester?,15 mi,17 mi,19 mi,"[""What town does the Rossendale Free Press serve?"", ""How far north of Manchester is {answer_1}?""]","{""answer_1"": ""Rawtenstall"", ""answer_2"": ""15 mi""}","answer_1: str = qa_model(""What town does the Rossendale Free Press serve?"")
+answer_2: str = qa_model(""How far north of Manchester is {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Rawtenstall"",
+  ""answer_2"": ""15 mi""
+}",17 mi,"The numerical values 15 and 17 differ by more than the allowed tolerance of max(0.5, 1% of reference).","equivalent: 0
+reasoning: The numerical values 15 and 17 differ by more than the allowed tolerance of max(0.5, 1% of reference)."
+gpt-5-1,hotpotqa,5ade8f5e55429975fa854f11,"What is the name of the movie in which Edwin Brown plays a man that executed at least 400 people, including William Joyce and John Amery?",Dance with a Stranger,Let Him Have It,10 Rillington Place,"[""Who executed William Joyce and John Amery?"", ""In which movie did Edwin Brown play {answer_1}?""]","{""answer_1"": ""Albert Pierrepoint"", ""answer_2"": ""Dance with a Stranger""}","answer_1: str = qa_model(""Who executed William Joyce and John Amery?"")
+answer_2: str = qa_model(""In which movie did Edwin Brown play {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Albert Pierrepoint"",
+  ""answer_2"": ""Dance with a Stranger""
+}","answer:
+Let Him Have It","The two answers refer to different movies. ""Let Him Have It"" features Edwin Brown as Albert Pierrepoint, the executioner mentioned in the question, while ""Dance with a Stranger"" does not.","equivalent: 0
+reasoning: The two answers refer to different movies. ""Let Him Have It"" features Edwin Brown as Albert Pierrepoint, the executioner mentioned in the question, while ""Dance with a Stranger"" does not."
+gpt-5-1,hotpotqa,5adf44985542993a75d2646d,Which genus of moth in the world's seventh-largest country contains only one species?,Khasia,India,Crambidae,"[""What is the world's seventh-largest country?"", ""Which genus of moth in {answer_1} contains only one species?""]","{""answer_1"": ""India"", ""answer_2"": ""Khasia""}","answer_1: str = qa_model(""What is the world's seventh-largest country?"")
+answer_2: str = qa_model(""Which genus of moth in {answer_1} contains only one species?"", answer_1=answer_1)","{
+  ""answer_1"": ""India"",
+  ""answer_2"": ""Khasia""
+}","answer:
+India","Answer A identifies the genus of moth as requested, while Answer B identifies the country, which is only part of the contextual information in the question.","equivalent: 0
+reasoning: Answer A identifies the genus of moth as requested, while Answer B identifies the country, which is only part of the contextual information in the question."
+gpt-5-1,hotpotqa,5adf698f5542993a75d264e2,Who directed a film that included Sarah Manninen?,Martha Coolidge,Paul Gross,Martha Coolidge,"[""Which film included Sarah Manninen?"", ""Who directed the film {answer_1}?""]","{""answer_1"": ""The Prince and Me"", ""answer_2"": ""Martha Coolidge""}","answer_1: str = qa_model(""Which film included Sarah Manninen?"")
+answer_2: str = qa_model(""Who directed the film {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""The Prince and Me"",
+  ""answer_2"": ""Martha Coolidge""
+}",Paul Gross,"The answers provide different names for the director, which are not equivalent.","equivalent: 0
+reasoning: The answers provide different names for the director, which are not equivalent."
+gpt-5-1,hotpotqa,5ae27edc5542992decbdcd2d,Jake David Shapiro was best know for being the screenwriter of a film directed by who?,Unknown,Steven Spielberg,Roger Christian,"[""What film is Jake David Shapiro best known for being the screenwriter of?"", ""Who directed the film {answer_1}?""]","{""answer_1"": ""Unknown"", ""answer_2"": ""Unknown""}","answer_1: str = qa_model(""What film is Jake David Shapiro best known for being the screenwriter of?"")
+answer_2: str = qa_model(""Who directed the film {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Unknown"",
+  ""answer_2"": ""Unknown""
+}",Steven Spielberg,"Answer A states the director is unknown, while Answer B provides a specific name (Steven Spielberg), which is a direct contradiction.","equivalent: 0
+reasoning: Answer A states the director is unknown, while Answer B provides a specific name (Steven Spielberg), which is a direct contradiction."
+gpt-5-1,hotpotqa,5ae3dde35542992f92d823a4, Benjamin Halfpenny was a footballer for a club that plays its home matches where?,Coventry Building Society Arena,St Andrew’s,Select Security Stadium,"[""Which football club did Benjamin Halfpenny play for?"", ""Where does {answer_1} play its home matches?""]","{""answer_1"": ""Coventry City"", ""answer_2"": ""Coventry Building Society Arena""}","answer_1: str = qa_model(""Which football club did Benjamin Halfpenny play for?"")
+answer_2: str = qa_model(""Where does {answer_1} play its home matches?"", answer_1=answer_1)","{
+  ""answer_1"": ""Coventry City"",
+  ""answer_2"": ""Coventry Building Society Arena""
+}","answer:
+St Andrew’s","The answers refer to two different stadiums/locations (Coventry Building Society Arena vs. St Andrew's), which is a direct contradiction.","equivalent: 0
+reasoning: The answers refer to two different stadiums/locations (Coventry Building Society Arena vs. St Andrew's), which is a direct contradiction."
+gpt-5-1,hotpotqa,5ae546be5542990ba0bbb251,Which Lightweight division mixed martial artist founded the American Combat Association?,Light heavyweight,Joe Stevenson,Kamal Shalorus,"[""Who founded the American Combat Association?"", ""In which weight division does the mixed martial artist {answer_1} compete?""]","{""answer_1"": ""Ken Shamrock"", ""answer_2"": ""Light heavyweight""}","answer_1: str = qa_model(""Who founded the American Combat Association?"")
+answer_2: str = qa_model(""In which weight division does the mixed martial artist {answer_1} compete?"", answer_1=answer_1)","{
+  ""answer_1"": ""Ken Shamrock"",
+  ""answer_2"": ""Light heavyweight""
+}","answer:
+Joe Stevenson","Answer A provides a weight class, not a person's name, and it's a different weight class than specified in the question. Answer B provides the correct person's name.","equivalent: 0
+reasoning: Answer A provides a weight class, not a person's name, and it's a different weight class than specified in the question. Answer B provides the correct person's name."
+gpt-5-1,hotpotqa,5ae78ec5554299540e5a5605,Guitars for Wounded Warriors is an album that was recorded in the village in which New York county?,Ulster County,Greene County,Ulster County,"[""In which village was the album 'Guitars for Wounded Warriors' recorded?"", ""In which New York county is {answer_1} located?""]","{""answer_1"": ""Woodstock"", ""answer_2"": ""Ulster County""}","answer_1: str = qa_model(""In which village was the album 'Guitars for Wounded Warriors' recorded?"")
+answer_2: str = qa_model(""In which New York county is {answer_1} located?"", answer_1=answer_1)","{
+  ""answer_1"": ""Woodstock"",
+  ""answer_2"": ""Ulster County""
+}",Greene County,"The answers provide different counties (Ulster vs. Greene), which is a direct contradiction to the question's core fact.","equivalent: 0
+reasoning: The answers provide different counties (Ulster vs. Greene), which is a direct contradiction to the question's core fact."
+gpt-5-1,hotpotqa,5a72d98f5542992359bc31ac,Torrens Bridge railway station was located east of a park named after who?,Thomas Elder,John Langdon Bonython,Sir John Langdon Bonython,"[""What is the name of the park located east of Torrens Bridge railway station?"", ""Who was {answer_1} named after?""]","{""answer_1"": ""Elder Park"", ""answer_2"": ""Thomas Elder""}","answer_1: str = qa_model(""What is the name of the park located east of Torrens Bridge railway station?"")
+answer_2: str = qa_model(""Who was {answer_1} named after?"", answer_1=answer_1)","{
+  ""answer_1"": ""Elder Park"",
+  ""answer_2"": ""Thomas Elder""
+}","answer:
+John Langdon Bonython","The answers provide different names for the person the park was named after, creating a direct contradiction.","equivalent: 0
+reasoning: The answers provide different names for the person the park was named after, creating a direct contradiction."
+gpt-5-1,hotpotqa,5a7413315542993a88ae2efb,"What town does the Mount Agamenticus region covers has the summer resort's name means ""beautiful place by the sea""?",Wells,Ogunquit,Ogunquit,"[""What is the name of a summer resort whose name means 'beautiful place by the sea'?"", ""What town in the Mount Agamenticus region is home to {answer_1}?""]","{""answer_1"": ""Ogunquit"", ""answer_2"": ""Wells""}","answer_1: str = qa_model(""What is the name of a summer resort whose name means 'beautiful place by the sea'?"")
+answer_2: str = qa_model(""What town in the Mount Agamenticus region is home to {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Ogunquit"",
+  ""answer_2"": ""Wells""
+}","answer:
+Ogunquit","The answers refer to different towns. Ogunquit means ""beautiful place by the sea"" in Abenaki, while Wells does not.","equivalent: 0
+reasoning: The answers refer to different towns. Ogunquit means ""beautiful place by the sea"" in Abenaki, while Wells does not."
+gpt-5-1,hotpotqa,5a7a61d355429941d65f25fd,Who directed the movie that Jack Covin played Dr. Ardmore in?,Brian De Palma,Tom Holland,Tom Holland,"[""What movie did Jack Covin play Dr. Ardmore in?"", ""Who directed '{answer_1}'?""]","{""answer_1"": ""Carrie"", ""answer_2"": ""Brian De Palma""}","answer_1: str = qa_model(""What movie did Jack Covin play Dr. Ardmore in?"")
+answer_2: str = qa_model(""Who directed '{answer_1}'?"", answer_1=answer_1)","{
+  ""answer_1"": ""Carrie"",
+  ""answer_2"": ""Brian De Palma""
+}","answer:
+Tom Holland","The director of ""Dressed to Kill"", the movie in which Jack Covin played Dr. Ardmore, is Brian De Palma. Answer B contradicts this fact.","equivalent: 0
+reasoning: The director of ""Dressed to Kill"", the movie in which Jack Covin played Dr. Ardmore, is Brian De Palma. Answer B contradicts this fact."
+gpt-5-1,hotpotqa,5a8399055542992ef85e2324,What do Karl Marx and Christopher Hitchens have in common?,"He generally accepted and defended historical materialism as a valuable framework for understanding history and society, though he was critical of some Marxist doctrines and practices",Both were prominent atheist critics of religion,journalist,"[""What is a prominent philosophical stance of Karl Marx?"", ""What was Christopher Hitchens's position regarding {answer_1}?""]","{""answer_1"": ""historical materialism"", ""answer_2"": ""He generally accepted and defended historical materialism as a valuable framework for understanding history and society, though he was critical of some Marxist doctrines and practices""}","answer_1: str = qa_model(""What is a prominent philosophical stance of Karl Marx?"")
+answer_2: str = qa_model(""What was Christopher Hitchens's position regarding {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""historical materialism"",
+  ""answer_2"": ""He generally accepted and defended historical materialism as a valuable framework for understanding history and society, though he was critical of some Marxist doctrines and practices""
+}","answer:
+Both were prominent atheist critics of religion","Answer A describes Christopher Hitchens' intellectual stance on Karl Marx's historical materialism, while Answer B states a shared characteristic of both individuals (being atheist critics of religion). These are distinct facts and not equivalent.","equivalent: 0
+reasoning: Answer A describes Christopher Hitchens' intellectual stance on Karl Marx's historical materialism, while Answer B states a shared characteristic of both individuals (being atheist critics of religion). These are distinct facts and not equivalent."
+gpt-5-1,hotpotqa,5a8b62cd55429949d91db588,"What is the platform-adventure video game created by independent developer D-Pad Studio, and included in 2016 new intellectual properties releases notable for?",being one of the highest-rated new intellectual property releases of 2016,Owlboy,its long development cycle,"[""What is the platform-adventure video game created by independent developer D-Pad Studio?"", ""What is '{answer_1}' notable for, specifically regarding 2016 new intellectual property releases?""]","{""answer_1"": ""Owlboy"", ""answer_2"": ""being one of the highest-rated new intellectual property releases of 2016""}","answer_1: str = qa_model(""What is the platform-adventure video game created by independent developer D-Pad Studio?"")
+answer_2: str = qa_model(""What is '{answer_1}' notable for, specifically regarding 2016 new intellectual property releases?"", answer_1=answer_1)","{
+  ""answer_1"": ""Owlboy"",
+  ""answer_2"": ""being one of the highest-rated new intellectual property releases of 2016""
+}","answer:
+Owlboy","Answer A describes what the game is notable for, while Answer B provides the name of the game. These are different facts.","equivalent: 0
+reasoning: Answer A describes what the game is notable for, while Answer B provides the name of the game. These are different facts."
+gpt-5-1,hotpotqa,5a8bbc135542995e66a474ea,"""No Foe Shall Gather Our Harvest"" is a poem first published in a monthly women's magazine published by who?",Australian Consolidated Press,Bauer Media Group,Bauer Media Group,"[""What monthly women's magazine first published the poem 'No Foe Shall Gather Our Harvest'?"", ""Who published {answer_1}?""]","{""answer_1"": ""The Australian Women's Weekly"", ""answer_2"": ""Australian Consolidated Press""}","answer_1: str = qa_model(""What monthly women's magazine first published the poem 'No Foe Shall Gather Our Harvest'?"")
+answer_2: str = qa_model(""Who published {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""The Australian Women's Weekly"",
+  ""answer_2"": ""Australian Consolidated Press""
+}","answer:
+Bauer Media Group","These are two distinct publishing companies. Bauer Media Group acquired Australian Consolidated Press in 2012, but they are not the same entity.","equivalent: 0
+reasoning: These are two distinct publishing companies. Bauer Media Group acquired Australian Consolidated Press in 2012, but they are not the same entity."
+gpt-5-1,hotpotqa,5a8c89f55542996e8ac88ad8,"What is the name of the seventh studio album that was made by the creator of ""Amazing"" and ""Only You""?",7,The Love Album,Georgia Clay,"[""Who is the creator of the songs 'Amazing' and 'Only You'?"", ""What is the seventh studio album by {answer_1}?""]","{""answer_1"": ""Enrique Iglesias"", ""answer_2"": ""7""}","answer_1: str = qa_model(""Who is the creator of the songs 'Amazing' and 'Only You'?"")
+answer_2: str = qa_model(""What is the seventh studio album by {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Enrique Iglesias"",
+  ""answer_2"": ""7""
+}",The Love Album,"The album names ""7"" and ""The Love Album"" are distinct and not equivalent.","equivalent: 0
+reasoning: The album names ""7"" and ""The Love Album"" are distinct and not equivalent."
+gpt-5-1,hotpotqa,5a90aeda5542990a98493699,The Riverport Railroad operates a former army depot track that was opened in what year?,1917,1918,1917,"[""What former army depot track does the Riverport Railroad operate?"", ""When was {answer_1} opened?""]","{""answer_1"": ""Savanna Army Depot"", ""answer_2"": ""1917""}","answer_1: str = qa_model(""What former army depot track does the Riverport Railroad operate?"")
+answer_2: str = qa_model(""When was {answer_1} opened?"", answer_1=answer_1)","{
+  ""answer_1"": ""Savanna Army Depot"",
+  ""answer_2"": ""1917""
+}","answer:
+1918",Years must match exactly; 1917 is not 1918.,"equivalent: 0
+reasoning: Years must match exactly; 1917 is not 1918."
+gpt-5-1,hotpotqa,5abc6fde55429959677d6ab7,Jake Roberts is an English film editor best known for his works on a British drama film based on what 2010 play?,Posh,Starred Up,Posh,"[""What British drama film edited by Jake Roberts is based on a 2010 play?"", ""What 2010 play is '{answer_1}' based on?""]","{""answer_1"": ""The Riot Club"", ""answer_2"": ""Posh""}","answer_1: str = qa_model(""What British drama film edited by Jake Roberts is based on a 2010 play?"")
+answer_2: str = qa_model(""What 2010 play is '{answer_1}' based on?"", answer_1=answer_1)","{
+  ""answer_1"": ""The Riot Club"",
+  ""answer_2"": ""Posh""
+}","answer:
+Starred Up","The answers provide different play titles, ""Posh"" and ""Starred Up"", which are contradictory.","equivalent: 0
+reasoning: The answers provide different play titles, ""Posh"" and ""Starred Up"", which are contradictory."
+gpt-5-1,hotpotqa,5abe249155429976d4830a7e, Ida Roland was born in a municipality  that lies on the shores of which lake ?,None,Lake Constance,Lake Geneva,"[""Where was Ida Roland born?"", ""Which lake lies on the shores of {answer_1}?""]","{""answer_1"": ""Vienna"", ""answer_2"": ""None""}","answer_1: str = qa_model(""Where was Ida Roland born?"")
+answer_2: str = qa_model(""Which lake lies on the shores of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Vienna"",
+  ""answer_2"": ""None""
+}","answer:
+Lake Constance","Answer A states ""None"", while Answer B provides a specific lake, ""Lake Constance"", which is a direct contradiction.","equivalent: 0
+reasoning: Answer A states ""None"", while Answer B provides a specific lake, ""Lake Constance"", which is a direct contradiction."
+gpt-5-1,hotpotqa,5abf1a6d5542990832d3a122,"What should you do to show respect when walking the trail Oahu trial that leads to a 150 foot waterfall, on the night of Kane, Ku, Lono, or Kanaloa at sunset and just before the sunrises?","Refrain from going on the trail or to the falls at those times; stay out of the stream and forest, keep lights and noise off, and leave the area undisturbed so the akua have the place to themselves from sunset through just before sunrise on those kapu nights","Lie face down on the ground, remain still, and avoid eye contact with the procession",lie face down,"[""What is the name of the trail on Oahu that leads to a 150-foot waterfall?"", ""What are the respectful practices for {answer_1} during the nights of Kane, Ku, Lono, or Kanaloa, specifically at sunset and just before sunrise?""]","{""answer_1"": ""Manoa Falls Trail"", ""answer_2"": ""Refrain from going on the trail or to the falls at those times; stay out of the stream and forest, keep lights and noise off, and leave the area undisturbed so the akua have the place to themselves from sunset through just before sunrise on those kapu nights""}","answer_1: str = qa_model(""What is the name of the trail on Oahu that leads to a 150-foot waterfall?"")
+answer_2: str = qa_model(""What are the respectful practices for {answer_1} during the nights of Kane, Ku, Lono, or Kanaloa, specifically at sunset and just before sunrise?"", answer_1=answer_1)","{
+  ""answer_1"": ""Manoa Falls Trail"",
+  ""answer_2"": ""Refrain from going on the trail or to the falls at those times; stay out of the stream and forest, keep lights and noise off, and leave the area undisturbed so the akua have the place to themselves from sunset through just before sunrise on those kapu nights""
+}","answer:
+Lie face down on the ground, remain still, and avoid eye contact with the procession","Answer A suggests refraining from going on the trail at all during those times, while Answer B describes actions to take if one is present on the trail, which contradicts Answer A's advice to avoid the area.","equivalent: 0
+reasoning: Answer A suggests refraining from going on the trail at all during those times, while Answer B describes actions to take if one is present on the trail, which contradicts Answer A's advice to avoid the area."
+gpt-5-1,hotpotqa,5abfd0505542993fe9a41e81,What company is associated with the UK but also was founded in the US?,None,The Body Shop,Pentair,"[""Name a company that is associated with the UK."", ""Which of these companies was founded in the US: {answer_1}?""]","{""answer_1"": ""British Airways"", ""answer_2"": ""None""}","answer_1: str = qa_model(""Name a company that is associated with the UK."")
+answer_2: str = qa_model(""Which of these companies was founded in the US: {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""British Airways"",
+  ""answer_2"": ""None""
+}","answer:
+The Body Shop","Answer A states no such company exists, while Answer B provides a specific company, creating a direct contradiction.","equivalent: 0
+reasoning: Answer A states no such company exists, while Answer B provides a specific company, creating a direct contradiction."
+gpt-5-1,hotpotqa,5ae2a123554299495565daed,What is the focus of the technique which developed on the technique named after Frederich Matthias Alexander,"developing an accurate mental map of the body’s structure to improve movement, posture, and prevent injury",posture,body mechanics in a state of motion,"[""What technique is named after Frederich Matthias Alexander?"", ""What technique developed on {answer_1}?"", ""What is the focus of {answer_2}?""]","{""answer_1"": ""Alexander Technique"", ""answer_2"": ""Body Mapping"", ""answer_3"": ""developing an accurate mental map of the body\u2019s structure to improve movement, posture, and prevent injury""}","answer_1: str = qa_model(""What technique is named after Frederich Matthias Alexander?"")
+answer_2: str = qa_model(""What technique developed on {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What is the focus of {answer_2}?"", answer_2=answer_2)","{
+  ""answer_1"": ""Alexander Technique"",
+  ""answer_2"": ""Body Mapping"",
+  ""answer_3"": ""developing an accurate mental map of the body’s structure to improve movement, posture, and prevent injury""
+}",posture,"Answer B is a subset of Answer A, providing only one aspect (""posture"") of the technique's focus, whereas Answer A gives a more comprehensive description including improving movement and preventing injury through developing a mental map of the body's structure. Answer B is too narrow to be considered equivalent to the more complete answer A for ""the focus"".","equivalent: 0
+reasoning: Answer B is a subset of Answer A, providing only one aspect (""posture"") of the technique's focus, whereas Answer A gives a more comprehensive description including improving movement and preventing injury through developing a mental map of the body's structure. Answer B is too narrow to be considered equivalent to the more complete answer A for ""the focus""."
+gpt-5-1,hotpotqa,5ae5301f5542990ba0bbb1f4,"In what year was the fairy tale of which the plot of ""Tears Were Falling"" can be viewed as a modern interpretation first published?",1837,1844,1844,"[""What fairy tale is 'Tears Were Falling' a modern interpretation of?"", ""In what year was '{answer_1}' first published?""]","{""answer_1"": ""The Little Mermaid"", ""answer_2"": ""1837""}","answer_1: str = qa_model(""What fairy tale is 'Tears Were Falling' a modern interpretation of?"")
+answer_2: str = qa_model(""In what year was '{answer_1}' first published?"", answer_1=answer_1)","{
+  ""answer_1"": ""The Little Mermaid"",
+  ""answer_2"": ""1837""
+}","answer:
+1844",The years 1837 and 1844 are different; calendar dates/years must match exactly.,"equivalent: 0
+reasoning: The years 1837 and 1844 are different; calendar dates/years must match exactly."
+google-gemini-2-5-pro,hotpotqa,5a8fae775542992414482b3b,What all female high school is located in a town in Sunyani West District  in the Brong-Ahafo Region of Ghana?,Odumaseman Senior High School,Notre Dame Girls' Senior High School,Notre Dame High School,"[""What is the capital of the Sunyani West District?"", ""What all female high school is located in {answer_1}?""]","{""answer_1"": ""Odumase"", ""answer_2"": ""Odumaseman Senior High School""}","answer_1: str = qa_model(""What is the capital of the Sunyani West District?"")
+answer_2: str = qa_model(""What all female high school is located in {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Odumase"",
+  ""answer_2"": ""Odumaseman Senior High School""
+}
+```",Notre Dame Girls' Senior High School,"The answers refer to different schools. Answer A is a mixed-gender school, while Answer B is an all-female school, which is specified in the question.","equivalent: 0
+reasoning: The answers refer to different schools. Answer A is a mixed-gender school, while Answer B is an all-female school, which is specified in the question."
+google-gemini-2-5-pro,hotpotqa,5adf698f5542993a75d264e2,Who directed a film that included Sarah Manninen?,Martha Coolidge,James Mark,Martha Coolidge,"[""Which film included Sarah Manninen?"", ""Who directed the film {answer_1}?""]","{""answer_1"": ""The Prince & Me"", ""answer_2"": ""Martha Coolidge""}","answer_1: str = qa_model(""Which film included Sarah Manninen?"")
+answer_2: str = qa_model(""Who directed the film {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""The Prince & Me"",
+  ""answer_2"": ""Martha Coolidge""
+}
+```",James Mark,"The answers provide different names for the director, which are distinct facts.","equivalent: 0
+reasoning: The answers provide different names for the director, which are distinct facts."
+google-gemini-2-5-pro,hotpotqa,5ac1bfd85542994ab5c67dfb,"How many German scientists, engineers, and technicians, were recruited in post-Nazi Germany as a result of the clandestine operation where Arthur Rudolph became one of the main developers of the U.S. ?space program","More than 1,600","1,600","more than 1,600","[""What was the clandestine operation in which Arthur Rudolph was recruited to the U.S. space program?"", ""How many German scientists, engineers, and technicians were recruited as part of {answer_1}?""]","{""answer_1"": ""Operation Paperclip"", ""answer_2"": ""More than 1,600""}","answer_1: str = qa_model(""What was the clandestine operation in which Arthur Rudolph was recruited to the U.S. space program?"")
+answer_2: str = qa_model(""How many German scientists, engineers, and technicians were recruited as part of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Operation Paperclip"",
+  ""answer_2"": ""More than 1,600""
+}
+```","1,600","""More than 1,600"" explicitly excludes the number 1,600, while ""1,600"" states the exact number. These are distinct numerical assertions and not covered by the numeric tolerance rule for small differences.","equivalent: 0
+reasoning: ""More than 1,600"" explicitly excludes the number 1,600, while ""1,600"" states the exact number. These are distinct numerical assertions and not covered by the numeric tolerance rule for small differences."
+google-gemini-2-5-pro,hotpotqa,5a804fc45542992bc0c4a6f0,Close to the Enemy starred the English actor known as Ash Morgan in what BBC series?,Casualty,Cuffs,Hustle,"[""Which English actor is known for playing Ash Morgan?"", ""In what BBC series did {answer_1} play Ash Morgan?""]","{""answer_1"": ""Charles Venn"", ""answer_2"": ""Casualty""}","answer_1: str = qa_model(""Which English actor is known for playing Ash Morgan?"")
+answer_2: str = qa_model(""In what BBC series did {answer_1} play Ash Morgan?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Charles Venn"",
+  ""answer_2"": ""Casualty""
+}
+```",Cuffs,The two answers refer to different BBC series.,"equivalent: 0
+reasoning: The two answers refer to different BBC series."
+google-gemini-2-5-pro,hotpotqa,5a7fa11e5542995d8a8dded4,"Who founded the college attended by Thomas Balston, member of the Whatman paper-making family?",William of Wykeham,Henry VI,William of Wykeham,"[""Which college did Thomas Balston attend?"", ""Who founded {answer_1}?""]","{""answer_1"": ""New College, Oxford"", ""answer_2"": ""William of Wykeham""}","answer_1: str = qa_model(""Which college did Thomas Balston attend?"")
+answer_2: str = qa_model(""Who founded {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""New College, Oxford"",
+  ""answer_2"": ""William of Wykeham""
+}
+```","answer:
+Henry VI","The answers contradict each other regarding the founder of the college. William of Wykeham founded New College, Oxford, which Thomas Balston attended. Henry VI founded King's College, Cambridge.","equivalent: 0
+reasoning: The answers contradict each other regarding the founder of the college. William of Wykeham founded New College, Oxford, which Thomas Balston attended. Henry VI founded King's College, Cambridge."
+google-gemini-2-5-pro,hotpotqa,5adf1bf75542993344016bd9,"Canton Road Station was a planned railway station on the Kowloon Southern Link of West Rail Line, that was to run beneath a large shopping mall located where?","Tsim Sha Tsui, Kowloon, Hong Kong",Harbour City,"Tsim Sha Tsui, Hong Kong","[""What is the name of the large shopping mall that Canton Road Station was planned to run beneath?"", ""Where is {answer_1} located?""]","{""answer_1"": ""Harbour City"", ""answer_2"": ""Tsim Sha Tsui, Kowloon, Hong Kong""}","answer_1: str = qa_model(""What is the name of the large shopping mall that Canton Road Station was planned to run beneath?"")
+answer_2: str = qa_model(""Where is {answer_1} located?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Harbour City"",
+  ""answer_2"": ""Tsim Sha Tsui, Kowloon, Hong Kong""
+}
+```","answer:
+Harbour City","Answer A provides the geographical location (Tsim Sha Tsui, Kowloon, Hong Kong) where the mall is located, directly answering ""located where?"". Answer B provides the name of the shopping mall (Harbour City), not its geographical location.","equivalent: 0
+reasoning: Answer A provides the geographical location (Tsim Sha Tsui, Kowloon, Hong Kong) where the mall is located, directly answering ""located where?"". Answer B provides the name of the shopping mall (Harbour City), not its geographical location."
+google-gemini-2-5-pro,hotpotqa,5a76353d5542994ccc918715,When was the artist who did the cover art of The Savage Frontier born?,1958-10-22,1948-08-05,"August 5, 1948","[""Who did the cover art for 'The Savage Frontier'?"", ""When was {answer_1} born?""]","{""answer_1"": ""Keith Parkinson"", ""answer_2"": ""1958-10-22""}","answer_1: str = qa_model(""Who did the cover art for 'The Savage Frontier'?"")
+answer_2: str = qa_model(""When was {answer_1} born?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Keith Parkinson"",
+  ""answer_2"": ""1958-10-22""
+}
+```",1948-08-05,The birth dates provided are different and calendar dates must match exactly.,"equivalent: 0
+reasoning: The birth dates provided are different and calendar dates must match exactly."
+google-gemini-2-5-pro,hotpotqa,5a7a61d355429941d65f25fd,Who directed the movie that Jack Covin played Dr. Ardmore in?,Miloš Forman,Joseph Green,Tom Holland,"[""What movie did Jack Covin play Dr. Ardmore in?"", ""Who directed '{answer_1}'?""]","{""answer_1"": ""One Flew Over the Cuckoo's Nest"", ""answer_2"": ""Milo\u0161 Forman""}","answer_1: str = qa_model(""What movie did Jack Covin play Dr. Ardmore in?"")
+answer_2: str = qa_model(""Who directed '{answer_1}'?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""One Flew Over the Cuckoo's Nest"",
+  ""answer_2"": ""Miloš Forman""
+}
+```",Joseph Green,"The two answers provide different names for the director, indicating a contradiction.","equivalent: 0
+reasoning: The two answers provide different names for the director, indicating a contradiction."
+google-gemini-2-5-pro,hotpotqa,5a7d48a05542991319bc9385,"Who founded the fast food chain whom Joshua Goez appeared in the ""Ranch Tooth"" commercials for?",Forrest Raffel; Leroy Raffel,Robert O. Peterson,Dave Thomas,"[""Which fast food chain had 'Ranch Tooth' commercials featuring Joshua Goez?"", ""Who founded {answer_1}?""]","{""answer_1"": ""Arby's"", ""answer_2"": ""Forrest Raffel; Leroy Raffel""}","answer_1: str = qa_model(""Which fast food chain had 'Ranch Tooth' commercials featuring Joshua Goez?"")
+answer_2: str = qa_model(""Who founded {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Arby's"",
+  ""answer_2"": ""Forrest Raffel; Leroy Raffel""
+}
+```","answer:
+Robert O. Peterson","Answer A correctly identifies the founders of Arby's (Forrest and Leroy Raffel), the chain associated with ""Ranch Tooth"" commercials. Answer B names Robert O. Peterson, who founded Jack in the Box, not Arby's, creating a contradiction.","equivalent: 0
+reasoning: Answer A correctly identifies the founders of Arby's (Forrest and Leroy Raffel), the chain associated with ""Ranch Tooth"" commercials. Answer B names Robert O. Peterson, who founded Jack in the Box, not Arby's, creating a contradiction."
+google-gemini-2-5-pro,hotpotqa,5a7e3e6f5542994959419940,What county is the city that contains Florida State Road 736's easterb terminus the seat of?,Broward County,Fort Lauderdale,Broward County,"[""What city contains Florida State Road 736's eastern terminus?"", ""What county is {answer_1} the seat of?""]","{""answer_1"": ""Fort Lauderdale"", ""answer_2"": ""Broward County""}","answer_1: str = qa_model(""What city contains Florida State Road 736's eastern terminus?"")
+answer_2: str = qa_model(""What county is {answer_1} the seat of?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Fort Lauderdale"",
+  ""answer_2"": ""Broward County""
+}
+```",Fort Lauderdale,"The question asks for the county, and Answer B provides a city, which is not a county.","equivalent: 0
+reasoning: The question asks for the county, and Answer B provides a city, which is not a county."
+google-gemini-2-5-pro,hotpotqa,5a8399055542992ef85e2324,What do Karl Marx and Christopher Hitchens have in common?,Critical,Critics of religion,journalist,"[""What is a prominent philosophical stance of Karl Marx?"", ""What was Christopher Hitchens's position regarding {answer_1}?""]","{""answer_1"": ""Historical materialism"", ""answer_2"": ""Critical""}","answer_1: str = qa_model(""What is a prominent philosophical stance of Karl Marx?"")
+answer_2: str = qa_model(""What was Christopher Hitchens's position regarding {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Historical materialism"",
+  ""answer_2"": ""Critical""
+}
+```",Critics of religion,"Answer A is too vague (""Critical"") and does not convey the specific commonality of being ""Critics of religion"" as stated in Answer B.","equivalent: 0
+reasoning: Answer A is too vague (""Critical"") and does not convey the specific commonality of being ""Critics of religion"" as stated in Answer B."
+google-gemini-2-5-pro,hotpotqa,5a870f695542991e771816ae,Who managed the Giants and won his first and only World Series to tile during his career?,Bill Terry; Leo Durocher,Bill Terry,Leo Durocher,"[""Which managers have won a World Series with the San Francisco Giants or New York Giants?"", ""Which manager from {answer_1} won exactly one World Series in their career?""]","{""answer_1"": ""John McGraw; Bill Terry; Leo Durocher; Bruce Bochy"", ""answer_2"": ""Bill Terry; Leo Durocher""}","answer_1: str = qa_model(""Which managers have won a World Series with the San Francisco Giants or New York Giants?"")
+answer_2: str = qa_model(""Which manager from {answer_1} won exactly one World Series in their career?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""John McGraw; Bill Terry; Leo Durocher; Bruce Bochy"",
+  ""answer_2"": ""Bill Terry; Leo Durocher""
+}
+```",Bill Terry,"Answer A incorrectly includes Leo Durocher, who did not win his first and only World Series with the Giants (he won a previous one with the Dodgers). Answer B correctly identifies Bill Terry.","equivalent: 0
+reasoning: Answer A incorrectly includes Leo Durocher, who did not win his first and only World Series with the Giants (he won a previous one with the Dodgers). Answer B correctly identifies Bill Terry."
+google-gemini-2-5-pro,hotpotqa,5a877cdd5542993e715abf72,"Which Rihanna album is the song that inspired ""I Was a Fool"" on?",A Girl like Me,Talk That Talk,"""A Girl like Me""","[""What song inspired 'I Was a Fool'?"", ""Which Rihanna album is '{answer_1}' on?""]","{""answer_1"": ""Unfaithful"", ""answer_2"": ""A Girl like Me""}","answer_1: str = qa_model(""What song inspired 'I Was a Fool'?"")
+answer_2: str = qa_model(""Which Rihanna album is '{answer_1}' on?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Unfaithful"",
+  ""answer_2"": ""A Girl like Me""
+}
+```",Talk That Talk,"The answers provide two different, distinct album names, which are contradictory.","equivalent: 0
+reasoning: The answers provide two different, distinct album names, which are contradictory."
+google-gemini-2-5-pro,hotpotqa,5a8b62cd55429949d91db588,"What is the platform-adventure video game created by independent developer D-Pad Studio, and included in 2016 new intellectual properties releases notable for?",Best-reviewed new PC IP of 2016 on Metacritic,Owlboy,its long development cycle,"[""What is the platform-adventure video game created by independent developer D-Pad Studio?"", ""What is '{answer_1}' notable for, specifically regarding 2016 new intellectual property releases?""]","{""answer_1"": ""Owlboy"", ""answer_2"": ""Best-reviewed new PC IP of 2016 on Metacritic""}","answer_1: str = qa_model(""What is the platform-adventure video game created by independent developer D-Pad Studio?"")
+answer_2: str = qa_model(""What is '{answer_1}' notable for, specifically regarding 2016 new intellectual property releases?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Owlboy"",
+  ""answer_2"": ""Best-reviewed new PC IP of 2016 on Metacritic""
+}
+```","answer:
+Owlboy","Answer A describes what the game is notable for, while Answer B provides the name of the game. They address different parts of the compound question.","equivalent: 0
+reasoning: Answer A describes what the game is notable for, while Answer B provides the name of the game. They address different parts of the compound question."
+google-gemini-2-5-pro,hotpotqa,5a8baf235542996e8ac889c2,Jon Bokenkamp wrote the screen play for the film starring which two actors?,Halle Berry; Abigail Breslin,Angelina Jolie; Ethan Hawke,Angelina Jolie and Ethan Hawke,"[""Name a film for which Jon Bokenkamp wrote the screenplay."", ""Which two actors starred in '{answer_1}'?""]","{""answer_1"": ""The Call"", ""answer_2"": ""Halle Berry; Abigail Breslin""}","answer_1: str = qa_model(""Name a film for which Jon Bokenkamp wrote the screenplay."")
+answer_2: str = qa_model(""Which two actors starred in '{answer_1}'?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""The Call"",
+  ""answer_2"": ""Halle Berry; Abigail Breslin""
+}
+```",Angelina Jolie; Ethan Hawke,"The lists of actors are completely different, indicating a contradiction in the essential facts.","equivalent: 0
+reasoning: The lists of actors are completely different, indicating a contradiction in the essential facts."
+google-gemini-2-5-pro,hotpotqa,5a8bbc135542995e66a474ea,"""No Foe Shall Gather Our Harvest"" is a poem first published in a monthly women's magazine published by who?",Are Media,Australian Consolidated Press,Bauer Media Group,"[""What monthly women's magazine first published the poem 'No Foe Shall Gather Our Harvest'?"", ""Who published {answer_1}?""]","{""answer_1"": ""The Australian Women's Weekly"", ""answer_2"": ""Are Media""}","answer_1: str = qa_model(""What monthly women's magazine first published the poem 'No Foe Shall Gather Our Harvest'?"")
+answer_2: str = qa_model(""Who published {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""The Australian Women's Weekly"",
+  ""answer_2"": ""Are Media""
+}
+```",Australian Consolidated Press,"The answers name two different publishing companies, Are Media and Australian Consolidated Press, which are distinct entities.","equivalent: 0
+reasoning: The answers name two different publishing companies, Are Media and Australian Consolidated Press, which are distinct entities."
+google-gemini-2-5-pro,hotpotqa,5a8c4ca95542996e8ac88a56,What was the first album released by the same boy band that released Ex'Act?,XOXO,Mama,XOXO,"[""Which boy band released the album 'Ex'Act'?"", ""What was the first album released by {answer_1}?""]","{""answer_1"": ""Exo"", ""answer_2"": ""XOXO""}","answer_1: str = qa_model(""Which boy band released the album 'Ex'Act'?"")
+answer_2: str = qa_model(""What was the first album released by {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Exo"",
+  ""answer_2"": ""XOXO""
+}
+```",Mama,"""Mama"" was EXO's debut album/EP, released in 2012. ""XOXO"" was their first studio album, released in 2013, making it not their first overall album. The answers contradict on the identity of the first album.","equivalent: 0
+reasoning: ""Mama"" was EXO's debut album/EP, released in 2012. ""XOXO"" was their first studio album, released in 2013, making it not their first overall album. The answers contradict on the identity of the first album."
+google-gemini-2-5-pro,hotpotqa,5a8c89f55542996e8ac88ad8,"What is the name of the seventh studio album that was made by the creator of ""Amazing"" and ""Only You""?",Double Trouble,The Life of Pablo,Georgia Clay,"[""Who is the creator of the songs 'Amazing' and 'Only You'?"", ""What is the seventh studio album by {answer_1}?""]","{""answer_1"": ""P-Square"", ""answer_2"": ""Double Trouble""}","answer_1: str = qa_model(""Who is the creator of the songs 'Amazing' and 'Only You'?"")
+answer_2: str = qa_model(""What is the seventh studio album by {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""P-Square"",
+  ""answer_2"": ""Double Trouble""
+}
+```",The Life of Pablo,"Answer A (""Double Trouble"") is not the seventh studio album by Kanye West (creator of ""Amazing"" and ""Only You""). Answer B (""The Life of Pablo"") is the correct seventh studio album. They contradict each other.","equivalent: 0
+reasoning: Answer A (""Double Trouble"") is not the seventh studio album by Kanye West (creator of ""Amazing"" and ""Only You""). Answer B (""The Life of Pablo"") is the correct seventh studio album. They contradict each other."
+google-gemini-2-5-pro,hotpotqa,5a8cac72554299240d9c21d0,"The news program ""International Desk"" is broadcast from a building adjacent to what park?",Midron Yaffo Park,HaPisga Garden,Centennial Olympic Park,"[""From which building is the news program 'International Desk' broadcast?"", ""What park is adjacent to {answer_1}?""]","{""answer_1"": ""Jaffa Port"", ""answer_2"": ""Midron Yaffo Park""}","answer_1: str = qa_model(""From which building is the news program 'International Desk' broadcast?"")
+answer_2: str = qa_model(""What park is adjacent to {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Jaffa Port"",
+  ""answer_2"": ""Midron Yaffo Park""
+}
+```",HaPisga Garden,"The two answers provide different names for the park, indicating a contradiction.","equivalent: 0
+reasoning: The two answers provide different names for the park, indicating a contradiction."
+google-gemini-2-5-pro,hotpotqa,5a90aeda5542990a98493699,The Riverport Railroad operates a former army depot track that was opened in what year?,1917,1918,1917,"[""What former army depot track does the Riverport Railroad operate?"", ""When was {answer_1} opened?""]","{""answer_1"": ""Savanna Army Depot"", ""answer_2"": ""1917""}","answer_1: str = qa_model(""What former army depot track does the Riverport Railroad operate?"")
+answer_2: str = qa_model(""When was {answer_1} opened?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Savanna Army Depot"",
+  ""answer_2"": ""1917""
+}
+```",1918,Years must match exactly; 1917 is not 1918.,"equivalent: 0
+reasoning: Years must match exactly; 1917 is not 1918."
+google-gemini-2-5-pro,hotpotqa,5ab466f95542996a3a969f7d,"A studio album by I Killed the Prom Queen reached the top 30 in ARIA Albums Chart, on what date was that album released?",2014-02-14,2006-08-01,31 July 2006.,"[""Which studio album by I Killed the Prom Queen reached the top 30 in the ARIA Albums Chart?"", ""What is the release date of {answer_1}?""]","{""answer_1"": ""Beloved"", ""answer_2"": ""2014-02-14""}","answer_1: str = qa_model(""Which studio album by I Killed the Prom Queen reached the top 30 in the ARIA Albums Chart?"")
+answer_2: str = qa_model(""What is the release date of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Beloved"",
+  ""answer_2"": ""2014-02-14""
+}
+```",2006-08-01,"The dates provided are different, and calendar dates must match exactly.","equivalent: 0
+reasoning: The dates provided are different, and calendar dates must match exactly."
+google-gemini-2-5-pro,hotpotqa,5ab5afd8554299637185c5db,"In 2006 ""Strictly Dance Fever"" promoted a modern afro-Cuban partner dance derived from the works of which composer?",Arsenio Rodríguez,Orishas,Enrique Jorrin,"[""What modern afro-Cuban partner dance was promoted by \""Strictly Dance Fever\"" in 2006?"", ""Which composer's works is {answer_1} derived from?""]","{""answer_1"": ""Salsa"", ""answer_2"": ""Arsenio Rodr\u00edguez""}","answer_1: str = qa_model(""What modern afro-Cuban partner dance was promoted by \""Strictly Dance Fever\"" in 2006?"")
+answer_2: str = qa_model(""Which composer's works is {answer_1} derived from?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Salsa"",
+  ""answer_2"": ""Arsenio Rodríguez""
+}
+```",Orishas,"Answer A identifies Arsenio Rodríguez as the composer, while Answer B identifies Orishas, which is a different entity (a hip hop group). These are contradictory facts.","equivalent: 0
+reasoning: Answer A identifies Arsenio Rodríguez as the composer, while Answer B identifies Orishas, which is a different entity (a hip hop group). These are contradictory facts."
+google-gemini-2-5-pro,hotpotqa,5ab5faeb554299637185c657,What month was the female cast member of the King of the mountain born?,April,November,August,"[""Who is the female cast member in the movie King of the mountain?"", ""What month was {answer_1} born?""]","{""answer_1"": ""Mar\u00eda Valverde"", ""answer_2"": ""April""}","answer_1: str = qa_model(""Who is the female cast member in the movie King of the mountain?"")
+answer_2: str = qa_model(""What month was {answer_1} born?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""María Valverde"",
+  ""answer_2"": ""April""
+}
+```",November,"The months provided, April and November, are different, leading to a contradiction.","equivalent: 0
+reasoning: The months provided, April and November, are different, leading to a contradiction."
+google-gemini-2-5-pro,hotpotqa,5ab91bc0554299753720f6fc,"When did a paramilitary offshoot of the IRA start carrying ut bombings, after splitting from the Real IRA?",2010,2009-11-20,2009,"[""What paramilitary group split from the Real IRA?"", ""When did {answer_1} start carrying out bombings?""]","{""answer_1"": ""\u00d3glaigh na h\u00c9ireann"", ""answer_2"": ""2010""}","answer_1: str = qa_model(""What paramilitary group split from the Real IRA?"")
+answer_2: str = qa_model(""When did {answer_1} start carrying out bombings?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Óglaigh na hÉireann"",
+  ""answer_2"": ""2010""
+}
+```",2009-11-20,Calendar dates/years must match exactly; 2010 is not 2009.,"equivalent: 0
+reasoning: Calendar dates/years must match exactly; 2010 is not 2009."
+google-gemini-2-5-pro,hotpotqa,5abe249155429976d4830a7e, Ida Roland was born in a municipality  that lies on the shores of which lake ?,Alte Donau,Lake Geneva,Lake Geneva,"[""Where was Ida Roland born?"", ""Which lake lies on the shores of {answer_1}?""]","{""answer_1"": ""Vienna"", ""answer_2"": ""Alte Donau""}","answer_1: str = qa_model(""Where was Ida Roland born?"")
+answer_2: str = qa_model(""Which lake lies on the shores of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Vienna"",
+  ""answer_2"": ""Alte Donau""
+}
+```",Lake Geneva,"The answers refer to two different bodies of water (Alte Donau in Vienna vs. Lake Geneva in Switzerland/France), creating a contradiction.","equivalent: 0
+reasoning: The answers refer to two different bodies of water (Alte Donau in Vienna vs. Lake Geneva in Switzerland/France), creating a contradiction."
+google-gemini-2-5-pro,hotpotqa,5abf1a6d5542990832d3a122,"What should you do to show respect when walking the trail Oahu trial that leads to a 150 foot waterfall, on the night of Kane, Ku, Lono, or Kanaloa at sunset and just before the sunrises?",The trail is closed to the public.,Walk the trail in silence.,lie face down,"[""What is the name of the trail on Oahu that leads to a 150-foot waterfall?"", ""What are the respectful practices for {answer_1} during the nights of Kane, Ku, Lono, or Kanaloa, specifically at sunset and just before sunrise?""]","{""answer_1"": ""M\u0101noa Falls Trail"", ""answer_2"": ""The trail is closed to the public.""}","answer_1: str = qa_model(""What is the name of the trail on Oahu that leads to a 150-foot waterfall?"")
+answer_2: str = qa_model(""What are the respectful practices for {answer_1} during the nights of Kane, Ku, Lono, or Kanaloa, specifically at sunset and just before sunrise?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Mānoa Falls Trail"",
+  ""answer_2"": ""The trail is closed to the public.""
+}
+```",Walk the trail in silence.,"Answer A states the trail is closed, implying one should not be on it. Answer B suggests an action to take while on the trail. These are different facts and imply different primary actions.","equivalent: 0
+reasoning: Answer A states the trail is closed, implying one should not be on it. Answer B suggests an action to take while on the trail. These are different facts and imply different primary actions."
+google-gemini-2-5-pro,hotpotqa,5abfd0505542993fe9a41e81,What company is associated with the UK but also was founded in the US?,None,Aon plc,Pentair,"[""Name a company that is associated with the UK."", ""Which of these companies was founded in the US: {answer_1}?""]","{""answer_1"": ""BP"", ""answer_2"": ""None""}","answer_1: str = qa_model(""Name a company that is associated with the UK."")
+answer_2: str = qa_model(""Which of these companies was founded in the US: {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""BP"",
+  ""answer_2"": ""None""
+}
+```",Aon plc,"Answer A states there is no such company, while Answer B provides a specific company, creating a direct contradiction.","equivalent: 0
+reasoning: Answer A states there is no such company, while Answer B provides a specific company, creating a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5ae195595542997b2ef7d206,"From which school of the Mount Vernon City School District was teacher fired, causing the school district to receive national attention?",Mount Vernon Middle School,Mount Vernon High School,Mount Vernon Middle School,"[""Which teacher's firing caused the Mount Vernon City School District to receive national attention?"", ""From which school was {answer_1} fired?""]","{""answer_1"": ""John Freshwater"", ""answer_2"": ""Mount Vernon Middle School""}","answer_1: str = qa_model(""Which teacher's firing caused the Mount Vernon City School District to receive national attention?"")
+answer_2: str = qa_model(""From which school was {answer_1} fired?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""John Freshwater"",
+  ""answer_2"": ""Mount Vernon Middle School""
+}
+```",Mount Vernon High School,"The answers name different schools (Middle School vs. High School), which is a direct contradiction.","equivalent: 0
+reasoning: The answers name different schools (Middle School vs. High School), which is a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5ae2a123554299495565daed,What is the focus of the technique which developed on the technique named after Frederich Matthias Alexander,The evolutionary development of human movement,Use of the self,body mechanics in a state of motion,"[""What technique is named after Frederich Matthias Alexander?"", ""What technique developed on {answer_1}?"", ""What is the focus of {answer_2}?""]","{""answer_1"": ""Alexander Technique"", ""answer_2"": ""Dart Procedures"", ""answer_3"": ""The evolutionary development of human movement""}","answer_1: str = qa_model(""What technique is named after Frederich Matthias Alexander?"")
+answer_2: str = qa_model(""What technique developed on {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What is the focus of {answer_2}?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""Alexander Technique"",
+  ""answer_2"": ""Dart Procedures"",
+  ""answer_3"": ""The evolutionary development of human movement""
+}
+```",Use of the self,"The answers describe different concepts. ""Use of the self"" is a core concept of the Alexander Technique, while ""evolutionary development of human movement"" is a broader field of study.","equivalent: 0
+reasoning: The answers describe different concepts. ""Use of the self"" is a core concept of the Alexander Technique, while ""evolutionary development of human movement"" is a broader field of study."
+google-gemini-2-5-pro,hotpotqa,5ae52e6a5542990ba0bbb1ec,"Since when Romeo and Juliet was the first production of the play for  a live theater to digital platforms company, founded in 2013 by Stewart F. Lane and Bonnie Comley?",2014-02,2013-09-19,1977,"[""What is the name of the live theater to digital platforms company founded in 2013 by Stewart F. Lane and Bonnie Comley?"", ""When was 'Romeo and Juliet' the first production for {answer_1}?""]","{""answer_1"": ""BroadwayHD"", ""answer_2"": ""2014-02""}","answer_1: str = qa_model(""What is the name of the live theater to digital platforms company founded in 2013 by Stewart F. Lane and Bonnie Comley?"")
+answer_2: str = qa_model(""When was 'Romeo and Juliet' the first production for {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""intermediate_answers"": {
+    ""answer_1"": ""BroadwayHD"",
+    ""answer_2"": ""2014-02""
+  }
+}
+```",2013-09-19,The dates provided are different (2014-02 vs 2013-09-19) and calendar dates must match exactly.,"equivalent: 0
+reasoning: The dates provided are different (2014-02 vs 2013-09-19) and calendar dates must match exactly."
+google-gemini-2-5-pro,hotpotqa,5ae60fea5542992663a4f24f,"When did the male lead of the film ""Flexing with Monty"" die?",Sean Murray is still alive.,Tony Peck,7 June 2003,"[""Who is the male lead of the film 'Flexing with Monty'?"", ""When did {answer_1} die?""]","{""answer_1"": ""Sean Murray"", ""answer_2"": ""Sean Murray is still alive.""}","answer_1: str = qa_model(""Who is the male lead of the film 'Flexing with Monty'?"")
+answer_2: str = qa_model(""When did {answer_1} die?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Sean Murray"",
+  ""answer_2"": ""Sean Murray is still alive.""
+}
+```",Tony Peck,"The answers identify different individuals as the male lead of the film, leading to a contradiction.","equivalent: 0
+reasoning: The answers identify different individuals as the male lead of the film, leading to a contradiction."
+google-gemini-2-5-pro,hotpotqa,5ae770d75542997b22f6a766,"Which animator from Canada served as an assistant director on an American animated television series that ran on The WB from September 24, 1999, to July 16, 2000, and on Adult Swim from July 14 to August 11, 2002?",Tricia Garcia,Rob Boutilier,,,,,,,"The names ""Tricia Garcia"" and ""Rob Boutilier"" refer to different individuals.","equivalent: 0
+reasoning: The names ""Tricia Garcia"" and ""Rob Boutilier"" refer to different individuals."
+google-gemini-2-5-pro,hotpotqa,5a76059155429976ec32bce6,"What shopping mall is the largest in south Texas, Malle del Norte or La Plaza Mall?",Mall del Norte,La Plaza Mall,La Plaza Mall,"[""What is the size of Mall del Norte?"", ""What is the size of La Plaza Mall?"", ""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?""]","{""answer_1"": ""1,212,515 sq ft"", ""answer_2"": ""1,200,000 sq ft"", ""answer_3"": ""Mall del Norte""}","answer_1: str = qa_model(""What is the size of Mall del Norte?"")
+answer_2: str = qa_model(""What is the size of La Plaza Mall?"")
+answer_3: str = qa_model(""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?"", answer_1=answer_1, answer_2=answer_2)","```json
+{
+  ""answer_1"": ""1,212,515 sq ft"",
+  ""answer_2"": ""1,200,000 sq ft"",
+  ""answer_3"": ""Mall del Norte""
+}
+```","answer:
+La Plaza Mall",The answers contradict each other regarding which mall is the largest.,"equivalent: 0
+reasoning: The answers contradict each other regarding which mall is the largest."
+google-gemini-2-5-pro,hotpotqa,5a760f6855429976ec32bcf9,What retailer is the second-largest in the United States and has a commercial featuring the American artist who was 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?,Target,Amazon,Target Corporation,"[""Who was the 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?"", ""Which retailer, the second-largest in the United States, has a commercial featuring {answer_1}?""]","{""answer_1"": ""Taylor Swift"", ""answer_2"": ""Target""}","answer_1: str = qa_model(""Who was the 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?"")
+answer_2: str = qa_model(""Which retailer, the second-largest in the United States, has a commercial featuring {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Taylor Swift"",
+  ""answer_2"": ""Target""
+}
+```",Amazon,"The answers contradict each other. Amazon is generally considered the second-largest retailer in the US, not Target.","equivalent: 0
+reasoning: The answers contradict each other. Amazon is generally considered the second-largest retailer in the US, not Target."
+google-gemini-2-5-pro,hotpotqa,5a7722d655429966f1a36c99,Where did the form of music played by Die Rhöner Säuwäntzt originate?,Germany; Austria; Switzerland,Rhön,United States,"[""What form of music do Die Rh\u00c3\u00b6ner S\u00c3\u00a4uw\u00c3\u00a4ntzt play?"", ""Where did the music form {answer_1} originate?""]","{""answer_1"": ""Volksmusik"", ""answer_2"": ""Germany; Austria; Switzerland""}","answer_1: str = qa_model(""What form of music do Die Rhöner Säuwäntzt play?"")
+answer_2: str = qa_model(""Where did the music form {answer_1} originate?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Volksmusik"",
+  ""answer_2"": ""Germany; Austria; Switzerland""
+}
+```",Rhön,"Answer B specifies a region (Rhön, which is in Germany), while Answer A lists three countries (Germany, Austria, Switzerland). If the music originated specifically in Rhön, then stating Austria and Switzerland as origins (as in Answer A) would be a contradiction.","equivalent: 0
+reasoning: Answer B specifies a region (Rhön, which is in Germany), while Answer A lists three countries (Germany, Austria, Switzerland). If the music originated specifically in Rhön, then stating Austria and Switzerland as origins (as in Answer A) would be a contradiction."
+google-gemini-2-5-pro,hotpotqa,5a7ca54c55429935c91b527f,"The Swedish-British entertainment studio executive and film executive producer, who was the Executive producer for a 2016 American action thriller film directed by Babak Najafi, currently serve?",Producer,CEO of Marv Group,CEO of Lionsgate UK & Europe,"[""What is the 2016 American action thriller film directed by Babak Najafi?"", ""Who was the executive producer for {answer_1}?"", ""What position does {answer_2} currently hold?""]","{""answer_1"": ""London Has Fallen"", ""answer_2"": ""Avi Lerner; Trevor Short; Boaz Davidson; John Thompson; Christine Otal; Heidi Jo Markel"", ""answer_3"": ""Producer""}","answer_1: str = qa_model(""What is the 2016 American action thriller film directed by Babak Najafi?"")
+answer_2: str = qa_model(""Who was the executive producer for {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What position does {answer_2} currently hold?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""London Has Fallen"",
+  ""answer_2"": ""Avi Lerner; Trevor Short; Boaz Davidson; John Thompson; Christine Otal; Heidi Jo Markel"",
+  ""answer_3"": ""Producer""
+}
+```",CEO of Marv Group,"Answer A describes a general functional role, while Answer B describes a specific executive position within a company. These are distinct facts, not one being a more specific version of the other.","equivalent: 0
+reasoning: Answer A describes a general functional role, while Answer B describes a specific executive position within a company. These are distinct facts, not one being a more specific version of the other."
+google-gemini-2-5-pro,hotpotqa,5a7ccec9554299452d57ba72,What video game published by Sierra Entertainment includes an antagonist figure who's mystery is the core of the series? ,Gabriel Knight: Sins of the Fathers,Half-Life,F.E.A.R.,"[""Which antagonist figure's mystery is the core of a video game series published by Sierra Entertainment?"", ""What video game published by Sierra Entertainment features the antagonist {answer_1}?""]","{""answer_1"": ""Malia Gedde"", ""answer_2"": ""Gabriel Knight: Sins of the Fathers""}","answer_1: str = qa_model(""Which antagonist figure's mystery is the core of a video game series published by Sierra Entertainment?"")
+answer_2: str = qa_model(""What video game published by Sierra Entertainment features the antagonist {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Malia Gedde"",
+  ""answer_2"": ""Gabriel Knight: Sins of the Fathers""
+}
+```","answer:
+Half-Life","The answers refer to two different video games, Gabriel Knight: Sins of the Fathers and Half-Life.","equivalent: 0
+reasoning: The answers refer to two different video games, Gabriel Knight: Sins of the Fathers and Half-Life."
+google-gemini-2-5-pro,hotpotqa,5a7d231555429909bec76986,La Barredora was a gang that declared war on the leader of the cartel based where?,Sinaloa,Acapulco,Sinaloa,"[""Which cartel leader did the gang La Barredora declare war on?"", ""Where was the cartel led by {answer_1} based?""]","{""answer_1"": ""Joaqu\u00edn \""El Chapo\"" Guzm\u00e1n"", ""answer_2"": ""Sinaloa""}","answer_1: str = qa_model(""Which cartel leader did the gang La Barredora declare war on?"")
+answer_2: str = qa_model(""Where was the cartel led by {answer_1} based?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Joaquín \""El Chapo\"" Guzmán"",
+  ""answer_2"": ""Sinaloa""
+}
+```",Acapulco,The answers provide contradictory locations for the cartel's base.,"equivalent: 0
+reasoning: The answers provide contradictory locations for the cartel's base."
+google-gemini-2-5-pro,hotpotqa,5a7d90195542991319bc93cf,The axial turbojet Pirna 014 was designed by engineers from this German aircraft and aircraft engine manufacturer based in which city?,Dresden,Pirna,Dessau,"[""Which German aircraft and aircraft engine manufacturer designed the Pirna 014?"", ""In which city is {answer_1} based?""]","{""answer_1"": ""Flugzeugwerke Dresden"", ""answer_2"": ""Dresden""}","answer_1: str = qa_model(""Which German aircraft and aircraft engine manufacturer designed the Pirna 014?"")
+answer_2: str = qa_model(""In which city is {answer_1} based?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Flugzeugwerke Dresden"",
+  ""answer_2"": ""Dresden""
+}
+```","answer:
+Pirna","The answers provide different cities (Dresden vs. Pirna) for the manufacturer's base, which is a direct contradiction.","equivalent: 0
+reasoning: The answers provide different cities (Dresden vs. Pirna) for the manufacturer's base, which is a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5a7f8a535542994857a76778,The Pineground Bridge formerly carried Depot Road over the Suncook River into a town with a population of what?,"22,135","7,207","2,523","[""Into which town did the Pineground Bridge carry Depot Road?"", ""What is the population of {answer_1}?""]","{""answer_1"": ""Scarborough"", ""answer_2"": ""22,135""}","answer_1: str = qa_model(""Into which town did the Pineground Bridge carry Depot Road?"")
+answer_2: str = qa_model(""What is the population of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Scarborough"",
+  ""answer_2"": ""22,135""
+}
+```","7,207",The population numbers provided are significantly different and do not fall within the allowed numeric tolerance.,"equivalent: 0
+reasoning: The population numbers provided are significantly different and do not fall within the allowed numeric tolerance."
+google-gemini-2-5-pro,hotpotqa,5a8235d25542995ce29dccda,What South Korean sitcom starred a South Korean singer and actress who began her music career at the age of 15?,The Producers,High Kick: Revenge of the Short Legged,The Producers,"[""Which South Korean singer and actress began her music career at the age of 15?"", ""What South Korean sitcom starred {answer_1}?""]","{""answer_1"": ""IU"", ""answer_2"": ""The Producers""}","answer_1: str = qa_model(""Which South Korean singer and actress began her music career at the age of 15?"")
+answer_2: str = qa_model(""What South Korean sitcom starred {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""IU"",
+  ""answer_2"": ""The Producers""
+}
+```",High Kick: Revenge of the Short Legged,The two answers refer to different sitcom titles.,"equivalent: 0
+reasoning: The two answers refer to different sitcom titles."
+google-gemini-2-5-pro,hotpotqa,5a83cf395542996488c2e4e0,"What musical genre was the song that, according to Annet Artani, inspired the Britney Spears song ""Everytime""?",Pop,Classical,R&B,"[""According to Annet Artani, what song inspired the Britney Spears song 'Everytime'?"", ""What is the musical genre of the song {answer_1}?""]","{""answer_1"": ""Leaving You"", ""answer_2"": ""Pop""}","answer_1: str = qa_model(""According to Annet Artani, what song inspired the Britney Spears song 'Everytime'?"")
+answer_2: str = qa_model(""What is the musical genre of the song {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Leaving You"",
+  ""answer_2"": ""Pop""
+}
+```","answer:
+Classical","The answers state different musical genres (Pop vs Classical), which are distinct and contradictory.","equivalent: 0
+reasoning: The answers state different musical genres (Pop vs Classical), which are distinct and contradictory."
+google-gemini-2-5-pro,hotpotqa,5a8a698255429930ff3c0dcf,In what year was the company that co-developed and distributed the BlackBerry DTEK60 founded?,1981,1999,1984,"[""Which company co-developed and distributed the BlackBerry DTEK60?"", ""In what year was {answer_1} founded?""]","{""answer_1"": ""TCL Corporation"", ""answer_2"": ""1981""}","answer_1: str = qa_model(""Which company co-developed and distributed the BlackBerry DTEK60?"")
+answer_2: str = qa_model(""In what year was {answer_1} founded?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""TCL Corporation"",
+  ""answer_2"": ""1981""
+}
+```",1999,"The years provided, 1981 and 1999, are different and must match exactly for calendar dates/years.","equivalent: 0
+reasoning: The years provided, 1981 and 1999, are different and must match exactly for calendar dates/years."
+google-gemini-2-5-pro,hotpotqa,5a8e506d5542990e94052ac8,"The republic with the smallest population of all the members of the Council of Europe is one of few places in Europe where a species of beetle cannot be found, that wew originally described in 1809 by whom?",Carl Linnaeus,Thomas Say,Panzer,"[""Which member of the Council of Europe has the smallest population?"", ""What species of beetle cannot be found in {answer_1}?"", ""Who originally described the {answer_2} in 1809?""]","{""answer_1"": ""San Marino"", ""answer_2"": ""Brachinus crepitans"", ""answer_3"": ""Carl Linnaeus""}","answer_1: str = qa_model(""Which member of the Council of Europe has the smallest population?"")
+answer_2: str = qa_model(""What species of beetle cannot be found in {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""Who originally described the {answer_2} in 1809?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""San Marino"",
+  ""answer_2"": ""Brachinus crepitans"",
+  ""answer_3"": ""Carl Linnaeus""
+}
+```",Thomas Say,"The answers provide different names for the person who described the species, leading to a contradiction.","equivalent: 0
+reasoning: The answers provide different names for the person who described the species, leading to a contradiction."
+google-gemini-2-5-pro,hotpotqa,5ab1c5cb554299722f9b4c61,Who represents the district that Gawthorpe is in?,Imran Ahmad Khan,Antony Higginbotham,Julie Cooper,"[""In which district is Gawthorpe located?"", ""Who represents the {answer_1} district?""]","{""answer_1"": ""Wakefield"", ""answer_2"": ""Imran Ahmad Khan""}","answer_1: str = qa_model(""In which district is Gawthorpe located?"")
+answer_2: str = qa_model(""Who represents the {answer_1} district?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Wakefield"",
+  ""answer_2"": ""Imran Ahmad Khan""
+}
+```",Antony Higginbotham,"The answers provide different names for the representative, which are distinct individuals. Imran Ahmad Khan was a former MP for Wakefield (where Gawthorpe is located), while Antony Higginbotham is the MP for Burnley.","equivalent: 0
+reasoning: The answers provide different names for the representative, which are distinct individuals. Imran Ahmad Khan was a former MP for Wakefield (where Gawthorpe is located), while Antony Higginbotham is the MP for Burnley."
+google-gemini-2-5-pro,hotpotqa,5ab30bbb55429976abd1bc39,"Prince William, Duke of Gloucester and Prince George of Denmark, were eventually monarchs of which Kingdom?",Kingdom of Great Britain,Neither became a monarch,Great Britain,"[""Who was the wife of Prince George of Denmark and mother of Prince William, Duke of Gloucester?"", ""Which kingdom was {answer_1} the monarch of?""]","{""answer_1"": ""Queen Anne"", ""answer_2"": ""Kingdom of Great Britain""}","answer_1: str = qa_model(""Who was the wife of Prince George of Denmark and mother of Prince William, Duke of Gloucester?"")
+answer_2: str = qa_model(""Which kingdom was {answer_1} the monarch of?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Queen Anne"",
+  ""answer_2"": ""Kingdom of Great Britain""
+}
+```",Neither became a monarch,"Answer A claims they became monarchs of the Kingdom of Great Britain, which is incorrect. Answer B correctly states that neither became a monarch, directly contradicting Answer A.","equivalent: 0
+reasoning: Answer A claims they became monarchs of the Kingdom of Great Britain, which is incorrect. Answer B correctly states that neither became a monarch, directly contradicting Answer A."
+google-gemini-2-5-pro,hotpotqa,5ab433675542991751b4d6e6,Where does Lance Stephenson of the Indiana Pacers basketball team play his home games?,Liaoning Gymnasium,Bankers Life Fieldhouse,Bankers Life Fieldhouse,"[""What basketball team does Lance Stephenson play for?"", ""Where does the {answer_1} play their home games?""]","{""answer_1"": ""Liaoning Flying Leopards"", ""answer_2"": ""Liaoning Gymnasium""}","answer_1: str = qa_model(""What basketball team does Lance Stephenson play for?"")
+answer_2: str = qa_model(""Where does the {answer_1} play their home games?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Liaoning Flying Leopards"",
+  ""answer_2"": ""Liaoning Gymnasium""
+}
+```","answer:
+Bankers Life Fieldhouse","The answers provide different venues for the home games, Liaoning Gymnasium vs. Bankers Life Fieldhouse, which are distinct locations.","equivalent: 0
+reasoning: The answers provide different venues for the home games, Liaoning Gymnasium vs. Bankers Life Fieldhouse, which are distinct locations."
+google-gemini-2-5-pro,hotpotqa,5ab54b5c5542992aa134a298,What was the event that Afghanistan competed in for the first time in 2017 officially known as?,Invictus Games Toronto 2017,2017 Bandy World Championship,the 23rd Summer Deaflympics,"[""What event did Afghanistan compete in for the first time in 2017?"", ""What was {answer_1} officially known as?""]","{""answer_1"": ""Invictus Games"", ""answer_2"": ""Invictus Games Toronto 2017""}","answer_1: str = qa_model(""What event did Afghanistan compete in for the first time in 2017?"")
+answer_2: str = qa_model(""What was {answer_1} officially known as?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Invictus Games"",
+  ""answer_2"": ""Invictus Games Toronto 2017""
+}
+```",2017 Bandy World Championship,The two answers refer to completely different events.,"equivalent: 0
+reasoning: The two answers refer to completely different events."
+google-gemini-2-5-pro,hotpotqa,5ab55478554299488d4d993d,The President of Egypt that changed the Hamayouni Decree was born in what year?,1918,1954,1928,"[""Which President of Egypt changed the Hamayouni Decree?"", ""In what year was {answer_1} born?""]","{""answer_1"": ""Gamal Abdel Nasser"", ""answer_2"": ""1918""}","answer_1: str = qa_model(""Which President of Egypt changed the Hamayouni Decree?"")
+answer_2: str = qa_model(""In what year was {answer_1} born?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Gamal Abdel Nasser"",
+  ""answer_2"": ""1918""
+}
+```",1954,Calendar years must match exactly; 1918 is not equal to 1954.,"equivalent: 0
+reasoning: Calendar years must match exactly; 1918 is not equal to 1954."
+google-gemini-2-5-pro,hotpotqa,5ab6ad2855429953192ad35e,"The lead singer and guitarist in the Portland, Oregon rock band consisting of John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk, goes by what alias?",The Observer,The Man,The Fantastic The,"[""What is the name of the rock band from Portland, Oregon with members John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk?"", ""Who is the lead singer and guitarist for {answer_1}?"", ""What alias does {answer_2} go by?""]","{""answer_1"": ""Portugal. The Man"", ""answer_2"": ""John Gourley"", ""answer_3"": ""The Observer""}","answer_1: str = qa_model(""What is the name of the rock band from Portland, Oregon with members John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk?"")
+answer_2: str = qa_model(""Who is the lead singer and guitarist for {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What alias does {answer_2} go by?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""Portugal. The Man"",
+  ""answer_2"": ""John Gourley"",
+  ""answer_3"": ""The Observer""
+}
+```",The Man,"The aliases ""The Observer"" and ""The Man"" are distinct and contradictory.","equivalent: 0
+reasoning: The aliases ""The Observer"" and ""The Man"" are distinct and contradictory."
+google-gemini-2-5-pro,hotpotqa,5abd40585542993062266c3e,West Ridge and the ridge that has IndependenceAvenue/Liberation Avenue as its eastern boundary are separated by what road? ,Independence Avenue,Castle Road,Castle Road,"[""Which ridge has Independence Avenue/Liberation Avenue as its eastern boundary?"", ""What road separates West Ridge and {answer_1}?""]","{""answer_1"": ""West Ridge"", ""answer_2"": ""Independence Avenue""}","answer_1: str = qa_model(""Which ridge has Independence Avenue/Liberation Avenue as its eastern boundary?"")
+answer_2: str = qa_model(""What road separates West Ridge and {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""West Ridge"",
+  ""answer_2"": ""Independence Avenue""
+}
+```",Castle Road,"The answers provide different road names, ""Independence Avenue"" and ""Castle Road"", which is a direct contradiction.","equivalent: 0
+reasoning: The answers provide different road names, ""Independence Avenue"" and ""Castle Road"", which is a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5abd90545542996e802b47d7,"Fast Cars, Danger, Fire and Knives includes guest appearances from which hip hop record executive?",Cage,El-P,Jaime Meline,"[""Who made guest appearances on the album 'Fast Cars, Danger, Fire and Knives'?"", ""Which of the following is a hip hop record executive: {answer_1}?""]","{""answer_1"": ""Camu Tao; Cage"", ""answer_2"": ""Cage""}","answer_1: str = qa_model(""Who made guest appearances on the album 'Fast Cars, Danger, Fire and Knives'?"")
+answer_2: str = qa_model(""Which of the following is a hip hop record executive: {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Camu Tao; Cage"",
+  ""answer_2"": ""Cage""
+}
+```",El-P,"The names ""Cage"" and ""El-P"" refer to different individuals, creating a direct contradiction.","equivalent: 0
+reasoning: The names ""Cage"" and ""El-P"" refer to different individuals, creating a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5abdbeed5542993062266cdd,"The airline operating in Whitehorse, Yukon handled how many passengers in 2012?",235000,"270,186","294,000","[""What is the main airline operating in Whitehorse, Yukon?"", ""How many passengers did {answer_1} handle in 2012?""]","{""answer_1"": ""Air North"", ""answer_2"": ""235000""}","answer_1: str = qa_model(""What is the main airline operating in Whitehorse, Yukon?"")
+answer_2: str = qa_model(""How many passengers did {answer_1} handle in 2012?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Air North"",
+  ""answer_2"": ""235000""
+}
+```","270,186","The numerical values 235,000 and 270,186 differ by more than the allowed 5.5% tolerance for numerical expressions.","equivalent: 0
+reasoning: The numerical values 235,000 and 270,186 differ by more than the allowed 5.5% tolerance for numerical expressions."
+google-gemini-2-5-pro,hotpotqa,5abeed7e5542993fe9a41da0,What is the birth date of the coach of the 2014-15 Michigan Wolverines men's basketball team?,1953-02-05,1953-10-05,"February 5, 1953","[""Who was the coach of the 2014-15 Michigan Wolverines men's basketball team?"", ""What is the birth date of {answer_1}?""]","{""answer_1"": ""John Beilein"", ""answer_2"": ""1953-02-05""}","answer_1: str = qa_model(""Who was the coach of the 2014-15 Michigan Wolverines men's basketball team?"")
+answer_2: str = qa_model(""What is the birth date of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""John Beilein"",
+  ""answer_2"": ""1953-02-05""
+}
+```",1953-10-05,The months in the birth dates contradict (February vs October). Calendar dates must match exactly.,"equivalent: 0
+reasoning: The months in the birth dates contradict (February vs October). Calendar dates must match exactly."
+google-gemini-2-5-pro,hotpotqa,5abf27285542997719eab678,When was the maternal uncle of Popiel I died who was the notable author of Latin prose?,1223-03-08,0079-08-24,15 March 44 BC,"[""Who was the maternal uncle of Popiel I who was a notable author of Latin prose?"", ""When did {answer_1} die?""]","{""answer_1"": ""Wincenty Kad\u0142ubek"", ""answer_2"": ""1223-03-08""}","answer_1: str = qa_model(""Who was the maternal uncle of Popiel I who was a notable author of Latin prose?"")
+answer_2: str = qa_model(""When did {answer_1} die?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Wincenty Kadłubek"",
+  ""answer_2"": ""1223-03-08""
+}
+```",0079-08-24,The calendar dates provided are different and must match exactly according to Rule 2.,"equivalent: 0
+reasoning: The calendar dates provided are different and must match exactly according to Rule 2."
+google-gemini-2-5-pro,hotpotqa,5ac1b7495542994ab5c67dd9,What genre of music is the solo artist that contributed to Real Damage a variant of?,Latin pop; Reggaeton,K-pop,synth-pop,"[""Which solo artist contributed to the music group Real Damage?"", ""What is the music genre of {answer_1}?""]","{""answer_1"": ""Becky G"", ""answer_2"": ""Latin pop; Reggaeton""}","answer_1: str = qa_model(""Which solo artist contributed to the music group Real Damage?"")
+answer_2: str = qa_model(""What is the music genre of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Becky G"",
+  ""answer_2"": ""Latin pop; Reggaeton""
+}
+```",K-pop,"The genres listed in Answer A (Latin pop, Reggaeton) contradict the genre listed in Answer B (K-pop).","equivalent: 0
+reasoning: The genres listed in Answer A (Latin pop, Reggaeton) contradict the genre listed in Answer B (K-pop)."
+google-gemini-2-5-pro,hotpotqa,5ac2a5d455429921a00ab01b,What are the names of the current members of  American heavy metal band who wrote the music for  Hurt Locker The Musical? ,Greg Serrano,No such band exists.,"Hetfield and Ulrich, longtime lead guitarist Kirk Hammett, and bassist Robert Trujillo.","[""Which American heavy metal band wrote the music for 'Hurt Locker The Musical'?"", ""Who are the current members of the band {answer_1}?""]","{""answer_1"": ""Electric Mesa"", ""answer_2"": ""Greg Serrano""}","answer_1: str = qa_model(""Which American heavy metal band wrote the music for 'Hurt Locker The Musical'?"")
+answer_2: str = qa_model(""Who are the current members of the band {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Electric Mesa"",
+  ""answer_2"": ""Greg Serrano""
+}
+```",No such band exists.,"Answer A provides a name, implying the band exists, while Answer B explicitly states that no such band exists, creating a direct contradiction.","equivalent: 0
+reasoning: Answer A provides a name, implying the band exists, while Answer B explicitly states that no such band exists, creating a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5ac2ee675542990b17b154be,Norbert Holm was arrested and later demoted because of his Chief of Operations association with a military theorist popularly known as what?,John Boyd,The Boss,the Desert Fox,"[""Who was Norbert Holm's Chief of Operations?"", ""What is the popular name of the military theorist with whom {answer_1} was associated?""]","{""answer_1"": ""John Boyd"", ""answer_2"": ""John Boyd""}","answer_1: str = qa_model(""Who was Norbert Holm's Chief of Operations?"")
+answer_2: str = qa_model(""What is the popular name of the military theorist with whom {answer_1} was associated?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""John Boyd"",
+  ""answer_2"": ""John Boyd""
+}
+```",The Boss,"The answers provide different names for the military theorist, ""John Boyd"" vs ""The Boss"", which is a contradiction.","equivalent: 0
+reasoning: The answers provide different names for the military theorist, ""John Boyd"" vs ""The Boss"", which is a contradiction."
+google-gemini-2-5-pro,hotpotqa,5ac5247c55429924173fb602,"""Apocalypic"" is a song sung by Lizzy Hale from which group? ",Cigarettes After Sex,Halestorm,Halestorm,"[""Who sings the song 'Apocalypic'?"", ""What group is {answer_1} from?""]","{""answer_1"": ""Cigarettes After Sex"", ""answer_2"": ""Cigarettes After Sex""}","answer_1: str = qa_model(""Who sings the song 'Apocalypic'?"")
+answer_2: str = qa_model(""What group is {answer_1} from?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Cigarettes After Sex"",
+  ""answer_2"": ""Cigarettes After Sex""
+}
+```",Halestorm,"The answers name two different musical groups, which is a direct contradiction. Lizzy Hale is the lead singer of Halestorm, not Cigarettes After Sex.","equivalent: 0
+reasoning: The answers name two different musical groups, which is a direct contradiction. Lizzy Hale is the lead singer of Halestorm, not Cigarettes After Sex."
+google-gemini-2-5-pro,hotpotqa,5adc89435542994d58a2f639,Which video game producers worked with an English film director to produce a film about sports?,Kazunori Yamauchi; Asad Qizilbash,Midway Games,Rockstar Games,"[""Which film about sports was produced in collaboration with an English film director?"", ""Which video game producers worked on the film {answer_1}?""]","{""answer_1"": ""Gran Turismo"", ""answer_2"": ""Kazunori Yamauchi; Asad Qizilbash""}","answer_1: str = qa_model(""Which film about sports was produced in collaboration with an English film director?"")
+answer_2: str = qa_model(""Which video game producers worked on the film {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Gran Turismo"",
+  ""answer_2"": ""Kazunori Yamauchi; Asad Qizilbash""
+}
+```",Midway Games,"Answer A lists two individual producers, while Answer B lists a video game company. These are different entities and not equivalent.","equivalent: 0
+reasoning: Answer A lists two individual producers, while Answer B lists a video game company. These are different entities and not equivalent."
+google-gemini-2-5-pro,hotpotqa,5adccafb5542992c1e3a2401,Who chaired the ceremony in which the film written by Canet and Philippe Lefebvre won the award for Best Film?,Claude Brasseur,Nathalie Baye,Isabelle Mergault,"[""Which film was written by Canet and Philippe Lefebvre?"", ""In which ceremony did the film {answer_1} win the award for Best Film?"", ""Who chaired the {answer_2}?""]","{""answer_1"": ""Tell No One"", ""answer_2"": ""C\u00e9sar Awards"", ""answer_3"": ""Claude Brasseur""}","answer_1: str = qa_model(""Which film was written by Canet and Philippe Lefebvre?"")
+answer_2: str = qa_model(""In which ceremony did the film {answer_1} win the award for Best Film?"", answer_1=answer_1)
+answer_3: str = qa_model(""Who chaired the {answer_2}?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""Tell No One"",
+  ""answer_2"": ""César Awards"",
+  ""answer_3"": ""Claude Brasseur""
+}
+```",Nathalie Baye,"The answers provide different names for the person who chaired the ceremony, which is a direct contradiction.","equivalent: 0
+reasoning: The answers provide different names for the person who chaired the ceremony, which is a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5ade8f5e55429975fa854f11,"What is the name of the movie in which Edwin Brown plays a man that executed at least 400 people, including William Joyce and John Amery?",Let Him Have It,10 Rillington Place,10 Rillington Place,"[""Who executed William Joyce and John Amery?"", ""In which movie did Edwin Brown play {answer_1}?""]","{""answer_1"": ""Albert Pierrepoint"", ""answer_2"": ""Let Him Have It""}","answer_1: str = qa_model(""Who executed William Joyce and John Amery?"")
+answer_2: str = qa_model(""In which movie did Edwin Brown play {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Albert Pierrepoint"",
+  ""answer_2"": ""Let Him Have It""
+}
+```","answer:
+10 Rillington Place","The two answers refer to different movies. ""Let Him Have It"" is a different film from ""10 Rillington Place"".","equivalent: 0
+reasoning: The two answers refer to different movies. ""Let Him Have It"" is a different film from ""10 Rillington Place""."
+google-gemini-2-5-pro,hotpotqa,5ae0fa8b5542997b2ef7d0c6,"What is the current name of the Atlanta Mansion built for the daughter of the 41st Mayor of Atlanta, Georgia?",Ivy Hall,Pink Palace,Lullwater Estate,"[""Who was the 41st Mayor of Atlanta, Georgia?"", ""What is the name of the Atlanta Mansion built for the daughter of {answer_1}?"", ""What is the current name of {answer_2}?""]","{""answer_1"": ""Edward C. Peters"", ""answer_2"": ""Edward C. Peters House"", ""answer_3"": ""Ivy Hall""}","answer_1: str = qa_model(""Who was the 41st Mayor of Atlanta, Georgia?"")
+answer_2: str = qa_model(""What is the name of the Atlanta Mansion built for the daughter of {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What is the current name of {answer_2}?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""Edward C. Peters"",
+  ""answer_2"": ""Edward C. Peters House"",
+  ""answer_3"": ""Ivy Hall""
+}
+```",Pink Palace,"The two answers provide different names for the mansion, which is a direct contradiction.","equivalent: 0
+reasoning: The two answers provide different names for the mansion, which is a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5ae2e27155429928c423952a,What is the length of the River which has Wild Horse Creek as a tributary ?,369 km,"3,767 km",375 mi long,"[""Which river is Wild Horse Creek a tributary of?"", ""What is the length of the {answer_1}?""]","{""answer_1"": ""Meramec River"", ""answer_2"": ""369 km""}","answer_1: str = qa_model(""Which river is Wild Horse Creek a tributary of?"")
+answer_2: str = qa_model(""What is the length of the {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Meramec River"",
+  ""answer_2"": ""369 km""
+}
+```","3,767 km","The numerical values for the length are significantly different (369 km vs 3,767 km), exceeding the allowed tolerance for numeric expressions.","equivalent: 0
+reasoning: The numerical values for the length are significantly different (369 km vs 3,767 km), exceeding the allowed tolerance for numeric expressions."
+google-gemini-2-5-pro,hotpotqa,5ae546be5542990ba0bbb251,Which Lightweight division mixed martial artist founded the American Combat Association?,Lightweight,Jens Pulver,Kamal Shalorus,"[""Who founded the American Combat Association?"", ""In which weight division does the mixed martial artist {answer_1} compete?""]","{""answer_1"": ""Adrian Serrano"", ""answer_2"": ""Lightweight""}","answer_1: str = qa_model(""Who founded the American Combat Association?"")
+answer_2: str = qa_model(""In which weight division does the mixed martial artist {answer_1} compete?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Adrian Serrano"",
+  ""answer_2"": ""Lightweight""
+}
+```",Jens Pulver,"Answer A provides a weight division, not the name of a mixed martial artist, while Answer B provides a name. They are not equivalent.","equivalent: 0
+reasoning: Answer A provides a weight division, not the name of a mixed martial artist, while Answer B provides a name. They are not equivalent."
+google-gemini-2-5-pro,hotpotqa,5ae732685542991e8301cbc3,Zimbabwe's Guwe Secondary School has a sister school in what New York cunty?,Westchester County,Saratoga County,Nassau County,"[""What is the sister school of Zimbabwe's Guwe Secondary School in New York?"", ""In what New York county is {answer_1} located?""]","{""answer_1"": ""Scarsdale High School"", ""answer_2"": ""Westchester County""}","answer_1: str = qa_model(""What is the sister school of Zimbabwe's Guwe Secondary School in New York?"")
+answer_2: str = qa_model(""In what New York county is {answer_1} located?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Scarsdale High School"",
+  ""answer_2"": ""Westchester County""
+}
+```",Saratoga County,"The answers name different, distinct counties (Westchester vs Saratoga), which is a direct contradiction.","equivalent: 0
+reasoning: The answers name different, distinct counties (Westchester vs Saratoga), which is a direct contradiction."
+google-gemini-2-5-pro,hotpotqa,5ae78ec5554299540e5a5605,Guitars for Wounded Warriors is an album that was recorded in the village in which New York county?,Rockland County,Ulster County,Ulster County,"[""In which village was the album 'Guitars for Wounded Warriors' recorded?"", ""In which New York county is {answer_1} located?""]","{""answer_1"": ""Piermont"", ""answer_2"": ""Rockland County""}","answer_1: str = qa_model(""In which village was the album 'Guitars for Wounded Warriors' recorded?"")
+answer_2: str = qa_model(""In which New York county is {answer_1} located?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Piermont"",
+  ""answer_2"": ""Rockland County""
+}
+```",Ulster County,"The answers provide different, contradictory county names.","equivalent: 0
+reasoning: The answers provide different, contradictory county names."
+google-gemini-2-5-pro,hotpotqa,5ae7a9c8554299540e5a5631,What event at the Asian Junior Athletics Championships has men and women competing at the same time?,4 × 400 metres relay,Mixed 4 × 400 metres relay,3000 metres steeplechase,"[""What is the term for an event where men and women compete at the same time?"", ""What {answer_1} is held at the Asian Junior Athletics Championships?""]","{""answer_1"": ""mixed event"", ""answer_2"": ""4 \u00d7 400 metres relay""}","answer_1: str = qa_model(""What is the term for an event where men and women compete at the same time?"")
+answer_2: str = qa_model(""What {answer_1} is held at the Asian Junior Athletics Championships?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""mixed event"",
+  ""answer_2"": ""4 × 400 metres relay""
+}
+```","answer:
+Mixed 4 × 400 metres relay","Answer A refers to a general relay event, which is typically single-sex, while the question specifically asks for an event where men and women compete together. Answer B, by including ""Mixed"", correctly identifies the specific event that fits the question's criteria.","equivalent: 0
+reasoning: Answer A refers to a general relay event, which is typically single-sex, while the question specifically asks for an event where men and women compete together. Answer B, by including ""Mixed"", correctly identifies the specific event that fits the question's criteria."

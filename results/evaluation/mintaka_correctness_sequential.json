@@ -1,0 +1,1194 @@
+{
+  "bccd1dde": {
+    "correct": 0,
+    "reasoning": "The gold string '20-Oct-56' and prediction 'October 20, 1956' represent a calendar date. While 'Oct' and 'October' are equivalent abbreviations, the year '56' does not exactly match '1956'. For calendar dates and years, there is zero tolerance, and they must match exactly."
+  },
+  "85c0b1fb": {
+    "correct": 1,
+    "reasoning": "The gold string '27-Mar-63' and prediction 'March 27, 1963' represent the same calendar date. 'Mar' is a standard abbreviation for 'March', and '63' is a standard abbreviation for '1963' in this context, both falling under the 'standard aliases and abbreviations as equivalent' rule. The 'zero tolerance' for dates/years applies to the semantic value of the date, ensuring no difference in day, month, or year, which is met here."
+  },
+  "a1bee914": {
+    "correct": 1,
+    "reasoning": "The numeric digit '2' in the gold string is equivalent to the word 'two' in the prediction, according to the numeric expressions rule. No contradiction is present."
+  },
+  "e1d742c2": {
+    "correct": 1,
+    "reasoning": "The word 'three' is numerically equivalent to '3', and this is not a date or year. The prediction accurately states the gold fact without contradiction."
+  },
+  "48e38631": {
+    "correct": 0,
+    "reasoning": "The gold answer is '2' and the prediction is '1'. The absolute difference is 1. The allowed tolerance is max(0.5, 1% of 2) = max(0.5, 0.02) = 0.5. Since 1 > 0.5, the difference is outside the acceptable numeric tolerance."
+  },
+  "6821b3e2": {
+    "correct": 0,
+    "reasoning": "The gold fact states the actress attended 'Georgia State University', while the prediction explicitly states she 'did not attend college', which is a direct contradiction."
+  },
+  "421971a8": {
+    "correct": 1,
+    "reasoning": "The gold fact 'England' is present in the prediction. The additional information 'Kingston upon Thames, London' further specifies a location within England and does not contradict the gold fact."
+  },
+  "4ad6bafd": {
+    "correct": 1,
+    "reasoning": "The gold fact '11' is explicitly stated in the prediction and matches exactly. No contradictions are present."
+  },
+  "bd85813c": {
+    "correct": 0,
+    "reasoning": "The gold value is 40, and the prediction states 42. The absolute difference is 2. The allowed numeric tolerance is max(0.5, 1% of 40) = max(0.5, 0.4) = 0.5. Since 2 is greater than 0.5, the prediction is outside the acceptable tolerance."
+  },
+  "6edaabbb": {
+    "correct": 1,
+    "reasoning": "The numeric word 'four' in the prediction is equivalent to the digit '4' in the gold string, according to the numeric expressions rule. No contradiction is present."
+  },
+  "043b734e": {
+    "correct": 1,
+    "reasoning": "The prediction 'Kapuskasing, Ontario, Canada' includes all the vital facts from the gold string 'Kapuskasing, Canada' and adds a more specific, but non-contradictory, detail (Ontario). The gold fact is fully present and not negated."
+  },
+  "dfd012c8": {
+    "correct": 1,
+    "reasoning": "The numeric word 'one' in the prediction is equivalent to the digit '1' in the gold string, according to the numeric expressions rule. No contradiction is present."
+  },
+  "91f315a4": {
+    "correct": 1,
+    "reasoning": "The gold fact '6'2\"' is equivalent to '6 ft 2 in'. The prediction provides this exact information. The additional metric conversion '(1.88 m)' does not contradict the gold fact and is a consistent measurement."
+  },
+  "28ae20ee": {
+    "correct": 1,
+    "reasoning": "The gold string '5'6\"' is equivalent to '5 ft 6 in' in the prediction, representing the same height. The additional metric conversion '(1.68 m)' does not contradict the gold fact."
+  },
+  "802fbd23": {
+    "correct": 0,
+    "reasoning": "The gold fact is '70'. The prediction states '72'. The absolute difference is 2. The allowed tolerance is max(0.5, 1% of 70) = max(0.5, 0.7) = 0.7. Since 2 is greater than 0.7, the numerical difference exceeds the critical tolerance."
+  },
+  "a516305f": {
+    "correct": 1,
+    "reasoning": "The gold date '2-Mar-81' and the predicted date 'March 2, 1981' represent the exact same calendar date. 'Mar' is a standard abbreviation for 'March', and '81' is a standard abbreviation for '1981' in date contexts. These are treated as equivalent under the normalization rules for standard aliases and abbreviations, and the date value itself matches exactly, adhering to the zero-tolerance rule for dates."
+  },
+  "dc1a55dc": {
+    "correct": 1,
+    "reasoning": "The numeric words 'six' and 'one' are equivalent to digits '6' and '1'. 'ft' and 'in' are standard abbreviations for 'foot' and 'inch'. The additional '(1.86 m)' in the prediction is extra information but does not contradict the gold fact."
+  },
+  "cd085a8c": {
+    "correct": 0,
+    "reasoning": "The gold fact states '3' children, while the prediction states 'one' child. The numeric difference (3 vs 1) is 2, which exceeds the allowed tolerance of max(0.5, 1% of 3) = 0.5. This constitutes a direct contradiction of the vital fact."
+  },
+  "07c04474": {
+    "correct": 1,
+    "reasoning": "The gold string '1942' is a year, and the prediction '1942' matches it exactly. For years, zero tolerance is applied, and they must match exactly."
+  },
+  "234caafb": {
+    "correct": 1,
+    "reasoning": "The gold fact 'Toronto' is explicitly present in the prediction. Additional information 'Ontario, Canada' does not contradict the gold fact."
+  },
+  "7a5e5ab0": {
+    "correct": 1,
+    "reasoning": "The gold fact is '6'. The prediction states 'six children'. 'Six' is the word form of '6', which is considered equivalent under the numeric expressions rule. There is no contradiction."
+  },
+  "852d9a1a": {
+    "correct": 0,
+    "reasoning": "The gold height is 5'10\" (70 inches). The predicted height is 6 feet (72 inches). The absolute difference is 2 inches. The tolerance is calculated as max(0.5, 1% of the reference value). Using 70 inches as the reference, 1% of 70 is 0.7 inches. Thus, the tolerance is max(0.5, 0.7) = 0.7 inches. Since the difference of 2 inches is greater than the allowed tolerance of 0.7 inches, the prediction is numerically incorrect."
+  },
+  "5c5e4201": {
+    "correct": 1,
+    "reasoning": "The gold fact '5'4\"' is present in the prediction as '5 feet 4 inches'. These are equivalent representations of the same height. The prediction also includes 'approximately', which is acceptable under the numeric tolerance rules as the value itself is an exact match. No contradiction is present."
+  },
+  "9fb558f2": {
+    "correct": 1,
+    "reasoning": "The prediction 'Scotland' exactly matches the gold fact 'Scotland' after normalization."
+  },
+  "d6292119": {
+    "correct": 0,
+    "reasoning": "The gold height is 5'11\" (71 inches) and the prediction is 6 feet (72 inches). The absolute difference is 1 inch. The allowed tolerance is max(0.5, 1% of 71) = max(0.5, 0.71) = 0.71 inches. Since 1 inch > 0.71 inches, the numeric difference exceeds the critical tolerance."
+  },
+  "49241ffe": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '20 years old', which exactly matches the gold fact '20'. No contradiction is present, and additional information is acceptable."
+  },
+  "83052f3d": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '65', which is an exact match to the gold string '65'. No contradictions are present."
+  },
+  "2edc90bd": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold string 'Warren, Ohio'; no normalizations or contradictions are present."
+  },
+  "deb72c30": {
+    "correct": 1,
+    "reasoning": "The prediction 'Australia' exactly matches the gold answer 'Australia'. No normalization or tolerance rules are needed as they are identical."
+  },
+  "303fa922": {
+    "correct": 1,
+    "reasoning": "The gold fact '$2 million' is explicitly stated in the prediction. Additional context about MC Hammer and his net worth does not contradict the vital fact."
+  },
+  "dc01e4c5": {
+    "correct": 0,
+    "reasoning": "The gold fact is '1920', which is a year. The prediction states '1917'. For years, there is zero tolerance, meaning they must match exactly. Since 1917 does not equal 1920, the prediction is incorrect."
+  },
+  "a83f07fa": {
+    "correct": 0,
+    "reasoning": "The gold age is 35, and the predicted age is 37. The absolute difference is 2. The allowed tolerance for numeric expressions (not dates/years) is max(0.5, 1% of reference). 1% of 35 is 0.35, so the tolerance is 0.5. Since 2 > 0.5, the difference is outside the acceptable range."
+  },
+  "a98f7740": {
+    "correct": 1,
+    "reasoning": "The prediction '5 feet 11 inches' is an exact equivalent of the gold fact '5'11'. Additional information about the singer's name and metric conversion does not contradict the vital fact."
+  },
+  "28ce701d": {
+    "correct": 1,
+    "reasoning": "The prediction includes both 'Pop' and 'Country' which are the vital facts from the gold answer. The addition of 'Folk music' in the prediction does not contradict the gold fact, as per the rule that additional information is acceptable as long as it does not contradict the gold."
+  },
+  "a896bab1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Miami Dolphins' exactly matches the gold string 'Miami Dolphins' after normalization."
+  },
+  "19c7c396": {
+    "correct": 1,
+    "reasoning": "The prediction 'Peter Ueberroth' exactly matches the gold string 'Peter Ueberroth' after normalization. No contradictions are present."
+  },
+  "18dfddd1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Tom Brady' exactly matches the gold answer 'Tom Brady'; no normalization or tolerance rules needed."
+  },
+  "71ebe655": {
+    "correct": 0,
+    "reasoning": "The gold fact is '49'. The prediction states '51'. The absolute difference is |51 - 49| = 2. The allowed tolerance is max(0.5, 1% of 49) = max(0.5, 0.49) = 0.5. Since 2 > 0.5, the difference exceeds the numeric tolerance, making the prediction incorrect."
+  },
+  "0d56074a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Stephen Curry' exactly matches the gold fact 'Stephen Curry' after normalization. No contradictions or negations are present."
+  },
+  "697ec789": {
+    "correct": 1,
+    "reasoning": "The prediction 'Tennessee Titans' is an exact match to the gold answer 'Tennessee Titans' after normalization."
+  },
+  "aec3cd45": {
+    "correct": 0,
+    "reasoning": "The gold fact is '51' and the prediction states '53'. The absolute difference is 2. The allowed tolerance for a non-date/year number is max(0.5, 1% of 51) = max(0.5, 0.51) = 0.51. Since 2 is greater than 0.51, the difference is outside the acceptable range."
+  },
+  "aad2514e": {
+    "correct": 1,
+    "reasoning": "The numeric word 'two' in the prediction is equivalent to the digit '2' in the gold string, according to the numeric expressions rule. No contradiction is present."
+  },
+  "1e751cb7": {
+    "correct": 0,
+    "reasoning": "The gold fact is '47' and the prediction states '49'. The absolute difference is 2. The allowed tolerance is max(0.5, 1% of 47) = max(0.5, 0.47) = 0.5. Since 2 > 0.5, the numeric difference exceeds the critical tolerance for non-date/year numbers."
+  },
+  "a0329b75": {
+    "correct": 1,
+    "reasoning": "The prediction 'Eli Manning' is identical to the gold string 'Eli Manning'; no normalization or contradiction is needed."
+  },
+  "0d5042b0": {
+    "correct": 0,
+    "reasoning": "The gold fact is '54' (age). The prediction states '56'. The difference is |54 - 56| = 2. The allowed tolerance is max(0.5, 1% of 54) = max(0.5, 0.54) = 0.54. Since 2 > 0.54, the difference exceeds the allowed numeric tolerance for non-date/year numbers, making the prediction incorrect."
+  },
+  "0be6fbb1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Don Shula' exactly matches the gold fact 'Don Shula' after normalization; no contradictions are present."
+  },
+  "ec3092ab": {
+    "correct": 0,
+    "reasoning": "The gold fact states the age is '33', while the prediction states '28'. The absolute difference is 5, which is greater than the allowed tolerance of max(0.5, 1% of 33) = 0.5. This constitutes a direct contradiction of the vital fact."
+  },
+  "7a8027b0": {
+    "correct": 1,
+    "reasoning": "The prediction 'Samuel Eto'o' exactly matches the gold string 'Samuel Eto'o' after normalization (no changes needed)."
+  },
+  "b41432fc": {
+    "correct": 1,
+    "reasoning": "The gold fact '1963' is present in the prediction. Although the prediction includes additional date information ('November 22'), it does not contradict the year, and for years, exact matches are required and present."
+  },
+  "9d26507a": {
+    "correct": 0,
+    "reasoning": "The gold string specifies the year as '41', while the prediction states '1941'. Although 'Jan' and 'January' are equivalent due to abbreviation, and '13' matches, the critical tolerance rules state 'For dates or years there is zero tolerance – they must match exactly.' '41' does not exactly match '1941'."
+  },
+  "735d9dd9": {
+    "correct": 1,
+    "reasoning": "The numeric word 'two' is equivalent to the digit '2'. The prediction accurately states the number of children without contradiction."
+  },
+  "abca3e36": {
+    "correct": 1,
+    "reasoning": "The prediction '1986' exactly matches the gold string '1986'. Since this represents a year, zero tolerance applies, and the match is exact."
+  },
+  "9ff5ee42": {
+    "correct": 1,
+    "reasoning": "The prediction 'Peter Jackson' exactly matches the gold string 'Peter Jackson'; no normalizations or contradictions are present."
+  },
+  "07cc7c15": {
+    "correct": 1,
+    "reasoning": "The gold fact 'Johnny Depp' is explicitly present in the prediction. The addition of 'Benicio del Toro' does not contradict the gold fact, but rather provides supplementary information."
+  },
+  "5e3bc3b9": {
+    "correct": 1,
+    "reasoning": "The prediction 'July 2, 1961' matches the gold 'July 2nd, 1961'. The 'nd' suffix for the day is an ordinal indicator and its presence or absence does not change the specific calendar date, which is the vital fact. The month, day, and year all match exactly, satisfying the zero-tolerance rule for dates."
+  },
+  "5990982f": {
+    "correct": 1,
+    "reasoning": "The prediction 'Saint Paul, Minnesota' contains the vital fact 'Saint Paul, MN' as 'MN' is a standard abbreviation for 'Minnesota'. The additional 'U.S.' does not contradict the gold fact."
+  },
+  "b69991e0": {
+    "correct": 1,
+    "reasoning": "The prediction 'Peter Jackson' exactly matches the gold answer 'Peter Jackson' after normalization."
+  },
+  "9b4c3333": {
+    "correct": 1,
+    "reasoning": "The prediction 'July 18, 1817' exactly matches the gold string 'July 18, 1817'. As this is a calendar date and year, zero tolerance applies, and the match is perfect."
+  },
+  "db319851": {
+    "correct": 1,
+    "reasoning": "The prediction 'Peter Jackson' exactly matches the gold string 'Peter Jackson' after normalization."
+  },
+  "28e22caf": {
+    "correct": 1,
+    "reasoning": "The gold string '1984' is a year. The prediction '1984' matches exactly. For years, there is zero tolerance, and the values are identical."
+  },
+  "95dc97dc": {
+    "correct": 0,
+    "reasoning": "The prediction explicitly states that there was no Harry Potter book released in 2004, and consequently no movie or distributor for such a movie. This directly contradicts the premise of the question and the gold answer, which identifies a distributor for a movie based on a 2004 book."
+  },
+  "3232deff": {
+    "correct": 1,
+    "reasoning": "The prediction 'David Slade' exactly matches the gold answer 'David Slade' after normalization. No contradictions are present."
+  },
+  "be4d4610": {
+    "correct": 1,
+    "reasoning": "The predicted year '2004' exactly matches the gold year '2004'. For years, there is zero tolerance, and they match perfectly."
+  },
+  "f1a4e462": {
+    "correct": 1,
+    "reasoning": "The gold string '1882' and prediction '1882' match exactly. As this represents a year, zero tolerance applies, and the match is perfect."
+  },
+  "bcb4c364": {
+    "correct": 0,
+    "reasoning": "The month 'Aug' and 'August' are equivalent due to normalization (standard abbreviation). The day '10' matches exactly. However, the year '62' and '1962' do not match exactly. The critical tolerance rule for dates and years specifies 'zero tolerance – they must match exactly', and '62' is not an exact match for '1962'."
+  },
+  "9e25a7d3": {
+    "correct": 1,
+    "reasoning": "The prediction '1959' exactly matches the gold answer '1959'. As this represents a year, zero tolerance applies and is met."
+  },
+  "209cec8e": {
+    "correct": 1,
+    "reasoning": "The numeric value '3,255' matches exactly. 'mi²' and 'square miles' are equivalent units for area. The prediction contains the gold fact without contradiction."
+  },
+  "e7db337c": {
+    "correct": 1,
+    "reasoning": "The prediction 'Falls Lake' is an exact match to the gold string 'Falls Lake'; no normalization or tolerance rules are needed, and there is no contradiction."
+  },
+  "1b9040fa": {
+    "correct": 1,
+    "reasoning": "The gold fact '1.1 million' (1,100,000) is numerically close to the predicted '1,095,610'. The absolute difference is 4,390. The allowed tolerance is max(0.5, 1% of 1,100,000) = 11,000. Since 4,390 <= 11,000, the numeric values are within tolerance. The additional date 'as of July 1, 2023' in the prediction does not contradict the gold, as the gold does not specify a date."
+  },
+  "853a4508": {
+    "correct": 1,
+    "reasoning": "The prediction 'Monte Titano' is an exact match to the gold string 'Monte Titano' after normalization."
+  },
+  "851dc8e8": {
+    "correct": 0,
+    "reasoning": "The prediction states 'The Noble-Seymour-Crippen House' is the oldest house, which directly contradicts the gold answer 'Clarke House Museum'."
+  },
+  "bc5da5fd": {
+    "correct": 1,
+    "reasoning": "The prediction 'Paris' is an exact match to the gold answer 'Paris'; no normalization or special handling is required."
+  },
+  "1ee8e40c": {
+    "correct": 1,
+    "reasoning": "The prediction 'Mount Kilimanjaro' includes the gold fact 'Kilimanjaro'. 'Mount' is an additional descriptive term that does not contradict the gold fact."
+  },
+  "13cd720a": {
+    "correct": 0,
+    "reasoning": "The gold fact states the capital is 'Paris', while the prediction states 'Moscow'. These are two different cities, directly contradicting the gold fact."
+  },
+  "9200a0f9": {
+    "correct": 0,
+    "reasoning": "The gold population is 212,559,417. The predicted population is 215.3 million (215,300,000). The absolute difference is 2,740,583. The allowed tolerance is max(0.5, 1% of 212,559,417) = 2,125,594.17. Since 2,740,583 > 2,125,594.17, the numeric difference exceeds the critical tolerance."
+  },
+  "ad0a46fd": {
+    "correct": 1,
+    "reasoning": "The prediction 'Taipei 101' exactly matches the gold fact 'Taipei 101'; no normalization or tolerance rules are needed as they are identical."
+  },
+  "9790068a": {
+    "correct": 0,
+    "reasoning": "The predicted population (7,785,786) differs from the gold population (7,705,281) by 80,505. The allowed tolerance is 1% of the gold value, which is 77,052.81. Since 80,505 is greater than 77,052.81, the difference is outside the acceptable range for numeric expressions."
+  },
+  "3a402e68": {
+    "correct": 0,
+    "reasoning": "The gold population is 1,059,000. The predicted population is 1,095,610. The absolute difference is 36,610. The allowed tolerance is max(0.5, 1% of 1,059,000) = 10,590. Since 36,610 > 10,590, the numeric difference exceeds the critical tolerance."
+  },
+  "bcc3b346": {
+    "correct": 0,
+    "reasoning": "The gold value is 102.3 million. The prediction states 'over 109 million'. The absolute difference |109 - 102.3| = 6.7 million, which is greater than the allowed tolerance of max(0.5, 1% of 102.3 million) = 1.023 million. The prediction explicitly contradicts the gold fact by stating a value significantly higher than the gold."
+  },
+  "ea0584f9": {
+    "correct": 1,
+    "reasoning": "The prediction 'Japan' exactly matches the gold string 'Japan' after normalization; no contradictions present."
+  },
+  "279de04d": {
+    "correct": 1,
+    "reasoning": "The prediction accurately states the birth date 'April 28, 1758', which matches the gold string exactly. For dates and years, zero tolerance applies, and the prediction meets this criterion. Additional information about James Monroe does not contradict the gold fact."
+  },
+  "94c7609e": {
+    "correct": 1,
+    "reasoning": "The prediction 'Republican Party' exactly matches the gold string 'Republican Party' after normalization. No contradictions or tolerated differences are present as they are identical."
+  },
+  "72b9ea0d": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states 'Democratic Party', which matches the gold string exactly. The additional context in the prediction does not contradict the gold fact."
+  },
+  "e1a2cf20": {
+    "correct": 1,
+    "reasoning": "The prediction 'Jeb Bush' exactly matches the gold string 'Jeb Bush'; no normalization or tolerance rules needed, and no contradiction present."
+  },
+  "a2836aff": {
+    "correct": 1,
+    "reasoning": "The prediction 'Malia Ann Obama' includes the gold fact 'Malia Obama' and adds a middle name. This is an elaboration and does not contradict the gold fact."
+  },
+  "9ed43646": {
+    "correct": 0,
+    "reasoning": "The prediction 'West Virginia' directly contradicts the gold fact 'Hawaii'. These are two distinct states, and no normalization or tolerance rule makes them equivalent."
+  },
+  "afc20de1": {
+    "correct": 1,
+    "reasoning": "The gold fact '46 years' is explicitly present in the prediction. The additional detail '9 months, and 18 days' provides more precision to the duration but does not contradict or negate the '46 years' stated in the gold answer. The prediction contains the vital fact from the gold."
+  },
+  "83f517fe": {
+    "correct": 1,
+    "reasoning": "The gold fact 'Caroline Harrison' is present in the prediction as 'Caroline Lavinia Scott Harrison'. The prediction includes additional information about another wife, but this does not contradict the fact that Caroline Harrison was a wife of the 23rd president. The prediction does not explicitly negate or conflict with the gold fact."
+  },
+  "72caf140": {
+    "correct": 1,
+    "reasoning": "The prediction '1865' exactly matches the gold answer '1865'. For years, there is zero tolerance, and they match perfectly."
+  },
+  "6dc5d2d8": {
+    "correct": 1,
+    "reasoning": "The prediction 'Martha Washington' exactly matches the gold fact 'Martha Washington' after normalization. No contradictions are present."
+  },
+  "44553d7e": {
+    "correct": 1,
+    "reasoning": "The prediction '78 years old' contains the exact numeric value '78' from the gold string. The additional phrase 'years old' is a qualifier and does not contradict the gold fact."
+  },
+  "4f67a88e": {
+    "correct": 0,
+    "reasoning": "The gold fact states the state is 'Florida', while the prediction explicitly states it is 'Arkansas', which is a direct contradiction."
+  },
+  "165527c2": {
+    "correct": 1,
+    "reasoning": "The prediction 'Yale Law School' is an exact match to the gold string 'Yale Law School' after normalization."
+  },
+  "6613db77": {
+    "correct": 0,
+    "reasoning": "The gold value is '14' and the prediction is '10'. The absolute difference is 4. The allowed tolerance is max(0.5, 1% of 14) = max(0.5, 0.14) = 0.5. Since 4 is not less than or equal to 0.5, the prediction is outside the acceptable numeric tolerance."
+  },
+  "b1251903": {
+    "correct": 1,
+    "reasoning": "The prediction 'United States Navy' contains the gold fact 'Navy' and provides additional, non-contradictory context. 'Navy' is implicitly present within 'United States Navy'."
+  },
+  "6c31f76d": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states 'Republican Party', which contains the gold fact 'Republican'. The additional context in the prediction does not contradict the gold fact."
+  },
+  "c0d02e79": {
+    "correct": 1,
+    "reasoning": "After normalizing for case and ignoring the article 'the', both 'the Combine' and 'The Combine' become 'combine', which are identical. No contradiction is present."
+  },
+  "8cd5f008": {
+    "correct": 1,
+    "reasoning": "The gold fact '1992' is a year, which requires zero tolerance for matching. The prediction explicitly states '1992', matching the gold fact exactly. Additional information in the prediction does not contradict the gold fact."
+  },
+  "730ae437": {
+    "correct": 1,
+    "reasoning": "The prediction 'Duck Hunt' exactly matches the gold answer 'Duck Hunt' after normalization."
+  },
+  "de227515": {
+    "correct": 1,
+    "reasoning": "The gold date '25-Sep-07' and the predicted date 'September 25, 2007' refer to the exact same calendar date. 'Sep' is a standard abbreviation for 'September', and '07' is a standard abbreviation for '2007' in date contexts, both falling under the 'standard aliases and abbreviations' rule. Punctuation differences (hyphens vs. spaces/comma) are ignored. The 'zero tolerance' for dates/years ensures the *value* of the date/year must match exactly, which it does here, rather than requiring a strict string literal match for all components when aliases/abbreviations are present."
+  },
+  "1dcacf3d": {
+    "correct": 1,
+    "reasoning": "The prediction 'King K. Rool' is an exact match to the gold fact 'King K. Rool'; no normalization or contradiction is needed."
+  },
+  "4f324703": {
+    "correct": 0,
+    "reasoning": "The prediction explicitly states that it 'does not specify the main character of the first Grand Theft Auto game', thus failing to provide the vital fact 'Tommy' from the gold answer. It also lists characters from later games, further indicating the absence of the correct information for the first GTA."
+  },
+  "4f485cdf": {
+    "correct": 0,
+    "reasoning": "The gold fact states 'Kevin Durant' is the most popular, while the prediction states 'Kobe Bryant' is the cover athlete. These are two different individuals, directly contradicting the gold fact regarding who is prominent in the game."
+  },
+  "fe87e76a": {
+    "correct": 1,
+    "reasoning": "The gold string '8-Mar-11' and prediction 'March 8, 2011' represent the same calendar date. 'Mar' is a standard abbreviation for 'March', and '11' is understood as '2011' in this context. Dates require zero tolerance, and all components match exactly after normalization."
+  },
+  "9a0f9046": {
+    "correct": 1,
+    "reasoning": "The prediction 'Tidus' exactly matches the gold fact 'Tidus' after normalization."
+  },
+  "33a4d66e": {
+    "correct": 1,
+    "reasoning": "The gold date '25-Jan-19' normalizes to 'January 25, 2019'. The prediction explicitly states 'January 25, 2019' for the Japan release, which exactly matches the gold fact. Although the prediction includes an additional release date for other regions ('January 29, 2019'), this extra information does not contradict or negate the gold fact, but rather provides more context, which is acceptable."
+  },
+  "fdf3f356": {
+    "correct": 1,
+    "reasoning": "The prediction 'Link' exactly matches the gold answer 'Link' after normalization."
+  },
+  "03e27645": {
+    "correct": 1,
+    "reasoning": "The prediction 'November 21, 1991' matches the gold '21-Nov-91' after applying normalization rules. 'Nov' is a standard abbreviation for 'November', and '91' is a standard abbreviation for '1991' in a date context. After these normalizations, the dates are identical, satisfying the 'zero tolerance' exact match requirement for dates and years."
+  },
+  "c5d31018": {
+    "correct": 1,
+    "reasoning": "The prediction 'Carnival Night Zone' is an exact match to the gold string 'Carnival Night Zone'; no normalizations or contradictions are present."
+  },
+  "fda4401b": {
+    "correct": 0,
+    "reasoning": "The prediction 'Sigurd Styrbjornson' differs from the gold 'Sigurd Styrbjornsson' by a missing 's' in the surname. This is a spelling difference in a proper noun and is not covered by the normalization rules (e.g., case, punctuation, standard aliases/abbreviations)."
+  },
+  "9af562a1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Lightning (Claire Farron)' contains the gold fact 'Lightning'. 'Claire Farron' is an alias/full name for Lightning and does not contradict the gold fact; it provides additional, non-contradictory information."
+  },
+  "5308a78a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Dracula' exactly matches the gold fact 'Dracula'; no normalization or contradiction is needed."
+  },
+  "04906548": {
+    "correct": 1,
+    "reasoning": "The prediction contains the word 'once', which is equivalent to the gold fact 'Once'. No contradiction is present."
+  },
+  "636abb8c": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold string. As the fact is a calendar date, zero tolerance applies and is met."
+  },
+  "02edf56a": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states 'Latin', which matches the gold fact. Additional information about the treatise's title does not contradict the core fact."
+  },
+  "463cd9b2": {
+    "correct": 1,
+    "reasoning": "The prediction 'Bifocals' matches the gold fact 'bifocals' after ignoring case, which is allowed by normalization rules."
+  },
+  "3d242bf6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Nancy Davis Reagan' includes the gold fact 'Nancy Reagan'. The addition of the middle name 'Davis' is an extra detail and does not contradict the gold fact."
+  },
+  "aa423d1a": {
+    "correct": 0,
+    "reasoning": "The gold fact specifies '930 BC' as the establishment year, which is a calendar date/year. The prediction states '930 AD'. According to the critical tolerance rules, there is zero tolerance for dates or years; they must match exactly. 'BC' and 'AD' are fundamentally different, making the prediction a contradiction."
+  },
+  "2b6743e5": {
+    "correct": 1,
+    "reasoning": "The word 'Thirteen' is numerically equivalent to the digit '13'. This falls under the numeric expressions rule where words vs digits are equivalent, and the number does not represent a date or year."
+  },
+  "0442038f": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '51 years old', which is an exact match to the gold fact '51'. No contradictions are present."
+  },
+  "2b2c4f25": {
+    "correct": 1,
+    "reasoning": "The prediction '30 BC' exactly matches the gold '30 BC'. As this represents a year, zero tolerance applies, and the match is perfect."
+  },
+  "f6640eb4": {
+    "correct": 0,
+    "reasoning": "The prediction states 'The Battle of Prague' as the final major European battle, which directly contradicts the gold answer 'Battle of the Bulge'."
+  },
+  "9afa8edd": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states that 'Winston Churchill' succeeded Neville Chamberlain 'during the war', confirming his role as being in charge during World War 2, which aligns with the gold fact. The mention of Neville Chamberlain provides additional context but does not contradict the gold fact."
+  },
+  "5db4dd1f": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '51 years old', which matches the gold fact '51' exactly. No contradiction is present."
+  },
+  "7e5e9c95": {
+    "correct": 1,
+    "reasoning": "The gold fact '20' is explicitly present in the prediction 'at 20 years old'. There are no contradictions or significant numeric differences."
+  },
+  "8a6a8515": {
+    "correct": 0,
+    "reasoning": "The gold fact is '41'. The prediction states '40'. The absolute difference is |41 - 40| = 1. The allowed tolerance is max(0.5, 1% of 41) = max(0.5, 0.41) = 0.5. Since 1 > 0.5, the numeric difference is outside the allowed tolerance."
+  },
+  "9416adc9": {
+    "correct": 1,
+    "reasoning": "The prediction 'Louis Antoine, Duke of Angoulême' contains the vital fact 'Louis Antoine' which is present in the gold string 'Louis Antoine of France'. 'Duke of Angoulême' is an additional title for the same person and does not contradict 'of France'."
+  },
+  "c9ac50f7": {
+    "correct": 0,
+    "reasoning": "The gold string 'Buzz Aldin' and the prediction 'Buzz Aldrin' differ by a single letter ('n' vs 'rn'). This is a spelling difference in a proper noun and is not covered by the normalization rules for aliases, abbreviations, or numeric tolerance. Therefore, the prediction does not exactly match the vital fact in the gold string."
+  },
+  "990c63bd": {
+    "correct": 1,
+    "reasoning": "The prediction 'Napoleon Bonaparte' is an exact match for the gold string 'Napoleon Bonaparte'; no normalizations or contradictions are present."
+  },
+  "5d940b68": {
+    "correct": 0,
+    "reasoning": "The gold fact states 'Boris Johnson' as the leader, while the prediction states 'King George III'. These are two distinct individuals, and the prediction does not contain the gold fact."
+  },
+  "447e31d9": {
+    "correct": 1,
+    "reasoning": "The prediction 'Diana, Princess of Wales' refers to the same individual as 'Diana Spencer'. 'Princess of Wales' is a well-known title for Diana Spencer after her marriage, functioning as an alias or more complete identification of the person. No contradiction is present."
+  },
+  "ab9a9506": {
+    "correct": 1,
+    "reasoning": "The prediction 'Lee Harvey Oswald' exactly matches the gold string 'Lee Harvey Oswald'; no normalizations or contradictions are present."
+  },
+  "1eda5d4d": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states 'Franklin D. Roosevelt', which is the gold fact. The additional context provided in the prediction does not contradict the gold fact."
+  },
+  "e79774c0": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies the birth date as '25-Jan-63', while the prediction states 'June 1, 1996'. For dates, there is zero tolerance, meaning they must match exactly. The predicted date does not match the gold date."
+  },
+  "83e7d209": {
+    "correct": 0,
+    "reasoning": "The prediction states 'March 9, 1975', but the gold fact is '9-Feb-75'. The month 'March' contradicts 'February'. Dates have zero tolerance and must match exactly."
+  },
+  "5754de2d": {
+    "correct": 0,
+    "reasoning": "The gold string specifies 'Jan' (January) for the month, while the prediction states 'May'. Dates and years have zero tolerance and must match exactly, so this is a contradiction."
+  },
+  "1812ba81": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states the gold fact '67' without any contradiction. Additional information about the singer's name is acceptable."
+  },
+  "9d4dccb3": {
+    "correct": 0,
+    "reasoning": "The prediction states 'Alabama State University' as the graduation college, which directly contradicts the gold fact of 'Virginia State University'."
+  },
+  "5cb83719": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '26 years old', which matches the gold fact '26'. There is no contradiction."
+  },
+  "3c369277": {
+    "correct": 1,
+    "reasoning": "The gold fact '30' is explicitly present in the prediction 'was 30 years old when she died'. There are no contradictions, and the numeric value matches exactly."
+  },
+  "4b066327": {
+    "correct": 0,
+    "reasoning": "The gold fact states John Lennon was 16, while the prediction states he was 19. The numeric difference of 3 is greater than the allowed tolerance of max(0.5, 1% of 16) = 0.5. Therefore, the prediction contradicts the gold fact."
+  },
+  "c6452b3f": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '40', which exactly matches the gold fact '40'. No contradiction is present."
+  },
+  "0ae19309": {
+    "correct": 1,
+    "reasoning": "The gold date '5-Apr-02' and the predicted date 'April 5, 2002' represent the exact same calendar date. 'Apr' is an abbreviation for 'April', and '02' is a common representation for the year '2002' in this context. Despite the zero tolerance for dates, the underlying date value matches exactly after normalization."
+  },
+  "b5d64c8f": {
+    "correct": 1,
+    "reasoning": "The prediction 'Daisy Dove Bloom' is an exact match to the gold string 'Daisy Dove Bloom'; no normalization or contradiction is needed."
+  },
+  "0e274298": {
+    "correct": 0,
+    "reasoning": "The gold fact states the age is '44', while the prediction states '28'. The absolute difference is 16. The allowed tolerance for numeric expressions is max(0.5, 1% of 44) = max(0.5, 0.44) = 0.5. Since 16 is not less than or equal to 0.5, the prediction contradicts the gold fact and is outside the acceptable numeric tolerance."
+  },
+  "7987cd85": {
+    "correct": 1,
+    "reasoning": "The prediction 'Cincinnati, Ohio' is equivalent to the gold 'Cincinnati, OH' as 'OH' is a standard abbreviation for 'Ohio'. No contradiction is present."
+  },
+  "304b59eb": {
+    "correct": 0,
+    "reasoning": "The question asks about 'this year'. The gold answer provides top scorers for 'this year'. The prediction explicitly states 'There was no Copa America tournament held this year (2023)', which directly contradicts the premise of the question and the gold answer that there were top scorers for this year. While Lionel Messi is mentioned, it's in the context of a different year (2021), not 'this year'."
+  },
+  "9d2a6039": {
+    "correct": 0,
+    "reasoning": "The gold fact is '62' and the prediction states '64'. The difference is |64 - 62| = 2. The allowed tolerance is max(0.5, 1% of 62) = max(0.5, 0.62) = 0.62. Since 2 is greater than 0.62, the numeric difference is outside the acceptable range."
+  },
+  "88c5cc4f": {
+    "correct": 0,
+    "reasoning": "The gold fact states the age is 58, while the prediction states 43. The absolute difference is 15. The allowed tolerance for numeric expressions (not dates/years) is max(0.5, 1% of reference). 1% of 58 is 0.58, so the maximum allowed difference is 0.58. Since 15 is greater than 0.58, the prediction falls outside the tolerance and is considered incorrect."
+  },
+  "32b9d2f8": {
+    "correct": 0,
+    "reasoning": "The gold age is 78, and the predicted age is 80. The absolute difference is 2. The allowed numeric tolerance is max(0.5, 1% of 78) = max(0.5, 0.78) = 0.78. Since 2 is greater than 0.78, the prediction is outside the acceptable tolerance."
+  },
+  "48642564": {
+    "correct": 1,
+    "reasoning": "The gold fact '2011' is a year, which requires zero tolerance and an exact match. The prediction contains '2011' exactly. The additional information 'December 28' does not contradict the year."
+  },
+  "54ca06ca": {
+    "correct": 1,
+    "reasoning": "The gold fact '1870' (a year) is present in the prediction 'June 9, 1870'. Although dates and years have zero tolerance for *mismatch*, the prediction includes the exact year from the gold and adds more specific date information without contradiction."
+  },
+  "16e3c6d4": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold string, containing the same vital facts without any contradictions."
+  },
+  "7329c676": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Firm' is identical to the gold answer 'The Firm'. No normalization or tolerance rules are needed as they match exactly."
+  },
+  "cf1988b9": {
+    "correct": 1,
+    "reasoning": "The prediction 'Peter Jackson' exactly matches the gold answer 'Peter Jackson' after normalization. No contradictions are present."
+  },
+  "795c7599": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold string; no normalizations or contradictions are present."
+  },
+  "c999b363": {
+    "correct": 0,
+    "reasoning": "The gold fact is 'Tokyo', but the prediction states 'New Delhi'. These are different cities, and the prediction does not contain the gold fact. By providing 'New Delhi', it implicitly contradicts 'Tokyo' as the answer to the question."
+  },
+  "3b26d221": {
+    "correct": 1,
+    "reasoning": "The gold fact 'Benito Mussolini' is explicitly present in the prediction. The prediction adds 'and Cardinal Pietro Gasparri' as another signatory, which is additional information but does not contradict that Benito Mussolini also signed."
+  },
+  "2cc1a1f6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Tokyo' exactly matches the gold answer 'Tokyo' after normalization. No contradictions or negations are present."
+  },
+  "540c6b11": {
+    "correct": 0,
+    "reasoning": "The gold fact identifies 'Petronas Tower' as the tallest building, while the prediction states 'Merdeka 118'. These are two distinct buildings, meaning the prediction does not contain the gold fact and provides a contradictory answer."
+  },
+  "8aea53b1": {
+    "correct": 1,
+    "reasoning": "The prediction '2020' exactly matches the gold string '2020'. For years, zero tolerance for differences is applied, and they match perfectly."
+  },
+  "15e40e97": {
+    "correct": 0,
+    "reasoning": "The predicted first name 'Mimi' is different from the gold first name 'Marion Fay'. 'Mimi' is not an alias or abbreviation for 'Marion Fay', and thus the prediction does not contain the same vital fact as the gold answer."
+  },
+  "1ecc955a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Michelle Obama' is an exact match to the gold answer 'Michelle Obama' after normalization."
+  },
+  "06a8853f": {
+    "correct": 1,
+    "reasoning": "The prediction 'Harry S. Truman' refers to the same individual as the gold answer 'Harry Truman'. The inclusion of the middle initial 'S.' is a minor variation and does not contradict the gold fact; it's considered an equivalent form of the name."
+  },
+  "121be4e6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Republican Party' contains the gold fact 'Republican'. The addition of 'Party' does not contradict the gold fact and is a common way to refer to the political entity."
+  },
+  "65d0920e": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '94 years old', which exactly matches the gold fact '94'. No contradiction is present, and additional information does not negate the core fact."
+  },
+  "70ab78eb": {
+    "correct": 0,
+    "reasoning": "The gold states the president is in office for a '4 year term', which is the expected total duration of a presidential term. The prediction states the president 'has been in office for 2 years and 283 days' as of a specific date, indicating the duration served so far. The prediction does not contain the vital fact about the total '4 year term' length mentioned in the gold, nor does it contradict it, but it fails to provide the specific information requested by the gold."
+  },
+  "f750e2bc": {
+    "correct": 1,
+    "reasoning": "The gold fact '5'11\"' is equivalent to '5 feet 11 inches' in the prediction. The additional information '(1.80 m)' does not contradict the gold fact."
+  },
+  "46148e7d": {
+    "correct": 1,
+    "reasoning": "The prediction 'Peyton Manning' is an exact match to the gold string 'Peyton Manning'; no normalizations or contradictions are present."
+  },
+  "61eb1e66": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Shard' exactly matches the gold fact 'The Shard' after normalization (ignoring the article 'The' still results in a match). No contradiction is present."
+  },
+  "678c0c86": {
+    "correct": 1,
+    "reasoning": "The prediction includes both 'Caroline Harrison' (as 'Caroline Lavinia Scott Harrison') and 'Mary Dimmick Harrison' (as 'Mary Scott Lord Dimmick Harrison'). The additional middle names and maiden names in the prediction are acceptable as they do not contradict the gold fact but rather provide more detail."
+  },
+  "8e04963e": {
+    "correct": 1,
+    "reasoning": "The prediction 'John Glenn' exactly matches the gold string 'John Glenn' after normalization. No contradictions are present."
+  },
+  "750c7822": {
+    "correct": 0,
+    "reasoning": "The gold population is '8.5 million' (8,500,000). The predicted population is '8,335,897'. The absolute difference is 164,103. The allowed tolerance is max(0.5, 1% of 8,500,000) = 85,000. Since 164,103 is greater than 85,000, the numeric difference exceeds the critical tolerance."
+  },
+  "0aaf345f": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match for the gold string; no normalization or contradiction is needed."
+  },
+  "c75eff9f": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states the gold fact 'Industrial National Bank Building'. No normalizations are needed for the core fact, and there are no contradictions."
+  },
+  "40354630": {
+    "correct": 1,
+    "reasoning": "The prediction 'Cheaha Mountain' is an exact match to the gold string 'Cheaha Mountain' after normalization. No contradictions are present."
+  },
+  "05239cd8": {
+    "correct": 0,
+    "reasoning": "The gold value is 1,416,000. The predicted value is 1,440,196. The absolute difference is 24,196. The allowed tolerance is max(0.5, 1% of 1,416,000) = 14,160. Since 24,196 > 14,160, the numeric difference exceeds the critical tolerance."
+  },
+  "45279ea1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Laura Bush' exactly matches the gold string 'Laura Bush' after normalization. No contradictions are present."
+  },
+  "c22b6f2c": {
+    "correct": 1,
+    "reasoning": "The prediction 'William Shakespeare' correctly identifies the playwright, which is the vital fact. The gold string 'William Shakespear' contains a common misspelling of the same name. The prediction does not contradict the intended fact, but rather provides its correct spelling."
+  },
+  "817374ba": {
+    "correct": 1,
+    "reasoning": "The prediction 'John Quincy Adams' exactly matches the gold fact 'John Quincy Adams'; no normalizations or contradictions are present."
+  },
+  "e6f29b34": {
+    "correct": 0,
+    "reasoning": "The gold fact states the last queen of Egypt was born in 'Greece'. The prediction states 'Alexandria, Egypt', which is a different location and directly contradicts the gold fact regarding the birthplace."
+  },
+  "b38b982c": {
+    "correct": 0,
+    "reasoning": "The gold fact states the age is 48, while the prediction states 50. The absolute difference is 2. The allowed tolerance is max(0.5, 1% of 48) = max(0.5, 0.48) = 0.5. Since 2 is greater than 0.5, the difference is outside the acceptable numeric tolerance."
+  },
+  "8fd28dfe": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold string; no normalization or tolerance rules needed."
+  },
+  "f01745e8": {
+    "correct": 1,
+    "reasoning": "The prediction 'Virginia' exactly matches the gold fact 'Virginia' after normalization. No contradictions are present."
+  },
+  "430bff30": {
+    "correct": 1,
+    "reasoning": "The prediction 'Joe Hill' exactly matches the gold answer 'Joe Hill'; no normalization or contradiction is present."
+  },
+  "ced5adfa": {
+    "correct": 1,
+    "reasoning": "The gold and predicted dates refer to the same calendar date: March 13, 2007. 'Mar' is a standard abbreviation for 'March', and '07' is a common abbreviation for '2007' in date contexts. Differences in punctuation and full vs. abbreviated month/year are handled by normalization rules (standard aliases and abbreviations). The 'zero tolerance' for dates refers to the date value, which matches exactly."
+  },
+  "691eedf8": {
+    "correct": 1,
+    "reasoning": "The gold date '25-Oct-05' and the predicted date 'October 25, 2005' represent the exact same calendar date. 'Oct' is an abbreviation for 'October', and '05' is a common abbreviation for '2005' in date contexts. Despite formatting differences, the date itself matches exactly, satisfying the zero-tolerance rule for dates."
+  },
+  "27214402": {
+    "correct": 1,
+    "reasoning": "The gold string '14-Nov-05' and the prediction 'November 14, 2005' represent the exact same calendar date. 'Nov' is an abbreviation for 'November', and '05' is a common representation for the year '2005'. For dates, zero tolerance applies, and they match exactly."
+  },
+  "c395ab46": {
+    "correct": 1,
+    "reasoning": "The prediction 'Madden NFL 09' is an exact match to the gold string 'Madden NFL 09'. No normalizations or tolerances are needed, and there are no contradictions."
+  },
+  "a04200ad": {
+    "correct": 0,
+    "reasoning": "The prediction 'Solid Snake' is a different character than the gold answer 'Raiden'. The prediction does not contain the vital fact and implicitly contradicts it by providing an alternative, incorrect answer."
+  },
+  "1dd67401": {
+    "correct": 1,
+    "reasoning": "The prediction 'Bowser' exactly matches the gold answer 'Bowser' after normalization."
+  },
+  "802f3768": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '27', which is an exact match to the gold answer. The additional context provided in the prediction does not contradict the gold fact."
+  },
+  "e5070390": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '20 years old', which exactly matches the gold fact '20'. There are no contradictions, and additional context is acceptable."
+  },
+  "1e81dfc8": {
+    "correct": 1,
+    "reasoning": "The gold answer '1983' is a year, which requires zero tolerance for matching. The prediction explicitly states '1983', matching the gold exactly. Additional information about the song title does not contradict the vital fact."
+  },
+  "7d128d9d": {
+    "correct": 1,
+    "reasoning": "The gold string '5'9\"' is equivalent to '5 feet 9 inches' in the prediction. The additional information about Tupac Shakur and the metric conversion (1.75 m) does not contradict the gold fact."
+  },
+  "7a88aae7": {
+    "correct": 1,
+    "reasoning": "The gold string '4/14/01' and prediction 'April 14, 2001' represent the exact same calendar date. According to normalization rules, 'April' is equivalent to '4' for the month, and '01' is a standard abbreviation for '2001' in a date context. The 'zero tolerance' for dates means the date value must be identical, which it is in this case, after applying standard aliases and abbreviations."
+  },
+  "2652ec2b": {
+    "correct": 0,
+    "reasoning": "The prediction 'British Game' is a different award category than the gold 'British Academy Games Award for Best Game'. The prediction is missing crucial information like 'Academy', 'Award for Best', making it an incomplete and inaccurate representation of the gold fact."
+  },
+  "447274f8": {
+    "correct": 1,
+    "reasoning": "The prediction 'Lou Gehrig' exactly matches the gold fact 'Lou Gehrig' after normalization."
+  },
+  "ec34b32a": {
+    "correct": 1,
+    "reasoning": "The numeric prediction '57' exactly matches the gold fact '57'. No normalization or tolerance rules are needed as they are identical."
+  },
+  "ebfa5a1a": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '5'7\"', which exactly matches the gold string. The additional information '(1.70 m)' is a conversion and does not contradict the gold fact."
+  },
+  "3ba52364": {
+    "correct": 1,
+    "reasoning": "The prediction 'Robert F. Kennedy' is an exact match to the gold string, containing the same vital fact without any contradiction."
+  },
+  "5668f4d1": {
+    "correct": 1,
+    "reasoning": "The prediction '1988' exactly matches the gold '1988'. Since the number represents a year, zero tolerance applies, and the match is exact."
+  },
+  "04543bc3": {
+    "correct": 1,
+    "reasoning": "The gold fact 'Cambridge University' is implicitly contained within the prediction 'Trinity College, Cambridge', as Trinity College is a constituent college of Cambridge University. The prediction provides a more specific detail without contradicting the gold fact."
+  },
+  "72dfb112": {
+    "correct": 1,
+    "reasoning": "The gold fact '1937' (a year) is present in the prediction 'August 11, 1937' and matches exactly. The additional date information 'August 11' does not contradict the year."
+  },
+  "af8a1219": {
+    "correct": 0,
+    "reasoning": "The gold age is 52 and the predicted age is 54. The absolute difference is 2. The allowed tolerance for numeric expressions (not dates/years) is max(0.5, 1% of reference), which is max(0.5, 0.01 * 52) = max(0.5, 0.52) = 0.52. Since 2 is not less than or equal to 0.52, the difference is outside the acceptable range."
+  },
+  "cc58eabf": {
+    "correct": 1,
+    "reasoning": "The prediction 'Michelle Obama' is an exact match to the gold answer 'Michelle Obama'; no normalizations or contradictions are present."
+  },
+  "e22a184f": {
+    "correct": 1,
+    "reasoning": "The prediction 'Berkeley, California, USA' contains the gold fact 'Berkeley, CA'. 'CA' is a standard abbreviation for 'California'. The addition of 'USA' does not contradict the gold fact."
+  },
+  "863655c5": {
+    "correct": 0,
+    "reasoning": "The gold answer states a population of 4.2 million, while the prediction states 58.9 million. The absolute difference (54.7 million) far exceeds the allowed numeric tolerance of max(0.5, 1% of 4.2 million = 0.042 million) = 0.5 million. The prediction directly contradicts the gold fact."
+  },
+  "02074df8": {
+    "correct": 1,
+    "reasoning": "The prediction 'Forest Temple' is an exact match for the gold string 'Forest Temple'; no normalization or tolerance rules are needed, and there is no contradiction."
+  },
+  "05d00f71": {
+    "correct": 0,
+    "reasoning": "The gold fact states Genghis Khan's eldest son was 'Orda', while the prediction states 'Jochi'. These are different individuals, and the prediction does not contain the gold fact, implicitly contradicting it."
+  },
+  "0d0d5bac": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states the gold fact '5'4\"' exactly. The additional information '(1.63 m)' is a conversion and does not contradict the gold fact."
+  },
+  "da635865": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states the age as '25', which exactly matches the gold string. No contradiction is present, and additional information is acceptable."
+  },
+  "47fb38e9": {
+    "correct": 1,
+    "reasoning": "The prediction 'Squall Leonhart' is an exact match to the gold string 'Squall Leonhart'; no normalization or contradiction is needed."
+  },
+  "d5d873a9": {
+    "correct": 0,
+    "reasoning": "The year '65' in the gold string does not exactly match '1965' in the prediction. For calendar dates and years, there is zero tolerance for differences, requiring an exact match."
+  },
+  "c6729e41": {
+    "correct": 1,
+    "reasoning": "The prediction 'Beanie Feldstein' exactly matches the gold answer 'Beanie Feldstein' after normalization."
+  },
+  "b68627e9": {
+    "correct": 0,
+    "reasoning": "The predicted name 'Mike Smith' is entirely different from the gold name 'Michael Jackson', representing a direct contradiction of the vital fact."
+  },
+  "1f1cac50": {
+    "correct": 1,
+    "reasoning": "The prediction 'Yate, Gloucestershire, England' contains 'Yate' and specifies 'England', which is a constituent country of the 'United Kingdom'. This is a more specific, but not contradictory, location relative to the gold fact."
+  },
+  "961a46be": {
+    "correct": 1,
+    "reasoning": "The gold fact '1898' is a year. The prediction 'January 14, 1898' contains the exact year '1898', which matches the gold fact. Although the prediction includes additional date information ('January 14'), it does not contradict the year, and for dates/years, zero tolerance applies to the specific component being evaluated (the year in this case)."
+  },
+  "6a3369b8": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '94 years old', which is the exact gold fact. No contradictions are present, and the additional context from the question is acceptable."
+  },
+  "eda78dda": {
+    "correct": 0,
+    "reasoning": "The gold value is 73 and the predicted value is 75. The absolute difference is 2. The allowed tolerance is max(0.5, 1% of 73) = max(0.5, 0.73) = 0.73. Since 2 is greater than 0.73, the difference is outside the acceptable range for numeric expressions."
+  },
+  "c20af019": {
+    "correct": 0,
+    "reasoning": "The prediction '1954' for the year does not exactly match the gold '54'. For calendar dates and years, there is zero tolerance, requiring an exact match."
+  },
+  "6b65199c": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold string. For dates and years, zero tolerance applies, and the match is perfect."
+  },
+  "1c572c13": {
+    "correct": 1,
+    "reasoning": "The prediction 'Neil O'Donnell' is an exact match to the gold string 'Neil O'Donnell'. No normalizations or tolerances are needed, and there are no contradictions."
+  },
+  "bd1c9600": {
+    "correct": 1,
+    "reasoning": "The prediction 'Princess Peach' is an exact match for the gold string 'Princess Peach'; no normalization or contradiction is needed."
+  },
+  "b4aadf92": {
+    "correct": 1,
+    "reasoning": "The prediction 'Prague' exactly matches the gold string 'Prague'; no normalization or contradiction is needed."
+  },
+  "7e554842": {
+    "correct": 0,
+    "reasoning": "The gold states '11 years' while the prediction states '12 years'. The difference is 1. The allowed tolerance is max(0.5, 1% of 11) = max(0.5, 0.11) = 0.5. Since 1 > 0.5, the numeric values do not fall within the acceptable tolerance."
+  },
+  "9a123681": {
+    "correct": 1,
+    "reasoning": "The gold answer specifies the year '1992'. The prediction 'December 1992' includes this exact year. Although the prediction provides additional information (the month 'December'), it does not contradict the gold fact, and the year itself matches exactly, adhering to the zero tolerance rule for years."
+  },
+  "3c79e320": {
+    "correct": 1,
+    "reasoning": "The prediction 'Mushroom Kingdom' is an exact match to the gold string 'Mushroom Kingdom'."
+  },
+  "c11196a0": {
+    "correct": 0,
+    "reasoning": "After normalizing for case ('Del Toro' vs 'del Toro' becomes 'del toro'), the first names 'Benecio' and 'Benicio' are different. The normalization rules do not account for minor spelling variations in proper nouns, only standard aliases and abbreviations, which this is not."
+  },
+  "168f5d6c": {
+    "correct": 1,
+    "reasoning": "The prediction 'Buster Sword' is an exact match to the gold string 'Buster Sword'; no normalization or contradiction is needed."
+  },
+  "0016e212": {
+    "correct": 1,
+    "reasoning": "The day '10' matches. The month 'Sep' is a standard abbreviation for 'September'. The year '50' is a common and accepted abbreviation for '1950' in the context of a birth year, falling under the 'standard aliases and abbreviations' normalization rule. All components of the date match after normalization, and there is no contradiction."
+  },
+  "3823137d": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Yamuna River' contains the gold fact 'Yamuna'. The article 'The' and the word 'River' are additional details that do not contradict the gold fact."
+  },
+  "f1a5e729": {
+    "correct": 0,
+    "reasoning": "The gold fact states the lead actress has '2' children. The prediction explicitly states she 'does not have any children', which is a direct contradiction of the gold fact."
+  },
+  "afc0cfc2": {
+    "correct": 1,
+    "reasoning": "The prediction 'Frank Vogel' exactly matches the gold string 'Frank Vogel' after normalization. No contradictions are present."
+  },
+  "bde0f41a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Democratic Party' refers to the same political affiliation as 'Democrat'. 'Democrat' is often used as a shorthand for a member of the 'Democratic Party' or the party itself. No contradiction is present."
+  },
+  "d9a7bed4": {
+    "correct": 1,
+    "reasoning": "The gold fact '1999' is present in the prediction and matches exactly. For years, there is zero tolerance, which is met here. No contradiction is present."
+  },
+  "c18486eb": {
+    "correct": 0,
+    "reasoning": "The prediction 'Wyoming' directly contradicts the gold fact 'Washington'. These are distinct state names and not equivalent."
+  },
+  "ed23da84": {
+    "correct": 1,
+    "reasoning": "The gold fact '1870' is a year. The prediction 'June 9, 1870' contains the exact year '1870'. Although the prediction includes additional date information ('June 9'), this does not contradict the gold fact, and for years, exact matching is required, which is met for the year itself."
+  },
+  "6a65e36f": {
+    "correct": 1,
+    "reasoning": "The prediction 'Rajon Rondo' is an exact match to the gold string 'Rajon Rondo'; no normalization or contradiction is needed."
+  },
+  "a5730760": {
+    "correct": 1,
+    "reasoning": "The day '13' matches exactly. 'Jan' and 'January' are equivalent as a standard abbreviation and full form. '41' and '1941' are considered equivalent representations of the same year in this context, where '41' is a common abbreviation for '1941'. The 'zero tolerance' for dates/years applies to the numerical value, ensuring it's not off by even one unit (e.g., 1940 or 1942), which is satisfied here as the year value is identical. No contradictory statement is present."
+  },
+  "f46f9461": {
+    "correct": 0,
+    "reasoning": "The prediction 'Washington' directly contradicts the gold fact 'California'. These are distinct state names, and the prediction does not contain the gold fact."
+  },
+  "83fe7be2": {
+    "correct": 1,
+    "reasoning": "The prediction 'Santa Monica Studio' is an exact match to the gold string 'Santa Monica Studio'; no normalization or tolerance rules are needed, and no contradiction is present."
+  },
+  "d09fa446": {
+    "correct": 1,
+    "reasoning": "The prediction 'Don Shula' exactly matches the gold answer 'Don Shula' after normalization."
+  },
+  "90dd6ba6": {
+    "correct": 1,
+    "reasoning": "The prediction 'Anna Tuthill Symmes Harrison' includes the gold fact 'Anna Symmes'. The additional names 'Tuthill' and 'Harrison' are further details of the same person and do not contradict the gold answer."
+  },
+  "c25ca16b": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states the age '27', which exactly matches the gold fact. No contradiction is present, and additional information about Jimi Hendrix is acceptable."
+  },
+  "bb6aa601": {
+    "correct": 1,
+    "reasoning": "The prediction 'Betty Ford' exactly matches the gold answer 'Betty Ford' after normalization."
+  },
+  "4ded8418": {
+    "correct": 1,
+    "reasoning": "The prediction 'Wilshire Grand Center' exactly matches the gold answer 'Wilshire Grand Center' after normalization."
+  },
+  "5e25e816": {
+    "correct": 1,
+    "reasoning": "The gold fact 'Canada' is present within the prediction 'Mission, British Columbia, Canada'. The additional detail about Mission, British Columbia, does not contradict the gold fact but rather provides a more specific location within Canada."
+  },
+  "c3e5e7b8": {
+    "correct": 1,
+    "reasoning": "The article 'The' in the gold string is ignored during normalization, making 'The Netherlands' equivalent to 'Netherlands'. The prediction matches the normalized gold fact."
+  },
+  "b5dc8995": {
+    "correct": 0,
+    "reasoning": "The gold fact states '2' children, while the prediction states 'one' child. The numeric difference of 1 is greater than the allowed tolerance of max(0.5, 1% of 2) = 0.5, making it a contradiction."
+  },
+  "2b204b39": {
+    "correct": 1,
+    "reasoning": "The prediction 'Chun-Li' exactly matches the gold answer 'Chun-Li' after normalization (ignoring case and hyphen)."
+  },
+  "a0f63db0": {
+    "correct": 0,
+    "reasoning": "The gold fact states the age as '46'. The prediction explicitly states that the information 'does not state the age', which directly contradicts the gold fact."
+  },
+  "bc1f9c3f": {
+    "correct": 0,
+    "reasoning": "The prediction states 'Hampstead, London, England' as the birthplace, which directly contradicts the gold fact of 'Stoke-on-Trent, Staffordshire, England'. These are distinct locations."
+  },
+  "a9db545b": {
+    "correct": 1,
+    "reasoning": "The difference between 'H. W.' and 'H.W.' is a minor formatting variation in initials, which is considered equivalent under normalization rules for punctuation and standard abbreviations/aliases. No contradiction is present."
+  },
+  "d890595a": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold string; no normalization or tolerance rules needed."
+  },
+  "61bfab8c": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states '56 years old', which exactly matches the gold fact '56'. The additional information about Abraham Lincoln does not contradict the vital fact."
+  },
+  "db3375e8": {
+    "correct": 0,
+    "reasoning": "The gold states an upper age limit of 325 million years, while the prediction states 360 million years. The difference of 35 million years exceeds the allowed numerical tolerance of 1% of the reference (3.25 million years for 325 million)."
+  },
+  "655db184": {
+    "correct": 0,
+    "reasoning": "The gold answer specifies two pitchers, 'Bill Dinneen and Cy Young', as vital facts. The prediction only mentions 'Cy Young', omitting 'Bill Dinneen'. Therefore, the prediction does not contain all the same vital facts as the gold answer."
+  },
+  "6f62ab02": {
+    "correct": 0,
+    "reasoning": "The gold answer is 40. The prediction states 43. The difference is 3. The allowed numeric tolerance is max(0.5, 1% of 40) = max(0.5, 0.4) = 0.5. Since 3 is greater than 0.5, the prediction is outside the acceptable tolerance."
+  },
+  "1be89328": {
+    "correct": 1,
+    "reasoning": "The gold fact 'Herbert Hoover' is present in the prediction. The prediction also includes 'Franklin D. Roosevelt', which is additional information but does not contradict the gold fact that Herbert Hoover was a US president during the Great Depression."
+  },
+  "286d66d0": {
+    "correct": 0,
+    "reasoning": "The gold answer 'Katie Holmes' is a different name from the predicted answer 'Taka'. The prediction does not contain the vital fact from the gold answer."
+  },
+  "8c40b893": {
+    "correct": 1,
+    "reasoning": "The gold fact '27' is present in the prediction '27 years old'. The prediction provides additional context but does not contradict the gold fact. Numeric values match exactly."
+  },
+  "30880c95": {
+    "correct": 1,
+    "reasoning": "The gold fact '2016' is a calendar year, which requires zero tolerance for matching. The prediction explicitly states '2016', matching the gold fact exactly without any contradiction."
+  },
+  "2d8e2766": {
+    "correct": 0,
+    "reasoning": "The gold age is 52, and the predicted age is 54. The absolute difference is 2. The allowed numeric tolerance is max(0.5, 1% of 52) = max(0.5, 0.52) = 0.52. Since 2 is greater than 0.52, the prediction falls outside the acceptable tolerance."
+  },
+  "91ecebc6": {
+    "correct": 1,
+    "reasoning": "The prediction 'George Lucas' exactly matches the gold answer 'George Lucas' after normalization."
+  },
+  "513f3181": {
+    "correct": 1,
+    "reasoning": "The prediction 'Arènes de Lutèce' is equivalent to the gold 'Arenes de Lutece' after ignoring diacritics and case. The prediction contains the vital fact without contradiction."
+  },
+  "7c9fbf32": {
+    "correct": 1,
+    "reasoning": "The prediction explicitly states 'The Independent', which matches the gold string exactly after normalization (ignoring the article 'The'). No contradiction is present."
+  },
+  "42dc16aa": {
+    "correct": 1,
+    "reasoning": "The prediction 'Cortana' exactly matches the gold string 'Cortana'; no normalizations or contradictions are present."
+  },
+  "456c8029": {
+    "correct": 1,
+    "reasoning": "The word 'once' is numerically equivalent to '1', satisfying the numeric expression rule. No contradiction is present."
+  },
+  "9ac70118": {
+    "correct": 0,
+    "reasoning": "The gold fact states the age was 46, while the prediction states it was 60. The difference of 14 exceeds the allowed numeric tolerance of max(0.5, 1% of 46 = 0.46) = 0.5, and thus directly contradicts the gold fact."
+  },
+  "100a940f": {
+    "correct": 1,
+    "reasoning": "The prediction 'Andrew Johnson' exactly matches the gold answer 'Andrew Johnson' after normalization. No contradictions are present."
+  },
+  "1429b85a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Medusa' exactly matches the gold fact 'Medusa' after normalization."
+  },
+  "e6fb1f57": {
+    "correct": 1,
+    "reasoning": "The prediction 'George H.W. Bush' is equivalent to the gold 'George H. W. Bush' as 'H.W.' is a standard abbreviation for 'H. W.', and punctuation differences (like the space between initials) are tolerated under normalization rules for abbreviations."
+  },
+  "16e73f4d": {
+    "correct": 0,
+    "reasoning": "The gold fact is '69'. The prediction states '71'. The absolute difference is |71 - 69| = 2. The allowed tolerance is max(0.5, 1% of 69) = max(0.5, 0.69) = 0.69. Since 2 is not ≤ 0.69, the numeric difference is outside the acceptable tolerance for an age."
+  },
+  "00823c3a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Jacqueline Lee Bouvier Kennedy Onassis' includes 'Jacqueline Kennedy' as part of the full name, which is not a contradiction but rather an expansion of the gold fact. No negation or conflict is present."
+  },
+  "25441950": {
+    "correct": 1,
+    "reasoning": "The prediction 'Helen Herron Taft' includes the gold fact 'Helen Taft'. The addition of the middle name 'Herron' is an elaboration and does not contradict the gold fact."
+  },
+  "ab026d77": {
+    "correct": 0,
+    "reasoning": "The gold string specifies the birthplace as 'Bloemfontein, Orange Free State (England)'. The prediction states 'Bloemfontein, Orange Free State (now South Africa)'. While 'Bloemfontein, Orange Free State' matches, the parenthetical information differs significantly ('England' vs. 'now South Africa'), constituting a conflict with the specific detail provided in the gold fact."
+  },
+  "0b061676": {
+    "correct": 1,
+    "reasoning": "The prediction 'Prague' exactly matches the gold answer 'Prague' after normalization."
+  },
+  "88f04611": {
+    "correct": 1,
+    "reasoning": "The prediction is an exact match to the gold string; no normalizations or contradictions are needed."
+  },
+  "ac27f0ef": {
+    "correct": 0,
+    "reasoning": "The gold answer provides a specific height for a singer. The prediction contradicts this by stating that the 'singer' is a band (Weezer) and therefore does not have a single physical height, directly negating the premise of the question and the gold fact."
+  },
+  "78a31f7a": {
+    "correct": 0,
+    "reasoning": "The prediction 'Andy Stankiewicz' directly contradicts the gold fact 'Jason Gill' regarding the coach's name. These are distinct names and not aliases or abbreviations of each other."
+  },
+  "113d3038": {
+    "correct": 1,
+    "reasoning": "The gold fact '38' is present in the prediction as '38 years old'. There are no contradictions, and the numeric value matches exactly."
+  },
+  "8451615c": {
+    "correct": 0,
+    "reasoning": "The gold string specifies the date '21-Nov-01' (November 21, 2001), while the prediction states 'December 3, 2001'. For calendar dates, there is zero tolerance for differences, so these do not match exactly."
+  },
+  "01af35b8": {
+    "correct": 0,
+    "reasoning": "The gold answer is '69' and the prediction states '71'. The difference is 2. The allowed numeric tolerance is max(0.5, 1% of 69) = max(0.5, 0.69) = 0.69. Since 2 is greater than 0.69, the prediction falls outside the acceptable tolerance."
+  },
+  "3548d16e": {
+    "correct": 1,
+    "reasoning": "The gold date '13-Mar-07' matches the predicted date 'March 13, 2007'. 'Mar' is equivalent to 'March', and '07' is equivalent to '2007' for a year, representing the same exact date. No contradiction is present."
+  },
+  "4af81c8c": {
+    "correct": 1,
+    "reasoning": "The prediction contains all the vital facts from the gold string: 'Best Family Game', 'Best Multiplayer Game' (as 'Best Multiplayer', which is contextually equivalent), and 'Game of the Year'. The additional nominations in the prediction do not contradict the gold facts."
+  },
+  "7d62890c": {
+    "correct": 1,
+    "reasoning": "The prediction 'Bill Condon' exactly matches the gold answer 'Bill Condon' after normalization (case-insensitivity). No contradictions are present."
+  },
+  "2b7aada8": {
+    "correct": 0,
+    "reasoning": "The prediction states 'George W. Bush' was the US president, which directly contradicts the gold fact that it was 'Barack Obama'."
+  },
+  "249c69f3": {
+    "correct": 0,
+    "reasoning": "The gold answer states 'Eliza Johnson' as the wife of the 21st president. The prediction states 'Ellen Lewis Herndon Arthur', which is a completely different name and therefore contradicts the gold fact."
+  },
+  "986b6ca6": {
+    "correct": 1,
+    "reasoning": "The numeric word 'two' is equivalent to the digit '2'. The prediction contains the vital fact 'two main pyramids' which matches the gold fact '2 main pyramids', and there are no contradictions."
+  },
+  "5bfe714a": {
+    "correct": 1,
+    "reasoning": "The prediction 'Paris, France' is an exact match to the gold string 'Paris, France'; no normalizations or contradictions are present."
+  },
+  "cbc5ec09": {
+    "correct": 0,
+    "reasoning": "The gold string specifies '16th' while the prediction states '16'. Although semantically equivalent for a date, the critical tolerance rules state 'For dates or years there is zero tolerance – they must match exactly.' The ordinal indicator 'th' is not listed as punctuation to be ignored, making them not an exact match."
+  },
+  "f7dcfbde": {
+    "correct": 1,
+    "reasoning": "The prediction '1616' exactly matches the gold fact '1616'. Since the number represents a year, zero tolerance applies, and the match is perfect."
+  },
+  "f54d1a2f": {
+    "correct": 1,
+    "reasoning": "The gold fact 'Petronas Towers' is present in the prediction as 'Petronas Twin Towers', which is considered an equivalent reference. The prediction provides additional information (other tall buildings) but does not contradict the gold fact."
+  },
+  "92244aa2": {
+    "correct": 1,
+    "reasoning": "The prediction exactly matches the gold string after normalization rules are applied. No contradictions or significant differences are present."
+  },
+  "bf207389": {
+    "correct": 1,
+    "reasoning": "The prediction 'The Demolished Man' is identical to the gold string 'The Demolished Man'. After normalization (ignoring the article 'The'), both are 'Demolished Man', confirming an exact match with no contradictions."
+  },
+  "d61d1f4e": {
+    "correct": 1,
+    "reasoning": "The gold fact 'England' is present in the prediction 'London, England'. The additional detail 'London' does not contradict the gold fact but rather provides a more specific location within England."
+  },
+  "d8abcbe1": {
+    "correct": 1,
+    "reasoning": "The prediction 'Troy Aikman' exactly matches the gold fact 'Troy Aikman' after normalization; no contradictions are present."
+  }
+}

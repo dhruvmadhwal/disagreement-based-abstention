@@ -1,0 +1,3275 @@
+[
+  {
+    "id": "551d685a-1536-4c51-87f5-a73dc1f8b3c5",
+    "question": "how long is the longest river in alabama?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest river in Alabama?\")\nanswer_2: str = qa_model(\"How long is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "584 miles",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Tombigbee River",
+      "answer_2": "584 miles"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Tombigbee River\",\n  \"answer_2\": \"584 miles\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:19:14",
+    "intermediate_questions": [
+      "What is the longest river in Alabama?",
+      "How long is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "81148a6f-de74-4624-a2b3-794e9ed5ab76",
+    "question": "what was the 76ers' record the year allen iverson won mvp?",
+    "dsl_string": "answer_1: str = qa_model(\"When did Allen Iverson win the NBA MVP award?\")\nanswer_2: str = qa_model(\"What was the Philadelphia 76ers' record in the {answer_1} NBA season?\", answer_1=answer_1)",
+    "final_answer": "56-26",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2001",
+      "answer_2": "56-26"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2001\",\n  \"answer_2\": \"56-26\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:20:46",
+    "intermediate_questions": [
+      "When did Allen Iverson win the NBA MVP award?",
+      "What was the Philadelphia 76ers' record in the {answer_1} NBA season?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "cc2b1cc1-ccd6-44af-a472-ebddab30ff0e",
+    "question": "when did the lead actor of naked gun die?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the lead actor in the film 'Naked Gun'?\")\nanswer_2: str = qa_model(\"When did {answer_1} die?\", answer_1=answer_1)",
+    "final_answer": "2010-10-28",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Leslie Nielsen",
+      "answer_2": "2010-10-28"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Leslie Nielsen\",\n  \"answer_2\": \"2010-10-28\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:20:56",
+    "intermediate_questions": [
+      "Who was the lead actor in the film 'Naked Gun'?",
+      "When did {answer_1} die?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "03e3957a-3d2b-4386-a89f-1ad106512f3f",
+    "question": "what was the profession of kim kardashian's second spouse?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was Kim Kardashian's second spouse?\")\nanswer_2: str = qa_model(\"What was the profession of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Rapper",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Kanye West",
+      "answer_2": "Rapper"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Kanye West\",\n  \"answer_2\": \"Rapper\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:21:51",
+    "intermediate_questions": [
+      "Who was Kim Kardashian's second spouse?",
+      "What was the profession of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "13ea1049-2593-4f93-a46e-89dc336f1e91",
+    "question": "where did the lead designer of fortran get his m.s. from?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the lead designer of Fortran?\")\nanswer_2: str = qa_model(\"Where did {answer_1} get his M.S. degree from?\", answer_1=answer_1)",
+    "final_answer": "Cornell University",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "John Backus",
+      "answer_2": "Cornell University"
+    },
+    "raw_response": "{\n  \"answer_1\": \"John Backus\",\n  \"answer_2\": \"Cornell University\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:22:33",
+    "intermediate_questions": [
+      "Who was the lead designer of Fortran?",
+      "Where did {answer_1} get his M.S. degree from?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "61843ef2-b106-4a71-8dca-72c6b483733b",
+    "question": "what is the driving side in mallorca?",
+    "dsl_string": "answer_1: str = qa_model(\"In which country is Mallorca located?\")\nanswer_2: str = qa_model(\"What is the driving side in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Right",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Spain",
+      "answer_2": "Right"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Spain\",\n  \"answer_2\": \"Right\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:26:04",
+    "intermediate_questions": [
+      "In which country is Mallorca located?",
+      "What is the driving side in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "79c07a6f-77a4-4f41-ad34-90804e609c2d",
+    "question": "what is the elevation of the capital of nebraska?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the capital of Nebraska?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "1116ft",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Lincoln",
+      "answer_2": "1116ft"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Lincoln\",\n  \"answer_2\": \"1116ft\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:26:36",
+    "intermediate_questions": [
+      "What is the capital of Nebraska?",
+      "What is the elevation of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "4ae2cce0-de1c-49c4-b929-4952a02a260c",
+    "question": "what age did abraham lincoln begin his presidency?",
+    "dsl_string": "answer_1: str = qa_model(\"When did Abraham Lincoln begin his presidency?\")\nanswer_2: str = qa_model(\"How old was Abraham Lincoln on {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "52",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1861-03-04",
+      "answer_2": "52"
+    },
+    "raw_response": "{\n  \"answer_1\": \"1861-03-04\",\n  \"answer_2\": \"52\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:26:42",
+    "intermediate_questions": [
+      "When did Abraham Lincoln begin his presidency?",
+      "How old was Abraham Lincoln on {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "d6ed2e39-aa0d-4d1b-a975-f400eb859e63",
+    "question": "when did the lead actor of die hard get married?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the lead actor in the movie 'Die Hard'?\")\nanswer_2: str = qa_model(\"When did {answer_1} get married?\", answer_1=answer_1)",
+    "final_answer": "On April 21, 1987",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Bruce Willis",
+      "answer_2": "On April 21, 1987"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Bruce Willis\",\n  \"answer_2\": \"On April 21, 1987\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:29:15",
+    "intermediate_questions": [
+      "Who is the lead actor in the movie 'Die Hard'?",
+      "When did {answer_1} get married?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "118896a1-8124-482a-9201-4aaf1903618d",
+    "question": "when was green day's third studio album released?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third studio album by Green Day?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "final_answer": "2004-10-07",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "American Idiot",
+      "answer_2": "2004-10-07"
+    },
+    "raw_response": "{\n  \"answer_1\": \"American Idiot\",\n  \"answer_2\": \"2004-10-07\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:29:53",
+    "intermediate_questions": [
+      "What is the third studio album by Green Day?",
+      "When was '{answer_1}' released?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "cdc413a0-1cb3-4100-b841-71ef9224808f",
+    "question": "at what age was lorne michaels when he produced his first film?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the first film produced by Lorne Michaels?\")\nanswer_2: str = qa_model(\"How old was Lorne Michaels when '{answer_1}' was released?\", answer_1=answer_1)",
+    "final_answer": "53",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Saturday Night Live",
+      "answer_2": "53"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Saturday Night Live\",\n  \"answer_2\": \"53\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:31:58",
+    "intermediate_questions": [
+      "What was the first film produced by Lorne Michaels?",
+      "How old was Lorne Michaels when '{answer_1}' was released?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "d4360848-f6aa-4071-9264-6c60b934ce08",
+    "question": "where did the lead designer of java (programming language) receive his ph.d.?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the lead designer of the Java programming language?\")\nanswer_2: str = qa_model(\"Where did {answer_1} receive his Ph.D.?\", answer_1=answer_1)",
+    "final_answer": "Carnegie Mellon University",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "James Gosling",
+      "answer_2": "Carnegie Mellon University"
+    },
+    "raw_response": "{\n  \"answer_1\": \"James Gosling\",\n  \"answer_2\": \"Carnegie Mellon University\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:33:06",
+    "intermediate_questions": [
+      "Who is the lead designer of the Java programming language?",
+      "Where did {answer_1} receive his Ph.D.?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "56c7d756-2d72-48bd-9574-9dea576d78e1",
+    "question": "what's the name of the actress who played the role of the girl character in the movie \"the matrix\"?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the main female character in the movie 'The Matrix'?\")\nanswer_2: str = qa_model(\"Who played {answer_1} in the movie 'The Matrix'?\", answer_1=answer_1)",
+    "final_answer": "Carrie-Anne Moss",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Trinity",
+      "answer_2": "Carrie-Anne Moss"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Trinity\",\n  \"answer_2\": \"Carrie-Anne Moss\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:34:16",
+    "intermediate_questions": [
+      "Who is the main female character in the movie 'The Matrix'?",
+      "Who played {answer_1} in the movie 'The Matrix'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "e06676aa-efc3-4763-b196-e105596cc643",
+    "question": "can you tell me what other songs the same artist released in the same year as my time?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the artist of the song 'my time'?\")\nanswer_2: str = qa_model(\"When was the song 'my time' released?\")\nanswer_3: str = qa_model(\"What other songs did {answer_1} release in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "",
+    "explanation": "",
+    "intermediate_answers": {
+      "error": "malformed_json",
+      "raw": "{\n  \"answer_1\": \"Lady Gaga\",\n  \"answer_2\": \"2020-09-25\",\n  \"answer_3\": \"Chromatica II; 911\";\n}",
+      "error_detail": "Expecting ',' delimiter: line 4 column 35 (char 91)"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Lady Gaga\",\n  \"answer_2\": \"2020-09-25\",\n  \"answer_3\": \"Chromatica II; 911\";\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": false,
+    "timestamp": "2025-12-13 06:34:20",
+    "intermediate_questions": [
+      "Who is the artist of the song 'my time'?",
+      "When was the song 'my time' released?",
+      "What other songs did {answer_1} release in {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "04f641b1-86c8-4240-9b49-31d40456cd4f",
+    "question": "what's the name of the actor who played the role of a lawyer with no law degree in the tv show \"suits\"?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the name of the character who is a lawyer with no law degree in the TV show 'Suits'?\")\nanswer_2: str = qa_model(\"Who played the role of {answer_1} in the TV show 'Suits'?\", answer_1=answer_1)",
+    "final_answer": "Patrick J. Adams",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Mike Ross",
+      "answer_2": "Patrick J. Adams"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Mike Ross\",\n  \"answer_2\": \"Patrick J. Adams\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:34:45",
+    "intermediate_questions": [
+      "What is the name of the character who is a lawyer with no law degree in the TV show 'Suits'?",
+      "Who played the role of {answer_1} in the TV show 'Suits'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "ad57a30d-0f77-41cf-ab69-350e7080a727",
+    "question": "who was head coach of the lakers in kobe bryant's rookie year?",
+    "dsl_string": "answer_1: str = qa_model(\"When was Kobe Bryant's rookie year in the NBA?\")\nanswer_2: str = qa_model(\"Who was the head coach of the Los Angeles Lakers in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Del Harris",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1996-1997",
+      "answer_2": "Del Harris"
+    },
+    "raw_response": "{\n  \"answer_1\": \"1996-1997\",\n  \"answer_2\": \"Del Harris\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:37:37",
+    "intermediate_questions": [
+      "When was Kobe Bryant's rookie year in the NBA?",
+      "Who was the head coach of the Los Angeles Lakers in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "5cfddbeb-3adf-4d89-85dd-ccbea6074ea5",
+    "question": "how many feet is the place with the lowest elevation in vermont?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the place with the lowest elevation in Vermont?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1} in feet?\", answer_1=answer_1)",
+    "final_answer": "74",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Lake Champlain",
+      "answer_2": "74"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Lake Champlain\",\n  \"answer_2\": \"74\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:38:22",
+    "intermediate_questions": [
+      "What is the place with the lowest elevation in Vermont?",
+      "What is the elevation of {answer_1} in feet?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "2a233422-8f6c-4f97-8509-ccc71afb3794",
+    "question": "how old was leonardo dicaprio when he won best actor award?",
+    "dsl_string": "answer_1: str = qa_model(\"When did Leonardo DiCaprio win the Best Actor award?\")\nanswer_2: str = qa_model(\"How old was Leonardo DiCaprio on {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "41",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2016-02-28",
+      "answer_2": "41"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2016-02-28\",\n  \"answer_2\": \"41\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:38:26",
+    "intermediate_questions": [
+      "When did Leonardo DiCaprio win the Best Actor award?",
+      "How old was Leonardo DiCaprio on {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "e525e6b2-4865-4610-a73b-79438c724255",
+    "question": "what was the first studio album from the group that michael jackson was in?",
+    "dsl_string": "answer_1: str = qa_model(\"What group was Michael Jackson a member of?\")\nanswer_2: str = qa_model(\"What was the first studio album released by {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Debut Album",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Jackson 5",
+      "answer_2": "Debut Album"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The Jackson 5\",\n  \"answer_2\": \"Debut Album\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:40:13",
+    "intermediate_questions": [
+      "What group was Michael Jackson a member of?",
+      "What was the first studio album released by {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "8f44d279-42b0-490f-ab04-24dd1a7a47f5",
+    "question": "what was henry rollins's age when he/she made an appearance in henry rollins: henry rollins goes to london?",
+    "dsl_string": "answer_1: str = qa_model(\"When was Henry Rollins born?\")\nanswer_2: str = qa_model(\"When was 'Henry Rollins: Henry Rollins Goes to London' released?\")\nanswer_3: str = qa_model(\"How old was Henry Rollins, born on {answer_1}, when 'Henry Rollins: Henry Rollins Goes to London' was released on {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "32",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1961-02-13",
+      "answer_2": "2003-09-01",
+      "answer_3": "32"
+    },
+    "raw_response": "{\n  \"answer_1\": \"1961-02-13\",\n  \"answer_2\": \"2003-09-01\",\n  \"answer_3\": \"32\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2025-12-13 06:41:18",
+    "intermediate_questions": [
+      "When was Henry Rollins born?",
+      "When was 'Henry Rollins: Henry Rollins Goes to London' released?",
+      "How old was Henry Rollins, born on {answer_1}, when 'Henry Rollins: Henry Rollins Goes to London' was released on {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "91f3cf34-49bf-4da4-97ce-a04f3fc57467",
+    "question": "what was mike epps's age at the time of next friday's release?",
+    "dsl_string": "answer_1: str = qa_model(\"When was Mike Epps born?\")\nanswer_2: str = qa_model(\"When was the movie 'Next Friday' released?\")\nanswer_3: str = qa_model(\"What was the age of a person born on {answer_1} on the date {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "25",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1970-11-18",
+      "answer_2": "1995-11-17",
+      "answer_3": "25"
+    },
+    "raw_response": "{\n  \"answer_1\": \"1970-11-18\",\n  \"answer_2\": \"1995-11-17\",\n  \"answer_3\": \"25\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:04:16",
+    "intermediate_questions": [
+      "When was Mike Epps born?",
+      "When was the movie 'Next Friday' released?",
+      "What was the age of a person born on {answer_1} on the date {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "75e54c83-f11b-413e-aebc-909bf3d436da",
+    "question": "who wrote the theme song for the movie ghostbusters (1984)?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the theme song for the movie Ghostbusters (1984)?\")\nanswer_2: str = qa_model(\"Who wrote the song '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "Ray Parker Jr.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Ghostbusters Theme Song",
+      "answer_2": "Ray Parker Jr."
+    },
+    "raw_response": "{\n  \"answer_1\": \"Ghostbusters Theme Song\",\n  \"answer_2\": \"Ray Parker Jr.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:05:01",
+    "intermediate_questions": [
+      "What is the theme song for the movie Ghostbusters (1984)?",
+      "Who wrote the song '{answer_1}'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "55ea20e8-c0da-48be-8e02-d4d6bec6c27d",
+    "question": "when forest whitaker won his/her first oscar best actor, which movie won the best picture?",
+    "dsl_string": "answer_1: str = qa_model(\"For which movie did Forest Whitaker win his first Oscar for Best Actor?\")\nanswer_2: str = qa_model(\"Which movie won Best Picture the year {answer_1} won Best Actor?\", answer_1=answer_1)",
+    "final_answer": "Crash",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Last King of Scotland",
+      "answer_2": "2006",
+      "answer_3": "Crash"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The Last King of Scotland\",\n  \"answer_2\": \"2006\",\n  \"answer_3\": \"Crash\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:05:10",
+    "intermediate_questions": [
+      "For which movie did Forest Whitaker win his first Best Actor Oscar?",
+      "In what year did '{answer_1}' win the Best Actor Oscar?",
+      "Which movie won Best Picture in {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "207250e7-d0a6-4b17-9072-5496c7ff6380",
+    "question": "what was taylor swifts age when she released her debut album?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the title of Taylor Swift's debut album?\")\nanswer_2: str = qa_model(\"How old was Taylor Swift when she released '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "Taylor Swift was 16 years old when she released 'Taylor Swift'",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Taylor Swift's debut album is titled 'Taylor Swift'",
+      "answer_2": "Taylor Swift was 16 years old when she released 'Taylor Swift'"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Taylor Swift's debut album is titled 'Taylor Swift'\",\n  \"answer_2\": \"Taylor Swift was 16 years old when she released 'Taylor Swift'\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:05:13",
+    "intermediate_questions": [
+      "What is the title of Taylor Swift's debut album?",
+      "How old was Taylor Swift when she released '{answer_1}'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "5db90d97-9b5a-422b-a46a-ca401cfd2074",
+    "question": "can you tell me the name of the leading lady who starred in the film that won the best picture award at the 2007 oscars?",
+    "dsl_string": "answer_1: str = qa_model(\"What film won Best Picture at the 2007 Academy Awards?\")\nanswer_2: str = qa_model(\"Who was the leading lady in '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "Julie Christie",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "No Country for Old Men",
+      "answer_2": "Julie Christie"
+    },
+    "raw_response": "{\n  \"answer_1\": \"No Country for Old Men\",\n  \"answer_2\": \"Julie Christie\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:06:04",
+    "intermediate_questions": [
+      "What film won Best Picture at the 2007 Academy Awards?",
+      "Who was the leading lady in '{answer_1}'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "54f26611-03ad-4284-95dc-015c050946b8",
+    "question": "can you tell me the name of the actress who starred in the film that won the best picture oscar in 2018?",
+    "dsl_string": "answer_1: str = qa_model(\"Which film won the Best Picture Oscar in 2018?\")\nanswer_2: str = qa_model(\"Who is an actress who starred in '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "Sally Hawkins",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Shape of Water",
+      "answer_2": "Sally Hawkins"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The Shape of Water\",\n  \"answer_2\": \"Sally Hawkins\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:06:18",
+    "intermediate_questions": [
+      "Which film won the Best Picture Oscar in 2018?",
+      "Who is an actress who starred in '{answer_1}'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "cfc875b9-4cac-456b-a7a8-df23c9dab754",
+    "question": "who was the first actress and what year to play the role of catwoman in a live-action movie?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the first actress to play Catwoman in a live-action movie?\")\nanswer_2: str = qa_model(\"What year did {answer_1} play Catwoman in a live-action movie?\", answer_1=answer_1)",
+    "final_answer": "1992",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Michelle Pfeiffer",
+      "answer_2": "1992"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Michelle Pfeiffer\",\n  \"answer_2\": \"1992\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:06:26",
+    "intermediate_questions": [
+      "Who was the first actress to play Catwoman in a live-action movie?",
+      "In what year was the first live-action movie starring {answer_1} as Catwoman released?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "92e81984-b349-493a-b735-6b6e90cccb75",
+    "question": "what country is the company that developed fuga: melodies of steel 2 based in?",
+    "dsl_string": "answer_1: str = qa_model(\"Who developed Fuga: Melodies of Steel 2?\")\nanswer_2: str = qa_model(\"What country is {answer_1} based in?\", answer_1=answer_1)",
+    "final_answer": "Japan",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Spike Chunsoft",
+      "answer_2": "Japan"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Spike Chunsoft\",\n  \"answer_2\": \"Japan\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:06:32",
+    "intermediate_questions": [
+      "Who developed Fuga: Melodies of Steel 2?",
+      "What country is {answer_1} based in?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "e6fe70a3-61b9-4b6f-b953-9ec181806b7d",
+    "question": "can you tell me the name of the actress who starred in the film that won the best picture oscar in 1993?",
+    "dsl_string": "answer_1: str = qa_model(\"Which film won the Best Picture Oscar in 1993?\")\nanswer_2: str = qa_model(\"Who is an actress who starred in '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "Helena Bonham Carter",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Schindler's List",
+      "answer_2": "Helena Bonham Carter"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Schindler's List\",\n  \"answer_2\": \"Helena Bonham Carter\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:07:44",
+    "intermediate_questions": [
+      "Which film won the Best Picture Oscar in 1993?",
+      "Who is an actress who starred in '{answer_1}'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "6bafd51e-ba95-4f7f-b06f-4a1661f788a8",
+    "question": "when tom hanks won their first academy award for best actor, which film was recognized as the best picture?",
+    "dsl_string": "answer_1: str = qa_model(\"For which film did Tom Hanks win his first Academy Award for Best Actor?\")\nanswer_2: str = qa_model(\"Which film was recognized as the Best Picture the year that {answer_1} won Best Actor?\", answer_1=answer_1)",
+    "final_answer": "Forrest Gump",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1994",
+      "answer_2": "Forrest Gump"
+    },
+    "raw_response": "{\n  \"answer_1\": \"1994\",\n  \"answer_2\": \"Forrest Gump\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:08:34",
+    "intermediate_questions": [
+      "In what year did Tom Hanks win his first Academy Award for Best Actor?",
+      "Which film won Best Picture at the Academy Awards in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "e042412e-c4f6-4a2e-b8c2-e550cbb3a144",
+    "question": "who was the first actress to play the role of a female assassin in a live-action movie?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the first live-action movie to feature a female assassin?\")\nanswer_2: str = qa_model(\"Who played the female assassin in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Anne Parillaud",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "La Femme Nikita (1990)",
+      "answer_2": "Anne Parillaud"
+    },
+    "raw_response": "{\n  \"answer_1\": \"La Femme Nikita (1990)\",\n  \"answer_2\": \"Anne Parillaud\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:08:47",
+    "intermediate_questions": [
+      "What was the first live-action movie to feature a female assassin?",
+      "Who played the female assassin in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "fd3e847c-5742-46fd-be45-3a07189f226a",
+    "question": "who finished in second the year max verstappen won his first championship?",
+    "dsl_string": "answer_1: str = qa_model(\"When did Max Verstappen win his first Formula 1 World Championship?\")\nanswer_2: str = qa_model(\"Who finished second in the Formula 1 World Championship in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Lewis Hamilton",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2021-12-12",
+      "answer_2": "Lewis Hamilton"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2021-12-12\",\n  \"answer_2\": \"Lewis Hamilton\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:08:56",
+    "intermediate_questions": [
+      "When did Max Verstappen win his first Formula 1 World Championship?",
+      "Who finished second in the Formula 1 World Championship in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "758a8ddc-41d5-4175-a41c-c31fb1e1fc97",
+    "question": "how did the nasdaq composite index perform the year of the covid crash?",
+    "dsl_string": "answer_1: str = qa_model(\"What year was the COVID crash?\")\nanswer_2: str = qa_model(\"How did the Nasdaq Composite Index perform in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "-39%",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2020",
+      "answer_2": "-39%"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2020\",\n  \"answer_2\": \"-39%\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:10:38",
+    "intermediate_questions": [
+      "What year was the COVID crash?",
+      "How did the Nasdaq Composite Index perform in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "765b506f-a77a-406e-88ad-05a08b549b02",
+    "question": "what is the symbol of the constellation that includes altair?",
+    "dsl_string": "answer_1: str = qa_model(\"What constellation includes the star Altair?\")\nanswer_2: str = qa_model(\"What is the symbol of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "\u03b2 Aquilae",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Aquila",
+      "answer_2": "\u03b2 Aquilae"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Aquila\",\n  \"answer_2\": \"\\u03B2 Aquilae\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:11:08",
+    "intermediate_questions": [
+      "What constellation includes the star Altair?",
+      "What is the symbol of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "bdaa3dcc-1673-4425-9f11-a2e81bcd3e37",
+    "question": "can you tell me which country the artist who won the best new artist in 54th grammy (2011) was born?",
+    "dsl_string": "answer_1: str = qa_model(\"Who won Best New Artist at the 54th Grammy Awards?\")\nanswer_2: str = qa_model(\"Which country was {answer_1} born in?\", answer_1=answer_1)",
+    "final_answer": "United States",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Bon Iver",
+      "answer_2": "United States"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Bon Iver\",\n  \"answer_2\": \"United States\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:11:17",
+    "intermediate_questions": [
+      "Who won Best New Artist at the 54th Grammy Awards?",
+      "Which country was {answer_1} born in?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "7d02db15-45be-4168-99da-a5e0a48fbd9e",
+    "question": "what is the top artist in the most popular music genre in 2015?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the most popular music genre in 2015?\")\nanswer_2: str = qa_model(\"Who was the top artist in the {answer_1} genre in 2015?\", answer_1=answer_1)",
+    "final_answer": "Adele",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Pop",
+      "answer_2": "Adele"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Pop\",\n  \"answer_2\": \"Adele\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:12:01",
+    "intermediate_questions": [
+      "What was the most popular music genre in 2015?",
+      "Who was the top artist in the {answer_1} genre in 2015?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "67a1ef25-0e22-4224-a90e-f9fc9374a479",
+    "question": "at the time gary oldman won their first best actor oscar, which movie was honored with the best picture award?",
+    "dsl_string": "answer_1: str = qa_model(\"When did Gary Oldman win his first Best Actor Oscar?\")\nanswer_2: str = qa_model(\"Which movie won the Best Picture award in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Darkest Hour",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2018-02-24",
+      "answer_2": "Darkest Hour"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2018-02-24\",\n  \"answer_2\": \"Darkest Hour\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:12:53",
+    "intermediate_questions": [
+      "When did Gary Oldman win his first Best Actor Oscar?",
+      "Which movie won the Best Picture award in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "470ed1c7-8a71-4c0c-9be8-bb1fe82ce59f",
+    "question": "what is the elevation of the capital of ohio?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the capital of Ohio?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "170m",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Columbus",
+      "answer_2": "170m"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Columbus\",\n  \"answer_2\": \"170m\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:12:56",
+    "intermediate_questions": [
+      "What is the capital of Ohio?",
+      "What is the elevation of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "9db3fe70-c7e9-4f0d-bba7-647bb246df99",
+    "question": "at what age was michelle trachtenberg in her film debut?",
+    "dsl_string": "answer_1: str = qa_model(\"What was Michelle Trachtenberg's film debut?\")\nanswer_2: str = qa_model(\"How old was Michelle Trachtenberg when '{answer_1}' was released?\", answer_1=answer_1)",
+    "final_answer": "1996-06-28",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Harriet the Spy",
+      "answer_2": "1996-06-28"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Harriet the Spy\",\n  \"answer_2\": \"1996-06-28\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:13:33",
+    "intermediate_questions": [
+      "What was Michelle Trachtenberg's film debut?",
+      "How old was Michelle Trachtenberg when '{answer_1}' was released?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "21da19e6-56a8-439a-92ec-09d3af005ac6",
+    "question": "when did drake release his first album?",
+    "dsl_string": "answer_1: str = qa_model(\"What is Drake's first album?\")\nanswer_2: str = qa_model(\"When was '{answer_1}' released?\", answer_1=answer_1)",
+    "final_answer": "2001-06-27",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Room for Improvement",
+      "answer_2": "2001-06-27"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Room for Improvement\",\n  \"answer_2\": \"2001-06-27\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:14:08",
+    "intermediate_questions": [
+      "What is Drake's first album?",
+      "When was '{answer_1}' released?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "1b4e6ba6-f847-432b-a109-83b191589bc4",
+    "question": "who was head coach of the colts in peyton manning's rookie year?",
+    "dsl_string": "answer_1: str = qa_model(\"What year was Peyton Manning's rookie year in the NFL?\")\nanswer_2: str = qa_model(\"Who was the head coach of the Indianapolis Colts in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Tony Dungy",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2002",
+      "answer_2": "Tony Dungy"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2002\",\n  \"answer_2\": \"Tony Dungy\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:14:12",
+    "intermediate_questions": [
+      "What year was Peyton Manning's rookie year in the NFL?",
+      "Who was the head coach of the Indianapolis Colts in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "e1685144-072d-498c-a0bf-d2ca9ad939fa",
+    "question": "what is the first song on drake's second album?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the title of Drake's second album?\")\nanswer_2: str = qa_model(\"What is the first song on the album '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "Over My Dead Body",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Take Care",
+      "answer_2": "Over My Dead Body"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Take Care\",\n  \"answer_2\": \"Over My Dead Body\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:14:44",
+    "intermediate_questions": [
+      "What is the title of Drake's second album?",
+      "What is the first song on the album '{answer_1}'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "8b5b18ec-269d-4be9-8fcb-6eebacd3ddd2",
+    "question": "what school did the 2016 heisman trophy winner play for?",
+    "dsl_string": "answer_1: str = qa_model(\"Who won the Heisman Trophy in 2016?\")\nanswer_2: str = qa_model(\"What school did {answer_1} play for?\", answer_1=answer_1)",
+    "final_answer": "Alabama",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Derrick Henry",
+      "answer_2": "Alabama"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Derrick Henry\",\n  \"answer_2\": \"Alabama\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:15:07",
+    "intermediate_questions": [
+      "Who won the Heisman Trophy in 2016?",
+      "What school did {answer_1} play for?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "41dea43b-d187-4844-b33a-a46e3879dd96",
+    "question": "how many locations were filmed in the bourne movie released in 2004?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the title of the Bourne movie released in 2004?\")\nanswer_2: str = qa_model(\"How many filming locations were used for '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "Over 10",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Bourne Supremacy",
+      "answer_2": "Over 10"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The Bourne Supremacy\",\n  \"answer_2\": \"Over 10\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:15:18",
+    "intermediate_questions": [
+      "What is the title of the Bourne movie released in 2004?",
+      "How many filming locations were used for '{answer_1}'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "8895f09f-1ccf-49fe-9ab0-dbeabc3a2d54",
+    "question": "what country is prince harry's wife from?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is Prince Harry's wife?\")\nanswer_2: str = qa_model(\"What country is {answer_1} from?\", answer_1=answer_1)",
+    "final_answer": "United States",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Meghan Markle",
+      "answer_2": "United States"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Meghan Markle\",\n  \"answer_2\": \"United States\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:15:31",
+    "intermediate_questions": [
+      "Who is Prince Harry's wife?",
+      "What country is {answer_1} from?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "bc1da7f4-87e3-4f8d-9cf0-f48345f2aa8d",
+    "question": "can you tell me the name of the artist who won the award for song of the year in 49th grammy (2006)?",
+    "dsl_string": "answer_1: str = qa_model(\"What song won 'Song of the Year' at the 49th Grammy Awards?\")\nanswer_2: str = qa_model(\"Who is the artist of the song '{answer_1}'?\", answer_1=answer_1)",
+    "final_answer": "Adele",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Rolling In The Deep",
+      "answer_2": "Adele"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Rolling In The Deep\",\n  \"answer_2\": \"Adele\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-01 22:15:52",
+    "intermediate_questions": [
+      "What song won 'Song of the Year' at the 49th Grammy Awards?",
+      "Who is the artist of the song '{answer_1}'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "161a89f3-7a70-4e12-a1a2-7832e098b0a7",
+    "question": "where did the ceo of salesforce previously work?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the CEO of Salesforce?\")\nanswer_2: str = qa_model(\"Where did {answer_1} previously work?\", answer_1=answer_1)",
+    "final_answer": "Oracle Corporation",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Marc Benioff",
+      "answer_2": "Oracle Corporation"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Marc Benioff\",\n  \"answer_2\": \"Oracle Corporation\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:12",
+    "intermediate_questions": [
+      "Who is the CEO of Salesforce?",
+      "Where did {answer_1} previously work?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "c56ad40f-e035-4fe5-b4f6-d231d693096b",
+    "question": "what age did ferdinand magelan discovered the philippines",
+    "dsl_string": "answer_1: str = qa_model(\"When did Ferdinand Magellan discover the Philippines?\")\nanswer_2: str = qa_model(\"When was Ferdinand Magellan born?\")\nanswer_3: str = qa_model(\"What was Ferdinand Magellan's age on {answer_1}, given he was born on {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "-1",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Never discovered",
+      "answer_2": "1480-02-31",
+      "answer_3": "-1"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Never discovered\",\n  \"answer_2\": \"1480-02-31\",\n  \"answer_3\": \"-1\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:16",
+    "intermediate_questions": [
+      "When did Ferdinand Magellan discover the Philippines?",
+      "When was Ferdinand Magellan born?",
+      "What was Ferdinand Magellan's age on {answer_1}, given he was born on {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "cadf9a62-defd-46b2-9758-086bc16b864f",
+    "question": "how long is the longest route in the us?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the longest route in the US?\")\nanswer_2: str = qa_model(\"How long is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "3835 km",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "I-90",
+      "answer_2": "3835 km"
+    },
+    "raw_response": "{\n  \"answer_1\": \"I-90\",\n  \"answer_2\": \"3835 km\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:19",
+    "intermediate_questions": [
+      "What is the longest route in the US?",
+      "How long is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "1e5a1b84-cf20-4654-b12e-1a6806beb8d3",
+    "question": "how much total in sales did bob dylan's best selling album make?",
+    "dsl_string": "answer_1: str = qa_model(\"What is Bob Dylan's best-selling album?\")\nanswer_2: str = qa_model(\"How much total in sales did {answer_1} make?\", answer_1=answer_1)",
+    "final_answer": "Not available",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Blood on the Tracks",
+      "answer_2": "Not available"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Blood on the Tracks\",\n  \"answer_2\": \"Not available\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:37",
+    "intermediate_questions": [
+      "What is Bob Dylan's best-selling album?",
+      "How much total in sales did {answer_1} make?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "bcc88678-d327-4792-b6f5-bb7efc33e2c6",
+    "question": "if i were to visit the capital of hawaii, how high up would i be?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the capital of Hawaii?\")\nanswer_2: str = qa_model(\"What is the elevation of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "7m",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Honolulu",
+      "answer_2": "7m"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Honolulu\",\n  \"answer_2\": \"7m\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:43",
+    "intermediate_questions": [
+      "What is the capital of Hawaii?",
+      "What is the elevation of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "2b1f918b-4cf0-434a-97b7-85a520c98e08",
+    "question": "how big is the biggest state in the us?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the biggest state in the US?\")\nanswer_2: str = qa_model(\"How big is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "665_384 sq mi",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Alaska",
+      "answer_2": "665_384 sq mi"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Alaska\",\n  \"answer_2\": \"665_384 sq mi\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:45",
+    "intermediate_questions": [
+      "What is the biggest state in the US?",
+      "How big is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "6e9cf041-a792-4f98-b3b8-dc5e18211d96",
+    "question": "has emma thomas worked on any of her husband's films?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is Emma Thomas's husband?\")\nanswer_2: str = qa_model(\"Has Emma Thomas worked on any films directed by {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Yes",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Christopher Nolan",
+      "answer_2": "Yes"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Christopher Nolan\",\n  \"answer_2\": \"Yes\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:50",
+    "intermediate_questions": [
+      "Who is Emma Thomas's husband?",
+      "Has Emma Thomas worked on any films directed by {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "7533950c-b747-4a00-8ad5-e6482b0ea93f",
+    "question": "can you tell me the ticker symbol of the company that owns usa today?",
+    "dsl_string": "answer_1: str = qa_model(\"Who owns USA Today?\")\nanswer_2: str = qa_model(\"What is the ticker symbol of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "GCI",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Gannett Co., Inc.",
+      "answer_2": "GCI"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Gannett Co., Inc.\",\n  \"answer_2\": \"GCI\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:55",
+    "intermediate_questions": [
+      "Who owns USA Today?",
+      "What is the ticker symbol of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "d93b3615-3ef8-446f-a635-95b3b7ece245",
+    "question": "who was the coach of the team that won the ncaa men's basketball championship last year?",
+    "dsl_string": "answer_1: str = qa_model(\"Which team won the NCAA men's basketball championship last year?\")\nanswer_2: str = qa_model(\"Who was the coach of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Scott Drew",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Baylor Bears",
+      "answer_2": "Scott Drew"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Baylor Bears\",\n  \"answer_2\": \"Scott Drew\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:42:58",
+    "intermediate_questions": [
+      "Which team won the NCAA men's basketball championship last year?",
+      "Who was the coach of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "b331860d-d453-4dcc-9b00-9085621f9d25",
+    "question": "when did the current president of the us get married?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the current president of the US?\")\nanswer_2: str = qa_model(\"When did {answer_1} get married?\", answer_1=answer_1)",
+    "final_answer": "November 27, 1977",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Joe Biden",
+      "answer_2": "November 27, 1977"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Joe Biden\",\n  \"answer_2\": \"November 27, 1977\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:01",
+    "intermediate_questions": [
+      "Who is the current president of the US?",
+      "When did {answer_1} get married?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "0512b2a6-b900-4454-8613-512e65b1913e",
+    "question": "who was the top scorer in the women's world cup last year?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the year of the most recent Women's World Cup?\")\nanswer_2: str = qa_model(\"Who was the top scorer in the Women's World Cup {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Megan Rapinoe",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2019",
+      "answer_2": "Megan Rapinoe"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2019\",\n  \"answer_2\": \"Megan Rapinoe\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:05",
+    "intermediate_questions": [
+      "What was the year of the most recent Women's World Cup?",
+      "Who was the top scorer in the Women's World Cup {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "7d6ebd01-2364-461c-8086-68c83ff90966",
+    "question": "how long has the current president of the us been in power?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the current president of the US?\")\nanswer_2: str = qa_model(\"How long has {answer_1} been in power?\", answer_1=answer_1)",
+    "final_answer": "approximately 2 years",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Joe Biden",
+      "answer_2": "approximately 2 years"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Joe Biden\",\n  \"answer_2\": \"approximately 2 years\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:11",
+    "intermediate_questions": [
+      "Who is the current president of the US?",
+      "How long has {answer_1} been in power?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "612d6a91-f8a0-4935-ad7c-b9b09e959fcc",
+    "question": "what rating did the most popular comedy show of 2023 have on tomatometer?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the most popular comedy show of 2023?\")\nanswer_2: str = qa_model(\"What is the Tomatometer rating for {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Not available - Simulated value: 95%",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Office",
+      "answer_2": "Not available - Simulated value: 95%"
+    },
+    "raw_response": "To generate an accurate response, I would need access to data about future events which is currently unavailable. However, let me simulate a possible scenario for the year 2023.\n\nAssuming that \"The Office\" remains popular and a new season is released in 2023, we can use this show as an example.\n\n```json\n{\n  \"answer_1\": \"The Office\",\n  \"answer_2\": \"Not available - Simulated value: 95%\"\n}\n```",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:15",
+    "intermediate_questions": [
+      "What was the most popular comedy show of 2023?",
+      "What is the Tomatometer rating for {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "c47ece5d-49ba-4ee2-ba5e-cfee323dbec0",
+    "question": "who was the first actor to play the role of a comic book hero in a live-action movie?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the first live-action movie based on a comic book hero?\")\nanswer_2: str = qa_model(\"Who played the comic book hero in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The first live-action movie based on a comic book hero was 'Batman' released in 1943.",
+      "answer_2": ""
+    },
+    "raw_response": "{\n  \"answer_1\": \"The first live-action movie based on a comic book hero was 'Batman' released in 1943.\",\n  \"answer_2\": \"\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": false,
+    "timestamp": "2026-01-02 21:43:23",
+    "intermediate_questions": [
+      "What was the first live-action movie based on a comic book hero?",
+      "Who played the comic book hero in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "311910a7-bdee-4e4c-ab0b-d6cb61abb29d",
+    "question": "what is the abbreviation used to represent the company that owns the new york times in stock market listings?",
+    "dsl_string": "answer_1: str = qa_model(\"What company owns The New York Times?\")\nanswer_2: str = qa_model(\"What is the stock market abbreviation for {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "NYT",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The New York Times Company",
+      "answer_2": "NYT"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The New York Times Company\",\n  \"answer_2\": \"NYT\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:27",
+    "intermediate_questions": [
+      "What company owns The New York Times?",
+      "What is the stock market abbreviation for {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "950d7584-0b10-40d5-942a-1f23dc41e8b2",
+    "question": "what's the name of the female rapper who was a judge on the reality tv show \"american idol\" for one season?",
+    "dsl_string": "answer_1: str = qa_model(\"Which female rappers were judges on American Idol?\")\nanswer_2: str = qa_model(\"Which of {answer_1} was a judge on American Idol for only one season?\", answer_1=answer_1)",
+    "final_answer": "Nicki Minaj",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Nicki Minaj, Jennifer Lopez",
+      "answer_2": "Nicki Minaj"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Nicki Minaj, Jennifer Lopez\",\n  \"answer_2\": \"Nicki Minaj\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:30",
+    "intermediate_questions": [
+      "Which female rappers were judges on American Idol?",
+      "Which of {answer_1} was a judge on American Idol for only one season?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "6ca6fb54-7eea-4b6c-b63a-339bd8b4be4b",
+    "question": "where did the lead designer of yorick (programming language) receive his ph.d.?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the lead designer of Yorick (programming language)?\")\nanswer_2: str = qa_model(\"Where did {answer_1} receive his Ph.D.?\", answer_1=answer_1)",
+    "final_answer": "Unknown",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Unknown",
+      "answer_2": "Unknown"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Unknown\",\n  \"answer_2\": \"Unknown\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:35",
+    "intermediate_questions": [
+      "Who is the lead designer of Yorick (programming language)?",
+      "Where did {answer_1} receive his Ph.D.?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "1d055e31-4a1c-4a7d-9318-516b19259715",
+    "question": "which advertising company in the s&p 500 index has a separate chair/ceo?",
+    "dsl_string": "answer_1: str = qa_model(\"Which advertising companies are in the S&P 500 index?\")\nanswer_2: str = qa_model(\"Which company from {answer_1} has a separate chair and CEO?\", answer_1=answer_1)",
+    "final_answer": "Interpublic Group of Companies Inc.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Omnicom Group Inc.; Interpublic Group of Companies Inc.; WPP plc",
+      "answer_2": "Interpublic Group of Companies Inc."
+    },
+    "raw_response": "{\n  \"answer_1\": \"Omnicom Group Inc.; Interpublic Group of Companies Inc.; WPP plc\",\n  \"answer_2\": \"Interpublic Group of Companies Inc.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:38",
+    "intermediate_questions": [
+      "Which advertising companies are in the S&P 500 index?",
+      "Which company from {answer_1} has a separate chair and CEO?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "2d441210-7b4a-453c-a26d-b8d1625c5954",
+    "question": "where did the ceo of anthropic previously work?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the CEO of Anthropic?\")\nanswer_2: str = qa_model(\"Where did {answer_1} previously work?\", answer_1=answer_1)",
+    "final_answer": "MIT Media Lab",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Daniela Rus",
+      "answer_2": "MIT Media Lab"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Daniela Rus\",\n  \"answer_2\": \"MIT Media Lab\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:49",
+    "intermediate_questions": [
+      "Who is the CEO of Anthropic?",
+      "Where did {answer_1} previously work?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "8d8ad514-1d6f-486f-868c-24817537a92e",
+    "question": "which year did taylor swift release her first album?",
+    "dsl_string": "answer_1: str = qa_model(\"What is Taylor Swift's first album?\")\nanswer_2: str = qa_model(\"When was {answer_1} released?\", answer_1=answer_1)",
+    "final_answer": "2006-10-24",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Taylor Swift's first album is 'Taylor Swift'",
+      "answer_2": "2006-10-24"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Taylor Swift's first album is 'Taylor Swift'\",\n  \"answer_2\": \"2006-10-24\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:51",
+    "intermediate_questions": [
+      "What is Taylor Swift's first album?",
+      "When was {answer_1} released?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "318361f8-af94-4b0b-8017-c0f04ec1755c",
+    "question": "what company in the dow jones has the largest market capitalization?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the largest market capitalization among companies in the Dow Jones?\")\nanswer_2: str = qa_model(\"Which company in the Dow Jones has a market capitalization of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Apple Inc.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Apple Inc.",
+      "answer_2": "Apple Inc."
+    },
+    "raw_response": "{\n  \"answer_1\": \"Apple Inc.\",\n  \"answer_2\": \"Apple Inc.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:43:55",
+    "intermediate_questions": [
+      "What is the largest market capitalization among companies in the Dow Jones?",
+      "Which company in the Dow Jones has a market capitalization of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "d46aa330-1279-4dd8-959c-88f402757912",
+    "question": "what was the budget for the second bourne film?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the second Bourne film?\")\nanswer_2: str = qa_model(\"What was the budget for {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "10000000",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Bourne Supremacy",
+      "answer_2": "10000000"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The Bourne Supremacy\",\n  \"answer_2\": \"10000000\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:44:10",
+    "intermediate_questions": [
+      "What is the second Bourne film?",
+      "What was the budget for {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "3e6f239d-0354-4867-99ef-9542db6a83c8",
+    "question": "what team does the player who threw the most interceptions last year play for?",
+    "dsl_string": "answer_1: str = qa_model(\"Who threw the most interceptions last year?\")\nanswer_2: str = qa_model(\"What team does {answer_1} play for?\", answer_1=answer_1)",
+    "final_answer": "New York Giants",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Daniel Jones",
+      "answer_2": "New York Giants"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Daniel Jones\",\n  \"answer_2\": \"New York Giants\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:44:13",
+    "intermediate_questions": [
+      "Who threw the most interceptions last year?",
+      "What team does {answer_1} play for?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "255b57ed-6a4e-4bab-9bb7-b3e785f4dee3",
+    "question": "what's the name of the actress who played the role of a queen in the third season of the tv show \"the crown\"?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the queen portrayed in the third season of The Crown?\")\nanswer_2: str = qa_model(\"Who played {answer_1} in The Crown?\", answer_1=answer_1)",
+    "final_answer": "Olivia Colman",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Queen Elizabeth II",
+      "answer_2": "Olivia Colman"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Queen Elizabeth II\",\n  \"answer_2\": \"Olivia Colman\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:44:17",
+    "intermediate_questions": [
+      "Who was the queen portrayed in the third season of The Crown?",
+      "Who played {answer_1} in The Crown?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "4835d4a2-4f31-423b-9f82-4c879c7798ed",
+    "question": "who was the goalkeeper of the team that won the champions league final last year?",
+    "dsl_string": "answer_1: str = qa_model(\"Which team won the Champions League final last year?\")\nanswer_2: str = qa_model(\"Who was the goalkeeper for {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Edouard Mendy",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Chelsea FC",
+      "answer_2": "Edouard Mendy"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Chelsea FC\",\n  \"answer_2\": \"Edouard Mendy\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:44:21",
+    "intermediate_questions": [
+      "Which team won the Champions League final last year?",
+      "Who was the goalkeeper for {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "00283e38-b411-425f-ad12-b6de87e4dc45",
+    "question": "how old is the oldest currently working action movie actor?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the oldest currently working action movie actor?\")\nanswer_2: str = qa_model(\"How old is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "74",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Arnold Schwarzenegger",
+      "answer_2": "74"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Arnold Schwarzenegger\",\n  \"answer_2\": \"74\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:44:29",
+    "intermediate_questions": [
+      "Who is the oldest currently working action movie actor?",
+      "How old is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "1cba1106-7e25-4777-84eb-2a214493061b",
+    "question": "how many epl teams are based in london?",
+    "dsl_string": "answer_1: str = qa_model(\"Which EPL teams are based in London?\")\nanswer_2: str = qa_model(\"How many teams are in the list: {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "4",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Arsenal FC; Chelsea FC; Crystal Palace FC; Tottenham Hotspur FC",
+      "answer_2": "4"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Arsenal FC; Chelsea FC; Crystal Palace FC; Tottenham Hotspur FC\",\n  \"answer_2\": \"4\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:44:41",
+    "intermediate_questions": [
+      "Which EPL teams are based in London?",
+      "How many teams are in the list: {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "0531f5e7-d6ac-4c45-be32-5e530f83835b",
+    "question": "what's the most recent album from the founder of ysl records?",
+    "dsl_string": "answer_1: str = qa_model(\"Who founded YSL Records?\")\nanswer_2: str = qa_model(\"What is the most recent album by {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "As of my last training data, William S. Yale has not released any albums under YSL Records.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "William S. Yale",
+      "answer_2": "As of my last training data, William S. Yale has not released any albums under YSL Records."
+    },
+    "raw_response": "{\n  \"answer_1\": \"William S. Yale\",\n  \"answer_2\": \"As of my last training data, William S. Yale has not released any albums under YSL Records.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:44:54",
+    "intermediate_questions": [
+      "Who founded YSL Records?",
+      "What is the most recent album by {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "a019b11a-6b26-4f70-9d3f-20c46005bec6",
+    "question": "what were the box office numbers for martin scorsese's most recent movie?",
+    "dsl_string": "answer_1: str = qa_model(\"What is Martin Scorsese's most recent movie?\")\nanswer_2: str = qa_model(\"What were the box office numbers for {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Killers of the Flower Moon",
+      "answer_2": ""
+    },
+    "raw_response": "{\n  \"answer_1\": \"Killers of the Flower Moon\",\n  \"answer_2\": \"\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": false,
+    "timestamp": "2026-01-02 21:45:04",
+    "intermediate_questions": [
+      "What is Martin Scorsese's most recent movie?",
+      "What were the box office numbers for {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "47d14ce5-921b-47f3-bf8b-0c016c5c724b",
+    "question": "how many toys does andy have in the third toy story movie?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third Toy Story movie?\")\nanswer_2: str = qa_model(\"How many toys does Andy have in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Not specified",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Toy Story 3",
+      "answer_2": "Not specified"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Toy Story 3\",\n  \"answer_2\": \"Not specified\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:09",
+    "intermediate_questions": [
+      "What is the third Toy Story movie?",
+      "How many toys does Andy have in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "bd5325a3-6ba0-4088-a1a2-4a80ce096335",
+    "question": "who was the goalkeeper of the team that won the fifa world cup last year?",
+    "dsl_string": "answer_1: str = qa_model(\"Which team won the most recent FIFA World Cup?\")\nanswer_2: str = qa_model(\"Who was the goalkeeper of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Hugo Lloris",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "France",
+      "answer_2": "Hugo Lloris"
+    },
+    "raw_response": "{\n  \"answer_1\": \"France\",\n  \"answer_2\": \"Hugo Lloris\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:13",
+    "intermediate_questions": [
+      "Which team won the most recent FIFA World Cup?",
+      "Who was the goalkeeper of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "a8835443-a646-476e-8fd9-96fde9f58c10",
+    "question": "what's the name of the actress who played the role of a queen in the second season of the tv show \"the crown\"?",
+    "dsl_string": "answer_1: str = qa_model(\"Which queen was portrayed in the second season of the TV show \\\"The Crown\\\"?\")\nanswer_2: str = qa_model(\"Who played the role of {answer_1} in the TV show \\\"The Crown\\\"?\", answer_1=answer_1)",
+    "final_answer": "Olivia Colman",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Queen Elizabeth II",
+      "answer_2": "Olivia Colman"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Queen Elizabeth II\",\n  \"answer_2\": \"Olivia Colman\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:17",
+    "intermediate_questions": [
+      "Which queen was portrayed in the second season of the TV show \"The Crown\"?",
+      "Who played the role of {answer_1} in the TV show \"The Crown\"?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "c510db91-e1e8-4dac-a448-00bc12d60a33",
+    "question": "what is the name of the restaurant founded by the star of joe bell",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the star of Joe Bell?\")\nanswer_2: str = qa_model(\"What is the name of the restaurant founded by {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Wahlburgers",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Mark Wahlberg",
+      "answer_2": "Wahlburgers"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Mark Wahlberg\",\n  \"answer_2\": \"Wahlburgers\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:20",
+    "intermediate_questions": [
+      "Who is the star of Joe Bell?",
+      "What is the name of the restaurant founded by {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "135d26da-3a52-4207-ad86-8d270b510d5f",
+    "question": "what school does lebron james's youngest son attend?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is LeBron James's youngest son?\")\nanswer_2: str = qa_model(\"What school does {answer_1} attend?\", answer_1=answer_1)",
+    "final_answer": "Crossroads School",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Bryce Maximus James",
+      "answer_2": "Crossroads School"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Bryce Maximus James\",\n  \"answer_2\": \"Crossroads School\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:24",
+    "intermediate_questions": [
+      "Who is LeBron James's youngest son?",
+      "What school does {answer_1} attend?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "ba92e6b9-fcd3-4ff7-899a-fe59dbb2c8db",
+    "question": "what weight class is the ufc number one men's pound for pound fighter in?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the UFC number one men's pound for pound fighter?\")\nanswer_2: str = qa_model(\"What weight class is {answer_1} in?\", answer_1=answer_1)",
+    "final_answer": "Featherweight",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Alexander Volkanovski",
+      "answer_2": "Featherweight"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Alexander Volkanovski\",\n  \"answer_2\": \"Featherweight\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:29",
+    "intermediate_questions": [
+      "Who is the UFC number one men's pound for pound fighter?",
+      "What weight class is {answer_1} in?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "a56ec940-8c51-4a21-b1aa-adb8eaf6bb75",
+    "question": "what's the name of the actress who played the lead female character in the tv show \"the big bang theory\"?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the lead female character in the TV show The Big Bang Theory?\")\nanswer_2: str = qa_model(\"Who played {answer_1} in The Big Bang Theory?\", answer_1=answer_1)",
+    "final_answer": "Kaley Cuoco",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Penny",
+      "answer_2": "Kaley Cuoco"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Penny\",\n  \"answer_2\": \"Kaley Cuoco\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:32",
+    "intermediate_questions": [
+      "Who is the lead female character in the TV show The Big Bang Theory?",
+      "Who played {answer_1} in The Big Bang Theory?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "144df9a3-9bf8-49b0-8de2-680ee8f8ffef",
+    "question": "how many people live in the smallest city of finland?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the smallest city in Finland?\")\nanswer_2: str = qa_model(\"How many people live in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "58,000",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Kotka",
+      "answer_2": "58,000"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Kotka\",\n  \"answer_2\": \"58,000\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:35",
+    "intermediate_questions": [
+      "What is the smallest city in Finland?",
+      "How many people live in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "781cbbb6-1050-46d6-8aae-7ded2c939ba6",
+    "question": "how many people live in the biggest city of russia?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the biggest city in Russia?\")\nanswer_2: str = qa_model(\"How many people live in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "12693700",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Moscow",
+      "answer_2": "12693700"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Moscow\",\n  \"answer_2\": \"12693700\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:39",
+    "intermediate_questions": [
+      "What is the biggest city in Russia?",
+      "How many people live in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "59029c73-beb6-4770-9814-355491d73320",
+    "question": "what sport did the ufc heavyweight champion's brother play?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the current UFC heavyweight champion?\")\nanswer_2: str = qa_model(\"Who is the brother of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What sport did {answer_2} play?\", answer_2=answer_2)",
+    "final_answer": "Tennis",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Francis Ngannou",
+      "answer_2": "Jacques Ngannou",
+      "answer_3": "Tennis"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Francis Ngannou\",\n  \"answer_2\": \"Jacques Ngannou\",\n  \"answer_3\": \"Tennis\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:42",
+    "intermediate_questions": [
+      "Who is the current UFC heavyweight champion?",
+      "Who is the brother of {answer_1}?",
+      "What sport did {answer_2} play?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "5110a6f8-ccbc-4814-9dde-c9aaf903a41f",
+    "question": "how many people watched the last episode of friends?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the last episode of Friends?\")\nanswer_2: str = qa_model(\"How many people watched {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "52.5 million viewers",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Last One",
+      "answer_2": "52.5 million viewers"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The Last One\",\n  \"answer_2\": \"52.5 million viewers\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:46",
+    "intermediate_questions": [
+      "What is the last episode of Friends?",
+      "How many people watched {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "d52db8c5-663a-469c-a470-e6d524e2b3dd",
+    "question": "who was the coach of the team that won the stanley cup last season?",
+    "dsl_string": "answer_1: str = qa_model(\"Which team won the Stanley Cup last season?\")\nanswer_2: str = qa_model(\"Who was the coach of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Jared Bednar",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Colorado Avalanche",
+      "answer_2": "Jared Bednar"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Colorado Avalanche\",\n  \"answer_2\": \"Jared Bednar\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:51",
+    "intermediate_questions": [
+      "Which team won the Stanley Cup last season?",
+      "Who was the coach of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "af5e9fc5-7db0-495e-96eb-8795107cf84f",
+    "question": "what was dana ashbrook's age when he/she made an appearance in the aggression scale?",
+    "dsl_string": "answer_1: str = qa_model(\"What is Dana Ashbrook's birth date?\")\nanswer_2: str = qa_model(\"What is the release date of The Aggression Scale?\")\nanswer_3: str = qa_model(\"What was the age of a person born on {answer_1} when The Aggression Scale was released on {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "41",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1965-08-13",
+      "answer_2": "2006-09-22",
+      "answer_3": "41"
+    },
+    "raw_response": "{\n  \"answer_1\": \"1965-08-13\",\n  \"answer_2\": \"2006-09-22\",\n  \"answer_3\": \"41\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:45:57",
+    "intermediate_questions": [
+      "What is Dana Ashbrook's birth date?",
+      "What is the release date of The Aggression Scale?",
+      "What was the age of a person born on {answer_1} when The Aggression Scale was released on {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "b2541d0d-d31c-4ecb-8b79-2c1acbc056ac",
+    "question": "what companies that have reached $1 trillion market cap were founded after 2000?",
+    "dsl_string": "answer_1: str = qa_model(\"Which companies have reached a $1 trillion market cap?\")\nanswer_2: str = qa_model(\"Which of {answer_1} were founded after 2000?\", answer_1=answer_1)",
+    "final_answer": "Apple Inc.; Saudi Aramco; Amazon.com Inc.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Apple Inc.; Saudi Aramco; Microsoft Corporation; Amazon.com Inc.",
+      "answer_2": "Apple Inc.; Saudi Aramco; Amazon.com Inc."
+    },
+    "raw_response": "{\n  \"answer_1\": \"Apple Inc.; Saudi Aramco; Microsoft Corporation; Amazon.com Inc.\",\n  \"answer_2\": \"Apple Inc.; Saudi Aramco; Amazon.com Inc.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:00",
+    "intermediate_questions": [
+      "Which companies have reached a $1 trillion market cap?",
+      "Which of {answer_1} were founded after 2000?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "db078969-dcfd-4bd3-8d07-ee8ceceebafd",
+    "question": "what is the shortest highway in the us in feet?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the shortest highway in the US?\")\nanswer_2: str = qa_model(\"What is the length of {answer_1} in feet?\", answer_1=answer_1)",
+    "final_answer": "2,448,180",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "US Route 66",
+      "answer_2": "2,448,180"
+    },
+    "raw_response": "{\n  \"answer_1\": \"US Route 66\",\n  \"answer_2\": \"2,448,180\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:08",
+    "intermediate_questions": [
+      "What is the shortest highway in the US?",
+      "What is the length of {answer_1} in feet?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "66337316-94d9-49c2-b09e-8ea5f29a9925",
+    "question": "what country does the company behind spider-man 2 (2023 video game) call home?",
+    "dsl_string": "answer_1: str = qa_model(\"Who developed Spider-Man 2 (2023 video game)?\")\nanswer_2: str = qa_model(\"What country is {answer_1} based in?\", answer_1=answer_1)",
+    "final_answer": "Insufficient data",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Insufficient data",
+      "answer_2": "Insufficient data"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Insufficient data\",\n  \"answer_2\": \"Insufficient data\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:15",
+    "intermediate_questions": [
+      "Who developed Spider-Man 2 (2023 video game)?",
+      "What country is {answer_1} based in?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "280d60d1-f2be-4895-ae73-29461c8f1b35",
+    "question": "who is the starting small forward for the team that is currently number one in the nba's eastern conference?",
+    "dsl_string": "answer_1: str = qa_model(\"Which team is currently number one in the NBA's Eastern Conference?\")\nanswer_2: str = qa_model(\"Who is the starting small forward for {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Khris Middleton",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Milwaukee Bucks",
+      "answer_2": "Khris Middleton"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Milwaukee Bucks\",\n  \"answer_2\": \"Khris Middleton\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:18",
+    "intermediate_questions": [
+      "Which team is currently number one in the NBA's Eastern Conference?",
+      "Who is the starting small forward for {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "e554740c-201a-4280-a644-d43523a97103",
+    "question": "where does amen thompson's brother play?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is Amen Thompson's brother?\")\nanswer_2: str = qa_model(\"Where does {answer_1} play?\", answer_1=answer_1)",
+    "final_answer": "University of Texas at Austin",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Christopher Thompson",
+      "answer_2": "University of Texas at Austin"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Christopher Thompson\",\n  \"answer_2\": \"University of Texas at Austin\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:21",
+    "intermediate_questions": [
+      "Who is Amen Thompson's brother?",
+      "Where does {answer_1} play?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "f47c840a-24db-4463-8746-92bfed093c57",
+    "question": "in which country is the company that developed robocop: rogue city located?",
+    "dsl_string": "answer_1: str = qa_model(\"Who developed RoboCop: Rogue City?\")\nanswer_2: str = qa_model(\"In which country is {answer_1} located?\", answer_1=answer_1)",
+    "final_answer": "United States",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "MGM Television",
+      "answer_2": "United States"
+    },
+    "raw_response": "{\n  \"answer_1\": \"MGM Television\",\n  \"answer_2\": \"United States\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:23",
+    "intermediate_questions": [
+      "Who developed RoboCop: Rogue City?",
+      "In which country is {answer_1} located?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "6ed9dc10-0df5-4e16-b0df-e11967edb740",
+    "question": "how old is the current ceo of microsoft?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the current CEO of Microsoft?\")\nanswer_2: str = qa_model(\"How old is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "55",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Satya Nadella",
+      "answer_2": "55"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Satya Nadella\",\n  \"answer_2\": \"55\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:25",
+    "intermediate_questions": [
+      "Who is the current CEO of Microsoft?",
+      "How old is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "60084fd7-1889-4194-aab9-38ad898dfcf3",
+    "question": "how much will the starting quarterback of the cowboys earn this year?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the starting quarterback of the Cowboys?\")\nanswer_2: str = qa_model(\"How much will {answer_1} earn this year?\", answer_1=answer_1)",
+    "final_answer": "Not available",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Dak Prescott",
+      "answer_2": "Not available"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Dak Prescott\",\n  \"answer_2\": \"Not available\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:28",
+    "intermediate_questions": [
+      "Who is the starting quarterback of the Cowboys?",
+      "How much will {answer_1} earn this year?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "9a7a3f00-42e0-4bc8-a73c-5deaa559f132",
+    "question": "what age did taylor swift release her first album?",
+    "dsl_string": "answer_1: str = qa_model(\"What is Taylor Swift's first album?\")\nanswer_2: str = qa_model(\"What age did Taylor Swift release {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Taylor Swift released 'Taylor Swift' at the age of 16",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Taylor Swift's first album is 'Taylor Swift'",
+      "answer_2": "Taylor Swift released 'Taylor Swift' at the age of 16"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Taylor Swift's first album is 'Taylor Swift'\",\n  \"answer_2\": \"Taylor Swift released 'Taylor Swift' at the age of 16\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:34",
+    "intermediate_questions": [
+      "What is Taylor Swift's first album?",
+      "What age did Taylor Swift release {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "ae615559-8a96-4b42-84ce-72f2669a1268",
+    "question": "how many spouses did the latest president of the united states have?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the latest president of the United States?\")\nanswer_2: str = qa_model(\"How many spouses did {answer_1} have?\", answer_1=answer_1)",
+    "final_answer": "2",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Joe Biden",
+      "answer_2": "2"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Joe Biden\",\n  \"answer_2\": \"2\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:36",
+    "intermediate_questions": [
+      "Who is the latest president of the United States?",
+      "How many spouses did {answer_1} have?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "df4e57f0-519e-4ce2-81c2-144985cf1a7b",
+    "question": "when was meta's most recent vr headset released?",
+    "dsl_string": "answer_1: str = qa_model(\"What is Meta's most recent VR headset?\")\nanswer_2: str = qa_model(\"When was {answer_1} released?\", answer_1=answer_1)",
+    "final_answer": "2020-10-13",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Oculus Quest 2",
+      "answer_2": "2020-10-13"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Oculus Quest 2\",\n  \"answer_2\": \"2020-10-13\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:38",
+    "intermediate_questions": [
+      "What is Meta's most recent VR headset?",
+      "When was {answer_1} released?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "90d5a2d9-2973-4e6b-affe-76af6c7d943e",
+    "question": "what's the most recent album from the puerto rican artist that's been in wwe?",
+    "dsl_string": "answer_1: str = qa_model(\"Which Puerto Rican artist has been in WWE?\")\nanswer_2: str = qa_model(\"What is the most recent album by {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "El \u00daltimo Tour Del Mundo",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Bad Bunny",
+      "answer_2": "El \u00daltimo Tour Del Mundo"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Bad Bunny\",\n  \"answer_2\": \"El \u00daltimo Tour Del Mundo\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:43",
+    "intermediate_questions": [
+      "Which Puerto Rican artist has been in WWE?",
+      "What is the most recent album by {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "8dd9f5f9-3272-485f-b840-453b52996b64",
+    "question": "how many months did it take to release the first toy story movie?",
+    "dsl_string": "answer_1: str = qa_model(\"When was the first Toy Story movie released?\")\nanswer_2: str = qa_model(\"When did production begin for the first Toy Story movie?\")\nanswer_3: str = qa_model(\"How many months are between {answer_2} and {answer_1}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "7",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "1995-11-22",
+      "answer_2": "1995-05",
+      "answer_3": "7"
+    },
+    "raw_response": "{\n  \"answer_1\": \"1995-11-22\",\n  \"answer_2\": \"1995-05\",\n  \"answer_3\": \"7\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:50",
+    "intermediate_questions": [
+      "When was the first Toy Story movie released?",
+      "When did production begin for the first Toy Story movie?",
+      "How many months are between {answer_2} and {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "2faf3308-8d49-4cf8-b0c0-f5fdeac0f860",
+    "question": "how old is dave franco's oldest brother?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is Dave Franco's oldest brother?\")\nanswer_2: str = qa_model(\"How old is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "44",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "James Franco",
+      "answer_2": "44"
+    },
+    "raw_response": "{\n  \"answer_1\": \"James Franco\",\n  \"answer_2\": \"44\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:46:55",
+    "intermediate_questions": [
+      "Who is Dave Franco's oldest brother?",
+      "How old is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "c5f6d097-614c-4c10-ae8c-19cbfd82d6ec",
+    "question": "how much does the largest bank in north america have in assets?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the largest bank in North America?\")\nanswer_2: str = qa_model(\"How much assets does {answer_1} have?\", answer_1=answer_1)",
+    "final_answer": "3.3 trillion USD",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Bank of America",
+      "answer_2": "3.3 trillion USD"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Bank of America\",\n  \"answer_2\": \"3.3 trillion USD\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:02",
+    "intermediate_questions": [
+      "What is the largest bank in North America?",
+      "How much assets does {answer_1} have?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "237856fa-4701-4452-a124-bf86a52a1e1b",
+    "question": "what is the country of the winner of the 48th grammy award (2005) for best new artist?",
+    "dsl_string": "answer_1: str = qa_model(\"Who won the 48th Grammy Award (2005) for Best New Artist?\")\nanswer_2: str = qa_model(\"What is the country of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "United States",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Maroon 5",
+      "answer_2": "United States"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Maroon 5\",\n  \"answer_2\": \"United States\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:06",
+    "intermediate_questions": [
+      "Who won the 48th Grammy Award (2005) for Best New Artist?",
+      "What is the country of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "773c77c5-0739-48e7-a85b-48e8653060f4",
+    "question": "at what age did steven spielberg direct their first movie?",
+    "dsl_string": "answer_1: str = qa_model(\"What was Steven Spielberg's first movie?\")\nanswer_2: str = qa_model(\"At what age did Steven Spielberg direct {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "22",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Amblin",
+      "answer_2": "22"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Amblin\",\n  \"answer_2\": \"22\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:10",
+    "intermediate_questions": [
+      "What was Steven Spielberg's first movie?",
+      "At what age did Steven Spielberg direct {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "158e20f9-c28b-4aa0-b2b3-c961607905c6",
+    "question": "what is the symbol of the constellation that includes sirius?",
+    "dsl_string": "answer_1: str = qa_model(\"What constellation includes Sirius?\")\nanswer_2: str = qa_model(\"What is the symbol of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "\u264b",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Canis Major",
+      "answer_2": "\u264b"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Canis Major\",\n  \"answer_2\": \"\u264b\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:13",
+    "intermediate_questions": [
+      "What constellation includes Sirius?",
+      "What is the symbol of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "0c373f48-2891-41c0-96f2-c91bf2757c89",
+    "question": "when did robert john \"mutt\" lange's third wife release her album come on over?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is Robert John \\\"Mutt\\\" Lange's third wife?\")\nanswer_2: str = qa_model(\"When did {answer_1} release the album Come On Over?\", answer_1=answer_1)",
+    "final_answer": "1996-10-01",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Annie Lennox",
+      "answer_2": "1996-10-01"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Annie Lennox\",\n  \"answer_2\": \"1996-10-01\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:16",
+    "intermediate_questions": [
+      "Who is Robert John \"Mutt\" Lange's third wife?",
+      "When did {answer_1} release the album Come On Over?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "543f4168-8769-4b6d-a595-46cd925a89d2",
+    "question": "what was the album released by the duo that skrillex formed with diplo?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the name of the duo formed by Skrillex and Diplo?\")\nanswer_2: str = qa_model(\"What album was released by {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Skrillex and Diplo Present Jack \u00dc",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Jack \u00dc",
+      "answer_2": "Skrillex and Diplo Present Jack \u00dc"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Jack \u00dc\",\n  \"answer_2\": \"Skrillex and Diplo Present Jack \u00dc\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:22",
+    "intermediate_questions": [
+      "What is the name of the duo formed by Skrillex and Diplo?",
+      "What album was released by {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "84320b26-e6da-489e-890f-20cc5f77978d",
+    "question": "which city is the most popular tourist attraction of texas located?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most popular tourist attraction in Texas?\")\nanswer_2: str = qa_model(\"Which city is {answer_1} located in?\", answer_1=answer_1)",
+    "final_answer": "San Antonio",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Alamo Mission",
+      "answer_2": "San Antonio"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Alamo Mission\",\n  \"answer_2\": \"San Antonio\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:25",
+    "intermediate_questions": [
+      "What is the most popular tourist attraction in Texas?",
+      "Which city is {answer_1} located in?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "27f2284d-0d87-46c6-a0a1-e46135a3fc67",
+    "question": "when did the most expensive action movie come out?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the most expensive action movie?\")\nanswer_2: str = qa_model(\"When did {answer_1} come out?\", answer_1=answer_1)",
+    "final_answer": "2009-12-18",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Avatar (2009)",
+      "answer_2": "2009-12-18"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Avatar (2009)\",\n  \"answer_2\": \"2009-12-18\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:28",
+    "intermediate_questions": [
+      "What is the most expensive action movie?",
+      "When did {answer_1} come out?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "fb551cef-4ae6-47ba-89fd-6f5601f05de7",
+    "question": "what's the name of the actress who played the role of queen in the fifth and sixth seasons of the show tv show \"the crown\"?",
+    "dsl_string": "answer_1: str = qa_model(\"What character is referred to as 'the queen' in the TV show 'The Crown'?\")\nanswer_2: str = qa_model(\"Who played {answer_1} in seasons 5 and 6 of 'The Crown'?\", answer_1=answer_1)",
+    "final_answer": "Imelda Staunton",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Elizabeth II",
+      "answer_2": "Imelda Staunton"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Elizabeth II\",\n  \"answer_2\": \"Imelda Staunton\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:41",
+    "intermediate_questions": [
+      "What character is referred to as 'the queen' in the TV show 'The Crown'?",
+      "Who played {answer_1} in seasons 5 and 6 of 'The Crown'?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "c2405ead-68ed-4e4e-8ae9-9f1875aa7be7",
+    "question": "what other songs did the artist release in the same year as save me?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the artist of the song Save Me?\")\nanswer_2: str = qa_model(\"What year was the song Save Me released?\")\nanswer_3: str = qa_model(\"What other songs did {answer_1} release in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "Shape of You; Castle On The Hill; Perfect",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Ed Sheeran",
+      "answer_2": "2017",
+      "answer_3": "Shape of You; Castle On The Hill; Perfect"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Ed Sheeran\",\n  \"answer_2\": \"2017\",\n  \"answer_3\": \"Shape of You; Castle On The Hill; Perfect\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:45",
+    "intermediate_questions": [
+      "Who is the artist of the song Save Me?",
+      "What year was the song Save Me released?",
+      "What other songs did {answer_1} release in {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "bbf02810-d397-43c2-a183-35db46c034f8",
+    "question": "who is the american singer-songwriter who has won 1 grammy award and is known for her unique blend of folk, rock, and pop music, including her hit songs \"baby one more time\" and \"oops!... i did it again\"?",
+    "dsl_string": "answer_1: str = qa_model(\"Who sang the songs 'Baby One More Time' and 'Oops!... I Did It Again'?\")\nanswer_2: str = qa_model(\"Who is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Britney Jean Spears",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Britney Spears",
+      "answer_2": "Britney Jean Spears"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Britney Spears\",\n  \"answer_2\": \"Britney Jean Spears\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:49",
+    "intermediate_questions": [
+      "Who sang the songs 'Baby One More Time' and 'Oops!... I Did It Again'?",
+      "Who is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "1ce7a4c7-d538-45c6-bd06-261021515159",
+    "question": "what's the name of the actress who played the role of maleficent's daughter in the movie \"maleficent\"?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the name of Maleficent's daughter in the movie Maleficent?\")\nanswer_2: str = qa_model(\"Who played {answer_1} in the movie Maleficent?\", answer_1=answer_1)",
+    "final_answer": "Elle Fanning",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Lorde",
+      "answer_2": "Elle Fanning"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Lorde\",\n  \"answer_2\": \"Elle Fanning\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:52",
+    "intermediate_questions": [
+      "What is the name of Maleficent's daughter in the movie Maleficent?",
+      "Who played {answer_1} in the movie Maleficent?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "f05d362c-0073-4842-8efb-cd12ca229ab9",
+    "question": "what's the symnol of the constellation that contains iota pegasi?",
+    "dsl_string": "answer_1: str = qa_model(\"What constellation contains iota pegasi?\")\nanswer_2: str = qa_model(\"What is the symbol of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "\u03b7 Equ",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Equuleus",
+      "answer_2": "\u03b7 Equ"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Equuleus\",\n  \"answer_2\": \"\\u03B7 Equ\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:47:58",
+    "intermediate_questions": [
+      "What constellation contains iota pegasi?",
+      "What is the symbol of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "7218f2f9-fc44-4ead-bf4d-00acc20aa5d6",
+    "question": "what is the revenue of frito-lay's parent company?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the parent company of Frito-Lay?\")\nanswer_2: str = qa_model(\"What is the revenue of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Revenue data not available for specific dates.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "PepsiCo",
+      "answer_2": "Revenue data not available for specific dates."
+    },
+    "raw_response": "{\n  \"answer_1\": \"PepsiCo\",\n  \"answer_2\": \"Revenue data not available for specific dates.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:01",
+    "intermediate_questions": [
+      "Who is the parent company of Frito-Lay?",
+      "What is the revenue of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "ef2ddee1-2f4c-4ea3-8e5c-75f5fe53fcd4",
+    "question": "what is the abbr of the us state that is least populated?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the least populated US state?\")\nanswer_2: str = qa_model(\"What is the abbreviation of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "WY",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Wyoming",
+      "answer_2": "WY"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Wyoming\",\n  \"answer_2\": \"WY\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:07",
+    "intermediate_questions": [
+      "What is the least populated US state?",
+      "What is the abbreviation of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "d1cc84a1-4b8e-4f64-ab0e-c0aa0a93cae2",
+    "question": "what sport does pau gasol's brother play?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is Pau Gasol's brother?\")\nanswer_2: str = qa_model(\"What sport does {answer_1} play?\", answer_1=answer_1)",
+    "final_answer": "Basketball",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Marc Gasol",
+      "answer_2": "Basketball"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Marc Gasol\",\n  \"answer_2\": \"Basketball\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:11",
+    "intermediate_questions": [
+      "Who is Pau Gasol's brother?",
+      "What sport does {answer_1} play?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "5a55dd6b-371b-4daa-a2a2-7df503885d21",
+    "question": "how far did last year's west coast conference champion go in the postseason?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the West Coast Conference champion last year?\")\nanswer_2: str = qa_model(\"How far did {answer_1} go in the postseason?\", answer_1=answer_1)",
+    "final_answer": "",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The West Coast Conference champion last year cannot be determined from the provided context.",
+      "answer_2": ""
+    },
+    "raw_response": "{\n  \"answer_1\": \"The West Coast Conference champion last year cannot be determined from the provided context.\",\n  \"answer_2\": \"\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": false,
+    "timestamp": "2026-01-02 21:48:15",
+    "intermediate_questions": [
+      "Who was the West Coast Conference champion last year?",
+      "How far did {answer_1} go in the postseason?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "8c64872e-3f00-4ced-81be-4cbd7ffcf887",
+    "question": "what was the singer of the song that won song of the year in the 59th grammy (2016)?",
+    "dsl_string": "answer_1: str = qa_model(\"What song won Song of the Year at the 59th Grammy Awards?\")\nanswer_2: str = qa_model(\"Who sang {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Adele",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Hello",
+      "answer_2": "Adele"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Hello\",\n  \"answer_2\": \"Adele\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:23",
+    "intermediate_questions": [
+      "What song won Song of the Year at the 59th Grammy Awards?",
+      "Who sang {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "9268525a-80e3-4b64-8f9c-94711f7b7711",
+    "question": "how many people live in the smallest state in the us by area?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the smallest state in the US by area?\")\nanswer_2: str = qa_model(\"How many people live in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "1,095,672",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Rhode Island",
+      "answer_2": "1,095,672"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Rhode Island\",\n  \"answer_2\": \"1,095,672\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:27",
+    "intermediate_questions": [
+      "What is the smallest state in the US by area?",
+      "How many people live in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "e9751dcf-72ec-434f-9ca8-30a0a72da8fc",
+    "question": "how old is the current president of the us?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is the current president of the US?\")\nanswer_2: str = qa_model(\"How old is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "79",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Joe Biden",
+      "answer_2": "79"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Joe Biden\",\n  \"answer_2\": \"79\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:29",
+    "intermediate_questions": [
+      "Who is the current president of the US?",
+      "How old is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "4ebbb760-c5ae-4307-9764-567a357f4cc1",
+    "question": "who is the first actress to play the bond girl?",
+    "dsl_string": "answer_1: str = qa_model(\"Who was the first Bond girl?\")\nanswer_2: str = qa_model(\"Who played {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Ursula Andress",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Honey Ryder",
+      "answer_2": "Ursula Andress"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Honey Ryder\",\n  \"answer_2\": \"Ursula Andress\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:32",
+    "intermediate_questions": [
+      "Who was the first Bond girl?",
+      "Who played {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "fde0f884-56cb-47c6-a15a-056eb02cfa4b",
+    "question": "when did drake release their most popular album?",
+    "dsl_string": "answer_1: str = qa_model(\"What is Drake's most popular album?\")\nanswer_2: str = qa_model(\"When was {answer_1} released?\", answer_1=answer_1)",
+    "final_answer": "2016-04-29",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Views",
+      "answer_2": "2016-04-29"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Views\",\n  \"answer_2\": \"2016-04-29\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:34",
+    "intermediate_questions": [
+      "What is Drake's most popular album?",
+      "When was {answer_1} released?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "74519fa3-a8d1-4602-86a0-30f98ebb1ed6",
+    "question": "when did will smith's daughter first release music?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is Will Smith's daughter?\")\nanswer_2: str = qa_model(\"When did {answer_1} first release music?\", answer_1=answer_1)",
+    "final_answer": "2010-06-14",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Willow Smith",
+      "answer_2": "2010-06-14"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Willow Smith\",\n  \"answer_2\": \"2010-06-14\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:43",
+    "intermediate_questions": [
+      "Who is Will Smith's daughter?",
+      "When did {answer_1} first release music?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "7f73d8aa-585c-4484-900a-0fda6e52cf83",
+    "question": "how deep is the deepest lake of new york?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the deepest lake in New York?\")\nanswer_2: str = qa_model(\"How deep is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "289m",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Lake Ontario",
+      "answer_2": "289m"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Lake Ontario\",\n  \"answer_2\": \"289m\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:46",
+    "intermediate_questions": [
+      "What is the deepest lake in New York?",
+      "How deep is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "cde46ece-83a5-41d3-a3a9-df4bf5ef7f64",
+    "question": "what was the lakers' record the year kobe bryant won mvp?",
+    "dsl_string": "answer_1: str = qa_model(\"What year did Kobe Bryant win MVP?\")\nanswer_2: str = qa_model(\"What was the Lakers' record in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "65-17",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2008",
+      "answer_2": "65-17"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2008\",\n  \"answer_2\": \"65-17\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:50",
+    "intermediate_questions": [
+      "What year did Kobe Bryant win MVP?",
+      "What was the Lakers' record in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "06f24bd1-de46-4a8e-8ea1-0ba8705c232a",
+    "question": "who was the first actress to play the role of wonder woman in a live-action movie?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the first live-action movie featuring Wonder Woman?\")\nanswer_2: str = qa_model(\"Who played Wonder Woman in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Gal Gadot",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Wonder Woman (2017)",
+      "answer_2": "Gal Gadot"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Wonder Woman (2017)\",\n  \"answer_2\": \"Gal Gadot\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:52",
+    "intermediate_questions": [
+      "What was the first live-action movie featuring Wonder Woman?",
+      "Who played Wonder Woman in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "8d9fadb7-3466-403d-85a5-a191ec22f69a",
+    "question": "who is the main actor for the movie that has won the most bafta awards?",
+    "dsl_string": "answer_1: str = qa_model(\"Which movie has won the most BAFTA awards?\")\nanswer_2: str = qa_model(\"Who is the main actor in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Elijah Wood",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Lord of the Rings: The Return of the King",
+      "answer_2": "Elijah Wood"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The Lord of the Rings: The Return of the King\",\n  \"answer_2\": \"Elijah Wood\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:48:56",
+    "intermediate_questions": [
+      "Which movie has won the most BAFTA awards?",
+      "Who is the main actor in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "adabdcb6-3d4d-4dac-93f7-d54bdb5dccf2",
+    "question": "who was the coach of the team that won the nba championship last season?",
+    "dsl_string": "answer_1: str = qa_model(\"Which team won the NBA championship last season?\")\nanswer_2: str = qa_model(\"Who was the coach of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Mike Budenholzer",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Milwaukee Bucks",
+      "answer_2": "Mike Budenholzer"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Milwaukee Bucks\",\n  \"answer_2\": \"Mike Budenholzer\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:49:12",
+    "intermediate_questions": [
+      "Which team won the NBA championship last season?",
+      "Who was the coach of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "9a9bc150-cf7e-4786-ba58-65eb325780c3",
+    "question": "how small is the smallest state in the us?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the smallest state in the US?\")\nanswer_2: str = qa_model(\"What is the size of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "1,045 sq mi",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Rhode Island",
+      "answer_2": "1,045 sq mi"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Rhode Island\",\n  \"answer_2\": \"1,045 sq mi\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:49:16",
+    "intermediate_questions": [
+      "What is the smallest state in the US?",
+      "What is the size of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "4b7edd12-ac60-43df-8e3d-6c8274854f9b",
+    "question": "what was the date of the ufc event where sean o'malley beat aljamain sterling last year?",
+    "dsl_string": "answer_1: str = qa_model(\"What UFC event featured Sean O'Malley beating Aljamain Sterling?\")\nanswer_2: str = qa_model(\"What was the date of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "2020-06-06",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "UFC 250",
+      "answer_2": "2020-06-06"
+    },
+    "raw_response": "{\n  \"answer_1\": \"UFC 250\",\n  \"answer_2\": \"2020-06-06\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:49:20",
+    "intermediate_questions": [
+      "What UFC event featured Sean O'Malley beating Aljamain Sterling?",
+      "What was the date of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "1ddf2c5d-74f3-408f-9f19-facd709a494c",
+    "question": "when was the oldest company in the dow jones added to the index?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the oldest company in the Dow Jones Industrial Average?\")\nanswer_2: str = qa_model(\"When was {answer_1} added to the Dow Jones Industrial Average?\", answer_1=answer_1)",
+    "final_answer": "1896",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "General Electric",
+      "answer_2": "1896"
+    },
+    "raw_response": "{\n  \"answer_1\": \"General Electric\",\n  \"answer_2\": \"1896\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:49:24",
+    "intermediate_questions": [
+      "What is the oldest company in the Dow Jones Industrial Average?",
+      "When was {answer_1} added to the Dow Jones Industrial Average?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "543d501a-7e5e-4a22-be60-243a3e2225b5",
+    "question": "what is the ticker symbol of the company that owns the buffalo news?",
+    "dsl_string": "answer_1: str = qa_model(\"Who owns The Buffalo News?\")\nanswer_2: str = qa_model(\"What is the ticker symbol of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "SWRV",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Swurves Media LLC",
+      "answer_2": "SWRV"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Swurves Media LLC\",\n  \"answer_2\": \"SWRV\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:49:54",
+    "intermediate_questions": [
+      "Who owns The Buffalo News?",
+      "What is the ticker symbol of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "ba415fc4-68d2-4054-8fb7-f08909706579",
+    "question": "tell me how old was dua lipa when she released her first song.",
+    "dsl_string": "answer_1: str = qa_model(\"What was Dua Lipa's first song?\")\nanswer_2: str = qa_model(\"When was {answer_1} released?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How old was Dua Lipa on {answer_2}?\", answer_2=answer_2)",
+    "final_answer": "18",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "New Love",
+      "answer_2": "2015-08-02",
+      "answer_3": "18"
+    },
+    "raw_response": "{\n  \"answer_1\": \"New Love\",\n  \"answer_2\": \"2015-08-02\",\n  \"answer_3\": \"18\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:49:57",
+    "intermediate_questions": [
+      "What was Dua Lipa's first song?",
+      "When was {answer_1} released?",
+      "How old was Dua Lipa on {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "9b02ae1d-e25a-49dc-9e6b-f21caf923e3a",
+    "question": "how many months did it take to film the third spiderman movie with tom holland.",
+    "dsl_string": "answer_1: str = qa_model(\"What is the third Spider-Man movie starring Tom Holland?\")\nanswer_2: str = qa_model(\"When did filming for {answer_1} begin?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When did filming for {answer_1} end?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"How many months are between {answer_2} and {answer_3}?\", answer_2=answer_2, answer_3=answer_3)",
+    "final_answer": "1 month",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Spider-Man: No Way Home",
+      "answer_2": "2021-10-05",
+      "answer_3": "2021-11-16",
+      "answer_4": "1 month"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Spider-Man: No Way Home\",\n  \"answer_2\": \"2021-10-05\",\n  \"answer_3\": \"2021-11-16\",\n  \"answer_4\": \"1 month\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:02",
+    "intermediate_questions": [
+      "What is the third Spider-Man movie starring Tom Holland?",
+      "When did filming for {answer_1} begin?",
+      "When did filming for {answer_1} end?",
+      "How many months are between {answer_2} and {answer_3}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "83cfd2c8-d469-409d-bd32-24696ca5e21a",
+    "question": "who was the mvp of the nba finals last year?",
+    "dsl_string": "answer_1: str = qa_model(\"What was the most recent NBA finals?\")\nanswer_2: str = qa_model(\"Who was the MVP of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "LeBron James",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2020",
+      "answer_2": "LeBron James"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2020\",\n  \"answer_2\": \"LeBron James\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:08",
+    "intermediate_questions": [
+      "What was the most recent NBA finals?",
+      "Who was the MVP of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "04fd2c98-6531-41a0-8f9f-4af6b7f012ef",
+    "question": "who was the mvp of the mlb world series last year?",
+    "dsl_string": "answer_1: str = qa_model(\"What year was the last MLB World Series?\")\nanswer_2: str = qa_model(\"Who was the MVP of the MLB World Series in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Corey Seager",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2021",
+      "answer_2": "Corey Seager"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2021\",\n  \"answer_2\": \"Corey Seager\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:12",
+    "intermediate_questions": [
+      "What year was the last MLB World Series?",
+      "Who was the MVP of the MLB World Series in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "909fb375-e924-4f8b-8c9d-b39d2402550b",
+    "question": "what is the name of the bad bunny album released before nadie sabe lo que va a pasar ma\u00f1ana?",
+    "dsl_string": "answer_1: str = qa_model(\"What Bad Bunny album was released before Nadie Sabe Lo Que Va a Pasar Ma\u00f1ana?\")\nanswer_2: str = qa_model(\"What is the name of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "X100PRE",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "X100PRE",
+      "answer_2": "X100PRE"
+    },
+    "raw_response": "{\n  \"answer_1\": \"X100PRE\",\n  \"answer_2\": \"X100PRE\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:15",
+    "intermediate_questions": [
+      "What Bad Bunny album was released before Nadie Sabe Lo Que Va a Pasar Ma\u00c3\u00b1ana?",
+      "What is the name of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "b835c182-65e9-4dc1-8b08-c40ce1c6ca4a",
+    "question": "who is the starting quarterback on baltimore's nfl team?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the name of Baltimore's NFL team?\")\nanswer_2: str = qa_model(\"Who is the starting quarterback for {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Lamar Jackson",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Baltimore Ravens",
+      "answer_2": "Lamar Jackson"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Baltimore Ravens\",\n  \"answer_2\": \"Lamar Jackson\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:21",
+    "intermediate_questions": [
+      "What is the name of Baltimore's NFL team?",
+      "Who is the starting quarterback for {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "7c640e7c-508a-474c-9c07-b6e9b68aba26",
+    "question": "who was the player who won the most mvp awards in professional basketball last year?",
+    "dsl_string": "answer_1: str = qa_model(\"Who won the MVP award in professional basketball last year?\")\nanswer_2: str = qa_model(\"Who is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Nikola Jokic",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Nikola Jokic",
+      "answer_2": "Nikola Jokic"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Nikola Jokic\",\n  \"answer_2\": \"Nikola Jokic\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:23",
+    "intermediate_questions": [
+      "Who won the MVP award in professional basketball last year?",
+      "Who is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "fbf01c05-4156-45e7-8144-51bc36a8cb92",
+    "question": "which feid album is the one that has \"normal\" on it?",
+    "dsl_string": "answer_1: str = qa_model(\"Which Feid album includes the song 'Normal'?\")\nanswer_2: str = qa_model(\"Which Feid album is {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Hymns With The Devil In Confessional",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Hymns With The Devil In Confessional",
+      "answer_2": "Hymns With The Devil In Confessional"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Hymns With The Devil In Confessional\",\n  \"answer_2\": \"Hymns With The Devil In Confessional\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:29",
+    "intermediate_questions": [
+      "Which Feid album includes the song 'Normal'?",
+      "Which Feid album is {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "4713fbb8-0591-47fc-baa6-23b3d2595a6d",
+    "question": "who was the player who won the most titles in the wta last year?",
+    "dsl_string": "answer_1: str = qa_model(\"Which WTA year is last year?\")\nanswer_2: str = qa_model(\"Who won the most titles in the WTA in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Ashleigh Barty",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2021",
+      "answer_2": "Ashleigh Barty"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2021\",\n  \"answer_2\": \"Ashleigh Barty\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:34",
+    "intermediate_questions": [
+      "Which WTA year is last year?",
+      "Who won the most titles in the WTA in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "eb6873e2-79cf-4177-b628-02025e2f6aee",
+    "question": "on langeland, what is the side of the road that people drive on?",
+    "dsl_string": "answer_1: str = qa_model(\"In which country is Langeland located?\")\nanswer_2: str = qa_model(\"What side of the road do people drive on in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Right",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Denmark",
+      "answer_2": "Right"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Denmark\",\n  \"answer_2\": \"Right\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:53",
+    "intermediate_questions": [
+      "In which country is Langeland located?",
+      "What side of the road do people drive on in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "b87aa578-d977-40f3-b96d-8ebba8aa3910",
+    "question": "who was the player of the year in the premier league last season?",
+    "dsl_string": "answer_1: str = qa_model(\"Which season was last season in the Premier League?\")\nanswer_2: str = qa_model(\"Who was the player of the year in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Bruno Fernandes",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2021-2022",
+      "answer_2": "Bruno Fernandes"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2021-2022\",\n  \"answer_2\": \"Bruno Fernandes\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:50:57",
+    "intermediate_questions": [
+      "Which season was last season in the Premier League?",
+      "Who was the player of the year in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "e7a2a848-15cd-44d2-aa1d-3bdb5e87a3aa",
+    "question": "which of benny andersson's film has achieved the highest box office success globally?",
+    "dsl_string": "answer_1: str = qa_model(\"What films has Benny Andersson been involved in?\")\nanswer_2: str = qa_model(\"Which of {answer_1} has achieved the highest box office success globally?\", answer_1=answer_1)",
+    "final_answer": "Mamma Mia! Here We Go Again",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Mamma Mia! Here We Go Again; Chess; Mama Mia!",
+      "answer_2": "Mamma Mia! Here We Go Again"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Mamma Mia! Here We Go Again; Chess; Mama Mia!\",\n  \"answer_2\": \"Mamma Mia! Here We Go Again\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:51:03",
+    "intermediate_questions": [
+      "What films has Benny Andersson been involved in?",
+      "Which of {answer_1} has achieved the highest box office success globally?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "04ddbcdf-cf5e-4331-8084-04f03540e0a1",
+    "question": "who did rihanna co-headline a tour with?",
+    "dsl_string": "answer_1: str = qa_model(\"Which tour did Rihanna co-headline?\")\nanswer_2: str = qa_model(\"Who did Rihanna co-headline {answer_1} with?\", answer_1=answer_1)",
+    "final_answer": "Eminem",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "The Diamonds World Tour",
+      "answer_2": "Eminem"
+    },
+    "raw_response": "{\n  \"answer_1\": \"The Diamonds World Tour\",\n  \"answer_2\": \"Eminem\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:51:08",
+    "intermediate_questions": [
+      "Which tour did Rihanna co-headline?",
+      "Who did Rihanna co-headline {answer_1} with?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "dd3d3f80-7f74-4a99-a5d2-65208f2ab00b",
+    "question": "which company in the s&p 500 index has more than 20 board of directors meetings per year?",
+    "dsl_string": "answer_1: str = qa_model(\"Which companies are in the S&P 500 index?\")\nanswer_2: str = qa_model(\"Which of {answer_1} has more than 20 board of directors meetings per year?\", answer_1=answer_1)",
+    "final_answer": "Multiple companies from the list provided meet this criteria, but without specific company names, I cannot give an exact count.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Apple Inc.; Alphabet Inc.; Microsoft Corporation; Amazon.com Inc.; Facebook Inc.; Johnson & Johnson; Procter & Gamble Co.; JPMorgan Chase & Co.; Berkshire Hathaway Inc.; Visa Inc.; UnitedHealth Group Inc.; Cisco Systems Inc.; Home Depot Inc.; Intel Corp.; McDonald's Corp.; Merck & Co. Inc.; Pfizer Inc.; Travelers Companies Ltd.; Verizon Communications Inc.; Walmart Inc.",
+      "answer_2": "Multiple companies from the list provided meet this criteria, but without specific company names, I cannot give an exact count."
+    },
+    "raw_response": "{\n  \"answer_1\": \"Apple Inc.; Alphabet Inc.; Microsoft Corporation; Amazon.com Inc.; Facebook Inc.; Johnson & Johnson; Procter & Gamble Co.; JPMorgan Chase & Co.; Berkshire Hathaway Inc.; Visa Inc.; UnitedHealth Group Inc.; Cisco Systems Inc.; Home Depot Inc.; Intel Corp.; McDonald's Corp.; Merck & Co. Inc.; Pfizer Inc.; Travelers Companies Ltd.; Verizon Communications Inc.; Walmart Inc.\",\n  \"answer_2\": \"Multiple companies from the list provided meet this criteria, but without specific company names, I cannot give an exact count.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:51:11",
+    "intermediate_questions": [
+      "Which companies are in the S&P 500 index?",
+      "Which of {answer_1} has more than 20 board of directors meetings per year?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "73cfb301-e7ed-4746-a1a6-b0d74ecf0741",
+    "question": "at what age did miley cyrus come out as gender fluid",
+    "dsl_string": "answer_1: str = qa_model(\"When did Miley Cyrus come out as gender fluid?\")\nanswer_2: str = qa_model(\"How old was Miley Cyrus in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Unknown",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Unknown",
+      "answer_2": "Unknown"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Unknown\",\n  \"answer_2\": \"Unknown\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:51:25",
+    "intermediate_questions": [
+      "When did Miley Cyrus come out as gender fluid?",
+      "How old was Miley Cyrus in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "5faeb754-5d14-4bbe-b19b-ea4dff7a923c",
+    "question": "what's the name of the actress who played the role of the queen in the first season of \"the crown\"?",
+    "dsl_string": "answer_1: str = qa_model(\"Who played the role of the queen in the first season of \\\"The Crown\\\"?\")\nanswer_2: str = qa_model(\"What is the name of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Elizabeth Ferguson",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Claire Foy",
+      "answer_2": "Elizabeth Ferguson"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Claire Foy\",\n  \"answer_2\": \"Elizabeth Ferguson\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:51:28",
+    "intermediate_questions": [
+      "Who played the role of the queen in the first season of \"The Crown\"?",
+      "What is the name of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "c34046db-727d-4633-b2aa-85ad0b579c4b",
+    "question": "which company in the s&p 500 index had the highest number of patents related to renewable energy from 2002 to 2022?",
+    "dsl_string": "answer_1: str = qa_model(\"List companies in the S&P 500 index.\")\nanswer_2: str = qa_model(\"Which company from {answer_1} had the highest number of patents related to renewable energy from 2002 to 2022?\", answer_1=answer_1)",
+    "final_answer": "",
+    "explanation": "",
+    "intermediate_answers": {
+      "error": "malformed_json",
+      "raw": "{\n  \"answer_1\": \"Microsoft Corporation; Alphabet Inc.; Amazon.com Inc.; Facebook Inc.; Johnson & Johnson; Procter & Gamble Co.; JPMorgan Chase & Co.; Berkshire Hathaway Inc.; Visa Inc.; UnitedHealth Group Inc.; Tesla Inc.; General Electric Company; Intel Corporation; Cisco Systems Inc.; Verizon Communications Inc.; Mastercard Incorporated; McDonald\u2019s Corporation; Home Depot Inc.; Caterpillar Inc.; Merck & Co. Inc.; Exxon Mobil Corporation;\"\n  \"answer_2\": \"Tesla Inc.\"\n}",
+      "error_detail": "Expecting ',' delimiter: line 3 column 3 (char 447)"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Microsoft Corporation; Alphabet Inc.; Amazon.com Inc.; Facebook Inc.; Johnson & Johnson; Procter & Gamble Co.; JPMorgan Chase & Co.; Berkshire Hathaway Inc.; Visa Inc.; UnitedHealth Group Inc.; Tesla Inc.; General Electric Company; Intel Corporation; Cisco Systems Inc.; Verizon Communications Inc.; Mastercard Incorporated; McDonald\u2019s Corporation; Home Depot Inc.; Caterpillar Inc.; Merck & Co. Inc.; Exxon Mobil Corporation;\"\n  \"answer_2\": \"Tesla Inc.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": false,
+    "timestamp": "2026-01-02 21:51:30",
+    "intermediate_questions": [
+      "List companies in the S&P 500 index.",
+      "Which company from {answer_1} had the highest number of patents related to renewable energy from 2002 to 2022?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "12d2b048-e8de-470a-b4f2-81b0cf03ec5e",
+    "question": "what was the name of the movie that won the most golden globe awards in a single year, including best motion picture \u2013 drama, best director, and best actor \u2013 motion picture drama?",
+    "dsl_string": "answer_1: str = qa_model(\"Which movie won the Golden Globe for Best Motion Picture \u2013 Drama, Best Director, and Best Actor \u2013 Motion Picture Drama in a single year?\")\nanswer_2: str = qa_model(\"What is the name of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "No exact match found for the specified criteria.",
+      "answer_2": ""
+    },
+    "raw_response": "{\n  \"answer_1\": \"No exact match found for the specified criteria.\",\n  \"answer_2\": \"\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": false,
+    "timestamp": "2026-01-02 21:51:48",
+    "intermediate_questions": [
+      "Which movie won the Golden Globe for Best Motion Picture \u00e2\u0080\u0093 Drama, Best Director, and Best Actor \u00e2\u0080\u0093 Motion Picture Drama in a single year?",
+      "What is the name of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "30c8be43-be29-486a-b346-90b2ab6990d9",
+    "question": "who was the director of the movie that won the most academy awards in a single year?",
+    "dsl_string": "answer_1: str = qa_model(\"Which movie won the most Academy Awards in a single year?\")\nanswer_2: str = qa_model(\"Who directed {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "James Cameron",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Titanic",
+      "answer_2": "James Cameron"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Titanic\",\n  \"answer_2\": \"James Cameron\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:52:05",
+    "intermediate_questions": [
+      "Which movie won the most Academy Awards in a single year?",
+      "Who directed {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "b1b7dbfa-0f96-4305-88b2-6fcbfdd2060e",
+    "question": "who is the american singer-songwriter who has won 11 grammy awards and is known for her unique voice and poignant lyrics, including her hit songs \"both sides now\" and \"big yellow taxi\"?",
+    "dsl_string": "answer_1: str = qa_model(\"Which American singer-songwriter has won 11 Grammy Awards?\")\nanswer_2: str = qa_model(\"Which American singer-songwriter is known for her unique voice and poignant lyrics, including her hit songs 'Both Sides Now' and 'Big Yellow Taxi'?\")\nanswer_3: str = qa_model(\"Who is the American singer-songwriter who is {answer_1} and {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "Alison Krauss",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Alison Krauss",
+      "answer_2": "Joni Mitchell",
+      "answer_3": "Alison Krauss"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Alison Krauss\",\n  \"answer_2\": \"Joni Mitchell\",\n  \"answer_3\": \"Alison Krauss\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:52:08",
+    "intermediate_questions": [
+      "Which American singer-songwriter has won 11 Grammy Awards?",
+      "Which American singer-songwriter is known for her unique voice and poignant lyrics, including her hit songs 'Both Sides Now' and 'Big Yellow Taxi'?",
+      "Who is the American singer-songwriter who is {answer_1} and {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "8d3fa211-8f02-4cf9-a8cb-8560f966bbd2",
+    "question": "who is the american singer-songwriter who has won 21 grammy awards and is known for her powerful voice and energetic live performances, including her hit songs \"respect\" and \"chain of fools\"?",
+    "dsl_string": "answer_1: str = qa_model(\"Which American singer-songwriter has won 21 Grammy Awards?\")\nanswer_2: str = qa_model(\"Which singer is known for her powerful voice and energetic live performances, including her hit songs 'Respect' and 'Chain of Fools'?\")\nanswer_3: str = qa_model(\"Who is the American singer-songwriter who has won 21 grammy awards and is known for her powerful voice and energetic live performances, including her hit songs 'Respect' and 'Chain of Fools'? Is it {answer_1} or {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "Aretha Franklin",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Alison Krauss",
+      "answer_2": "Aretha Franklin",
+      "answer_3": "Aretha Franklin"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Alison Krauss\",\n  \"answer_2\": \"Aretha Franklin\",\n  \"answer_3\": \"Aretha Franklin\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:52:12",
+    "intermediate_questions": [
+      "Which American singer-songwriter has won 21 Grammy Awards?",
+      "Which singer is known for her powerful voice and energetic live performances, including her hit songs 'Respect' and 'Chain of Fools'?",
+      "Who is the American singer-songwriter who has won 21 grammy awards and is known for her powerful voice and energetic live performances, including her hit songs 'Respect' and 'Chain of Fools'? Is it {answer_1} or {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "93f61f25-1bde-4e21-a826-47c9651847e4",
+    "question": "who was the player who won the most matches in professional tennis last year?",
+    "dsl_string": "answer_1: str = qa_model(\"What year was last year?\")\nanswer_2: str = qa_model(\"Who won the most matches in professional tennis in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Novak Djokovic",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2021",
+      "answer_2": "Novak Djokovic"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2021\",\n  \"answer_2\": \"Novak Djokovic\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:52:15",
+    "intermediate_questions": [
+      "What year was last year?",
+      "Who won the most matches in professional tennis in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "4bc62eb4-678b-48cc-8e7c-ce5a524f0279",
+    "question": "what's the average board retainer fee for compaines on the s&p 500 index in communication services?",
+    "dsl_string": "answer_1: str = qa_model(\"What companies are in the S&P 500 Communication Services sector?\")\nanswer_2: str = qa_model(\"What is the board retainer fee for {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the average of {answer_2}?\", answer_2=answer_2)",
+    "final_answer": "",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Verizon Communications Inc.; Comcast Corporation; Walt Disney Company; ViacomCBS Inc.",
+      "answer_2": "",
+      "answer_3": ""
+    },
+    "raw_response": "{\n  \"answer_1\": \"Verizon Communications Inc.; Comcast Corporation; Walt Disney Company; ViacomCBS Inc.\",\n  \"answer_2\": \"\",\n  \"answer_3\": \"\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": false,
+    "timestamp": "2026-01-02 21:52:30",
+    "intermediate_questions": [
+      "What companies are in the S&P 500 Communication Services sector?",
+      "What is the board retainer fee for {answer_1}?",
+      "What is the average of {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "d5124253-4271-40b5-986b-dd3021ab828e",
+    "question": "who was the winner of the wimbledon women's singles tournament this year?",
+    "dsl_string": "answer_1: str = qa_model(\"What year is it?\")\nanswer_2: str = qa_model(\"Who won the Wimbledon women's singles tournament in {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Ashleigh Barty",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "2022",
+      "answer_2": "Ashleigh Barty"
+    },
+    "raw_response": "{\n  \"answer_1\": \"2022\",\n  \"answer_2\": \"Ashleigh Barty\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:52:57",
+    "intermediate_questions": [
+      "What year is it?",
+      "Who won the Wimbledon women's singles tournament in {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "30a16b31-e7a8-4c9a-81ef-08133e9ea795",
+    "question": "what's the name of the actor who played the role of the dean in the tv show \"community\"?",
+    "dsl_string": "answer_1: str = qa_model(\"What is the name of the TV show Community's dean?\")\nanswer_2: str = qa_model(\"Who played the role of {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Jim Rash",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Dean Pelton",
+      "answer_2": "Jim Rash"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Dean Pelton\",\n  \"answer_2\": \"Jim Rash\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:53:04",
+    "intermediate_questions": [
+      "What is the name of the TV show Community's dean?",
+      "Who played the role of {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "365b3655-6fc5-4731-a422-afeb3d4b3750",
+    "question": "what company in the nasdaq brings in the most revenue?",
+    "dsl_string": "answer_1: str = qa_model(\"Which companies are in the NASDAQ?\")\nanswer_2: str = qa_model(\"Which of {answer_1} brings in the most revenue?\", answer_1=answer_1)",
+    "final_answer": "Alphabet Inc.",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Apple Inc.; Alphabet Inc.; Microsoft Corporation; Amazon.com Inc.; Tesla Inc.",
+      "answer_2": "Alphabet Inc."
+    },
+    "raw_response": "{\n  \"answer_1\": \"Apple Inc.; Alphabet Inc.; Microsoft Corporation; Amazon.com Inc.; Tesla Inc.\",\n  \"answer_2\": \"Alphabet Inc.\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:53:07",
+    "intermediate_questions": [
+      "Which companies are in the NASDAQ?",
+      "Which of {answer_1} brings in the most revenue?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "88db4834-f50c-4484-9e24-737ffc49a4fd",
+    "question": "who was the first actress to play the role of a female action hero in a live-action movie?",
+    "dsl_string": "answer_1: str = qa_model(\"Who is considered the first female action hero in a live-action movie?\")\nanswer_2: str = qa_model(\"Who was the first actress to play {answer_1}?\", answer_1=answer_1)",
+    "final_answer": "Linda Hamilton",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Sigourney Weaver",
+      "answer_2": "Linda Hamilton"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Sigourney Weaver\",\n  \"answer_2\": \"Linda Hamilton\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:53:19",
+    "intermediate_questions": [
+      "Who is considered the first female action hero in a live-action movie?",
+      "Who was the first actress to play {answer_1}?"
+    ],
+    "gold_intermediate_answers": []
+  },
+  {
+    "id": "bb2c0885-6ef1-474c-8390-4234b5f77daa",
+    "question": "who is the american singer-songwriter who has won 4 grammy awards and is known for her soulful voice and genre-bending music, which blends elements of r&b, rock, and hip-hop?",
+    "dsl_string": "answer_1: str = qa_model(\"Which American singer-songwriter has won 4 Grammy Awards?\")\nanswer_2: str = qa_model(\"Which American singer-songwriter is known for her soulful voice and genre-bending music, which blends elements of R&B, rock, and hip-hop?\")\nanswer_3: str = qa_model(\"Who is the American singer-songwriter who is both {answer_1} and {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "final_answer": "Beyonce",
+    "explanation": "",
+    "intermediate_answers": {
+      "answer_1": "Adele",
+      "answer_2": "Beyonce",
+      "answer_3": "Beyonce"
+    },
+    "raw_response": "{\n  \"answer_1\": \"Adele\",\n  \"answer_2\": \"Beyonce\",\n  \"answer_3\": \"Beyonce\"\n}",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "success": true,
+    "timestamp": "2026-01-02 21:53:21",
+    "intermediate_questions": [
+      "Which American singer-songwriter has won 4 Grammy Awards?",
+      "Which American singer-songwriter is known for her soulful voice and genre-bending music, which blends elements of R&B, rock, and hip-hop?",
+      "Who is the American singer-songwriter who is both {answer_1} and {answer_2}?"
+    ],
+    "gold_intermediate_answers": []
+  }
+]

@@ -1,0 +1,384 @@
+model,dataset,id,question,assistive_answer,open_answer,gold_answer,assistive_correct,open_correct,assistive_intermediate_questions,assistive_intermediate_answers,assistive_dsl,assistive_raw_response,open_raw_response,equivalence_reasoning,equivalence_raw_response,label_cause,label_notes
+google-gemini-2-5-pro,bamboogle,bamboogle_0029_45dd51fa,In what year was the government department where the internet originated at founded?,1947,1958,1947,1,0,"[""What government department is credited with the origin of the internet?"", ""In what year was {answer_1} founded?""]","{""answer_1"": ""United States Department of Defense"", ""answer_2"": ""1947""}","answer_1: str = qa_model(""What government department is credited with the origin of the internet?"")
+answer_2: str = qa_model(""In what year was {answer_1} founded?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""United States Department of Defense"",
+  ""answer_2"": ""1947""
+}
+```","answer:
+1958",The years provided (1947 and 1958) are different and calendar years must match exactly.,"equivalent: 0
+reasoning: The years provided (1947 and 1958) are different and calendar years must match exactly.",,
+google-gemini-2-5-pro,bamboogle,bamboogle_0043_d65a05e7,The most populous city in Punjab is how large (area wise)?,"1,772 km²",159.37 km²,310 square kilometers,0,0,"[""What is the most populous city in Punjab?"", ""What is the area of {answer_1}?""]","{""answer_1"": ""Lahore"", ""answer_2"": ""1,772 km\u00b2""}","answer_1: str = qa_model(""What is the most populous city in Punjab?"")
+answer_2: str = qa_model(""What is the area of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Lahore"",
+  ""answer_2"": ""1,772 km²""
+}
+```",159.37 km²,The numeric values are significantly different and do not fall within the allowed tolerance.,"equivalent: 0
+reasoning: The numeric values are significantly different and do not fall within the allowed tolerance.",,
+google-gemini-2-5-pro,bamboogle,bamboogle_0050_43f80844,Who is the mother of the father of Barack Obama?,"{'answer_1': 'Barack Obama Sr.', 'answer_2': 'Habiba Akumu Obama'}",Sarah Onyango Obama,Habiba Akumu Nyanjango,,0,"[""Who is the father of Barack Obama?"", ""Who is the mother of {answer_1}?""]","{""intermediate_answers"": {""answer_1"": ""Barack Obama Sr."", ""answer_2"": ""Habiba Akumu Obama""}}","answer_1: str = qa_model(""Who is the father of Barack Obama?"")
+answer_2: str = qa_model(""Who is the mother of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""intermediate_answers"": {
+    ""answer_1"": ""Barack Obama Sr."",
+    ""answer_2"": ""Habiba Akumu Obama""
+  }
+}
+```","answer:
+Sarah Onyango Obama","Answer A identifies Habiba Akumu Obama as the mother of Barack Obama Sr., which is correct. Answer B identifies Sarah Onyango Obama, who was Barack Obama Sr.'s step-grandmother, not his mother. These are contradictory facts regarding the identity of the person in question.","equivalent: 0
+reasoning: Answer A identifies Habiba Akumu Obama as the mother of Barack Obama Sr., which is correct. Answer B identifies Sarah Onyango Obama, who was Barack Obama Sr.'s step-grandmother, not his mother. These are contradictory facts regarding the identity of the person in question.",,
+google-gemini-2-5-pro,bamboogle,bamboogle_0059_abedd531,In what year was the tallest fixed steel structure completed?,2000,2012,1988,0,0,"[""What is the tallest fixed steel structure?"", ""In what year was {answer_1} completed?""]","{""answer_1"": ""Petronius Platform"", ""answer_2"": ""2000""}","answer_1: str = qa_model(""What is the tallest fixed steel structure?"")
+answer_2: str = qa_model(""In what year was {answer_1} completed?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Petronius Platform"",
+  ""answer_2"": ""2000""
+}
+```",2012,The years provided (2000 and 2012) are different and calendar years must match exactly.,"equivalent: 0
+reasoning: The years provided (2000 and 2012) are different and calendar years must match exactly.",,
+google-gemini-2-5-pro,bamboogle,bamboogle_0066_6b32e7f3,The most populous national capital city was established in what year?,1271,1457,1045 BC,0,0,"[""What is the most populous national capital city?"", ""In what year was {answer_1} established?""]","{""answer_1"": ""Beijing"", ""answer_2"": ""1271""}","answer_1: str = qa_model(""What is the most populous national capital city?"")
+answer_2: str = qa_model(""In what year was {answer_1} established?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Beijing"",
+  ""answer_2"": ""1271""
+}
+```",1457,The years provided are different and do not fall within any acceptable numeric tolerance.,"equivalent: 0
+reasoning: The years provided are different and do not fall within any acceptable numeric tolerance.",,
+google-gemini-2-5-pro,bamboogle,bamboogle_0072_70ea2630,In what year did the oldest cat ever recorded with the Cat of the Year award?,1999,"The oldest cat ever recorded, Creme Puff, did not win a Cat of the Year award.",1999,1,0,"[""What was the name of the oldest cat ever recorded?"", ""In what year did {answer_1} win the Cat of the Year award?""]","{""answer_1"": ""Creme Puff"", ""answer_2"": ""1999""}","answer_1: str = qa_model(""What was the name of the oldest cat ever recorded?"")
+answer_2: str = qa_model(""In what year did {answer_1} win the Cat of the Year award?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Creme Puff"",
+  ""answer_2"": ""1999""
+}
+```","The oldest cat ever recorded, Creme Puff, did not win a Cat of the Year award.","Answer B states that the cat did not win the award, which contradicts Answer A's claim of a specific year (1999) for winning the award.","equivalent: 0
+reasoning: Answer B states that the cat did not win the award, which contradicts Answer A's claim of a specific year (1999) for winning the award.",,
+google-gemini-2-5-pro,bamboogle,bamboogle_0076_f6a6ba5b,"In 2016, who was the host of the longest running talk show?",Jimmy Fallon,Conan O'Brien,Jimmy Fallon,1,0,"[""What is the longest running talk show?"", ""Who was the host of '{answer_1}' in 2016?""]","{""answer_1"": ""The Tonight Show"", ""answer_2"": ""Jimmy Fallon""}","answer_1: str = qa_model(""What is the longest running talk show?"")
+answer_2: str = qa_model(""Who was the host of '{answer_1}' in 2016?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""The Tonight Show"",
+  ""answer_2"": ""Jimmy Fallon""
+}
+```",Conan O'Brien,"The two answers name different individuals, Jimmy Fallon and Conan O'Brien, for the same role, making them contradictory.","equivalent: 0
+reasoning: The two answers name different individuals, Jimmy Fallon and Conan O'Brien, for the same role, making them contradictory.",,
+google-gemini-2-5-pro,bamboogle,bamboogle_0079_4a0fafaf,In what country was the only cruise line that flies the American flag incorporated in?,"{'answer_1': 'Norwegian Cruise Line America', 'answer_2': 'United States'}",Bermuda,Bermuda,0,1,"[""What is the only cruise line that flies the American flag?"", ""In what country was {answer_1} incorporated?""]","{""intermediate_answers"": {""answer_1"": ""Norwegian Cruise Line America"", ""answer_2"": ""United States""}}","answer_1: str = qa_model(""What is the only cruise line that flies the American flag?"")
+answer_2: str = qa_model(""In what country was {answer_1} incorporated?"", answer_1=answer_1)","```json
+{
+  ""intermediate_answers"": {
+    ""answer_1"": ""Norwegian Cruise Line America"",
+    ""answer_2"": ""United States""
+  }
+}
+```",Bermuda,"Answer A states the country is the United States, while Answer B states it is Bermuda. These are contradictory facts.","equivalent: 0
+reasoning: Answer A states the country is the United States, while Answer B states it is Bermuda. These are contradictory facts.",,
+google-gemini-2-5-pro,hotpotqa,5a76059155429976ec32bce6,"What shopping mall is the largest in south Texas, Malle del Norte or La Plaza Mall?",Mall del Norte,La Plaza Mall,La Plaza Mall,0,1,"[""What is the size of Mall del Norte?"", ""What is the size of La Plaza Mall?"", ""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?""]","{""answer_1"": ""1,212,515 sq ft"", ""answer_2"": ""1,200,000 sq ft"", ""answer_3"": ""Mall del Norte""}","answer_1: str = qa_model(""What is the size of Mall del Norte?"")
+answer_2: str = qa_model(""What is the size of La Plaza Mall?"")
+answer_3: str = qa_model(""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?"", answer_1=answer_1, answer_2=answer_2)","```json
+{
+  ""answer_1"": ""1,212,515 sq ft"",
+  ""answer_2"": ""1,200,000 sq ft"",
+  ""answer_3"": ""Mall del Norte""
+}
+```","answer:
+La Plaza Mall",The answers contradict each other regarding which mall is the largest.,"equivalent: 0
+reasoning: The answers contradict each other regarding which mall is the largest.",,
+google-gemini-2-5-pro,hotpotqa,5a760f6855429976ec32bcf9,What retailer is the second-largest in the United States and has a commercial featuring the American artist who was 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?,Target,Amazon,Target Corporation,1,0,"[""Who was the 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?"", ""Which retailer, the second-largest in the United States, has a commercial featuring {answer_1}?""]","{""answer_1"": ""Taylor Swift"", ""answer_2"": ""Target""}","answer_1: str = qa_model(""Who was the 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?"")
+answer_2: str = qa_model(""Which retailer, the second-largest in the United States, has a commercial featuring {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Taylor Swift"",
+  ""answer_2"": ""Target""
+}
+```",Amazon,"The answers contradict each other. Amazon is generally considered the second-largest retailer in the US, not Target.","equivalent: 0
+reasoning: The answers contradict each other. Amazon is generally considered the second-largest retailer in the US, not Target.",,
+google-gemini-2-5-pro,hotpotqa,5a76353d5542994ccc918715,When was the artist who did the cover art of The Savage Frontier born?,1958-10-22,1948-08-05,"August 5, 1948",0,1,"[""Who did the cover art for 'The Savage Frontier'?"", ""When was {answer_1} born?""]","{""answer_1"": ""Keith Parkinson"", ""answer_2"": ""1958-10-22""}","answer_1: str = qa_model(""Who did the cover art for 'The Savage Frontier'?"")
+answer_2: str = qa_model(""When was {answer_1} born?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Keith Parkinson"",
+  ""answer_2"": ""1958-10-22""
+}
+```",1948-08-05,The birth dates provided are different and calendar dates must match exactly.,"equivalent: 0
+reasoning: The birth dates provided are different and calendar dates must match exactly.",,
+google-gemini-2-5-pro,hotpotqa,5a7722d655429966f1a36c99,Where did the form of music played by Die Rhöner Säuwäntzt originate?,Germany; Austria; Switzerland,Rhön,United States,0,0,"[""What form of music do Die Rh\u00c3\u00b6ner S\u00c3\u00a4uw\u00c3\u00a4ntzt play?"", ""Where did the music form {answer_1} originate?""]","{""answer_1"": ""Volksmusik"", ""answer_2"": ""Germany; Austria; Switzerland""}","answer_1: str = qa_model(""What form of music do Die Rhöner Säuwäntzt play?"")
+answer_2: str = qa_model(""Where did the music form {answer_1} originate?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Volksmusik"",
+  ""answer_2"": ""Germany; Austria; Switzerland""
+}
+```",Rhön,"Answer B specifies a region (Rhön, which is in Germany), while Answer A lists three countries (Germany, Austria, Switzerland). If the music originated specifically in Rhön, then stating Austria and Switzerland as origins (as in Answer A) would be a contradiction.","equivalent: 0
+reasoning: Answer B specifies a region (Rhön, which is in Germany), while Answer A lists three countries (Germany, Austria, Switzerland). If the music originated specifically in Rhön, then stating Austria and Switzerland as origins (as in Answer A) would be a contradiction.",,
+google-gemini-2-5-pro,hotpotqa,5a7a61d355429941d65f25fd,Who directed the movie that Jack Covin played Dr. Ardmore in?,Miloš Forman,Joseph Green,Tom Holland,0,0,"[""What movie did Jack Covin play Dr. Ardmore in?"", ""Who directed '{answer_1}'?""]","{""answer_1"": ""One Flew Over the Cuckoo's Nest"", ""answer_2"": ""Milo\u0161 Forman""}","answer_1: str = qa_model(""What movie did Jack Covin play Dr. Ardmore in?"")
+answer_2: str = qa_model(""Who directed '{answer_1}'?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""One Flew Over the Cuckoo's Nest"",
+  ""answer_2"": ""Miloš Forman""
+}
+```",Joseph Green,"The two answers provide different names for the director, indicating a contradiction.","equivalent: 0
+reasoning: The two answers provide different names for the director, indicating a contradiction.",,
+google-gemini-2-5-pro,hotpotqa,5a7ca54c55429935c91b527f,"The Swedish-British entertainment studio executive and film executive producer, who was the Executive producer for a 2016 American action thriller film directed by Babak Najafi, currently serve?",Producer,CEO of Marv Group,CEO of Lionsgate UK & Europe,0,0,"[""What is the 2016 American action thriller film directed by Babak Najafi?"", ""Who was the executive producer for {answer_1}?"", ""What position does {answer_2} currently hold?""]","{""answer_1"": ""London Has Fallen"", ""answer_2"": ""Avi Lerner; Trevor Short; Boaz Davidson; John Thompson; Christine Otal; Heidi Jo Markel"", ""answer_3"": ""Producer""}","answer_1: str = qa_model(""What is the 2016 American action thriller film directed by Babak Najafi?"")
+answer_2: str = qa_model(""Who was the executive producer for {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What position does {answer_2} currently hold?"", answer_2=answer_2)","```json
+{
+  ""answer_1"": ""London Has Fallen"",
+  ""answer_2"": ""Avi Lerner; Trevor Short; Boaz Davidson; John Thompson; Christine Otal; Heidi Jo Markel"",
+  ""answer_3"": ""Producer""
+}
+```",CEO of Marv Group,"Answer A describes a general functional role, while Answer B describes a specific executive position within a company. These are distinct facts, not one being a more specific version of the other.","equivalent: 0
+reasoning: Answer A describes a general functional role, while Answer B describes a specific executive position within a company. These are distinct facts, not one being a more specific version of the other.",,
+google-gemini-2-5-pro,mintaka,19c7c396,Who was MLB Commissioner during World Series of 1984?,Bowie Kuhn,Peter Ueberroth,Peter Ueberroth,0,1,"[""What organization oversees the World Series?"", ""Who was the commissioner of {answer_1} in 1984?""]","{""answer_1"": ""Major League Baseball"", ""answer_2"": ""Bowie Kuhn""}","answer_1: str = qa_model(""What organization oversees the World Series?"")
+answer_2: str = qa_model(""Who was the commissioner of {answer_1} in 1984?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Major League Baseball"",
+  ""answer_2"": ""Bowie Kuhn""
+}
+```","answer:
+Peter Ueberroth","The answers provide different names for the MLB Commissioner during the 1984 World Series, which is a factual contradiction. Peter Ueberroth was the commissioner during that period.","equivalent: 0
+reasoning: The answers provide different names for the MLB Commissioner during the 1984 World Series, which is a factual contradiction. Peter Ueberroth was the commissioner during that period.",,
+google-gemini-2-5-pro,mintaka,286d66d0,Who was the last wife of the main character featured in the Last Samurai?,Katie Holmes,Taka,Katie Holmes,1,0,"[""Who is the main character in the movie 'The Last Samurai'?"", ""Who was the last wife of {answer_1}?""]","{""answer_1"": ""Tom Cruise"", ""answer_2"": ""Katie Holmes""}","answer_1: str = qa_model(""Who is the main character in the movie 'The Last Samurai'?"")
+answer_2: str = qa_model(""Who was the last wife of {answer_1}?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Tom Cruise"",
+  ""answer_2"": ""Katie Holmes""
+}
+```","answer:
+Taka",Answer A is incorrect; Katie Holmes is an actress and not a character in the movie. Answer B correctly identifies Taka as the last wife of the main character.,"equivalent: 0
+reasoning: Answer A is incorrect; Katie Holmes is an actress and not a character in the movie. Answer B correctly identifies Taka as the last wife of the main character.",,
+google-gemini-2-5-pro,mintaka,30880c95,When did the director of Avengers divorce his wife?,2016,2017,2016,1,0,"[""Who is the director of the movie 'The Avengers'?"", ""When did {answer_1} divorce his wife?""]","{""answer_1"": ""Joss Whedon"", ""answer_2"": ""2016""}","answer_1: str = qa_model(""Who is the director of the movie 'The Avengers'?"")
+answer_2: str = qa_model(""When did {answer_1} divorce his wife?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Joss Whedon"",
+  ""answer_2"": ""2016""
+}
+```",2017,Calendar years must match exactly; 2016 is not 2017.,"equivalent: 0
+reasoning: Calendar years must match exactly; 2016 is not 2017.",,
+google-gemini-2-5-pro,mintaka,33a4d66e,When was the final game in Kingdom Hearts' Xehanort Saga released?,2019-01-25,2019-01-29,25-Jan-19,1,0,"[""What is the final game in the Kingdom Hearts Xehanort Saga?"", ""When was '{answer_1}' released?""]","{""answer_1"": ""Kingdom Hearts III"", ""answer_2"": ""2019-01-25""}","answer_1: str = qa_model(""What is the final game in the Kingdom Hearts Xehanort Saga?"")
+answer_2: str = qa_model(""When was '{answer_1}' released?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Kingdom Hearts III"",
+  ""answer_2"": ""2019-01-25""
+}
+```",2019-01-29,Calendar dates must match exactly; 2019-01-25 is not equivalent to 2019-01-29.,"equivalent: 0
+reasoning: Calendar dates must match exactly; 2019-01-25 is not equivalent to 2019-01-29.",,
+google-gemini-2-5-pro,mintaka,3c79e320,What is the name of the kingdom that the love interest to Luigi's younger brother rules over?,Mushroom Kingdom,Sarasaland,Mushroom Kingdom,1,0,[],"{""answer_1"": ""Mario"", ""answer_2"": ""Princess Peach"", ""answer_3"": ""Mushroom Kingdom""}","answer_1: str = qa_model(""Who is Luigi's brother?"")
+answer_2: str = qa_model(""Who is the love interest of {answer_1}?"", answer_1=answer_1)
+answer_3: str = qa_model(""What kingdom does {answer_2} rule over?"", answer_2=answer_2)","intermediate_answers:
+{
+  ""answer_1"": ""Mario"",
+  ""answer_2"": ""Princess Peach"",
+  ""answer_3"": ""Mushroom Kingdom""
+}","answer:
+Sarasaland","The answers provide two different, contradictory names for the kingdom. ""Mushroom Kingdom"" is not the same as ""Sarasaland"".","equivalent: 0
+reasoning: The answers provide two different, contradictory names for the kingdom. ""Mushroom Kingdom"" is not the same as ""Sarasaland"".",,
+google-gemini-2-5-pro,mintaka,447e31d9,Who was the first wife of Queen Elizabeth II's eldest son?,"{'answer_1': 'Charles III', 'answer_2': 'Diana, Princess of Wales'}","Diana, Princess of Wales",Diana Spencer,0,1,[],"{""answer_1"": ""Charles III"", ""answer_2"": ""Diana, Princess of Wales""}","answer_1: str = qa_model(""Who is the eldest son of Queen Elizabeth II?"")
+answer_2: str = qa_model(""Who was the first wife of {answer_1}?"", answer_1=answer_1)","intermediate_answers:
+{
+  ""answer_1"": ""Charles III"",
+  ""answer_2"": ""Diana, Princess of Wales""
+}","Diana, Princess of Wales","Answer A includes ""Charles III"" as part of the answer, but he was the son, not the first wife. This is a factual contradiction, as Answer B correctly identifies only Diana, Princess of Wales.","equivalent: 0
+reasoning: Answer A includes ""Charles III"" as part of the answer, but he was the son, not the first wife. This is a factual contradiction, as Answer B correctly identifies only Diana, Princess of Wales.",,
+google-gemini-2-5-pro,mintaka,48e38631,How many actors played Sonny in Big Daddy?,"{'answer_1': 'Adam Sandler', 'answer_2': '1'}",2,2,0,1,[],{},"answer_1: str = qa_model(""Who played the character Sonny in the movie Big Daddy?"")
+answer_2: str = qa_model(""How many actors are in the group '{answer_1}'?"", answer_1=answer_1)","```json
+""intermediate_answers"": {
+  ""answer_1"": ""Adam Sandler"",",2,"The answers provide contradictory numbers. Answer A states 1, while Answer B states 2.","equivalent: 0
+reasoning: The answers provide contradictory numbers. Answer A states 1, while Answer B states 2.",,
+google-gemini-2-5-pro,mintaka,4ded8418,What's the tallest building in the state where Yosemite National Park is located?,Salesforce Tower,Wilshire Grand Center,Wilshire Grand Center,0,1,[],"{""answer_1"": ""California"", ""answer_2"": ""Salesforce Tower""}","answer_1: str = qa_model(""In which state is Yosemite National Park located?"")
+answer_2: str = qa_model(""What is the tallest building in {answer_1}?"", answer_1=answer_1)","intermediate_answers:
+{
+  ""answer_1"": ""California"",
+  ""answer_2"": ""Salesforce Tower""
+}",Wilshire Grand Center,"The answers provide two different building names, which is a direct contradiction.","equivalent: 0
+reasoning: The answers provide two different building names, which is a direct contradiction.",,
+google-gemini-2-5-pro,mintaka,4f324703,Who is the main character in the first GTA?,Bubba; Divine; Katie; Kivlov; Mikki; Travis; Troy; Ulrika,Travis; Katy; Nikki; Divine; Bubba; Troy; Kivlov; Ulrika,Tommy,0,0,"[""What is the first Grand Theft Auto game?"", ""Who is the main character in '{answer_1}'?""]","{""answer_1"": ""Grand Theft Auto"", ""answer_2"": ""Bubba; Divine; Katie; Kivlov; Mikki; Travis; Troy; Ulrika""}","answer_1: str = qa_model(""What is the first Grand Theft Auto game?"")
+answer_2: str = qa_model(""Who is the main character in '{answer_1}'?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""Grand Theft Auto"",
+  ""answer_2"": ""Bubba; Divine; Katie; Kivlov; Mikki; Travis; Troy; Ulrika""
+}
+```",Travis; Katy; Nikki; Divine; Bubba; Troy; Kivlov; Ulrika,The lists contain different names ('Mikki' in A vs 'Nikki' in B). 'Katie' and 'Katy' are treated as equivalent due to common alternative spellings.,"equivalent: 0
+reasoning: The lists contain different names ('Mikki' in A vs 'Nikki' in B). 'Katie' and 'Katy' are treated as equivalent due to common alternative spellings.",,
+google-gemini-2-5-pro,mintaka,4f485cdf,Who is the most popular in the last NBA 2k game?,Devin Booker,Giannis Antetokounmpo,Kevin Durant,0,0,"[""What is the latest NBA 2k game?"", ""Who is the cover athlete for '{answer_1}'?""]","{""answer_1"": ""NBA 2K23"", ""answer_2"": ""Devin Booker""}","answer_1: str = qa_model(""What is the latest NBA 2k game?"")
+answer_2: str = qa_model(""Who is the cover athlete for '{answer_1}'?"", answer_1=answer_1)","```json
+{
+  ""answer_1"": ""NBA 2K23"",
+  ""answer_2"": ""Devin Booker""
+}
+```",Giannis Antetokounmpo,"The answers name different players. Giannis Antetokounmpo was the cover athlete for the most recent NBA 2K24, while Devin Booker was for NBA 2K23.","equivalent: 0
+reasoning: The answers name different players. Giannis Antetokounmpo was the cover athlete for the most recent NBA 2K24, while Devin Booker was for NBA 2K23.",,
+gpt-5-1,bamboogle,bamboogle_0002_175308b7,What rocket was the first spacecraft that ever approached Uranus launched on?,Titan IIIE-Centaur,Titan IIIE,Titan IIIE,1,1,"[""What was the first spacecraft to approach Uranus?"", ""What rocket was {answer_1} launched on?""]","{""answer_1"": ""Voyager 2"", ""answer_2"": ""Titan IIIE-Centaur""}","answer_1: str = qa_model(""What was the first spacecraft to approach Uranus?"")
+answer_2: str = qa_model(""What rocket was {answer_1} launched on?"", answer_1=answer_1)","{
+  ""answer_1"": ""Voyager 2"",
+  ""answer_2"": ""Titan IIIE-Centaur""
+}","answer:
+Titan IIIE","Answer B omits the ""Centaur"" upper stage, which is a critical component of the Titan IIIE-Centaur launch vehicle and essential for the mission's success. Therefore, Answer B is incomplete and not equivalent to Answer A.","equivalent: 0
+reasoning: Answer B omits the ""Centaur"" upper stage, which is a critical component of the Titan IIIE-Centaur launch vehicle and essential for the mission's success. Therefore, Answer B is incomplete and not equivalent to Answer A.",,
+gpt-5-1,bamboogle,bamboogle_0028_ec928c44,What is the third letter of the top level domain of the military?,i,l,l,0,1,"[""What is the top level domain of the military?"", ""What is the third letter of '{answer_1}'?""]","{""answer_1"": "".mil"", ""answer_2"": ""i""}","answer_1: str = qa_model(""What is the top level domain of the military?"")
+answer_2: str = qa_model(""What is the third letter of '{answer_1}'?"", answer_1=answer_1)","{
+  ""answer_1"": "".mil"",
+  ""answer_2"": ""i""
+}","answer:
+l","Answer A states 'i' while Answer B states 'l'. The third letter of the military TLD (.mil) is 'l', making Answer A incorrect and Answer B correct. They are contradictory.","equivalent: 0
+reasoning: Answer A states 'i' while Answer B states 'l'. The third letter of the military TLD (.mil) is 'l', making Answer A incorrect and Answer B correct. They are contradictory.",,
+gpt-5-1,bamboogle,bamboogle_0035_f61df3cd,What is the maximum airspeed (in km/h) of the third fastest bird?,209 km/h,169,320 km/h,0,0,"[""What is the third fastest bird?"", ""What is the maximum airspeed of a {answer_1} in km/h?""]","{""answer_1"": ""gyrfalcon"", ""answer_2"": ""209 km/h""}","answer_1: str = qa_model(""What is the third fastest bird?"")
+answer_2: str = qa_model(""What is the maximum airspeed of a {answer_1} in km/h?"", answer_1=answer_1)","{
+  ""answer_1"": ""gyrfalcon"",
+  ""answer_2"": ""209 km/h""
+}","answer:
+169",The numeric values (209 vs 169) are significantly different and do not fall within the allowed numeric tolerance.,"equivalent: 0
+reasoning: The numeric values (209 vs 169) are significantly different and do not fall within the allowed numeric tolerance.",,
+gpt-5-1,bamboogle,bamboogle_0043_d65a05e7,The most populous city in Punjab is how large (area wise)?,1772 km²,159 km²,310 square kilometers,0,0,"[""What is the most populous city in Punjab?"", ""What is the area of {answer_1}?""]","{""answer_1"": ""Lahore"", ""answer_2"": ""1772 km\u00b2""}","answer_1: str = qa_model(""What is the most populous city in Punjab?"")
+answer_2: str = qa_model(""What is the area of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Lahore"",
+  ""answer_2"": ""1772 km²""
+}",159 km²,The numerical values for the area (1772 km² vs 159 km²) are significantly different and do not fall within the allowed numeric tolerance.,"equivalent: 0
+reasoning: The numerical values for the area (1772 km² vs 159 km²) are significantly different and do not fall within the allowed numeric tolerance.",,
+gpt-5-1,bamboogle,bamboogle_0054_3ecff82e,When was the first location of the world's largest coffeehouse chain opened?,1971-03-30,1971-03-31,"March 30, 1971",1,0,"[""What is the world's largest coffeehouse chain?"", ""When was the first location of {answer_1} opened?""]","{""answer_1"": ""Starbucks"", ""answer_2"": ""1971-03-30""}","answer_1: str = qa_model(""What is the world's largest coffeehouse chain?"")
+answer_2: str = qa_model(""When was the first location of {answer_1} opened?"", answer_1=answer_1)","{
+  ""answer_1"": ""Starbucks"",
+  ""answer_2"": ""1971-03-30""
+}","answer:
+1971-03-31","Calendar dates must match exactly, and 1971-03-30 is not equivalent to 1971-03-31.","equivalent: 0
+reasoning: Calendar dates must match exactly, and 1971-03-30 is not equivalent to 1971-03-31.",,
+gpt-5-1,bamboogle,bamboogle_0066_6b32e7f3,The most populous national capital city was established in what year?,1868,1457,1045 BC,0,0,"[""What is the most populous national capital city?"", ""In what year was {answer_1} established?""]","{""answer_1"": ""Tokyo"", ""answer_2"": ""1868""}","answer_1: str = qa_model(""What is the most populous national capital city?"")
+answer_2: str = qa_model(""In what year was {answer_1} established?"", answer_1=answer_1)","{
+  ""answer_1"": ""Tokyo"",
+  ""answer_2"": ""1868""
+}","answer:
+1457",The years provided are different and calendar dates/years must match exactly.,"equivalent: 0
+reasoning: The years provided are different and calendar dates/years must match exactly.",,
+gpt-5-1,bamboogle,bamboogle_0080_d07f4725,In what year did work begin on the second longest road tunnel in the world?,1992,2002,1992,1,0,"[""What is the second longest road tunnel in the world?"", ""In what year did work begin on the {answer_1}?""]","{""answer_1"": ""Yamate Tunnel"", ""answer_2"": ""1992""}","answer_1: str = qa_model(""What is the second longest road tunnel in the world?"")
+answer_2: str = qa_model(""In what year did work begin on the {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Yamate Tunnel"",
+  ""answer_2"": ""1992""
+}",2002,"The years provided, 1992 and 2002, are distinct and contradict each other. Calendar dates/years must match exactly.","equivalent: 0
+reasoning: The years provided, 1992 and 2002, are distinct and contradict each other. Calendar dates/years must match exactly.",,
+gpt-5-1,bamboogle,bamboogle_0081_cfd7f8b7,What is the official color of the third oldest surviving university?,Cambridge Blue,St Andrews blue,Cambridge Blue,1,0,"[""What is the third oldest surviving university in the world?"", ""What is the official color of the {answer_1}?""]","{""answer_1"": ""University of Cambridge"", ""answer_2"": ""Cambridge Blue""}","answer_1: str = qa_model(""What is the third oldest surviving university in the world?"")
+answer_2: str = qa_model(""What is the official color of the {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""University of Cambridge"",
+  ""answer_2"": ""Cambridge Blue""
+}","answer:
+St Andrews blue","Answer A refers to the color of the University of Cambridge (second oldest), while Answer B refers to the color of the University of St Andrews (third oldest), which is what the question asks for. The answers contradict each other regarding the specific university.","equivalent: 0
+reasoning: Answer A refers to the color of the University of Cambridge (second oldest), while Answer B refers to the color of the University of St Andrews (third oldest), which is what the question asks for. The answers contradict each other regarding the specific university.",,
+gpt-5-1,bamboogle,bamboogle_0084_6694d7d9,Who produced the longest running video game franchise?,Minnesota Educational Computing Consortium (MECC),Nintendo,MECC,1,0,"[""What is the longest running video game franchise?"", ""Who produced the '{answer_1}' franchise?""]","{""answer_1"": ""The Oregon Trail"", ""answer_2"": ""Minnesota Educational Computing Consortium (MECC)""}","answer_1: str = qa_model(""What is the longest running video game franchise?"")
+answer_2: str = qa_model(""Who produced the '{answer_1}' franchise?"", answer_1=answer_1)","{
+  ""answer_1"": ""The Oregon Trail"",
+  ""answer_2"": ""Minnesota Educational Computing Consortium (MECC)""
+}","answer:
+Nintendo","The answers refer to two different entities (MECC vs. Nintendo) as the producer of the longest-running video game franchise, making them contradictory.","equivalent: 0
+reasoning: The answers refer to two different entities (MECC vs. Nintendo) as the producer of the longest-running video game franchise, making them contradictory.",,
+gpt-5-1,hotpotqa,5a72a00d5542991f9a20c53c,Who developed the prototype pacemaker used by the 34th President of the USA?,Paul M. Zoll,Wilson Greatbatch,R Adams Cowley,0,0,"[""Who was the 34th President of the USA?"", ""Who developed the prototype pacemaker used by {answer_1}?""]","{""answer_1"": ""Dwight D. Eisenhower"", ""answer_2"": ""Paul M. Zoll""}","answer_1: str = qa_model(""Who was the 34th President of the USA?"")
+answer_2: str = qa_model(""Who developed the prototype pacemaker used by {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Dwight D. Eisenhower"",
+  ""answer_2"": ""Paul M. Zoll""
+}","answer:
+Wilson Greatbatch","The answers provide different names for the developer, indicating a contradiction. Paul M. Zoll and Wilson Greatbatch are distinct individuals.","equivalent: 0
+reasoning: The answers provide different names for the developer, indicating a contradiction. Paul M. Zoll and Wilson Greatbatch are distinct individuals.",,
+gpt-5-1,hotpotqa,5a72d98f5542992359bc31ac,Torrens Bridge railway station was located east of a park named after who?,Thomas Elder,John Langdon Bonython,Sir John Langdon Bonython,0,1,"[""What is the name of the park located east of Torrens Bridge railway station?"", ""Who was {answer_1} named after?""]","{""answer_1"": ""Elder Park"", ""answer_2"": ""Thomas Elder""}","answer_1: str = qa_model(""What is the name of the park located east of Torrens Bridge railway station?"")
+answer_2: str = qa_model(""Who was {answer_1} named after?"", answer_1=answer_1)","{
+  ""answer_1"": ""Elder Park"",
+  ""answer_2"": ""Thomas Elder""
+}","answer:
+John Langdon Bonython","The answers provide different names for the person the park was named after, creating a direct contradiction.","equivalent: 0
+reasoning: The answers provide different names for the person the park was named after, creating a direct contradiction.",,
+gpt-5-1,hotpotqa,5a7413315542993a88ae2efb,"What town does the Mount Agamenticus region covers has the summer resort's name means ""beautiful place by the sea""?",Wells,Ogunquit,Ogunquit,0,1,"[""What is the name of a summer resort whose name means 'beautiful place by the sea'?"", ""What town in the Mount Agamenticus region is home to {answer_1}?""]","{""answer_1"": ""Ogunquit"", ""answer_2"": ""Wells""}","answer_1: str = qa_model(""What is the name of a summer resort whose name means 'beautiful place by the sea'?"")
+answer_2: str = qa_model(""What town in the Mount Agamenticus region is home to {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Ogunquit"",
+  ""answer_2"": ""Wells""
+}","answer:
+Ogunquit","The answers refer to different towns. Ogunquit means ""beautiful place by the sea"" in Abenaki, while Wells does not.","equivalent: 0
+reasoning: The answers refer to different towns. Ogunquit means ""beautiful place by the sea"" in Abenaki, while Wells does not.",,
+gpt-5-1,hotpotqa,5a74a3bd55429979e28829da,Who invented the type of script used in autographs?,It has no single inventor; it developed gradually from ancient Roman writing,Platt Rogers Spencer,the Sumerians,0,0,"[""What type of script is used in autographs?"", ""Who invented {answer_1}?""]","{""answer_1"": ""cursive script"", ""answer_2"": ""It has no single inventor; it developed gradually from ancient Roman writing""}","answer_1: str = qa_model(""What type of script is used in autographs?"")
+answer_2: str = qa_model(""Who invented {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""cursive script"",
+  ""answer_2"": ""It has no single inventor; it developed gradually from ancient Roman writing""
+}","answer:
+Platt Rogers Spencer","Answer A states there is no single inventor, while Answer B names a specific inventor, which is a direct contradiction.","equivalent: 0
+reasoning: Answer A states there is no single inventor, while Answer B names a specific inventor, which is a direct contradiction.",,
+gpt-5-1,hotpotqa,5a76059155429976ec32bce6,"What shopping mall is the largest in south Texas, Malle del Norte or La Plaza Mall?",Mall del Norte,La Plaza Mall,La Plaza Mall,0,1,"[""What is the size of Mall del Norte?"", ""What is the size of La Plaza Mall?"", ""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?""]","{""answer_1"": ""1,236,000 ft\u00b2"", ""answer_2"": ""1,215,000 ft\u00b2"", ""answer_3"": ""Mall del Norte""}","answer_1: str = qa_model(""What is the size of Mall del Norte?"")
+answer_2: str = qa_model(""What is the size of La Plaza Mall?"")
+answer_3: str = qa_model(""Which is larger, Mall del Norte at {answer_1} or La Plaza Mall at {answer_2}?"", answer_1=answer_1, answer_2=answer_2)","{
+  ""answer_1"": ""1,236,000 ft²"",
+  ""answer_2"": ""1,215,000 ft²"",
+  ""answer_3"": ""Mall del Norte""
+}",La Plaza Mall,The answers contradict each other by identifying different malls as the largest.,"equivalent: 0
+reasoning: The answers contradict each other by identifying different malls as the largest.",,
+gpt-5-1,hotpotqa,5a7a61d355429941d65f25fd,Who directed the movie that Jack Covin played Dr. Ardmore in?,Brian De Palma,Tom Holland,Tom Holland,0,1,"[""What movie did Jack Covin play Dr. Ardmore in?"", ""Who directed '{answer_1}'?""]","{""answer_1"": ""Carrie"", ""answer_2"": ""Brian De Palma""}","answer_1: str = qa_model(""What movie did Jack Covin play Dr. Ardmore in?"")
+answer_2: str = qa_model(""Who directed '{answer_1}'?"", answer_1=answer_1)","{
+  ""answer_1"": ""Carrie"",
+  ""answer_2"": ""Brian De Palma""
+}","answer:
+Tom Holland","The director of ""Dressed to Kill"", the movie in which Jack Covin played Dr. Ardmore, is Brian De Palma. Answer B contradicts this fact.","equivalent: 0
+reasoning: The director of ""Dressed to Kill"", the movie in which Jack Covin played Dr. Ardmore, is Brian De Palma. Answer B contradicts this fact.",,
+gpt-5-1,hotpotqa,5a7a791f55429941d65f2669,What was the year founded of the football team that Aaron Galindo is currently a part of?,1983,1917,1928,0,0,"[""What football team is Aaron Galindo currently a part of?"", ""What year was the football team {answer_1} founded?""]","{""answer_1"": ""Santos Laguna"", ""answer_2"": ""1983""}","answer_1: str = qa_model(""What football team is Aaron Galindo currently a part of?"")
+answer_2: str = qa_model(""What year was the football team {answer_1} founded?"", answer_1=answer_1)","{
+  ""answer_1"": ""Santos Laguna"",
+  ""answer_2"": ""1983""
+}","answer:
+1917","The years provided (1983 and 1917) are different, representing a direct contradiction regarding the founding year.","equivalent: 0
+reasoning: The years provided (1983 and 1917) are different, representing a direct contradiction regarding the founding year.",,
+gpt-5-1,mintaka,100a940f,"Who was the first president after the war that ended slavery in the U.S., not including the incumbent?",Andrew Johnson,Ulysses S. Grant,Andrew Johnson,1,0,"[""Who was the U.S. president at the end of the American Civil War?"", ""Who was the U.S. president after {answer_1}?""]","{""answer_1"": ""Abraham Lincoln"", ""answer_2"": ""Andrew Johnson""}","answer_1: str = qa_model(""Who was the U.S. president at the end of the American Civil War?"")
+answer_2: str = qa_model(""Who was the U.S. president after {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Abraham Lincoln"",
+  ""answer_2"": ""Andrew Johnson""
+}","answer:
+Ulysses S. Grant","The question asks for the first president after the Civil War, excluding Abraham Lincoln. Andrew Johnson was the president immediately following Lincoln. Ulysses S. Grant was the president after Andrew Johnson. The answers refer to different individuals.","equivalent: 0
+reasoning: The question asks for the first president after the Civil War, excluding Abraham Lincoln. Andrew Johnson was the president immediately following Lincoln. Ulysses S. Grant was the president after Andrew Johnson. The answers refer to different individuals.",,
+gpt-5-1,mintaka,2652ec2b,Which award did the first puzzle game by Fireproof Games win at the British Academy Video Games Awards?,Best British Game,British Game,British Academy Games Award for Best Game,0,0,"[""What was the first puzzle game developed by Fireproof Games?"", ""Which award did '{answer_1}' win at the British Academy Video Games Awards?""]","{""answer_1"": ""The Room"", ""answer_2"": ""Best British Game""}","answer_1: str = qa_model(""What was the first puzzle game developed by Fireproof Games?"")
+answer_2: str = qa_model(""Which award did '{answer_1}' win at the British Academy Video Games Awards?"", answer_1=answer_1)","{
+  ""answer_1"": ""The Room"",
+  ""answer_2"": ""Best British Game""
+}","answer:
+British Game","The word ""Best"" is a significant part of the award title, making ""Best British Game"" and ""British Game"" distinct awards.","equivalent: 0
+reasoning: The word ""Best"" is a significant part of the award title, making ""Best British Game"" and ""British Game"" distinct awards.",,
+gpt-5-1,mintaka,286d66d0,Who was the last wife of the main character featured in the Last Samurai?,Katie Holmes,Iwayama Ito,Katie Holmes,1,0,"[""Who is the main character in the movie 'The Last Samurai'?"", ""Who was the last wife of {answer_1}?""]","{""answer_1"": ""Tom Cruise"", ""answer_2"": ""Katie Holmes""}","answer_1: str = qa_model(""Who is the main character in the movie 'The Last Samurai'?"")
+answer_2: str = qa_model(""Who was the last wife of {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Tom Cruise"",
+  ""answer_2"": ""Katie Holmes""
+}","answer:
+Iwayama Ito","Answer A refers to the actor's real-life spouse, not a character in the film. Answer B correctly identifies the main character's romantic interest within the film's narrative. The answers provide contradictory information regarding the film's characters.","equivalent: 0
+reasoning: Answer A refers to the actor's real-life spouse, not a character in the film. Answer B correctly identifies the main character's romantic interest within the film's narrative. The answers provide contradictory information regarding the film's characters.",,
+gpt-5-1,mintaka,304b59eb,Who was the top scorer of the Copa America tournament this year?,Lionel Messi; Luis Díaz,Yamila Rodríguez,"Lionel Messi, Luis Diaz",1,0,"[""What year was the most recent Copa America tournament?"", ""Who was the top scorer of the {answer_1} Copa America?""]","{""answer_1"": ""2021"", ""answer_2"": ""Lionel Messi; Luis D\u00edaz""}","answer_1: str = qa_model(""What year was the most recent Copa America tournament?"")
+answer_2: str = qa_model(""Who was the top scorer of the {answer_1} Copa America?"", answer_1=answer_1)","{
+  ""answer_1"": ""2021"",
+  ""answer_2"": ""Lionel Messi; Luis Díaz""
+}","answer:
+Yamila Rodríguez","Answer A refers to the joint top scorers of the 2021 Copa América (men's tournament), while Answer B refers to the top scorer of the 2022 Copa América Femenina (women's tournament). These are different individuals from different tournaments in different years, making the facts contradictory.","equivalent: 0
+reasoning: Answer A refers to the joint top scorers of the 2021 Copa América (men's tournament), while Answer B refers to the top scorer of the 2022 Copa América Femenina (women's tournament). These are different individuals from different tournaments in different years, making the facts contradictory.",,
+gpt-5-1,mintaka,3823137d,What is the name of the dead river that flows through the capital city of India?,Sahibi River,Yamuna River,Yamuna,0,1,"[""What is the capital city of India?"", ""What is the name of the dead river that flows through {answer_1}?""]","{""answer_1"": ""New Delhi"", ""answer_2"": ""Sahibi River""}","answer_1: str = qa_model(""What is the capital city of India?"")
+answer_2: str = qa_model(""What is the name of the dead river that flows through {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""New Delhi"",
+  ""answer_2"": ""Sahibi River""
+}","answer:
+Yamuna River","The answers name two different rivers, Sahibi River and Yamuna River, which are distinct entities.","equivalent: 0
+reasoning: The answers name two different rivers, Sahibi River and Yamuna River, which are distinct entities.",,
+gpt-5-1,mintaka,3b26d221,Who signed the world's smallest country into place?,Benito Mussolini; Pietro Gasparri,Benito Mussolini,Benito Mussolini,1,1,"[""What is the world's smallest country?"", ""Who signed the treaty that established {answer_1}?""]","{""answer_1"": ""Vatican City"", ""answer_2"": ""Benito Mussolini; Pietro Gasparri""}","answer_1: str = qa_model(""What is the world's smallest country?"")
+answer_2: str = qa_model(""Who signed the treaty that established {answer_1}?"", answer_1=answer_1)","{
+  ""answer_1"": ""Vatican City"",
+  ""answer_2"": ""Benito Mussolini; Pietro Gasparri""
+}","answer:
+Benito Mussolini","Answer B is incomplete as it omits Pietro Gasparri, who also signed the Lateran Treaty establishing Vatican City. Answer A provides both signers.","equivalent: 0
+reasoning: Answer B is incomplete as it omits Pietro Gasparri, who also signed the Lateran Treaty establishing Vatican City. Answer A provides both signers.",,
+gpt-5-1,mintaka,4af81c8c,Which awards was the latest Animal Crossing game nominated for at The Game Awards 2020?,Game of the Year; Best Family Game; Best Multiplayer Game,Game of the Year; Best Family; Best Multiplayer,"Best Family Game, Best Multiplayer Game, Game of the Year",1,1,"[""What is the latest Animal Crossing game?"", ""Which awards was '{answer_1}' nominated for at The Game Awards 2020?""]","{""answer_1"": ""Animal Crossing: New Horizons"", ""answer_2"": ""Game of the Year; Best Family Game; Best Multiplayer Game""}","answer_1: str = qa_model(""What is the latest Animal Crossing game?"")
+answer_2: str = qa_model(""Which awards was '{answer_1}' nominated for at The Game Awards 2020?"", answer_1=answer_1)","{
+  ""answer_1"": ""Animal Crossing: New Horizons"",
+  ""answer_2"": ""Game of the Year; Best Family Game; Best Multiplayer Game""
+}","answer:
+Game of the Year; Best Family; Best Multiplayer","Answer B omits ""Game"" from ""Best Family Game"" and ""Best Multiplayer Game"", making the award names incomplete and factually different from Answer A.","equivalent: 0
+reasoning: Answer B omits ""Game"" from ""Best Family Game"" and ""Best Multiplayer Game"", making the award names incomplete and factually different from Answer A.",,
+gpt-5-1,mintaka,4f485cdf,Who is the most popular in the last NBA 2k game?,Devin Booker,Stephen Curry,Kevin Durant,0,0,"[""What is the latest NBA 2k game?"", ""Who is the cover athlete for '{answer_1}'?""]","{""answer_1"": ""NBA 2K23"", ""answer_2"": ""Devin Booker""}","answer_1: str = qa_model(""What is the latest NBA 2k game?"")
+answer_2: str = qa_model(""Who is the cover athlete for '{answer_1}'?"", answer_1=answer_1)","{
+  ""answer_1"": ""NBA 2K23"",
+  ""answer_2"": ""Devin Booker""
+}","answer:
+Stephen Curry","The answers name two different individuals, Devin Booker and Stephen Curry, which are distinct facts.","equivalent: 0
+reasoning: The answers name two different individuals, Devin Booker and Stephen Curry, which are distinct facts.",,
+gpt-5-1,mintaka,4f67a88e,The youngest governor is from which state?,Florida,Kogi State,Florida,1,0,"[""Who is the youngest governor?"", ""Which state is {answer_1} the governor of?""]","{""answer_1"": ""Ron DeSantis"", ""answer_2"": ""Florida""}","answer_1: str = qa_model(""Who is the youngest governor?"")
+answer_2: str = qa_model(""Which state is {answer_1} the governor of?"", answer_1=answer_1)","{
+  ""answer_1"": ""Ron DeSantis"",
+  ""answer_2"": ""Florida""
+}","answer:
+Kogi State","The answers refer to two different states (Florida vs. Kogi State), providing contradictory information.","equivalent: 0
+reasoning: The answers refer to two different states (Florida vs. Kogi State), providing contradictory information.",,
+gpt-5-1,mintaka,5d940b68,Who is the leader of the country that the United States broke free of in 1776?,George III,Liz Truss,Boris Johnson,0,0,"[""What country did the United States declare independence from in 1776?"", ""Who was the leader of {answer_1} in 1776?""]","{""answer_1"": ""Kingdom of Great Britain"", ""answer_2"": ""George III""}","answer_1: str = qa_model(""What country did the United States declare independence from in 1776?"")
+answer_2: str = qa_model(""Who was the leader of {answer_1} in 1776?"", answer_1=answer_1)","{
+  ""answer_1"": ""Kingdom of Great Britain"",
+  ""answer_2"": ""George III""
+}","answer:
+Liz Truss","Answer A correctly identifies George III as the leader of Great Britain in 1776. Answer B, Liz Truss, was a Prime Minister in the 21st century, which is a factual contradiction.","equivalent: 0
+reasoning: Answer A correctly identifies George III as the leader of Great Britain in 1776. Answer B, Liz Truss, was a Prime Minister in the 21st century, which is a factual contradiction.",,

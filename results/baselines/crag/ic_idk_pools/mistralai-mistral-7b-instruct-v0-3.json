@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total": 15,
+    "coverage": 0.0,
+    "overall_accuracy": 0.0,
+    "accuracy_at_coverage": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "records": [
+    {
+      "id": "f844413f-c104-47f3-a5e1-acdbeaa0c30c",
+      "question": "how many \"star wars\" films were directed by george lucas?",
+      "gold": "4",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "4",
+      "raw_response": "answer: 4",
+      "judge_reasoning": "The prediction exactly matches the gold answer.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction exactly matches the gold answer.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4f917818-f833-47c4-ab0c-96edbb7e0668",
+      "question": "what is the original language of what we left behind: looking back at star trek: deep space nine?",
+      "gold": "en",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "en",
+      "raw_response": "answer: English",
+      "judge_reasoning": "The prediction 'English' is an equivalent form of the gold answer 'en' (common abbreviation), satisfying normalization rule 1.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'English' is an equivalent form of the gold answer 'en' (common abbreviation), satisfying normalization rule 1.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "4782dfd1-c169-477f-b688-f8103de15865",
+      "question": "who is the lead singer of the band coldplay?",
+      "gold": "chris martin",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "chris martin",
+      "raw_response": "Chris Martin",
+      "judge_reasoning": "The prediction 'Chris Martin' matches the gold answer 'chris martin' after case normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Chris Martin' matches the gold answer 'chris martin' after case normalization.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "aa0d473b-01fb-424a-97d5-d6b714c8b03d",
+      "question": "what song topped the billboard chart on 2004-02-04?",
+      "gold": "hey ya!",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\nJust Lose It - Eminem",
+      "judge_reasoning": "The prediction 'Just Lose It - Eminem' is a different song than the gold answer 'hey ya!', directly contradicting the gold fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Just Lose It - Eminem' is a different song than the gold answer 'hey ya!', directly contradicting the gold fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dafa6e14-f4b2-43a7-9b5d-467ea102d7ce",
+      "question": "what are the four great lakes in michigan?",
+      "gold": "superior, michigan, huron and erie.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "superior, michigan, huron and erie.",
+      "raw_response": "answer: Lake Huron; Lake Michigan; Lake Superior; Lake Erie",
+      "judge_reasoning": "The prediction lists the same four Great Lakes as the gold answer. The order of items in a list does not matter when not specified (Rule 3). Adding 'Lake' before each name is an acceptable extra detail (Rule 8), and the use of semicolons instead of commas/and is a formatting difference (Rule 5).",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same four Great Lakes as the gold answer. The order of items in a list does not matter when not specified (Rule 3). Adding 'Lake' before each name is an acceptable extra detail (Rule 8), and the use of semicolons instead of commas/and is a formatting difference (Rule 5).\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "9a294a8a-210a-4ed6-9c58-baa3e422a557",
+      "question": "what album did fergie release in 2006, which included the songs \"fergalicious\" and \"glamorous\"?",
+      "gold": "fergie released the album \"the dutchess\" in 2006, which included the songs \"fergalicious\" and \"glamorous\".",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "fergie released the album \"the dutchess\" in 2006, which included the songs \"fergalicious\" and \"glamorous\".",
+      "raw_response": "Answer: The Duchess\n\nReference(s):\n[Fergie - Discography](https://en.wikipedia.org/wiki/List_of_singles_and_albums_by_Fergie#Studio_albums)",
+      "judge_reasoning": "The prediction correctly identifies the album as 'The Duchess', which matches the gold answer 'the dutchess'. The extra reference information in the prediction is acceptable as it does not contradict the core fact.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction correctly identifies the album as 'The Duchess', which matches the gold answer 'the dutchess'. The extra reference information in the prediction is acceptable as it does not contradict the core fact.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "aa813da1-481f-4fb2-89ef-2bc8c2da4dba",
+      "question": "how much have digital album sales decreased in the us from 2013 to 2019?",
+      "gold": "78.7 million less or a -66.7% decrease",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "78.7 million less or a -66.7% decrease",
+      "raw_response": "answer: -67%",
+      "judge_reasoning": "The prediction provides the percentage decrease (-67%), which is numerically equivalent to the gold's -66.7% within the allowed tolerance (0.3 difference vs max(0.5, 1% of 66.7 = 0.667)). The prediction is a subset of the gold answer, which is acceptable per Rule 9.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction provides the percentage decrease (-67%), which is numerically equivalent to the gold's -66.7% within the allowed tolerance (0.3 difference vs max(0.5, 1% of 66.7 = 0.667)). The prediction is a subset of the gold answer, which is acceptable per Rule 9.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "6d16596e-67ee-41e6-9d90-06981a755881",
+      "question": "where was buttermilk koldsk\u00e5l first developed?",
+      "gold": "denmark",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "denmark",
+      "raw_response": "Denmark",
+      "judge_reasoning": "The prediction 'Denmark' is the same as the gold answer 'denmark', differing only in capitalization, which is ignored by normalization rules.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Denmark' is the same as the gold answer 'denmark', differing only in capitalization, which is ignored by normalization rules.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "d73e9716-0b0d-4a5b-9bdd-98a6ca835640",
+      "question": "how many times has pete sampras won the french open singles title?",
+      "gold": "invalid question",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "answer:\n0",
+      "judge_reasoning": "The gold answer \"invalid question\" implies that the premise of the question (that Pete Sampras won the French Open singles title at least once) is false. The factual consequence of this is that he won it zero times. The prediction \"0\" directly states this factual outcome. Therefore, the prediction communicates the essential fact that Pete Sampras has not won the French Open singles title, which is consistent with the gold answer's implication.\n\n```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer 'invalid question' implies that the premise of the question is false, meaning Pete Sampras won the French Open singles title zero times. The prediction '0' directly states this fact, thus communicating the same essential information.\"\n}\n```",
+      "judge_raw_response": "The gold answer \"invalid question\" implies that the premise of the question (that Pete Sampras won the French Open singles title at least once) is false. The factual consequence of this is that he won it zero times. The prediction \"0\" directly states this factual outcome. Therefore, the prediction communicates the essential fact that Pete Sampras has not won the French Open singles title, which is consistent with the gold answer's implication.\n\n```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The gold answer 'invalid question' implies that the premise of the question is false, meaning Pete Sampras won the French Open singles title zero times. The prediction '0' directly states this fact, thus communicating the same essential information.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "503bb259-cafb-4a36-972b-480cc4ed52cb",
+      "question": "who were the members of the band led zeppelin?",
+      "gold": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "the members of led zeppelin were robert plant, jimmy page, john paul jones, and john bonham.",
+      "raw_response": "answer: Jimmy Page; Robert Plant; John Bonham; John Paul Jones",
+      "judge_reasoning": "The prediction lists the same members as the gold answer. Order does not matter for lists of members, and punctuation differences (commas vs. semicolons) are ignored.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction lists the same members as the gold answer. Order does not matter for lists of members, and punctuation differences (commas vs. semicolons) are ignored.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "dc5f06b6-165b-4664-964a-82dd0a1c0784",
+      "question": "what movie won the most oscars, lincoln or the girl with the dragon tattoo?",
+      "gold": "lincoln",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "lincoln",
+      "raw_response": "The Girl with the Dragon Tattoo did not win any Oscars. Lincoln won three Oscars.",
+      "judge_reasoning": "The prediction correctly identifies 'Lincoln' as the movie that won Oscars, and explicitly states 'The Girl with the Dragon Tattoo' did not win any, thus implying 'Lincoln' won more. This aligns with the gold answer. The additional detail about the number of Oscars for Lincoln is extra but not contradictory.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction correctly identifies 'Lincoln' as the movie that won Oscars, and explicitly states 'The Girl with the Dragon Tattoo' did not win any, thus implying 'Lincoln' won more. This aligns with the gold answer. The additional detail about the number of Oscars for Lincoln is extra but not contradictory.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "ede7b552-c56b-4947-9269-1d67fa90fb18",
+      "question": "which movie won the oscar best animated feature film in 2015?",
+      "gold": "big hero 6",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Spirited Away",
+      "judge_reasoning": "The prediction 'Spirited Away' is a different movie than the gold answer 'big hero 6'. They do not refer to the same entity, thus the prediction is incorrect.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Spirited Away' is a different movie than the gold answer 'big hero 6'. They do not refer to the same entity, thus the prediction is incorrect.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "25b44b0e-8736-4420-b24b-039b6530d833",
+      "question": "what is the local name for mount vesuvius in neapolitan?",
+      "gold": "vesuvio",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "vesuvio",
+      "raw_response": "Vesuvio",
+      "judge_reasoning": "Case normalization: 'vesuvio' and 'Vesuvio' are equivalent when case is ignored.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"Case normalization: 'vesuvio' and 'Vesuvio' are equivalent when case is ignored.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "3fcd37bc-2a2d-4766-aba8-cb9708349c48",
+      "question": "who hosted the grammy awards in 2019?",
+      "gold": "alicia keys",
+      "ic_idk_is_correct": false,
+      "ic_idk_answer": "I don't know",
+      "raw_response": "Adele",
+      "judge_reasoning": "The prediction 'Adele' contradicts the gold answer 'alicia keys' regarding who hosted the Grammy Awards in 2019. These are two different individuals.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 0,\n  \"reasoning\": \"The prediction 'Adele' contradicts the gold answer 'alicia keys' regarding who hosted the Grammy Awards in 2019. These are two different individuals.\"\n}\n```",
+      "correct": 0
+    },
+    {
+      "id": "b587e2da-5fd4-43fa-a3c1-77fce0939969",
+      "question": "what is the capital of australia?",
+      "gold": "canberra",
+      "ic_idk_is_correct": true,
+      "ic_idk_answer": "canberra",
+      "raw_response": "answer: Canberra",
+      "judge_reasoning": "The prediction 'Canberra' matches the gold answer 'canberra' after applying case normalization.",
+      "judge_raw_response": "```json\n{\n  \"correct\": 1,\n  \"reasoning\": \"The prediction 'Canberra' matches the gold answer 'canberra' after applying case normalization.\"\n}\n```",
+      "correct": 0
+    }
+  ]
+}

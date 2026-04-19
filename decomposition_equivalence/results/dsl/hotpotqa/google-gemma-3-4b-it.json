@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "5a879ab05542996e4f30887e",
+    "question": "The Oberoi family is part of a hotel company that has a head office in what city?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the hotel company that includes the Oberoi family?\")\nanswer_2: str = qa_model(\"In which city is the head office of {answer_1} located?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a82171f5542990a1d231f4a",
+    "question": " What nationality was James Henry Miller's wife?",
+    "dsl": "answer_1: str = qa_model(\"Who is James Henry Miller?\")\nanswer_2: str = qa_model(\"What is the nationality of {answer_1}'s wife?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a84dd955542997b5ce3ff79",
+    "question": "Cadmium Chloride is slightly soluble in this chemical, it is also called what?",
+    "dsl": "answer_1: str = qa_model(\"What is cadmium chloride sometimes referred to as?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7e36045542991319bc9440",
+    "question": "Which tennis player won more Grand Slam titles, Henri Leconte or Jonathan Stark?",
+    "dsl": "answer_1: str = qa_model(\"Who is Henri Leconte?\")\nanswer_2: str = qa_model(\"Who is Jonathan Stark?\")\nanswer_3: str = qa_model(\"How many Grand Slam titles did {answer_1} win?\")\nanswer_4: str = qa_model(\"How many Grand Slam titles did {answer_2} win?\")\nanswer_5: str = qa_model(\"Who won more Grand Slam titles between {answer_3} and {answer_4}?\",\"answer_3=answer_3\", \"answer_4=answer_4\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adf44985542993a75d2646d",
+    "question": "Which genus of moth in the world's seventh-largest country contains only one species?",
+    "dsl": "answer_1: str = qa_model(\"Which country has the seventh largest area in the world?\")\nanswer_2: str = qa_model(\"Which genus of moths lives exclusively in {answer_1}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7d0db955429909bec76924",
+    "question": "The Dutch-Belgian television series that \"House of Anubis\" was based on first aired in what year?",
+    "dsl": "answer_1: str = qa_model(\"What is 'House of Anubis' based on?\")\nanswer_2: str = qa_model(\"In what year did the original TV show that 'House of Anubis' is based on first air?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a89372855429951533612e6",
+    "question": "What is the length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged?",
+    "dsl": "answer_1: str = qa_model(\"Where was the 2013 Liqui Moly Bathurst 12 Hour held?\")\nanswer_2: str = qa_model(\"What is the distance of the circuit at {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abd90545542996e802b47d7",
+    "question": "Fast Cars, Danger, Fire and Knives includes guest appearances from which hip hop record executive?",
+    "dsl": "answer_1: str = qa_model(\"What song features guest appearances by a hip hop record executive?\")\nanswer_2: str = qa_model(\"Who is the hip hop record executive featured in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7722d655429966f1a36c99",
+    "question": "Where did the form of music played by Die Rhöner Säuwäntzt originate?",
+    "dsl": "answer_1: str = qa_model(\"What type of music is played by Die Rhöner Säuwäntzt?\")\nanswer_2: str = qa_model(\"Where did {answer_1} originate?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae0d91e55429924de1b7198",
+    "question": "The 1988 American comedy film, The Great Outdoors, starred a four-time Academy Award nominee, who received a star on the Hollywood Walk of Fame in what year?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 1988 American comedy film, The Great Outdoors?\")\nanswer_2: str = qa_model(\"Who starred in '{answer_1}'?\")\nanswer_3: str = qa_model(\"In what year did {answer_2} receive a star on the Hollywood Walk of Fame?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac2a5d455429921a00ab01b",
+    "question": "What are the names of the current members of  American heavy metal band who wrote the music for  Hurt Locker The Musical? ",
+    "dsl": "answer_1: str = qa_model(\"What American heavy metal band wrote the music for Hurt Locker The Musical?\")\nanswer_2: str = qa_model(\"Who are the current members of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adc1309554299438c868d3b",
+    "question": "Human Error\" is the season finale of the third season of a tv show that aired on what network?",
+    "dsl": "answer_1: str = qa_model(\"What TV show has a season finale titled 'Human Error'?\")\nanswer_2: str = qa_model(\"Which season of '{answer_1}' is the final episode?\")\nanswer_3: str = qa_model(\"On what television network did '{answer_2}' air?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a83168855429966c78a6b2e",
+    "question": "Dua Lipa, an English singer, songwriter and model, the album spawned the number-one single \"New Rules\" is a song by English singer Dua Lipa from her eponymous debut studio album, released in what year?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of Dua Lipa’s debut studio album?\")\nanswer_2: str = qa_model(\"In what year was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab345db55429969a97a8122",
+    "question": "Which state does the drug stores, of which the CEO is Warren Bryant, are located?",
+    "dsl": "answer_1: str = qa_model(\"Who is the CEO of the drug store chain?\")\nanswer_2: str = qa_model(\"Which state are the drug stores located in {answer_1}?\",\"answer_1={answer_1}\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac2a912554299218029dae8",
+    "question": "Which band was founded first, Hole, the rock band that Courtney Love was a frontwoman of, or The Wolfhounds?",
+    "dsl": "answer_1: str = qa_model(\"Which band was Courtney Love a frontwoman of?\")\nanswer_2: str = qa_model(\"When was {answer_1} formed?\")\nanswer_3: str = qa_model(\"When was The Wolfhounds formed?\", answer_1=answer_2)\nanswer_4: str = qa_model(\"Was {answer_3} before or after {answer_1}?\", answer_1=answer_1, answer_2=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7272eb5542997f827839d7",
+    "question": "How old is the female main protagonist of Catching Fire?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the primary female character in the novel *Catching Fire*?\")\nanswer_2: str = qa_model(\"Approximately how old is {answer_1} at the beginning of *Catching Fire*?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac2c3545542990b17b1548b",
+    "question": "Chang Ucchin was born in korea during a time that ended with the conclusion of what? ",
+    "dsl": "answer_1: str = qa_model(\"Who is Chang Ucchin?\")\nanswer_2: str = qa_model(\"Where was {answer_1} born?\")\nanswer_3: str = qa_model(\"During what historical event was {answer_1} born?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae3b4d05542992f92d82349",
+    "question": "Who is the director of the 2003 film which has scenes in it filmed at the Quality Cafe in Los Angeles?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 2003 film with scenes shot at the Quality Cafe in Los Angeles?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae3918b5542994393b9e709",
+    "question": "Were Pavel Urysohn and Leonid Levin known for the same type of work?",
+    "dsl": "answer_1: str = qa_model(\"Who is Pavel Urysohn?\")\nanswer_2: str = qa_model(\"Who is Leonid Levin?\")\nanswer_3: str = qa_model(\"What kind of art did {answer_2} create?\")\nanswer_4: str = qa_model(\"Did {answer_1} also create {answer_3}?\", answer_1=answer_1, answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac15df95542994d76dccded",
+    "question": "Which actress played the part of fictitious character Kimberly Ann Hart, in the franchise built around a live action superhero television series taking much of its footage from the Japanese tokusatsu 'Super Sentai'?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the live action superhero television series featuring a fictional character named Kimberly Ann Hart?\")\nanswer_2: str = qa_model(\"Which actress portrayed Kimberly Ann Hart in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abd7ca05542993062266cab",
+    "question": "Where is the company that purchased Aixam based in?",
+    "dsl": "answer_1: str = qa_model(\"What company acquired Aixam?\")\nanswer_2: str = qa_model(\"Where is {answer_1} headquartered?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae732685542991e8301cbc3",
+    "question": "Zimbabwe's Guwe Secondary School has a sister school in what New York cunty?",
+    "dsl": "answer_1: str = qa_model(\"What is Zimbabwe?\")\nanswer_2: str = qa_model(\"What secondary school is located in Zimbabwe?\")\nanswer_3: str = qa_model(\"In which county in New York is Guwe Secondary School’s sister school located?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7d90195542991319bc93cf",
+    "question": "The axial turbojet Pirna 014 was designed by engineers from this German aircraft and aircraft engine manufacturer based in which city?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the German aircraft and aircraft engine manufacturer?\")\nanswer_2: str = qa_model(\"Which city is headquartersed by {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"The axial turbojet Pirna 014 was designed by engineers from this German aircraft and aircraft engine manufacturer based in which city?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abee5e25542994516f45473",
+    "question": "Pauline Henry was known as the vocalist of a very popular cover song. Which album was this song from?",
+    "dsl": "answer_1: str = qa_model(\"Who is Pauline Henry?\")\nanswer_2: str = qa_model(\"What is the name of the cover song she performed with The Magnetic Fields?\")\nanswer_3: str = qa_model(\"From what album is '{answer_2}'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae78ec5554299540e5a5605",
+    "question": "Guitars for Wounded Warriors is an album that was recorded in the village in which New York county?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the village in New York County where guitars for wounded warriors were recorded?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac1f7f355429964131be2ae",
+    "question": "What does the Hacker-Pschorr Brewery have to limit in order to comply with German regulations?",
+    "dsl": "answer_1: str = qa_model(\"What is the Hacker-Pschorr Brewery known for producing?\")\nanswer_2: str = qa_model(\"According to Wikipedia, what limits does the Hacker-Pschorr Brewery need to adhere to in Germany?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a74248855429929fddd83e5",
+    "question": "Don Barry Mason was the founder of the Psychedelic Shamanistic Institute (PSI), which other member that's Welsh, that died on 10 April 2016?",
+    "dsl": "answer_1: str = qa_model(\"Who founded the Psychedelic Shamanistic Institute (PSI)?\")\nanswer_2: str = qa_model(\"{answer_1} is Welsh, what is his name?\")\nanswer_3: str = qa_model(\"When did {answer_2} die?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac3ad225542995ef918c1da",
+    "question": "Are Gin and tonic and Paloma both cocktails based on tequila?",
+    "dsl": "answer_1: str = qa_model(\"Is gin and tonic a cocktail?\")\nanswer_2: str = qa_model(\"Is Paloma a cocktail?\")\nanswer_3: str = qa_model(\"Does gin and tonic use tequila?\")\nanswer_4: str = qa_model(\"Does Paloma use tequila?\")\nanswer_5: str = qa_model(\"Are {answer_3} and {answer_4} both cocktails based on tequila?\", answer_3=answer_3, answer_4=answer_4)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a736bfa5542991f29ee2e03",
+    "question": "Who is older Glenn Hughes or Ross Lynch?",
+    "dsl": "answer_1: str = qa_model(\"Who is Glenn Hughes?\")\nanswer_2: str = qa_model(\"Who is Ross Lynch?\")\nanswer_3: str = qa_model(\"Who is older between {answer_1} and {answer_2}?\",\"answer_1=answer_1\", \"answer_2=answer_2\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5addfe6c5542997dc790710e",
+    "question": "In what year was the creator of the current arrangement of the \"Simpson's Theme\" born?",
+    "dsl": "answer_1: str = qa_model(\"Who created the current arrangement of The Simpsons theme song?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a74bdbf5542996c70cfadc7",
+    "question": "Lee Jun-fan played what character in \"The Green Hornet\" television series?",
+    "dsl": "answer_1: str = qa_model(\"What is The Green Hornet television series about?\")\nanswer_2: str = qa_model(\"Who played Kato in 'The Green Hornet' television series?\")\nanswer_3: str = qa_model(\"Who played Bruce Lee in 'The Green Hornet' television series?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab99943554299131ca42391",
+    "question": "The 1895/96 Football League season was the eighth in Football League history with Everton, their Goodison Park home, is a football stadium located in Walton, Liverpool, in which country?",
+    "dsl": "answer_1: str = qa_model(\"What year did the 1895/96 Football League season begin?\")\nanswer_2: str = qa_model(\"Which country is Liverpool located in?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is the name of the stadium where Everton plays its games?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"Where is Goodison Park located?\", answer_1=answer_3)\nanswer_5: str = qa_model(\"What city is Walton located in?\", answer_1=answer_4)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8195f35542995ce29dcc0c",
+    "question": "A Head Full of Dreams Tour is the seventh tour by Coldplay, and which had it's first show at a stadium that is known as Estadio Unico and is owned by who?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of Coldplay’s seventh tour?\")\nanswer_2: str = qa_model(\"At what venue did Coldplay begin their ‘A Head Full of Dreams’ tour?\")\nanswer_3: str = qa_model(\"Who owns Estadio Unico?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who owns the venue mentioned in {answer_3}?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7daae35542990b8f503a1d",
+    "question": "Which band has more members, Saint Motel or Curve?",
+    "dsl": "answer_1: str = qa_model(\"What kind of music does Saint Motel play?\")\nanswer_2: str = qa_model(\"What kind of music does Curve play?\")\nanswer_3: str = qa_model(\"Compare the number of members in {answer_1} and {answer_2}.\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab292e4554299545a2cf993",
+    "question": "In what political party was the man who officially opened he Royal Spa Centre in 1972?",
+    "dsl": "answer_1: str = qa_model(\"Who formally opened the Royal Spa Centre in 1972?\")\nanswer_2: str = qa_model(\"In which political party was {answer_1}?\",\"answer_1\"=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8514545542992a431d1ad2",
+    "question": "Which Oscar-nominated film was written by the screenwriter who wrote a 1991 romantic drama based upon a screenplay by Sooni Taraporevala?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the 1991 romantic drama based upon a screenplay by Sooni Taraporevala?\")\nanswer_2: str = qa_model(\"Which Oscar-nominated film was written by {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac1b48f55429963665198f3",
+    "question": "The Golden Globe Award winner for best actor from \"Roseanne\" starred along what actress in Gigantic?",
+    "dsl": "answer_1: str = qa_model(\"Who won the Golden Globe award for Best Actor from the TV show Roseanne?\")\nanswer_2: str = qa_model(\"With whom did {answer_1} star in the movie Gigantic?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab9d58855429939ce03dc3a",
+    "question": "The expert mentor to the celebrities that perform on \"Splash!\" won the 2009 FINA World Championionship in the individual event at what age? ",
+    "dsl": "answer_1: str = qa_model(\"Who is the expert mentor to the celebrities performing on 'Splash!'?\")\nanswer_2: str = qa_model(\"What year did {answer_1} win the FINA World Championship?\")\nanswer_3: str = qa_model(\"In which individual event did {answer_2} win the championship?\")\nanswer_4: str = qa_model(\"{answer_3} at what age did {answer_2} win the championship?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abcfc3b554299114383a1ad",
+    "question": "Who funds the bowling team that includes the school bus driver for Springfield Elementary School?",
+    "dsl": "answer_1: str = qa_model(\"Who is the school bus driver for Springfield Elementary School?\")\nanswer_2: str = qa_model(\"Which bowling team does {answer_1} play on?\")\nanswer_3: str = qa_model(\"Who funds the bowling team in '{answer_2}'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a72a00d5542991f9a20c53c",
+    "question": "Who developed the prototype pacemaker used by the 34th President of the USA?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 34th president of the United States?\")\nanswer_2: str = qa_model(\"What device was used by {answer_1}?\")\nanswer_3: str = qa_model(\"Who developed the prototype pacemaker used by {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8fa73e5542992414482b22",
+    "question": "Which publishing company has published Bizarre and a sister publication devoted to the anomalous phenomena popularised by Charles Fort?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the publisher of Bizarre magazine?\")\nanswer_2: str = qa_model(\"Who published a sister publication dedicated to anomalous phenomena popularized by Charles Fort?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8dfbeb5542995085b3736e",
+    "question": "Who performed the lead single on the album Friends in Low Places, No Fences, that reached #1 on Billboard?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the album 'Friends in Low Places, No Fences'?\")\nanswer_2: str = qa_model(\"Which song served as the lead single from '{answer_1}'?\")\nanswer_3: str = qa_model(\"On which chart did the single '{answer_2}' reach number one?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab39701554299233954ff5e",
+    "question": "Hate to Feel is the tenth track on what Alice in Chains' album that peaked as number six on the Billboard 200?",
+    "dsl": "answer_1: str = qa_model(\"What album by Alice in Chains contains the song 'Hate to Feel'? \")\nanswer_2: str = qa_model(\"What was the peak position of '{answer_1}' on the Billboard 200 chart?\")\nanswer_3: str = qa_model(\"What is the name of the album that reached number six on the Billboard 200 and includes the song 'Hate to Feel', according to '{answer_2}'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab6ad2855429953192ad35e",
+    "question": "The lead singer and guitarist in the Portland, Oregon rock band consisting of John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist and Eric Howk, goes by what alias?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the Portland, Oregon rock band with members John Gourley, Zach Carothers, Kyle O’Quin, Jason Sechrist and Eric Howk?\")\nanswer_2: str = qa_model(\"What alias does the lead singer and guitarist of {answer_1} go by?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adf8d5b5542995534e8c7e1",
+    "question": "What year was the winner of the 2016 Marrakesh ePrix born?",
+    "dsl": "answer_1: str = qa_model(\"Who won the 2016 Marrakesh ePrix?\")\nanswer_2: str = qa_model(\"What year was {answer_1} born?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac2423755429951e9e684ff",
+    "question": "According to the 2006 census what is the population of the city in which James Iroha Uchechukwu was born ?",
+    "dsl": "answer_1: str = qa_model(\"Who is James Iroha Uchechukwu?\")\nanswer_2: str = qa_model(\"According to the 2006 census, in which city was {answer_1} born?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a822d4655429926c1cdae45",
+    "question": "What actor in the film D.C. Cab also had a role in the TV series Barney Miller?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the film 'D.C. Cab'?\")\nanswer_2: str = qa_model(\"Which television show featured actors in 'D.C. Cab'?\")\nanswer_3: str = qa_model(\"Who acted in both '{answer2}' and 'Barney Miller'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abbbd0f55429931dba144d5",
+    "question": "Maurice Hines and his brother were famous for what?",
+    "dsl": "answer_1: str = qa_model(\"Who is Maurice Hines?\")\nanswer_2: str = qa_model(\"Who is Maurice Hines’ brother?\")\nanswer_3: str = qa_model(\"For what were Maurice Hines and his brother famous?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac3e8c65542997ea680c993",
+    "question": "Are the New Orleans Outfall Canals the same length as the Augusta Canal?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the canals in New Orleans?\")\nanswer_2: str = qa_model(\"What is the name of the canal in Augusta, Georgia?\")\nanswer_3: str = qa_model(\"Are {answer_1} and {answer_2} the same length?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a87390555429960ec39b769",
+    "question": "In which stadium do the teams owned by Myra Kraft's husband play?",
+    "dsl": "answer_1: str = qa_model(\"Who is Myra Kraft's husband?\")\nanswer_2: str = qa_model(\"What football team does {answer_1} own?\")\nanswer_3: str = qa_model(\"In which stadium do the teams owned by {answer_2} play?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8766cb5542996e4f3087d6",
+    "question": "What southern California based band covered Blue Öyster Cult's Godzilla?",
+    "dsl": "answer_1: str = qa_model(\"What Southern California band covers songs by Blue Oyster Cult?\")\nanswer_2: str = qa_model(\"Did {answer_1} cover the song 'Godzilla'?\")\nanswer_3: str = qa_model(\"If {answer_1} covered 'Godzilla', what band is it?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7ca54c55429935c91b527f",
+    "question": "The Swedish-British entertainment studio executive and film executive producer, who was the Executive producer for a 2016 American action thriller film directed by Babak Najafi, currently serve?",
+    "dsl": "answer_1: str = qa_model(\"Who is the Swedish-British entertainment studio executive and film executive producer?\")\nanswer_2: str = qa_model(\"For what film did {answer_1} serve as an Executive Producer?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What year was the film '{answer_2}' released?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"Who directed the film '{answer_3}'?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a90c2b35542995651fb51df",
+    "question": "an Emmy Award winner and two-time Tony Award winner, was on the episode 15 of the third season of \"Chuck\". what is her name ?",
+    "dsl": "answer_1: str = qa_model(\"What show featured an Emmy Award winner and two-time Tony Award winner on episode 15 of the third season?\")\nanswer_2: str = qa_model(\"What is the name of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae0fa8b5542997b2ef7d0c6",
+    "question": "What is the current name of the Atlanta Mansion built for the daughter of the 41st Mayor of Atlanta, Georgia?",
+    "dsl": "answer_1: str = qa_model(\"Who was the 41st mayor of Atlanta, Georgia?\")\nanswer_2: str = qa_model(\"What is the name of the mansion built for the daughter of {answer_1}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a74a3bd55429979e28829da",
+    "question": "Who invented the type of script used in autographs?",
+    "dsl": "answer_1: str = qa_model(\"Who created autograph scripts?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8f938a55429918e830d275",
+    "question": "Approximately what percentage of the global population is made up of the ethnic group Princess Fragrant was produced to improve relations with?",
+    "dsl": "answer_1: str = qa_model(\"Who was Princess Fragrant created to improve relations with?\")\nanswer_2: str = qa_model(\"With which ethnic group was Princess Fragant created to improve relations?\")\nanswer_3: str = qa_model(\"Approximately what percentage of the world’s population belongs to {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5add3b665542997545bbbcd2",
+    "question": "The Boren-McCurdy proposals were partially brought about by which Oklahoma politician in 1992?",
+    "dsl": "answer_1: str = qa_model(\"Who was the Oklahoma politician involved with the Boren-McCurdy proposals in 1992?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab728e45542992aa3b8c7b4",
+    "question": "The Thoen Stone is on display at a museum in what county?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the museum displaying the Thorne Stone?\")\nanswer_2: str = qa_model(\"In which county is the museum mentioned in {answer_1} located?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a74fbe55542996c70cfae63",
+    "question": "Is Children's National Medical Center or MedStar Washington Hospital Center the largest private hospital in Washington, D.C.?",
+    "dsl": "answer_1: str = qa_model(\"Which hospital is Children’s National Medical Center?\")\nanswer_2: str = qa_model(\"Which hospital is Medstar Washington Hospital Center?\")\nanswer_3: str = qa_model(\"Is {answer_1} or {answer_2} the largest private hospital in Washington, D.C.?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab30bbb55429976abd1bc39",
+    "question": "Prince William, Duke of Gloucester and Prince George of Denmark, were eventually monarchs of which Kingdom?",
+    "dsl": "answer_1: str = qa_model(\"Who is Prince William, Duke of Gloucester?\")\nanswer_2: str = qa_model(\"Who is Prince George of Denmark?\")\nanswer_3: str = qa_model(\"Which kingdom were both {answer_1} and {answer_2} monarchs of?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abdbeed5542993062266cdd",
+    "question": "The airline operating in Whitehorse, Yukon handled how many passengers in 2012?",
+    "dsl": "answer_1: str = qa_model(\"Which airline operates in Whitehorse, Yukon?\")\nanswer_2: str = qa_model(\"How many passengers did {answer_1} handle in 2012?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab6e84a554299710c8d1fab",
+    "question": "What State has a Disney Resort & Spa that is a beachside hotel, resort and vacation destination offering complimentary children's activities and programs and that Djuan Rivers was a General Manager at?",
+    "dsl": "answer_1: str = qa_model(\"What state contains a Disney Resort & Spa with beachside amenities?\")\nanswer_2: str = qa_model(\"Was Djuan Rivers a General Manager at '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abeed7e5542993fe9a41da0",
+    "question": "What is the birth date of the coach of the 2014-15 Michigan Wolverines men's basketball team?",
+    "dsl": "answer_1: str = qa_model(\"Who coached the 2014–15 Michigan Wolverines men’s basketball team?\")\nanswer_2: str = qa_model(\"What is the birthdate of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab5141a5542991779162d70",
+    "question": "Which organization presents the award in which Chris Noonan was nominated for his work in \"Babe?\"",
+    "dsl": "answer_1: str = qa_model(\"For what film was Chris Noonan nominated for an Academy Award?\")\nanswer_2: str = qa_model(\"Which organization presented the award in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a760f6855429976ec32bcf9",
+    "question": "What retailer is the second-largest in the United States and has a commercial featuring the American artist who was 1st runner-up in the 2005 USA Weekend Magazine's songwriting competition?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the second largest retail company in the United States?\")\nanswer_2: str = qa_model(\"Who is the American artist featured in commercials by {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who was the first runner-up in the 2005 USA Weekend Magazine's songwriting competition?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8a35625542992d82986efd",
+    "question": "Which English actor of stage, film and television from the 1978 BBC drama \"Pennies From Heaven\" appeared in the 2006 BBC Four television play \"Kenneth Williams: Fantabulosa!?\"",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 1978 BBC drama 'Pennies From Heaven'?\")\nanswer_2: str = qa_model(\"What is the title of the 2006 BBC Four television play featuring Kenneth Williams?\")\nanswer_3: str = qa_model(\"Which English actor of stage, film and television from {answer_1} appeared in {answer_2}?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7ccec9554299452d57ba72",
+    "question": "What video game published by Sierra Entertainment includes an antagonist figure who's mystery is the core of the series? ",
+    "dsl": "answer_1: str = qa_model(\"Which company publishes the King’s Quest series?\")\nanswer_2: str = qa_model(\"What video game published by {answer_1} features an antagonist whose mystery drives the plot?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a804fc45542992bc0c4a6f0",
+    "question": "Close to the Enemy starred the English actor known as Ash Morgan in what BBC series?",
+    "dsl": "answer_1: str = qa_model(\"Who portrayed Ash Morgan?\")\nanswer_2: str = qa_model(\"In which BBC series did {answer_1} appear?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5add85b65542997545bbbd61",
+    "question": "The Bass Rock Lighthouse was next to what Castle?",
+    "dsl": "answer_1: str = qa_model(\"What castle is near the Bass Rock Lighthouse?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ade8f5e55429975fa854f11",
+    "question": "What is the name of the movie in which Edwin Brown plays a man that executed at least 400 people, including William Joyce and John Amery?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the movie featuring Edwin Brown playing a man who executed over 400 people, including William Joyce and John Amery?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac1b7495542994ab5c67dd9",
+    "question": "What genre of music is the solo artist that contributed to Real Damage a variant of?",
+    "dsl": "answer_1: str = qa_model(\"Who contributed to the song 'Real Damage'?\")\nanswer_2: str = qa_model(\"What is the musical style of {answer_1}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae27edc5542992decbdcd2d",
+    "question": "Jake David Shapiro was best know for being the screenwriter of a film directed by who?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film with Jake David Shapiro as the screenwriter?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a84918e5542990548d0b2cf",
+    "question": "What book contains a poem which, along with \"Beowulf\" and the \"Anglo-Saxon Chronicle\", preserves a legendary list of the kings of the Angles?",
+    "dsl": "answer_1: str = qa_model(\"What book contains a poem which, along with 'Beowulf' and the 'Anglo-Saxon Chronicle', preserves a legendary list of the kings of the Angles?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac2ee675542990b17b154be",
+    "question": "Norbert Holm was arrested and later demoted because of his Chief of Operations association with a military theorist popularly known as what?",
+    "dsl": "answer_1: str = qa_model(\"Who was Norbert Holm?\")\nanswer_2: str = qa_model(\"Why was Norbert Holm arrested and demoted?\")\nanswer_3: str = qa_model(\"With whom was Norbert Holm associated as Chief of Operations?\")\nanswer_4: str = qa_model(\"What is the popular name for the military theorist Norbert Holm worked with?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae4b3da55429913cc2044d6",
+    "question": "What state does Sang-Wook Cheong work as a materials scientist?",
+    "dsl": "answer_1: str = qa_model(\"What state does Sang-Wook Cheong work as a materials scientist?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abae52a5542996cc5e49eea",
+    "question": "The 1976 German Grand Prix was won by a driver who retired in what year?",
+    "dsl": "answer_1: str = qa_model(\"Which driver won the 1976 German Grand Prix?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} retire?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae7a9c8554299540e5a5631",
+    "question": "What event at the Asian Junior Athletics Championships has men and women competing at the same time?",
+    "dsl": "answer_1: str = qa_model(\"What events at the Asian Junior Athletics Championships involve both male and female athletes simultaneously?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae0fcb855429945ae959492",
+    "question": "Which 1999 French Open - Women's Doubles runner-up was born in Russia on 7 June 1981?",
+    "dsl": "answer_1: str = qa_model(\"Who won the 1999 French Open women’s doubles tournament?\")\nanswer_2: str = qa_model(\"What was the name of the runner up at the 1999 French open women’s doubles tournament?\")\nanswer_3: str = qa_model(\"When was {answer_2} born?\")\nanswer_4: str = qa_model(\"Where was {answer_2} born?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae2e27155429928c423952a",
+    "question": "What is the length of the River which has Wild Horse Creek as a tributary ?",
+    "dsl": "answer_1: str = qa_model(\"What river contains Wildhorse creek as a tributary?\")\nanswer_2: str = qa_model(\"What is the length of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7e567b55429949594199a0",
+    "question": "Who is the American internet entrepreneur who founded the company featured on 24 Hours on Craigslist?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the company featured on the documentary '24 Hours on Craigslist'? \")\nanswer_2: str = qa_model(\"Who is the founder of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a77bd595542995d83181291",
+    "question": "Between two tennis players Kim Clijsters and Mary Pierce, who is older?",
+    "dsl": "answer_1: str = qa_model(\"Who is Kim Clijsters?\")\nanswer_2: str = qa_model(\"Who is Mary Pierce?\")\nanswer_3: str = qa_model(\"Between '{answer_2}' and '{answer_1}', who is older?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abffc58554299012d1db552",
+    "question": "Which American college that has sent students to Centre for Medieval and Renaissance Studies was founded in 1874?",
+    "dsl": "answer_1: str = qa_model(\"Which American college sends students to the Centre for Medieval and Renaissance Studies?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} founded?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab3dad4554299753aec59cb",
+    "question": "Hot Coffee, Mississippi sometimes shares a zipcode with a nearby city with what population at the 2010 census?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the city near Hot Coffee, Mississippi?\")\nanswer_2: str = qa_model(\"What is the population of {answer_1} according to the 2010 US Census?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a731dee5542992359bc3238",
+    "question": "What man, also known as mi Sde-Or, created a military self-defense system developed for the Israel Defense Forces?",
+    "dsl": "answer_1: str = qa_model(\"Who is mi Sde-Or?\")\nanswer_2: str = qa_model(\"What military self-defense system did {answer_1} create for the IDF?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7906f55542990784727792",
+    "question": "When was Fannie Lee Chaney's son born?",
+    "dsl": "answer_1: str = qa_model(\"Who is Fannie Lee Chaney?\")\nanswer_2: str = qa_model(\"Who is her son?\")\nanswer_3: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac4bfd05542997ea680caab",
+    "question": "WNP-3 and WNP-5 were constructed by the agency formed in which year?",
+    "dsl": "answer_1: str = qa_model(\"What agency built WNP-3 and WNP-5?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} established?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abb06bc554299232ef4a3bb",
+    "question": "What city does Bundestag and Reichstag building have in common?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the German capital city?\")\nanswer_2: str = qa_model(\"Does the Bundestag and Reichstag building reside in {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adffc93554299025d62a39f",
+    "question": " Teri W. Odom is a member of a scientific journal first published in 2007 by who?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the scientific journal first published in 2007?\")\nanswer_2: str = qa_model(\"Who published '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7315015542994cef4bc448",
+    "question": "What forensic psychiatrist consulted on numbers cases including one for a contract killer associated with the DeCavalcante crime family?",
+    "dsl": "answer_1: str = qa_model(\"Who consulted on number cases involving the DeCavalcante crime family?\")\nanswer_2: str = qa_model(\"What type of professional was {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab1ce395542997061209579",
+    "question": "The central character of \"The Adventures of Brer Rabbit\" was later adapted into which 1946 Walt Disney Company motion picture film?",
+    "dsl": "answer_1: str = qa_model(\"Who is the central character of 'The Adventures of Brer Rabbit'? \")\nanswer_2: str = qa_model(\"What is the name of the 1946 Walt Disney Company motion picture film featuring {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae3dde35542992f92d823a4",
+    "question": " Benjamin Halfpenny was a footballer for a club that plays its home matches where?",
+    "dsl": "answer_1: str = qa_model(\"For what football club did Benjamin Halfpenny play?\")\nanswer_2: str = qa_model(\"Where do the home matches of {answer_1} take place?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae65d055542996d980e7b14",
+    "question": "What was population of the city where the Dutch retired footballer Foeke Booy born?",
+    "dsl": "answer_1: str = qa_model(\"Where was Foeke Booy born?\")\nanswer_2: str = qa_model(\"What is the population of the city where {answer_1} was born?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8a698255429930ff3c0dcf",
+    "question": "In what year was the company that co-developed and distributed the BlackBerry DTEK60 founded?",
+    "dsl": "answer_1: str = qa_model(\"What company developed and distributed the BlackBerry DTEK60?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} founded?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adccafb5542992c1e3a2401",
+    "question": "Who chaired the ceremony in which the film written by Canet and Philippe Lefebvre won the award for Best Film?",
+    "dsl": "answer_1: str = qa_model(\"What film won the award for Best Film at the ceremony chaired by someone?\")\nanswer_2: str = qa_model(\"Who chaired the ceremony where {answer_1} won an award?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a85d5ba5542997175ce205a",
+    "question": "Der Mond was composed by the man who was best known for what cantata?",
+    "dsl": "answer_1: str = qa_model(\"Who composed the music for 'Der Mond'? \")\nanswer_2: str = qa_model(\"What cantata was Johann Sebastian Bach most famous for composing?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8a1eb755429970aeb70261",
+    "question": "Mackenzie Davis appeared in the 2013 Canadian romantic comedy film directed by whom?",
+    "dsl": "answer_1: str = qa_model(\"What year was the Canadian romantic comedy film released that featured Mackenzie Davis?\")\nanswer_2: str = qa_model(\"Who directed the film '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac3bb805542993915413909",
+    "question": "The Developing Communities Project's first executive director was which former President?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the Developing Communities Project?\")\nanswer_2: str = qa_model(\"Who was the first executive director of {answer_1}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8f7992554299458435d64c",
+    "question": "The largest ship in the \"Imperator\" class ocean liners had how many gross register tons?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the largest ship in the \\\"Imperator\\\" class ocean liners?\")\nanswer_2: str = qa_model(\"How many gross register tons did {answer_1} have?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab28cfb554299340b525515",
+    "question": "Axle Whitehead was a part of an American comedy-drama television series that is a remake of the British series with the same name set in what city?",
+    "dsl": "answer_1: str = qa_model(\"What American comedy-drama television series is a remake of the British series *Shameless*?\")\nanswer_2: str = qa_model(\"In which city is the TV show '{answer_1}' set?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab54b5c5542992aa134a298",
+    "question": "What was the event that Afghanistan competed in for the first time in 2017 officially known as?",
+    "dsl": "answer_1: str = qa_model(\"What sport does Afghanistan compete in?\")\nanswer_2: str = qa_model(\"For what year did Afghanistan compete in this sport for the first time?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What was the official name of the competition that Afghanistan participated in during {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac23b6f55429951e9e684b4",
+    "question": "Who was the director of the 2001 American romantic comedy film written by Marc Klein in which Lucy Gordon had a small role?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 2001 American romantic comedy film with Lucy Gordon having a small role?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae4ba9255429913cc2044e6",
+    "question": "What hamlet and census designated place was the location of the only pay-per-view Bunkhouse Stampede?",
+    "dsl": "answer_1: str = qa_model(\"What Hamlet and Census Designated Place hosted the only Pay-Per-View Bunkhouse Stampede?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7d231555429909bec76986",
+    "question": "La Barredora was a gang that declared war on the leader of the cartel based where?",
+    "dsl": "answer_1: str = qa_modelo(\"Where did La Barredora declare war against the leader of the cartel?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a79cc3c5542994bb94570b6",
+    "question": "What year did the chairman of the Jenkins Commission die?",
+    "dsl": "answer_1: str = qa_model(\"Who was the chairman of the Jenkins Commission?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} die?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adc1b1a55429944faac2422",
+    "question": "Superheaven and Oceansize, are bands of which shared genre?",
+    "dsl": "answer_1: str = qa_model(\"What kind of music do Superheavy and Oceansize play?\")\nanswer_2: str = qa_model(\"Are {answer_1} known for their psychedelic rock sound?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5add67b05542995b365fab2a",
+    "question": "What nationality was a  historical drama film directed by?",
+    "dsl": "answer_1: str = qa_model(\"What historical drama film is being referenced here?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\")\nanswer_3: str = qa_model(\"What is the nationality of the director in '{answer_2}'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8ef28c5542995b44241f0f",
+    "question": "The American Aircraft Penetrator was modified from a helicopter produced by what nation's military?",
+    "dsl": "answer_1: str = qa_model(\"What nation’s military produced helicopters used to create the American Aircraft Penetrator?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adf1bf75542993344016bd9",
+    "question": "Canton Road Station was a planned railway station on the Kowloon Southern Link of West Rail Line, that was to run beneath a large shopping mall located where?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the shopping mall under Canton Road Station?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8235d25542995ce29dccda",
+    "question": "What South Korean sitcom starred a South Korean singer and actress who began her music career at the age of 15?",
+    "dsl": "answer_1: str = qa_model(\"What South Korean sitcom featured a South Korean singer and actress who debuted at age 15?\")\nanswer_2: str = qa_model(\"Who starred in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8edaa955429917b4a5bde3",
+    "question": "Ghostbusters is a song written and recorded by Ray Parker Jr. as the theme song for a movie starring a Canadian-American actor who was an original member of the Not Ready for Prime Time Players on what show?",
+    "dsl": "answer_1: str = qa_model(\"What year was the movie *Ghostbusters* released?\")\nanswer_2: str = qa_model(\"Who starred in the movie *Ghostbusters*?\")\nanswer_3: str = qa_model(\"On what television show were members of the group known as the ‘Not Ready For Prime Time Players’ featured?\")\nanswer_4: str = qa_model(\"Whose song was used as the theme song to the movie *Ghostbusters*?\", answer_1=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8596c85542992a431d1b53",
+    "question": "In what country did the repression of citizens by a dictator during the period of 1973 to 1990 occur?",
+    "dsl": "answer_1: str = qa_model(\"During which time frame did a dictator repress citizens?\")\nanswer_2: str = qa_model(\"In which country occurred the repression described in {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab90af655429916710eb0ec",
+    "question": "The mother of the vice chair of Hillary Clinton's 2016 campaign for President is the director of what institue?",
+    "dsl": "answer_1: str = qa_model(\"Who is the vice chair of Hillary Clinton’s 2016 presidential campaign?\")\nanswer_2: str = qa_model(\"Who is the mother of {answer_1}? \")\nanswer_3: str = qa_model(\"What institute is the director of {answer_2}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac5247c55429924173fb602",
+    "question": "\"Apocalypic\" is a song sung by Lizzy Hale from which group? ",
+    "dsl": "answer_1: str = qa_model(\"What group sings the song 'Apocalyptic'? \")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a80b23a5542992bc0c4a7b2",
+    "question": "Ted Sutton plays Sergeant Cunningham in a2002 film that stars Mel Gibson as what character?",
+    "dsl": "answer_1: str = qa_model(\"What year was the film starring Mel Gibson released?\")\nanswer_2: str = qa_model(\"Who played Sergeant Cunningham in the film from {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What character does Mel Gibson play in the film from {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adf698f5542993a75d264e2",
+    "question": "Who directed a film that included Sarah Manninen?",
+    "dsl": "answer_1: str = qa_model(\"Which films include Sarah Manninen?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8e506d5542990e94052ac8",
+    "question": "The republic with the smallest population of all the members of the Council of Europe is one of few places in Europe where a species of beetle cannot be found, that wew originally described in 1809 by whom?",
+    "dsl": "answer_1: str = qa_model(\"Which republic is among those belonging to the Council of Europe?\")\nanswer_2: str = qa_model(\"What is the population of {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What species of beetle could not be found in {answer_1}?\")\nanswer_4: str = qa_model(\"By whom was this beetle originally described in 1809?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac3983a554299657fa290f5",
+    "question": "At the 2011 census, what was he population of the city where Kerry Saxby-Junna was born?",
+    "dsl": "answer_1: str = qa_model(\"Where was Kerry Saxby-Junna born?\")\nanswer_2: str = qa_model(\"What is the population of the city where {answer_1} was born?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac1bfd85542994ab5c67dfb",
+    "question": "How many German scientists, engineers, and technicians, were recruited in post-Nazi Germany as a result of the clandestine operation where Arthur Rudolph became one of the main developers of the U.S. ?space program",
+    "dsl": "answer_1: str = qa_model(\"What was the name of the clandestine operation involving Arthur Rudolph?\")\nanswer_2: str = qa_model(\"What space program did Arthur Rudolph develop?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"How many German scientists, engineers, and technicians were recruited after World War II?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae753b75542997b22f6a6db",
+    "question": "Jayantabhai Ki Luv Story includes a lead role for the film actress and model who is a native of what city?",
+    "dsl": "answer_1: str = qa_model(\"Who stars in the film *Jayantabhai Ki Luv Story*?\")\nanswer_2: str = qa_model(\"What is the hometown of {answer_1}?\",\"answer_1=answer_1\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a77251055429966f1a36ca5",
+    "question": "Which is currently more valuable, Temagami-Lorrain Mine or Meadowbank Gold Mine?",
+    "dsl": "answer_1: str = qa_model(\"What is the current market value of the Temagami-Lorrain Mine?\")\nanswer_2: str = qa_model(\"What is the current market value of the Meadowbank Gold Mine?\")\nanswer_3: str = qa_model(\"Is {answer_1} greater than {answer_2}?\",\"answer_1={answer_1}\", \"answer_2={answer_2}\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac0551b5542997d64295a07",
+    "question": "St James Street appears as a segment of Whitecross Street on the 1610 map of the Monmouth by an English historian best known as a mapmaker of what perior?",
+    "dsl": "answer_1: str = qa_model(\"Who is the English historian best known as a mapmaker of the period?\")\nanswer_2: str = qa_model(\"On what type of maps did this historian work?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What year was the map created that featured St James Street?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"What street appeared as a segment of Whitecross Street on the 1610 map?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7f8a535542994857a76778",
+    "question": "The Pineground Bridge formerly carried Depot Road over the Suncook River into a town with a population of what?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the bridge described?\")\nanswer_2: str = qa_model(\"Over which river did the {answer_1} cross?\")\nanswer_3: str = qa_model(\"What was the population of the town at the other side of the {answer_1}? \")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac36a07554299218029dbd5",
+    "question": "Which city is the American rock band, that released their album on March 19, 2012, from?",
+    "dsl": "answer_1: str = qa_model(\"Which American rock band released an album on March 19, 2012?\")\nanswer_2: str = qa_model(\"From what city is {answer_1} from?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac3bf5e5542995ef918c20f",
+    "question": "The Rossendale Free Press serves the town how far north of Manchester?",
+    "dsl": "answer_1: str = qa_model(\"What newspaper is called the Rossendale Free Press?\")\nanswer_2: str = qa_model(\"What town does the Rossendale Free Press serve?\")\nanswer_3: str = qa_model(\"How far north of Manchester is {answer_2}?\",\"answer_2=answer_2\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a81fab9554299676cceb1b1",
+    "question": "Which american president's father was a farmer and he was a former US representative from NY?",
+    "dsl": "answer_1: str = qa_model(\"Which American President’s father was a farmer and he was a former U.S. Representative from New York?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae546be5542990ba0bbb251",
+    "question": "Which Lightweight division mixed martial artist founded the American Combat Association?",
+    "dsl": "answer_1: str = qa_model(\"Who is the lightweight mixed martial artist?\")\nanswer_2: str = qa_model(\"Which organization did {answer_1} found?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adc89435542994d58a2f639",
+    "question": "Which video game producers worked with an English film director to produce a film about sports?",
+    "dsl": "answer_1: str = qa_model(\"Which video games were produced by EA Sports?\")\nanswer_2: str = qa_model(\"Which English film directors made movies about sports?\")\nanswer_3: str = qa_model(\"Which video game producer collaborated with a director to make a sports film?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adf9e7e5542992d7e9f93be",
+    "question": "Were Eatza Pizza and Your Pie founded in the same state?",
+    "dsl": "answer_1: str = qa_model(\"Where was Eatza Pizza founded?\")\nanswer_2: str = qa_model(\"Where was Your Pie founded?\")\nanswer_3: str = qa_model(\"Are {answer_1} and {answer_2} in the same state?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7b970c554299294a54aa0b",
+    "question": "Who is younger Mary Ramsey or Lee Ranaldo ?",
+    "dsl": "answer_1: str = qa_model(\"Who is Mary Ramsey?\")\nanswer_2: str = qa_model(\"Who is Lee Ranaldo?\")\nanswer_3: str = qa_model(\"Is {answer_2} younger than {answer_1}?\",\"answer_1={answer_1}\", \"answer_2={answer_2}\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab8f5685542991b5579f096",
+    "question": "What year was the thesis supervisor of Jocelyn Bell Burnell awarded the Eddington Medal?",
+    "dsl": "answer_1: str = qa_model(\"Who is Jocelyn Bell Burnell?\")\nanswer_2: str = qa_model(\"Who supervised her PhD thesis?\")\nanswer_3: str = qa_model(\"In what year was {answer_2} awarded the Eddington Medal?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a83cf395542996488c2e4e0",
+    "question": "What musical genre was the song that, according to Annet Artani, inspired the Britney Spears song \"Everytime\"?",
+    "dsl": "answer_1: str = qa_model(\"According to Annet Artani, what musical genre inspired the Britney Spears song 'Everytime'? \")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a817221554299260e20a28d",
+    "question": "British band The Wanted's third album includes a song with a title about which Barbadian superstar?",
+    "dsl": "answer_1: str = qa_model(\"What is The Wanted's third studio album called?\")\nanswer_2: str = qa_model(\"What is the name of the song on '{answer_1}' featuring Rihanna?\")\nanswer_3: str = qa_model(\"Who is the Barbadian superstar featured in the song '{answer_2}'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab265de5542993be8fa9901",
+    "question": "Jonas Hummels is the younger brother of a German professional footballer who plays for the German national team, and who else?",
+    "dsl": "answer_1: str = qa_model(\"Who is the older brother of Jonas Hummels?\")\nanswer_2: str = qa_model(\"What club does {answer_1} play for?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"What is {answer_1}'s position?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abc0e30554299700f9d77c5",
+    "question": "How many test centuries did the grandfather of Fabian Cowdrey make for England ?",
+    "dsl": "answer_1: str = qa_model(\"Who is Fabian Cowdrey?\")\nanswer_2: str = qa_model(\"Who is the grandfather of {answer_1}?\")\nanswer_3: str = qa_model(\"For what cricket team did the grandfather of Fabian Cowdrey play?\")\nanswer_4: str = qa_model(\"How many Test centuries did {answer_3} score?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8d69d6554299441c6b9fd6",
+    "question": "Anti-Semetism in the 21st Century: The Resurgence was hosted by a journalist and writer who is an anchor of what show?",
+    "dsl": "answer_1: str = qa_model(\"Who hosts *Anti-Semitism in the 21st Century: The Resurgence*?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5addc8765542997dc7907022",
+    "question": "The plaintiff in the civil suit Paul v. Clinton was born in which year ?",
+    "dsl": "answer_1: str = qa_model(\"Who was the plaintiff in the lawsuit Paul v. Clinton?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adcd95d5542990d50227d45",
+    "question": "How long was the rule of the dynasty that was active when the Rosetta Stone was inscribed?",
+    "dsl": "answer_1: str = qa_model(\"What dynasty was active during the inscription of the Rosetta Stone?\")\nanswer_2: str = qa_model(\"How long ruled the dynasty mentioned in {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae334345542991a06ce9951",
+    "question": "At which stadium does the team, for which Baltimore's Marching Ravens is the official marching band, play its home games?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the team whose marching band is called the Marching Ravens?\")\nanswer_2: str = qa_model(\"In what city does {answer_1} play its home games?\")\nanswer_3: str = qa_model(\"At which stadium does {answer_2} play its home games?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abeb68d5542994516f453f9",
+    "question": "The John Messer Barn is a historic structure within the Great Smoky Mountains National Park in Sevier County, Tennessee, this barn is a different Messer Barn in which valley, in the Great Smoky Mountains of North Carolina, located in the Southeastern United States?",
+    "dsl": "answer_1: str = qa_model(\"What national park contains the John Messer Barn?\")\nanswer_2: str = qa_model(\"In what county, Tennessee, is the John Messer Barn located?\")\nanswer_3: str = qa_model(\"In which valley, in the Great Smoky Mountains of North Carolina, is the Messer Barn located?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae1cab7554299492dc91b8a",
+    "question": "What nationality is the actress who played the role of Sam Sloan's wife Trudy in the sitcom The Single Guy ?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the television show 'The Single Guy'? \")\nanswer_2: str = qa_model(\"Who played the role of Trudy in '{answer_1}'?\")\nanswer_3: str = qa_model(\"What is the nationality of {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a76059155429976ec32bce6",
+    "question": "What shopping mall is the largest in south Texas, Malle del Norte or La Plaza Mall?",
+    "dsl": "answer_1: str = qa_model(\"Which shopping mall is located in South Texas?\")\nanswer_2: str = qa_model(\"Is {answer_1} larger than La Plaza Mall?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"If {answer_1} is the largest, what is its name?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae6e5d65542992ae0d163a1",
+    "question": "Who is the mother of the prince that had allegations made against him related to the lawsuit \"Two Jane Does v US\"?",
+    "dsl": "answer_1: str = qa_model(\"Who is the Prince involved in the 'Two Jane Doe vs. U.S.' lawsuit?\")\nanswer_2: str = qa_model(\"Who is the mother of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abaebab55429939ce03dd66",
+    "question": "In between Memphis International Airport and Southwest Georgia Regional Airport which one is in Tennessee?",
+    "dsl": "answer_1: str = qa_model(\"Which airport is between Memphis International Airport and Southwest Georgia Regional Airport?\")\nanswer_2: str = qa_model(\"Is {answer_1} in Tennessee?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8fae775542992414482b3b",
+    "question": "What all female high school is located in a town in Sunyani West District  in the Brong-Ahafo Region of Ghana?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the female high school located in Sunyani West District, Brong-Ahafo Region, Ghana?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7d9eb55542990b8f5039cd",
+    "question": "What are the plants in the same genus as the Dendranthema boreale sometimes called?",
+    "dsl": "answer_1: str = qa_model(\"What plant is Dendranthema boreale?\")\nanswer_2: str = qa_model(\"What other names are used to refer to plants in the same genus as {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae5e2285542996de7b71a5a",
+    "question": "Who is the composer Howard Ashman worked with on his musical released in 1982? ",
+    "dsl": "answer_1: str = qa_model(\"What musical was released in 1982 by Howard Ashman?\")\nanswer_2: str = qa_model(\"With whom did {answer_1} work on '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a846f395542990548d0b2b8",
+    "question": "What actor portrayed a character in a television series about a fictional race of superhumans appearing in American comic books published by Marvel Comics?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the television series featuring a fictional race of superhumans originating from American comics published by Marvel Comics?\")\nanswer_2: str = qa_model(\"Which actor portrayed a character in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac13d745542991316484a91",
+    "question": "What comic book published the female superhero created by J. H. Williams III?",
+    "dsl": "answer_1: str = qa_model(\"What comic book series features the character created by J.H. Williams III?\")\nanswer_2: str = qa_model(\"Who publishes '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac28a21554299677310256e",
+    "question": "The character portrayed in \"Giuliani Time\" is a real-life informal adviser to the White House in which area?",
+    "dsl": "answer_1: str = qa_model(\"What is 'Giuliani Time'?\")\nanswer_2: str = qa_model(\"Who is Giuliani advising in the White House?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7fa11e5542995d8a8dded4",
+    "question": "Who founded the college attended by Thomas Balston, member of the Whatman paper-making family?",
+    "dsl": "answer_1: str = qa_model(\"Who is Thomas Balston?\")\nanswer_2: str = qa_model(\"What college did {answer_1} attend?\")\nanswer_3: str = qa_model(\"Who founded {answer_2}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8a315355429930ff3c0cee",
+    "question": "Joh Bruce Yeh founded a chamber ensemble who won a Grammy in 1985 for their recording of this work based on what Rusian folk tale?",
+    "dsl": "answer_1: str = qa_model(\"Who is Joh Bruce Yeh?\")\nanswer_2: str = qa_model(\"What chamber ensemble did {answer_1} found?\")\nanswer_3: str = qa_model(\"{answer_2} won a Grammy in 1985 for their recording of what work?\")\nanswer_4: str = qa_model(\"Based on what Russian folktale is '{answer_3}'?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a78d1bd55429974737f78bd",
+    "question": "Kerrygold Irish Cream Liqueur is owned by a company that mainly sells what type or product?",
+    "dsl": "answer_1: str = qa_model(\"What kind of products does the owner of Kerrygold Irish Cream Liqueur primarily sell?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7b73985542997c3ec9718b",
+    "question": "Which band has more members, Muse or The Raconteurs?",
+    "dsl": "answer_1: str = qa_model(\"What is the lineup of Muse?\")\nanswer_2: str = qa_model(\"What is the lineup of The Raconteurs?\")\nanswer_3: str = qa_model(\"How many members are in {answer_1}?\",\"answer_1\" = answer_1)\nanswer_4: str = qa_model(\"How many members are in {answer_2}?\",\"answer_2\" = answer_2)\nanswer_5: str = qa_model(\"Which band has more members between {answer_3} and {answer_4}?\", \"answer_3\" = answer_3, \"answer_4\" = answer_4)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abdb9125542993f32c2a018",
+    "question": "Titus is the soundtrack to the film that starred which actors?",
+    "dsl": "answer_1: str = qa_model(\"What film features the soundtrack titled 'Titus'? \")\nanswer_2: str = qa_model(\"Who acted in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab7409f55429928e1fe3843",
+    "question": "The producer of The Wreckage of Stars also produced albums for Texas in July, Everclear, and what other American metalcore band from Lancaster, Pennsylvania?",
+    "dsl": "answer_1: str = qa_model(\"Who produced The Wreckage of Stars?\")\nanswer_2: str = qa_model(\"For whom did {answer_1} produce albums?\")\nanswer_3: str = qa_model(\"Which American metalcore band from Lancaster, Pennsylvania, did {answer_2} produce albums for?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab7f030554299366779405a",
+    "question": "Atoms for Peace are an English-American experimental rock supergroup comprising Radiohead singer Thom Yorke, is an English musician and composer, best known as the singer and principal songwriter of which band?",
+    "dsl": "answer_1: str = qa_model(\"Who is Thom Yorke?\")\nanswer_2: str = qa_model(\"What is the name of the band that Thom Yorke is best known for?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7a791f55429941d65f2669",
+    "question": "What was the year founded of the football team that Aaron Galindo is currently a part of?",
+    "dsl": "answer_1: str = qa_model(\"What football team is Aaron Galindo currently playing for?\")\nanswer_2: str = qa_model(\"What was the founding year of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a90bd6555429933b8a205cf",
+    "question": "What is the nationality of the singer-songwriter who wrote the poetry collection Early Work ?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the poetry collection Early Work?\")\nanswer_2: str = qa_model(\"What is the nationality of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab433675542991751b4d6e6",
+    "question": "Where does Lance Stephenson of the Indiana Pacers basketball team play his home games?",
+    "dsl": "answer_1: str = qa_model(\"Which NBA team plays Lance Stephenson?\")\nanswer_2: str = qa_model(\"Where do the players of {answer_1} play their home games?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac47249554299194317399c",
+    "question": "Where did the father of Maria Brontë spend most of his adult life?",
+    "dsl": "answer_1: str = qa_model(\"Who was the father of Maria Brontë?\")\nanswer_2: str = qa_model(\"Where did {answer_1} spend most of his adult life?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5aba04fb55429939ce03dc54",
+    "question": "Toronto's Insight Sports is partially owned by what Canadian businessman?",
+    "dsl": "answer_1: str = qa_model(\"What is Insight Sports?\")\nanswer_2: str = qa_model(\"Which city is Insight Sports located in?\")\nanswer_3: str = qa_model(\"Who owns Insight Sports in Toronto?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae0925e55429945ae9593c9",
+    "question": "The 2005 documentary \"The Aristocrats\" was dedicated to a comedian that received how many Emmy Awards?",
+    "dsl": "answer_1: str = qa_model(\"What is 'The Aristocrats'?\")\nanswer_2: str = qa_model(\"'The Aristocrats' is a 2005 documentary about whom?\")\nanswer_3: str = qa_model(\"How many Emmy Awards did {answer_2} receive?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8ba62d554299240d9c205c",
+    "question": "Lendley C. Black is Chancellor of a university offering how many majors?",
+    "dsl": "answer_1: str = qa_model(\"What university does Lendley C. Black serve as chancellor of?\")\nanswer_2: str = qa_model(\"How many majors does {answer_1} offer?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abd40585542993062266c3e",
+    "question": "West Ridge and the ridge that has IndependenceAvenue/Liberation Avenue as its eastern boundary are separated by what road? ",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the road separating West Ridge and Independence Avenue/Liberation Avenue?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae6053c55429929b0807a60",
+    "question": "What is the historical name of the acid that dissolves phenazine?",
+    "dsl": "answer_1: str = qa_model(\"What chemical substance dissolves phenazine historically?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a80b84a5542992bc0c4a7dc",
+    "question": "Who completed more books in their lifetime, Anne Frank or John Kennedy Toole?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote *The Diary of a Young Girl*?\")\nanswer_2: str = qa_model(\"Who wrote *One Flew Over the Cuckoo’s Nest*?\")\nanswer_3: str = qa_model(\"How many books did {answer_1} complete during their life?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"How many books did {answer_2} write?\", answer_2=answer_2)\nanswer_5: str = qa_model(\"Who had more published works, {answer_3} or {answer_4}?\",\"answer_3=answer_3\", \"answer_4=answer_4\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae1aed65542997f29b3c0ff",
+    "question": "What side of town is the Chicago Mayer-endorsed, 38th Ward of the City of Chicago alderman serving?",
+    "dsl": "answer_1: str = qa_model(\"What city is Chicago located in?\")\nanswer_2: str = qa_model(\"What state is Chicago located in?\")\nanswer_3: str = qa_model(\"What is the name of the 38th ward Alderman in Chicago?\")\nanswer_4: str = qa_model(\"On what side of town does {answer_3} serve?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7c75a655429935c91b51c4",
+    "question": "Where is the company that built Woodvale Historic District located?",
+    "dsl": "answer_1: str = qa_model(\"What city is Woodvale Historic District located in?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a754aa455429916b01642e3",
+    "question": "Which mentor in the 3rd Sa Re Ga Ma Pa Challenge died in Kokilaben hospital?",
+    "dsl": "answer_1: str = qa_model(\"Who was the mentor in the third season of Sa Re Ga Ma Pa?\")\nanswer_2: str = qa_model(\"{answer_1} died at what hospital?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Was {answer_2} at Kokilaben Hospital?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5aba6de555429955dce3ee1d",
+    "question": "What electronic band's  song \"Dangerous\" was certified gold by the RIAA in May 2015?",
+    "dsl": "answer_1: str = qa_model(\"What electronic band performed the song 'Dangerous'?\")\nanswer_2: str = qa_model(\"Was the song 'Dangerous' certified gold by the RIAA in what month and year?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8f20d655429924144829dc",
+    "question": "What year was the English actor and film producer born in who also starred in an adaptation with Renee Zellweger?",
+    "dsl": "answer_1: str = qa_model(\"Who is the English actor and film producer who starred in an adaptation with Renee Zellweger?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae70f035542991bbc9761b1",
+    "question": "Who's the Hungarian-born US film director renowned for adapting Stephen King novellas to the screen, including The Mist and The Green Mile?",
+    "dsl": "answer_1: str = qa_model(\"Who directed The Mist?\")\nanswer_2: str = qa_model(\"Who directed The Green Mile?\")\nanswer_3: str = qa_model(\"Was {answer_1} born in Hungary?\")\nanswer_4: str = qa_model(\"Is {answer_3} a US film director?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae0af9a5542993d6555ec17",
+    "question": "Are Grasshopper and Sake bomb both types of drinks?",
+    "dsl": "answer_1: str = qa_model(\"What type of drink is Grasshopper?\")\nanswer_2: str = qa_model(\"What type of drink is Sake Bomb?\")\nanswer_3: str = qa_model(\"Are {answer_1} and {answer_2} both types of drinks?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a778e1b5542995d831811c5",
+    "question": "Who achieved fame starring alongside John Richard Schneider in a television series?",
+    "dsl": "answer_1: str = qa_model(\"What television series featured John Richard Schneider?\")\nanswer_2: str = qa_model(\"Who gained recognition while appearing with {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7a0d665542990783324e14",
+    "question": "Who was born first, Joe Manganiello or Kirk Kerkorian?",
+    "dsl": "answer_1: str = qa_model(\"Who is Joe Manganiello?\")\nanswer_2: str = qa_model(\"Who is Kirk Kerkorian?\")\nanswer_3: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)\nanswer_4: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)\nanswer_5: str = qa_model(\"Was {answer_3} born before {answer_4}?\",\"answer_3=answer_3\", \"answer_4=answer_4\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a82411055429940e5e1a815",
+    "question": "Lee Il-hyung's first feature film was released by which company ?",
+    "dsl": "answer_1: str = qa_model(\"What is Lee Il-hyung’s first feature film?\")\nanswer_2: str = qa_model(\"By which company was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a73589d55429901807dafd1",
+    "question": "Where is the band that wrote \"The Drug in Me Is You\" based in?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the song 'The Drug In Me Is You'?\")\nanswer_2: str = qa_model(\"In what city is the band that wrote '{answer_1}' based?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5add624c5542992200553adf",
+    "question": "Who wrote and directed the film in which Adam Beach played Slipknot?",
+    "dsl": "answer_1: str = qa_model(\"What film featured Adam Beach playing Slipknot?\")\nanswer_2: str = qa_model(\"Who wrote '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who directed '{answer_2}'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ade14735542990dbb2f7f49",
+    "question": "Alamgir joined Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as a judge on which popular show?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the Pakistani music television program?\")\nanswer_2: str = qa_model(\"On what show did Alamgir join Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as judges?\",\"answer_1={answer_1}\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ade18635542997c77aded3e",
+    "question": "What network is the reality TV Show that features American former professional baseball left fielder who played 22 seasons in Major League Baseball (MLB) with the Pittsburgh Pirates and San Francisco Giants?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the reality television show featuring an MLB player?\")\nanswer_2: str = qa_model(\"With what network is '{answer_1}' broadcast?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a73931155429905862fe064",
+    "question": "What is the name of the Los Angeles resident who directed a 2016 American superhero film about a surgeon who learns the mystic arts after a career-ending car accident?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the director of a 2016 American superhero film about a surgeon who learns the mystic arts after a career-ending car accident?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adfedb755429942ec259b95",
+    "question": "Emprise Bank has branches in a city situated along what river?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the bank mentioned in the prompt?\")\nanswer_2: str = qa_model(\"In which city are there branches of {answer_1}?\")\nanswer_3: str = qa_model(\"Along what river is this city situated?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab1c5cb554299722f9b4c61",
+    "question": "Who represents the district that Gawthorpe is in?",
+    "dsl": "answer_1: str = qa_model(\"Who is Gawthorpe?\")\nanswer_2: str = qa_model(\"Which district does {answer_1} represent?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae73a195542991e8301cbfd",
+    "question": "George Palmer Putnam, was an American publisher, author and explorer, known for his marriage to who, which American aviation pioneer and author, and was the first female aviator to fly solo across the Atlantic Ocean?",
+    "dsl": "answer_1: str = qa_model(\"Who married George Palmer Putnam?\")\nanswer_2: str = qa_model(\"Who was the American aviation pioneer and author whom George Palmer Putnam married?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who was the first female aviator to fly solo across the Atlantic Ocean?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7a906555429941d65f26b0",
+    "question": "Emma Rose Kenney's roll in a Blue Sky Studios produced film earned how much money?",
+    "dsl": "answer_1: str = qa_model(\"What Blue Sky Studios produced film featured Emma Rose Kenney?\")\nanswer_2: str = qa_model(\"How much money did the film '{answer_1}' earn?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab55478554299488d4d993d",
+    "question": "The President of Egypt that changed the Hamayouni Decree was born in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who was the president of Egypt who changed the Hamayouni Decree?\")\nanswer_2: str = qa_model(\"{answer_1} was born in what year?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adff29555429942ec259ba7",
+    "question": "A 2001 Indian epic sports-drama film starred an actor who was also know for his role in what 1999 movie?",
+    "dsl": "answer_1: str = qa_model(\"What year was the Indian epic sports-drama film released?\")\nanswer_2: str = qa_model(\"Who starred in the film '{answer_1}'?\")\nanswer_3: str = qa_model(\"What 1999 movie was the actor known for?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7a8dab554299042af8f66a",
+    "question": "Huddersfield Giants R.L.F.C. are an English professional rugby league club from Huddersfield, West Yorkshire, the birthplace of rugby league, who play in the Super League competition, they play their home games at the Kirklees Stadium which is shared with Huddersfield Town F.C., is a multi-use sports stadium in Huddersfield in West Yorkshire, in which country?",
+    "dsl": "answer_1: str = qa_model(\"Which country do the Huddersfield Giants play in?\")\nanswer_2: str = qa_model(\"In which country is the Kirklees Stadium located?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab3020e55429976abd1bc1a",
+    "question": "Javier Mora, is a Mexican boxer in the Heavyweight division, he was defeated by Alexander Vladimirovich \"Sasha\" Povetkin, by a 5-round TKO, in which country?",
+    "dsl": "answer_1: str = qa_model(\"Who is Javier Mora?\")\nanswer_2: str = qa_model(\"Against whom did Javier Mora fight?\")\nanswer_3: str = qa_model(\"In what country did Javier Mora fight Sasha Povetkin?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abab7af554299232ef4a384",
+    "question": "Both Martha Stewart Living and Tall Timber Short Lines are considered what?",
+    "dsl": "answer_1: str = qa_model(\"What kind of stores are Martha Stewart Living and Tall Timber Short Lines?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8474565542993344746136",
+    "question": "Which American singer plays in the rock band Queens of the Stone Age and Kyuss?",
+    "dsl": "answer_1: str = qa_model(\"Which American singer plays in the rock band Queens of the Stone Age?\")\nanswer_2: str = qa_model(\"Which American singer plays in the rock band Kyuss?\")\nanswer_3: str = qa_model(\"Who is the singer who plays in both Queens of the Stone Age and Kyuss?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a90aeda5542990a98493699",
+    "question": "The Riverport Railroad operates a former army depot track that was opened in what year?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the railroad?\")\nanswer_2: str = qa_model(\"What was the opening year of the former army depot track operated by {answer_1}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a812fce55429926c1cdad02",
+    "question": "The first person to interpret Relational quantum mechanics has worked in what countries? ",
+    "dsl": "answer_1: str = qa_model(\"Who interpreted Relational Quantum Mechanics?\")\nanswer_2: str = qa_model(\"In which countries has {answer_1} worked?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a874fd15542996432c57260",
+    "question": "What was the film debut of the actress who starred in Pandemonium?",
+    "dsl": "answer_1: str = qa_model(\"Who starred in the film *Pandemonium*?\")\nanswer_2: str = qa_model(\"What was the film debut of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7c2c7f5542996dd594b8ae",
+    "question": "Charles Allan Rich recorded what song written by his wife? ",
+    "dsl": "answer_1: str = qa_model(\"Who is Charles Allan Rich?\")\nanswer_2: str = qa_model(\"{answer_1} wrote songs with whom?\")\nanswer_3: str = qa_model(\"What song did {answer_2} write for {answer_1}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8f408e5542992414482a10",
+    "question": "The U.S President that Gerald Ford succeeded was a Senator for which state prior to being elected president?",
+    "dsl": "answer_1: str = qa_model(\"Who preceded Gerald Ford as U.S. President?\")\nanswer_2: str = qa_model(\"For what state was {answer_1} a senator before becoming president?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7ba3fb5542995eb53be973",
+    "question": "The actor who played Bob Muldoon in \"Ain't Them Bodies Saints\" was born in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who played Bob Muldoon in the movie 'Ain’t Them Bodies Saints'?\")\nanswer_2: str = qa_model(\"In what year was {answer_1} born?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae331945542991a06ce994c",
+    "question": "Graham Hamilton portrayed Fagin in a musical based on a novel by which author ?",
+    "dsl": "answer_1: str = qa_model(\"What novel is the basis for the musical about Fagin?\")\nanswer_2: str = qa_model(\"Who authored the novel '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who portrayed Fagin in the musical based on '{answer_2}'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac425215542997ea680ca11",
+    "question": "The football team based in Chester,Cheshire moved to what stadium in 1992?",
+    "dsl": "answer_1: str = qa_model(\"Which football team is based in Chester, Cheshire?\")\nanswer_2: str = qa_model(\"In what year did {answer_1} move to their current stadium?\")\nanswer_3: str = qa_model(\"What is the name of the stadium that {answer_2} moved to?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8b634255429949d91db58b",
+    "question": "What symbol did a Ghanaian stateswoman, teacher and artist known for designing Ghana's flag in 1957 use in that flag?",
+    "dsl": "answer_1: str = qa_model(\"Who designed Ghana’s flag in 1957?\")\nanswer_2: str = qa_model(\"What symbol did {answer_1} use in the flag design?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a771b985542993569682cc3",
+    "question": "What is the name of the dealer typically employed by casinos who might work the game Blackjack Switch patented in 2009?",
+    "dsl": "answer_1: str = qa_model(\"What is the patent number for Blackjack Switch?\")\nanswer_2: str = qa_model(\"Who employs the dealer working Blackjack Switch with patent {answer_1}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adcb30f5542994734353770",
+    "question": "When did the Soviet composer of French language title L'amour des trois oranges die?",
+    "dsl": "answer_1: str = qa_model(\"Who composed the song 'L’Amour des Trois Oranges'?\")\nanswer_2: str = qa_model(\"What nationality was {answer_1}?\")\nanswer_3: str = qa_model(\"When did {answer_2} die?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7e3e6f5542994959419940",
+    "question": "What county is the city that contains Florida State Road 736's easterb terminus the seat of?",
+    "dsl": "answer_1: str = qa_model(\"What is the easternmost terminal of Florida State Road 736?\")\nanswer_2: str = qa_model(\"What city contains the location of {answer_1}? \")\nanswer_3: str = qa_model(\"What county is the seat of {answer_2}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8b06a955429971feec461c",
+    "question": "What are the three language divisions of the group of tribes the Santee Dakota people belong to?",
+    "dsl": "answer_1: str = qa_model(\"What tribe do the Santee Dakota people belong to?\")\nanswer_2: str = qa_model(\"What are the three language divisions of the group of tribes that include the Santee Dakota people?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ade4d655542997c77adede0",
+    "question": "Uroš Matić plays for Copenhagen which is a Danish football club founded in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who plays for Copenhagen Football Club?\")\nanswer_2: str = qa_model(\"Which country is Copenhagen Football Club located in?\")\nanswer_3: str = qa_model(\"In what year was Copenhagen Football Club founded?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab2c2e6554299545a2cfa62",
+    "question": "Which star of \"Not Like Everyone Else\" was also in \"Drunk History\"?",
+    "dsl": "answer_1: str = qa_model(\"Who stars in the movie 'Not Like Everyone Else'?\")\nanswer_2: str = qa_model(\"Was {answer_1} also in the TV show 'Drunk History'?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7413315542993a88ae2efb",
+    "question": "What town does the Mount Agamenticus region covers has the summer resort's name means \"beautiful place by the sea\"?",
+    "dsl": "answer_1: str = qa_model(\"What is the Mount Agamenticus region known for?\")\nanswer_2: str = qa_model(\"What is the meaning of the name of the summer resorts within the area described in '{answer_1}'?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae52e455542992663a4f13c",
+    "question": "What is the name of the stage show that was directed by a creator of a ensemble that Máiréad Carlin was a member of?",
+    "dsl": "answer_1: str = qa_model(\"Who is Máiréad Carlin associated with?\")\nanswer_2: str = qa_model(\"What is the name of an ensemble she was part of?\")\nanswer_3: str = qa_model(\"Who directed a stage show within '{answer_2}'?\")\nanswer_4: str = qa_model(\"What is the name of that stage show?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac39e565542995ef918c1bc",
+    "question": "According to the 2010 census what was the population of the county in which Wool Market, Mississippi is an unincorporated community?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the county in which Wool Market, Mississippi is located?\")\nanswer_2: str = qa_model(\"According to the 2010 United States Census Bureau, what was the population of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae195595542997b2ef7d206",
+    "question": "From which school of the Mount Vernon City School District was teacher fired, causing the school district to receive national attention?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the school in the Mount Vernon City School District that received national attention due to a teacher being fired there?\")\nanswer_2: str = qa_model(\"From which school in {answer_1} was the teacher fired?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adc74cd5542994650320d0c",
+    "question": "The small town where part of  Ewe people came from is a capital of where ",
+    "dsl": "answer_1: str = qa_model(\"Where do Ewe people come from?\")\nanswer_2: str = qa_model(\"Is {answer_1} a capital city?\")\nanswer_3: str = qa_model(\"What country is the capital city of {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae2a123554299495565daed",
+    "question": "What is the focus of the technique which developed on the technique named after Frederich Matthias Alexander",
+    "dsl": "answer_1: str = qa_model(\"Who is Frederick Matthias Alexander?\")\nanswer_2: str = qa_model(\"What is the focus of the technique developed by {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8399055542992ef85e2324",
+    "question": "What do Karl Marx and Christopher Hitchens have in common?",
+    "dsl": "answer_1: str = qa_model(\"Who is Karl Marx?\")\nanswer_2: str = qa_model(\"Who is Christopher Hitchens?\")\nanswer_3: str = qa_model(\"What do {answer_1} and {answer_2} have in common?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab5faeb554299637185c657",
+    "question": "What month was the female cast member of the King of the mountain born?",
+    "dsl": "answer_1: str = qa_model(\"Who is the female cast member of the King of the Mountain?\")\nanswer_2: str = qa_model(\"What month was {answer_1} born?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae332725542990afbd1e0d7",
+    "question": "What character from the animated television series \"The Simpsons\" is voiced by an American actor born in October 29, 1957, and is the mayor of Springfield?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the character from The Simpsons who is the mayor of Springfield?\")\nanswer_2: str = qa_model(\"Who voices {answer_1}?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"When was {answer_2} born?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What is the nationality of {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae05775554299603e4183fe",
+    "question": "What word used is used to classify a group or family of related living organisms; two examples being Clytostoma from tropical America and Syneilesis from East Asia?",
+    "dsl": "answer_1: str = qa_model(\"What is the term for classifying groups of closely related living organisms?\")\nanswer_2: str = qa_model(\"Can you give me two examples of what {answer_1} classifies?\")\nanswer_3: str = qa_model(\"What is the genus name of the organism Clytostoma?\")\nanswer_4: str = qa_model(\"What is the genus name of the organism Syneilesis?\")\nanswer_5: str = qa_model(\"Are Clytostoma and Syneilesis both classified by {answer_1}?\",\"answer_1=answer_1\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abbb9ae55429931dba144c1",
+    "question": "65 injured passengers between hilo and honolulu were aboard what flight?",
+    "dsl": "answer_1: str = qa_model(\"What flight had 65 injured passengers traveling between Hilo and Honolulu?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adeb01355429939a52fe958",
+    "question": "Elisabeth of Bavaria's husband was born on what date?",
+    "dsl": "answer_1: str = qa_model(\"Who was Elisabeth of Bavaria married to?\")\nanswer_2: str = qa_model(\"On what date was {answer_1} born?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab91bc0554299753720f6fc",
+    "question": "When did a paramilitary offshoot of the IRA start carrying ut bombings, after splitting from the Real IRA?",
+    "dsl": "answer_1: str = qa_model(\"What group split from the Real IRA?\")\nanswer_2: str = qa_model(\"When did {answer_1} begin conducting UTV bombings?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae60fea5542992663a4f24f",
+    "question": "When did the male lead of the film \"Flexing with Monty\" die?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the film 'Flexing with Monty'?\")\nanswer_2: str = qa_model(\"Who was the male lead in '{answer_1}'?\")\nanswer_3: str = qa_model(\"When did {answer_2} die?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac1673555429964131be1cc",
+    "question": "Who was the founder of the company at which Gemma Quinnell started her career as a Bluecoat?",
+    "dsl": "answer_1: str = qa_model(\"Who is Gemma Quinnell?\")\nanswer_2: str = qa_model(\"At what company did Gemma Quinnell start her career as a Bluecoat?\")\nanswer_3: str = qa_model(\"Who founded the company mentioned in {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae1415b554299422ee99645",
+    "question": "Tom Gallop played the role of Tom Cronin in a film series based on a character created by what author?",
+    "dsl": "answer_1: str = qa_model(\"What author created the character featured in the Tom Gallop film series?\")\nanswer_2: str = qa_model(\"What is the name of the film series starring Tom Gallop as Tom Cronin?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8ba2d9554299240d9c204a",
+    "question": "Kevin Brooks was born in a state bordered by what ocean?",
+    "dsl": "answer_1: str = qa_model(\"Who is Kevin Brooks?\")\nanswer_2: str = qa_model(\"In which state was {answer_1} born?\")\nanswer_3: str = qa_model(\"What oceans border {answer_2}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a78b1ca554299148911f93a",
+    "question": "Who was born later, Jamill Kelly or Daniel Cormier?",
+    "dsl": "answer_1: str = qa_model(\"Who is Jamill Kelly?\")\nanswer_2: str = qa_model(\"Who is Daniel Cormier?\")\nanswer_3: str = qa_model(\"Was {answer_2} born after {answer_1}?\",\"answer_1=answer_1\", \"answer_2=answer_2\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abbe28755429931dba145c8",
+    "question": "What unit number in the Cleveland Court Apartments belonged to the woman who was referred to as \"the first lady of civil rights?\"",
+    "dsl": "answer_1: str = qa_model(\"Who was known as ‘the first lady of civil rights’?\")\nanswer_2: str = qa_model(\"Whose apartment unit number was {answer_1} in the Cleveland Court Apartments?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abe249155429976d4830a7e",
+    "question": " Ida Roland was born in a municipality  that lies on the shores of which lake ?",
+    "dsl": "answer_1: str = qa_model(\"What municipality was Ida Roland born in?\")\nanswer_2: str = qa_model(\"On what lake does this municipality lie?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae52e6a5542990ba0bbb1ec",
+    "question": "Since when Romeo and Juliet was the first production of the play for  a live theater to digital platforms company, founded in 2013 by Stewart F. Lane and Bonnie Comley?",
+    "dsl": "answer_1: str = qa_model(\"When was the first performance of Shakespeare’s ‘Romeo and Juliet’ staged by Digital Theatre Systems?\")\nanswer_2: str = qa_model(\"Since when was Digital Theatre Systems founded?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7a9bff55429927d897bee5",
+    "question": "Which of the two people who wrote the screenplay for \"Dead & Buried\" a 1981 science fiction horror film, also worked as a director, visual effects supervisor, and occasional actor?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 1981 science fiction horror film 'Dead & Buried'?\")\nanswer_2: str = qa_model(\"Who co-wrote the screenplay for '{answer_1}'?\")\nanswer_3: str = qa_model(\"Of those writers, who also served as a director, visual effects supervisor, and occasionally an actor?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abf27285542997719eab678",
+    "question": "When was the maternal uncle of Popiel I died who was the notable author of Latin prose?",
+    "dsl": "answer_1: str = qa_model(\"Who was Popiel I?\")\nanswer_2: str = qa_model(\"Who was the maternal uncle of {answer_1}?\")\nanswer_3: str = qa_model(\"Who was the notable author of Latin prose related to {answer_2}?\")\nanswer_4: str = qa_model(\"When did {answer_3} die?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abc153f5542993a06baf84e",
+    "question": "What year did General Mills buy out the company in which Charles Pillsbury's grandfather founded?",
+    "dsl": "answer_1: str = qa_model(\"What company did Charles Pillsbury's grandfather found?\")\nanswer_2: str = qa_model(\"Who bought out {answer_1}?\")\nanswer_3: str = qa_model(\"In what year did {answer_2} acquire {answer_1}?\",\"answer_1\" = answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a877cdd5542993e715abf72",
+    "question": "Which Rihanna album is the song that inspired \"I Was a Fool\" on?",
+    "dsl": "answer_1: str = qa_model(\"Which Rihanna album contains the song 'I Was a Fool'? \")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae22afe554299234fd0440d",
+    "question": "how is Pura Vida Coffee and Fair trade coffee connected?",
+    "dsl": "answer_1: str = qa_model(\"What is Pura Vida Coffee known for?\")\nanswer_2: str = qa_model(\"Is Pura Vida Coffee considered fair trade?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a85f8a85542997b5ce4003d",
+    "question": "What Canadian film producer co-founded CrowdRise?",
+    "dsl": "answer_1: str = qa_model(\"Who co-founded CrowdRise?\")\nanswer_2: str = qa_model(\"What kind of professional is {answer_1}?\",\"answer_1\"=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a870f695542991e771816ae",
+    "question": "Who managed the Giants and won his first and only World Series to tile during his career?",
+    "dsl": "answer_1: str = qa_model(\"Who managed the San Francisco Giants baseball team?\")\nanswer_2: str = qa_model(\"During what season did {answer_1} win his first and only World Series championship?\")\nanswer_3: str = qa_model(\"What was the name of that World Series title?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8c89f55542996e8ac88ad8",
+    "question": "What is the name of the seventh studio album that was made by the creator of \"Amazing\" and \"Only You\"?",
+    "dsl": "answer_1: str = qa_model(\"Who created the songs 'Amazing' and 'Only You'?\")\nanswer_2: str = qa_model(\"What is the name of the seventh studio album made by {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abaa5b355429901930fa875",
+    "question": "What record company first realeased the video by Rihanna on which Adam Ross is featured?",
+    "dsl": "answer_1: str = qa_model(\"Who is Adam Ross?\")\nanswer_2: str = qa_model(\"Which song features Adam Ross with Rihanna?\")\nanswer_3: str = qa_model(\"What record label initially released the music video featuring Adam Ross and Rihanna?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8a17e55542992d82986eab",
+    "question": "Who was the director of the film at who end a versions of the son \"Please, Please, Please, Let Me Get What I Want\" could be heard?",
+    "dsl": "answer_1: str = qa_model(\"What film features the song 'Please, Please, Please, Let Me Get What I Want'?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a84dc9e5542997b5ce3ff78",
+    "question": "Leon Thau was an actor, TV producer and director, he had a part in a comedy which was the sixteenth in a series, they were both what?",
+    "dsl": "answer_1: str = qa_model(\"Who was Leon Thau?\")\nanswer_2: str = qa_model(\"What comedy show did Leon Thau appear in?\")\nanswer_3: str = qa_model(\"What was the sixteenth installment in the comedy series {answer_2}?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a77c4a25542997042120b2a",
+    "question": "Are Jars of Clay and Black Grape both American bands?",
+    "dsl": "answer_1: str = qa_model(\"Are Jars of Clay an American band?\")\nanswer_2: str = qa_model(\"Is Black Grape an American band?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5adf4b435542993a75d264a6",
+    "question": "Who directed the film in which the soundtrack was the first solo album by a member of the Beatles?",
+    "dsl": "answer_1: str = qa_model(\"Which film featured the first solo album by a member of The Beatles as its soundtrack?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae76c385542997ec272763d",
+    "question": "The Almost Human game Legend of Grimrock is based on a 1987 video game developed by which company?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 1987 video game?\")\nanswer_2: str = qa_model(\"Which company developed '{answer_1}'?\")\nanswer_3: str = qa_model(\"The game Legend of Grimrock is based on '{answer_2}'.\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7e1cd05542995ed0d1669a",
+    "question": "who produced the animated film that John Kassir acted in?",
+    "dsl": "answer_1: str = qa_model(\"Which animated film did John Kassir act in?\")\nanswer_2: str = qa_model(\"Who produced '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ade266d5542997c77aded73",
+    "question": "Who starred in the 2006 film about the life struggles of Chris Gardner?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 2006 film about the life struggles of Chris Gardner?\")\nanswer_2: str = qa_model(\"Who starred in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8bbc135542995e66a474ea",
+    "question": "\"No Foe Shall Gather Our Harvest\" is a poem first published in a monthly women's magazine published by who?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the monthly women’s magazine that initially published ‘No Foe Shall Gather Our Harvest’? \")\nanswer_2: str = qa_model(\"By whom was this magazine published?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7d48a05542991319bc9385",
+    "question": "Who founded the fast food chain whom Joshua Goez appeared in the \"Ranch Tooth\" commercials for?",
+    "dsl": "answer_1: str = qa_model(\"Who founded Wendy’s restaurant?\")\nanswer_2: str = qa_model(\"Whom did Joshua Goez appear in commercials for Wendy’s restaurants?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8cac72554299240d9c21d0",
+    "question": "The news program \"International Desk\" is broadcast from a building adjacent to what park?",
+    "dsl": "answer_1: str = qa_model(\"What news program is called 'International Desk'?\")\nanswer_2: str = qa_model(\"Adjacent to what park is the building broadcasting '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a72d98f5542992359bc31ac",
+    "question": "Torrens Bridge railway station was located east of a park named after who?",
+    "dsl": "answer_1: str = qa_model(\"What type of structure is Torrens Bridge railway station?\")\nanswer_2: str = qa_model(\"What is the name of the park near Torrens Bridge railway station?\")\nanswer_3: str = qa_model(\"Who is the person commemorated by the park mentioned in {answer_2}?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab7ecea55429928e1fe3938",
+    "question": "This American actress, singer, and songwriters film roles include a road-comedy-adventure film released by who?",
+    "dsl": "answer_1: str = qa_model(\"Who produced the film starring this American actress, singer, and songwriter?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae770d75542997b22f6a766",
+    "question": "Which animator from Canada served as an assistant director on an American animated television series that ran on The WB from September 24, 1999, to July 16, 2000, and on Adult Swim from July 14 to August 11, 2002?",
+    "dsl": "answer_1: str = qa_model(\"What animated television series aired on The WB from 1999 to 2000?\")\nanswer_2: str = qa_model(\"On what channel did this show air between 2002 and 2002?\")\nanswer_3: str = qa_model(\"Who is the Canadian animator who worked as an assistant director on '{answer_2}'?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abc6fde55429959677d6ab7",
+    "question": "Jake Roberts is an English film editor best known for his works on a British drama film based on what 2010 play?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the 2010 play that inspired the British drama film?\")\nanswer_2: str = qa_model(\"Who is Jake Roberts?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac3b6d85542995ef918c201",
+    "question": "Are Afrikan tähti and Cluedo both boardgames?",
+    "dsl": "answer_1: str = qa_model(\"Is Afrikan tähti a boardgame?\")\nanswer_2: str = qa_model(\"Is Cluedo a boardgame?\")\nanswer_3: str = qa_model(\"Are {answer_1} and {answer_2} both board games?\", answer_1=answer_1, answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab279c9554299340b5254d9",
+    "question": "Paul A. Freund is known for his writings on what supreme law of the United States of America?",
+    "dsl": "answer_1: str = qa_model(\"Who is Paul A. Freund?\")\nanswer_2: str = qa_model(\"What is Paul A. Freund known for writing about regarding the Supreme Law of the United States?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a76353d5542994ccc918715",
+    "question": "When was the artist who did the cover art of The Savage Frontier born?",
+    "dsl": "answer_1: str = qa_model(\"Who created the cover art for 'The Savage Frontier'?\")\nanswer_2: str = qa_model(\"When was {answer_1} born?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab4f58b55429942dd415fb2",
+    "question": "What was the father of Ruth Bryan Owen often called?",
+    "dsl": "answer_1: str = qa_model(\"Who is Ruth Bryan Owen?\")\nanswer_2: str = qa_model(\"Who was the father of {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8baf235542996e8ac889c2",
+    "question": "Jon Bokenkamp wrote the screen play for the film starring which two actors?",
+    "dsl": "answer_1: str = qa_model(\"What screenplay did Jon Bokenkamp write?\")\nanswer_2: str = qa_model(\"Who were the two actors featured in '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7f445c5542992e7d278cd6",
+    "question": "What highway is the closest town to Montague Island located on?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the closest town to Montague Island?\")\nanswer_2: str = qa_model(\"On what highway is {answer_1} located?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abe75d255429976d4830b1e",
+    "question": "The heir to the Du Pont family fortune sponsored what wrestling team?",
+    "dsl": "answer_1: str = qa_model(\"Who is the heir to the DuPont family fortune?\")\nanswer_2: str = qa_model(\"Which wrestling team did {answer_1} sponsor?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a81a4fd5542990a1d231e3d",
+    "question": "John M. Dwyer was nominated for an Academy Award after directing a film that told the story of which country music singers life?",
+    "dsl": "answer_1: str = qa_model(\"Who directed the film about Johnny Cash’s life?\")\nanswer_2: str = qa_model(\"What country were the singers in '{answer_1}' from?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abf1a6d5542990832d3a122",
+    "question": "What should you do to show respect when walking the trail Oahu trial that leads to a 150 foot waterfall, on the night of Kane, Ku, Lono, or Kanaloa at sunset and just before the sunrises?",
+    "dsl": "answer_1: str = qa_model(\"What kind of trail is this?\")\nanswer_2: str = qa_model(\"On what island is this trail located?\")\nanswer_3: str = qa_model(\"What is the height of the waterfall at the end of the trail?\")\nanswer_4: str = qa_model(\"At what time of day should one walk this trail?\")\nanswer_5: str = qa_model(\"According to Hawaiian mythology, what deities should be honored during this hike?\")\nanswer_6: str = qa_model(\"What action demonstrates respect while hiking this trail according to the prompt?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae784735542994a481bbd36",
+    "question": "What year was the formation of the Finnish metal band that wrote the song \"I'm Not Jesus\"",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the Finnish metal band that writes the song 'I’m Not Jesus'? \")\nanswer_2: str = qa_model(\"In what year was {answer_1} formed?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac1c79f5542994ab5c67e15",
+    "question": "Are Thunbergia and Melicytus in the same family?",
+    "dsl": "answer_1: str = qa_model(\"What plant genus is Thunbergia?\")\nanswer_2: str = qa_model(\"What plant genus is Melicytus?\")\nanswer_3: str = qa_model(\"Are {answer_1} and {answer_2} in the same family?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8c7137554299240d9c2166",
+    "question": "What is the name of the founder of the famous chain of survey triangulations stretching from Hammerfest to the Black Sea?",
+    "dsl": "answer_1: str = qa_model(\"Who founded the Hammerfest–Black Sea triangulation network?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abfd0505542993fe9a41e81",
+    "question": "What company is associated with the UK but also was founded in the US?",
+    "dsl": "answer_1: str = qa_model(\"What company is headquartered in the United Kingdom?\")\nanswer_2: str = qa_model(\"In what country was {answer_1} founded?\")\nanswer_3: str = qa_model(\"Is {answer_2} the same as the United Kingdom?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae8067d5542994a481bbe8d",
+    "question": "What actress was featured in Dreamer, and was nominated for a Screen Actors Guild Award at age eight?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the movie 'Dreamer'?\")\nanswer_2: str = qa_model(\"Which actress appeared in '{answer_1}'?\")\nanswer_3: str = qa_model(\"Was {answer_2} nominated for an award?\")\nanswer_4: str = qa_model(\"At what age was {answer_2} nominated for an award?\", answer_2=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac3711f5542995ef918c18e",
+    "question": "Where did a French film director direct a 2005 British-French martial arts action thriller starring Jet Li?",
+    "dsl": "answer_1: str = qa_model(\"Which film directed by a French film director was released in 2005?\")\nanswer_2: str = qa_model(\"What genre is '{answer_1}'?\", answer_1=answer_1)\nanswer_3: str = qa_model(\"Who stars in '{answer_2}'?\", answer_2=answer_2)\nanswer_4: str = qa_model(\"What countries were involved in producing '{answer_3}'?\", answer_3=answer_3)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8f182255429924144829ae",
+    "question": "What year did the author of Eiger Dreams attempt to climb Mount Everest?",
+    "dsl": "answer_1: str = qa_model(\"Who authored the book 'Eiger Dreams'?\")\nanswer_2: str = qa_model(\"What year did {answer_1} attempt to climb Mount Everest?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae7e7115542994a481bbdf8",
+    "question": "Burn the Witch was a song from the Radiohead album that was released on which date?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the Radiohead album that contains the song 'Burn the Witch'? \")\nanswer_2: str = qa_model(\"On what date was '{answer_1}' released?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab466f95542996a3a969f7d",
+    "question": "A studio album by I Killed the Prom Queen reached the top 30 in ARIA Albums Chart, on what date was that album released?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the studio album by I Killed the Prom Queen?\")\nanswer_2: str = qa_model(\"On what date was '{answer_1}' released?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae3756e5542994393b9e6ce",
+    "question": "In which state is the Seattle Redhawks women's basketball team found?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the Seattle Redhawks women's basketball team?\")\nanswer_2: str = qa_model(\"In which state is the {answer_1} located?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a89e1585542992e4fca842e",
+    "question": "Pakistan Idol included a singer and philanthropist who has performed at what British landmark?",
+    "dsl": "answer_1: str = qa_model(\"Who won Pakistani Idol in 2007?\")\nanswer_2: str = qa_model(\"At what British landmark did {answer_1} perform?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ab5afd8554299637185c5db",
+    "question": "In 2006 \"Strictly Dance Fever\" promoted a modern afro-Cuban partner dance derived from the works of which composer?",
+    "dsl": "answer_1: str = qa_model(\"What year was 'Strictly Dance Fever' released?\")\nanswer_2: str = qa_model(\"'Strictly Dance Fever' promoted a modern afro-Cuban partner dance derived from the works of whom?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a80b418554299485f5986ce",
+    "question": "Georges Favre, the French composer, was a student of which composer of \"The Sorcerer's Apprentice\"?",
+    "dsl": "answer_1: str = qa_model(\"Who composed 'The Sorcerer's Apprentice'?\")\nanswer_2: str = qa_model(\"Georges Favre studied with {answer_1}.\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a7a61d355429941d65f25fd",
+    "question": "Who directed the movie that Jack Covin played Dr. Ardmore in?",
+    "dsl": "answer_1: str = qa_model(\"Which movie featured Jack Covin playing Dr. Ardmore?\")\nanswer_2: str = qa_model(\"Who directed '{answer_1}'?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae5301f5542990ba0bbb1f4",
+    "question": "In what year was the fairy tale of which the plot of \"Tears Were Falling\" can be viewed as a modern interpretation first published?",
+    "dsl": "answer_1: str = qa_model(\"What is the name of the fairy tale that ‘Tears Were Falling’ draws inspiration from?\")\nanswer_2: str = qa_model(\"In what year was '{answer_1}' first published?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae7d707554299540e5a5660",
+    "question": "In what year did the writer of the music for \"Love Life\" die?",
+    "dsl": "answer_1: str = qa_model(\"Who wrote the music for 'Love Life'?\")\nanswer_2: str = qa_model(\"{answer_1} died in what year?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8b62cd55429949d91db588",
+    "question": "What is the platform-adventure video game created by independent developer D-Pad Studio, and included in 2016 new intellectual properties releases notable for?",
+    "dsl": "answer_1: str = qa_model(\"What is the platform-adventure video game created by D-Pad Studio?\")\nanswer_2: str = qa_model(\"What is notable about the release of '{answer_1}' in 2016?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ae5002d55429913cc204567",
+    "question": "Ragnall ua Ímair was the grandson of a Viking leader that died in what year?",
+    "dsl": "answer_1: str = qa_model(\"Who was Ragnall ua Ímair?\")\nanswer_2: str = qa_model(\"In what year did the father of {answer_1} die?\")",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5ac3a74e554299391541388b",
+    "question": "Who helped develop nuclear power, and also worked with Ernest Walton?",
+    "dsl": "answer_1: str = qa_model(\"Who helped develop nuclear power?\")\nanswer_2: str = qa_model(\"With whom did {answer_1} work alongside?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5a8c4ca95542996e8ac88a56",
+    "question": "What was the first album released by the same boy band that released Ex'Act?",
+    "dsl": "answer_1: str = qa_model(\"What boy band released the song 'Ex'Act'? \")\nanswer_2: str = qa_model(\"What was the first album released by {answer_1}?\", answer_1=answer_1)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  },
+  {
+    "id": "5abcd21c5542993a06baf973",
+    "question": "The most famous guest at the Hotel Lester-Lester Cafe won four Olympic golds at what Games?",
+    "dsl": "answer_1: str = qa_model(\"What hotel is the Hotel Lester-Lester Cafe associated with?\")\nanswer_2: str = qa_model(\"At what Olympics did the most famous guest win four gold medals?\")\nanswer_3: str = qa_model(\"Who was the most famous guest at the Hotel Lester-Lester Cafe?\", answer_1=answer_2)",
+    "model": "google/gemma-3-4b-it",
+    "model_slug": "google-gemma-3-4b-it",
+    "success": true
+  }
+]

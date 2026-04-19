@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Token overhead for DBA in the Assistive setting. DBA(A) generates both an open-ended and an assistive answer. We report prompt and completion tokens separately, along with multipliers $m_{\text{prompt}}=(P_{\text{open}}+P_{\text{assist}})/P_{\text{open}}$, $m_{\text{compl}}=(C_{\text{open}}+C_{\text{assist}})/C_{\text{open}}$, and $m_{\text{total}}=(T_{\text{open}}+T_{\text{assist}})/T_{\text{open}}$. Tokens are averaged over the available models per dataset.}
+\label{tab:efficiency_overhead_assistive}
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Dataset} & \textbf{\#Models} & \textbf{Open (prompt)} & \textbf{Open (compl.)} & \textbf{DBA(A)/Open (prompt$\times$)} & \textbf{DBA(A)/Open (compl.$\times$)} & \textbf{DBA(A)/Open (total$\times$)} \\
+\midrule
+Bamboogle & 2 & 988 & 168 & 2.96 & 2.21 & 2.84 \\
+CRAG & 10 & 2,946 & 186 & 2.95 & 2.87 & 2.94 \\
+HotpotQA & 10 & 2,517 & 418 & 2.94 & 2.25 & 2.84 \\
+Mintaka & 10 & 2,334 & 129 & 3.02 & 2.63 & 2.99 \\
+\midrule
+\textit{Average} & 32 & 2,498 & 239 & 2.97 & 2.56 & 2.92 \\
+\bottomrule
+\end{tabular}
+\end{table}

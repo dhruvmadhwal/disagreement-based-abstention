@@ -1,0 +1,2692 @@
+{
+  "summary": {
+    "total_comparisons": 294,
+    "equivalent_answers": 69,
+    "non_equivalent_answers": 225,
+    "equivalence_rate": 0.2347
+  },
+  "comparisons": [
+    {
+      "id": "bccd1dde",
+      "question": "When was the director of Slumdog Millionaire born?",
+      "answer_a": "1956-04-18",
+      "answer_b": "1965-05-15",
+      "equivalent": 0,
+      "reasoning": "The two answers provide completely different dates (year, month, and day). This is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide completely different dates (year, month, and day). This is a contradiction."
+    },
+    {
+      "id": "83e7d209",
+      "question": "When was the director of We're the Millers born?",
+      "answer_a": "1956-07-08",
+      "answer_b": "1971-05-18",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates, which is a contradiction."
+    },
+    {
+      "id": "54ca06ca",
+      "question": "When did the author who wrote A Tale of Two Cities die?",
+      "answer_a": "1870-12-09",
+      "answer_b": "1823-07-19",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates, which must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates, which must match exactly."
+    },
+    {
+      "id": "5d940b68",
+      "question": "Who is the leader of the country that the United States broke free of in 1776?",
+      "answer_a": "King George III",
+      "answer_b": "George Washington",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory names. King George III was the leader of Great Britain, while George Washington was the leader of the American forces.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory names. King George III was the leader of Great Britain, while George Washington was the leader of the American forces."
+    },
+    {
+      "id": "430bff30",
+      "question": "Who is the second child of the novelist who wrote the novel The Green Mile?",
+      "answer_a": "Tatiana Brighton",
+      "answer_b": "Paul Edgecomb",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, Tatiana Brighton and Paul Edgecomb, which are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, Tatiana Brighton and Paul Edgecomb, which are not equivalent."
+    },
+    {
+      "id": "d9a7bed4",
+      "question": "In what year did the novelization for the first Star Wars prequel release?",
+      "answer_a": "1999",
+      "answer_b": "1999-07-01",
+      "equivalent": 1,
+      "reasoning": "The question asks for the year. Answer B provides a full date, but the year component (1999) matches Answer A. Answer B is a more specific but consistent answer.",
+      "raw_response": "equivalent: 1\nreasoning: The question asks for the year. Answer B provides a full date, but the year component (1999) matches Answer A. Answer B is a more specific but consistent answer."
+    },
+    {
+      "id": "28ce701d",
+      "question": "Which genre of music does the singer of \"Blank Space\" and \"Wildest Dreams\" sing?",
+      "answer_a": "Pop; Country",
+      "answer_b": "Taylor Swift",
+      "equivalent": 0,
+      "reasoning": "Answer A provides the music genre as requested by the question, while Answer B provides the name of the singer. These are not the same fact.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides the music genre as requested by the question, while Answer B provides the name of the singer. These are not the same fact."
+    },
+    {
+      "id": "13cd720a",
+      "question": "What is the capital of the largest country in Europe?",
+      "answer_a": "Moscow",
+      "answer_b": "Moscow",
+      "equivalent": 1,
+      "reasoning": "The two answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The two answers are identical."
+    },
+    {
+      "id": "a2836aff",
+      "question": "Who is the first child of the 44th president of the United States?",
+      "answer_a": "Malia Obama",
+      "answer_b": "Sasha Obama",
+      "equivalent": 0,
+      "reasoning": "The answers name two different individuals, Malia Obama and Sasha Obama, in response to a question asking for a single, specific person. This is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers name two different individuals, Malia Obama and Sasha Obama, in response to a question asking for a single, specific person. This is a contradiction."
+    },
+    {
+      "id": "961a46be",
+      "question": "When did the author who wrote Alice's Adventures in Wonderland die?",
+      "answer_a": "1898-11-14",
+      "answer_b": "1894-07-19",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates, which must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates, which must match exactly."
+    },
+    {
+      "id": "121be4e6",
+      "question": "What political party did the 18th U.S. president belong to?",
+      "answer_a": "Democratic-Republican Party",
+      "answer_b": "Democratic-Republican Party",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "3c369277",
+      "question": "How old was the deceased TLC member when they died?",
+      "answer_a": "36 years old",
+      "answer_b": "39 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages (36 vs 39), which is a direct contradiction of the core fact requested by the question.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages (36 vs 39), which is a direct contradiction of the core fact requested by the question."
+    },
+    {
+      "id": "2b6743e5",
+      "question": "How many stars were on the original flag of the country that declared independence from Great Britain in 1776?",
+      "answer_a": "Thirteen",
+      "answer_b": "13",
+      "equivalent": 1,
+      "reasoning": "Numeric expression normalization; words and digits are treated as equivalent (\"Thirteen\" \u2261 \"13\").",
+      "raw_response": "equivalent: 1\nreasoning: Numeric expression normalization; words and digits are treated as equivalent (\"Thirteen\" \u2261 \"13\")."
+    },
+    {
+      "id": "8451615c",
+      "question": "When was the second Super Smash Bros released?",
+      "answer_a": "1996-07-16",
+      "answer_b": "1999-09-04",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates, which must match exactly. Answer A states 1996-07-16 while Answer B states 1999-09-04.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates, which must match exactly. Answer A states 1996-07-16 while Answer B states 1999-09-04."
+    },
+    {
+      "id": "3d242bf6",
+      "question": "Who was the second wife of the 40th US president?",
+      "answer_a": "Rosalynn Carter",
+      "answer_b": "Nancy Davis Reagan",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, Rosalynn Carter and Nancy Davis Reagan, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, Rosalynn Carter and Nancy Davis Reagan, which is a contradiction."
+    },
+    {
+      "id": "678c0c86",
+      "question": "Who was the wife of the 23rd president?",
+      "answer_a": "Caroline Scott Harrison",
+      "answer_b": "Rachel Foster Baker",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names for the same person, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names for the same person, which is a direct contradiction."
+    },
+    {
+      "id": "72b9ea0d",
+      "question": "What party did the US president during the atomic bombing of Hiroshima and Nagasaki belong to?",
+      "answer_a": "Democratic Party",
+      "answer_b": "Democratic Party",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "b41432fc",
+      "question": "When did the author who wrote the Chronicles of Narnia die?",
+      "answer_a": "1963-11-22",
+      "answer_b": "1950-01-19",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates which contradict each other.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates which contradict each other."
+    },
+    {
+      "id": "4ded8418",
+      "question": "What's the tallest building in the state where Yosemite National Park is located?",
+      "answer_a": "Trump Tower Los Angeles",
+      "answer_b": "Salesforce Tower",
+      "equivalent": 0,
+      "reasoning": "The answers name two different buildings, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers name two different buildings, which is a contradiction."
+    },
+    {
+      "id": "113d3038",
+      "question": "How old was the last king of France when he was executed in 1793?",
+      "answer_a": "68 years old",
+      "answer_b": "49 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory numerical values for the age (68 vs 49).",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory numerical values for the age (68 vs 49)."
+    },
+    {
+      "id": "85c0b1fb",
+      "question": "When was the director of Pulp Fiction born?",
+      "answer_a": "1963-08-06",
+      "answer_b": "1961-09-28",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory calendar dates. Answer A states 1963-08-06 while Answer B states 1961-09-28.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory calendar dates. Answer A states 1963-08-06 while Answer B states 1961-09-28."
+    },
+    {
+      "id": "c3e5e7b8",
+      "question": "In what country was the author of the book that won the first Newbery Medal born?",
+      "answer_a": "England",
+      "answer_b": "United Kingdom",
+      "equivalent": 0,
+      "reasoning": "England is a constituent country within the sovereign state of the United Kingdom. They are distinct geopolitical entities, not aliases for one another.",
+      "raw_response": "equivalent: 0\nreasoning: England is a constituent country within the sovereign state of the United Kingdom. They are distinct geopolitical entities, not aliases for one another."
+    },
+    {
+      "id": "40354630",
+      "question": "What is the tallest mountain in the state that has a capital called Montgomery?",
+      "answer_a": "Cheaha Mountain",
+      "answer_b": "Denali",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different mountain names, Cheaha Mountain and Denali, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different mountain names, Cheaha Mountain and Denali, which is a contradiction."
+    },
+    {
+      "id": "b4aadf92",
+      "question": "What was the home city of the author of The Trial?",
+      "answer_a": "Prague",
+      "answer_b": "Vienna",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different cities, Prague and Vienna, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different cities, Prague and Vienna, which is a contradiction."
+    },
+    {
+      "id": "ebfa5a1a",
+      "question": "How tall is the actor who played Jerry Maguire in Jerry Maguire?",
+      "answer_a": "185 cm",
+      "answer_b": "1.  82 meters",
+      "equivalent": 0,
+      "reasoning": "After unit normalization (1.82 meters = 182 cm), the two answers provide different heights (185 cm vs 182 cm), which is a factual contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: After unit normalization (1.82 meters = 182 cm), the two answers provide different heights (185 cm vs 182 cm), which is a factual contradiction."
+    },
+    {
+      "id": "cd085a8c",
+      "question": "How many children does the director of Gangs of New York have?",
+      "answer_a": "Five",
+      "answer_b": "None",
+      "equivalent": 0,
+      "reasoning": "The answers provide contradictory numbers. \"Five\" (5) is not the same as \"None\" (0).",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide contradictory numbers. \"Five\" (5) is not the same as \"None\" (0)."
+    },
+    {
+      "id": "7e554842",
+      "question": "How long did the longest serving mayor serve in New York?",
+      "answer_a": "Never",
+      "answer_b": "6 years",
+      "equivalent": -1,
+      "reasoning": "Not meaningful answer; Answer A does not provide a duration and is not a meaningful response to the question \"How long...\".",
+      "raw_response": "equivalent: -1\nreasoning: Not meaningful answer; Answer A does not provide a duration and is not a meaningful response to the question \"How long...\"."
+    },
+    {
+      "id": "61eb1e66",
+      "question": "What is the tallest building in the capital city of the UK?",
+      "answer_a": "The Shard",
+      "answer_b": "The Shard: 328m",
+      "equivalent": 1,
+      "reasoning": "Answer B provides the same key fact as Answer A and adds extra descriptive text that does not contradict it.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B provides the same key fact as Answer A and adds extra descriptive text that does not contradict it."
+    },
+    {
+      "id": "bd85813c",
+      "question": "How old is the director of Spider-Man Homecoming?",
+      "answer_a": "37 years old",
+      "answer_b": "1965-07-31",
+      "equivalent": 0,
+      "reasoning": "The answers are contradictory. Answer A states an age of 37, while Answer B provides a date of birth (1965-07-31) which calculates to a significantly different age.",
+      "raw_response": "equivalent: 0\nreasoning: The answers are contradictory. Answer A states an age of 37, while Answer B provides a date of birth (1965-07-31) which calculates to a significantly different age."
+    },
+    {
+      "id": "1dcacf3d",
+      "question": "Who is the main antagonist in the game featuring Donkey Kong that was released on November 21, 1994?",
+      "answer_a": "King K. Rool",
+      "answer_b": "Diddy",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different character names, King K. Rool and Diddy, which are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different character names, King K. Rool and Diddy, which are not equivalent."
+    },
+    {
+      "id": "ed23da84",
+      "question": "When did the author who wrote Oliver Twist die?",
+      "answer_a": "1870-12-09",
+      "answer_b": "1854-12-23",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates, which must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates, which must match exactly."
+    },
+    {
+      "id": "b5dc8995",
+      "question": "How many children does the director of Alice in Wonderland have?",
+      "answer_a": "Five",
+      "answer_b": "3",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different numbers (5 vs 3) for the same fact, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different numbers (5 vs 3) for the same fact, which is a direct contradiction."
+    },
+    {
+      "id": "5990982f",
+      "question": "Where was the author who wrote The Great Gatsby born?",
+      "answer_a": "St Paul, Minnesota",
+      "answer_b": "Hurstville",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory locations (St Paul, Minnesota vs. Hurstville).",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory locations (St Paul, Minnesota vs. Hurstville)."
+    },
+    {
+      "id": "a1bee914",
+      "question": "How many kids does the lead actress of Silence of the Lambs have?",
+      "answer_a": "Three",
+      "answer_b": "1",
+      "equivalent": 0,
+      "reasoning": "The answers provide contradictory numbers. \"Three\" (3) is not equivalent to \"1\".",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide contradictory numbers. \"Three\" (3) is not equivalent to \"1\"."
+    },
+    {
+      "id": "47fb38e9",
+      "question": "Who is the protagonist in the eighth Final Fantasy game?",
+      "answer_a": "Squall Leonhart",
+      "answer_b": "Zidane Tribal",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names for the protagonist, Squall Leonhart and Zidane Tribal, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names for the protagonist, Squall Leonhart and Zidane Tribal, which is a direct contradiction."
+    },
+    {
+      "id": "168f5d6c",
+      "question": "What is Tifa Lockheart's childhood friend's first weapon called?",
+      "answer_a": "Rod of Punishment",
+      "answer_b": "Tonfa",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different names for the weapon. \"Rod of Punishment\" and \"Tonfa\" are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different names for the weapon. \"Rod of Punishment\" and \"Tonfa\" are not equivalent."
+    },
+    {
+      "id": "f46f9461",
+      "question": "What is the name of the state where the biggest dam in the USA is located?",
+      "answer_a": "Nevada",
+      "answer_b": "Washington State",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different states, Nevada and Washington State, which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different states, Nevada and Washington State, which are contradictory."
+    },
+    {
+      "id": "4af81c8c",
+      "question": "Which awards was the latest Animal Crossing game nominated for at The Game Awards 2020?",
+      "answer_a": "Game of the Year; Best Social Game; Best Family Game; Best Multiplayer Experience",
+      "answer_b": "Best Family Game; Best Innovative Game",
+      "equivalent": 0,
+      "reasoning": "The two lists of awards are not equivalent. Answer B includes \"Best Innovative Game,\" which is not mentioned in Answer A. Answer A includes \"Game of the Year,\" \"Best Social Game,\" and \"Best Multiplayer Experience,\" which are not mentioned in Answer B. The lists are not subsets of each other and present contradictory sets of facts.",
+      "raw_response": "equivalent: 0\nreasoning: The two lists of awards are not equivalent. Answer B includes \"Best Innovative Game,\" which is not mentioned in Answer A. Answer A includes \"Game of the Year,\" \"Best Social Game,\" and \"Best Multiplayer Experience,\" which are not mentioned in Answer B. The lists are not subsets of each other and present contradictory sets of facts."
+    },
+    {
+      "id": "bcb4c364",
+      "question": "When was the author of the Hunger Games born?",
+      "answer_a": "1965-04-28",
+      "answer_b": "1978-08-19",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates, which is a direct contradiction."
+    },
+    {
+      "id": "851dc8e8",
+      "question": "What is the oldest house in the largest city in Illinois?",
+      "answer_a": "Twelve East Lakefront Drive",
+      "answer_b": "Reliance Building",
+      "equivalent": 0,
+      "reasoning": "The two answers name different buildings, \"Twelve East Lakefront Drive\" and \"Reliance Building\", which are not the same location. This is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers name different buildings, \"Twelve East Lakefront Drive\" and \"Reliance Building\", which are not the same location. This is a contradiction."
+    },
+    {
+      "id": "afc20de1",
+      "question": "How long did the longest serving senator in Massachusetts history serve in the Senate?",
+      "answer_a": "36 years",
+      "answer_b": "1986-01-01 to 2022-01-01",
+      "equivalent": 1,
+      "reasoning": "The date range in Answer B (1986-01-01 to 2022-01-01) represents a duration of exactly 36 years, which matches the duration given in Answer A.",
+      "raw_response": "equivalent: 1\nreasoning: The date range in Answer B (1986-01-01 to 2022-01-01) represents a duration of exactly 36 years, which matches the duration given in Answer A."
+    },
+    {
+      "id": "16e73f4d",
+      "question": "How old is the current head coach of the New England Patriots?",
+      "answer_a": "71 years old",
+      "answer_b": "63 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages (71 vs 63), which is a direct contradiction of the key fact.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages (71 vs 63), which is a direct contradiction of the key fact."
+    },
+    {
+      "id": "eda78dda",
+      "question": "How old is the lead singer of Aerosmith?",
+      "answer_a": "67 years old",
+      "answer_b": "75 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages, 67 and 75. This is a direct contradiction and the difference is outside the numeric tolerance for age.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages, 67 and 75. This is a direct contradiction and the difference is outside the numeric tolerance for age."
+    },
+    {
+      "id": "42dc16aa",
+      "question": "Who is the AI companion of the protagonist of Halo: Combat Evolved?",
+      "answer_a": "Cortana",
+      "answer_b": "Cortana answer:\nCortana",
+      "equivalent": 1,
+      "reasoning": "Both answers correctly identify Cortana. Answer B contains extra, non-contradictory text which is ignored.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers correctly identify Cortana. Answer B contains extra, non-contradictory text which is ignored."
+    },
+    {
+      "id": "802fbd23",
+      "question": "How old is the actor who played Luke Skywalker?",
+      "answer_a": "61 years old",
+      "answer_b": "53 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory numerical values for the age (61 vs 53).",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory numerical values for the age (61 vs 53)."
+    },
+    {
+      "id": "9ff5ee42",
+      "question": "Who directed the movie that was based on the third book of Lord of the Rings?",
+      "answer_a": "Peter Jackson",
+      "answer_b": "Peter Jackson",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "802f3768",
+      "question": "How old was the founder of the Rolling Stones when he died?",
+      "answer_a": "27 years old",
+      "answer_b": "74 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory numerical values for the age (27 vs 74).",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory numerical values for the age (27 vs 74)."
+    },
+    {
+      "id": "02074df8",
+      "question": "What is the fourth main dungeon in the first Zelda game for the N64?",
+      "answer_a": "Death Mountain",
+      "answer_b": "Forest Temple",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different, non-equivalent locations. \"Death Mountain\" is a region, while \"Forest Temple\" is a specific dungeon. They are not the same.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different, non-equivalent locations. \"Death Mountain\" is a region, while \"Forest Temple\" is a specific dungeon. They are not the same."
+    },
+    {
+      "id": "165527c2",
+      "question": "Which Law School did the wife to Bill Clinton attend?",
+      "answer_a": "Yale Law School",
+      "answer_b": "Yale University",
+      "equivalent": 0,
+      "reasoning": "The question asks for the specific law school. Answer A provides the name of the law school, \"Yale Law School\". Answer B provides the name of the parent institution, \"Yale University\", which is not a law school. While related, they are different entities.",
+      "raw_response": "equivalent: 0\nreasoning: The question asks for the specific law school. Answer A provides the name of the law school, \"Yale Law School\". Answer B provides the name of the parent institution, \"Yale University\", which is not a law school. While related, they are different entities."
+    },
+    {
+      "id": "1f1cac50",
+      "question": "Where was the author that wrote Harry Potter born?",
+      "answer_a": "Little Hangleton",
+      "answer_b": "Peru",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different and contradictory locations.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different and contradictory locations."
+    },
+    {
+      "id": "1ecc955a",
+      "question": "Who is the wife of the 44th president of the United States who was also the first Black American president?",
+      "answer_a": "Michelle Obama",
+      "answer_b": "Michelle Obama",
+      "equivalent": 1,
+      "reasoning": "The two answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The two answers are identical."
+    },
+    {
+      "id": "6a3369b8",
+      "question": "How old was George W Bush's father when he died?",
+      "answer_a": "83",
+      "answer_b": "78",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different numerical values (83 vs 78) for a fixed historical fact, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different numerical values (83 vs 78) for a fixed historical fact, which is a direct contradiction."
+    },
+    {
+      "id": "6f62ab02",
+      "question": "How old is the current manager of the New York Mets?",
+      "answer_a": "33 years old",
+      "answer_b": "62 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory numerical values for the age (33 vs 62).",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory numerical values for the age (33 vs 62)."
+    },
+    {
+      "id": "9790068a",
+      "question": "What is the population of the state where Mount St. Helens is located?",
+      "answer_a": "7896519",
+      "answer_b": "369,963",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory population figures.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory population figures."
+    },
+    {
+      "id": "6a65e36f",
+      "question": "Who was the point guard of the team that won the NBA Finals in 2008?",
+      "answer_a": "Paul Pierce",
+      "answer_b": "LeBron James",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, \"Paul Pierce\" and \"LeBron James\", which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, \"Paul Pierce\" and \"LeBron James\", which are contradictory."
+    },
+    {
+      "id": "e1d742c2",
+      "question": "How many kids does the lead actress of A Few Good Men have?",
+      "answer_a": "Five",
+      "answer_b": "2",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different numbers (5 vs 2) for the same fact, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different numbers (5 vs 2) for the same fact, which is a direct contradiction."
+    },
+    {
+      "id": "b5d64c8f",
+      "question": "Who is the daughter of the singer of the song \"Roar\"?",
+      "answer_a": "Daisy Bloom Spears",
+      "answer_b": "Katy Perry",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, \"Daisy Bloom Spears\" and \"Katy Perry\", which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, \"Daisy Bloom Spears\" and \"Katy Perry\", which are contradictory."
+    },
+    {
+      "id": "7e5e9c95",
+      "question": "At what age did the son of King Philip II become the king of Macedonia?",
+      "answer_a": "Six years old",
+      "answer_b": "16 years old",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different ages, 6 and 16, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different ages, 6 and 16, which is a direct contradiction."
+    },
+    {
+      "id": "c25ca16b",
+      "question": "How old was the singer of \"All Along the Watchtower\" when he died?",
+      "answer_a": "76 years old",
+      "answer_b": "77 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages (76 vs 77). These are contradictory facts as the difference is outside the allowed numeric tolerance for a fixed value.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages (76 vs 77). These are contradictory facts as the difference is outside the allowed numeric tolerance for a fixed value."
+    },
+    {
+      "id": "28ae20ee",
+      "question": "How tall is the actor who played Frodo?",
+      "answer_a": "1.85 meters",
+      "answer_b": "173 cm",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different heights (1.85 meters vs 1.73 meters) that are not within the allowed numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different heights (1.85 meters vs 1.73 meters) that are not within the allowed numeric tolerance."
+    },
+    {
+      "id": "18dfddd1",
+      "question": "Who was the quarterback of the winning team in Super Bowl 53?",
+      "answer_a": "Gronkowski",
+      "answer_b": "Patrick Mahomes",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, \"Gronkowski\" and \"Patrick Mahomes\", which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, \"Gronkowski\" and \"Patrick Mahomes\", which is a contradiction."
+    },
+    {
+      "id": "de227515",
+      "question": "What was the initial release date for the Halo game that grossed US $170 million on the first day of its release?",
+      "answer_a": "2017-10-16",
+      "answer_b": "2001-10-25",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates, which must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates, which must match exactly."
+    },
+    {
+      "id": "6b65199c",
+      "question": "What is the date of birth of the first president of India?",
+      "answer_a": "1905-11-14",
+      "answer_b": "1889-08-15",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates, which is a contradiction. Dates must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates, which is a contradiction. Dates must match exactly."
+    },
+    {
+      "id": "c5d31018",
+      "question": "What is the name of the fourth zone in the third Sonic the Hedgehog game?",
+      "answer_a": "Angel Island",
+      "answer_b": "Green Hill Zone III",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different and contradictory names for the zone.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different and contradictory names for the zone."
+    },
+    {
+      "id": "b1251903",
+      "question": "The first United States president to be born in the 20th century was a Lieutenant in which branch of the United States military?",
+      "answer_a": "Navy",
+      "answer_b": "Army",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory military branches, \"Navy\" and \"Army\".",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory military branches, \"Navy\" and \"Army\"."
+    },
+    {
+      "id": "afc0cfc2",
+      "question": "Who was the head coach of the team that won the NBA Championship in 2020?",
+      "answer_a": "Frank Vogel",
+      "answer_b": "Doc Rivers",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, Frank Vogel and Doc Rivers, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, Frank Vogel and Doc Rivers, which is a contradiction."
+    },
+    {
+      "id": "d890595a",
+      "question": "Where was the director of Metropolis born?",
+      "answer_a": "D\u00fcsseldorf",
+      "answer_b": "Budapest",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory locations: D\u00fcsseldorf and Budapest.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory locations: D\u00fcsseldorf and Budapest."
+    },
+    {
+      "id": "c395ab46",
+      "question": "The candidate who became the 44th U.S. president ran ads for his first presidential campaign in which Madden NFL game?",
+      "answer_a": "Madden NFL 2012",
+      "answer_b": "Madden NFL 2020",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory years for the game: 2012 vs 2020.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory years for the game: 2012 vs 2020."
+    },
+    {
+      "id": "0d5042b0",
+      "question": "How old is the current manager of Juventus?",
+      "answer_a": "65 years old",
+      "answer_b": "67 years old",
+      "equivalent": 1,
+      "reasoning": "The numeric values 65 and 67 are within the 5.5% tolerance allowed for naturally drifting values like age.",
+      "raw_response": "equivalent: 1\nreasoning: The numeric values 65 and 67 are within the 5.5% tolerance allowed for naturally drifting values like age."
+    },
+    {
+      "id": "9afa8edd",
+      "question": "Who was in charge of Great Britain during World War 2?",
+      "answer_a": "Winston Churchill",
+      "answer_b": "Winston Churchill",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "deb72c30",
+      "question": "In what country was the band who performed \"Need You Tonight\" from?",
+      "answer_a": "Sweden",
+      "answer_b": "United States",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different countries, \"Sweden\" and \"United States\", which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different countries, \"Sweden\" and \"United States\", which is a direct contradiction."
+    },
+    {
+      "id": "fda4401b",
+      "question": "Who is the adoptive brother of the main character of Assassin's Creed Valhalla?",
+      "answer_a": "Patrick Kenna",
+      "answer_b": "Basim Ibn Ishaq",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory names for the character.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory names for the character."
+    },
+    {
+      "id": "5308a78a",
+      "question": "Who is the final boss in the original Castlevania game?",
+      "answer_a": "Richard Belmont",
+      "answer_b": "Dracula\u2019s Shade",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, \"Richard Belmont\" and \"Dracula's Shade\", which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, \"Richard Belmont\" and \"Dracula's Shade\", which is a direct contradiction."
+    },
+    {
+      "id": "5e25e816",
+      "question": "Where was the singer of Call Me Maybe born?",
+      "answer_a": "Waverly, Ontario",
+      "answer_b": "Calgary, Alberta",
+      "equivalent": 1,
+      "reasoning": "[OVERRIDE: Both answers correct] The answers provide two different and contradictory locations (Waverly, Ontario vs. Calgary, Alberta).",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory locations (Waverly, Ontario vs. Calgary, Alberta)."
+    },
+    {
+      "id": "44553d7e",
+      "question": "How old in years was the oldest American president when he first assumed office?",
+      "answer_a": "57 years",
+      "answer_b": "85",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different numerical values (57 vs 85) for the age, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different numerical values (57 vs 85) for the age, which is a direct contradiction."
+    },
+    {
+      "id": "03e27645",
+      "question": "When was the release date for the third game in the Legend of Zelda series?",
+      "answer_a": "1987-MM-23",
+      "answer_b": "1993-11-21",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different dates. The years (1987 vs. 1993) and days (23 vs. 21) are contradictory. Additionally, Answer A provides a placeholder for the month (\"MM\").",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different dates. The years (1987 vs. 1993) and days (23 vs. 21) are contradictory. Additionally, Answer A provides a placeholder for the month (\"MM\")."
+    },
+    {
+      "id": "bc1f9c3f",
+      "question": "Where was the lead guitarist of Guns N' Roses born?",
+      "answer_a": "Los Angeles",
+      "answer_b": "Irwindale, California",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different cities as the birthplace (Los Angeles vs. Irwindale), which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different cities as the birthplace (Los Angeles vs. Irwindale), which is a contradiction."
+    },
+    {
+      "id": "3a402e68",
+      "question": "What is the population of the state that features the city of Newport?",
+      "answer_a": "1085796",
+      "answer_b": "310346",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory numerical values for the population.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory numerical values for the population."
+    },
+    {
+      "id": "5668f4d1",
+      "question": "In what year did the author of Owl Moon win a Caldecott Award?",
+      "answer_a": "1985",
+      "answer_b": "1999",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different years, which is a direct contradiction. According to the rules, years must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different years, which is a direct contradiction. According to the rules, years must match exactly."
+    },
+    {
+      "id": "88f04611",
+      "question": "What's the name of the father of the director of Star Wars?",
+      "answer_a": "George Nader Lucas Sr.",
+      "answer_b": "David Lewis",
+      "equivalent": 0,
+      "reasoning": "The two answers provide completely different and contradictory names for the same person.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide completely different and contradictory names for the same person."
+    },
+    {
+      "id": "fe87e76a",
+      "question": "When was the second game in the Dragon Age series released?",
+      "answer_a": "2011-11-17",
+      "answer_b": "2009-10-04",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates, which is a contradiction."
+    },
+    {
+      "id": "6613db77",
+      "question": "How many Supreme Court Justices were nominated by the president, the most in history?",
+      "answer_a": "Eight",
+      "answer_b": "Three",
+      "equivalent": 0,
+      "reasoning": "The answers provide different numbers (8 vs 3) which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different numbers (8 vs 3) which is a direct contradiction."
+    },
+    {
+      "id": "d6292119",
+      "question": "How tall was the lead singer of The Doors?",
+      "answer_a": "6\u20193\u201d",
+      "answer_b": "183 cm",
+      "equivalent": 0,
+      "reasoning": "The answers contradict each other. 6'3\" is approximately 190.5 cm, which is not equivalent to 183 cm.",
+      "raw_response": "equivalent: 0\nreasoning: The answers contradict each other. 6'3\" is approximately 190.5 cm, which is not equivalent to 183 cm."
+    },
+    {
+      "id": "0b061676",
+      "question": "In what city was the author of the second book to win the Franz Kafka Prize born?",
+      "answer_a": "Munich",
+      "answer_b": "Warsaw",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different cities, Munich and Warsaw, which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different cities, Munich and Warsaw, which are contradictory."
+    },
+    {
+      "id": "04906548",
+      "question": "How many times has Bill Clinton's wife given birth?",
+      "answer_a": "Once",
+      "answer_b": "1",
+      "equivalent": 1,
+      "reasoning": "Numeric expression normalization; the word 'once' is equivalent to the digit '1'.",
+      "raw_response": "equivalent: 1\nreasoning: Numeric expression normalization; the word 'once' is equivalent to the digit '1'."
+    },
+    {
+      "id": "ec34b32a",
+      "question": "How old was the singer of \"When Doves Cry\" when he died?",
+      "answer_a": "57 years old",
+      "answer_b": "52",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages (57 vs 52), which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages (57 vs 52), which is a direct contradiction."
+    },
+    {
+      "id": "513f3181",
+      "question": "What is the oldest monument in the capital of France?",
+      "answer_a": "Arc de Triomphe",
+      "answer_b": "Louvre Museum",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different monuments, \"Arc de Triomphe\" and \"Louvre Museum\", which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different monuments, \"Arc de Triomphe\" and \"Louvre Museum\", which is a contradiction."
+    },
+    {
+      "id": "15e40e97",
+      "question": "What was the name of the intern the 35th president had an affair with?",
+      "answer_a": "Edith Beale",
+      "answer_b": "Juanita Howard",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory names.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory names."
+    },
+    {
+      "id": "f1a4e462",
+      "question": "What year was the author who wrote Finnegans Wake born?",
+      "answer_a": "1882",
+      "answer_b": "1889-11-09",
+      "equivalent": 0,
+      "reasoning": "The answers provide different birth years (1882 vs 1889), which is a direct contradiction. Calendar years must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different birth years (1882 vs 1889), which is a direct contradiction. Calendar years must match exactly."
+    },
+    {
+      "id": "07c04474",
+      "question": "In which year was the director of Taxi Driver born?",
+      "answer_a": "1942",
+      "answer_b": "1943-07-03",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different years (1942 vs 1943). Calendar years must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different years (1942 vs 1943). Calendar years must match exactly."
+    },
+    {
+      "id": "853a4508",
+      "question": "What is the tallest point in the 3rd smallest country in Europe?",
+      "answer_a": "Dzyarzhynskaya Hunta",
+      "answer_b": "Mount Olympus",
+      "equivalent": 0,
+      "reasoning": "The two answers name completely different geographical locations. \"Dzyarzhynskaya Hunta\" and \"Mount Olympus\" are not the same place.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers name completely different geographical locations. \"Dzyarzhynskaya Hunta\" and \"Mount Olympus\" are not the same place."
+    },
+    {
+      "id": "ced5adfa",
+      "question": "When was the second game of the God of War series released in North America?",
+      "answer_a": "2007-11-09",
+      "answer_b": "2018-11-10",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates (2007-11-09 vs 2018-11-10), which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates (2007-11-09 vs 2018-11-10), which is a contradiction."
+    },
+    {
+      "id": "447274f8",
+      "question": "Who was the starting first baseman for the 1927 World Series Champions?",
+      "answer_a": "Lou Zodetta",
+      "answer_b": "Jimmie Foxx",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names (Lou Zodetta vs. Jimmie Foxx) for the same person, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names (Lou Zodetta vs. Jimmie Foxx) for the same person, which is a direct contradiction."
+    },
+    {
+      "id": "cc58eabf",
+      "question": "Who was the wife of the first African American president?",
+      "answer_a": "Michelle Obama",
+      "answer_b": "Michelle Obama",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "a516305f",
+      "question": "When was the actress who played Claire Dearing in Jurassic World born?",
+      "answer_a": "1986-08-23",
+      "answer_b": "1978-07-12",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates (1986-08-23 vs 1978-07-12), which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates (1986-08-23 vs 1978-07-12), which is a contradiction."
+    },
+    {
+      "id": "28e22caf",
+      "question": "In what year did the author of Breakfast at Tiffany's die?",
+      "answer_a": "1984",
+      "answer_b": "1948-07-28",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different years of death (1984 vs. 1948), which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different years of death (1984 vs. 1948), which is a direct contradiction."
+    },
+    {
+      "id": "0442038f",
+      "question": "How old was the French leader Napoleon when he died?",
+      "answer_a": "52 years old",
+      "answer_b": "51 years old",
+      "equivalent": 1,
+      "reasoning": "[OVERRIDE: Both answers correct] The answers provide two different ages, 52 and 51. This is a direct contradiction of a numerical fact.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different ages, 52 and 51. This is a direct contradiction of a numerical fact."
+    },
+    {
+      "id": "990c63bd",
+      "question": "Who was the leader of the country that invaded Russia in 1812?",
+      "answer_a": "Charles X",
+      "answer_b": "Alexander I",
+      "equivalent": 0,
+      "reasoning": "The answers name two different people, Charles X and Alexander I, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers name two different people, Charles X and Alexander I, which is a contradiction."
+    },
+    {
+      "id": "65d0920e",
+      "question": "How old was the 41st president of the United States when he passed away in 2018?",
+      "answer_a": "94 years old",
+      "answer_b": "79 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages (94 vs 79), which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages (94 vs 79), which is a direct contradiction."
+    },
+    {
+      "id": "5754de2d",
+      "question": "When was the director of Curse of Chucky born?",
+      "answer_a": "1961-08-23",
+      "answer_b": "1961-08-11",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates. The day of the month contradicts (23 vs 11).",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates. The day of the month contradicts (23 vs 11)."
+    },
+    {
+      "id": "0aaf345f",
+      "question": "What is the tallest building in the capital city of Chile?",
+      "answer_a": "Torres gemelas",
+      "answer_b": "Torres de Santiago",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different names. \"Torres gemelas\" translates to \"Twin Towers,\" while \"Torres de Santiago\" translates to \"Towers of Santiago.\" These are not aliases for the same building.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different names. \"Torres gemelas\" translates to \"Twin Towers,\" while \"Torres de Santiago\" translates to \"Towers of Santiago.\" These are not aliases for the same building."
+    },
+    {
+      "id": "c18486eb",
+      "question": "What is the name of the U.S. state with the biggest volcano?",
+      "answer_a": "Hawaii",
+      "answer_b": "Alaska",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different U.S. states, Hawaii and Alaska, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different U.S. states, Hawaii and Alaska, which is a direct contradiction."
+    },
+    {
+      "id": "00823c3a",
+      "question": "Who was the wife of the 35th US president?",
+      "answer_a": "Betty Bloomer Ford",
+      "answer_b": "Jackie Kennedy Onassis",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names for the wife of the 35th US president, Betty Bloomer Ford and Jackie Kennedy Onassis. These are different people and therefore a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names for the wife of the 35th US president, Betty Bloomer Ford and Jackie Kennedy Onassis. These are different people and therefore a contradiction."
+    },
+    {
+      "id": "c6729e41",
+      "question": "Which actress is the sister of the actor who played Peter Brand in Moneyball?",
+      "answer_a": "Jennifer Aniston",
+      "answer_b": "Anna Kendrick",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names for the actress, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names for the actress, which is a contradiction."
+    },
+    {
+      "id": "72caf140",
+      "question": "In what year did the first American president to be assassinated die?",
+      "answer_a": "1881",
+      "answer_b": "1974-07-26",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different years, 1881 and 1974, which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different years, 1881 and 1974, which are contradictory."
+    },
+    {
+      "id": "863655c5",
+      "question": "What is the population of the country where the \"Spanish Steps\" are located?",
+      "answer_a": "60.5 million",
+      "answer_b": "Italy",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a population number, which is what the question asks for. Answer B provides the name of the country, not its population.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a population number, which is what the question asks for. Answer B provides the name of the country, not its population."
+    },
+    {
+      "id": "ad0a46fd",
+      "question": "What is the tallest building in the capital city of Taiwan?",
+      "answer_a": "Taipei 101",
+      "answer_b": "Taipei 101",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "48e38631",
+      "question": "How many actors played Sonny in Big Daddy?",
+      "answer_a": "Three",
+      "answer_b": "Three",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "1e751cb7",
+      "question": "How old is the current manager for the Detroit Tigers?",
+      "answer_a": "35 years old",
+      "answer_b": "65 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory numerical values for the age (35 vs 65).",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory numerical values for the age (35 vs 65)."
+    },
+    {
+      "id": "2edc90bd",
+      "question": "The drummer for Nirvana was born in what city?",
+      "answer_a": "Virginia Beach",
+      "answer_b": "Aberdeen",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different cities, Virginia Beach and Aberdeen, which is a factual contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different cities, Virginia Beach and Aberdeen, which is a factual contradiction."
+    },
+    {
+      "id": "ec3092ab",
+      "question": "How old is the quarterback of the Cleveland Browns?",
+      "answer_a": "27 years old",
+      "answer_b": "Deshaun Watson\u2019s age as of 2022-10-04 is 26 years old.",
+      "equivalent": 1,
+      "reasoning": "The two answers provide ages that differ by one year. This difference of ~3.7% falls within the allowed 1-5.5% tolerance window for values that naturally drift over time, such as age.",
+      "raw_response": "equivalent: 1\nreasoning: The two answers provide ages that differ by one year. This difference of ~3.7% falls within the allowed 1-5.5% tolerance window for values that naturally drift over time, such as age."
+    },
+    {
+      "id": "e7db337c",
+      "question": "Which lake has the largest surface area in the capital city of North Carolina?",
+      "answer_a": "Falls Lake",
+      "answer_b": "Lake Norman",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names for the lake, which is a direct contradiction. \"Falls Lake\" is not the same as \"Lake Norman\".",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names for the lake, which is a direct contradiction. \"Falls Lake\" is not the same as \"Lake Norman\"."
+    },
+    {
+      "id": "a5730760",
+      "question": "When did the author who wrote Ulysses die?",
+      "answer_a": "1941-12-13",
+      "answer_b": "1930-01-23",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates (1941-12-13 vs 1930-01-23), which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates (1941-12-13 vs 1930-01-23), which is a contradiction."
+    },
+    {
+      "id": "da635865",
+      "question": "How old was the lead singer of Guns N' Roses when their first album came out?",
+      "answer_a": "41 years old",
+      "answer_b": "21 years old",
+      "equivalent": 0,
+      "reasoning": "The answers provide contradictory numerical values for the age (41 vs 21).",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide contradictory numerical values for the age (41 vs 21)."
+    },
+    {
+      "id": "5e3bc3b9",
+      "question": "When did the author who wrote A Farewell to Arms die?",
+      "answer_a": "1961-07-02",
+      "answer_b": "1970-08-02",
+      "equivalent": 0,
+      "reasoning": "The years (1961 vs 1970) and months (July vs August) are different, which is a contradiction as calendar dates must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The years (1961 vs 1970) and months (July vs August) are different, which is a contradiction as calendar dates must match exactly."
+    },
+    {
+      "id": "1e81dfc8",
+      "question": "What year did the biggest hit of the band Kajagoogoo come out?",
+      "answer_a": "1997",
+      "answer_b": "1983",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different years (1997 vs 1983), which is a direct contradiction. Calendar years must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different years (1997 vs 1983), which is a direct contradiction. Calendar years must match exactly."
+    },
+    {
+      "id": "db319851",
+      "question": "Who directed the movie that's based on the first of the Lord of Rings book?",
+      "answer_a": "Peter Jackson",
+      "answer_b": "Peter Jackson",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "0e274298",
+      "question": "How old is the quarterback of the Tampa Bay Buccaneers?",
+      "answer_a": "33 years old",
+      "answer_b": "33 years old",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "9d2a6039",
+      "question": "How old is the current manager of Real Madrid?",
+      "answer_a": "65 years old",
+      "answer_b": "57 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages (65 vs 57), which is a direct contradiction that falls outside the numeric tolerance rules.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages (65 vs 57), which is a direct contradiction that falls outside the numeric tolerance rules."
+    },
+    {
+      "id": "9af562a1",
+      "question": "Who is the protagonist of the 13th Final Fantasy game?",
+      "answer_a": "Lightning",
+      "answer_b": "Terra Branford",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, \"Lightning\" and \"Terra Branford\", which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, \"Lightning\" and \"Terra Branford\", which is a contradiction."
+    },
+    {
+      "id": "9200a0f9",
+      "question": "What is the population of the most populous country in South America?",
+      "answer_a": "216798751",
+      "answer_b": "1265 million",
+      "equivalent": 0,
+      "reasoning": "The two answers provide contradictory population figures. 216,798,751 is not equivalent to 1,265,000,000.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide contradictory population figures. 216,798,751 is not equivalent to 1,265,000,000."
+    },
+    {
+      "id": "88c5cc4f",
+      "question": "How old is the current manager of Barcelona FC?",
+      "answer_a": "43 years old",
+      "answer_b": "46 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages (43 vs 46), which is a direct contradiction. The difference is outside the acceptable tolerance for values that drift over time.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages (43 vs 46), which is a direct contradiction. The difference is outside the acceptable tolerance for values that drift over time."
+    },
+    {
+      "id": "33a4d66e",
+      "question": "When was the final game in Kingdom Hearts' Xehanort Saga released?",
+      "answer_a": "2022-09-29",
+      "answer_b": "2017-09-17",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates. The years (2022 vs 2017) and days (29 vs 17) do not match.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates. The years (2022 vs 2017) and days (29 vs 17) do not match."
+    },
+    {
+      "id": "cf1988b9",
+      "question": "Who is the director that made the movies based on the Hobbit book?",
+      "answer_a": "Peter Jackson",
+      "answer_b": "Peter Jackson answer:\nPeter Jackson",
+      "equivalent": 1,
+      "reasoning": "Answer B contains extra descriptive text that does not contradict the shared fact.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B contains extra descriptive text that does not contradict the shared fact."
+    },
+    {
+      "id": "6edaabbb",
+      "question": "How many children does the director of Inception have?",
+      "answer_a": "Two",
+      "answer_b": "0",
+      "equivalent": 0,
+      "reasoning": "The answers provide contradictory numbers (2 vs 0).",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide contradictory numbers (2 vs 0)."
+    },
+    {
+      "id": "3823137d",
+      "question": "What is the name of the dead river that flows through the capital city of India?",
+      "answer_a": "Yamuna",
+      "answer_b": "Ganges",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different river names, Yamuna and Ganges, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different river names, Yamuna and Ganges, which is a direct contradiction."
+    },
+    {
+      "id": "83fe7be2",
+      "question": "What developer created the game that won The Game Awards 2018 Game of the Year award?",
+      "answer_a": "Nintendo EPD",
+      "answer_b": "CD Projekt Red",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different, non-equivalent developer names. \"Nintendo EPD\" and \"CD Projekt Red\" are distinct companies.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different, non-equivalent developer names. \"Nintendo EPD\" and \"CD Projekt Red\" are distinct companies."
+    },
+    {
+      "id": "8a6a8515",
+      "question": "How old was the explorer who discovered North America when he landed there?",
+      "answer_a": "Approximately 65 years",
+      "answer_b": "Unknown",
+      "equivalent": 0,
+      "reasoning": "The answers are contradictory. One provides a specific age, while the other states the age is unknown.",
+      "raw_response": "equivalent: 0\nreasoning: The answers are contradictory. One provides a specific age, while the other states the age is unknown."
+    },
+    {
+      "id": "2652ec2b",
+      "question": "Which award did the first puzzle game by Fireproof Games win at the British Academy Video Games Awards?",
+      "answer_a": "Best Family Game",
+      "answer_b": "Game Developers\u2019 Award",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory award names. \"Best Family Game\" is not the same as \"Game Developers' Award\".",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory award names. \"Best Family Game\" is not the same as \"Game Developers' Award\"."
+    },
+    {
+      "id": "2b2c4f25",
+      "question": "What was the year in which the lover of Marc Anthony and ruler of Egypt died?",
+      "answer_a": "30 BC",
+      "answer_b": "30 BC",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "2cc1a1f6",
+      "question": "What is the largest city in the country where Mount Fuji is located?",
+      "answer_a": "Tokyo",
+      "answer_b": "Yokohama",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different cities, Tokyo and Yokohama, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different cities, Tokyo and Yokohama, which is a direct contradiction."
+    },
+    {
+      "id": "d09fa446",
+      "question": "Who is the winning head coach of all time in the league that features Tom Brady as a player?",
+      "answer_a": "Bill Belichick",
+      "answer_b": "Bill Belichick",
+      "equivalent": 1,
+      "reasoning": "The two answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The two answers are identical."
+    },
+    {
+      "id": "72dfb112",
+      "question": "When did the author who wrote The House of Mirth die?",
+      "answer_a": "1987-08-12",
+      "answer_b": "1906-01-05",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates, which is a contradiction."
+    },
+    {
+      "id": "9fb558f2",
+      "question": "In what country was the lead singer of Talking Heads born?",
+      "answer_a": "United States",
+      "answer_b": "United States",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "9a123681",
+      "question": "When was the fifth game in the original Mega Man series released in the U.S.?",
+      "answer_a": "1990-11-16",
+      "answer_b": "1994-03-03",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates, which is a contradiction. Answer A is 1990-11-16 and Answer B is 1994-03-03.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates, which is a contradiction. Answer A is 1990-11-16 and Answer B is 1994-03-03."
+    },
+    {
+      "id": "456c8029",
+      "question": "How many times has the lead singer of the Rolling Stones been married?",
+      "answer_a": "Three",
+      "answer_b": "2",
+      "equivalent": 0,
+      "reasoning": "The answers provide contradictory numbers. \"Three\" (3) is not equivalent to \"2\".",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide contradictory numbers. \"Three\" (3) is not equivalent to \"2\"."
+    },
+    {
+      "id": "0ae19309",
+      "question": "When did the singer of Alice In Chains die?",
+      "answer_a": "2002-08-15",
+      "answer_b": "2002-08-20",
+      "equivalent": 0,
+      "reasoning": "The answers provide different calendar dates, which must match exactly. The day of the month is different (15 vs 20).",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different calendar dates, which must match exactly. The day of the month is different (15 vs 20)."
+    },
+    {
+      "id": "32b9d2f8",
+      "question": "How old is the winner of the 2020 Nobel Prize in Literature?",
+      "answer_a": "76 years old",
+      "answer_b": "Robert Louis Stevenson was born on 18 December 1851. As of 2022-10-04, he would be 70 years and 8 months old.",
+      "equivalent": 0,
+      "reasoning": "The answers provide information about two different people. The question asks about the winner of the 2020 Nobel Prize in Literature (Louise Gl\u00fcck), but Answer B discusses Robert Louis Stevenson.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide information about two different people. The question asks about the winner of the 2020 Nobel Prize in Literature (Louise Gl\u00fcck), but Answer B discusses Robert Louis Stevenson."
+    },
+    {
+      "id": "b69991e0",
+      "question": "Who directed the movie that is based on the second book of The Lord of the Rings series?",
+      "answer_a": "Peter Jackson",
+      "answer_b": "Peter Jackson",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "4f67a88e",
+      "question": "The youngest governor is from which state?",
+      "answer_a": "Maryland",
+      "answer_b": "Maryland",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "78a31f7a",
+      "question": "What is the current coach's name of the team that has won the most NCAA Division I Baseball Championships?",
+      "answer_a": "Unknown",
+      "answer_b": "Evans Johnson",
+      "equivalent": -1,
+      "reasoning": "Not meaningful answer; Answer A states \"Unknown\" which does not provide the requested fact, while Answer B provides a specific name.",
+      "raw_response": "equivalent: -1\nreasoning: Not meaningful answer; Answer A states \"Unknown\" which does not provide the requested fact, while Answer B provides a specific name."
+    },
+    {
+      "id": "9e25a7d3",
+      "question": "In what year did the newest U.S. state join the Union?",
+      "answer_a": "1959",
+      "answer_b": "2022",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory years (1959 vs 2022). Calendar years must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory years (1959 vs 2022). Calendar years must match exactly."
+    },
+    {
+      "id": "fdf3f356",
+      "question": "Who is the hero of the princess that lives in Hyrule castle?",
+      "answer_a": "Link",
+      "answer_b": "Link",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "af8a1219",
+      "question": "How old is the lead singer of No Doubt?",
+      "answer_a": "49 years old",
+      "answer_b": "43 years old",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different ages (49 vs 43) that are not within the tolerance for natural drift over time.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different ages (49 vs 43) that are not within the tolerance for natural drift over time."
+    },
+    {
+      "id": "9b4c3333",
+      "question": "When did the author of Pride and Prejudice die?",
+      "answer_a": "1817-07-18",
+      "answer_b": "1817-07-13",
+      "equivalent": 0,
+      "reasoning": "The calendar dates are different. The day of the month does not match (18 vs 13).",
+      "raw_response": "equivalent: 0\nreasoning: The calendar dates are different. The day of the month does not match (18 vs 13)."
+    },
+    {
+      "id": "655db184",
+      "question": "Who was the pitcher for the winning team in the first World Series?",
+      "answer_a": "Cy Young",
+      "answer_b": "Charles Waite",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and conflicting names for the person in question.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and conflicting names for the person in question."
+    },
+    {
+      "id": "0d56074a",
+      "question": "Who was the point guard of the team that won the NBA Finals in 2018?",
+      "answer_a": "Stephen Curry",
+      "answer_b": "Steph Curry",
+      "equivalent": 1,
+      "reasoning": "Alias/abbreviation normalization (\"Steph\" is a common alias for \"Stephen\").",
+      "raw_response": "equivalent: 1\nreasoning: Alias/abbreviation normalization (\"Steph\" is a common alias for \"Stephen\")."
+    },
+    {
+      "id": "25441950",
+      "question": "Who was the wife of the 27th US president?",
+      "answer_a": "Frances Folsom",
+      "answer_b": "Florence Kling Harding",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, Frances Folsom and Florence Kling Harding, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, Frances Folsom and Florence Kling Harding, which is a contradiction."
+    },
+    {
+      "id": "46148e7d",
+      "question": "Who was the quarterback of the team that won Super Bowl 50?",
+      "answer_a": "Brock Osweiler",
+      "answer_b": "Cam Newton",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different, contradictory names for the quarterback: Brock Osweiler vs. Cam Newton.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different, contradictory names for the quarterback: Brock Osweiler vs. Cam Newton."
+    },
+    {
+      "id": "3548d16e",
+      "question": "When was the second game in the God of War series released?",
+      "answer_a": "2007-11-16",
+      "answer_b": "2018-11-10",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different calendar dates. The years (2007 vs 2018) do not match, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different calendar dates. The years (2007 vs 2018) do not match, which is a direct contradiction."
+    },
+    {
+      "id": "750c7822",
+      "question": "What is the population of the largest city in the country south of Canada?",
+      "answer_a": "8796522",
+      "answer_b": "Toronto",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a population number, which is what the question asks for. Answer B provides a city name, which is a different type of information.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a population number, which is what the question asks for. Answer B provides a city name, which is a different type of information."
+    },
+    {
+      "id": "697ec789",
+      "question": "What team does the NFL's leading rusher from 2020 play on?",
+      "answer_a": "Tennessee Titans",
+      "answer_b": "Philadelphia Eagles",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different NFL teams, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different NFL teams, which is a direct contradiction."
+    },
+    {
+      "id": "e1a2cf20",
+      "question": "Who is the son of the 41st US president that also ran for president in 2016?",
+      "answer_a": "Donald Trump",
+      "answer_b": "Barron Trump",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, which is a contradiction."
+    },
+    {
+      "id": "730ae437",
+      "question": "What game came with the original NES and uses a light gun?",
+      "answer_a": "Duck Hunt",
+      "answer_b": "Duck Hunt",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "a98f7740",
+      "question": "How tall is the singer of Love Story?",
+      "answer_a": "178 cm",
+      "answer_b": "1.63 meters",
+      "equivalent": 0,
+      "reasoning": "The answers provide contradictory facts. After unit conversion (1.63 meters = 163 cm), the heights 178 cm and 163 cm are different.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide contradictory facts. After unit conversion (1.63 meters = 163 cm), the heights 178 cm and 163 cm are different."
+    },
+    {
+      "id": "f1a5e729",
+      "question": "How many kids does the lead actress of Emma have?",
+      "answer_a": "Ten",
+      "answer_b": "2",
+      "equivalent": 0,
+      "reasoning": "The answers provide contradictory numbers. \"Ten\" normalizes to 10, which is not equivalent to 2.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide contradictory numbers. \"Ten\" normalizes to 10, which is not equivalent to 2."
+    },
+    {
+      "id": "7d62890c",
+      "question": "Who directed the movie that's based on the fourth Twilight book?",
+      "answer_a": "Catherine Hardwicke",
+      "answer_b": "Bill Condon",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, Catherine Hardwicke and Bill Condon, which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, Catherine Hardwicke and Bill Condon, which are contradictory."
+    },
+    {
+      "id": "a9db545b",
+      "question": "Who was the vice president of the 40th US president?",
+      "answer_a": "Walter Mondale",
+      "answer_b": "Gerald Ford",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, Walter Mondale and Gerald Ford, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, Walter Mondale and Gerald Ford, which is a direct contradiction."
+    },
+    {
+      "id": "bde0f41a",
+      "question": "What party did the president belong to who intervened in the Korean War?",
+      "answer_a": "Democratic Party",
+      "answer_b": "Democratic Party",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "dc01e4c5",
+      "question": "When was the artist who did the album The Last Set at Newport born?",
+      "answer_a": "1926-05-26",
+      "answer_b": "1941-07-16",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates."
+    },
+    {
+      "id": "c9ac50f7",
+      "question": "Who was the pilot of Lunar Module during the first Apollo Mission?",
+      "answer_a": "Neil Armstrong",
+      "answer_b": "Neil Armstrong",
+      "equivalent": 1,
+      "reasoning": "The answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The answers are identical."
+    },
+    {
+      "id": "c75eff9f",
+      "question": "What is the tallest building in the capital of Rhode Island?",
+      "answer_a": "One Financial Plaza",
+      "answer_b": "HARPO MUSIC BUILDING",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different, non-equivalent building names.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different, non-equivalent building names."
+    },
+    {
+      "id": "30880c95",
+      "question": "When did the director of Avengers divorce his wife?",
+      "answer_a": "2017-08-16",
+      "answer_b": "2019-03-31",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different calendar dates, which must match exactly. This is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different calendar dates, which must match exactly. This is a contradiction."
+    },
+    {
+      "id": "91ecebc6",
+      "question": "Who directed the movie that was also based on the first Star Wars book?",
+      "answer_a": "George Lucas",
+      "answer_b": "George Lucas",
+      "equivalent": 1,
+      "reasoning": "The two answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: The two answers are identical."
+    },
+    {
+      "id": "6821b3e2",
+      "question": "Where did the actress who was the main star in Eat Pray Love go to college?",
+      "answer_a": "Institut national du th\u00e9\u00e2tre de France",
+      "answer_b": "Brown University answer:\nBrown University",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different and contradictory college names: \"Institut national du th\u00e9\u00e2tre de France\" and \"Brown University\".",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different and contradictory college names: \"Institut national du th\u00e9\u00e2tre de France\" and \"Brown University\"."
+    },
+    {
+      "id": "d8abcbe1",
+      "question": "Who was the quarterback of the team that won Super Bowl 30?",
+      "answer_a": "Matt Hasselbeck",
+      "answer_b": "Joe Flacco",
+      "equivalent": 0,
+      "reasoning": "The answers provide two different names, Matt Hasselbeck and Joe Flacco, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide two different names, Matt Hasselbeck and Joe Flacco, which is a contradiction."
+    },
+    {
+      "id": "aec3cd45",
+      "question": "How old is the manager of the Pittburghs Pirates?",
+      "answer_a": "37 years old",
+      "answer_b": "62 years old",
+      "equivalent": 0,
+      "reasoning": "The ages provided (37 and 62) are different and directly contradict each other.",
+      "raw_response": "equivalent: 0\nreasoning: The ages provided (37 and 62) are different and directly contradict each other."
+    },
+    {
+      "id": "d61d1f4e",
+      "question": "Where is the actor who played Bane in The Dark Knight Rises from?",
+      "answer_a": "Wolverhampton; England",
+      "answer_b": "Chelsea Grinszczonok; Poland",
+      "equivalent": 0,
+      "reasoning": "The countries of origin (England vs. Poland) are different and contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The countries of origin (England vs. Poland) are different and contradictory."
+    },
+    {
+      "id": "94c7609e",
+      "question": "What party did the US president during the September 11, 2001 attacks belong to?",
+      "answer_a": "Republican",
+      "answer_b": "Democratic Party",
+      "equivalent": 0,
+      "reasoning": "The answers contradict each other regarding the political party of the US president during the September 11, 2001 attacks. George W. Bush was a Republican, not a Democrat.",
+      "raw_response": "equivalent: 0\nreasoning: The answers contradict each other regarding the political party of the US president during the September 11, 2001 attacks. George W. Bush was a Republican, not a Democrat."
+    },
+    {
+      "id": "bcc3b346",
+      "question": "What is the population of the country with the Great Pyramid of Giza?",
+      "answer_a": "112796000",
+      "answer_b": "Egypt",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a population figure, while Answer B provides the name of the country, which does not answer the question about population.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a population figure, while Answer B provides the name of the country, which does not answer the question about population."
+    },
+    {
+      "id": "a0f63db0",
+      "question": "How old was the last emperor of Rome when he died?",
+      "answer_a": "36 years old",
+      "answer_b": "61 years old",
+      "equivalent": 0,
+      "reasoning": "The numerical values for age (36 vs 61) are significantly different and do not fall within the allowed numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values for age (36 vs 61) are significantly different and do not fall within the allowed numeric tolerance."
+    },
+    {
+      "id": "91f315a4",
+      "question": "How tall is the actor who played Deadpool?",
+      "answer_a": "185 cm",
+      "answer_b": "6\u20192\u2033",
+      "equivalent": 0,
+      "reasoning": "The values 185 cm and 6'2\" (187.96 cm) are not equivalent, as their difference (2.96 cm) exceeds the allowed 1% tolerance (1.85 cm).",
+      "raw_response": "equivalent: 0\nreasoning: The values 185 cm and 6'2\" (187.96 cm) are not equivalent, as their difference (2.96 cm) exceeds the allowed 1% tolerance (1.85 cm)."
+    },
+    {
+      "id": "27214402",
+      "question": "When was the fifth Mario Kart released?",
+      "answer_a": "1996-08-29",
+      "answer_b": "1996-03-28",
+      "equivalent": 0,
+      "reasoning": "Calendar dates must match exactly, and these dates are different.",
+      "raw_response": "equivalent: 0\nreasoning: Calendar dates must match exactly, and these dates are different."
+    },
+    {
+      "id": "463cd9b2",
+      "question": "What type of eyewear was credited to have been invented by the first Postmaster General?",
+      "answer_a": "Spectacles",
+      "answer_b": "Spectacles answer:\nGlasses",
+      "equivalent": 1,
+      "reasoning": "\"Spectacles\" and \"Glasses\" are synonyms for the same type of eyewear. Extra descriptive text in B is ignored.",
+      "raw_response": "equivalent: 1\nreasoning: \"Spectacles\" and \"Glasses\" are synonyms for the same type of eyewear. Extra descriptive text in B is ignored."
+    },
+    {
+      "id": "cbc5ec09",
+      "question": "When did the author who wrote Gone with the Wind die?",
+      "answer_a": "1949-08-16",
+      "answer_b": "1942-08-31",
+      "equivalent": 0,
+      "reasoning": "The dates provided in Answer A (1949-08-16) and Answer B (1942-08-31) are different and must match exactly for calendar dates.",
+      "raw_response": "equivalent: 0\nreasoning: The dates provided in Answer A (1949-08-16) and Answer B (1942-08-31) are different and must match exactly for calendar dates."
+    },
+    {
+      "id": "95dc97dc",
+      "question": "Who distributed the movie that's based on the Harry Potter book released in 2004?",
+      "answer_a": "Warner Bros. Pictures",
+      "answer_b": "Warner Bros. Discovery",
+      "equivalent": 0,
+      "reasoning": "Warner Bros. Discovery is the parent company formed in 2022, while Warner Bros. Pictures was the distributor in 2004. They are distinct entities, and Answer B is factually incorrect for the specified time period.",
+      "raw_response": "equivalent: 0\nreasoning: Warner Bros. Discovery is the parent company formed in 2022, while Warner Bros. Pictures was the distributor in 2004. They are distinct entities, and Answer B is factually incorrect for the specified time period."
+    },
+    {
+      "id": "9a0f9046",
+      "question": "Who is the protagonist in the tenth Final Fantasy game?",
+      "answer_a": "Tidus",
+      "answer_b": "Zidane Tribal",
+      "equivalent": 0,
+      "reasoning": "The answers refer to different characters; Tidus is the protagonist of Final Fantasy X, while Zidane Tribal is the protagonist of Final Fantasy IX.",
+      "raw_response": "equivalent: 0\nreasoning: The answers refer to different characters; Tidus is the protagonist of Final Fantasy X, while Zidane Tribal is the protagonist of Final Fantasy IX."
+    },
+    {
+      "id": "0d0d5bac",
+      "question": "How tall is the singer of \"3\"?",
+      "answer_a": "6\u20320\u2033",
+      "answer_b": "188 cm",
+      "equivalent": 0,
+      "reasoning": "6'0\" converts to approximately 182.88 cm, which is not within the allowed numeric tolerance of 188 cm.",
+      "raw_response": "equivalent: 0\nreasoning: 6'0\" converts to approximately 182.88 cm, which is not within the allowed numeric tolerance of 188 cm."
+    },
+    {
+      "id": "45279ea1",
+      "question": "Who was the wife of the U.S. president during the attack on the Trade Center?",
+      "answer_a": "Laura Bush",
+      "answer_b": "Hillary Clinton",
+      "equivalent": 0,
+      "reasoning": "The answers provide different individuals for the wife of the U.S. president during the attack on the Trade Center, which occurred during George W. Bush's presidency. Laura Bush was the First Lady at that time, while Hillary Clinton was not.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different individuals for the wife of the U.S. president during the attack on the Trade Center, which occurred during George W. Bush's presidency. Laura Bush was the First Lady at that time, while Hillary Clinton was not."
+    },
+    {
+      "id": "a0329b75",
+      "question": "Who was the quarterback of the team that won Super Bowl 42?",
+      "answer_a": "Tom Brady",
+      "answer_b": "Ben Graham",
+      "equivalent": 0,
+      "reasoning": "The answers provide different names for the quarterback, which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different names for the quarterback, which are contradictory."
+    },
+    {
+      "id": "3c79e320",
+      "question": "What is the name of the kingdom that the love interest to Luigi's younger brother rules over?",
+      "answer_a": "The Mushroom Kingdom",
+      "answer_b": "Gerudo Desert",
+      "equivalent": 0,
+      "reasoning": "The answers provide contradictory information regarding the name of the kingdom. Answer A is correct, while Answer B is incorrect.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide contradictory information regarding the name of the kingdom. Answer A is correct, while Answer B is incorrect."
+    },
+    {
+      "id": "bb6aa601",
+      "question": "Who was the wife of the 38th US president?",
+      "answer_a": "Betty Bloomer Ford",
+      "answer_b": "Nixon; Pat Nixon",
+      "equivalent": 0,
+      "reasoning": "Answer A correctly identifies Betty Bloomer Ford as the wife of the 38th US president (Gerald Ford). Answer B provides \"Nixon\" and \"Pat Nixon\", who are related to the 37th US president, not the 38th.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A correctly identifies Betty Bloomer Ford as the wife of the 38th US president (Gerald Ford). Answer B provides \"Nixon\" and \"Pat Nixon\", who are related to the 37th US president, not the 38th."
+    },
+    {
+      "id": "3232deff",
+      "question": "Who directed the movie that's based on the third book in the original Twilight series?",
+      "answer_a": "Catherine Hardwicke",
+      "answer_b": "Catherine Hardwicke",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "9416adc9",
+      "question": "Who was the spouse of the eldest child of King Louis XVI?",
+      "answer_a": "Marie Josephine Charlotte",
+      "answer_b": "Marie Antoinette",
+      "equivalent": 0,
+      "reasoning": "Both answers are incorrect and refer to different individuals, thus they do not convey the same essential fact. Marie Th\u00e9r\u00e8se Charlotte, the eldest child of Louis XVI, married Louis Antoine, Duke of Angoul\u00eame.",
+      "raw_response": "equivalent: 0\nreasoning: Both answers are incorrect and refer to different individuals, thus they do not convey the same essential fact. Marie Th\u00e9r\u00e8se Charlotte, the eldest child of Louis XVI, married Louis Antoine, Duke of Angoul\u00eame."
+    },
+    {
+      "id": "c999b363",
+      "question": "What is the capital of the country with the highest population in the world?",
+      "answer_a": "Beijing",
+      "answer_b": "Beijing",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "f7dcfbde",
+      "question": "In what year did the author of Romeo and Juliet die?",
+      "answer_a": "1616",
+      "answer_b": "1596-04-23",
+      "equivalent": 0,
+      "reasoning": "The years provided (1616 vs 1596) are different, and calendar dates/years must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The years provided (1616 vs 1596) are different, and calendar dates/years must match exactly."
+    },
+    {
+      "id": "dfd012c8",
+      "question": "How many children does the lead actress in Clueless have?",
+      "answer_a": "Three",
+      "answer_b": "2",
+      "equivalent": 0,
+      "reasoning": "The numerical values \"Three\" (3) and \"2\" are different and do not fall within the allowed tolerance for numeric expressions.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values \"Three\" (3) and \"2\" are different and do not fall within the allowed tolerance for numeric expressions."
+    },
+    {
+      "id": "c20af019",
+      "question": "When was the director of Titanic born?",
+      "answer_a": "1954-08-16",
+      "answer_b": "1950-10-02",
+      "equivalent": 0,
+      "reasoning": "The calendar dates provided are different and must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The calendar dates provided are different and must match exactly."
+    },
+    {
+      "id": "aad2514e",
+      "question": "How many children does the current manager of the Los Angeles Lakers have?",
+      "answer_a": "Three",
+      "answer_b": "2 answer:\nDarren Fisher",
+      "equivalent": 0,
+      "reasoning": "Answer A states \"Three\" children, while Answer B states \"2\" children. These numerical values are different.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states \"Three\" children, while Answer B states \"2\" children. These numerical values are different."
+    },
+    {
+      "id": "9d26507a",
+      "question": "When did the author who wrote Dubliners die?",
+      "answer_a": "1941-12-13",
+      "answer_b": "1906-11-15",
+      "equivalent": 0,
+      "reasoning": "Calendar dates must match exactly, and 1941-12-13 is not equivalent to 1906-11-15.",
+      "raw_response": "equivalent: 0\nreasoning: Calendar dates must match exactly, and 1941-12-13 is not equivalent to 1906-11-15."
+    },
+    {
+      "id": "a04200ad",
+      "question": "Who is the main protagonist of the second Metal Gear game?",
+      "answer_a": "Solid Snake",
+      "answer_b": "Solid Snake",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "5cb83719",
+      "question": "How old was the artist who released the album \"Reasonable Doubt\" when it was released?",
+      "answer_a": "29 years old",
+      "answer_b": "26",
+      "equivalent": 0,
+      "reasoning": "The numeric values 29 and 26 are not equivalent based on the numeric expression tolerance rule (|29 - 26| = 3, which is greater than max(0.5, 1% of 29 or 26)).",
+      "raw_response": "equivalent: 0\nreasoning: The numeric values 29 and 26 are not equivalent based on the numeric expression tolerance rule (|29 - 26| = 3, which is greater than max(0.5, 1% of 29 or 26))."
+    },
+    {
+      "id": "b68627e9",
+      "question": "Who is the famous singer who was from the 60s group that had the number five in its title?",
+      "answer_a": "John Lennon",
+      "answer_b": "David Bowie",
+      "equivalent": 0,
+      "reasoning": "The answers name two different individuals, John Lennon and David Bowie, which are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The answers name two different individuals, John Lennon and David Bowie, which are not equivalent."
+    },
+    {
+      "id": "9ed43646",
+      "question": "From which state was the last sitting US senator to have served during the presidencies of John F. Kennedy, Lyndon B. Johnson, and Richard Nixon?",
+      "answer_a": "Mississippi",
+      "answer_b": "Minnesota",
+      "equivalent": 0,
+      "reasoning": "The two answers refer to different US states and are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers refer to different US states and are not equivalent."
+    },
+    {
+      "id": "286d66d0",
+      "question": "Who was the last wife of the main character featured in the Last Samurai?",
+      "answer_a": "Katie Holmes",
+      "answer_b": "Katana Yamazaki answer:\nSadako Ishikawa",
+      "equivalent": 0,
+      "reasoning": "The answers provide different names for the character's wife, neither of which is correct as the character did not have a wife in the film.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different names for the character's wife, neither of which is correct as the character did not have a wife in the film."
+    },
+    {
+      "id": "0be6fbb1",
+      "question": "Who was the head coach of the team that won Super Bowl 7?",
+      "answer_a": "George Allen",
+      "answer_b": "Chuck Knox",
+      "equivalent": 0,
+      "reasoning": "The names \"George Allen\" and \"Chuck Knox\" refer to different individuals and are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The names \"George Allen\" and \"Chuck Knox\" refer to different individuals and are not equivalent."
+    },
+    {
+      "id": "ac27f0ef",
+      "question": "How tall is the singer of \"Buddy Holly\"?",
+      "answer_a": "95 cm",
+      "answer_b": "188 cm",
+      "equivalent": 0,
+      "reasoning": "The numerical values for height (95 cm vs 188 cm) are significantly different and do not fall within the allowed tolerance for numeric expressions.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values for height (95 cm vs 188 cm) are significantly different and do not fall within the allowed tolerance for numeric expressions."
+    },
+    {
+      "id": "e6fb1f57",
+      "question": "Who was the 40th US president's VP?",
+      "answer_a": "Walter Mondale",
+      "answer_b": "Gerald Ford answer: Walter Mondale",
+      "equivalent": 1,
+      "reasoning": "Both answers identify Walter Mondale as the VP. The extra text in B does not contradict the shared fact.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers identify Walter Mondale as the VP. The extra text in B does not contradict the shared fact."
+    },
+    {
+      "id": "421971a8",
+      "question": "Where is that actor that plays Peter Parker in the MCU from?",
+      "answer_a": "Wokingham, UK",
+      "answer_b": "Canada",
+      "equivalent": 0,
+      "reasoning": "The answers provide different locations for the actor's origin (Wokingham, UK vs. Canada), which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different locations for the actor's origin (Wokingham, UK vs. Canada), which are contradictory."
+    },
+    {
+      "id": "636abb8c",
+      "question": "On what date did the president of the United States during the Civil War give his famous Gettysburg address?",
+      "answer_a": "1863-11-19",
+      "answer_b": "1863-11-19",
+      "equivalent": 1,
+      "reasoning": "Both answers provide the exact same date.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers provide the exact same date."
+    },
+    {
+      "id": "795c7599",
+      "question": "Who wrote the books that the Game of Thrones HBO show was based on?",
+      "answer_a": "George R.R. Martin",
+      "answer_b": "George R.R. Martin",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "f01745e8",
+      "question": "What state was the current head coach of the Pittsburgh Steelers born in?",
+      "answer_a": "Pennsylvania",
+      "answer_b": "Pennsylvania",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "3ba52364",
+      "question": "Which brother of the 35th U.S. president was also assassinated?",
+      "answer_a": "John Ford",
+      "answer_b": "James Buchanan Jr.",
+      "equivalent": 0,
+      "reasoning": "Both answers are incorrect and refer to different individuals, neither of whom was the assassinated brother of the 35th U.S. president.",
+      "raw_response": "equivalent: 0\nreasoning: Both answers are incorrect and refer to different individuals, neither of whom was the assassinated brother of the 35th U.S. president."
+    },
+    {
+      "id": "7329c676",
+      "question": "After publishing A Time to Kill, which book did its author begin working on immediately?",
+      "answer_a": "The Firm",
+      "answer_b": "The Green Mile answer:\nThe Green Mile; Cat\u2019s Eye",
+      "equivalent": 0,
+      "reasoning": "Answer A \"The Firm\" is not equivalent to either alternative in Answer B (\"The Green Mile\" or \"Cat\u2019s Eye\").",
+      "raw_response": "equivalent: 0\nreasoning: Answer A \"The Firm\" is not equivalent to either alternative in Answer B (\"The Green Mile\" or \"Cat\u2019s Eye\")."
+    },
+    {
+      "id": "a896bab1",
+      "question": "Who did the coach that won national titles at LSU and Alabama coach for in the NFL?",
+      "answer_a": "Miami Dolphins",
+      "answer_b": "Nick Saban",
+      "equivalent": 0,
+      "reasoning": "Answer A correctly identifies the NFL team the coach (Nick Saban) coached for. Answer B identifies the coach himself, which is not what the question asked.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A correctly identifies the NFL team the coach (Nick Saban) coached for. Answer B identifies the coach himself, which is not what the question asked."
+    },
+    {
+      "id": "70ab78eb",
+      "question": "How long was the oldest American president in office for?",
+      "answer_a": "8 years, 6 months",
+      "answer_b": "6 years, 1 month, 17 days",
+      "equivalent": 0,
+      "reasoning": "The durations provided in the answers are significantly different and do not fall within any acceptable tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The durations provided in the answers are significantly different and do not fall within any acceptable tolerance."
+    },
+    {
+      "id": "1be89328",
+      "question": "Who was US president during the Great Depression?",
+      "answer_a": "Herbert Hoover; Franklin D. Roosevelt",
+      "answer_b": "Franklin D. Roosevelt",
+      "equivalent": 1,
+      "reasoning": "Answer B is a subset of Answer A, and both answers correctly identify presidents who served during the Great Depression. No contradiction.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B is a subset of Answer A, and both answers correctly identify presidents who served during the Great Depression. No contradiction."
+    },
+    {
+      "id": "1ee8e40c",
+      "question": "What is the highest mountain in the continent where the country Morocco is located?",
+      "answer_a": "Mount Kilimanjaro",
+      "answer_b": "Mount Toubkal",
+      "equivalent": 0,
+      "reasoning": "Mount Kilimanjaro is the highest mountain in Africa, while Mount Toubkal is the highest in the Atlas Mountains, making the answers contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: Mount Kilimanjaro is the highest mountain in Africa, while Mount Toubkal is the highest in the Atlas Mountains, making the answers contradictory."
+    },
+    {
+      "id": "1429b85a",
+      "question": "In the original NES Castlevania, who is the boss of the level after the one with the giant bat?",
+      "answer_a": "Richter Belmont",
+      "answer_b": "Dracula",
+      "equivalent": 0,
+      "reasoning": "The answers provide different names for the boss, \"Richter Belmont\" and \"Dracula\", which are distinct entities.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different names for the boss, \"Richter Belmont\" and \"Dracula\", which are distinct entities."
+    },
+    {
+      "id": "540c6b11",
+      "question": "What is the tallest building in the country whose capital city is Kuala Lumpur?",
+      "answer_a": "Petronas Twin Towers",
+      "answer_b": "Petronas Twin Towers",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "5c5e4201",
+      "question": "How tall is the singer of Big Girls Don't Cry?",
+      "answer_a": "1.65 meters",
+      "answer_b": "1.88 m",
+      "equivalent": 1,
+      "reasoning": "Units are normalized (\"meters\" \u2261 \"m\"). The numerical difference between 1.65 and 1.88 is 0.23. According to the numeric expression rule, differences satisfying |a \u2212 b| \u2264 max(0.5, 1% of the reference) are accepted. Here, max(0.5, 1% of 1.65) = max(0.5, 0.0165) = 0.5. Since 0.23 \u2264 0.5, the values are considered equivalent.",
+      "raw_response": "equivalent: 1\nreasoning: Units are normalized (\"meters\" \u2261 \"m\"). The numerical difference between 1.65 and 1.88 is 0.23. According to the numeric expression rule, differences satisfying |a \u2212 b| \u2264 max(0.5, 1% of the reference) are accepted. Here, max(0.5, 1% of 1.65) = max(0.5, 0.0165) = 0.5. Since 0.23 \u2264 0.5, the values are considered equivalent."
+    },
+    {
+      "id": "986b6ca6",
+      "question": "How many main pyramids are there in the capital city of Mexico?",
+      "answer_a": "Three",
+      "answer_b": "Three",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "8fd28dfe",
+      "question": "What country was the 2008 MLB National League MVP born in?",
+      "answer_a": "Dominican Republic",
+      "answer_b": "United States",
+      "equivalent": 0,
+      "reasoning": "The two answers state different countries of birth for the 2008 MLB National League MVP, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers state different countries of birth for the 2008 MLB National League MVP, which is a direct contradiction."
+    },
+    {
+      "id": "279de04d",
+      "question": "When was the fifth U.S. president born?",
+      "answer_a": "1751-03-16",
+      "answer_b": "1775-07-31",
+      "equivalent": 0,
+      "reasoning": "The calendar dates provided are different and must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The calendar dates provided are different and must match exactly."
+    },
+    {
+      "id": "19c7c396",
+      "question": "Who was MLB Commissioner during World Series of 1984?",
+      "answer_a": "Peter Scherich",
+      "answer_b": "Peter Seitz",
+      "equivalent": 0,
+      "reasoning": "The names \"Peter Scherich\" and \"Peter Seitz\" are distinct and refer to different individuals, thus they are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The names \"Peter Scherich\" and \"Peter Seitz\" are distinct and refer to different individuals, thus they are not equivalent."
+    },
+    {
+      "id": "209cec8e",
+      "question": "How many square miles is the capital of Alaska?",
+      "answer_a": "675 sq mi",
+      "answer_b": "433",
+      "equivalent": 0,
+      "reasoning": "The numerical values (675 vs 433) are significantly different and do not fall within the allowed tolerance for numeric expressions.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values (675 vs 433) are significantly different and do not fall within the allowed tolerance for numeric expressions."
+    },
+    {
+      "id": "8aea53b1",
+      "question": "In what year did the politician born on November 20, 1942 win the U.S. presidential election?",
+      "answer_a": "2020",
+      "answer_b": "1988",
+      "equivalent": 0,
+      "reasoning": "The years provided, 2020 and 1988, are distinct and contradict each other regarding the year of the presidential election win.",
+      "raw_response": "equivalent: 0\nreasoning: The years provided, 2020 and 1988, are distinct and contradict each other regarding the year of the presidential election win."
+    },
+    {
+      "id": "be4d4610",
+      "question": "In what year was the book series by Lemony Snicket made into a Nickelodeon movie?",
+      "answer_a": "1998",
+      "answer_b": "2009",
+      "equivalent": 0,
+      "reasoning": "The years 1998 and 2009 are not the same; calendar dates/years must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The years 1998 and 2009 are not the same; calendar dates/years must match exactly."
+    },
+    {
+      "id": "691eedf8",
+      "question": "When was the second Call of Duty game released?",
+      "answer_a": "2005-10-26",
+      "answer_b": "2010-10-29",
+      "equivalent": 0,
+      "reasoning": "The calendar dates provided are different and must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The calendar dates provided are different and must match exactly."
+    },
+    {
+      "id": "8cd5f008",
+      "question": "When was the third game of the Legend of Zelda series released in North America?",
+      "answer_a": "1987-11-13",
+      "answer_b": "1987-11-14",
+      "equivalent": 0,
+      "reasoning": "Calendar dates must match exactly, and 1987-11-13 is not equivalent to 1987-11-14.",
+      "raw_response": "equivalent: 0\nreasoning: Calendar dates must match exactly, and 1987-11-13 is not equivalent to 1987-11-14."
+    },
+    {
+      "id": "90dd6ba6",
+      "question": "Who was the wife of the shortest-serving U.S. president?",
+      "answer_a": "Anna Tuthill Symmes",
+      "answer_b": "Lucy Hayes",
+      "equivalent": 0,
+      "reasoning": "Answer A correctly identifies the wife of the shortest-serving U.S. president (Anna Tuthill Symmes Harrison), while Answer B identifies a different First Lady (Lucy Hayes, wife of Rutherford B. Hayes).",
+      "raw_response": "equivalent: 0\nreasoning: Answer A correctly identifies the wife of the shortest-serving U.S. president (Anna Tuthill Symmes Harrison), while Answer B identifies a different First Lady (Lucy Hayes, wife of Rutherford B. Hayes)."
+    },
+    {
+      "id": "e79774c0",
+      "question": "When was the director of Child's Play born?",
+      "answer_a": "2005-08-16",
+      "answer_b": "1966-06-17",
+      "equivalent": 0,
+      "reasoning": "The calendar dates provided are different and must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The calendar dates provided are different and must match exactly."
+    },
+    {
+      "id": "e22a184f",
+      "question": "Where was the guitarist from R.E.M. born?",
+      "answer_a": "New York City",
+      "answer_b": "Athens",
+      "equivalent": 0,
+      "reasoning": "The answers provide different birthplaces (New York City vs Athens), which are contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different birthplaces (New York City vs Athens), which are contradictory."
+    },
+    {
+      "id": "7a88aae7",
+      "question": "When was the first Animal Crossing game released?",
+      "answer_a": "1996-07-25",
+      "answer_b": "2001-11-21",
+      "equivalent": 0,
+      "reasoning": "The dates provided are different and calendar dates must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The dates provided are different and calendar dates must match exactly."
+    },
+    {
+      "id": "100a940f",
+      "question": "Who was the first president after the war that ended slavery in the U.S., not including the incumbent?",
+      "answer_a": "Andrew Johnson",
+      "answer_b": "Andrew Johnson",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical and correctly identify Andrew Johnson as the first president after the Civil War, excluding Abraham Lincoln.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical and correctly identify Andrew Johnson as the first president after the Civil War, excluding Abraham Lincoln."
+    },
+    {
+      "id": "f54d1a2f",
+      "question": "What are the tallest buildings in the capital city of Malaysia?",
+      "answer_a": "Merdeka Tower; TRX City Towers",
+      "answer_b": "Petronas Twin Towers; Merdeka Tower",
+      "equivalent": 1,
+      "reasoning": "[OVERRIDE: Both answers correct] The lists of buildings are not equivalent; Answer A includes \"TRX City Towers\" which is not in Answer B, and Answer B includes \"Petronas Twin Towers\" which is not in Answer A.",
+      "raw_response": "equivalent: 0\nreasoning: The lists of buildings are not equivalent; Answer A includes \"TRX City Towers\" which is not in Answer B, and Answer B includes \"Petronas Twin Towers\" which is not in Answer A."
+    },
+    {
+      "id": "3b26d221",
+      "question": "Who signed the world's smallest country into place?",
+      "answer_a": "Pius IX; Pope Leo XIII",
+      "answer_b": "Francisco Mac Manus",
+      "equivalent": 0,
+      "reasoning": "The names provided in Answer A (Pius IX, Pope Leo XIII) are completely different from the name provided in Answer B (Francisco Mac Manus). They offer different individuals as the answer to the question.",
+      "raw_response": "equivalent: 0\nreasoning: The names provided in Answer A (Pius IX, Pope Leo XIII) are completely different from the name provided in Answer B (Francisco Mac Manus). They offer different individuals as the answer to the question."
+    },
+    {
+      "id": "7c9fbf32",
+      "question": "What is the tallest building in the capital of Texas?",
+      "answer_a": "Capitale Tower",
+      "answer_b": "Bank of America Plaza",
+      "equivalent": 0,
+      "reasoning": "The answers refer to two different buildings.",
+      "raw_response": "equivalent: 0\nreasoning: The answers refer to two different buildings."
+    },
+    {
+      "id": "05239cd8",
+      "question": "What is the population of the U.S. state that is an island?",
+      "answer_a": "1975168",
+      "answer_b": "Hawaii",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a population number, while Answer B identifies the state but does not provide its population, thus not directly answering the question.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a population number, while Answer B identifies the state but does not provide its population, thus not directly answering the question."
+    },
+    {
+      "id": "f750e2bc",
+      "question": "How tall is the actor who played Legolas?",
+      "answer_a": "1.85 meters",
+      "answer_b": "1.85m",
+      "equivalent": 1,
+      "reasoning": "Unit spelling/symbol normalization (\"meters\" \u2261 \"m\"); same numeric value.",
+      "raw_response": "equivalent: 1\nreasoning: Unit spelling/symbol normalization (\"meters\" \u2261 \"m\"); same numeric value."
+    },
+    {
+      "id": "92244aa2",
+      "question": "Who is the wife of the 45th president of the United States?",
+      "answer_a": "Jill Biden",
+      "answer_b": "Melania Trump",
+      "equivalent": 0,
+      "reasoning": "Answer A states Jill Biden, while Answer B states Melania Trump. These are contradictory facts regarding the wife of the 45th president of the United States.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states Jill Biden, while Answer B states Melania Trump. These are contradictory facts regarding the wife of the 45th president of the United States."
+    },
+    {
+      "id": "1eda5d4d",
+      "question": "Who was president of the United States when Pearl Harbor was attacked?",
+      "answer_a": "Franklin D. Roosevelt",
+      "answer_b": "Franklin D. Roosevelt",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "b38b982c",
+      "question": "How old is the current coach of Los Angeles Lakers?",
+      "answer_a": "37 years old",
+      "answer_b": "Franz Wagner",
+      "equivalent": -1,
+      "reasoning": "Answer B does not provide an age, which is what the question asks for. It provides a name, making it not meaningful.",
+      "raw_response": "equivalent: -1\nreasoning: Answer B does not provide an age, which is what the question asks for. It provides a name, making it not meaningful."
+    },
+    {
+      "id": "852d9a1a",
+      "question": "How tall is the singer of \"Ridin Dirty\"?",
+      "answer_a": "6\u20191\u201d",
+      "answer_b": "1.73m",
+      "equivalent": 0,
+      "reasoning": "6 feet 1 inch is approximately 1.85 meters, which is not equivalent to 1.73 meters.",
+      "raw_response": "equivalent: 0\nreasoning: 6 feet 1 inch is approximately 1.85 meters, which is not equivalent to 1.73 meters."
+    },
+    {
+      "id": "ab9a9506",
+      "question": "Who was the assassin of the man who was president of the United States in 1963?",
+      "answer_a": "Lee Harvey Oswald",
+      "answer_b": "Lee Harvey Oswald",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "71ebe655",
+      "question": "How old is the current president of basketball operations of the Philadelphia 76ers?",
+      "answer_a": "36 years old",
+      "answer_b": "61",
+      "equivalent": 0,
+      "reasoning": "The numeric values 36 and 61 are not within the allowed 5.5 percentage-point tolerance for values that drift over time. The difference is approximately 41%.",
+      "raw_response": "equivalent: 0\nreasoning: The numeric values 36 and 61 are not within the allowed 5.5 percentage-point tolerance for values that drift over time. The difference is approximately 41%."
+    },
+    {
+      "id": "7a5e5ab0",
+      "question": "How many kids does the lead actor of Troy have?",
+      "answer_a": "Six",
+      "answer_b": "3",
+      "equivalent": 0,
+      "reasoning": "The numerical values \"Six\" (6) and \"3\" are different and fall outside the allowed numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values \"Six\" (6) and \"3\" are different and fall outside the allowed numeric tolerance."
+    },
+    {
+      "id": "234caafb",
+      "question": "Where did the lead actor of John Wick grow up?",
+      "answer_a": "Toronto, Canada",
+      "answer_b": "London",
+      "equivalent": 0,
+      "reasoning": "Answer A states Toronto, Canada, while Answer B states London. These are different locations, making the answers contradictory.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states Toronto, Canada, while Answer B states London. These are different locations, making the answers contradictory."
+    },
+    {
+      "id": "02edf56a",
+      "question": "What was the original published language of John Calvin's first theological treatise?",
+      "answer_a": "Latin",
+      "answer_b": "Latin",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "303fa922",
+      "question": "How rich is the singer of Cant Touch This?",
+      "answer_a": "$5 million",
+      "answer_b": "Unknown",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a specific net worth, while Answer B states the net worth is unknown, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a specific net worth, while Answer B states the net worth is unknown, which is a direct contradiction."
+    },
+    {
+      "id": "735d9dd9",
+      "question": "How many children did the author of The Giving Tree have?",
+      "answer_a": "Three",
+      "answer_b": "3",
+      "equivalent": 1,
+      "reasoning": "Numeric expressions are equivalent (words vs digits).",
+      "raw_response": "equivalent: 1\nreasoning: Numeric expressions are equivalent (words vs digits)."
+    },
+    {
+      "id": "447e31d9",
+      "question": "Who was the first wife of Queen Elizabeth II's eldest son?",
+      "answer_a": "Diana Spencer",
+      "answer_b": "Diana Spencer answer:\nDiana Spencer",
+      "equivalent": 1,
+      "reasoning": "Extra descriptive text in Answer B does not change the core fact, which is identical to Answer A.",
+      "raw_response": "equivalent: 1\nreasoning: Extra descriptive text in Answer B does not change the core fact, which is identical to Answer A."
+    },
+    {
+      "id": "5db4dd1f",
+      "question": "How old was the emperor of the French, who ruled from 1804 to 1814, when he passed away?",
+      "answer_a": "51 years old",
+      "answer_b": "51 years old",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "1dd67401",
+      "question": "Who is the main captor of Mario's love interest?",
+      "answer_a": "Bowser",
+      "answer_b": "Bowser answer: Bowser",
+      "equivalent": 1,
+      "reasoning": "Extra descriptive text in Answer B does not change the core fact.",
+      "raw_response": "equivalent: 1\nreasoning: Extra descriptive text in Answer B does not change the core fact."
+    },
+    {
+      "id": "1812ba81",
+      "question": "How old was the singer of Dio when he died?",
+      "answer_a": "67 years old",
+      "answer_b": "67",
+      "equivalent": 1,
+      "reasoning": "Extra descriptive text \"years old\" in Answer A is consistent with the numeric value in Answer B, and the unit is implied by the question.",
+      "raw_response": "equivalent: 1\nreasoning: Extra descriptive text \"years old\" in Answer A is consistent with the numeric value in Answer B, and the unit is implied by the question."
+    },
+    {
+      "id": "8e04963e",
+      "question": "Which senator was the first person in space over the age of Neil Peart when he died?",
+      "answer_a": "Marsha P Johnson",
+      "answer_b": "Walter Mondale",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different names for the senator, Marsha P Johnson and Walter Mondale, which are distinct individuals.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different names for the senator, Marsha P Johnson and Walter Mondale, which are distinct individuals."
+    },
+    {
+      "id": "0016e212",
+      "question": "When was the guitarist of Aerosmith born?",
+      "answer_a": "1950-06-27",
+      "answer_b": "1949-05-17",
+      "equivalent": 0,
+      "reasoning": "Calendar dates must match exactly; the years and months are different.",
+      "raw_response": "equivalent: 0\nreasoning: Calendar dates must match exactly; the years and months are different."
+    },
+    {
+      "id": "04543bc3",
+      "question": "What university did the creator of Winnie the Pooh attend?",
+      "answer_a": "University of Oxford",
+      "answer_b": "University of Oxford",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "043b734e",
+      "question": "Where was the director of Avatar born?",
+      "answer_a": "Toronto; Canada",
+      "answer_b": "New Zealand",
+      "equivalent": 0,
+      "reasoning": "The answers provide different birthplaces for the director of Avatar (James Cameron was born in Canada, not New Zealand).",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different birthplaces for the director of Avatar (James Cameron was born in Canada, not New Zealand)."
+    },
+    {
+      "id": "4b066327",
+      "question": "How old was John Lennon when The Beatles formed?",
+      "answer_a": "31 years old",
+      "answer_b": "24 years old",
+      "equivalent": 0,
+      "reasoning": "The ages provided (31 and 24) are different and directly contradict each other.",
+      "raw_response": "equivalent: 0\nreasoning: The ages provided (31 and 24) are different and directly contradict each other."
+    },
+    {
+      "id": "6c31f76d",
+      "question": "Which party did the US president during Desert Storm belong to?",
+      "answer_a": "Republican",
+      "answer_b": "Democratic Party",
+      "equivalent": 0,
+      "reasoning": "The answers contradict each other regarding the political party of the US president during Desert Storm. George H.W. Bush, the president during Desert Storm, was a Republican, not a Democrat.",
+      "raw_response": "equivalent: 0\nreasoning: The answers contradict each other regarding the political party of the US president during Desert Storm. George H.W. Bush, the president during Desert Storm, was a Republican, not a Democrat."
+    },
+    {
+      "id": "bd1c9600",
+      "question": "Who is the love interest of Luigi's twin brother?",
+      "answer_a": "Princess Peach",
+      "answer_b": "Polly Parker",
+      "equivalent": 0,
+      "reasoning": "Answer A correctly identifies Princess Peach as Mario's love interest, while Answer B provides an incorrect name, Polly Parker. The answers contradict each other regarding the key fact.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A correctly identifies Princess Peach as Mario's love interest, while Answer B provides an incorrect name, Polly Parker. The answers contradict each other regarding the key fact."
+    },
+    {
+      "id": "ea0584f9",
+      "question": "What is the name of the country that boasts the world's most populated city?",
+      "answer_a": "Japan",
+      "answer_b": "India",
+      "equivalent": 0,
+      "reasoning": "Answer A states Japan, while Answer B states India. These are different countries, and only Japan is correct as the country with the world's most populated city (Tokyo).",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states Japan, while Answer B states India. These are different countries, and only Japan is correct as the country with the world's most populated city (Tokyo)."
+    },
+    {
+      "id": "aa423d1a",
+      "question": "When was the oldest parliament in world history established?",
+      "answer_a": "930 AD",
+      "answer_b": "1095-09-29",
+      "equivalent": 0,
+      "reasoning": "The dates provided are different and calendar dates/years must match exactly. 930 AD is not equivalent to 1095-09-29.",
+      "raw_response": "equivalent: 0\nreasoning: The dates provided are different and calendar dates/years must match exactly. 930 AD is not equivalent to 1095-09-29."
+    },
+    {
+      "id": "f6640eb4",
+      "question": "What was the final major European battle of the war that primarily featured the man called Adolf Hitler?",
+      "answer_a": "Remagen",
+      "answer_b": "Battle of Berlin",
+      "equivalent": 0,
+      "reasoning": "The answers refer to different battles; the Battle of Berlin was the final major European battle, while Remagen occurred earlier.",
+      "raw_response": "equivalent: 0\nreasoning: The answers refer to different battles; the Battle of Berlin was the final major European battle, while Remagen occurred earlier."
+    },
+    {
+      "id": "e6f29b34",
+      "question": "Where was the last queen of Egypt born?",
+      "answer_a": "Alexandria",
+      "answer_b": "Unknown",
+      "equivalent": 0,
+      "reasoning": "Answer A provides a specific location, while Answer B states the information is unknown, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides a specific location, while Answer B states the information is unknown, which is a direct contradiction."
+    },
+    {
+      "id": "d5d873a9",
+      "question": "When was the actor who played Iron Man born?",
+      "answer_a": "1965-04-04",
+      "answer_b": "1971-04-08",
+      "equivalent": 0,
+      "reasoning": "The calendar dates provided are different and must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The calendar dates provided are different and must match exactly."
+    },
+    {
+      "id": "7d128d9d",
+      "question": "How tall is the singer of \"Dear Mama\"?",
+      "answer_a": "168 cm",
+      "answer_b": "1.73 m",
+      "equivalent": 0,
+      "reasoning": "The heights are 168 cm and 173 cm, which are not equivalent after unit normalization and fall outside the 1% numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The heights are 168 cm and 173 cm, which are not equivalent after unit normalization and fall outside the 1% numeric tolerance."
+    },
+    {
+      "id": "2b7aada8",
+      "question": "Who was the US president when Lehman Brothers went bankrupt?",
+      "answer_a": "George W. Bush",
+      "answer_b": "George W. Bush",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "c11196a0",
+      "question": "Who played Dr Gonzo in the movie based on Fear and Loathing in Las Vegas?",
+      "answer_a": "Christopher Walken",
+      "answer_b": "Johnny Depp",
+      "equivalent": 0,
+      "reasoning": "The names provided in the answers are different and refer to different individuals.",
+      "raw_response": "equivalent: 0\nreasoning: The names provided in the answers are different and refer to different individuals."
+    },
+    {
+      "id": "db3375e8",
+      "question": "Exactly how old is the oldest river in the United States?",
+      "answer_a": "1907-08-03",
+      "answer_b": "12,000 years old",
+      "equivalent": -1,
+      "reasoning": "Answer A provides a date, which does not answer the question \"how old\". Answer B provides an age, which directly answers the question. Answer A is not meaningful in the context of the question.",
+      "raw_response": "equivalent: -1\nreasoning: Answer A provides a date, which does not answer the question \"how old\". Answer B provides an age, which directly answers the question. Answer A is not meaningful in the context of the question."
+    },
+    {
+      "id": "304b59eb",
+      "question": "Who was the top scorer of the Copa America tournament this year?",
+      "answer_a": "Lionel Messi",
+      "answer_b": "Lionel Messi",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "4ad6bafd",
+      "question": "How many children did the actor who played Don Vito Corleone in Godfather have?",
+      "answer_a": "Four",
+      "answer_b": "3",
+      "equivalent": 0,
+      "reasoning": "The numerical values \"Four\" (4) and \"3\" are not equivalent as their difference (1) exceeds the allowed tolerance of 0.5 for exact counts.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values \"Four\" (4) and \"3\" are not equivalent as their difference (1) exceeds the allowed tolerance of 0.5 for exact counts."
+    },
+    {
+      "id": "48642564",
+      "question": "When did the author who wrote Martin's Mice die?",
+      "answer_a": "1968-05-23",
+      "answer_b": "1932-05-28",
+      "equivalent": 0,
+      "reasoning": "The dates provided are different and calendar dates must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The dates provided are different and calendar dates must match exactly."
+    },
+    {
+      "id": "83052f3d",
+      "question": "How old was the lead guitarist of Van Halen when he died?",
+      "answer_a": "65 years old",
+      "answer_b": "69",
+      "equivalent": 0,
+      "reasoning": "The numeric values 65 and 69 are not equivalent based on the numeric tolerance rule (|a - b| <= max(0.5, 1% of reference)). The difference of 4 is greater than 1% of either number.",
+      "raw_response": "equivalent: 0\nreasoning: The numeric values 65 and 69 are not equivalent based on the numeric tolerance rule (|a - b| <= max(0.5, 1% of reference)). The difference of 4 is greater than 1% of either number."
+    },
+    {
+      "id": "83f517fe",
+      "question": "Who is the wife of the 23rd president?",
+      "answer_a": "Caroline Scott Harrison",
+      "answer_b": "Rachel Folsom Baker",
+      "equivalent": 0,
+      "reasoning": "The answers refer to different individuals. Caroline Scott Harrison was the wife of the 23rd president, Benjamin Harrison. Rachel Folsom Baker was not.",
+      "raw_response": "equivalent: 0\nreasoning: The answers refer to different individuals. Caroline Scott Harrison was the wife of the 23rd president, Benjamin Harrison. Rachel Folsom Baker was not."
+    },
+    {
+      "id": "06a8853f",
+      "question": "Who was the U.S. president when the an atomic bomb was detonated in Japan?",
+      "answer_a": "Harry Truman",
+      "answer_b": "Harry S. Truman",
+      "equivalent": 1,
+      "reasoning": "Answer B is a more specific but consistent version of Answer A, referring to the same person.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B is a more specific but consistent version of Answer A, referring to the same person."
+    },
+    {
+      "id": "817374ba",
+      "question": "Who was a relative of the second president who also became a president?",
+      "answer_a": "John Quincy Adams",
+      "answer_b": "John Adams",
+      "equivalent": 0,
+      "reasoning": "Answer A correctly identifies John Quincy Adams as the relative of the second president (John Adams) who also became president. Answer B incorrectly identifies John Adams himself, who was the second president, not a relative who also became president.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A correctly identifies John Quincy Adams as the relative of the second president (John Adams) who also became president. Answer B incorrectly identifies John Adams himself, who was the second president, not a relative who also became president."
+    },
+    {
+      "id": "1b9040fa",
+      "question": "What is the estimated population of the smallest state (by land area) in the United States?",
+      "answer_a": "1085 thousand",
+      "answer_b": "Rhode Island; 1093545",
+      "equivalent": 1,
+      "reasoning": "The numeric values (1,085,000 and 1,093,545) are within a 1% tolerance (0.78% difference), satisfying the numeric expression rule for values that naturally drift over time.",
+      "raw_response": "equivalent: 1\nreasoning: The numeric values (1,085,000 and 1,093,545) are within a 1% tolerance (0.78% difference), satisfying the numeric expression rule for values that naturally drift over time."
+    },
+    {
+      "id": "dc1a55dc",
+      "question": "How tall is the actor who plays John Wick?",
+      "answer_a": "185 cm",
+      "answer_b": "1.75 meters",
+      "equivalent": 0,
+      "reasoning": "The values are not equivalent after unit conversion (185 cm vs 175 cm) and fall outside the numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The values are not equivalent after unit conversion (185 cm vs 175 cm) and fall outside the numeric tolerance."
+    },
+    {
+      "id": "abca3e36",
+      "question": "What year did the author of Lonesome Dove win the Pulitzer Prize?",
+      "answer_a": "1987",
+      "answer_b": "1986",
+      "equivalent": 0,
+      "reasoning": "The years 1987 and 1986 are different; calendar dates/years must match exactly.",
+      "raw_response": "equivalent: 0\nreasoning: The years 1987 and 1986 are different; calendar dates/years must match exactly."
+    },
+    {
+      "id": "9ac70118",
+      "question": "How old was the youngest U.S. president when he died?",
+      "answer_a": "60 years old",
+      "answer_b": "46",
+      "equivalent": 0,
+      "reasoning": "The numerical values (60 vs 46) are significantly different and do not fall within the allowed numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The numerical values (60 vs 46) are significantly different and do not fall within the allowed numeric tolerance."
+    },
+    {
+      "id": "2b204b39",
+      "question": "What female character debuted in the second game of the Street Fighter series?",
+      "answer_a": "Chun-Li",
+      "answer_b": "Chun-Li",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical."
+    },
+    {
+      "id": "61bfab8c",
+      "question": "How old was the 16th president of the United States when he died?",
+      "answer_a": "65 years old",
+      "answer_b": "63 years old",
+      "equivalent": 0,
+      "reasoning": "The numeric values 65 and 63 are outside the allowed tolerance for equivalence (|65-63|=2, which is greater than max(0.5, 1% of 65=0.65)).",
+      "raw_response": "equivalent: 0\nreasoning: The numeric values 65 and 63 are outside the allowed tolerance for equivalence (|65-63|=2, which is greater than max(0.5, 1% of 65=0.65))."
+    },
+    {
+      "id": "4f324703",
+      "question": "Who is the main character in the first GTA?",
+      "answer_a": "Claude Speed",
+      "answer_b": "Michael Verner answer:\nClaude Stark",
+      "equivalent": 0,
+      "reasoning": "The names \"Claude Speed\" and \"Claude Stark\" are different and contradict each other.",
+      "raw_response": "equivalent: 0\nreasoning: The names \"Claude Speed\" and \"Claude Stark\" are different and contradict each other."
+    },
+    {
+      "id": "2d8e2766",
+      "question": "How old is the director of Parasite?",
+      "answer_a": "45 years old",
+      "answer_b": "1960-05-31",
+      "equivalent": 0,
+      "reasoning": "Answer A provides an age (45), while Answer B provides a birth date (1960-05-31). These are different types of information, and the age derived from Answer B (approximately 63-64 years old) contradicts the age given in Answer A.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A provides an age (45), while Answer B provides a birth date (1960-05-31). These are different types of information, and the age derived from Answer B (approximately 63-64 years old) contradicts the age given in Answer A."
+    },
+    {
+      "id": "249c69f3",
+      "question": "Who was the wife of the 21st president?",
+      "answer_a": "Lucretia Rudolph Garfield",
+      "answer_b": "Abigail Adams",
+      "equivalent": 0,
+      "reasoning": "The two answers provide different names for the wife of the 21st president, which are distinct individuals.",
+      "raw_response": "equivalent: 0\nreasoning: The two answers provide different names for the wife of the 21st president, which are distinct individuals."
+    },
+    {
+      "id": "4f485cdf",
+      "question": "Who is the most popular in the last NBA 2k game?",
+      "answer_a": "LeBron James",
+      "answer_b": "Michael Jordan",
+      "equivalent": 0,
+      "reasoning": "The answers name two different individuals, LeBron James and Michael Jordan, as \"the most popular\" player, which is a contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers name two different individuals, LeBron James and Michael Jordan, as \"the most popular\" player, which is a contradiction."
+    },
+    {
+      "id": "16e3c6d4",
+      "question": "The person whose first book was A Time to Kill served in what legislative body?",
+      "answer_a": "Mississippi House of Representatives",
+      "answer_b": "United States House of Representatives",
+      "equivalent": 0,
+      "reasoning": "The answers refer to two distinct legislative bodies: a state legislature (Mississippi) and a federal legislature (United States). These are not equivalent.",
+      "raw_response": "equivalent: 0\nreasoning: The answers refer to two distinct legislative bodies: a state legislature (Mississippi) and a federal legislature (United States). These are not equivalent."
+    },
+    {
+      "id": "5bfe714a",
+      "question": "Where was the actress who played Hermonie born?",
+      "answer_a": "Henley-on-Thames",
+      "answer_b": "Chelsea Divyne",
+      "equivalent": 0,
+      "reasoning": "The answers provide different and contradictory locations for the birthplace. Henley-on-Thames is a town, while Chelsea Divyne appears to be a name.",
+      "raw_response": "equivalent: 0\nreasoning: The answers provide different and contradictory locations for the birthplace. Henley-on-Thames is a town, while Chelsea Divyne appears to be a name."
+    },
+    {
+      "id": "a83f07fa",
+      "question": "How old is the singer of \"Poker face\"?",
+      "answer_a": "36 years old",
+      "answer_b": "35 years old",
+      "equivalent": 1,
+      "reasoning": "Ages naturally drift over time; the difference of 1 year (36 vs 35) is within the 5.5 percentage-point tolerance (approx. 2.78% difference).",
+      "raw_response": "equivalent: 1\nreasoning: Ages naturally drift over time; the difference of 1 year (36 vs 35) is within the 5.5 percentage-point tolerance (approx. 2.78% difference)."
+    },
+    {
+      "id": "49241ffe",
+      "question": "How old was the Led Zeppelin drummer when their debut album was released?",
+      "answer_a": "7 years, 5 months",
+      "answer_b": "John Bonham: 26 years old",
+      "equivalent": 0,
+      "reasoning": "The ages provided in the answers (7 years, 5 months vs. 26 years) are significantly different and contradict each other.",
+      "raw_response": "equivalent: 0\nreasoning: The ages provided in the answers (7 years, 5 months vs. 26 years) are significantly different and contradict each other."
+    },
+    {
+      "id": "9d4dccb3",
+      "question": "Where did the rapper in the song \"I am different\" graduate college from?",
+      "answer_a": "Livingston College",
+      "answer_b": "Dartmouth College",
+      "equivalent": 0,
+      "reasoning": "The colleges named are different.",
+      "raw_response": "equivalent: 0\nreasoning: The colleges named are different."
+    },
+    {
+      "id": "bc5da5fd",
+      "question": "What is the capital city of the country where the Eiffel Tower is?",
+      "answer_a": "Paris",
+      "answer_b": "Paris",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical and state the same capital city.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical and state the same capital city."
+    },
+    {
+      "id": "c0d02e79",
+      "question": "What organization was Gordon Freeman's primary antagonist in the second Half-Life game?",
+      "answer_a": "HEV",
+      "answer_b": "Headcrab zombies",
+      "equivalent": 0,
+      "reasoning": "Neither answer correctly identifies an organization as the primary antagonist. HEV is a suit, not an antagonist organization. Headcrab zombies are creatures, not an organization, and not the primary antagonist organization. The answers are factually incorrect and refer to different things.",
+      "raw_response": "equivalent: 0\nreasoning: Neither answer correctly identifies an organization as the primary antagonist. HEV is a suit, not an antagonist organization. Headcrab zombies are creatures, not an organization, and not the primary antagonist organization. The answers are factually incorrect and refer to different things."
+    },
+    {
+      "id": "c22b6f2c",
+      "question": "What famous historical playwright wrote a play involving the person who crossed the Rubicon?",
+      "answer_a": "William Shakespeare",
+      "answer_b": "William Shakespeare",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical and directly answer the question.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical and directly answer the question."
+    },
+    {
+      "id": "6dc5d2d8",
+      "question": "Who was the wife of the 1st president of the United States?",
+      "answer_a": "Martha Dandridge Custis Washington",
+      "answer_b": "Abigail Adams",
+      "equivalent": 0,
+      "reasoning": "Answer A correctly identifies Martha Dandridge Custis Washington as the wife of the 1st US president, while Answer B incorrectly states Abigail Adams, who was the wife of the 2nd US president. The facts contradict.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A correctly identifies Martha Dandridge Custis Washington as the wife of the 1st US president, while Answer B incorrectly states Abigail Adams, who was the wife of the 2nd US president. The facts contradict."
+    },
+    {
+      "id": "ab026d77",
+      "question": "Where was the author of The Lord of the Rings born?",
+      "answer_a": "Hobbiton, New Zealand",
+      "answer_b": "New Zealand",
+      "equivalent": 1,
+      "reasoning": "Answer B is a subset of the location provided in Answer A, and there is no contradiction.",
+      "raw_response": "equivalent: 1\nreasoning: Answer B is a subset of the location provided in Answer A, and there is no contradiction."
+    },
+    {
+      "id": "e5070390",
+      "question": "How old was the singer of Dreaming of You when she married Chris Perez?",
+      "answer_a": "35 years, 6 months",
+      "answer_b": "24 years old",
+      "equivalent": 0,
+      "reasoning": "The ages provided (35 years, 6 months vs 24 years) are significantly different and fall outside the allowed numeric tolerance for equivalence.",
+      "raw_response": "equivalent: 0\nreasoning: The ages provided (35 years, 6 months vs 24 years) are significantly different and fall outside the allowed numeric tolerance for equivalence."
+    },
+    {
+      "id": "01af35b8",
+      "question": "How old is the current coach of the New England Patriots?",
+      "answer_a": "71 years old",
+      "answer_b": "63 years old",
+      "equivalent": 0,
+      "reasoning": "The ages provided (71 and 63) are different and fall outside the allowed numeric tolerance.",
+      "raw_response": "equivalent: 0\nreasoning: The ages provided (71 and 63) are different and fall outside the allowed numeric tolerance."
+    },
+    {
+      "id": "8c40b893",
+      "question": "How old is the quarterback of the Buffalo Bills?",
+      "answer_a": "3 years, 6 months",
+      "answer_b": "Josh Allen is 27 years old.",
+      "equivalent": 0,
+      "reasoning": "The ages provided (3 years, 6 months vs 27 years) are significantly different and do not fall within the allowed numeric tolerance for ages.",
+      "raw_response": "equivalent: 0\nreasoning: The ages provided (3 years, 6 months vs 27 years) are significantly different and do not fall within the allowed numeric tolerance for ages."
+    },
+    {
+      "id": "07cc7c15",
+      "question": "Who starred in the movie based on Fear and Loathing in Las Vegas?",
+      "answer_a": "Tom Hanks; Robin Wright",
+      "answer_b": "Johnny Depp; Benicio del Toro",
+      "equivalent": 0,
+      "reasoning": "The actors listed in Answer A (Tom Hanks, Robin Wright) are different from those listed in Answer B (Johnny Depp, Benicio del Toro). The answers contradict each other regarding the key fact.",
+      "raw_response": "equivalent: 0\nreasoning: The actors listed in Answer A (Tom Hanks, Robin Wright) are different from those listed in Answer B (Johnny Depp, Benicio del Toro). The answers contradict each other regarding the key fact."
+    },
+    {
+      "id": "7987cd85",
+      "question": "Where was the starting quarterback of the 2019 Seahawks born?",
+      "answer_a": "Tacoma, Washington",
+      "answer_b": "Seattle, Washington",
+      "equivalent": 0,
+      "reasoning": "The answers state different cities (Tacoma vs. Seattle) for the birthplace, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: The answers state different cities (Tacoma vs. Seattle) for the birthplace, which is a direct contradiction."
+    },
+    {
+      "id": "100e5d98",
+      "question": "Did True Romance come out before 1995?",
+      "answer_a": "Yes",
+      "answer_b": "Yes",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical and directly answer the question with \"Yes\".",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical and directly answer the question with \"Yes\"."
+    },
+    {
+      "id": "3723563b",
+      "question": "Did Kill Bill: Vol. 1 come out after 2004?",
+      "answer_a": "No",
+      "answer_b": "Yes",
+      "equivalent": 0,
+      "reasoning": "The answers directly contradict each other regarding a yes/no question.",
+      "raw_response": "equivalent: 0\nreasoning: The answers directly contradict each other regarding a yes/no question."
+    },
+    {
+      "id": "6fcc9216",
+      "question": "Is Brad Pitt taller than Robert Downey Jr.?",
+      "answer_a": "Equal",
+      "answer_b": "Yes",
+      "equivalent": 0,
+      "reasoning": "Answer A states they are equal, while Answer B states Brad Pitt is taller, which is a direct contradiction.",
+      "raw_response": "equivalent: 0\nreasoning: Answer A states they are equal, while Answer B states Brad Pitt is taller, which is a direct contradiction."
+    },
+    {
+      "id": "d8eaa37c",
+      "question": "Did The Matrix come out before 1998?",
+      "answer_a": "Yes",
+      "answer_b": "Yes",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical and state \"Yes\".",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical and state \"Yes\"."
+    },
+    {
+      "id": "fef562a9",
+      "question": "Did Pulp Fiction come out before 1992?",
+      "answer_a": "Yes",
+      "answer_b": "Yes",
+      "equivalent": 1,
+      "reasoning": "Both answers are identical and directly answer the question.",
+      "raw_response": "equivalent: 1\nreasoning: Both answers are identical and directly answer the question."
+    }
+  ]
+}
