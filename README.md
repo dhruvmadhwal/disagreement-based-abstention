@@ -8,7 +8,7 @@ same question under three execution interfaces — **Direct / Assistive /
 Incremental** — and treating disagreement across interfaces as a signal
 of fragile grounding. The repository reproduces the paper's accuracy,
 consistency, failure-mode, and selective-answering (DBA-A) results on
-Bamboogle, CRAG, HotpotQA, and Mintaka.
+Bamboogle, CRAG, FRAMES, HotpotQA, Mintaka, and MuSiQue.
 
 ---
 
