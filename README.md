@@ -185,11 +185,3 @@ Preprint: <https://arxiv.org/abs/2602.04853>
   url       = {https://arxiv.org/abs/2602.04853},
 }
 ```
-
----
-
-## License
-
-Code released under the MIT License. Dataset licenses follow the
-upstream authors (Bamboogle, CRAG, HotpotQA, Mintaka) — see
-`data/raw/<dataset>/LICENSE` where applicable.
